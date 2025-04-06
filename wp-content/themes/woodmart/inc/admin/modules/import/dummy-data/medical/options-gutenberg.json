@@ -1,0 +1,201 @@
+{
+    "default_header": "header_447323",
+    "header_banner": "1",
+    "header_banner_link": "#",
+    "header_banner_content_type": "text",
+    "header_banner_shortcode": "<p style=\"text-align: center; color: white;\">\ud83c\udfe0 Stay at home! 25% discount on all medicines<\/p>",
+    "header_banner_bg": {
+        "color": "rgb(41,192,147)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "header_banner_color": "light",
+    "header_banner_height": "40",
+    "header_banner_mobile_height": "40",
+    "header_close_btn": "1",
+    "header_banner_version": "1",
+    "promo_popup": "0",
+    "page-title-design": "centered",
+    "page-title-size": "large",
+    "title-background": {
+        "color": "rgb(42,155,204)",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2024\/06\/medical-page-title.jpg",
+        "id": "19592",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "page-title-color": "light",
+    "disable_footer": "1",
+    "footer_content_type": "html_block",
+    "footer_html_block": "12962",
+    "footer-bar-bg": {
+        "color": "rgb(45,156,218)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "light",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Inter",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
+    "primary-font": [
+        {
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Inter",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "advanced_typography": {
+        "0": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "1",
+            "font-family": "Yantramanav",
+            "font-weight": "300",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        },
+        "{{index}}": {
+            "custom": "",
+            "custom-selector": "",
+            "google": "0",
+            "font-family": "",
+            "font-weight": "",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "font-size": "",
+            "tablet": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "mobile": {
+                "font-size": "",
+                "line-height": ""
+            },
+            "line-height": "",
+            "color": "",
+            "hover": {
+                "color": ""
+            }
+        }
+    },
+    "primary-color": {
+        "idle": "rgb(41,192,147)"
+    },
+    "android_browser_bar_color": {
+        "idle": "rgb(41,192,147)"
+    },
+    "pages-background": {
+        "color": "rgb(249,249,249)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "btns_shop_bg": {
+        "idle": "rgb(41,192,147)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(37,177,136)"
+    },
+    "blog_excerpt_length": "120",
+    "update_cart_quantity_change": "1",
+    "products_hover": "info",
+    "product_sticky": "1",
+    "single_product_header": "header_486100",
+    "blog_excerpt": "excerpt"
+}

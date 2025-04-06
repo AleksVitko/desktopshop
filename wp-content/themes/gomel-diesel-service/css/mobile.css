@@ -1,0 +1,1290 @@
+/* 
+Общие стили для мобильной версии сайта.
+Применяются при ширине экрана до 768px.
+*/
+
+* {
+    box-sizing: border-box; /* Все элементы будут учитывать padding и border в ширине */
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%; /* Ограничиваем ширину viewport */
+    overflow-x: hidden; /* Предотвращаем горизонтальную прокрутку */
+}
+
+@media (max-width: 768px) {
+    /* Шапка сайта */
+    .site-header {
+        width: 100%; /* Занимает всю ширину экрана */
+        height: 60px; /* Высота шапки */
+        background-color: #1B2548; /* Темно-синий фон */
+        color: #FAFAFA; /* Белый текст */
+        display: flex;
+        align-items: center; /* Центрируем элементы по вертикали */
+        justify-content: space-between; /* Располагаем элементы по краям */
+        padding: 0 10px; /* Отступы от краев */
+        box-sizing: border-box; /* Включаем padding в размер элемента */
+    }
+
+    /* Контейнер внутри шапки */
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* Логотип и название */
+    .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 7.37px; /* Пробел между логотипом и названием */
+        width: 120px; /* Общая ширина контейнера */
+        height: 52px; /* Высота контейнера */
+    }
+
+    .logo img {
+        width: 52px; /* Размер логотипа */
+        height: 52px;
+        object-fit: contain; /* Сохраняем пропорции изображения */
+    }
+
+    .site-title {
+        font-family: 'Noto Serif', serif; /* Шрифт названия */
+        font-weight: 600; /* Полужирный шрифт */
+        font-size: 15px; /* Размер шрифта */
+        line-height: 10px; /* Высота строки */
+        letter-spacing: 0%; /* Межбуквенное расстояние */
+        color: #FAFAFA; /* Белый цвет текста */
+        margin: 0; /* Убираем отступы */
+        display: flex;
+        flex-direction: column; /* Размещаем текст в столбец */
+        justify-content: center; /* Центрируем текст */
+    }
+
+    /* Кнопки меню и телефона */
+    .menu-phone-container {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Пробел между кнопками */
+    }
+
+    /* Кнопка меню */
+    .menu-toggle-container {
+        width: 36px; /* Размер кнопки */
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto; /* Переносим кнопку вправо */
+    }
+
+    .menu-toggle {
+        width: 30px; /* Размер иконки */
+        height: 18px;
+        cursor: pointer; /* Изменяем курсор на "пальчик" */
+        position: relative;
+    }
+
+    .menu-toggle div {
+        background-color: #0055BB; /* Голубой цвет полосок */
+        height: 4px; /* Толщина полосок */
+        width: 100%;
+        transition: all 0.3s ease; /* Анимация при изменении */
+        position: absolute;
+    }
+
+    .menu-toggle .line1 {
+        top: 0; /* Позиция первой полоски */
+    }
+
+    .menu-toggle .line2 {
+        top: 7px; /* Позиция второй полоски */
+    }
+
+    .menu-toggle .line3 {
+        top: 14px; /* Позиция третьей полоски */
+    }
+
+    /* Состояние "open" для кнопки меню */
+    .menu-toggle.open .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px); /* Преобразование в "крестик" */
+    }
+
+    .menu-toggle.open .line2 {
+        opacity: 0; /* Скрываем вторую полоску */
+    }
+
+    .menu-toggle.open .line3 {
+        transform: rotate(45deg) translate(-5px, -6px); /* Преобразование в "крестик" */
+    }
+
+    /* Кнопка телефона */
+    .phone-toggle-container {
+        width: 36px; /* Размер кнопки */
+        height: 36px;
+    }
+
+    .phone-toggle {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%; /* Круглая форма */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; /* Изменяем курсор на "пальчик" */
+    }
+
+    .phone-toggle img {
+        width: 27px; /* Размер иконки телефона */
+        height: 27px;
+    }
+
+    /* Скрытие десктопного меню и контактной информации */
+    .desktop-menu,
+    .contact-info {
+        display: none; /* Скрываем десктопные элементы */
+    }
+
+    /* Мобильное меню */
+    .mobile-menu-overlay {
+        position: fixed; /* Фиксированная позиция */
+        top: 0;
+        left: 0;
+        width: 100%; /* Занимает всю ширину экрана */
+        height: 100%; /* Занимает всю высоту экрана */
+        display: none; /* Скрыто по умолчанию */
+        z-index: 999; /* На переднем плане */
+        background-color: #1B2548fa; /* Полупрозрачный темно-синий фон (80% затемнение) */
+    }
+
+    .mobile-menu-container {
+        position: absolute; /* Абсолютная позиция */
+        top: 0; /* Располагаем вверху */
+        left: 50%; /* Центрируем по горизонтали */
+        transform: translateX(-50%); /* Корректируем положение */
+        width: 100%; /* Ширина контейнера */
+        max-width: none; /* Убираем ограничение ширины */
+        padding: 20px 0; /* Отступы сверху и снизу */
+        box-shadow: none; /* Убираем тень */
+        background-color: transparent; /* Прозрачный фон */
+        display: flex; /* Используем flexbox для вертикального расположения */
+        flex-direction: column; /* Вертикальное направление */
+        align-items: center; /* Центрируем элементы по горизонтали */
+        justify-content: flex-start; /* Выравниваем элементы сверху */
+    }
+
+    /* Мобильное меню */
+    .mobile-menu ul {
+        list-style: none; /* Убираем маркеры списка */
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column; /* Вертикальное расположение пунктов */
+        gap: 15px; /* Пробел между пунктами */
+    }
+
+    .mobile-menu li {
+        margin: 0;
+    }
+
+    .mobile-menu a {
+        font-family: 'Inter', sans-serif; /* Шрифт Inter */
+        font-weight: 700; /* Жирный шрифт */
+        font-size: 20px; /* Размер шрифта */
+        line-height: 26px; /* Высота строки */
+        color: #FAFAFA; /* Белый цвет текста */
+        text-decoration: none; /* Убираем подчеркивание */
+        display: block;
+        padding: 10px 20px; /* Внутренние отступы */
+        border-radius: 5px; /* Закругленные углы */
+        transition: background-color 0.3s ease; /* Анимация при наведении */
+        background: transparent; /* Прозрачный фон */
+        opacity: 0; /* Начальное состояние - невидимые пункты */
+        transform: translateY(-20px); /* Начальная позиция - выше на 20px */
+        transition: opacity 0.3s ease, transform 0.3s ease; /* Анимация появления */
+    }
+
+    .mobile-menu a:hover {
+        background: #0055BB; /* Голубой фон при наведении */
+        color: #FAFAFA; /* Белый текст при наведении */
+    }
+
+    /* Показ мобильного меню */
+    .mobile-menu-overlay.active .mobile-menu a {
+        opacity: 1; /* Пункты становятся видимыми */
+        transform: translateY(0); /* Пункты перемещаются на место */
+    }
+
+    .mobile-menu-overlay.active {
+        display: flex; /* Показываем меню */
+    }
+
+    /* Контейнер контактов */
+    .contact-overlay {
+        position: fixed; /* Фиксированная позиция */
+        top: 0;
+        left: 0;
+        width: 100%; /* Занимает всю ширину экрана */
+        height: 100%; /* Занимает всю высоту экрана */
+        display: none; /* Скрыто по умолчанию */
+        z-index: 999; /* На переднем плане */
+        background-color: #1B2548fa; /* Полупрозрачный темно-синий фон (80% затемнение) */
+    }
+
+    .contact-container {
+        position: absolute; /* Абсолютная позиция */
+        top: 0; /* Располагаем вверху */
+        left: 50%; /* Центрируем по горизонтали */
+        transform: translateX(-50%); /* Корректируем положение */
+        width: 100%; /* Ширина контейнера */
+        max-width: none; /* Убираем ограничение ширины */
+        padding: 20px 0; /* Отступы сверху и снизу */
+        box-shadow: none; /* Убираем тень */
+        background-color: transparent; /* Прозрачный фон */
+        display: flex; /* Используем flexbox для вертикального расположения */
+        flex-direction: column; /* Вертикальное направление */
+        align-items: center; /* Центрируем элементы по горизонтали */
+        justify-content: flex-start; /* Выравниваем элементы сверху */
+    }
+
+    .contact-list {
+        text-align: center; /* Текст по центру */
+        color: #FAFAFA; /* Белый цвет текста */
+        font-family: 'Inter', sans-serif; /* Шрифт Inter */
+        font-size: 18px; /* Размер шрифта */
+        line-height: 50px; /* Высота строки */
+    }
+
+    .contact-list p {
+        margin: 10px 0; /* Отступы между строками */
+    }
+
+    .contact-list a {
+        text-decoration: none; /* Убираем подчеркивание */
+    }
+
+    .contact-list a:hover {
+        text-decoration: underline; /* Подчеркивание при наведении */
+    }
+
+    /* Элементы контактов */
+    .contact-item {
+        display: flex; /* Используем flexbox для размещения значков и текста */
+        align-items: center; /* Выравниваем элементы по центру */
+        margin: 10px 0; /* Отступы между элементами */
+    }
+
+    .contact-item svg {
+        width: 26px; /* Размер SVG-иконки */
+        height: 26px;
+        margin-right: 10px; /* Отступ между значком и текстом */
+        fill: #0055BB; /* Цвет SVG-иконки */
+    }
+
+    .contact-item span:last-child {
+        color: #FAFAFA; /* Белый цвет текста */
+    }
+
+    /* Показ контактного меню */
+    .contact-overlay.active {
+        display: flex; /* Показываем меню */
+    }
+}
+
+/* Адаптация для разных размеров экрана */
+@media (max-width: 425px) {
+    .mobile-menu-container,
+    .contact-container {
+        width: 100%; /* Увеличиваем ширину контейнера */
+    }
+}
+
+@media (max-width: 375px) {
+    .mobile-menu a,
+    .contact-list p {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+    }
+}
+
+@media (max-width: 320px) {
+    .mobile-menu a,
+    .contact-list p {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+        padding: 8px 15px; /* Уменьшаем внутренние отступы */
+    }
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 768px) {
+    /* Общий стиль футера */
+    .footer {
+        height: auto !important;
+        padding: 15px; /* Уменьшаем отступы */
+        flex-direction: column;
+        width: 100%; /* Занимает всю доступную ширину */
+        max-width: 100%; /* Исключаем выход за пределы viewport */
+        box-sizing: border-box; /* Учитываем padding в ширине */
+    }
+
+    /* Левый контейнер с контактами */
+    .container-left {
+        width: 100%; /* Занимает всю доступную ширину */
+        height: auto;
+        margin-top: 0;
+        position: static;
+        left: auto;
+    }
+
+    .contact-infos h2 {
+        font-size: 20px; /* Уменьшаем размер шрифта для лучшей адаптации */
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+
+    .contact-item p {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        line-height: 18px;
+        margin: 0; /* Убираем лишние отступы */
+    }
+
+    /* Правый контейнер с фото */
+    .container-right {
+        width: 100%; /* Занимает всю доступную ширину */
+        height: auto;
+        margin-top: 15px;
+        position: static;
+        left: auto;
+    }
+
+    .container-right img.photo {
+        width: 100%; /* Изображение занимает всю доступную ширину */
+        height: auto; /* Сохраняем пропорции */
+        display: block; /* Убираем пробелы под изображением */
+    }
+
+    /* Горизонтальная линия */
+    .line {
+        width: 100%; /* Линия занимает всю доступную ширину */
+        position: static;
+        top: auto;
+        margin-top: 15px;
+    }
+
+    /* Нижний контейнер с текстом */
+    .bottom-container {
+        width: 100%; /* Занимает всю доступную ширину */
+        height: auto;
+        position: static;
+        bottom: auto;
+        left: auto;
+        flex-direction: column;
+        /*align-items: flex-start;*/
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .bottom-container p {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        line-height: 15px;
+        margin: 0; /* Убираем лишние отступы */
+        margin-bottom: 20px;
+    }
+
+    .bottom-container a {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        line-height: 15px;
+        margin-top: 6px;
+        /*display: block; /* Каждая ссылка на новой строке */
+    }
+}
+
+/* Стили для экранов до 425px */
+@media (max-width: 425px) {
+    .footer {
+        padding: 12px; /* Дополнительно уменьшаем отступы */
+    }
+
+    .contact-infos h2 {
+        font-size: 18px; /* Дополнительно уменьшаем размер шрифта */
+        line-height: 22px;
+    }
+
+    .contact-item p {
+        font-size: 12px; /* Дополнительно уменьшаем размер шрифта */
+        line-height: 15px;
+    }
+
+    .bottom-container p, .bottom-container a {
+        font-size: 14px; /* Дополнительно уменьшаем размер шрифта */
+        line-height: 16px;
+    }
+    
+    .bottom-container a {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        line-height: 15px;
+        margin-top: 6px;
+        /*display: block; /* Каждая ссылка на новой строке */
+    }
+}
+
+/* Стили для экранов до 375px */
+@media (max-width: 375px) {
+    .footer {
+        padding: 10px; /* Максимально уменьшаем отступы */
+    }
+    
+    .contact-infos h2 {
+        font-size: 16px; /* Максимально уменьшаем размер шрифта */
+        line-height: 20px;
+    }
+
+    .contact-item p {
+        font-size: 10px; /* Максимально уменьшаем размер шрифта */
+        line-height: 12px;
+    }
+
+    .bottom-container p, .bottom-container a {
+        font-size: 14px; /* Минимальный размер шрифта */
+        line-height: 16px;
+    }
+    
+    .bottom-container a {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+        line-height: 15px;
+        margin-top: 6px;
+        /*display: block; /* Каждая ссылка на новой строке */
+    }
+}
+
+/* Стили для экранов до 320px */
+@media (max-width: 320px) {
+    .footer {
+        padding: 8px; /* Минимальные отступы */
+    }
+
+    .contact-infos h2 {
+        font-size: 14px; /* Минимальный размер шрифта */
+        line-height: 16px;
+    }
+
+    .contact-item p {
+        font-size: 8px; /* Минимальный размер шрифта */
+        line-height: 10px;
+    }
+
+    .bottom-container p, .bottom-container a {
+        font-size: 10px; /* Минимальный размер шрифта */
+        line-height: 12px;
+    }
+    
+    .bottom-container a {
+        font-size: 12px; /* Уменьшаем размер шрифта */
+        line-height: 15px;
+        margin-top: 6px;
+        /*display: block; /* Каждая ссылка на новой строке */
+    }
+}
+
+/*////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+
+/* Адаптивные стили для экранов шириной до 768px */
+@media (max-width: 768px) {
+    /* Общий контейнер */
+    .container-1 {
+        width: 100%;
+        height: auto; /* Высота автоматически подстраивается под содержимое */
+        position: relative;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Затемнение картинки */
+    .image-overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 18, 57, 0.6); /* Затемнение с прозрачностью */
+        display: flex;
+        flex-direction: column; /* Вертикальное выравнивание */
+        justify-content: center;
+        align-items: center;
+        padding: 0px; /* Отступы для лучшего восприятия на маленьких экранах */
+    }
+
+    /* Контент в центре */
+    .content-center {
+        text-align: center;
+        color: #FAFAFA; /* Белый цвет текста */
+    }
+
+    /* Заголовок */
+    .content-center h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 32px; /* Уменьшаем размер шрифта для мобильных */
+        line-height: 38px;
+        letter-spacing: 0%;
+        margin-bottom: 15px;
+    }
+
+    /* Описание */
+    .description {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 14px; /* Уменьшаем размер шрифта для мобильных */
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #FAFAFA; /* Белый цвет текста */
+        margin-bottom: 20px; /* Отступ снизу до кнопки */
+    }
+
+    /* Кнопка */
+    .content-center button {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 14px; /* Уменьшаем размер шрифта для мобильных */
+        line-height: 17px;
+        letter-spacing: 0%;
+        color: #FAFAFA;
+        background-color: #0055BB;
+        border: none;
+        padding: 10px 20px; /* Уменьшаем размер кнопки */
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Плавный переход цвета */
+    }
+
+    /* Эффект при наведении на кнопку */
+    .content-center button:hover {
+        background-color: #1773E1; /* Новый цвет при наведении */
+    }
+
+    /* Дополнительные стили для очень маленьких экранов */
+    @media (max-width: 480px) {
+        /* Заголовок */
+        .content-center h1 {
+            font-size: 28px; /* Дополнительное уменьшение для очень маленьких экранов */
+            line-height: 33px;
+        }
+
+        /* Описание */
+        .description {
+            font-size: 18px; /* Дополнительное уменьшение для очень маленьких экранов */
+            line-height: 33.89px;
+        }
+
+        /* Кнопка */
+        .content-center button {
+            font-size: 18px; /* Дополнительное уменьшение для очень маленьких экранов */
+            padding: 14px 35px;
+        }
+    }
+}
+
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////*/
+
+/* mobile-styles.css */
+
+@media (max-width: 768px) {
+    /* Основной контейнер */
+    .main-container { 
+        display: flex;
+        flex-wrap: wrap; /* Разрешаем перенос строк */
+        justify-content: space-around; /* Распределяем элементы равномерно */
+        align-items: flex-start; /* Выравниваем элементы по верхней границе */
+        width: 100%; /* Занимает всю доступную ширину */
+        max-width: none; /* Убираем ограничение максимальной ширины */
+        margin: 0 auto;
+        padding: 16px; /* Уменьшаем отступы для мобильных устройств */
+        box-sizing: border-box; /* Учитываем padding в ширине */
+    }
+
+    /* Контейнер каждого элемента */
+    .feature-container {
+        flex: 0 0 calc(40% - 20px); /* Делаем элементы точно по два в ряд с отступами */
+        max-width: calc(40% - 20px); /* Корректируем максимальную ширину */
+        min-width: 120px; /* Минимальная ширина для очень маленьких экранов */
+        margin-bottom: 20px; /* Добавляем отступ снизу для удобства просмотра */
+        background-color: #FAFAFA; /* Фоновый цвет */
+        padding: 16px; /* Внутренний отступ */
+        border-radius: 12px; /* Скругленные углы */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тени для эффекта */
+    }
+
+    /* Контейнер для картинки */
+    .image-container {
+        width: 60%; /* Размер контейнера в процентах */
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 12px; /* Центрируем изображение и добавляем отступ снизу */
+    }
+
+    /* Параметры для картинки */
+    .icon-image {
+        width: 80px; /* Размер картинки */
+        height: 80px;
+    }
+
+    /* Параметры для описания */
+    .feature-description {
+        font-family: 'Inter', sans-serif; /* Шрифт */
+        font-weight: 700; /* Жирность */
+        font-size: 14px; /* Уменьшаем размер шрифта для маленьких экранов */
+        line-height: 18px; /* Высота строки */
+        color: #25292F; /* Цвет текста */
+        text-align: center; /* Выравнивание текста по центру */
+        margin: 0; /* Убираем лишние отступы */
+    }
+}
+
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+
+/* mobile-styles.css */
+
+/* Общие стили */
+:root {
+    --White: #FAFAFA;
+    --Black: #25292F;
+    --LightGray: #E0E0E0;
+    --PrimaryBlue: #0055BB;
+    --HoverBlue: #1773E1;
+}
+
+/* Наши услуги */
+@media (max-width: 768px) {
+    /* Общий контейнер */
+    .services-container {
+        text-align: center;
+        padding: 1px;
+        background-color: var(--White);
+        color: var(--Black);
+        width: 95%;
+        margin: 0 12px;
+        box-sizing: border-box;
+    }
+
+    /* Заголовок секции */
+    .services-title {
+        font-family: Inter, sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 39px;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+        color: var(--Black);
+    }
+
+    /* Сетка услуг */
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* Делаем адаптивную сетку */
+        gap: 10px; /* Уменьшаем отступы между элементами */
+        justify-items: center;
+    }
+
+    /* Контейнер услуги */
+    .service-item {
+        background-color: var(--White);
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%; /* Занимает всю доступную ширину */
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        border: 1px solid var(--LightGray);
+    }
+    .service-item:hover {
+        transform: translateY(-5px); /* Небольшой эффект при наведении */
+    }
+
+    /* Изображение услуги */
+    .service-image {
+        width: 100%;
+        height: 120px; /* Уменьшаем высоту изображения */
+        object-fit: cover;
+    }
+
+    /* Заголовок услуги */
+    .service-title {
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0%;
+        margin: 8px 0;
+        color: var(--Black);
+    }
+
+    /* Описание услуги */
+    .service-description {
+        font-family: Inter, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: var(--Black);
+        margin: 5px 5px;
+    }
+
+    /* Кнопка услуги */
+    .request-button {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: var(--PrimaryBlue);
+        color: white;
+        font-family: Inter, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 6px;
+        margin-top: 8px;
+        transition: background-color 0.3s ease;
+    }
+    .request-button:hover {
+        background-color: var(--HoverBlue); /* Цвет при наведении */
+    }
+}
+
+/* Стили для очень маленьких экранов (до 375px) */
+@media (max-width: 375px) {
+    /* Сетка услуг */
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* Минимальная ширина 140px */
+        gap: 10px; /* Еще меньше отступы */
+    }
+
+    /* Изображение услуги */
+    .service-image {
+        height: 100px; /* Дополнительно уменьшаем высоту изображения */
+    }
+
+    /* Заголовок услуги */
+    .service-title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* Описание услуги */
+    .service-description {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    /* Кнопка услуги */
+    .service-button {
+        padding: 4px 8px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+/* Стили для еще меньших экранов (до 320px) */
+@media (max-width: 320px) {
+    /* Сетка услуг */
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); /* Минимальная ширина 130px */
+        gap: 8px; /* Максимально маленькие отступы */
+    }
+
+    /* Заголовок услуги */
+    .service-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /* Описание услуги */
+    .service-description {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    /* Кнопка услуги */
+    .service-button {
+        padding: 2px 6px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+/*//////////////////////////////////////////////*/
+
+/* mobile-form-styles.css */
+
+@media (max-width: 768px) {
+    /* Основной контейнер формы */
+    .contact-form-container {
+        width: 100%; /* Уменьшаем ширину для лучшей адаптации */
+        padding: 0 5px; /* Уменьшаем отступы */
+        margin-top: 50px; /* Сдвигаем контейнер на 50px вниз */
+    }
+
+    /* Форма контактов */
+    .contact-form {
+        padding: 5px; /* Уменьшаем внутренние отступы */
+    }
+
+    /* Контактная информация */
+    .contact-info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-align: left;
+    }
+
+    /* Заголовок "Звоните или оставьте заявку" */
+    .contact-info-form h3 {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    }
+
+    /* Раздел телефонов */
+    .phone-numbers {
+        flex-direction: column; /* Делаем номера в столбец */
+        align-items: center;
+    }
+
+    /* Каждый номер телефона */
+    .phone-number-item {
+        margin-bottom: 5px; /* Уменьшаем отступы */
+    }
+
+    /* Иконка телефона */
+    .phone-number-item img {
+        width: 20px; /* Уменьшаем размер иконки */
+        height: 20px;
+        margin-right: 5px; /* Уменьшаем отступ */
+    }
+
+    /* Текст номера телефона */
+    .phone-number-item p {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+        line-height: 30px; /* Корректируем высоту строки */
+    }
+
+    /* Раздел времени работы */
+    .working-hours {
+        flex-direction: column; /* Делаем время работы в столбец */
+        align-items: center;
+    }
+
+    /* Текст времени работы */
+    .working-hours p {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+        line-height: 23px; /* Корректируем высоту строки */
+    }
+
+    /* Поля ввода */
+    .input-fields {
+        flex-direction: column; /* Располагаем поля друг под другом */
+        align-items: center;
+        gap: 10px; /* Уменьшаем отступы */
+    }
+
+    /* Поля ввода текста */
+    .contact-form input {
+        padding: 8px; /* Уменьшаем отступы */
+        font-size: 0.9em; /* Уменьшаем размер шрифта */
+    }
+
+    /* Кнопка отправки */
+    .contact-form input {
+        width: 100%;
+        height: 50px;
+        border-radius: 6px;
+        padding: 8px;
+        font-size: 0.9em;
+    }
+    
+    .contact-form button {
+        padding: 10px;
+        background-color: #0055BB;
+        color: #FAFAFA;
+        border: none;
+        border-radius: 6px;
+        font-size: 1.5em;
+        font-family: Inter, sans-serif;
+        transition: background-color 0.3s ease;
+        margin-right: auto;
+        /*margin-left: 10px;*/
+    }
+
+    /* Согласие с политикой */
+    .agreement {
+        font-size: 0.7em; /* Размер шрифта */
+        display: flex; /* Используем Flexbox для выравнивания */
+        align-items: center; /* Выравнивание элементов по центру вертикали */
+    }
+    
+    /* Уменьшение размера чекбокса */
+    .agreement input[type="checkbox"] {
+        width: 20px; /* Ширина чекбокса */
+        height: 20px; /* Высота чекбокса */
+        margin-right: 10px; /* Отступ между чекбоксом и текстом */
+        appearance: none; /* Убираем стандартный стиль чекбокса */
+        border: 1px solid #ccc; /* Добавляем собственную границу */
+        background-color: #fff; /* Фон чекбокса */
+        cursor: pointer; /* Курсор указателя */
+        display: inline-block; /* Для корректного отображения */
+        position: relative; /* Для позиционирования галочки */
+    }
+    
+    /* Стиль для галочки при нажатии */
+    .agreement input[type="checkbox"]:checked::after {
+        content: ""; /* Создаем псевдоэлемент для галочки */
+        position: absolute;
+        top: 2px; /* Позиционирование галочки */
+        left: 5px; /* Позиционирование галочки */
+        width: 6px; /* Размер галочки */
+        height: 12px; /* Размер галочки */
+        border: solid #007bff; /* Цвет галочки */
+        border-width: 0 2px 2px 0; /* Толщина линий галочки */
+        transform: rotate(45deg); /* Наклон галочки */
+    }
+    
+    .agreement label {
+        display: inline; /* Текст размещается в одну строку */
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    
+    .agreement a {
+        color: #007bff; /* Цвет ссылки */
+        text-decoration: underline; /* Подчеркивание ссылки */
+    }
+}
+
+/* Стили для экранов до 375px */
+@media (max-width: 375px) {
+    /* Заголовок "Звоните или оставьте заявку" */
+    .contact-info-form h3 {
+        font-size: 20px; /* Дополнительно уменьшаем размер шрифта */
+        line-height: 25px;
+    }
+
+    /* Текст номера телефона */
+    .phone-number-item p {
+        font-size: 16px; /* Дополнительно уменьшаем размер шрифта */
+        line-height: 20px;
+    }
+
+    /* Текст времени работы */
+    .working-hours p {
+        font-size: 12px; /* Дополнительно уменьшаем размер шрифта */
+        line-height: 15px;
+    }
+
+    /* Поля ввода текста */
+    .contact-form input {
+        padding: 6px; /* Дополнительно уменьшаем отступы */
+        font-size: 0.8em;
+    }
+
+    /* Кнопка отправки */
+    .contact-form button {
+        padding: 6px; /* Дополнительно уменьшаем отступы */
+        font-size: 0.8em;
+    }
+}
+
+/* Стили для экранов до 320px */
+@media (max-width: 320px) {
+    /* Заголовок "Звоните или оставьте заявку" */
+    .contact-info-form h3 {
+        font-size: 18px; /* Максимально уменьшаем размер шрифта */
+        line-height: 22px;
+    }
+
+    /* Текст номера телефона */
+    .phone-number-item p {
+        font-size: 14px; /* Максимально уменьшаем размер шрифта */
+        line-height: 17px;
+    }
+
+    /* Текст времени работы */
+    .working-hours p {
+        font-size: 10px; /* Максимально уменьшаем размер шрифта */
+        line-height: 12px;
+    }
+
+    /* Поля ввода текста */
+    .contact-form input {
+        padding: 4px; /* Минимальные отступы */
+        font-size: 0.7em;
+    }
+
+    /* Кнопка отправки */
+    .contact-form button {
+        padding: 4px; /* Минимальные отступы */
+        font-size: 0.7em;
+    }
+}
+
+/*///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////*/
+
+/* mobile-company-styles.css */
+
+@media (max-width: 768px) {
+    /* Общий контейнер */
+    .company-container {
+        padding: 15px; /* Уменьшаем отступы */
+        margin-top: 50px; /* Сдвигаем контейнер на 50px вниз */
+    }
+
+    /* Заголовок */
+    .company-title {
+        margin-bottom: 15px;
+        font-family: Inter;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    /* Контейнер с двумя блоками */
+    .content-container {
+        flex-direction: column; /* Делаем элементы в столбец */
+        align-items: center; /* Центрируем содержимое */
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    /* Контейнер с текстом */
+    .text-container {
+        margin-right: 0; /* Убираем горизонтальный отступ */
+        margin-bottom: 15px; /* Добавляем вертикальный отступ */
+    }
+
+    /* Блок информации */
+    .info-block {
+        flex-direction: column; /* Располагаем элементы в столбец */
+        gap: 10px; /* Уменьшаем отступы */
+    }
+
+    /* Элемент информации */
+    .info-item {
+        flex: none; /* Отключаем растягивание */
+      /*  width: 100%;  Занимает всю доступную ширину */
+        padding: 10px; /* Уменьшаем внутренние отступы */
+    }
+
+    /* Число в блоке информации */
+    .number {
+        font-size: 40px; /* Уменьшаем размер шрифта */
+    }
+
+    /* Надпись в блоке информации */
+    .label {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+    }
+
+    /* Контейнер с изображением */
+    .image-containers {
+        flex: none; /* Отключаем растягивание */
+        width: 100%; /* Занимает всю доступную ширину */
+        height: auto; /* Автоматическая высота */
+    }
+
+    /* Изображение внутри контейнера */
+    .image-containers img {
+        border-radius: 8px; /* Сохраняем скругленные углы */
+        object-fit: cover; /* Сохраняем пропорции */
+    }
+
+    /* Стили для параграфов */
+    .text-container p {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+        line-height: 1.4; /* Корректируем высоту строки */
+        margin-bottom: 10px; /* Уменьшаем отступ */
+    }
+}
+
+/* Стили для экранов до 425px */
+@media (max-width: 425px) {
+    /* Заголовок */
+    .company-title {
+        font-size: 30px; /* Дополнительно уменьшаем размер шрифта */
+    }
+
+    /* Число в блоке информации */
+    .number {
+        font-size: 40px; /* Дополнительно уменьшаем размер шрифта */
+    }
+
+    /* Надпись в блоке информации */
+    .label {
+        font-size: 16px; /* Дополнительно уменьшаем размер шрифта */
+    }
+
+    /* Стили для параграфов */
+    .text-container p {
+        font-size: 16px; /* Дополнительно уменьшаем размер шрифта */
+    }
+}
+
+/* Стили для экранов до 375px */
+@media (max-width: 375px) {
+    /* Заголовок */
+    .company-title {
+        font-size: 16px; /* Максимально уменьшаем размер шрифта */
+    }
+
+    /* Число в блоке информации */
+    .number {
+        font-size: 14px; /* Максимально уменьшаем размер шрифта */
+    }
+
+    /* Надпись в блоке информации */
+    .label {
+        font-size: 8px; /* Максимально уменьшаем размер шрифта */
+    }
+
+    /* Стили для параграфов */
+    .text-container p {
+        font-size: 10px; /* Максимально уменьшаем размер шрифта */
+    }
+}
+
+/* Стили для экранов до 320px */
+@media (max-width: 320px) {
+    /* Заголовок */
+    .company-title {
+        font-size: 30px; /* Минимальный размер шрифта */
+    }
+
+    /* Число в блоке информации */
+    .number {
+        font-size: 12px; /* Минимальный размер шрифта */
+    }
+
+    /* Надпись в блоке информации */
+    .label {
+        font-size: 10px; /* Минимальный размер шрифта */
+    }
+
+    /* Стили для параграфов */
+    .text-container p {
+        font-size: 16px; /* Минимальный размер шрифта */
+    }
+}
+
+/*////////////////////////////////////////////////////*/
+/////////////////////////////////////////////////////**/
+/*////////////////////////////////////////////////////*/
+
+/* mobile-custom-repair-styles.css */
+
+@media (max-width: 768px) {
+    /* Общий контейнер */
+    .custom-repair-container {
+        padding: 15px; /* Уменьшаем отступы */
+        max-width: 100%; /* Занимает всю доступную ширину */
+        padding: 0px;
+    }
+
+    /* Заголовок */
+    .custom-repair-title {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+        line-height: 30px; /* Корректируем высоту строки */
+        margin-bottom: 15px; /* Уменьшаем отступ */
+    }
+
+    /* Контейнер для картинок */
+    .custom-repair-images {
+        display: flex;
+        flex-wrap: wrap; /* Разрешаем перенос строк */
+        justify-content: center; /* Центрируем картинки */
+        gap: 10px; /* Отступы между картинками */
+    }
+
+    /* Каждая картинка */
+    .custom-repair-image {
+        width: calc(50% - 10px); /* Уменьшаем отступы между элементами */
+        height: auto; /* Высота становится автоматической */
+        border: 1px solid var(--Gray-stroke, #D5D8D9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-sizing: border-box; /* Учитываем border в ширине */
+    }
+
+    /* Изображение внутри контейнера */
+    .custom-repair-image img {
+        max-width: 100%; /* Ширина изображения равна ширине контейнера */
+        max-height: 100%; /* Сохраняем пропорции */
+        object-fit: contain; /* Изображение будет сжиматься пропорционально */
+    }
+}
+
+/* Для экранов 425px */
+@media (max-width: 425px) {
+    .custom-repair-image {
+        width: calc(50% - 5px); /* Делаем две картинки в ряд с небольшими отступами */
+        box-sizing: border-box; /* Учитываем padding и border в ширине */
+    }
+}
+
+/* Стили для экранов до 375px */
+@media (max-width: 375px) {
+    
+    .custom-repair-container {
+        padding: 10px; /* Уменьшаем отступы */
+        max-width: 100%; /* Занимает всю доступную ширину */
+        padding: 0px;
+    }
+
+    /* Заголовок */
+    .custom-repair-title {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+        line-height: 30px; /* Корректируем высоту строки */
+        margin-bottom: 15px; /* Уменьшаем отступ */
+    }
+    
+    /* Каждая картинка */
+    .custom-repair-image {
+        width: calc(50% - 5px); /* Делаем две картинки в ряд с небольшими отступами */
+        box-sizing: border-box; /* Учитываем padding и border в ширине */
+    }
+}
+
+/* Стили для экранов до 320px */
+@media (max-width: 320px) {
+    /* Каждая картинка */
+    .custom-repair-image {
+       /*width: 100%; /* Делаем одну картинку в ряд */
+    }
+    
+    /* mobile-request.css */
+    .mobile-modal-window, .mobile-thank-you-modal {
+        display: none; /* Скрыто по умолчанию */
+    }
+    
+    /* mobile-thank-you.css */
+    .mobile-thank-you-modal {
+        display: none; /* Скрыто по умолчанию */
+    }
+}

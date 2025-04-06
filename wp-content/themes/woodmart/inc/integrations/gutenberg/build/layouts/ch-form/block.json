@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Checkout form",
+  "name": "wd/ch-form",
+  "category": "xtemos_checkout_elements",
+  "textdomain": "woodmart",
+  "supports": {
+    "multiple": false
+  }
+}

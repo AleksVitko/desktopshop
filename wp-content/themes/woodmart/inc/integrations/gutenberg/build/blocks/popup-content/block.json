@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Popup content",
+  "name": "wd/popup-content",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/popup"
+  ]
+}

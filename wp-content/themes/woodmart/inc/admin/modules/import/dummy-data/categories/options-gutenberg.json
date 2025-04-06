@@ -1,0 +1,59 @@
+{
+    "default_header": "header_158143",
+    "disable_footer": "1",
+    "footer_content_type": "html_block",
+    "footer_html_block": "702",
+    "footer-bar-bg": {
+        "color": "rgb(249,249,249)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2021\/07\/page-title-shop.jpg",
+        "id": "1177",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "update_cart_quantity_change": "1",
+    "promo_popup": "1",
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "popup-background": {
+        "color": "#111111",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2021\/07\/promo-popup.jpg",
+        "id": "936",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "popup_color_scheme": "light",
+    "popup_padding": "eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiIxNSJ9fX0=",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "15",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
+    "android_browser_bar_color": {
+        "idle": "rgb(131,183,53)"
+    }
+}

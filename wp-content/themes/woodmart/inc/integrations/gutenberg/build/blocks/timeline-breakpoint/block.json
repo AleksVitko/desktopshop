@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "title": "Timeline breakpoint",
+  "name": "wd/timeline-breakpoint",
+  "description": "Separate timeline items with a breakpoint.",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/timeline"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "title": "Blog",
+  "name": "wd/blog",
+  "description": "Blog post display for showcasing latest articles.",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "keywords": [
+    "post"
+  ]
+}

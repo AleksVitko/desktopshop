@@ -1,0 +1,30 @@
+{
+	"2": {
+		 "id": 2,
+		 "name": "accessories_checkout",
+		 "condition": {
+			  "relation": "OR",
+			  "rules": [
+					{
+						 "type": "post_id",
+						 "comparison": "equals",
+						 "post_type": "post",
+						 "taxonomy": "category",
+						 "custom": "search",
+						 "value_id": "956",
+						 "user_role": "administrator"
+					},
+					{
+						 "type": "custom",
+						 "comparison": "equals",
+						 "post_type": "post",
+						 "taxonomy": "category",
+						 "custom": "checkout",
+						 "value_id": "",
+						 "user_role": "administrator"
+					}
+			  ]
+		 },
+		 "priority": "1"
+	}
+}

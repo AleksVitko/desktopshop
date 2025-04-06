@@ -1,0 +1,135 @@
+/* Скрыто по умолчанию */
+.modal-window {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    width: 600px;
+    height: auto;
+    max-height: 517px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    z-index: 9999;
+    overflow-y: auto; /* Добавляем прокрутку при необходимости */
+}
+
+/* Контент модального окна */
+.modal-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Заголовок */
+.modal-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46.8px;
+    letter-spacing: 0%;
+    color: #25292F;
+}
+
+/* Описание */
+.modal-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0%;
+    color: #25292F;
+}
+
+/* Форма */
+.modal-form {
+    width: 426px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Поля ввода */
+.form-field {
+    width: 426px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    border: 1px solid #D5D8D9;
+    padding-left: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    color: #696969;
+}
+
+/* Кнопка отправки */
+.form-submit {
+    width: 260px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #0055BB;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #1773E1;
+}
+
+/* Чекбокс и текст */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #D5D8D9;
+    background-color: #FAFAFA;
+}
+
+.checkbox-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    color: #696969;
+}
+
+/* Подчеркнутый текст (ссылка) */
+.terms-link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #696969;
+}
+
+/* Кнопка закрытия */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

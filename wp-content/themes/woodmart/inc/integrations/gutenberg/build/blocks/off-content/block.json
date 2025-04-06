@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "title": "Content",
+  "description": "Main content area of the off-canvas layout.",
+  "name": "wd/off-content",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/off-canvas"
+  ]
+}

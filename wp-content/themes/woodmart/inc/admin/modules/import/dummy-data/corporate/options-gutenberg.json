@@ -1,0 +1,96 @@
+{
+    "default_header": "header_578827",
+    "update_cart_quantity_change": "1",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Open Sans",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
+    "primary-font": [
+        {
+            "google": "1",
+            "font-family": "Quicksand",
+            "font-weight": "500",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "secondary-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "rounding_size": "12",
+    "android_browser_bar_color": {
+        "idle": "rgb(15,145,227)"
+    },
+    "primary-color": {
+        "idle": "rgb(15,145,227)"
+    },
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_shop_bg": {
+        "idle": "rgb(15,145,227)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(14,132,207)"
+    },
+    "btns_shop_color_scheme": "light",
+    "btns_shop_color_scheme_hover": "light",
+    "form_fields_style": "semi-rounded",
+    "title-background": {
+        "color": "rgb(98,193,243)",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2024\/07\/corporate-page-title.jpg",
+        "id": "26451",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "page-title-color": "light",
+    "popup-background": {
+        "color": "rgb(255,255,255)",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2024\/07\/corporate-popup.jpg",
+        "id": "26452",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "promo_popup": "1",
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "11949",
+    "popup_color_scheme": "dark",
+    "popup_padding": "eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiI1MCJ9fX0=",
+    "disable_footer": "1",
+    "footer_content_type": "html_block",
+    "footer_html_block": "12962",
+    "footer-bar-bg": {
+        "color": "rgb(23,150,229)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "light"
+}

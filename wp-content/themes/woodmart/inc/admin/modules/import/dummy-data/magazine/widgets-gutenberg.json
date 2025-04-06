@@ -1,0 +1,90 @@
+{
+    "sidebar-28823": {
+        "widgets": {
+            "woodmart-author-information-2": {
+                "woodmart_css_id": "",
+                "image_divider": "",
+                "image": "22466",
+                "img_size": "120x120",
+                "content_divider": "",
+                "title": "",
+                "author_name": "Hello! My name Sofia",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page...",
+                "style_divider": "",
+                "alignment": "center",
+                "woodmart_color_scheme": "",
+                "link_divider": "",
+                "link": "",
+                "link_text": "",
+                "extra_divider": "",
+                "el_class": "",
+                "css": ""
+            },
+            "categories-2": {
+                "title": "CATEGORIES",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-20": {
+                "title": "Recent Posts",
+                "limit": 4,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "block-16": {
+                "content": "<!-- wp:wd\/cover {\"blockId\":\"dba495f2-2bba-4206-8b00-5f5fb63ff008\",\"hover\":\"zoom-in\",\"align\":\"center\",\"contentAlignHorizontal\":\"center\",\"contentAlignVertical\":\"center\",\"colorScheme\":\"light\",\"height\":\"385\",\"bgImage\":{\"id\":30265,\"url\":\"https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2024\/09\/mag-banner-side-bar-img.jpg\"}} -->\n<div id=\"wd-dba495f2\" class=\"wp-block-wd-cover wd-hover-parent wd-align wd-hover-zoom-in color-scheme-light\"><div class=\"wd-block-cover-img\"><\/div><!-- wp:wd\/container {\"blockId\":\"579663cf-af9f-4d2d-8896-b8cec4ac7110\",\"metadata\":{\"name\":\"Banner content\"}} -->\n<div id=\"wd-579663cf\" class=\"wp-block-wd-container wd-dir-col\"><!-- wp:wd\/paragraph {\"blockId\":\"8dbd43de-2230-4602-a1bb-b6659c5e365c\",\"textAlign\":\"center\",\"tpFontSize\":\"12\",\"bgColorCode\":\"#bd8554\",\"paddingTop\":\"6\",\"paddingRight\":\"10\",\"paddingBottom\":\"6\",\"paddingLeft\":\"10\",\"displayWidth\":\"fit-content\"} -->\n<p id=\"wd-8dbd43de\" class=\"wp-block-wd-paragraph wd-align wd-custom-width\">INSPIRATION DESIGN<\/p>\n<!-- \/wp:wd\/paragraph -->\n\n<!-- wp:wd\/title {\"blockId\":\"0d0c4960-b363-4b72-813a-b7e1a0421a47\",\"textAlign\":\"center\",\"content\":\"Accessories for kitchen\"} -->\n<h2 id=\"wd-0d0c4960\" class=\"wp-block-wd-title title wd-align\">Accessories for kitchen<\/h2>\n<!-- \/wp:wd\/title -->\n\n<!-- wp:wd\/button {\"blockId\":\"363449d3-c500-4676-b6d0-033e9b42a0a1\",\"design\":\"link\",\"predefinedColor\":\"white\",\"displayWidth\":\"fit-content\"} -->\n<a id=\"wd-363449d3\" class=\"wp-block-wd-button btn btn-style-link btn-color-white btn-size-default wd-custom-width\" href=\"#\"><span>VIEW MORE<\/span><\/a>\n<!-- \/wp:wd\/button --><\/div>\n<!-- \/wp:wd\/container --><\/div>\n<!-- \/wp:wd\/cover -->"
+            },
+            "woodmart-instagram-4": {
+                "woodmart_css_id": "",
+                "data_divider": "",
+                "data_source": "images",
+                "images_divider": "",
+                "images": "11846,11845,11844,11843,11842,11841,11840,11839,11838",
+                "images_size": "medium",
+                "images_link": "https:\/\/www.instagram.com\/p\/CSsJlL_Mem5\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "rounded": "",
+                "hide_mask": "",
+                "rounding_size": "",
+                "custom_rounding_size": "",
+                "content_divider": "",
+                "title": "Instagram",
+                "number": "9",
+                "size": "",
+                "content": "",
+                "content_width": "",
+                "content_color_scheme": "",
+                "content_color": "",
+                "content_bg_color": "",
+                "link_divider": "",
+                "username": "",
+                "target": "_self",
+                "link": "",
+                "layout_divider": "",
+                "design": "",
+                "per_row_tabs": "",
+                "per_row": "",
+                "per_row_tablet": "",
+                "per_row_mobile": "",
+                "spacing": "",
+                "spacing_custom_tabs": "",
+                "spacing_custom": "",
+                "spacing_custom_tablet": "",
+                "spacing_custom_mobile": "",
+                "carousel_divider": "",
+                "extra_divider": "",
+                "el_class": "",
+                "css": ""
+            }
+        }
+    }
+}

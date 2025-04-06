@@ -1,0 +1,110 @@
+# Translation of Plugins - Safe SVG - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Safe SVG - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-12-26 18:41:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Safe SVG - Stable (latest release)\n"
+
+#: includes/safe-svg-settings.php:190
+msgid "Turning this on will allow SVG files larger than 10MB to be uploaded. This can impact performance and is not recommended unless needed."
+msgstr "Включение этого параметра позволит загружать SVG файлы размером более 10МБ. Это может повлиять на производительность и не рекомендуется, если в этом нет необходимости."
+
+#: includes/safe-svg-settings.php:188
+msgid "Allow large SVG files"
+msgstr "Разрешить большие SVG файлы"
+
+#: includes/safe-svg-settings.php:55
+msgid "Large Files"
+msgstr "Большие файлы"
+
+#: safe-svg.php:276
+msgid "Sorry, you are not allowed to upload SVG files."
+msgstr "Извините, вам не разрешено загружать SVG файлы."
+
+#: includes/safe-svg-settings.php:120
+msgid "Select which user roles can upload SVG files."
+msgstr "Выберите какие роли пользователей могут загружать SVG файлы."
+
+#: includes/safe-svg-settings.php:47
+msgid "User Roles"
+msgstr "Роли пользователей"
+
+#: includes/safe-svg-settings.php:40
+msgid "Safe SVG Settings"
+msgstr "Настройки Safe SVG"
+
+#. translators: %s: Minimum required PHP version
+#: safe-svg.php:65
+msgid "Safe SVG requires PHP version %s or later. Please upgrade PHP or disable the plugin."
+msgstr "Safe SVG требует PHP версии %s или новее. Пожалуйста, обновите PHP или отключите плагин."
+
+#: includes/blocks/safe-svg/block.json
+msgctxt "block description"
+msgid "Display the SVG icon"
+msgstr "Отображает SVG значок"
+
+#: includes/blocks/safe-svg/block.json
+msgctxt "block title"
+msgid "Safe SVG"
+msgstr "Safe SVG"
+
+#: includes/blocks.php:55 dist/safe-svg-block.js:1
+#: includes/blocks/safe-svg/edit.js:209
+msgid "SafeSvg"
+msgstr "SafeSvg"
+
+#. Description of the plugin
+#: safe-svg.php
+msgid "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website"
+msgstr "Разрешает загрузку SVG файлов и очищает их для предотвращения XML/SVG уязвимостей на вашем WordPress сайте"
+
+#. Plugin URI of the plugin
+#: safe-svg.php
+msgid "https://wordpress.org/plugins/safe-svg/"
+msgstr "https://ru.wordpress.org/plugins/safe-svg/"
+
+#: safe-svg.php:403
+msgid "Large"
+msgstr "Большой"
+
+#: safe-svg.php:402
+msgid "Medium"
+msgstr "Средний"
+
+#: safe-svg.php:401
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: safe-svg.php:400
+msgid "Full Size"
+msgstr "Полный размер"
+
+#: safe-svg.php:285
+msgid "Sorry, this file couldn't be sanitized so for security reasons wasn't uploaded"
+msgstr "Извините, не удалось очистить этот файл, поэтому, по соображениям безопасности, он не был загружен"
+
+#. translators: %1$s is the command that needs to be run.
+#: safe-svg.php:89
+msgid "You appear to be running a development version of Safe SVG. Please run %1$s in order for things to work properly."
+msgstr "Похоже вы используете версию Safe SVG для разработчиков. Пожалуйста, запустите %1$s, чтобы всё работало правильно."
+
+#. Author URI of the plugin
+#: safe-svg.php
+msgid "https://10up.com"
+msgstr "https://10up.com"
+
+#. Author of the plugin
+#: safe-svg.php
+msgid "10up"
+msgstr "10up"
+
+#. Plugin Name of the plugin
+#: safe-svg.php
+msgid "Safe SVG"
+msgstr "Safe SVG"

@@ -1,0 +1,1 @@
+.wd-products.wd-with-divider[class*="wd-grid-"]:not(.products-bordered-grid){clip-path:inset(-3px)}.wd-products.wd-with-divider[class*="wd-grid-"]:not(.products-bordered-grid) .product-wrapper:after{content:"";position:absolute;bottom:calc(var(--wd-gap) / 2 * -1);inset-inline:0;border-bottom:1px solid var(--brdcolor-gray-300)}

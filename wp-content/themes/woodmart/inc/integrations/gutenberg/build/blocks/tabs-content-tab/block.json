@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Tab",
+  "name": "wd/tabs-content-tab",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/tabs"
+  ]
+}

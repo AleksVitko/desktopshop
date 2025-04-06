@@ -1,0 +1,144 @@
+/* Скрыто по умолчанию */
+.mobile-modal-window {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Добавляем прокрутку при необходимости */
+}
+
+/* Контент модального окна */
+.mobile-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Заголовок */
+.mobile-modal-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31.2px;
+    color: #25292F;
+}
+
+/* Описание */
+.mobile-modal-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #696969;
+}
+
+/* Форма */
+.mobile-modal-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Поля ввода */
+.mobile-form-field {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    border: 1px solid #D5D8D9;
+    padding-left: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #696969;
+}
+
+/* Кнопка отправки */
+.mobile-form-submit {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #0055BB;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mobile-form-submit:hover {
+    background-color: #1773E1;
+}
+
+/* Чекбокс и текст */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #D5D8D9;
+    background-color: #FAFAFA;
+}
+
+.checkbox-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    color: #696969;
+}
+
+/* Подчеркнутый текст (ссылка) */
+.terms-link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #696969;
+}
+
+/* Кнопка закрытия */
+.mobile-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Сообщение об ошибке */
+.error-message {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 0%;
+    color: #FF0000; /* Красный цвет для ошибок */
+    text-align: center;
+}

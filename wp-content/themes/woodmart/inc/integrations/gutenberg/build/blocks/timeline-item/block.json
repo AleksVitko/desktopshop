@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "title": "Timeline item",
+  "name": "wd/timeline-item",
+  "description": "Display a significant milestone or event.",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/timeline"
+  ]
+}

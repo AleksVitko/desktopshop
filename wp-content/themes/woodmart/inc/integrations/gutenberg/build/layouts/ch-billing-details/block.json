@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "title": "Billing details",
+  "name": "wd/ch-billing-details",
+  "category": "xtemos_checkout_elements",
+  "textdomain": "woodmart",
+  "ancestor": [
+    "wd/ch-form"
+  ],
+  "supports": {
+    "lock": false
+  }
+}

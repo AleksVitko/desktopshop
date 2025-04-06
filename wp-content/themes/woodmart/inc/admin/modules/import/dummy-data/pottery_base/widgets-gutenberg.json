@@ -1,0 +1,32 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "recent-comments-2": {
+                "title": "",
+                "number": 3
+            },
+            "block-2": {
+                "content": "<!-- wp:wd\/cover {\"blockId\":\"21596790-723c-4d36-bf5d-0750ad67af1f\",\"hover\":\"zoom-in\",\"contentAlignVertical\":\"end\",\"colorScheme\":\"light\",\"aspectRatio\":\"asImage\",\"imageAspectRatio\":\"700\/620\",\"height\":\"400\",\"bgImage\":{\"id\":337,\"url\":\"http:\/\/dummy.xtemos.com\/woodmart2\/pottery-gutenberg\/wp-content\/uploads\/sites\/36\/2024\/07\/w-hmp-banner-3-opt.jpg\"},\"overlayColorCode\":\"#000000\",\"overlayParentHoverColorCode\":\"#000000\",\"overlay\":true,\"overlayOpacity\":0.3,\"overlayHoverOpacity\":null,\"overlayParentHoverOpacity\":0.6,\"overlayTransition\":0.5} -->\n<div id=\"wd-21596790\" class=\"wp-block-wd-cover wd-hover-parent wd-hover-zoom-in color-scheme-light wd-bg-parent\"><div class=\"wd-bg-overlay\"><\/div><div class=\"wd-block-cover-img\"><\/div><a class=\"wd-block-cover-link wd-fill\" href=\"#\" aria-label=\"Cover link\"><\/a><!-- wp:wd\/container {\"blockId\":\"9c1c5bd8-be67-424f-b5bf-9e3f9b3c9fe9\",\"metadata\":{\"name\":\"Banner content\"}} -->\n<div id=\"wd-9c1c5bd8\" class=\"wp-block-wd-container wd-dir-col\"><!-- wp:wd\/paragraph {\"blockId\":\"f6d9c5cc-ff33-411a-a698-ad7445a568c2\"} -->\n<p id=\"wd-f6d9c5cc\" class=\"wp-block-wd-paragraph\">Inclusive of 6 sessions<\/p>\n<!-- \/wp:wd\/paragraph -->\n\n<!-- wp:wd\/title {\"blockId\":\"6e73acb3-44b9-48c7-90a6-ea1901523b1b\",\"content\":\"Intro to Whell Throwing\",\"tpFontSize\":\"18\"} -->\n<h2 id=\"wd-6e73acb3\" class=\"wp-block-wd-title title\">Intro to Whell Throwing<\/h2>\n<!-- \/wp:wd\/title -->\n\n<!-- wp:wd\/paragraph {\"blockId\":\"9ac6f96e-e5f3-4588-9b4e-73d65092abda\"} -->\n<p id=\"wd-9ac6f96e\" class=\"wp-block-wd-paragraph\">$300.00<\/p>\n<!-- \/wp:wd\/paragraph -->\n\n<!-- wp:wd\/button {\"blockId\":\"9f2dcad7-5f90-46ed-8662-100fed727df1\",\"predefinedColor\":\"primary\"} -->\n<a id=\"wd-9f2dcad7\" class=\"wp-block-wd-button btn btn-style-default btn-color-primary btn-size-default btn-shape-rectangle\" href=\"#\"><span>Book Now<\/span><\/a>\n<!-- \/wp:wd\/button --><\/div>\n<!-- \/wp:wd\/container --><\/div>\n<!-- \/wp:wd\/cover -->"
+            }
+        }
+    }
+}

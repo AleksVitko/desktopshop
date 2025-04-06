@@ -1,0 +1,1 @@
+.wd-nav-side-hidden-mb-on :is(.wd-heading,.wd-drilldown-back){display:none}@media (min-width: 1025px){.wd-nav-product-cat .menu-item-has-children>a:after{display:none}}@media (max-width: 1024px){.wd-side-hidden-cat :is(.wd-nav-img,.nav-link-count){display:none}.wd-side-hidden-cat .cat-item-none{padding:20px 15px}.wd-nav-side-hidden-mb-on .wd-nav-product-cat{display:none}}

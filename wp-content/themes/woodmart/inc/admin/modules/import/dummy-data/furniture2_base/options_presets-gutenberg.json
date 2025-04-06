@@ -1,0 +1,17 @@
+{
+    "2": {
+        "site_width": "custom",
+        "site_custom_width": "1025",
+        "pages-background": {
+            "color": "rgb(255,255,255)",
+            "url": "",
+            "id": "",
+            "repeat": "",
+            "size": "",
+            "attachment": "",
+            "position": ""
+        },
+        "default_header": "header_685085",
+        "fields_to_save": "site_width,site_custom_width,pages-background,default_header"
+    }
+}

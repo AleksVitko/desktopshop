@@ -1,0 +1,25 @@
+{
+    "2": {
+        "id": 2,
+        "name": "Checkout Furniture 2",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "custom",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "checkout",
+                    "value_id": "",
+                    "user_role": "administrator",
+                    "filtered_product_term": "brand",
+                    "filtered_product_by_term": "31",
+                    "filtered_product_term_any": "1",
+                    "filtered_product_stock_status": "instock"
+                }
+            ]
+        },
+        "priority": ""
+    }
+}

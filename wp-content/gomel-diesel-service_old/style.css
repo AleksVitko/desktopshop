@@ -1,0 +1,862 @@
+/*
+Theme Name: Гомель Дизель Сервис
+Theme URI: http://a1078565.xsph.ru/
+Author: Your Name
+Author URI: https://yourwebsite.com
+Description: Адаптивная тема для лендинга "Гомель Дизель Сервис".
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gds
+*/
+
+/* Общие стили */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+p {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+/* Шапка */
+.site-header {
+    width: 100%;
+    height: 112px;
+    background-color: #1B2548;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: space-between; /* Распределение пространства между элементами */
+    /*padding: 0 20px;*/
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: space-between; /* Распределение пространства между элементами */
+    width: 100%;
+}
+
+/* Лого и название */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.site-title {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FAFAFA;
+}
+
+/* Контейнер для меню */
+.menu-container {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    flex: 1; /* Расширение контейнера */
+}
+
+/* Меню (горизонтальное) */
+.main-menu {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: fit-content; /* Позволяет меню занимать только необходимое пространство */
+    flex-wrap: nowrap; /* Предотвращает перенос пунктов меню на новую строку */
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: fit-content; /* Позволяет меню занимать только необходимое пространство */
+    flex-wrap: nowrap; /* Предотвращает перенос пунктов меню на новую строку */
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: #FAFAFA;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    transition: color 0.3s;
+    white-space: nowrap; /* Предотвращает перенос текста внутри ссылок */
+}
+
+.menu li a:hover {
+    color: #1773E1;
+}
+
+/* Контактная информация */
+.contact-info {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    gap: 20px; /* Расстояние между элементами контактной информации */
+}
+
+/* Адрес и почта */
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание по левому краю */
+    gap: 5px; /* Расстояние между элементами адреса и почты */
+}
+
+.address,
+.email {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    gap: 5px; /* Расстояние между иконкой и текстом */
+}
+
+.address svg,
+.email svg {
+    width: 16px;
+    height: 16px;
+    fill: #0055BB;
+}
+
+.address p,
+.email span {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    color: #FAFAFA;
+}
+
+/* Телефоны */
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание по левому краю */
+    gap: 5px; /* Расстояние между телефонными номерами */
+}
+
+.phone-container a {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+/* Скрыто по умолчанию */
+.contact-overlay,
+.mobile-menu-overlay,
+.phone-toggle-container {
+    display: none;
+}
+
+/* Показываем элемент только на маленьких экранах (мобильные устройства) */
+@media (max-width: 767px) { /* Мобильные устройства */
+    .phone-toggle-container {
+        display: block; /* Показываем элемент */
+    }
+}
+
+/*////////////////////////////////////////////*/
+/*////////////////////////////////////////////*/
+/*////////////////////////////////////////////*/
+
+/* Общий стиль футера */
+.footer {
+    width: 100%;
+    height: 500px;
+    background: var(--Black-HF, #1B2548);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Для абсолютного позиционирования дочерних элементов */
+}
+
+/* Левый контейнер с контактами */
+.container-left {
+    width: 500px;
+    height: 360px;
+    margin-top: 40px;
+    position: absolute;
+    left: 160px;
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Вертикальное расположение */
+    gap: 16px; /* Отступ между элементами */
+    color: var(--White, #FAFAFA);
+}
+
+.contact-infos h2 {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46.8px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.contact-item img.icon {
+    width: 24px; /* Размер иконки */
+    height: 24px;
+    margin-right: 10px; /* Отступ между иконкой и текстом */
+    vertical-align: middle; /* Выравнивание по центру относительно текста */
+}
+
+.contact-item p {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+    color: var(--White, #FAFAFA);
+}
+
+/* Правый контейнер с фото */
+.container-right {
+    width: 650px;
+    height: 360px;
+    margin-top: 40px;
+    position: absolute;
+    left: 710px;
+}
+
+.container-right img.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Горизонтальная линия */
+.line {
+    width: 1200px;
+    position: absolute;
+    top: 445px; /* Расположение относительно футера */
+    border: 1px solid var(--Gray-line, #494949);
+}
+
+/* Нижний контейнер с текстом */
+.bottom-container {
+    width: 1200px;
+    height: 17px;
+    position: absolute;
+    bottom: 20px; /* Расположение внизу */
+    left: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--White, #FAFAFA);
+}
+
+.bottom-container p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0%;
+}
+
+.bottom-container a {
+    color: var(--White, #FAFAFA);
+    text-decoration: none;
+}
+
+.bottom-container a:hover {
+    text-decoration: underline;
+}
+
+/*///////////////////////////////////////*/
+/*///////////////////////////////////////*/
+/*///////////////////////////////////////*/
+
+/* Контент */
+/* Общий контейнер */
+.container-1 {
+    width: 100%;
+    height: 748px;
+    position: relative;
+    background-image: url('/wp-content/themes/gomel-diesel-service/images/page-61494919-63325.png'); /* Путь к вашей картинке */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Затемнение картинки */
+.image-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 18, 57, 0.6); /* Затемнение с прозрачностью */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Контент в центре */
+.content-center {
+    text-align: center;
+    color: #FAFAFA; /* Белый цвет текста */
+}
+
+/* Заголовок */
+.content-center h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58.09px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+/* Описание */
+.description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FAFAFA; /* Белый цвет текста */
+    margin-bottom: 30px; /* Отступ снизу до кнопки */
+}
+
+/* Кнопка */
+.content-center button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    color: #FAFAFA;
+    background-color: #0055BB;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+}
+
+/* Эффект при наведении на кнопку */
+.content-center button:hover {
+    background-color: #1773E1; /* Новый цвет при наведении */
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+
+/* Буллиты */
+/* Основной контейнер */
+.main-container {
+    display: flex; /* Размещаем элементы в один ряд */
+    justify-content: space-between; /* Равномерное распределение элементов */
+    align-items: center; /* Выравнивание по вертикали */
+    width: 80%; /* Ширина 70% от страницы */
+    max-width: 1200px; /* Максимальная ширина */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    padding: 20px; /* Внутренний отступ */
+    /*box-sizing: border-box; /* Учитываем padding в размерах */
+}
+
+/* Контейнер каждого элемента */
+.feature-container {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: center; /* Центрирование содержимого */
+    text-align: center; /* Выравнивание текста по центру */
+    background-color: #FAFAFA; /* Фоновый цвет */
+    padding: 16px; /* Внутренний отступ */
+    border-radius: 12px; /* Скругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тени для эффекта */
+    flex: 1; /* Равномерное распределение пространства */
+    min-width: 200px; /* Минимальная ширина */
+    max-width: 250px; /* Максимальная ширина */
+}
+
+/* Контейнер для картинки */
+.image-container {
+    width: 112px; /* Ширина контейнера */
+    height: 112px; /* Высота контейнера */
+    /*border-radius: 60px; /* Скругление углов (почти круг) */
+   /* border: 1px solid #D5D8D9; /* Граница */
+    background-color: #FAFAFA; /* Фоновый цвет */
+    display: flex; /* Используем Flexbox для центрирования */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    box-sizing: border-box; /* Учитываем padding и border в размерах */
+}
+
+/* Параметры для картинки */
+.icon-image {
+    width: 64px; /* Ширина картинки */
+    height: 64px; /* Высота картинки */
+    position: relative; /* Относительное позиционирование */
+    top: 24px; /* Отступ сверху */
+    left: 24px; /* Отступ слева */
+    transform: translate(-50%, -50%); /* Точный центр */
+}
+
+/* Параметры для описания */
+.feature-description {
+    font-family: 'Inter', sans-serif; /* Шрифт */
+    font-weight: 700; /* Жирность */
+    font-size: 22px; /* Размер шрифта */
+    line-height: 21px; /* Высота строки */
+    letter-spacing: 0%; /* Расстояние между буквами */
+    color: #25292F; /* Цвет текста */
+    margin-top: 16px; /* Отступ сверху от картинки */
+    word-wrap: break-word; /* Перенос слов при необходимости */
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+
+/* Наши услуги */
+/* Общий контейнер */
+.services-container {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--White, #FAFAFA); /* Белый фон */
+    color: var(--Black, #25292F); /* Чёрный текст */
+    width: 80%; /* Установка ширины в 80% */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    box-sizing: border-box; /* Учитываем padding в ширине */
+}
+
+/* Заголовок секции */
+.services-title {
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46.8px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+    color: var(--Black, #25292F); /* Чёрный цвет заголовка */
+}
+
+/* Сетка услуг */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Контейнер услуги */
+.service-item {
+    background-color: var(--White, #FAFAFA); /* Белый фон для карточек */
+    border-radius: 8px;
+    overflow: hidden;
+    width: 384px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 1px solid var(--LightGray, #E0E0E0); /* Добавляем легкую границу */
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Изображение услуги */
+.service-image {
+    width: 100%;
+    height: 294px;
+    object-fit: cover;
+}
+
+/* Заголовок услуги */
+.service-title {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.2px;
+    letter-spacing: 0%;
+    margin: 20px 0;
+    color: var(--Black, #25292F); /* Чёрный цвет заголовка */
+}
+
+/* Описание услуги */
+.service-description {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0%;
+    color: var(--Black, #25292F); /* Чёрный цвет текста */
+    margin: 10px 20px;
+}
+
+/* Кнопка услуги */
+.request-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0055BB; /* Основной цвет кнопки */
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Эффект при наведении */
+.request-button:hover {
+    background-color: #1773E1; /* Цвет при наведении */
+}
+
+/*////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////*/
+
+/* Основной контейнер формы */
+.contact-form-container {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/wp-content/uploads/2025/02/page-61494919-bd362ed69e7924545e35b216d3d15356aee8747c.png') no-repeat center center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+/* Наложение затемнения на фон */
+.form-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 18, 57, 0.8);
+}
+
+/* Форма контактов */
+.contact-form {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    color: #FAFAFA;
+    font-family: Inter, sans-serif;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+/* Контактная информация */
+.contact-info-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Заголовок "Звоните или оставьте заявку" */
+.contact-info-form h3 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46.8px;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+
+/* Раздел телефонов */
+.phone-numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Каждый номер телефона */
+.phone-number-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Иконка телефона */
+.phone-number-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Текст номера телефона */
+.phone-number-item p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+/* Раздел времени работы */
+.working-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Текст времени работы */
+.working-hours p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+/* Поля ввода */
+.input-fields {
+    display: flex;
+    justify-content: space-between; /* Располагаем элементы по краям */
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px; /* Отступ между полями */
+}
+
+.contact-form input {
+    width: 320px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*background-color: transparent;*/
+    color: #FAFAFA;
+    font-size: 1em;
+}
+
+.contact-form button {
+    width: 267px;
+    height: 50px;
+    padding: 10px;
+    background-color: #0055BB;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: Inter, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #1773E1;
+}
+
+/* Согласие с политикой */
+.agreement {
+    text-align: left; /* Выравнивание по левому краю */
+    margin-top: 10px;
+    font-size: 1em;
+    color: #FAFAFA;
+}
+
+.agreement input[type="checkbox"] {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+/*///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////*/
+
+/* О компании */
+/* Общий контейнер */
+.company-container {
+    text-align: center; /* Центрируем содержимое */
+    padding: 20px;
+    background-color: #f9f9f9; /* Легкий фоновый цвет */
+    border-radius: 8px; /* Сглаженные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень для объемности */
+}
+
+/* Заголовок */
+.company-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Контейнер с двумя блоками */
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Выравниваем элементы по верхней границе */
+    justify-content: space-between; /* Распределяем пространство между контейнерами */
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+    padding: 20px;
+}
+
+/* Контейнер с текстом */
+.text-container {
+    flex: 1; /* Занимает большую часть пространства */
+    margin-right: 20px; /* Отступ справа для разделения */
+}
+
+/* Блок информации */
+.info-block {
+    margin-top: 20px; /* Отступ сверху для блока информации */
+    display: flex; /* Горизонтальное расположение элементов */
+    gap: 20px; /* Пространство между элементами */
+}
+
+/* Элемент информации */
+.info-item {
+    background-color: #fff; /* Фоновый цвет блока */
+    padding: 15px;
+    border-radius: 8px; /* Сглаженные углы */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавляем тень для объемности */
+    text-align: center; /* Центрируем текст внутри блока */
+    flex: 1; /* Равномерное распределение пространства */
+}
+
+/* Число в блоке информации */
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Цвет числа */
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Надпись в блоке информации */
+.label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Контейнер с изображением */
+.image-containers {
+    flex: 0 0 588px; /* Фиксированная ширина для изображения */
+    height: 475px; /* Фиксированная высота */
+    overflow: hidden; /* Обрезаем изображение, если оно выходит за пределы */
+}
+
+/* Изображение внутри контейнера */
+.image-containers img {
+    width: 100%; /* Ширина изображения равна ширине контейнера */
+    height: 100%; /* Сохраняем пропорции */
+    border-radius: 8px; /* Сглаженные углы у изображения */
+    object-fit: cover; /* Убедимся, что изображение корректно масштабируется */
+}
+
+/* Стили для параграфов */
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/*/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////*/
+
+/* Блок Ьы ремонтируем */
+/* Общий контейнер */
+.custom-repair-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Заголовок */
+.custom-repair-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46.8px;
+    letter-spacing: 0%;
+    color: #25292F;
+    margin-bottom: 20px;
+}
+
+/* Контейнер для картинок */
+.custom-repair-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Каждая картинка */
+.custom-repair-image {
+    width: 180px;
+    height: 120px;
+    border: 1px solid var(--Gray-stroke, #D5D8D9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.custom-repair-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Изображение будет сжиматься пропорционально */
+}
+
+.modal-window, .thank-you-modal, .mobile-modal-window, .mobile-thank-you-modal, .mobile-request-button {
+    display: none; /* Скрыто по умолчанию */
+}

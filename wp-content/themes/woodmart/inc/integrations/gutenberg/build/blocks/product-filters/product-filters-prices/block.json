@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Filter price",
+  "name": "wd/product-filters-prices",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/product-filters"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Column",
+  "name": "wd/column",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/row"
+  ]
+}

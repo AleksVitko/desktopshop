@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Marquee item",
+  "name": "wd/marquee-item",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/marquee"
+  ]
+}

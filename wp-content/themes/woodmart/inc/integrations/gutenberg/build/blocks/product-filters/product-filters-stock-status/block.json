@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Stock status",
+  "name": "wd/product-filters-stock-status",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/product-filters"
+  ]
+}

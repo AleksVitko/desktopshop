@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Hotspot product",
+  "name": "wd/hotspot-product",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/hotspot"
+  ]
+}

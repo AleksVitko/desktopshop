@@ -1,0 +1,25 @@
+{
+    "2": {
+        "id": 2,
+        "name": "single_post_vegetables",
+        "condition": {
+            "relation": "OR",
+            "rules": [
+                {
+                    "type": "single_post_type",
+                    "comparison": "equals",
+                    "post_type": "post",
+                    "taxonomy": "category",
+                    "custom": "search",
+                    "value_id": "",
+                    "user_role": "administrator",
+                    "filtered_product_term": "brand",
+                    "filtered_product_by_term": "54",
+                    "filtered_product_term_any": "1",
+                    "filtered_product_stock_status": "instock"
+                }
+            ]
+        },
+        "priority": ""
+    }
+}

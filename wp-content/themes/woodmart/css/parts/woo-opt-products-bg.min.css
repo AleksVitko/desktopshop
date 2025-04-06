@@ -1,0 +1,1 @@
+.wd-products-with-bg,.wd-products-with-bg .wd-product,.wd-products-with-bg .wd-cat{--wd-prod-bg: var(--bgcolor-gray-100)}.wd-products-with-bg:not(.products-bordered-grid) :is(.product-wrapper,.wd-cat-wrap){background-color:var(--wd-prod-bg)}

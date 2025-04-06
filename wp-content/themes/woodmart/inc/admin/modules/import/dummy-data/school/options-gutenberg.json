@@ -1,0 +1,109 @@
+{
+    "default_header": "header_775285",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Open Sans",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(132,154,170)"
+        }
+    ],
+    "primary-font": [
+        {
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "rgba(25,64,122,0.9)"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "rgba(25,64,122,0.9)",
+            "hover": {
+                "color": "rgb(25, 64, 122)"
+            }
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgba(25,64,122,0.9)"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Nunito",
+            "font-weight": "800",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(0,153,255)"
+    },
+    "btns_default_style": "semi-rounded",
+    "btns_shop_style": "semi-rounded",
+    "btns_shop_bg": {
+        "idle": "rgb(0,153,255)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(0,139,232)"
+    },
+    "form_fields_style": "semi-rounded",
+    "disable_footer": "1",
+    "footer-bar-bg": {
+        "color": "rgb(0,153,255)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "light",
+    "disable_copyrights": "0",
+    "rounding_size": "12",
+    "footer_html_block": "25997",
+    "footer_content_type": "html_block",
+    "prefooter_content_type": "html_block",
+    "prefooter_html_block": ""
+}

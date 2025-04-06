@@ -1,0 +1,8 @@
+{
+  "apiVersion": 2,
+  "title": "AJAX search",
+  "name": "wd/ajax-search",
+  "description": "Search function updating results dynamically.",
+  "category": "xtemos",
+  "textdomain": "woodmart"
+}

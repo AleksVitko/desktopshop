@@ -1,0 +1,499 @@
+// ------------------------------------------------------------------------------------------------
+// GENERAL TAB
+// ------------------------------------------------------------------------------------------------
+
+@if $int-wpbakery {
+
+	.vc_add-element-container {
+
+		[data-element="woodmart_title"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/section-title.svg);
+		}
+
+		[data-element="woodmart_categories"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/product-categories.svg);
+		}
+
+		[data-element="woodmart_brands"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/brands.svg);
+		}
+
+		[data-element="woodmart_gallery"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/images-gallery.svg);
+		}
+
+		[data-element="woodmart_slider"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/slider.svg);
+		}
+
+		[data-element="extra_menu"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/extra-menu-list.svg);
+		}
+
+		[data-element="extra_menu_list"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/extra-menu-list-item.svg);
+		}
+
+		[data-element="woodmart_3d_view"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/360-degree.svg);
+		}
+
+		[data-element="woodmart_ajax_search"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ajax-search.svg);
+		}
+
+		[data-element="woodmart_counter"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/animated-counter.svg);
+		}
+
+		[data-element="author_area"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/author-area.svg);
+		}
+
+		[data-element="woodmart_countdown_timer"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/countdown-timer.svg);
+		}
+
+		[data-element="woodmart_wishlist"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/wishlist.svg);
+		}
+
+		[data-element="woodmart_compare"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/compare.svg);
+		}
+
+		[data-element="woodmart_shortcode_products_widget"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/wc-product-widget.svg);
+		}
+
+		[data-element="woodmart_list"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/list.svg);
+		}
+
+		[data-element="woodmart_twitter"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/twitter.svg);
+		}
+
+		[data-element="social_buttons"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/social-buttons.svg);
+		}
+
+		[data-element="team_member"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/team-member.svg);
+		}
+
+		[data-element="testimonials"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/testimonials.svg);
+		}
+
+		[data-element="woodmart_mega_menu"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/mega-menu-widget.svg);
+		}
+
+		[data-element="woodmart_menu_price"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/menu-price.svg);
+		}
+
+		[data-element="woodmart_popup"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/popup.svg);
+		}
+
+		[data-element="pricing_tables"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/pricing-tables.svg);
+		}
+
+		[data-element="woodmart_timeline"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/timeline.svg);
+		}
+
+		[data-element="woodmart_timeline_item"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/timeline-item.svg);
+		}
+
+		[data-element="woodmart_timeline_breakpoint"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/timeline-breakpoint.svg);
+		}
+
+		[data-element="woodmart_google_map"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/google-maps.svg);
+		}
+
+		[data-element="woodmart_product_filters"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/product-filter.svg);
+		}
+
+		[data-element="woodmart_image_hotspot"] .vc_element-icon { // ????????????????????
+			background-image: url(../../images/vc-icon/image-map.svg);
+		}
+
+		[data-element="woodmart_3d_view"] .vc_element-icon{
+			background-image: url(../../images/vc-icon/360-degree.svg);
+		}
+
+		[data-element="woodmart_button"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/button.svg);
+		}
+
+		[data-element="woodmart_products"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/products-grid-or-carousel.svg);
+		}
+
+		[data-element="products_tabs"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ajax-products-tabs.svg);
+		}
+
+		[data-element="products_tab"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/product-categories.svg);
+		}
+
+		[data-element="woodmart_blog"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/blog.svg);
+		}
+
+		[data-element="promo_banner"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/promo-banner.svg);
+		}
+
+		[data-element="banners_carousel"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/banners-carousel.svg);
+		}
+
+		[data-element="woodmart_compare_images"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/compare-images.svg);
+		}
+
+		[data-element="woodmart_info_box"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/information-box.svg);
+		}
+
+		[data-element="woodmart_info_box_carousel"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/infobox-slider.svg);
+		}
+
+		[data-element="woodmart_instagram"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/instagram.svg);
+		}
+
+		[data-element="woodmart_portfolio"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/portfolio.svg);
+		}
+
+		[data-element=""] .vc_element-icon {
+			background-image: url(../../images/vc-icon/contact-form7.svg); // ????????????????????
+		}
+
+		[data-element="woodmart_mailchimp"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/mailchimp.svg);
+		}
+
+		[data-element="woodmart_size_guide"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/size-guide.svg);
+		}
+
+		[data-element=""] .vc_element-icon {
+			background-image: url(../../images/vc-icon/menu-anchor.svg); // ????????????????????
+		}
+
+		[data-element="woodmart_accordion"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/accordion.svg);
+		}
+
+		[data-element="woodmart_accordion_item"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/accordion-item.svg);
+		}
+
+		[data-element="html_block"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/html-block.svg);
+		}
+
+		[data-element="woodmart_image"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/image-or-svg.svg);
+		}
+
+		[data-element="woodmart_tabs"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/tabs.svg);
+		}
+
+		[data-element="woodmart_tab"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/tab.svg);
+		}
+
+		[data-element="woodmart_text_block"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/text-block.svg);
+		}
+
+		[data-element="woodmart_off_canvas_btn"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/off-canvas-column-button.svg);
+		}
+
+		[data-element="woodmart_table"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/table.svg);
+		}
+
+		[data-element="woodmart_open_street_map"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/open-street-map.svg);
+		}
+
+		[data-element="woodmart_video"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/video.svg);
+		}
+
+		[data-element="woodmart_marquee"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/marquee.svg);
+		}
+
+		[data-element="woodmart_nested_carousel"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/carousel.svg);
+		}
+
+		[data-element="woodmart_responsive_text_block"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/text-blox-res.svg);
+		}
+
+		[data-element="woodmart_row_divider"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/section-divider.svg);
+		}
+
+		[data-element="woodmart_sidebar"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-sidebar.svg);
+		}
+
+		// Single product.
+		[data-element="woodmart_single_product_title"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-title.svg);
+		}
+
+		[data-element="woodmart_single_product_content"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-content.svg);
+		}
+
+		[data-element="woodmart_woocommerce_hook"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-hook.svg);
+		}
+
+		[data-element="woodmart_single_product_meta"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-meta.svg);
+		}
+
+		[data-element="woodmart_single_product_nav"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-navigation.svg);
+		}
+
+		[data-element="woodmart_woocommerce_notices"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-notices.svg);
+		}
+
+		[data-element="woodmart_single_product_price"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-price.svg);
+		}
+
+		[data-element="woodmart_single_product_rating"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-rating.svg);
+		}
+
+		[data-element="woodmart_single_product_reviews"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-reviews.svg);
+		}
+
+		[data-element="woodmart_single_product_short_description"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-short-description.svg);
+		}
+
+		[data-element="woodmart_single_product_stock_progress_bar"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-stock-progress-bar.svg);
+		}
+
+		[data-element="woodmart_single_product_tabs"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-tabs.svg);
+		}
+
+		[data-element=""] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-action-buttons.svg); /// ????????
+		}
+
+		[data-element="woodmart_single_product_additional_info_table"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-additional-information-table.svg);
+		}
+
+		[data-element="woodmart_single_product_add_to_cart"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-add-to-cart.svg);
+		}
+
+		[data-element="woodmart_single_product_brands"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-brands.svg);
+		}
+
+		[data-element="woodmart_woocommerce_breadcrumb"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-breadcrumb.svg);
+		}
+
+		[data-element="woodmart_single_product_countdown"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-countdown.svg);
+		}
+
+		[data-element="woodmart_single_product_gallery"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-gallery.svg);
+		}
+
+		[data-element="woodmart_single_product_wishlist_button"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-add-to-wishlist-button.svg);
+		}
+
+		[data-element="woodmart_single_product_compare_button"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-add-to-compare-button.svg);
+		}
+
+		[data-element="woodmart_single_product_size_guide_button"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-size-guide-button.svg);
+		}
+
+		[data-element="woodmart_single_product_brand_information"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-brand-information.svg);
+		}
+
+		[data-element="woodmart_single_product_extra_content"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-extra-content.svg);
+		}
+
+		[data-element="woodmart_single_product_meta_value"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-meta-value.svg);
+		}
+
+		[data-element="woodmart_single_product_visitor_counter"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-product-visitor-counter.svg);
+		}
+
+		[data-element="woodmart_single_product_fbt_products"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-frequently-bought-together.svg);
+		}
+
+		[data-element="woodmart_single_product_linked_variations"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-linked-variations.svg);
+		}
+
+		[data-element="woodmart_single_product_stock_status"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-stock-status.svg);
+		}
+
+		[data-element="woodmart_single_product_dynamic_discounts_table"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-dynamic-discounts.svg);
+		}
+
+		[data-element="woodmart_single_product_sold_counter"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-sold-counter.svg);
+		}
+
+		[data-element="woodmart_single_product_estimate_delivery"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sp-icons/sp-est-del.svg);
+		}
+
+		// Shop archive.
+		[data-element="woodmart_shop_archive_active_filters"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-active-filters.svg);
+		}
+
+		[data-element="woodmart_shop_archive_description"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-archive-description.svg);
+		}
+
+		[data-element="woodmart_shop_archive_products"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-archive-products.svg);
+		}
+
+		[data-element="woodmart_shop_archive_filters_area"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-filter-area.svg);
+		}
+
+		[data-element="woodmart_shop_archive_filters_area_btn"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-filter-area-button.svg);
+		}
+
+		[data-element="woodmart_shop_archive_orderby"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-order-by.svg);
+		}
+
+		[data-element="woodmart_shop_archive_per_page"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-products-per-page.svg);
+		}
+
+		[data-element="woodmart_shop_archive_result_count"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-result-count.svg);
+		}
+
+		[data-element="woodmart_sidebar"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-sidebar.svg);
+		}
+
+		[data-element="woodmart_shop_archive_view"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-product-view.svg);
+		}
+
+		[data-element="woodmart_shop_archive_woocommerce_title"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-woocommerce-title.svg);
+		}
+
+		[data-element="woodmart_shop_archive_extra_description"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/sa-icons/sa-category-extra-description.svg);
+		}
+
+		// Cart.
+
+		[data-element="woodmart_cart_table"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ct-icons/ct-cart-table.svg);
+		}
+
+		[data-element="woodmart_cart_totals"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ct-icons/ct-cart-totals.svg);
+		}
+
+		[data-element="woodmart_empty_cart"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ct-icons/ct-empty-cart.svg);
+		}
+
+		[data-element="woodmart_cart_free_gifts"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ct-icons/ct-free-gifts.svg);
+		}
+
+		// Checkout.
+
+		[data-element="woodmart_checkout_billing_details_form"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ch-icons/ch-billing-details.svg);
+		}
+
+		[data-element="woodmart_checkout_coupon_form"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ch-icons/ch-coupon-form.svg);
+		}
+
+		[data-element="woodmart_checkout_login_form"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ch-icons/ch-login-form.svg);
+		}
+
+		[data-element="woodmart_checkout_order_review"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ch-icons/ch-order-review.svg);
+		}
+
+		[data-element="woodmart_checkout_payment_methods"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ch-icons/ch-payment-methods.svg);
+		}
+
+		[data-element="woodmart_checkout_shipping_details_form"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/ch-icons/ch-shipping-details.svg);
+		}
+
+		// WooCommerce.
+
+		[data-element="woodmart_page_title"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/wc-icons/wc-page-title.svg);
+		}
+
+		[data-element="woodmart_woocommerce_checkout_steps"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/wc-icons/wc-checkout-steps.svg);
+		}
+
+		[data-element="woodmart_shipping_progress_bar"] .vc_element-icon {
+			background-image: url(../../images/vc-icon/wc-icons/wc-shopping-progress-bar.svg);
+		}
+
+	}
+
+}

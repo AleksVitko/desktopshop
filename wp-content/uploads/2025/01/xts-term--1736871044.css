@@ -1,0 +1,15 @@
+#slider- .wd-slide {
+	min-height: 500px;
+}
+
+@media (max-width: 1024px) {
+	#slider- .wd-slide {
+		min-height: 500px;
+	}
+}
+
+@media (max-width: 768px) {
+	#slider- .wd-slide {
+		min-height: 500px;
+	}
+}

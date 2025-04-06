@@ -1,0 +1,81 @@
+/* Скрыто по умолчанию */
+.thank-you-modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    width: 430px;
+    height: auto;
+    max-height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Добавляем прокрутку при необходимости */
+}
+
+/* Контент благодарственного сообщения */
+.thank-you-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Сообщение */
+.thank-you-message {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46.8px;
+    letter-spacing: 0%;
+    color: #25292F;
+}
+
+/* Подсообщение */
+.thank-you-submessage {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;
+    letter-spacing: 0%;
+    color: #25292F;
+}
+
+/* Кнопка "Хорошо" */
+.thank-you-button {
+    width: 100%;
+    max-width: 260px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #0055BB;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.thank-you-button:hover {
+    background-color: #1773E1;
+}
+
+/* Кнопка закрытия */
+.thank-you-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

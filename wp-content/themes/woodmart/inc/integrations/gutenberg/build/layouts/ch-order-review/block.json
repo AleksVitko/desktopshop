@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Order review",
+  "name": "wd/ch-order-review",
+  "category": "xtemos_checkout_elements",
+  "textdomain": "woodmart",
+  "ancestor": [
+    "wd/ch-form"
+  ]
+}

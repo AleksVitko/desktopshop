@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Pane",
+  "name": "wd/accordion-pane",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/accordion"
+  ]
+}

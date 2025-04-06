@@ -1,0 +1,50 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "woodmart-author-information-2": {
+                "woodmart_css_id": "",
+                "image_divider": "",
+                "image": "139",
+                "img_size": "",
+                "content_divider": "",
+                "title": "",
+                "author_name": "Marvin McKinney",
+                "content": "We have many years of experience and qualified specialists, which allows us to manufacture high-quality products...",
+                "style_divider": "",
+                "alignment": "left",
+                "woodmart_color_scheme": "dark",
+                "link_divider": "",
+                "link": "",
+                "link_text": "",
+                "extra_divider": "",
+                "css_animation": "",
+                "el_class": "",
+                "css": "",
+                "responsive_spacing": ""
+            },
+            "categories-2": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "recent-comments-2": {
+                "title": "",
+                "number": 3
+            }
+        }
+    }
+}

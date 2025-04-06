@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Toggle content",
+  "name": "wd/toggle-content",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/toggle"
+  ]
+}

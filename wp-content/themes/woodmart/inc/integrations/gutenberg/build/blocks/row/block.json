@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "title": "Row",
+  "name": "wd/row",
+  "description": "Universal parent block for building multi-column page layouts.",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "editorScript": "xts-blocks",
+  "editorStyle": "xts-blocks",
+  "style": "xts-blocks"
+}

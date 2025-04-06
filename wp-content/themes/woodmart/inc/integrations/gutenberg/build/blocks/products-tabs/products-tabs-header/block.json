@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Products tabs header",
+  "name": "wd/products-tabs-header",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/products-tabs"
+  ]
+}

@@ -1,0 +1,47 @@
+// ------------------------------------------------------------------------------------------------
+// TABLE CONTROLS
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-table-control {
+
+	.xts-table-controls {
+		display: flex;
+		margin-bottom: 10px;
+
+		label {
+			font-weight: 600;
+		}
+
+		> div {
+
+			&:not(:last-child) {
+				margin-inline-end: 15px;
+			}
+		}
+	}
+
+	.xts-controls-wrapper {
+
+		> div {
+
+			&:first-child {
+				margin-inline-end: 40px;
+			}
+		}
+	}
+
+	body:not(.post-type-woodmart_woo_fbt) {
+
+		.xts-table-controls {
+
+			> div {
+
+				&:not(:last-child) {
+					max-width: var(--xts-input-width);
+					width: 100%;
+				}
+			}
+		}
+	}
+
+} // END IF

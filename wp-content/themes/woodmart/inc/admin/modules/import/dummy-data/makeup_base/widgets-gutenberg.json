@@ -1,0 +1,91 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "block-6": {
+                "content": "<!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Categories<\/h2>\n<!-- \/wp:heading -->\n\n<!-- wp:categories \/--><\/div>\n<!-- \/wp:group -->"
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 65,
+                "thumb_width": 75
+            },
+            "recent-comments-2": {
+                "title": "",
+                "number": 3
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_product_categories-2": {
+                "title": "Product categories",
+                "orderby": "name",
+                "dropdown": 0,
+                "count": 0,
+                "hierarchical": 1,
+                "show_children_only": 0,
+                "hide_empty": 0,
+                "max_depth": ""
+            },
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Filter by Color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Age Range",
+                "attribute": "age",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "off",
+                "search_by_filters": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<!-- Мобильная форма "Заявка" -->
+<div class="mobile-modal-window">
+    <button class="mobile-modal-close">X</button>
+    <div class="mobile-modal-content">
+        <div class="mobile-modal-title">Оставить заявку</div>
+        <div class="mobile-modal-description">Оставьте Ваши контакты и наши специалисты свяжутся с вами в течение 20 минут</div>
+        <form class="mobile-modal-form">
+            <input type="text" class="mobile-form-field" placeholder="Ваше имя" required />
+            <input type="tel" class="mobile-form-field" placeholder="+375 __ _______" required />
+            <button type="submit" class="mobile-form-submit">Отправить</button>
+            <div class="checkbox-container">
+                <input type="checkbox" id="mobile-terms-checkbox" class="checkbox" required />
+                <label for="mobile-terms-checkbox" class="checkbox-label">
+                    Соглашаюсь с 
+                    <span class="terms-link">Политикой обработки персональных данных</span>
+                </label>
+            </div>
+            <div class="error-message" id="mobile-error-message"></div>
+        </form>
+    </div>
+</div>

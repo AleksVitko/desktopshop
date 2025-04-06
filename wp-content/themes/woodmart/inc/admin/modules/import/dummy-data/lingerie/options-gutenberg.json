@@ -1,0 +1,162 @@
+{
+    "default_header": "header_720314",
+    "header_banner": "1",
+    "header_banner_link": "#",
+    "header_banner_content_type": "html_block",
+    "header_banner_shortcode": "",
+    "header_banner_bg": {
+        "color": "rgb(192,17,87)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "header_banner_color": "light",
+    "header_banner_height": "40",
+    "header_banner_mobile_height": "40",
+    "header_close_btn": "0",
+    "promo_popup": "1",
+    "promo_popup_content_type": "html_block",
+    "popup_html_block": "212",
+    "popup-background": {
+        "color": "#111111",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2024\/06\/lingerie-popup.jpg",
+        "id": "13920",
+        "repeat": "no-repeat",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "title-background": {
+        "color": "#0a0a0a",
+        "url": "https:\/\/dummy.xtemos.com\/woodmart2\/gutenberg\/wp-content\/uploads\/sites\/24\/2024\/06\/lingerie-page-title.jpg",
+        "id": "13921",
+        "repeat": "",
+        "size": "cover",
+        "attachment": "",
+        "position": "center center"
+    },
+    "disable_footer": "1",
+    "footer_content_type": "html_block",
+    "footer_html_block": "702",
+    "footer-bar-bg": {
+        "color": "#ffffff",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
+    "footer-style": "dark",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Karla",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
+    "primary-font": [
+        {
+            "google": "1",
+            "font-family": "Rosarivo",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#242424"
+        }
+    ],
+    "post-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Rosarivo",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "",
+            "color": "#333333",
+            "hover": {
+                "color": "rgb(51 51 51 \/ 65%)"
+            }
+        }
+    ],
+    "secondary-font": [
+        {
+            "google": "1",
+            "font-family": "Dancing Script",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Rosarivo",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Karla",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "14",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "primary-color": {
+        "idle": "rgb(192,17,87)"
+    },
+    "android_browser_bar_color": {
+        "idle": "rgb(192,17,87)"
+    },
+    "btns_shop_style": "flat",
+    "btns_shop_bg": {
+        "idle": "rgb(192,17,87)"
+    },
+    "btns_shop_bg_hover": {
+        "idle": "rgb(173,12,80)"
+    },
+    "blog_excerpt_length": "100",
+    "update_cart_quantity_change": "1",
+    "products_hover": "quick",
+    "blog_excerpt": "excerpt",
+    "blog_style": "flat",
+    "popup_color_scheme": "light",
+    "popup_width": "800",
+    "popup_padding": "eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiIxNSJ9fX0=",
+    "header_banner_html_block": "32021"
+}

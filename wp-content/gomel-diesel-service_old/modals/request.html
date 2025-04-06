@@ -1,0 +1,21 @@
+<!-- Десктопная форма "Заявка" -->
+<div class="modal-window">
+    <button class="modal-close">X</button>
+    <div class="modal-content">
+        <div class="modal-title">Оставить заявку</div>
+        <div class="modal-description">Оставьте Ваши контакты и наши специалисты свяжутся с вами в течение 20 минут</div>
+        <form class="modal-form">
+            <input type="text" class="form-field" placeholder="Ваше имя" required />
+            <input type="tel" class="form-field" placeholder="+375 __ _______" required />
+            <button type="submit" class="form-submit">Отправить</button>
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms-checkbox" class="checkbox" required />
+                <label for="terms-checkbox" class="checkbox-label">
+                    Соглашаюсь с 
+                    <span class="terms-link">Политикой обработки персональных данных</span>
+                </label>
+            </div>
+            <div class="error-message" id="mobile-error-message"></div>
+        </form>
+    </div>
+</div>

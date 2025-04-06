@@ -1,0 +1,19 @@
+{
+  "apiVersion": 2,
+  "title": "Paragraph",
+  "name": "wd/paragraph",
+  "description": "Customizable text paragraph with color and typography settings.",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "keywords": [
+    "text"
+  ],
+  "supports": {
+    "splitting": true,
+    "__experimentalSelector": ".wp-block-wd-paragraph",
+    "__unstablePasteTextInline": true,
+    "interactivity": {
+      "clientNavigation": true
+    }
+  }
+}

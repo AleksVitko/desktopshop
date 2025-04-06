@@ -1,0 +1,126 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//shop/wp-content/themes/woodmart/fonts/woodmart-font-1-400.woff2?v=8.0.6") format("woff2");
+}
+
+@font-face {
+	font-family: "star";
+	font-weight: 400;
+	font-style: normal;
+	src: url("//shop/wp-content/plugins/woocommerce/assets/fonts/star.eot?#iefix") format("embedded-opentype"), url("//shop/wp-content/plugins/woocommerce/assets/fonts/star.woff") format("woff"), url("//shop/wp-content/plugins/woocommerce/assets/fonts/star.ttf") format("truetype"), url("//shop/wp-content/plugins/woocommerce/assets/fonts/star.svg#star") format("svg");
+}
+
+@font-face {
+	font-family: "WooCommerce";
+	font-weight: 400;
+	font-style: normal;
+	src: url("//shop/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?#iefix") format("embedded-opentype"), url("//shop/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff") format("woff"), url("//shop/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf") format("truetype"), url("//shop/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce") format("svg");
+}
+
+:root {
+	--wd-text-font: "Lato", Arial, Helvetica, sans-serif;
+	--wd-text-font-weight: 400;
+	--wd-text-color: #767676;
+	--wd-text-font-size: 14px;
+	--wd-title-font: "Montserrat", Arial, Helvetica, sans-serif;
+	--wd-title-font-weight: 600;
+	--wd-title-color: #242424;
+	--wd-entities-title-font: "Montserrat", Arial, Helvetica, sans-serif;
+	--wd-entities-title-font-weight: 600;
+	--wd-entities-title-color: #333333;
+	--wd-entities-title-color-hover: rgb(51 51 51 / 65%);
+	--wd-alternative-font: "Montserrat", Arial, Helvetica, sans-serif;
+	--wd-widget-title-font: "Poppins", Arial, Helvetica, sans-serif;
+	--wd-widget-title-font-weight: 600;
+	--wd-widget-title-transform: uppercase;
+	--wd-widget-title-color: #333;
+	--wd-widget-title-font-size: 16px;
+	--wd-header-el-font: "Lato", Arial, Helvetica, sans-serif;
+	--wd-header-el-font-weight: 700;
+	--wd-header-el-transform: uppercase;
+	--wd-header-el-font-size: 13px;
+	--wd-primary-color: rgb(89,94,224);
+	--wd-alternative-color: #fbbc34;
+	--wd-link-color: #333333;
+	--wd-link-color-hover: #242424;
+	--btn-default-bgcolor: rgb(23,23,23);
+	--btn-default-bgcolor-hover: rgb(25,25,25);
+	--btn-accented-bgcolor: rgb(90,95,222);
+	--btn-accented-bgcolor-hover: rgb(82,87,203);
+	--wd-form-brd-width: 2px;
+	--notices-success-bg: #459647;
+	--notices-success-color: #fff;
+	--notices-warning-bg: #E0B252;
+	--notices-warning-color: #fff;
+}
+.wd-popup.wd-age-verify {
+	--wd-popup-width: 500px;
+}
+.wd-popup.wd-promo-popup {
+	background-color: #111111;
+	background-image: url(https://shop/wp-content/uploads/2021/09/hardware-popup-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	--wd-popup-width: 800px;
+}
+.woodmart-woocommerce-layered-nav .wd-scroll-content {
+	max-height: 223px;
+}
+.wd-page-title {
+	background-color: rgb(16,16,16);
+	background-image: none;
+	background-size: cover;
+	background-position: center center;
+}
+.wd-footer {
+	background-color: rgb(0,0,0);
+	background-image: url(https://shop/wp-content/uploads/2021/09/hardware-footer-bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+.page .wd-page-content {
+	background-color: rgb(16,16,16);
+	background-image: none;
+}
+.wd-popup.popup-quick-view {
+	--wd-popup-width: 920px;
+}
+:root{
+--wd-container-w: 1222px;
+--wd-form-brd-radius: 0px;
+--btn-default-color: #fff;
+--btn-default-color-hover: #fff;
+--btn-accented-color: #fff;
+--btn-accented-color-hover: #fff;
+--btn-default-brd-radius: 0px;
+--btn-default-box-shadow: none;
+--btn-default-box-shadow-hover: none;
+--btn-default-box-shadow-active: none;
+--btn-default-bottom: 0px;
+--btn-accented-brd-radius: 0px;
+--btn-accented-box-shadow: none;
+--btn-accented-box-shadow-hover: none;
+--btn-accented-box-shadow-active: none;
+--btn-accented-bottom: 0px;
+--wd-brd-radius: 0px;
+}
+
+@media (min-width: 1239px) {
+.platform-Windows .wd-section-stretch > .elementor-container {
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+@media (min-width: 1222px) {
+html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+

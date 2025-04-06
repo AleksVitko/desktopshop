@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "title": "List item",
+  "name": "wd/list-item",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/list"
+  ],
+  "supports": {
+    "splitting": true
+  }
+}

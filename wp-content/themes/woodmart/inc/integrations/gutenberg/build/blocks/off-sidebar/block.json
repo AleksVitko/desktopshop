@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "title": "Off-canvas sidebar",
+  "description": "The column that will slide into the screen if the corresponding option is enabled.",
+  "name": "wd/off-sidebar",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "parent": [
+    "wd/off-canvas"
+  ]
+}

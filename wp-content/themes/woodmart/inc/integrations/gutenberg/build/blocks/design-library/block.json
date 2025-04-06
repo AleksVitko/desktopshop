@@ -1,0 +1,17 @@
+{
+  "apiVersion": 2,
+  "title": "Design library",
+  "name": "wd/design-library",
+  "category": "xtemos",
+  "textdomain": "woodmart",
+  "supports": {
+    "html": false,
+    "inserter": false,
+    "renaming": false,
+    "className": false,
+    "customClassName": false,
+    "interactivity": {
+      "clientNavigation": true
+    }
+  }
+}

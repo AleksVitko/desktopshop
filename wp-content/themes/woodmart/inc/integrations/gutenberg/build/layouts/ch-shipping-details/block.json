@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Shipping details",
+  "name": "wd/ch-shipping-details",
+  "category": "xtemos_checkout_elements",
+  "textdomain": "woodmart",
+  "ancestor": [
+    "wd/ch-form"
+  ]
+}

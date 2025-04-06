@@ -1,0 +1,10 @@
+{
+  "apiVersion": 2,
+  "title": "Payment methods",
+  "name": "wd/ch-payment-methods",
+  "category": "xtemos_checkout_elements",
+  "textdomain": "woodmart",
+  "ancestor": [
+    "wd/ch-form"
+  ]
+}
