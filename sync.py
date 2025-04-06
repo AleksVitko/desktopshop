@@ -23,7 +23,7 @@ def git_push():
         logging.info("Файлы успешно добавлены в индекс Git.")
         
         # Делаем коммит
-        commit_message = "Автоматическая синхронизация"
+        commit_message = "Automatic synchronization"
         subprocess.run(["git", "commit", "-m", commit_message], cwd=project_path, check=True)
         logging.info(f"Коммит выполнен: {commit_message}")
         
