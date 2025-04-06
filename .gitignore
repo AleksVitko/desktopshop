@@ -1,0 +1,10 @@
+# Игнорировать все файлы и папки
+/*
+
+# Исключить из игнора папку "gomel-diesel-service"
+!/wp-content/
+!/wp-content/themes/
+!/wp-content/themes/gomel-diesel-service/
+
+# Исключить сам файл .gitignore
+!.gitignore
