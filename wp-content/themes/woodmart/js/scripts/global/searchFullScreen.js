@@ -1,8 +1,6 @@
 /* global woodmart_settings */
 (function($) {
 	woodmartThemeModule.searchFullScreen = function() {
-		var $searchWrapper = $('[class*=wd-search-full-screen]');
-
 		if ( 'yes' === woodmart_settings.ajax_fullscreen_content ) {
 			woodmartThemeModule.$body.on('mouseover click touchstart', '.wd-header-search.wd-display-full-screen > a, .wd-search-form.wd-display-full-screen-2', function() {
 				var $this = $(this);
@@ -13,6 +11,7 @@
 
 				$this.addClass('wd-inited');
 
+				var $searchWrapper = $('[class*=wd-search-full-screen]');
 				var $contentArea = $searchWrapper.find('.wd-search-area');
 
 				if ( ! $contentArea.length ) {
@@ -91,6 +90,8 @@
 		};
 
 		var closeWidget = function() {
+			var $searchWrapper = $('[class*=wd-search-full-screen]');
+
 			$('html').removeClass('wd-search-opened');
 			$searchWrapper.removeClass('wd-opened');
 			setTimeout( function () {

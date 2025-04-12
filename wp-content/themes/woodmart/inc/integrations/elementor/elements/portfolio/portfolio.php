@@ -105,16 +105,11 @@ if ( ! function_exists( 'woodmart_elementor_portfolio_template' ) ) {
 
 		woodmart_set_loop_prop( 'portfolio_style', $settings['style'] );
 		woodmart_set_loop_prop( 'portfolio_column', $settings['columns'] );
+		woodmart_set_loop_prop( 'portfolio_columns_tablet', $settings['columns_tablet']['size'] );
+		woodmart_set_loop_prop( 'portfolio_columns_mobile', $settings['columns_mobile']['size'] );
 		woodmart_set_loop_prop( 'portfolio_image_size', $settings['image_size'] );
 		if ( ! empty( $settings['image_size_custom'] ) ) {
 			woodmart_set_loop_prop( 'portfolio_image_size_custom', $settings['image_size_custom'] );
-		}
-
-		if ( isset( $settings['columns_tablet']['size'] ) && $settings['columns_tablet']['size'] ) {
-			woodmart_set_loop_prop( 'portfolio_columns_tablet', $settings['columns_tablet']['size'] );
-		}
-		if ( isset( $settings['columns_mobile']['size'] ) && $settings['columns_mobile']['size'] ) {
-			woodmart_set_loop_prop( 'portfolio_columns_mobile', $settings['columns_mobile']['size'] );
 		}
 
 		if ( $is_ajax ) {

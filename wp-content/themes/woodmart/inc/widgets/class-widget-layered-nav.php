@@ -164,7 +164,7 @@ if ( ! class_exists( 'WOODMART_Widget_Layered_Nav' ) ) {
 			$template           = isset( $instance['template'] ) ? $instance['template'] : 'default';
 			$wrapper_classes    = '';
 
-			if ( ! is_shop() && ! is_product_taxonomy() && $template == 'default' ) {
+			if ( ! $this->is_widget_preview() && ! is_shop() && ! is_product_taxonomy() && $template == 'default' ) {
 				return;
 			}
 
@@ -937,7 +937,7 @@ if ( ! class_exists( 'WOODMART_Widget_Layered_Nav' ) ) {
 								}
 
 								echo '<li class="wd-pf-' . esc_attr( $term->slug ) . esc_attr( $class ) . '">';
-								echo '<a rel="nofollow noopener" href="' . esc_url( apply_filters( 'woocommerce_layered_nav_link', $link ) ) .'" class="pf-value" data-val="' . esc_attr( wc_attribute_taxonomy_slug( $term->slug ) ) . '" data-title="' . esc_attr( $term->name ) . '">';
+								echo '<a rel="nofollow noopener" href="' . esc_url( apply_filters( 'woocommerce_layered_nav_link', $link ) ) .'" class="pf-value" data-val="' . esc_attr( 'product_brand' === $taxonomy ? $term->term_id : $term->slug ) . '" data-title="' . esc_attr( $term->name ) . '">';
 									if ( $swatch_style || $swatch_text || $swatch_image ) {
 										echo '<span class="wd-swatch' . esc_attr( $filter_classes ) . '">';
 

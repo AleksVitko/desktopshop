@@ -1,6 +1,6 @@
 <?php
 	$class  = ( $params['full_height'] ) ? 'wd-full-height' : 'whb-divider-default';
-	$class .= ' ' . $params['css_class'];
+	$class .= $params['css_class'] ? ' ' . $params['css_class'] : '';
 	$class .= ' whb-' . $id;
 	$class .= woodmart_get_old_classes( ' whb-divider-element' );
 ?>

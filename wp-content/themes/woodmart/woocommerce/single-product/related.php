@@ -33,7 +33,7 @@ if ( $related_products ) {
 			'element_title_tag'            => 'h2',
 			'layout'                       => 'slider' === woodmart_get_opt( 'related_product_view' ) ? 'carousel' : 'grid',
 			'post_type'                    => 'ids',
-			'include'                      => $product_ids,
+			'include'                      => implode( ',', $product_ids ),
 			'slides_per_view'              => woodmart_get_opt( 'related_product_columns', 4 ),
 			'slides_per_view_tablet'       => woodmart_get_opt( 'related_product_columns_tablet' ),
 			'slides_per_view_mobile'       => woodmart_get_opt( 'related_product_columns_mobile' ),
@@ -53,15 +53,9 @@ if ( $related_products ) {
 			'spacing_mobile'               => woodmart_get_opt( 'products_spacing_mobile', '' ),
 			'wrapper_classes'              => ' related-products',
 			'query_post_type'              => array( 'product', 'product_variation' ),
+			'items_per_page'               => woodmart_get_opt( 'related_product_count' ),
 		)
 	);
 
-	if ( woodmart_is_elementor_installed() ) {
-		$products_atts['columns']         = array( 'size' => $products_atts['columns'] );
-		$products_atts['slides_per_view'] = array( 'size' => $products_atts['slides_per_view'] );
-		echo woodmart_elementor_products_template( $products_atts ); //phpcs:ignore
-	} else {
-		$products_atts['include'] = implode( ',', $products_atts['include'] );
-		echo woodmart_shortcode_products( $products_atts ); //phpcs:ignore
-	}
+	echo woodmart_shortcode_products( $products_atts ); //phpcs:ignore
 }

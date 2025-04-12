@@ -112,6 +112,15 @@ class Contact_Form_7 extends Widget_Base {
 		);
 
 		$this->add_control(
+			'css_classes',
+			array(
+				'type'         => 'wd_css_class',
+				'default'      => 'wd-cf7',
+				'prefix_class' => '',
+			)
+		);
+
+		$this->add_control(
 			'form_id',
 			[
 				'label'       => esc_html__( 'Select contact form', 'woodmart' ),
@@ -314,6 +323,8 @@ class Contact_Form_7 extends Widget_Base {
 		];
 
 		$settings = wp_parse_args( $this->get_settings_for_display(), $default_settings );
+
+		woodmart_enqueue_inline_style( 'wpcf7', true );
 
 		if ( ! $settings['form_id'] || ! defined( 'WPCF7_PLUGIN' ) ) {
 			echo '<div class="wd-notice wd-info">' . esc_html__( 'You need to create a form using Contact form 7 plugin to be able to display it using this element.', 'woodmart' ) . '</div>';

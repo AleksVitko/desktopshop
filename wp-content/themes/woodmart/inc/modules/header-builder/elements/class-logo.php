@@ -83,7 +83,7 @@ class Logo extends Element {
 					'type'        => 'switcher',
 					'tab'         => esc_html__( 'General', 'woodmart' ),
 					'description' => esc_html__( 'Explicit width and height attributes are recommended to improve page load speed.', 'woodmart' ),
-					'value'       => false,
+					'value'       => true,
 				),
 			),
 		);

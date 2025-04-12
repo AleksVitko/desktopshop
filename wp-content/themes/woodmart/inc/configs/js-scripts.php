@@ -227,6 +227,22 @@ return array(
 			'in_footer' => true,
 		),
 	),
+	'clear-search'                    => array(
+		array(
+			'title'     => esc_html__( 'Clear search button', 'woodmart' ),
+			'name'      => 'clear-search',
+			'file'      => '/js/scripts/global/clearSearch',
+			'in_footer' => true,
+		),
+	),
+	'mailchimp'                       => array(
+		array(
+			'title'     => esc_html__( 'Mailchimp', 'woodmart' ),
+			'name'      => 'mailchimp',
+			'file'      => '/js/scripts/global/mailchimp',
+			'in_footer' => true,
+		),
+	),
 	// Blog.
 	'blog-load-more'                  => array(
 		array(
@@ -353,7 +369,7 @@ return array(
 	),
 	'view3d-element'                  => array(
 		array(
-			'title'     => esc_html__( 'View 3D element', 'woodmart' ),
+			'title'     => esc_html__( '360 degree view element', 'woodmart' ),
 			'name'      => 'view3d-element',
 			'file'      => '/js/scripts/elements/view3d',
 			'in_footer' => true,
@@ -428,6 +444,14 @@ return array(
 			'title'     => esc_html__( 'Compare images element', 'woodmart' ),
 			'name'      => 'compare-images-element',
 			'file'      => '/js/scripts/elements/compareImages',
+			'in_footer' => true,
+		),
+	),
+	'sticky-columns-element'          => array(
+		array(
+			'title'     => esc_html__( 'Sticky columns element', 'woodmart' ),
+			'name'      => 'sticky-columns-element',
+			'file'      => '/js/scripts/elements/stickyColumns',
 			'in_footer' => true,
 		),
 	),
@@ -1164,6 +1188,14 @@ return array(
 			'title'     => esc_html__( 'Estimate delivery on cart page', 'woodmart' ),
 			'name'      => 'estimate-delivery-on-cart',
 			'file'      => '/js/scripts/wc/estimateDeliveryOnCart',
+			'in_footer' => true,
+		),
+	),
+	'abandoned-cart'                  => array(
+		array(
+			'title'     => esc_html__( 'Abandoned cart', 'woodmart' ),
+			'name'      => 'abandoned-cart',
+			'file'      => '/js/scripts/wc/abandonedCart',
 			'in_footer' => true,
 		),
 	),

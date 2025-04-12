@@ -21,8 +21,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 function vc_textfield_form_field( $settings, $value ) {
 	$value = is_string( $value ) ? htmlspecialchars( $value ) : '';
+	$value_type = isset( $settings['value_type'] ) ? $settings['value_type'] : 'html';
+	$placeholder = $settings['placeholder'] ?? '';
 
-	return '<input name="' . $settings['param_name'] . '" class="wpb_vc_param_value wpb-textinput ' . $settings['param_name'] . ' ' . $settings['type'] . '" type="text" value="' . $value . '"/>';
+	return '<input name="' . $settings['param_name'] . '" class="wpb_vc_param_value wpb-textinput ' . $settings['param_name'] . ' ' . $settings['type'] . '" type="text" value="' . $value . '" data-value-type="' . $value_type . '" placeholder="' . $placeholder . '" />';
 }
 
 /**
@@ -82,8 +84,8 @@ function vc_checkbox_form_field( $settings, $value ) {
 	if ( is_array( $value ) || is_null( $value ) ) {
 		$value = ''; // fix #1239.
 	}
-	$current_value = strlen( $value ) > 0 ? explode( ',', $value ) : array();
-	$values = isset( $settings['value'] ) && is_array( $settings['value'] ) ? $settings['value'] : array( esc_html__( 'Yes', 'js_composer' ) => 'true' );
+	$current_value = strlen( $value ) > 0 ? explode( ',', $value ) : [];
+	$values = isset( $settings['value'] ) && is_array( $settings['value'] ) ? $settings['value'] : [ esc_html__( 'Yes', 'js_composer' ) => 'true' ];
 	if ( ! empty( $values ) ) {
 		foreach ( $values as $label => $v ) {
 			// NOTE!! Don't use strict compare here for BC!
@@ -127,9 +129,9 @@ function vc_checkbox_param_defaults( $value, $param ) {
  */
 function vc_posttypes_form_field( $settings, $value ) {
 	$output = '';
-	$args = array(
+	$args = [
 		'public' => true,
-	);
+	];
 	$post_types = get_post_types( $args );
 	$value = is_null( $value ) ? '' : $value;
 	foreach ( $post_types as $post_type ) {
@@ -156,10 +158,10 @@ function vc_posttypes_form_field( $settings, $value ) {
  */
 function vc_taxonomies_form_field( $settings, $value ) {
 	$output = '';
-	$post_types = get_post_types( array(
+	$post_types = get_post_types( [
 		'public' => false,
 		'name' => 'attachment',
-	), 'names', 'NOT' );
+	], 'names', 'NOT' );
 	foreach ( $post_types as $type ) {
 		$taxonomies = get_object_taxonomies( $type, '' );
 		foreach ( $taxonomies as $tax ) {
@@ -239,6 +241,7 @@ function vc_textarea_safe_form_field( $settings, $value ) {
 
 /**
  * Textarea shortcode attribute type generator.
+ * Textarea param type is used for large plain text input.
  *
  * @param array $settings
  * @param string $value
@@ -247,7 +250,9 @@ function vc_textarea_safe_form_field( $settings, $value ) {
  * @since 4.4
  */
 function vc_textarea_form_field( $settings, $value ) {
-	return '<textarea name="' . $settings['param_name'] . '" class="wpb_vc_param_value wpb-textarea ' . $settings['param_name'] . ' ' . $settings['type'] . '">' . $value . '</textarea>';
+	$value_type = isset( $settings['value_type'] ) ? $settings['value_type'] : 'html';
+	$placeholder = $settings['placeholder'] ?? '';
+	return '<textarea name="' . $settings['param_name'] . '" class="wpb_vc_param_value wpb-textarea ' . $settings['param_name'] . ' ' . $settings['type'] . '" data-value-type="' . $value_type . '" placeholder="' . $placeholder . '">' . $value . '</textarea>';
 }
 
 /**

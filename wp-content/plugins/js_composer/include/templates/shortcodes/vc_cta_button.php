@@ -64,7 +64,7 @@ $output .= '<div class="' . esc_attr( $css_class ) . '">';
 if ( 'cta_align_bottom' !== $position ) {
 	$output .= $button;
 }
-$output .= apply_filters( 'wpb_cta_text', '<h2 class="wpb_call_text">' . $call_text . '</h2>', array( 'content' => $call_text ) );
+$output .= apply_filters( 'wpb_cta_text', '<h2 class="wpb_call_text">' . $call_text . '</h2>', [ 'content' => $call_text ] );
 if ( 'cta_align_bottom' === $position ) {
 	$output .= $button;
 }

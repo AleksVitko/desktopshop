@@ -440,6 +440,18 @@ class Blog extends Widget_Base {
 			]
 		);
 
+		$this->add_control(
+			'parts_published_date',
+			array(
+				'label'        => esc_html__( 'Published date', 'woodmart' ),
+				'type'         => Controls_Manager::SWITCHER,
+				'default'      => '1',
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
+				'return_value' => '1',
+			)
+		);
+
 		$this->end_controls_section();
 
 		/**

@@ -203,7 +203,6 @@
         }
     },
     "single_product_thumbnails_gallery_image_width": "148",
-    "variation_gallery_storage_method": "new",
     "ajax_variation_threshold": "30",
     "linked_variations": "1",
     "variation_gallery": "1",
@@ -219,7 +218,7 @@
     "grid_swatches_attribute": "pa_color",
     "swatches_use_variation_images": "1",
     "quick_shop_variable": "1",
-    "brands_attribute": "pa_brand",
+    "brands_attribute": "",
     "shipping_progress_bar_enabled": "1",
     "shipping_progress_bar_calculation": "custom",
     "shipping_progress_bar_amount": "900",

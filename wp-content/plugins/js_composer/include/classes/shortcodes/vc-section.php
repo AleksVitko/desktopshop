@@ -40,8 +40,8 @@ class WPBakeryShortCode_Vc_Section extends WPBakeryShortCodesContainer {
 	 * Register shortcode scripts.
 	 */
 	protected function shortcodeScripts() {
-		wp_register_script( 'vc_jquery_skrollr_js', vc_asset_url( 'lib/vendor/node_modules/skrollr/dist/skrollr.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_youtube_iframe_api_js', 'https://www.youtube.com/iframe_api', array(), WPB_VC_VERSION, true );
+		wp_register_script( 'vc_jquery_skrollr_js', vc_asset_url( 'lib/vendor/node_modules/skrollr/dist/skrollr.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_youtube_iframe_api_js', 'https://www.youtube.com/iframe_api', [], WPB_VC_VERSION, true );
 	}
 
 	/**

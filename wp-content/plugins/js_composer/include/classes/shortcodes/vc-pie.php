@@ -27,13 +27,13 @@ class WPBakeryShortCode_Vc_Pie extends WPBakeryShortCode {
 	 * Register scripts.
 	 */
 	public function jsScripts() {
-		wp_register_script( 'vc_waypoints', vc_asset_url( 'lib/vc/vc_waypoints/vc-waypoints.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'progressCircle', vc_asset_url( 'lib/vendor/progress-circle/progress-circle.min.js' ), array(), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_pie', vc_asset_url( 'lib/vc/vc_chart/jquery.vc_chart.min.js' ), array(
+		wp_register_script( 'vc_waypoints', vc_asset_url( 'lib/vc/vc_waypoints/vc-waypoints.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'progressCircle', vc_asset_url( 'lib/vendor/progress-circle/progress-circle.min.js' ), [], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_pie', vc_asset_url( 'lib/vc/vc_chart/jquery.vc_chart.min.js' ), [
 			'jquery-core',
 			'vc_waypoints',
 			'progressCircle',
-		), WPB_VC_VERSION, true );
+		], WPB_VC_VERSION, true );
 	}
 
 	/**
@@ -44,7 +44,7 @@ class WPBakeryShortCode_Vc_Pie extends WPBakeryShortCode {
 	 * @return array
 	 */
 	public static function convertOldColorsToNew( $atts ) {
-		$map = array(
+		$map = [
 			'btn-primary' => '#0088cc',
 			'btn-success' => '#6ab165',
 			'btn-warning' => '#ff9900',
@@ -58,7 +58,7 @@ class WPBakeryShortCode_Vc_Pie extends WPBakeryShortCode {
 			'danger' => '#ff675b',
 			'info' => '#58b9da',
 			'default' => '#f7f7f7',
-		);
+		];
 
 		if ( isset( $atts['color'] ) && isset( $map[ $atts['color'] ] ) ) {
 			$atts['custom_color'] = $map[ $atts['color'] ];

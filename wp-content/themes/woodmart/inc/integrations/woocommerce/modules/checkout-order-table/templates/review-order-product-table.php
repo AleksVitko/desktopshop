@@ -128,4 +128,3 @@ foreach ( WC()->cart->get_cart() as $cart_item_key => $cart_item ) {
 		<?php
 	}
 }
-wp_nonce_field( 'woodmart_remove_product_from_checkout' );

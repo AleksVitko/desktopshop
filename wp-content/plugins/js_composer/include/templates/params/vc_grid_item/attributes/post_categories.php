@@ -16,7 +16,7 @@ VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_Vc_Gitem_
 $categories = get_the_category();
 
 $separator = '';
-$css_class = array( 'vc_gitem-post-data' );
+$css_class = [ 'vc_gitem-post-data' ];
 $css_class[] = vc_shortcode_custom_css_class( $atts['css'] );
 $css_class[] = $atts['el_class'];
 $css_class[] = 'vc_gitem-post-data-source-post_categories';
@@ -32,7 +32,7 @@ if ( ! empty( $style ) && 'none' !== $style ) {
 }
 
 $output = '<div class="' . esc_attr( implode( ' ', array_filter( $css_class ) ) ) . '">';
-$data = array();
+$data = [];
 if ( ! empty( $categories ) ) {
 	foreach ( $categories as $category ) {
 		$category_link = '';

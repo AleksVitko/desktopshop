@@ -33,6 +33,7 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	gap: 5px;
 	// box-sizing: border-box;
 	padding: 0 15px;
 	height: var(--xts-input-height);
@@ -51,11 +52,12 @@
 	line-height: 1;
 	transition: .2s all ease-in-out !important;
 	transform: none;
+	cursor: pointer;
 
-	&:hover {
-		// background-color: var(--xts-btn-grey-color-hover);
-		cursor: pointer;
-	}
+	// &:hover {
+	// 	// background-color: var(--xts-btn-grey-color-hover);
+	// 	cursor: pointer;
+	// }
 
 	&:hover,
 	&:focus {
@@ -95,7 +97,7 @@
 // @extend %xts-button-alternative;
 
 %xts-button-alternative {
-	background-color: var(--xts-btn-secondary-color);
+	background-color: var(--xts-btn-secondary-color) !important;
 	color: #FFF !important;
 
 	// &:hover,
@@ -199,6 +201,7 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	gap: 5px;
 	// box-sizing: border-box;
 	padding: 0 15px;
 	height: var(--xts-input-height);

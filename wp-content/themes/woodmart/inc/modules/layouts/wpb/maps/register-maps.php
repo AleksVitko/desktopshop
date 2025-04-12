@@ -16,9 +16,8 @@ if ( ! function_exists( 'woodmart_vc_register_layouts_maps' ) ) {
 		$maps = array();
 
 		$cart_maps = array(
-			'woodmart_cart_table'      => 'woodmart_get_vc_map_cart_table',
-			'woodmart_cart_totals'     => 'woodmart_get_vc_map_cart_totals',
-			'woodmart_cart_free_gifts' => 'woodmart_get_vc_map_free_gifts',
+			'woodmart_cart_table'  => 'woodmart_get_vc_map_cart_table',
+			'woodmart_cart_totals' => 'woodmart_get_vc_map_cart_totals',
 		);
 
 		$empty_cart_maps = array(
@@ -116,6 +115,10 @@ if ( ! function_exists( 'woodmart_vc_register_layouts_maps' ) ) {
 
 		if ( Main::is_layout_type( 'checkout_form' ) || Main::is_layout_type( 'cart' ) || Main::is_layout_type( 'checkout_content' ) ) {
 			$maps = array_merge( $maps, array( 'woodmart_woocommerce_checkout_steps' => 'woodmart_get_vc_map_checkout_steps' ) );
+		}
+
+		if ( Main::is_layout_type( 'checkout_form' ) || Main::is_layout_type( 'cart' ) ) {
+			$maps = array_merge( $maps, array( 'woodmart_cart_free_gifts' => 'woodmart_get_vc_map_free_gifts' ) );
 		}
 
 		$maps = array_merge( $maps, $woocommerce_maps );

@@ -7541,7 +7541,7 @@ Croton petra plants are susceptible to the bacterial diseases crown gall and xan
 
 [submit "Submit"]
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title]  
 From: [your-name] [your-email]
 Subject: [your-subject]
 
@@ -7557,7 +7557,7 @@ Reply-To: [your-email]
 0
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title]  
 Message Body:
 [your-message]
 
@@ -7609,7 +7609,7 @@ There was an error uploading the file.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:4:"body";s:161:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:4:"body";s:161:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -7620,7 +7620,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:9:"re
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 

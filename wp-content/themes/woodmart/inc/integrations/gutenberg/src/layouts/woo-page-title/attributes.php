@@ -14,7 +14,7 @@ if ( ! function_exists( 'wd_get_woo_block_page_title_attrs' ) ) {
 			)
 		);
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

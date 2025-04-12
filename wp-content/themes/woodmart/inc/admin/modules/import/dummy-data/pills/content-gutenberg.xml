@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 09:29" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-20 15:36" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,14 @@
 	<title>Pills gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 09:29:31 +0000</pubDate>
+	<pubDate>Mon, 20 Jan 2025 15:36:54 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/pills-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +51,7 @@
 					<title><![CDATA[w-pas-logo-white]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/w-pas-logo-white/</link>
 					<pubDate>Mon, 22 Jul 2024 14:21:21 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-logo-white.svg</guid>
 															<wp:post_id>294</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 14:21:21]]></wp:post_date>
@@ -73,7 +74,7 @@
 					<title><![CDATA[arrow]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/arrow/</link>
 					<pubDate>Mon, 22 Jul 2024 14:23:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/arrow.svg</guid>
 															<wp:post_id>295</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 14:23:19]]></wp:post_date>
@@ -96,7 +97,7 @@
 					<title><![CDATA[w-pas-map-pointer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/w-pas-map-pointer/</link>
 					<pubDate>Mon, 22 Jul 2024 14:23:24 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-map-pointer.svg</guid>
 															<wp:post_id>304</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 14:23:24]]></wp:post_date>
@@ -119,7 +120,7 @@
 					<title><![CDATA[w-pas-trustpilot-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/w-pas-trustpilot-1/</link>
 					<pubDate>Mon, 22 Jul 2024 14:23:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-1.svg</guid>
 															<wp:post_id>305</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 14:23:25]]></wp:post_date>
@@ -142,13 +143,13 @@
 					<title><![CDATA[Footer Pills]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/?cms_block=footer-pills</link>
 					<pubDate>Tue, 23 Jul 2024 06:14:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pills-gutenberg/?post_type=cms_block&#038;p=342</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"e461fd86-5ce2-423c-bc56-987021d23824","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-e461fd86" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/row {"blockId":"8146e239-4c6c-48e3-a042-a2cb29a1ff61","columnsGap":0,"bgColorCode":"#ffffff","marginTop":"40","borderRadius":"16","borderRadiusTop":"16","borderRadiusRight":"16","borderRadiusBottom":"16","borderRadiusLeft":"16"} -->
 <div id="wd-8146e239" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"f73d6947-235b-414a-acc4-ffc79dddb3a7","adjacentCount":3,"paddingTop":"40","paddingRight":"40","paddingBottom":"40","paddingLeft":"40","paddingLock":true,"paddingTopMobile":"30","paddingRightMobile":"30","paddingBottomMobile":"30","paddingLeftMobile":"30","paddingLockMobile":true} -->
 <div id="wd-f73d6947" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"15db2e7a-c0c8-4870-8f56-74d73912b675","image":{"id":402,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-avatars-help-min.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-avatars-help-min.png","width":352,"height":100},"displayWidth":"custom","customWidth":"148"} -->
-<div id="wd-15db2e7a" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-402" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-avatars-help-min.png" /></div>
+<div id="wd-15db2e7a" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-402" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-avatars-help-min.png" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/title {"blockId":"29f10c2d-f959-48d3-a266-523f06da89d8","content":"Need help choosing?","tpFontSize":"24","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
@@ -157,14 +158,14 @@
 
 <!-- wp:wd/button {"blockId":"8b88bcc1-a1d8-4935-ac62-0733ce2a5d34","predefinedColor":"primary","shape":"round","icon":"right"} -->
 <a id="wd-8b88bcc1" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-default btn-shape-round btn-icon-pos-right" href="#"><span>Contact With Expert</span><!-- wp:wd/icon {"blockId":"7b82a681-30d9-4dae-9cf7-052e01a278ae","image":{"id":295,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/arrow.svg"},"width":"16","height":"16"} -->
-<div id="wd-7b82a681" class="wp-block-wd-icon"><img class="wp-image-295" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/arrow.svg" /></div>
+<div id="wd-7b82a681" class="wp-block-wd-icon"><img class="wp-image-295" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/arrow.svg" alt="" /></div>
 <!-- /wp:wd/icon --></a>
 <!-- /wp:wd/button --></div>
 <!-- /wp:wd/column -->
 
 <!-- wp:wd/column {"blockId":"c0495459-4ba6-42ad-8192-7f57ac530833","adjacentCount":3,"paddingTop":"40","paddingRight":"40","paddingBottom":"40","paddingLeft":"40","paddingLock":true,"borderType":"solid","borderColorCode":"rgba(0,0,0,0.11)","borderWidthRight":"1","borderWidthLeft":"1","borderWidthLock":false,"paddingTopMobile":"30","paddingRightMobile":"30","paddingBottomMobile":"30","paddingLeftMobile":"30","paddingLockMobile":true,"borderWidthMobile":"0","borderWidthTopMobile":"0","borderWidthRightMobile":"0","borderWidthBottomMobile":"0","borderWidthLeftMobile":"0"} -->
 <div id="wd-c0495459" class="wp-block-wd-column"><!-- wp:wd/icon {"blockId":"27c3afb8-f030-4eb6-beab-ac1bcc6a702e","image":{"id":304,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-map-pointer.svg"},"width":"42","lock":{"move":false,"remove":false}} -->
-<div id="wd-27c3afb8" class="wp-block-wd-icon"><img class="wp-image-304" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-map-pointer.svg" /></div>
+<div id="wd-27c3afb8" class="wp-block-wd-icon"><img class="wp-image-304" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-map-pointer.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/title {"blockId":"24cf77d1-66c2-4b93-b6e3-57491cfe370c","content":"1901 Thornridge Cir. Shiloh, Hawaii 81063​","tpFontSize":"24","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
@@ -182,12 +183,12 @@
 
 <!-- wp:wd/column {"blockId":"f36ec768-bead-4c5d-a4f4-2a737c4d16ab","adjacentCount":3,"paddingTop":"40","paddingRight":"40","paddingBottom":"40","paddingLeft":"40","paddingLock":true,"paddingTopMobile":"30","paddingRightMobile":"30","paddingBottomMobile":"30","paddingLeftMobile":"30","paddingLockMobile":true} -->
 <div id="wd-f36ec768" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"cb3e81ab-254b-40ef-809f-2de04962877a","image":{"id":305,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-1.svg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-1.svg","width":130,"height":32},"borderRadius":"0","borderRadiusTop":"0","borderRadiusRight":"0","borderRadiusBottom":"0","borderRadiusLeft":"0","displayWidth":"custom","customWidth":"171"} -->
-<div id="wd-cb3e81ab" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-305" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-1.svg" /></div>
+<div id="wd-cb3e81ab" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-305" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-1.svg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"5715d5a5-03ef-4aa5-91d4-a8fb28a7b9ff","direction":"row","align":"center","wrap":"wrap","colGap":"10"} -->
 <div id="wd-5715d5a5" class="wp-block-wd-container wd-dir-row wd-align-is-lg-center"><!-- wp:wd/image {"blockId":"914bc133-39ca-4c88-95fb-ea459a320cca","image":{"id":401,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-2-min.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-2-min.png","width":106,"height":20},"borderRadius":"0","borderRadiusTop":"0","borderRadiusRight":"0","borderRadiusBottom":"0","borderRadiusLeft":"0"} -->
-<div id="wd-914bc133" class="wp-block-wd-image wd-block-image"><img class="wp-image-401" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-2-min.png" /></div>
+<div id="wd-914bc133" class="wp-block-wd-image wd-block-image"><img class="wp-image-401" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-2-min.png" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/title {"blockId":"de96b72b-260c-4ca8-b24f-4784fccd69fb","content":"Rated 4.9","tpFontSize":"24","htmlTag":"p","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
@@ -211,7 +212,7 @@
 <!-- wp:wd/row {"blockId":"773552f8-2e4f-4be3-9bfd-e7202344fd03","marginBottom":"60","marginBottomMobile":"20"} -->
 <div id="wd-773552f8" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"9d9a7549-79de-45ed-9190-e3aef09406fe","adjacentCount":4,"colWidth":33,"colorScheme":"light","adjacentCountMobile":2} -->
 <div id="wd-9d9a7549" class="wp-block-wd-column color-scheme-light"><!-- wp:wd/image {"blockId":"ab458ab2-213c-4cae-913f-b55355500cdb","image":{"id":294,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-logo-white.svg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-logo-white.svg","width":230,"height":40}} -->
-<div id="wd-ab458ab2" class="wp-block-wd-image wd-block-image"><a href="#" class="wd-block-image-link"><img class="wp-image-294" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-logo-white.svg" /></a></div>
+<div id="wd-ab458ab2" class="wp-block-wd-image wd-block-image"><a href="#" class="wd-block-image-link"><img class="wp-image-294" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-logo-white.svg" alt="" /></a></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/paragraph {"blockId":"87b87177-faaa-4fee-953a-07fa2a54e44b","displayWidth":"custom","customWidth":"400","displayWidthMobile":"full-width"} -->
@@ -232,7 +233,7 @@
 <!-- /wp:wd/container -->
 
 <!-- wp:wd/toggle-content {"blockId":"fbcba767-4a97-4862-9778-3388c4f98504"} -->
-<div id="wd-fbcba767" class="wp-block-wd-toggle-content wd-toggle-content"><div class="wd-toggle-content-inner"><!-- wp:wd/menu-list {"blockId":"6929b76f-045f-4d2d-ab11-4fb7ed534a13","title":""} -->
+<div id="wd-fbcba767" class="wp-block-wd-toggle-content wd-toggle-content"><div class="wd-toggle-content-inner"><!-- wp:wd/menu-list {"blockId":"6929b76f-045f-4d2d-ab11-4fb7ed534a13","title":"","itemsColorCode":"#ffffff","itemsHoverColorVariable":"\u002d\u002dwd-primary-color"} -->
 <ul id="wd-6929b76f" class="wp-block-wd-menu-list wd-sub-menu wd-sub-accented"><li><ul class="sub-sub-menu"><!-- wp:wd/menu-list-item {"blockId":"bf7c68c7-939c-4b81-9249-9e5cb69971d6","title":"Anxiety"} -->
 <li id="wd-bf7c68c7" class="wp-block-wd-menu-list-item"><a href="#">Anxiety</a></li>
 <!-- /wp:wd/menu-list-item -->
@@ -270,7 +271,7 @@
 <!-- /wp:wd/container -->
 
 <!-- wp:wd/toggle-content {"blockId":"6dbd7eb2-b9dc-42d9-85c4-4751aaa93e65"} -->
-<div id="wd-6dbd7eb2" class="wp-block-wd-toggle-content wd-toggle-content"><div class="wd-toggle-content-inner"><!-- wp:wd/menu-list {"blockId":"e8c2dde8-041f-4b2f-814d-02c449ea7f9f","title":""} -->
+<div id="wd-6dbd7eb2" class="wp-block-wd-toggle-content wd-toggle-content"><div class="wd-toggle-content-inner"><!-- wp:wd/menu-list {"blockId":"e8c2dde8-041f-4b2f-814d-02c449ea7f9f","title":"","itemsColorCode":"#ffffff","itemsHoverColorVariable":"\u002d\u002dwd-primary-color"} -->
 <ul id="wd-e8c2dde8" class="wp-block-wd-menu-list wd-sub-menu wd-sub-accented"><li><ul class="sub-sub-menu"><!-- wp:wd/menu-list-item {"blockId":"a9379fb0-6aed-4e57-9624-af2a9d7d4a1b","title":"About Us"} -->
 <li id="wd-a9379fb0" class="wp-block-wd-menu-list-item"><a href="https://dummy.xtemos.com/woodmart2/pills-gutenberg/about-us/">About Us</a></li>
 <!-- /wp:wd/menu-list-item -->
@@ -300,7 +301,7 @@
 <!-- /wp:wd/container -->
 
 <!-- wp:wd/toggle-content {"blockId":"6dd9ea72-a541-4b3b-84f0-095ece2bd89a"} -->
-<div id="wd-6dd9ea72" class="wp-block-wd-toggle-content wd-toggle-content"><div class="wd-toggle-content-inner"><!-- wp:wd/menu-list {"blockId":"bc029a98-d0f3-48a6-96ec-6662cb663641","title":""} -->
+<div id="wd-6dd9ea72" class="wp-block-wd-toggle-content wd-toggle-content"><div class="wd-toggle-content-inner"><!-- wp:wd/menu-list {"blockId":"bc029a98-d0f3-48a6-96ec-6662cb663641","title":"","itemsColorCode":"#ffffff","itemsHoverColorVariable":"\u002d\u002dwd-primary-color"} -->
 <ul id="wd-bc029a98" class="wp-block-wd-menu-list wd-sub-menu wd-sub-accented"><li><ul class="sub-sub-menu"><!-- wp:wd/menu-list-item {"blockId":"3cb96d99-beb5-49bc-af0b-0630ae50be41","title":"Facebook"} -->
 <li id="wd-3cb96d99" class="wp-block-wd-menu-list-item"><a href="#">Facebook</a></li>
 <!-- /wp:wd/menu-list-item -->
@@ -328,8 +329,8 @@
 															<wp:post_id>342</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-23 06:14:05]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-23 06:14:05]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 14:15:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 14:15:34]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-18 12:36:48]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-18 12:36:48]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[footer-pills]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -341,7 +342,7 @@
 					<title><![CDATA[w-pas-trustpilot-2-min]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/w-pas-trustpilot-2-min/</link>
 					<pubDate>Tue, 23 Jul 2024 07:34:03 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-trustpilot-2-min.png</guid>
 															<wp:post_id>401</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-23 07:34:03]]></wp:post_date>
@@ -364,7 +365,7 @@
 					<title><![CDATA[w-pas-avatars-help-min]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/w-pas-avatars-help-min/</link>
 					<pubDate>Tue, 23 Jul 2024 07:41:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/07/w-pas-avatars-help-min.png</guid>
 															<wp:post_id>402</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-23 07:41:37]]></wp:post_date>
@@ -387,7 +388,7 @@
 					<title><![CDATA[Newsletter form Pills]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/mc4wp-form/newsletter-form-pills/</link>
 					<pubDate>Wed, 02 Oct 2024 09:39:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pills-gutenberg/mc4wp-form/newsletter-form-pills/</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-gap: 10px">
 <div class="wd-col"><input type="email" name="EMAIL" placeholder="Your email address" required /></div>
@@ -457,15 +458,19 @@
 					<title><![CDATA[Checkout layout form Pills]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/woodmart_layout/checkout-layout-form-pills/</link>
 					<pubDate>Thu, 08 Aug 2024 14:50:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pills-gutenberg/?post_type=woodmart_layout&#038;p=822</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"c4435b6e-56cd-439b-b7c6-158a52246f80","stretch":true,"marginTop":"-40","marginBottom":"30"} /-->
 
 <!-- wp:wd/woo-notices {"blockId":"43d1b8b0-1f93-45f9-b5fa-2cf20f147e6d","marginBottom":"30"} /-->
 
+<!-- wp:wd/woo-hook {"blockId":"ccbdb2eb-0d53-4efb-aff6-9af8549807ec","hook":"woocommerce_before_checkout_form"} /-->
+
 <!-- wp:wd/ch-login-form {"blockId":"9bf23841-ecc1-476f-8fab-2f6f81cd501c","formBgColorCode":"#f7f7f7","formBorderType":"none","marginBottom":"30"} /-->
 
 <!-- wp:wd/ch-coupon-form {"blockId":"fac322ca-8ad9-4d95-8ecd-f22e8e374dee","formBgColorCode":"#f7f7f7","formBorderType":"none"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"224c0110-700e-442d-9fe7-639b288555d5","hook":"woocommerce_checkout_before_customer_details"} /-->
 
 <!-- wp:wd/ch-form {"blockId":"c3c26d6d-1c98-4415-9f63-752651b94e43"} -->
 <!-- wp:wd/row {"blockId":"36853723-fe61-483a-a5c1-4231d682dc25"} -->
@@ -476,7 +481,13 @@
 
 <!-- wp:wd/ch-billing-details {"blockId":"dc887249-f531-49e4-8b23-a9f9b26daf89"} /-->
 
-<!-- wp:wd/ch-shipping-details {"blockId":"5d6cdf20-da03-43b8-a343-f7e96e7573ef"} /--></div>
+<!-- wp:wd/woo-hook {"blockId":"44b11930-9468-4074-b9a1-aa1801c4552a","hook":"woocommerce_checkout_after_customer_details"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"25020771-5203-4614-bcf3-3b3a6ec1b876","hook":"woocommerce_checkout_billing"} /-->
+
+<!-- wp:wd/ch-shipping-details {"blockId":"5d6cdf20-da03-43b8-a343-f7e96e7573ef"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"000aec52-e9e0-4df9-9571-561657839965","hook":"woocommerce_checkout_shipping"} /--></div>
 <!-- /wp:wd/column -->
 
 <!-- wp:wd/column {"blockId":"f549c0e1-fae8-4fb1-8694-1581532c2166","adjacentCount":2,"sticky":false,"bgColorCode":"#f7f7f7","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderRadius":"16","borderRadiusTop":"16","borderRadiusRight":"16","borderRadiusBottom":"16","borderRadiusLeft":"16","alignSelf":"start"} -->
@@ -484,19 +495,29 @@
 <h2 id="wd-3e1978be" class="wp-block-wd-title title">Your Order</h2>
 <!-- /wp:wd/title -->
 
+<!-- wp:wd/woo-hook {"blockId":"b497bdc0-8fc9-4367-aacd-796bab930303","hook":"woocommerce_checkout_before_order_review_heading"} /-->
+
 <!-- wp:wd/ch-order-review {"blockId":"486d99e9-29dd-4efd-a6c3-b83f28164156"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"2ecc4d04-5ba2-4be4-b6cb-7e65f1162267","hook":"woocommerce_checkout_before_order_review"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"da6fc4ae-f319-40a9-b72e-38c06d18dd73","hook":"woocommerce_checkout_order_review"} /-->
 
 <!-- wp:wd/woo-shipping-progress-bar {"blockId":"acc11321-cd58-415f-b711-18a484bd0810"} /-->
 
-<!-- wp:wd/ch-payment-methods {"blockId":"85fac210-e2c1-478d-aed3-13b668a49637","btnAlign":"stretch","descriptionBgColorCode":"#ffffff","descriptionPaddingTop":"15","descriptionPaddingRight":"15","descriptionPaddingBottom":"15","descriptionPaddingLeft":"15","descriptionPaddingLock":true} /--></div>
+<!-- wp:wd/ch-payment-methods {"blockId":"85fac210-e2c1-478d-aed3-13b668a49637","btnAlign":"stretch","descriptionBgColorCode":"#ffffff","descriptionPaddingTop":"15","descriptionPaddingRight":"15","descriptionPaddingBottom":"15","descriptionPaddingLeft":"15","descriptionPaddingLock":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"25280333-eff6-40f4-a744-278b589744bc","hook":"woocommerce_checkout_after_order_review"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"691e8291-9fcf-4b5c-8349-929bea6fdf44","hook":"woocommerce_after_checkout_form"} /--></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
 <!-- /wp:wd/ch-form -->]]></content:encoded>
 															<wp:post_id>822</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 14:50:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-08 14:50:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-08 09:26:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-08 09:26:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-20 15:36:42]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-20 15:36:42]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[checkout-layout-form-pills]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -516,15 +537,17 @@
 					<title><![CDATA[Cart layout Pills]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/woodmart_layout/cart-layout-pills/</link>
 					<pubDate>Thu, 08 Aug 2024 14:51:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pills-gutenberg/?post_type=woodmart_layout&#038;p=823</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"68dfc180-55d3-4049-8393-15094af18139","stretch":true,"marginTop":"-40","marginBottom":"40","marginTopTablet":"-40","marginBottomTablet":"20"} /-->
 
-<!-- wp:wd/row {"blockId":"849fd66e-5cf8-44a1-b6db-e423f90d7dd3","columnsGap":null,"marginBottom":"0"} -->
+<!-- wp:wd/row {"blockId":"849fd66e-5cf8-44a1-b6db-e423f90d7dd3","marginBottom":"0"} -->
 <div id="wd-849fd66e" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"36a71bc3-e7bf-48a3-a5aa-b9f64566cedf","adjacentCount":2,"colWidth":66.33,"blocksGap":30,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-36a71bc3" class="wp-block-wd-column"><!-- wp:wd/woo-notices {"blockId":"baf5a392-b745-43af-bf43-cc820c787554"} /-->
 
 <!-- wp:wd/woo-shipping-progress-bar {"blockId":"a702a083-2a4f-4782-949c-a16122eb1584"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"15446dbd-0603-4866-9723-9660ce2faca1","hook":"woocommerce_before_cart","cleanActions":true} /-->
 
 <!-- wp:wd/ct-table {"blockId":"937a339f-4049-4b01-8f68-dbea02537291"} /--></div>
 <!-- /wp:wd/column -->
@@ -534,9 +557,13 @@
 <h2 id="wd-6ae9b4d2" class="wp-block-wd-title title">Cart totals</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/ct-totals {"blockId":"54721bb7-a945-432a-bdd5-961c88355b70","btnAlign":"stretch","paddingLock":true} /--></div>
+<!-- wp:wd/ct-totals {"blockId":"54721bb7-a945-432a-bdd5-961c88355b70","btnAlign":"stretch","paddingLock":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"476b73bd-5212-4185-920f-5655a8e7aa99","hook":"woocommerce_after_cart","cleanActions":true} /--></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
+
+<!-- wp:wd/woo-hook {"blockId":"800dfed5-dd74-4094-91df-66335340bcdd","hook":"woocommerce_cart_collaterals","cleanActions":true} /-->
 
 <!-- wp:wd/products {"blockId":"a5fccad8-3529-44ca-9334-3c7167c2e9cd","show_title":true,"layout":"carousel","custom_rounding_size":"16","products_with_background":true,"marginTop":"80","slides_per_view":"5","hide_pagination_control":true,"sync_parent_id":"wd_cdae8330","productsBackgroundCode":"#f7f7f7","marginTopTablet":"60","marginTopMobile":"40","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
 <!-- wp:wd/title {"blockId":"a5cf9d4c-3935-48b8-bb53-84ec4f2ee2b9","content":"You May Be Interested In…","marginBottom":"30","tpFontSizeTablet":"22","tpFontSizeMobile":"24","marginBottomMobile":"20"} -->
@@ -546,8 +573,8 @@
 															<wp:post_id>823</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 14:51:04]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-08 14:51:04]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-08 09:25:33]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-08 09:25:33]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 13:17:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 13:17:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[cart-layout-pills]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -567,7 +594,7 @@
 					<title><![CDATA[Product archive layout Pills]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/woodmart_layout/product-archive-layout-pills/</link>
 					<pubDate>Thu, 08 Aug 2024 14:51:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pills-gutenberg/?post_type=woodmart_layout&#038;p=824</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"5ff4e1a9-b604-4cd6-8e3b-b465dd0f329d","blockGap":null,"bgColorCode":"#f7f7f7","paddingTop":"30","paddingBottom":"30","marginTop":"-40","marginBottom":"40","paddingTopTablet":"15","paddingBottomTablet":"15","marginBottomTablet":"30"} -->
 <div id="wd-5ff4e1a9" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"5757c560-dabb-4728-b359-d6a68a0ba20d","columnsGap":20} -->
@@ -646,7 +673,7 @@
 					<title><![CDATA[Single product layout Pills]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/woodmart_layout/single-product-layout-pills/</link>
 					<pubDate>Thu, 08 Aug 2024 14:51:54 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pills-gutenberg/?post_type=woodmart_layout&#038;p=825</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"89202f3c-9422-48e7-ad75-6c30751bb7b9","bgColorCode":"#f7f7f7","paddingTop":"30","paddingBottom":"30","marginTop":"-40","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-89202f3c" class="wp-block-wd-section"><!-- wp:wd/container {"blockId":"80bfd7ac-3df3-4335-8bf8-35cd5d53aff0","direction":"row","justify":"space-between","align":"center","wrap":"wrap"} -->
@@ -675,7 +702,7 @@
 
 <!-- wp:wd/sp-countdown {"blockId":"16ad38ca-1919-40d4-8ab6-d2b3222c40dc","showTitle":false,"displayWidth":"","customWidth":"50","displayWidthTablet":"full-width","customWidthUnits":"%"} /-->
 
-<!-- wp:wd/container {"blockId":"6d0e88aa-12cd-486e-b3a9-378e7c752e42","direction":"row","align":"end","directionTablet":"row","wrapTablet":"nowrap","wrapMobile":"wrap"} -->
+<!-- wp:wd/container {"blockId":"6d0e88aa-12cd-486e-b3a9-378e7c752e42","direction":"row","align":"end","directionTablet":"row","wrapTablet":"nowrap","wrapMobile":"wrap","className":"wd-align-is-end"} -->
 <div id="wd-6d0e88aa" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-align-is-lg-end wd-align-is-end"><!-- wp:wd/sp-add-to-cart {"blockId":"6d7c3759-f419-471d-9797-57c256a3d07f","buttonDesign":"full","flexSize":"shrink","customWidthTablet":"100"} /-->
 
 <!-- wp:wd/sp-compare-btn {"blockId":"bfe30a7a-711f-423b-be21-2bed662d4005","style":"icon","iconSize":18,"bgColorCode":"#ffffff","paddingTop":"11","paddingRight":"11","paddingBottom":"11","paddingLeft":"11","borderRadius":"50","borderRadiusTop":"50","borderRadiusRight":"50","borderRadiusBottom":"50","borderRadiusLeft":"50","borderRadiusUnits":"%","flexSize":"none"} /-->
@@ -683,11 +710,13 @@
 <!-- wp:wd/sp-wishlist-btn {"blockId":"688f19b9-9e6c-4873-ab8a-d388336a149f","style":"icon","iconSize":18,"bgColorCode":"#ffffff","paddingTop":"11","paddingRight":"11","paddingBottom":"11","paddingLeft":"11","borderRadius":"50","borderRadiusTop":"50","borderRadiusRight":"50","borderRadiusBottom":"50","borderRadiusLeft":"50","borderRadiusUnits":"%","flexSize":"none"} /--></div>
 <!-- /wp:wd/container -->
 
+<!-- wp:wd/woo-hook {"blockId":"44a7e8bf-5404-4b3b-a751-12a43964ad34","hook":"woocommerce_single_product_summary","cleanActions":true} /-->
+
 <!-- wp:wd/carousel {"blockId":"7eb8ec87-f20e-45f8-9e0a-5379c70a8358","currentSlide":1,"slidesPerView":"2","arrows":false,"arrowsTablet":false,"paginationControl":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_7eb8ec87","marginBottom":"2","slidesPerViewTablet":"1","scrollbarTablet":true,"scrollbarMobile":true} -->
 <div id="wd-7eb8ec87" class="wp-block-wd-carousel wd-carousel-container"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:2;--wd-col-md:1;--wd-col-sm:1;--wd-gap-lg:20px;--wd-gap-sm:10px" data-scroll_per_page="yes"><div class="wd-carousel-wrap"><!-- wp:wd/carousel-item {"blockId":"4ccf2882-49c7-4e0d-90b4-0834c50ddc2d"} -->
 <div id="wd-4ccf2882" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/infobox {"blockId":"30c1210b-24f7-44e7-adad-55aab6aee78b","iconPositionHorizontal":"start","iconPositionVertical":"center","bgColorCode":"#eaeaea","paddingTop":"15","paddingRight":"15","paddingBottom":"15","paddingLeft":"15"} -->
 <div id="wd-30c1210b" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"842a0c67-8605-4432-ac00-204bf9fee554","image":{"id":833,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png"},"width":"70"} -->
-<div id="wd-842a0c67" class="wp-block-wd-icon"><img class="wp-image-833" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png" /></div>
+<div id="wd-842a0c67" class="wp-block-wd-icon"><img class="wp-image-833" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"ee4502eb-2c87-4e15-ba6c-f572e0e27664","metadata":{"name":"Infobox content"}} -->
@@ -705,7 +734,7 @@
 <!-- wp:wd/carousel-item {"blockId":"31724c5d-f31c-4a14-bb59-e4e9f6acdc92"} -->
 <div id="wd-31724c5d" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/infobox {"blockId":"218fc9b6-f013-48ba-a636-c3d6140cb72e","iconPositionHorizontal":"start","iconPositionVertical":"center","bgColorCode":"#eaeaea","paddingTop":"15","paddingRight":"15","paddingBottom":"15","paddingLeft":"15","paddingLock":true} -->
 <div id="wd-218fc9b6" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"51ab4639-6109-410b-8ebc-e95f43f03f1d","image":{"id":833,"url":"http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png"},"width":"70"} -->
-<div id="wd-51ab4639" class="wp-block-wd-icon"><img class="wp-image-833" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png" /></div>
+<div id="wd-51ab4639" class="wp-block-wd-icon"><img class="wp-image-833" src="http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"20b321b8-74ce-46ca-b1db-870f554b27b4","metadata":{"name":"Infobox content"}} -->
@@ -778,8 +807,8 @@
 															<wp:post_id>825</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 14:51:54]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-08 14:51:54]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-17 08:37:49]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-17 08:37:49]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 13:17:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 13:17:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[single-product-layout-pills]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -803,7 +832,7 @@
 					<title><![CDATA[w-pas-limited-offer-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/woodmart_layout/single-product-layout-pills/w-pas-limited-offer-1/</link>
 					<pubDate>Fri, 09 Aug 2024 06:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-limited-offer-1.png</guid>
 															<wp:post_id>833</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-09 06:25:43]]></wp:post_date>
@@ -826,7 +855,7 @@
 					<title><![CDATA[w-pas-banner-1-opt-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pills-gutenberg/woodmart_layout/product-archive-layout-pills/w-pas-banner-1-opt-1/</link>
 					<pubDate>Fri, 09 Aug 2024 08:23:24 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pills-gutenberg/wp-content/uploads/sites/33/2024/08/w-pas-banner-1-opt-1.jpg</guid>
 															<wp:post_id>847</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-09 08:23:24]]></wp:post_date>

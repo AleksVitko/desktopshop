@@ -1757,7 +1757,7 @@ if ( ! function_exists( 'woodmart_sticky_single_add_to_cart' ) ) {
 	function woodmart_sticky_single_add_to_cart() {
 		global $product;
 
-		if ( ! $product || ! woodmart_woocommerce_installed() || ! is_product() || ! woodmart_get_opt( 'single_sticky_add_to_cart' ) ) {
+		if ( ! $product || ! woodmart_woocommerce_installed() || ! is_product() || ! woodmart_get_opt( 'single_sticky_add_to_cart' ) || woodmart_get_opt( 'catalog_mode' ) || ! is_user_logged_in() && woodmart_get_opt( 'login_prices' ) ) {
 			return;
 		}
 
@@ -1780,10 +1780,12 @@ if ( ! function_exists( 'woodmart_sticky_single_add_to_cart' ) ) {
 							<?php echo wc_get_rating_html( $product->get_average_rating() ); ?>
 						</div>
 					</div>
-					<div class="wd-sticky-btn-cart<?php echo woodmart_get_old_classes( ' woodmart-sticky-btn-cart' ); ?>">
-						<span class="price"><?php echo wp_kses_post( $product->get_price_html() ); ?></span>
+					<div class="wd-sticky-btn-cart wd-product-type-<?php echo esc_attr( $product->get_type() ); ?>">
+						<span class="price"><?php echo $product->get_price_html(); // phpcs:ignore ?></span>
 						<?php if ( $product->is_type( 'simple' ) ) : ?>
 							<?php woocommerce_simple_add_to_cart(); ?>
+						<?php elseif ( $product->is_type( 'external' ) ) : ?>
+							<?php woocommerce_external_add_to_cart(); ?>
 						<?php else : ?>
 							<a href="<?php echo esc_url( $product->add_to_cart_url() ); ?>" class="wd-sticky-add-to-cart button alt<?php echo woodmart_get_old_classes( ' woodmart-sticky-add-to-cart' ); ?>">
 								<?php echo true == $product->is_type( 'variable' ) ? esc_html__( 'Select options', 'woodmart' ) : $product->single_add_to_cart_text(); ?>
@@ -1833,7 +1835,7 @@ if ( ! function_exists( 'woodmart_sticky_sidebar_button' ) ) {
 		$sticky_toolbar        = woodmart_get_opt( 'sticky_toolbar' );
 		$sticky_filter_button  = $toolbar ? true : woodmart_get_opt( 'sticky_filter_button' );
 		$is_builder            = Builder::get_instance()->has_custom_layout( 'shop_archive' ) || Builder::get_instance()->has_custom_layout( 'single_product' );
-		$is_shop               = woodmart_woocommerce_installed() && ( is_shop() || is_product_category() || is_product_tag() || is_product_taxonomy() );
+		$is_shop               = woodmart_is_shop_archive();
 
 		$classes       = $toolbar ? 'wd-toolbar-sidebar wd-tools-element' . woodmart_get_old_classes( ' sticky-toolbar' ) : 'wd-sidebar-opener wd-action-btn wd-style-icon wd-burger-icon';
 		$label_classes = $toolbar ? 'wd-toolbar-label' : '';

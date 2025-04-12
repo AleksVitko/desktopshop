@@ -1,32 +1,38 @@
 <?php
 
-use XTS\Gutenberg\Block_Attributes;
-
 if ( ! function_exists( 'wd_get_advanced_tab_attrs' ) ) {
-	function wd_get_advanced_tab_attrs() {
-		$attr = new Block_Attributes();
+	function wd_get_advanced_tab_attrs( $attr ) {
+		if ( ! wd_gutenberg_is_rest_api() ) {
+			return;
+		}
 
-		$attr->add_attr( wd_get_position_control_attrs( 'position' ) );
-		$attr->add_attr( wd_get_background_control_attrs( 'bg' ) );
-		$attr->add_attr( wd_get_background_control_attrs( 'bgHover' ) );
-		$attr->add_attr( wd_get_background_control_attrs( 'bgParentHover' ) );
-		$attr->add_attr( wd_get_background_control_attrs( 'overlay' ) );
-		$attr->add_attr( wd_get_background_control_attrs( 'overlayHover' ) );
-		$attr->add_attr( wd_get_background_control_attrs( 'overlayParentHover' ) );
-		$attr->add_attr( wd_get_margin_control_attrs( 'margin' ) );
-		$attr->add_attr( wd_get_padding_control_attrs( 'padding' ) );
-		$attr->add_attr( wd_get_box_shadow_control_attrs( 'boxShadow' ) );
-		$attr->add_attr( wd_get_box_shadow_control_attrs( 'boxShadowHover' ) );
-		$attr->add_attr( wd_get_box_shadow_control_attrs( 'boxShadowParentHover' ) );
-		$attr->add_attr( wd_get_border_control_attrs( 'border' ) );
-		$attr->add_attr( wd_get_border_control_attrs( 'borderHover' ) );
-		$attr->add_attr( wd_get_border_control_attrs( 'borderParentHover' ) );
+		wd_get_position_control_attrs( $attr, 'position' );
+
+		wd_get_background_control_attrs( $attr, 'bg' );
+		wd_get_background_control_attrs( $attr, 'bgHover' );
+		wd_get_background_control_attrs( $attr, 'bgParentHover' );
+		wd_get_background_control_attrs( $attr, 'overlay' );
+		wd_get_background_control_attrs( $attr, 'overlayHover' );
+		wd_get_background_control_attrs( $attr, 'overlayParentHover' );
+
+		wd_get_margin_control_attrs( $attr, 'margin' );
+		wd_get_padding_control_attrs( $attr, 'padding' );
+
+		wd_get_box_shadow_control_attrs( $attr, 'boxShadow' );
+		wd_get_box_shadow_control_attrs( $attr, 'boxShadowHover' );
+		wd_get_box_shadow_control_attrs( $attr, 'boxShadowParentHover' );
+
+		wd_get_border_control_attrs( $attr, 'border' );
+		wd_get_border_control_attrs( $attr, 'borderHover' );
+		wd_get_border_control_attrs( $attr, 'borderParentHover' );
+
+		wd_get_transform_control_attrs( $attr, 'transform' );
+		wd_get_transform_control_attrs( $attr, 'transformHover' );
+		wd_get_transform_control_attrs( $attr, 'transformParentHover' );
+
 		$attr->add_attr( wd_get_animation_control_attrs() );
 		$attr->add_attr( wd_get_paralax_srcroll_control_attrs() );
 		$attr->add_attr( wd_get_responsive_visible_control_attrs() );
-		$attr->add_attr( wd_get_transform_control_attrs(), 'transform' );
-		$attr->add_attr( wd_get_transform_control_attrs(), 'transformHover' );
-		$attr->add_attr( wd_get_transform_control_attrs(), 'transformParentHover' );
 		$attr->add_attr( wd_get_transition_control_attrs() );
 
 		$attr->add_attr(
@@ -127,7 +133,5 @@ if ( ! function_exists( 'wd_get_advanced_tab_attrs' ) ) {
 				),
 			)
 		);
-
-		return $attr->get_attr();
 	}
 }

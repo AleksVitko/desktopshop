@@ -21,13 +21,13 @@ class WPBakeryShortCode_Vc_Custom_Heading extends WPBakeryShortCode {
 	 * @since 4.4
 	 * @var array
 	 */
-	protected $fields = array(
+	protected $fields = [
 		'google_fonts' => 'google_fonts',
 		'font_container' => 'font_container',
 		'el_class' => 'el_class',
 		'css' => 'css',
 		'text' => 'text',
-	);
+	];
 
 	/**
 	 * Used to get field name in vc_map function for google_fonts, font_container and etc..
@@ -86,12 +86,12 @@ class WPBakeryShortCode_Vc_Custom_Heading extends WPBakeryShortCode {
 		$el_class = $this->getExtraClass( $el_class );
 		$font_container_obj = new Vc_Font_Container();
 		$google_fonts_obj = new Vc_Google_Fonts();
-		$font_container_field_settings = isset( $font_container_field['settings'], $font_container_field['settings']['fields'] ) ? $font_container_field['settings']['fields'] : array();
-		$google_fonts_field_settings = isset( $google_fonts_field['settings'], $google_fonts_field['settings']['fields'] ) ? $google_fonts_field['settings']['fields'] : array();
+		$font_container_field_settings = isset( $font_container_field['settings'], $font_container_field['settings']['fields'] ) ? $font_container_field['settings']['fields'] : [];
+		$google_fonts_field_settings = isset( $google_fonts_field['settings'], $google_fonts_field['settings']['fields'] ) ? $google_fonts_field['settings']['fields'] : [];
 		$font_container_data = $font_container_obj->_vc_font_container_parse_attributes( $font_container_field_settings, $font_container );
 		$google_fonts_data = strlen( $google_fonts ) > 0 ? $google_fonts_obj->_vc_google_fonts_parse_attributes( $google_fonts_field_settings, $google_fonts ) : '';
 
-		return array(
+		return [
 			'text' => isset( $text ) ? $text : '',
 			'google_fonts' => $google_fonts,
 			'font_container' => $font_container,
@@ -100,7 +100,7 @@ class WPBakeryShortCode_Vc_Custom_Heading extends WPBakeryShortCode {
 			'link' => ( 0 === strpos( $link, '|' ) ) ? false : $link,
 			'font_container_data' => $font_container_data,
 			'google_fonts_data' => $google_fonts_data,
-		);
+		];
 	}
 
 	/**
@@ -152,7 +152,7 @@ class WPBakeryShortCode_Vc_Custom_Heading extends WPBakeryShortCode {
 	 * @since 4.3
 	 */
 	public function getStyles( $el_class, $css, $google_fonts_data, $font_container_data, $atts ) {
-		$styles = array();
+		$styles = [];
 		if ( ! empty( $font_container_data ) && isset( $font_container_data['values'] ) ) {
 			foreach ( $font_container_data['values'] as $key => $value ) {
 				if ( 'tag' !== $key && strlen( $value ) ) {
@@ -190,9 +190,9 @@ class WPBakeryShortCode_Vc_Custom_Heading extends WPBakeryShortCode {
 		 */
 		$css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'vc_custom_heading ' . $el_class . vc_shortcode_custom_css_class( $css, ' ' ), $this->settings['base'], $atts );
 
-		return array(
+		return [
 			'css_class' => trim( preg_replace( '/\s+/', ' ', $css_class ) ),
 			'styles' => $styles,
-		);
+		];
 	}
 }

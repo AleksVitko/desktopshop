@@ -13,7 +13,9 @@ if( ! function_exists( 'woodmart_shortcode_social' )) {
 		$links_atts = array(
 			'fb_link'         => '',
 			'twitter_link'    => '',
+			'bluesky_link'    => '',
 			'isntagram_link'  => '',
+			'threads_link'    => '',
 			'pinterest_link'  => '',
 			'youtube_link'    => '',
 			'tumblr_link'     => '',
@@ -104,12 +106,16 @@ if( ! function_exists( 'woodmart_shortcode_social' )) {
 			$page_link = get_the_permalink();
 		}
 
-		if ( woodmart_woocommerce_installed() && is_shop() ) {
-			$page_link = get_permalink( get_option( 'woocommerce_shop_page_id' ) );
+		if ( woodmart_woocommerce_installed() ) {
+			if ( is_shop() ) {
+				$page_link = get_permalink( get_option( 'woocommerce_shop_page_id' ) );
+			} elseif ( is_product_category() || is_category() ) {
+				$page_link = get_category_link( get_queried_object()->term_id );
+			} elseif ( is_tax() ) {
+				$page_link = get_term_link( get_queried_object()->term_id );
+			}
 		}
-		if ( woodmart_woocommerce_installed() && ( is_product_category() || is_category() ) ) {
-			$page_link = get_category_link( get_queried_object()->term_id );
-		}
+
 		if ( is_home() && ! is_front_page() ) {
 			$page_link = get_permalink( get_option( 'page_for_posts' ) );
 		}
@@ -149,6 +155,15 @@ if( ! function_exists( 'woodmart_shortcode_social' )) {
 					</a>
 				<?php endif ?>
 
+				<?php if ( 'follow' === $type && '' !== $bluesky_link ) : ?>
+					<a rel="noopener noreferrer nofollow" href="<?php echo esc_url( $bluesky_link ); ?>" target="<?php echo esc_attr( $target ); ?>" class="<?php echo 'yes' === $tooltip ? 'wd-tooltip' : ''; ?> wd-social-icon social-bluesky" aria-label="<?php esc_attr_e( 'Bluesky social link', 'woodmart' ); ?>">
+						<span class="wd-icon"></span>
+						<?php if ( $sticky ) : ?>
+							<span class="wd-icon-name"><?php esc_html_e( 'Bluesky', 'woodmart' ); ?></span>
+						<?php endif; ?>
+					</a>
+				<?php endif ?>
+
 				<?php if ( ( $type == 'share' && woodmart_get_opt('share_email') ) || ( $type == 'follow' && woodmart_get_opt( 'social_email_links' ) ) ): ?>
 					<a rel="noopener noreferrer nofollow" href="mailto:<?php echo '?subject=' . esc_html__('Check%20this%20', 'woodmart') . $page_link; ?>" target="<?php echo esc_attr( $target ); ?>" class="<?php if( $tooltip == "yes" ) echo 'wd-tooltip'; ?> wd-social-icon social-email" aria-label="<?php esc_attr_e( 'Email social link', 'woodmart' ); ?>">
 						<span class="wd-icon"></span>
@@ -163,6 +178,15 @@ if( ! function_exists( 'woodmart_shortcode_social' )) {
 						<span class="wd-icon"></span>
 						<?php if ( $sticky ) : ?>
 							<span class="wd-icon-name"><?php esc_html_e('Instagram', 'woodmart') ?></span>
+						<?php endif; ?>
+					</a>
+				<?php endif ?>
+
+				<?php if ( 'follow' === $type && '' !== $threads_link ) : ?>
+					<a rel="noopener noreferrer nofollow" href="<?php echo esc_url( $threads_link ); ?>" target="<?php echo esc_attr( $target ); ?>" class="<?php echo 'yes' === $tooltip ? 'wd-tooltip' : ''; ?> wd-social-icon social-threads" aria-label="<?php esc_attr_e( 'Threads social link', 'woodmart' ); ?>">
+						<span class="wd-icon"></span>
+						<?php if ( $sticky ) : ?>
+							<span class="wd-icon-name"><?php esc_html_e( 'Threads', 'woodmart' ); ?></span>
 						<?php endif; ?>
 					</a>
 				<?php endif ?>

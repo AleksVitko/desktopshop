@@ -44,11 +44,11 @@ $custom_tag = 'script'; // Update to wp_add_inline later.
 			}( document, 'script', 'twitter-wjs' );</<?php echo esc_attr( $custom_tag ); ?>>
 	</p>
 	<?php
-	vc_include_template( '/pages/partials/_tabs.php', array(
+	vc_include_template( '/pages/partials/_tabs.php', [
 		'slug' => $page->getSlug(),
 		'active_tab' => $active_page->getSlug(),
 		'tabs' => $pages,
-	) );
+	] );
 	?>
 	<?php
 	// @codingStandardsIgnoreLine

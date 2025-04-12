@@ -18,7 +18,7 @@ if( ! class_exists( 'WOODMART_WP_Nav_Menu_Widget' ) ) {
 			// Get menu
 			$nav_menu = ! empty( $instance['nav_menu'] ) ? wp_get_nav_menu_object( $instance['nav_menu'] ) : false;
 
-			if ( !$nav_menu || $this->is_widget_preview() )
+			if ( !$nav_menu )
 				return;
 
 			$menu_class  = 'menu wd-nav wd-nav-vertical' . woodmart_get_old_classes( ' vertical-navigation' );

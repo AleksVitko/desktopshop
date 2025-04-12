@@ -43,7 +43,7 @@ if ( ! function_exists( 'woodmart_shortcode_page_title' ) ) {
 
 		woodmart_enqueue_inline_style( 'el-page-title-builder' );
 
-		if ( is_product_taxonomy() || is_shop() || is_product_category() || is_product_tag() || woodmart_is_product_attribute_archive() ) {
+		if ( is_product_taxonomy() || woodmart_is_shop_archive() ) {
 			woodmart_enqueue_inline_style( 'woo-shop-page-title' );
 
 			if ( ! woodmart_get_opt( 'shop_title' ) ) {

@@ -63,7 +63,7 @@ $custom_tag = 'script';
 
 	<?php
 
-	$submit_button_attributes = array();
+	$submit_button_attributes = [];
     // phpcs:ignore:WordPress.NamingConventions.ValidHookName.UseUnderscores
 	$submit_button_attributes = apply_filters( 'vc_settings-tab-submit-button-attributes', $submit_button_attributes, $tab );
     // phpcs:ignore:WordPress.NamingConventions.ValidHookName.UseUnderscores

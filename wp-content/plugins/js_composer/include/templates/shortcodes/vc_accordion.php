@@ -35,10 +35,10 @@ $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'wpb_accordion w
 $output = '
 	<div class="' . esc_attr( $css_class ) . '" data-collapsible="' . esc_attr( $collapsible ) . '" data-vc-disable-keydown="' . ( esc_attr( ( 'yes' === $disable_keyboard ? 'true' : 'false' ) ) ) . '" data-active-tab="' . esc_attr( $active_tab ) . '">
 		<div class="wpb_wrapper wpb_accordion_wrapper ui-accordion">
-' . wpb_widget_title( array(
+' . wpb_widget_title( [
 	'title' => $title,
 	'extraclass' => 'wpb_accordion_heading',
-) ) . '
+] ) . '
 ' . wpb_js_remove_wpautop( $content ) . '
 		</div>
 	</div>

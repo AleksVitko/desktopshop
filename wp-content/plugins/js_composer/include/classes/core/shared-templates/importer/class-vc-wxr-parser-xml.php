@@ -20,7 +20,7 @@ class Vc_WXR_Parser_XML {
 	 *
 	 * @var array
 	 */
-	public $wp_tags = array(
+	public $wp_tags = [
 		'wp:post_id',
 		'wp:post_date',
 		'wp:post_date_gmt',
@@ -52,13 +52,13 @@ class Vc_WXR_Parser_XML {
 		'wp:author_display_name',
 		'wp:author_first_name',
 		'wp:author_last_name',
-	);
+	];
 	/**
 	 * WP sub tags.
 	 *
 	 * @var array
 	 */
-	public $wp_sub_tags = array(
+	public $wp_sub_tags = [
 		'wp:comment_id',
 		'wp:comment_author',
 		'wp:comment_author_email',
@@ -71,7 +71,7 @@ class Vc_WXR_Parser_XML {
 		'wp:comment_type',
 		'wp:comment_parent',
 		'wp:comment_user_id',
-	);
+	];
 
 	/**
 	 * Parsing happen here.
@@ -88,11 +88,11 @@ class Vc_WXR_Parser_XML {
 		$this->in_tag = false;
 		$this->in_sub_tag = false;
 
-		$this->authors = array();
-		$this->posts = array();
-		$this->term = array();
-		$this->category = array();
-		$this->tag = array();
+		$this->authors = [];
+		$this->posts = [];
+		$this->term = [];
+		$this->category = [];
+		$this->tag = [];
 
 		$xml = xml_parser_create( 'UTF-8' );
 		xml_parser_set_option( $xml, XML_OPTION_SKIP_WHITE, 1 );
@@ -113,11 +113,11 @@ class Vc_WXR_Parser_XML {
 			$error_code = xml_get_error_code( $xml );
 			$error_string = xml_error_string( $error_code );
 
-			return new WP_Error( 'XML_parse_error', 'There was an error when reading this WXR file', array(
+			return new WP_Error( 'XML_parse_error', 'There was an error when reading this WXR file', [
 				$current_line,
 				$current_column,
 				$error_string,
-			) );
+			] );
 		}
 		xml_parser_free( $xml );
 
@@ -125,7 +125,7 @@ class Vc_WXR_Parser_XML {
 			return new WP_Error( 'WXR_parse_error', esc_html__( 'This does not appear to be a WXR file, missing/invalid WXR version number', 'js_composer' ) );
 		}
 
-		return array(
+		return [
 			'authors' => $this->authors,
 			'posts' => $this->posts,
 			'categories' => $this->category,
@@ -133,7 +133,7 @@ class Vc_WXR_Parser_XML {
 			'terms' => $this->term,
 			'base_url' => $this->base_url,
 			'version' => $this->wxr_version,
-		);
+		];
 	}
 
 	/**
@@ -233,10 +233,10 @@ class Vc_WXR_Parser_XML {
 				$this->sub_data = false;
 				break;
 			case 'wp:commentmeta':
-				$this->sub_data['commentmeta'][] = array(
+				$this->sub_data['commentmeta'][] = [
 					'key' => $this->sub_data['key'],
 					'value' => $this->sub_data['value'],
-				);
+				];
 				break;
 			case 'category':
 				if ( ! empty( $this->sub_data ) ) {

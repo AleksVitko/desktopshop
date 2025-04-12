@@ -289,7 +289,7 @@
                   "_id": "43ffdba",
                   "categories_title": "Categories",
                   "attributes_title": "Brand",
-                  "attribute": "brand",
+                  "attribute": "product_brand",
                   "stock_title": "Stock status",
                   "price_title": "Filter by price",
                   "display": "double",

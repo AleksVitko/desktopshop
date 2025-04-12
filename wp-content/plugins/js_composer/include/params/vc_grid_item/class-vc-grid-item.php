@@ -36,7 +36,7 @@ class Vc_Grid_Item {
 	 *
 	 * @var array
 	 */
-	protected $grid_atts = array();
+	protected $grid_atts = [];
 	/**
 	 * Is end of grid.
 	 *
@@ -78,26 +78,26 @@ class Vc_Grid_Item {
 			$this->shortcodes = include vc_path_dir( 'PARAMS_DIR', 'vc_grid_item/shortcodes.php' );
 			$this->shortcodes = apply_filters( 'vc_grid_item_shortcodes', $this->shortcodes );
 		}
-		add_filter( 'vc_shortcode_set_template_vc_icon', array(
+		add_filter( 'vc_shortcode_set_template_vc_icon', [
 			$this,
 			'addVcIconShortcodesTemplates',
-		) );
-		add_filter( 'vc_shortcode_set_template_vc_button2', array(
+		] );
+		add_filter( 'vc_shortcode_set_template_vc_button2', [
 			$this,
 			'addVcButton2ShortcodesTemplates',
-		) );
-		add_filter( 'vc_shortcode_set_template_vc_single_image', array(
+		] );
+		add_filter( 'vc_shortcode_set_template_vc_single_image', [
 			$this,
 			'addVcSingleImageShortcodesTemplates',
-		) );
-		add_filter( 'vc_shortcode_set_template_vc_custom_heading', array(
+		] );
+		add_filter( 'vc_shortcode_set_template_vc_custom_heading', [
 			$this,
 			'addVcCustomHeadingShortcodesTemplates',
-		) );
-		add_filter( 'vc_shortcode_set_template_vc_btn', array(
+		] );
+		add_filter( 'vc_shortcode_set_template_vc_btn', [
 			$this,
 			'addVcBtnShortcodesTemplates',
-		) );
+		] );
 
 		return $this->shortcodes;
 	}
@@ -331,13 +331,13 @@ class Vc_Grid_Item {
 		WPBMap::addAllMappedShortcodes();
 		$attr = ' width="' . $this->gridAttribute( 'element_width', 12 ) . '" is_end="' . ( 'true' === $this->isEnd() ? 'true' : '' ) . '"';
 		$template = preg_replace( '/(\[(\[?)vc_gitem\b)/', '$1' . $attr, $template );
-		$template = str_replace( array(
+		$template = str_replace( [
 			'<p>[vc_gitem',
 			'[/vc_gitem]</p>',
-		), array(
+		], [
 			'[vc_gitem',
 			'[/vc_gitem]',
-		), $template );
+		], $template );
 
 		return do_shortcode( trim( $template ) );
 	}
@@ -383,8 +383,8 @@ class Vc_Grid_Item {
 	 * @return mixed
 	 */
 	public function renderItem( WP_Post $post ) {
-		$pattern = array();
-		$replacement = array();
+		$pattern = [];
+		$replacement = [];
 		$this->addAttributesFilters();
 		foreach ( $this->getTemplateVariables() as $var ) {
 			$pattern[] = '/' . preg_quote( $var[0], '/' ) . '/';
@@ -434,10 +434,10 @@ class Vc_Grid_Item {
 	public function attribute( $name, $post, $data = '' ) {
 		$data = html_entity_decode( $data );
 
-		return apply_filters( 'vc_gitem_template_attribute_' . trim( $name ), ( isset( $post->$name ) ? $post->$name : '' ), array(
+		return apply_filters( 'vc_gitem_template_attribute_' . trim( $name ), ( isset( $post->$name ) ? $post->$name : '' ), [
 			'post' => $post,
 			'data' => $data,
-		) );
+		] );
 	}
 
 	/**

@@ -222,7 +222,12 @@ class Blocks_Assets extends Singleton {
 				continue;
 			}
 
-			$config    = Blocks::get_instance()->get_block_config( $block['blockName'] );
+			$config = Blocks::get_instance()->get_block_config( $block['blockName'] );
+
+			if ( ! $config ) {
+				continue;
+			}
+
 			$block_obj = new Block( $block['blockName'], $config, $block['attrs'] );
 
 			$block_assets = $this->get_block_advanced_assets( $block_obj->get_assets(), $block['attrs'] );
@@ -262,7 +267,13 @@ class Blocks_Assets extends Singleton {
 			$assets['styles'][] = 'block-background';
 		}
 
-		$transform_attrs = array_merge( wd_get_transform_control_attrs( 'transform' ), wd_get_transform_control_attrs( 'transformHover' ), wd_get_transform_control_attrs( 'transformParentHover' ) );
+		$transform_attrs_raw = new Block_Attributes();
+
+		$transform_attrs_raw->add_attr( wd_get_transform_control_attrs( $transform_attrs_raw, 'transform' ) );
+		$transform_attrs_raw->add_attr( wd_get_transform_control_attrs( $transform_attrs_raw, 'transformHover' ) );
+		$transform_attrs_raw->add_attr( wd_get_transform_control_attrs( $transform_attrs_raw, 'transformParentHover' ) );
+
+		$transform_attrs = $transform_attrs_raw->get_attr();
 
 		if ( isset( $transform_attrs['blockId'] ) ) {
 			unset( $transform_attrs['blockId'] );

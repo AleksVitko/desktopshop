@@ -86,16 +86,16 @@ class Vc_Color_Picker_Module_Settings {
 	 * @since 7.9
 	 */
 	public function get_color_settings() {
-		return array(
-			array( 'vc_pickr_color_1' => array( 'title' => esc_html__( 'Color #1', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_2' => array( 'title' => esc_html__( 'Color #2', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_3' => array( 'title' => esc_html__( 'Color #3', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_4' => array( 'title' => esc_html__( 'Color #4', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_5' => array( 'title' => esc_html__( 'Color #5', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_6' => array( 'title' => esc_html__( 'Color #6', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_7' => array( 'title' => esc_html__( 'Color #7', 'js_composer' ) ) ),
-			array( 'vc_pickr_color_8' => array( 'title' => esc_html__( 'Color #8', 'js_composer' ) ) ),
-		);
+		return [
+			[ 'vc_pickr_color_1' => [ 'title' => esc_html__( 'Color #1', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_2' => [ 'title' => esc_html__( 'Color #2', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_3' => [ 'title' => esc_html__( 'Color #3', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_4' => [ 'title' => esc_html__( 'Color #4', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_5' => [ 'title' => esc_html__( 'Color #5', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_6' => [ 'title' => esc_html__( 'Color #6', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_7' => [ 'title' => esc_html__( 'Color #7', 'js_composer' ) ] ],
+			[ 'vc_pickr_color_8' => [ 'title' => esc_html__( 'Color #8', 'js_composer' ) ] ],
+		];
 	}
 
 	/**
@@ -105,7 +105,7 @@ class Vc_Color_Picker_Module_Settings {
 	 * @since 7.9
 	 */
 	public function get_default_color_settings() {
-		return array(
+		return [
 			'vc_pickr_color_1' => '#000000',
 			'vc_pickr_color_2' => '#FFFFFF',
 			'vc_pickr_color_3' => '#DD3333',
@@ -114,7 +114,7 @@ class Vc_Color_Picker_Module_Settings {
 			'vc_pickr_color_6' => '#81D742',
 			'vc_pickr_color_7' => '#1E73BE',
 			'vc_pickr_color_8' => '#8224E3',
-		);
+		];
 	}
 
 	/**
@@ -130,16 +130,16 @@ class Vc_Color_Picker_Module_Settings {
 
 		foreach ( $this->get_color_settings() as $color_set ) {
 			foreach ( $color_set as $key => $data ) {
-				$settings->addField( $tab, $data['title'], $key, array(
+				$settings->addField( $tab, $data['title'], $key, [
 					$this,
 					'sanitize_color_callback',
-				), array(
+				], [
 					$this,
 					'color_callback',
-				), array(
+				], [
 					'id' => $key,
 					'default_color' => $default_colors[ $key ],
-				) );
+				] );
 			}
 		}
 	}
@@ -253,9 +253,9 @@ class Vc_Color_Picker_Module_Settings {
 	 * @since 7.8
 	 */
 	public function load_module_settings_assets() {
-		wp_enqueue_style( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/themes/classic.min.css' ), array(), WPB_VC_VERSION );
-		wp_enqueue_script( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/pickr.es5.min.js' ), array(), WPB_VC_VERSION, true );
-		wp_enqueue_script( 'wpb_color_picker_module', vc_asset_url( '../modules/color-picker/assets/dist/module.min.js' ), array(), WPB_VC_VERSION, true );
+		wp_enqueue_style( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/themes/classic.min.css' ), [], WPB_VC_VERSION );
+		wp_enqueue_script( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/pickr.es5.min.js' ), [], WPB_VC_VERSION, true );
+		wp_enqueue_script( 'wpb_color_picker_module', vc_asset_url( '../modules/color-picker/assets/dist/module.min.js' ), [], WPB_VC_VERSION, true );
 		wp_enqueue_style( 'wpb_automapper_module', vc_asset_url( '../modules/color-picker/assets/dist/module.min.css' ), false, WPB_VC_VERSION );
 	}
 }

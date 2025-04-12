@@ -40,9 +40,9 @@ class Vc_Preset_Panel_Editor {
 	 * @since 5.2
 	 */
 	public function renderUIPreset() {
-		vc_include_template( 'editors/popups/vc_ui-panel-preset.tpl.php', array(
+		vc_include_template( 'editors/popups/vc_ui-panel-preset.tpl.php', [
 			'box' => $this,
-		) );
+		] );
 
 		return '';
 	}
@@ -54,23 +54,23 @@ class Vc_Preset_Panel_Editor {
 	 * @since 5.2
 	 */
 	public function listPresets() {
-		$list = array();
+		$list = [];
 
-		$args = array(
+		$args = [
 			'post_type' => 'vc_settings_preset',
-			'orderby' => array( 'post_date' => 'DESC' ),
+			'orderby' => [ 'post_date' => 'DESC' ],
 			'posts_per_page' => - 1,
-		);
+		];
 
 		$posts = get_posts( $args );
 		foreach ( $posts as $post ) {
 
 			$preset_parent_name = self::constructPresetParent( $post->post_mime_type );
 
-			$list[ $post->ID ] = array(
+			$list[ $post->ID ] = [
 				'title' => $post->post_title,
 				'parent' => $preset_parent_name,
-			);
+			];
 		}
 
 		return $list;

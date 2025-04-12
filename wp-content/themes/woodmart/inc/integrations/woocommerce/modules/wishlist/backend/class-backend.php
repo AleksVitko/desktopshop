@@ -290,6 +290,7 @@ class Backend extends Singleton {
 			admin_url( 'edit.php' )
 		);
 		$title       = '';
+
 		$is_users_popular_products = isset( $_GET['tab'] ) && 'xts-users-popular-products' === $_GET['tab'];
 
 		if ( $is_users_popular_products ) {

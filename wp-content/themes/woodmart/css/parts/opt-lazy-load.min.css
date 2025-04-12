@@ -1,1 +1,1 @@
-.wd-lazy-fade{opacity:0;transition:all .3s ease}.wd-lazy-fade.wd-loaded{opacity:1}
+.wd-lazy-fade{opacity:0;transition:all .3s ease}.wd-lazy-fade.wd-loaded{opacity:1}.wd-lazy-bg{background-image:none !important}.wd-lazy-bg>:is(.wd-slide-bg,.wd-block-cover-img){background-image:none !important}

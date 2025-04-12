@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-18 14:33" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:06" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,16 +29,13 @@
 	<title>Megamarket gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Mon, 18 Nov 2024 14:33:09 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:06:30 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[adad@adad.ad]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-
+	
 			<wp:category>
 			<wp:term_id>1</wp:term_id>
 			<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
@@ -7742,21 +7739,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>234</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[alpha]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Alpha]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-234-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:112:"http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/w-mm-brand-logo-1.png";s:2:"id";s:3:"351";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>235</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[beige]]></wp:term_slug>
@@ -7776,21 +7758,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-236-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>237</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[atlant]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Atlant]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-237-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:112:"http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/w-mm-brand-logo-2.png";s:2:"id";s:3:"352";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -7849,21 +7816,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>243</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[elemental]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Elemental]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-243-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:112:"http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/w-mm-brand-logo-3.png";s:2:"id";s:3:"353";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>244</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_size]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[24-x-4in]]></wp:term_slug>
@@ -7883,51 +7835,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-245-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>246</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[tukker]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Tukker]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-246-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:112:"http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/w-mm-brand-logo-9.png";s:2:"id";s:3:"356";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>247</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[hammer]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Hammer]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-247-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:112:"http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/w-mm-brand-logo-5.png";s:2:"id";s:3:"354";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>248</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[str-ban]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Str.Ban]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-248-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:112:"http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/w-mm-brand-logo-6.png";s:2:"id";s:3:"355";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -8724,6 +8631,96 @@
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
+			<wp:term>
+			<wp:term_id>295</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[alpha]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Alpha]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[351]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-295-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>296</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[atlant]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Atlant]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[352]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-296-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>297</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[elemental]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Elemental]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[353]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-297-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>298</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[hammer]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Hammer]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[354]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-298-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>299</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[str-ban]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Str.Ban]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[355]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-299-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>300</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[tukker]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Tukker]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[356]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-300-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
 			<wp:term><wp:term_id>274</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[categories-megamarket]]></wp:term_slug><wp:term_name><![CDATA[Categories Megamarket]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>275</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[header-current-address-megamarket]]></wp:term_slug><wp:term_name><![CDATA[Header current address Megamarket]]></wp:term_name>
@@ -8739,13 +8736,13 @@
 	<wp:term><wp:term_id>279</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[mobile-navigation]]></wp:term_slug><wp:term_name><![CDATA[Mobile navigation]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[Granite Wall Tile]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/granite-wall-tile/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=71</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -8855,8 +8852,8 @@
 															<wp:post_id>71</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:09]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:54]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:54]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:29]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:29]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[granite-wall-tile]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -8864,7 +8861,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="16-x-24-x-71in"><![CDATA[16 x 24 x 71in.]]></category>
-		<category domain="pa_brand" nicename="atlant"><![CDATA[Atlant]]></category>
+		<category domain="product_brand" nicename="atlant"><![CDATA[Atlant]]></category>
 		<category domain="product_cat" nicename="bathroom-tile"><![CDATA[Bathroom tile]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="pa_color" nicename="brown"><![CDATA[Brown]]></category>
@@ -8901,7 +8898,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8980,7 +8977,7 @@
 					<title><![CDATA[Granite Wall Tile - Brown]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/granite-wall-tile/?attribute_pa_color=brown</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=72</guid>
 																<excerpt:encoded><![CDATA[Color: Brown]]></excerpt:encoded>
 										<wp:post_id>72</wp:post_id>
@@ -9043,7 +9040,7 @@
 					<title><![CDATA[Wall-hung toilet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/wall-hung-toilet/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=80</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -9153,8 +9150,8 @@
 															<wp:post_id>80</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:43]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:22]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:22]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[wall-hung-toilet]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9169,7 +9166,7 @@
 		<category domain="product_cat" nicename="for-the-toilet"><![CDATA[For the toilet]]></category>
 		<category domain="product_cat" nicename="for-the-washbasin"><![CDATA[For the washbasin]]></category>
 		<category domain="product_cat" nicename="freestanding"><![CDATA[Freestanding]]></category>
-		<category domain="pa_brand" nicename="hammer"><![CDATA[Hammer]]></category>
+		<category domain="product_brand" nicename="hammer"><![CDATA[Hammer]]></category>
 		<category domain="product_cat" nicename="hanging-vanities"><![CDATA[Hanging vanities]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="steel"><![CDATA[Steel]]></category>
@@ -9195,7 +9192,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9274,7 +9271,7 @@
 					<title><![CDATA[Ceramic Floor Tile]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/ceramic-floor-tile/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=81</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -9384,8 +9381,8 @@
 															<wp:post_id>81</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:43]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:02:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:02:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[ceramic-floor-tile]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9393,7 +9390,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="20-x-24-x-71in"><![CDATA[20 x 24 x 71in.]]></category>
-		<category domain="pa_brand" nicename="alpha"><![CDATA[Alpha]]></category>
+		<category domain="product_brand" nicename="alpha"><![CDATA[Alpha]]></category>
 		<category domain="product_cat" nicename="bathroom-tile"><![CDATA[Bathroom tile]]></category>
 		<category domain="product_cat" nicename="carpets-in-the-nursery"><![CDATA[Carpets in the nursery]]></category>
 		<category domain="product_cat" nicename="ceramic-tiles"><![CDATA[Ceramic tiles]]></category>
@@ -9433,7 +9430,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9508,7 +9505,7 @@
 					<title><![CDATA[Matte Black Bath]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/matte-black-bath/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=82</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -9618,8 +9615,8 @@
 															<wp:post_id>82</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:45]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:45]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:49]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:49]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[matte-black-bath]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9639,7 +9636,7 @@
 		<category domain="product_cat" nicename="mirror-cabinet-mirrors"><![CDATA[Mirror cabinet]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="steel"><![CDATA[Steel]]></category>
-		<category domain="pa_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
+		<category domain="product_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
 		<category domain="product_cat" nicename="wall-hung-toilets"><![CDATA[Wall hung toilets]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -9659,7 +9656,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9734,7 +9731,7 @@
 					<title><![CDATA[Glossy Ceramic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/glossy-ceramic/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=83</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -9844,8 +9841,8 @@
 															<wp:post_id>83</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:46]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:02:56]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:02:56]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[glossy-ceramic]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9853,7 +9850,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="20-x-24-x-71in"><![CDATA[20 x 24 x 71in.]]></category>
-		<category domain="pa_brand" nicename="alpha"><![CDATA[Alpha]]></category>
+		<category domain="product_brand" nicename="alpha"><![CDATA[Alpha]]></category>
 		<category domain="product_cat" nicename="bathroom-tile"><![CDATA[Bathroom tile]]></category>
 		<category domain="product_cat" nicename="carpets-in-the-nursery"><![CDATA[Carpets in the nursery]]></category>
 		<category domain="product_cat" nicename="ceramic-tiles"><![CDATA[Ceramic tiles]]></category>
@@ -9887,7 +9884,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9966,7 +9963,7 @@
 					<title><![CDATA[Bathroom Sink]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/bathroom-sink/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=84</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10076,8 +10073,8 @@
 															<wp:post_id>84</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:48]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:17]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:17]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[bathroom-sink]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10086,7 +10083,7 @@
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="20-x-24-x-71in"><![CDATA[20 x 24 x 71in.]]></category>
 		<category domain="product_cat" nicename="acrylic"><![CDATA[Acrylic]]></category>
-		<category domain="pa_brand" nicename="atlant"><![CDATA[Atlant]]></category>
+		<category domain="product_brand" nicename="atlant"><![CDATA[Atlant]]></category>
 		<category domain="product_cat" nicename="baths-with-air-massage"><![CDATA[Baths with air massage]]></category>
 		<category domain="pa_color" nicename="beige"><![CDATA[Beige]]></category>
 		<category domain="product_cat" nicename="floor-toilets"><![CDATA[Floor toilets]]></category>
@@ -10116,7 +10113,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10191,7 +10188,7 @@
 					<title><![CDATA[Black siphon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/black-siphon/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=85</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10301,8 +10298,8 @@
 															<wp:post_id>85</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:01]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[black-siphon]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10311,7 +10308,7 @@
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="16-x-24-x-71in"><![CDATA[16 x 24 x 71in.]]></category>
 		<category domain="product_cat" nicename="acrylic"><![CDATA[Acrylic]]></category>
-		<category domain="pa_brand" nicename="alpha"><![CDATA[Alpha]]></category>
+		<category domain="product_brand" nicename="alpha"><![CDATA[Alpha]]></category>
 		<category domain="product_cat" nicename="angular"><![CDATA[Angular]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="product_cat" nicename="ceramic-washbasins"><![CDATA[Ceramic washbasins]]></category>
@@ -10343,7 +10340,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10418,7 +10415,7 @@
 					<title><![CDATA[1/2-in Keyed Corded Drill]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/1-2-in-keyed-corded-drill/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=86</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10528,8 +10525,8 @@
 															<wp:post_id>86</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:01]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[1-2-in-keyed-corded-drill]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10539,7 +10536,7 @@
 												<category domain="product_cat" nicename="angle-grinders"><![CDATA[Angle grinders]]></category>
 		<category domain="product_cat" nicename="combo-kits"><![CDATA[Combo kits]]></category>
 		<category domain="product_cat" nicename="corded-drills"><![CDATA[Corded drills]]></category>
-		<category domain="pa_brand" nicename="elemental"><![CDATA[Elemental]]></category>
+		<category domain="product_brand" nicename="elemental"><![CDATA[Elemental]]></category>
 		<category domain="product_cat" nicename="jigsaws"><![CDATA[Jigsaws]]></category>
 		<category domain="product_cat" nicename="multi-position-ladders"><![CDATA[Multi position ladders]]></category>
 		<category domain="pa_color" nicename="red"><![CDATA[Red]]></category>
@@ -10565,7 +10562,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10640,7 +10637,7 @@
 					<title><![CDATA[12V Max 2-Tool Combo Kit]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/12v-max-2-tool-combo-kit/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=87</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10750,8 +10747,8 @@
 															<wp:post_id>87</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:37]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:37]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:54]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:54]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[12v-max-2-tool-combo-kit]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10767,7 +10764,7 @@
 		<category domain="product_cat" nicename="impact-drivers"><![CDATA[Impact drivers]]></category>
 		<category domain="product_cat" nicename="saws-power-tools"><![CDATA[Saws]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
+		<category domain="product_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
 		<category domain="product_cat" nicename="table-saws"><![CDATA[Table saws]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -10787,7 +10784,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10866,7 +10863,7 @@
 					<title><![CDATA[7-1/4-Inch Circular Saw]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/7-1-4-inch-circular-saw/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=88</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10976,8 +10973,8 @@
 															<wp:post_id>88</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:32]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:32]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:27]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:27]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[7-1-4-inch-circular-saw]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10989,7 +10986,7 @@
 		<category domain="product_cat" nicename="corded-drills"><![CDATA[Corded drills]]></category>
 		<category domain="product_cat" nicename="cordless-drills"><![CDATA[Cordless drills]]></category>
 		<category domain="product_cat" nicename="extension-ladders"><![CDATA[Extension ladders]]></category>
-		<category domain="pa_brand" nicename="hammer"><![CDATA[Hammer]]></category>
+		<category domain="product_brand" nicename="hammer"><![CDATA[Hammer]]></category>
 		<category domain="product_cat" nicename="impact-drivers"><![CDATA[Impact drivers]]></category>
 		<category domain="product_cat" nicename="jigsaws"><![CDATA[Jigsaws]]></category>
 		<category domain="pa_color" nicename="orange"><![CDATA[Orange]]></category>
@@ -11017,7 +11014,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11092,7 +11089,7 @@
 					<title><![CDATA[Adjustable Step Ladder]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/adjustable-step-ladder/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=89</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -11202,8 +11199,8 @@
 															<wp:post_id>89</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:32]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:32]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:07]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[adjustable-step-ladder]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -11212,7 +11209,7 @@
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="band-saws"><![CDATA[Band saws]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
-		<category domain="pa_brand" nicename="elemental"><![CDATA[Elemental]]></category>
+		<category domain="product_brand" nicename="elemental"><![CDATA[Elemental]]></category>
 		<category domain="product_cat" nicename="extension-ladders"><![CDATA[Extension ladders]]></category>
 		<category domain="product_cat" nicename="jigsaws"><![CDATA[Jigsaws]]></category>
 		<category domain="product_cat" nicename="rotary-tool-bits"><![CDATA[Rotary tool bits]]></category>
@@ -11237,7 +11234,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11316,7 +11313,7 @@
 					<title><![CDATA[Aluminum Work Stand]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/aluminum-work-stand/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=90</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -11426,8 +11423,8 @@
 															<wp:post_id>90</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:33]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:33]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:05:04]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:05:04]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aluminum-work-stand]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -11444,7 +11441,7 @@
 		<category domain="product_cat" nicename="right-angle-drills"><![CDATA[Right angle drills]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="step-ladders"><![CDATA[Step ladders]]></category>
-		<category domain="pa_brand" nicename="tukker"><![CDATA[Tukker]]></category>
+		<category domain="product_brand" nicename="tukker"><![CDATA[Tukker]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[617513]]></wp:meta_value>
@@ -11463,7 +11460,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11538,7 +11535,7 @@
 					<title><![CDATA[Pipe Polyethylene]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/pipe-polyethylene/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=91</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -11648,8 +11645,8 @@
 															<wp:post_id>91</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:05:09]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:05:09]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[pipe-polyethylene]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -11668,7 +11665,7 @@
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="slim-water-heaters"><![CDATA[Slim water heaters]]></category>
 		<category domain="product_cat" nicename="threaded-fittings"><![CDATA[Threaded fittings]]></category>
-		<category domain="pa_brand" nicename="tukker"><![CDATA[Tukker]]></category>
+		<category domain="product_brand" nicename="tukker"><![CDATA[Tukker]]></category>
 		<category domain="product_cat" nicename="water-pipes"><![CDATA[Water pipes]]></category>
 		<category domain="product_cat" nicename="with-dry-heating-elements"><![CDATA[With dry heating elements]]></category>
 											<wp:postmeta>
@@ -11689,7 +11686,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11764,7 +11761,7 @@
 					<title><![CDATA[Hose Premium 3/4″]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/hose-premium-3-4%e2%80%b3/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=92</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -11874,8 +11871,8 @@
 															<wp:post_id>92</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[hose-premium-3-4%e2%80%b3]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -11884,7 +11881,7 @@
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="16-x-24-x-71in"><![CDATA[16 x 24 x 71in.]]></category>
 		<category domain="product_cat" nicename="anti-scale-filters"><![CDATA[Anti scale filters]]></category>
-		<category domain="pa_brand" nicename="atlant"><![CDATA[Atlant]]></category>
+		<category domain="product_brand" nicename="atlant"><![CDATA[Atlant]]></category>
 		<category domain="product_cat" nicename="channel-drains"><![CDATA[Channel drains]]></category>
 		<category domain="product_cat" nicename="compression-valve"><![CDATA[Compression valve]]></category>
 		<category domain="product_cat" nicename="corrugated-drainage-pipe"><![CDATA[Corrugated drainage pipe]]></category>
@@ -11926,7 +11923,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -12005,7 +12002,7 @@
 					<title><![CDATA[Outdoor Wall Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/outdoor-wall-light/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=93</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -12115,8 +12112,8 @@
 															<wp:post_id>93</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:11]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:11]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:31]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:38]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[outdoor-wall-light]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -12152,7 +12149,7 @@
 		<category domain="product_cat" nicename="smart-night-lights"><![CDATA[Smart night lights]]></category>
 		<category domain="product_cat" nicename="smart-table-lamps"><![CDATA[Smart table lamps]]></category>
 		<category domain="product_cat" nicename="special-lamps"><![CDATA[Special lamps]]></category>
-		<category domain="pa_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
+		<category domain="product_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
 		<category domain="product_cat" nicename="track-lights"><![CDATA[Track lights]]></category>
 		<category domain="product_cat" nicename="wall-lights"><![CDATA[Wall lights]]></category>
 		<category domain="product_cat" nicename="with-wireless-charging"><![CDATA[With wireless charging]]></category>
@@ -12174,7 +12171,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -12249,7 +12246,7 @@
 					<title><![CDATA[Exhterm Warm Floor]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/exhterm-warm-floor/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=94</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -12359,8 +12356,8 @@
 															<wp:post_id>94</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:11]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:11]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:29]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:29]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:43]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[exhterm-warm-floor]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -12390,7 +12387,7 @@
 		<category domain="pa_color" nicename="orange"><![CDATA[Orange]]></category>
 		<category domain="product_cat" nicename="outdoor-tiles"><![CDATA[Outdoor tiles]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
+		<category domain="product_brand" nicename="str-ban"><![CDATA[Str.Ban]]></category>
 		<category domain="product_cat" nicename="underfloor-heating-cable"><![CDATA[Underfloor heating cable]]></category>
 		<category domain="product_cat" nicename="wall-tile"><![CDATA[Wall tile]]></category>
 		<category domain="product_cat" nicename="warm-rug"><![CDATA[Warm rug]]></category>
@@ -12418,7 +12415,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -12493,7 +12490,7 @@
 					<title><![CDATA[Wood Soap Dish]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/wood-soap-dish/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=95</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -12603,8 +12600,8 @@
 															<wp:post_id>95</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:11]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:11]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:27]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:27]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:56]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:56]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[wood-soap-dish]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -12618,7 +12615,7 @@
 		<category domain="product_cat" nicename="bulk-candles"><![CDATA[Bulk candles]]></category>
 		<category domain="product_cat" nicename="clocks"><![CDATA[Clocks]]></category>
 		<category domain="product_cat" nicename="decorative-candles"><![CDATA[Decorative candles]]></category>
-		<category domain="pa_brand" nicename="elemental"><![CDATA[Elemental]]></category>
+		<category domain="product_brand" nicename="elemental"><![CDATA[Elemental]]></category>
 		<category domain="product_cat" nicename="kids-bath-accessories"><![CDATA[Kids’ bath accessories]]></category>
 		<category domain="product_cat" nicename="picture-frames"><![CDATA[Picture frames]]></category>
 		<category domain="product_cat" nicename="pillows-and-throws"><![CDATA[Pillows and throws]]></category>
@@ -12648,7 +12645,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -12723,7 +12720,7 @@
 					<title><![CDATA[Newsletter Megamarket form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/mc4wp-form/570/</link>
 					<pubDate>Wed, 02 Oct 2024 09:36:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/mc4wp-form/570/</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-gap: 10px">
 <div class="wd-col"><input type="email" name="EMAIL" placeholder="Your email address" required /></div>
@@ -12797,7 +12794,7 @@
 					<title><![CDATA[Lighting Discount]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/lighting-discount-2/</link>
 					<pubDate>Thu, 11 Jul 2024 07:24:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=619</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"2105137b-5e85-4036-aa00-5bbee11b8502","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-2105137b" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"f0f56ef9-886a-49d3-80fc-7e60956e8341","adjacentCount":2,"colWidth":33.33,"blocksGap":10,"justifyContent":"center"} -->
@@ -12866,14 +12863,14 @@
 					<title><![CDATA[Contact Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/contact-us/</link>
 					<pubDate>Tue, 09 Jul 2024 09:03:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=45</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"1e178105-43d3-481e-99ad-08cabe168d81","content":"Store Locator Rose Yost","tpFontSize":"36","tpFontVariant":"800","tpFontWeight":"800","colorVariable":"\u002d\u002dwd-primary-color","marginBottom":"30","tpFontSizeTablet":"28","tpFontSizeMobile":"24","marginTopTablet":"-20"} -->
 <h2 id="wd-1e178105" class="wp-block-wd-title title">Store Locator Rose Yost</h2>
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/google-map {"blockId":"90d8e582-988e-41a0-81f8-6a148fd25f1a","styleJson":"[\n    {\n        \u0022featureType\u0022: \u0022administrative\u0022,\n        \u0022elementType\u0022: \u0022labels.text.fill\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022color\u0022: \u0022#444444\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022landscape\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022color\u0022: \u0022#f2f2f2\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022poi\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022off\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022road\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022saturation\u0022: -100\n            },\n            {\n                \u0022lightness\u0022: 45\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022road.highway\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022simplified\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022road.arterial\u0022,\n        \u0022elementType\u0022: \u0022labels.icon\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022off\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022transit\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022off\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022water\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022color\u0022: \u0022#1246ab\u0022\n            },\n            {\n                \u0022visibility\u0022: \u0022on\u0022\n            }\n        ]\n    }\n]","height":"500","locations":[{"title":"","lat":"45.9","lon":"10.9","description":"","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-90d8e582" class="wp-block-wd-google-map wd-map-container google-map-container" data-map-args="{&quot;multiple_markers&quot;:&quot;yes&quot;,&quot;zoom&quot;:15,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;json_style&quot;:&quot;[\n    {\n        \&quot;featureType\&quot;: \&quot;administrative\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.text.fill\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#444444\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;landscape\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#f2f2f2\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;poi\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;saturation\&quot;: -100\n            },\n            {\n                \&quot;lightness\&quot;: 45\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.highway\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;simplified\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.arterial\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.icon\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;transit\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;water\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#1246ab\&quot;\n            },\n            {\n                \&quot;visibility\&quot;: \&quot;on\&quot;\n            }\n        ]\n    }\n]&quot;,&quot;selector&quot;:&quot;wd-map-id-90d8e582-988e-41a0-81f8-6a148fd25f1a&quot;,&quot;markers&quot;:[{&quot;marker_lat&quot;:&quot;45.9&quot;,&quot;marker_lon&quot;:&quot;10.9&quot;,&quot;marker_icon&quot;:&quot;https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/themes/woodmart/inc/admin/assets/images/google-icon.png&quot;,&quot;marker_icon_size&quot;:[40,40],&quot;marker_title&quot;:&quot;&quot;,&quot;marker_description&quot;:&quot;&quot;}]}"><div class="wd-google-map-wrapper wd-map-wrapper wd-fill"><div id="wd-map-id-90d8e582-988e-41a0-81f8-6a148fd25f1a" class="wd-google-map wd-fill"></div></div></div>
+<div id="wd-90d8e582" class="wp-block-wd-google-map wd-map-container google-map-container" data-map-args="{&quot;multiple_markers&quot;:&quot;yes&quot;,&quot;zoom&quot;:15,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;json_style&quot;:&quot;[\n    {\n        \&quot;featureType\&quot;: \&quot;administrative\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.text.fill\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#444444\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;landscape\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#f2f2f2\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;poi\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;saturation\&quot;: -100\n            },\n            {\n                \&quot;lightness\&quot;: 45\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.highway\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;simplified\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.arterial\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.icon\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;transit\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;water\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#1246ab\&quot;\n            },\n            {\n                \&quot;visibility\&quot;: \&quot;on\&quot;\n            }\n        ]\n    }\n]&quot;,&quot;selector&quot;:&quot;wd-map-id-90d8e582-988e-41a0-81f8-6a148fd25f1a&quot;,&quot;markers&quot;:[{&quot;marker_lat&quot;:&quot;45.9&quot;,&quot;marker_lon&quot;:&quot;10.9&quot;,&quot;marker_icon&quot;:&quot;https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/themes/ woodmart/inc/admin/assets/images/google-icon.png&quot;,&quot;marker_icon_size&quot;:[40,40],&quot;marker_title&quot;:&quot;&quot;,&quot;marker_description&quot;:&quot;&quot;}]}"><div class="wd-google-map-wrapper wd-map-wrapper wd-fill"><div id="wd-map-id-90d8e582-988e-41a0-81f8-6a148fd25f1a" class="wd-google-map wd-fill"></div></div></div>
 <!-- /wp:wd/google-map -->
 
 <!-- wp:wd/row {"blockId":"abdff99a-efdb-4be5-b43a-3bb6291d36f5","columnsGap":20,"marginBottom":"60","marginBottomTablet":"40"} -->
@@ -12947,7 +12944,7 @@
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/google-map {"blockId":"eda02131-298a-49d8-84a5-ecca00cbbd0b","styleJson":"[\n    {\n        \u0022featureType\u0022: \u0022administrative\u0022,\n        \u0022elementType\u0022: \u0022labels.text.fill\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022color\u0022: \u0022#444444\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022landscape\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022color\u0022: \u0022#f2f2f2\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022poi\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022off\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022road\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022saturation\u0022: -100\n            },\n            {\n                \u0022lightness\u0022: 45\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022road.highway\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022simplified\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022road.arterial\u0022,\n        \u0022elementType\u0022: \u0022labels.icon\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022off\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022transit\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022visibility\u0022: \u0022off\u0022\n            }\n        ]\n    },\n    {\n        \u0022featureType\u0022: \u0022water\u0022,\n        \u0022elementType\u0022: \u0022all\u0022,\n        \u0022stylers\u0022: [\n            {\n                \u0022color\u0022: \u0022#1246ab\u0022\n            },\n            {\n                \u0022visibility\u0022: \u0022on\u0022\n            }\n        ]\n    }\n]","height":"500","locations":[{"title":"","lat":"45.9","lon":"10.9","description":"","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-eda02131" class="wp-block-wd-google-map wd-map-container google-map-container" data-map-args="{&quot;multiple_markers&quot;:&quot;yes&quot;,&quot;zoom&quot;:15,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;json_style&quot;:&quot;[\n    {\n        \&quot;featureType\&quot;: \&quot;administrative\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.text.fill\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#444444\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;landscape\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#f2f2f2\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;poi\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;saturation\&quot;: -100\n            },\n            {\n                \&quot;lightness\&quot;: 45\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.highway\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;simplified\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.arterial\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.icon\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;transit\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;water\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#1246ab\&quot;\n            },\n            {\n                \&quot;visibility\&quot;: \&quot;on\&quot;\n            }\n        ]\n    }\n]&quot;,&quot;selector&quot;:&quot;wd-map-id-eda02131-298a-49d8-84a5-ecca00cbbd0b&quot;,&quot;markers&quot;:[{&quot;marker_lat&quot;:&quot;45.9&quot;,&quot;marker_lon&quot;:&quot;10.9&quot;,&quot;marker_icon&quot;:&quot;https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/themes/woodmart/inc/admin/assets/images/google-icon.png&quot;,&quot;marker_icon_size&quot;:[40,40],&quot;marker_title&quot;:&quot;&quot;,&quot;marker_description&quot;:&quot;&quot;}]}"><div class="wd-google-map-wrapper wd-map-wrapper wd-fill"><div id="wd-map-id-eda02131-298a-49d8-84a5-ecca00cbbd0b" class="wd-google-map wd-fill"></div></div></div>
+<div id="wd-eda02131" class="wp-block-wd-google-map wd-map-container google-map-container" data-map-args="{&quot;multiple_markers&quot;:&quot;yes&quot;,&quot;zoom&quot;:15,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;json_style&quot;:&quot;[\n    {\n        \&quot;featureType\&quot;: \&quot;administrative\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.text.fill\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#444444\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;landscape\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#f2f2f2\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;poi\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;saturation\&quot;: -100\n            },\n            {\n                \&quot;lightness\&quot;: 45\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.highway\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;simplified\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;road.arterial\&quot;,\n        \&quot;elementType\&quot;: \&quot;labels.icon\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;transit\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;visibility\&quot;: \&quot;off\&quot;\n            }\n        ]\n    },\n    {\n        \&quot;featureType\&quot;: \&quot;water\&quot;,\n        \&quot;elementType\&quot;: \&quot;all\&quot;,\n        \&quot;stylers\&quot;: [\n            {\n                \&quot;color\&quot;: \&quot;#1246ab\&quot;\n            },\n            {\n                \&quot;visibility\&quot;: \&quot;on\&quot;\n            }\n        ]\n    }\n]&quot;,&quot;selector&quot;:&quot;wd-map-id-eda02131-298a-49d8-84a5-ecca00cbbd0b&quot;,&quot;markers&quot;:[{&quot;marker_lat&quot;:&quot;45.9&quot;,&quot;marker_lon&quot;:&quot;10.9&quot;,&quot;marker_icon&quot;:&quot;https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/themes/ woodmart/inc/admin/assets/images/google-icon.png&quot;,&quot;marker_icon_size&quot;:[40,40],&quot;marker_title&quot;:&quot;&quot;,&quot;marker_description&quot;:&quot;&quot;}]}"><div class="wd-google-map-wrapper wd-map-wrapper wd-fill"><div id="wd-map-id-eda02131-298a-49d8-84a5-ecca00cbbd0b" class="wd-google-map wd-fill"></div></div></div>
 <!-- /wp:wd/google-map -->
 
 <!-- wp:wd/row {"blockId":"69b6411b-d674-4b51-ad7f-16705dc4acc4","columnsGap":20,"marginBottom":"40","marginBottomTablet":"20","marginBottomMobile":"0"} -->
@@ -13075,7 +13072,7 @@
 					<title><![CDATA[Compare]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/compare/</link>
 					<pubDate>Tue, 09 Jul 2024 09:04:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=47</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_compare]
@@ -13112,7 +13109,7 @@
 					<title><![CDATA[About us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/about-us/</link>
 					<pubDate>Tue, 09 Jul 2024 09:04:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=49</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"ec9fd402-2c7d-42b0-b2a9-6e41c9ba78ef","marginBottom":"80","columnsGapMobile":40,"marginTopTablet":"-20","marginBottomTablet":"60"} -->
 <div id="wd-ec9fd402" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"4c807c8a-a9e9-4496-9189-e15edc34fd4d","adjacentCount":2,"justifyContent":"center"} -->
@@ -13305,7 +13302,7 @@
 					<title><![CDATA[Blog]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/blog/</link>
 					<pubDate>Tue, 09 Jul 2024 09:04:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=51</guid>
 															<wp:post_id>51</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 09:04:25]]></wp:post_date>
@@ -13339,7 +13336,7 @@
 					<title><![CDATA[Contact form alternative]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=wpcf7_contact_form&#038;p=54</link>
 					<pubDate>Tue, 09 Jul 2024 09:05:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=wpcf7_contact_form&#038;p=54</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <div class="wd-grid-f-stretch" style="--wd-gap-lg: 30px;--wd-gap-sm: 20px">
@@ -13355,7 +13352,7 @@
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [_site_admin_email]
 From: [your-name] [your-email]
 Subject: [your-subject]
@@ -13371,7 +13368,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [your-email]
 Message Body:
 [your-message]
@@ -13407,8 +13404,8 @@ Please enter a telephone number.]]></content:encoded>
 															<wp:post_id>54</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 09:05:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 09:05:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-08-19 14:45:01]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-08-19 14:45:01]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-24 13:56:23]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-24 13:56:23]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-alternative]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -13432,7 +13429,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -13443,7 +13440,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -13461,12 +13458,16 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
 							<wp:meta_value><![CDATA[84032fdf374cf1510f569a04e29b1a15493ba452]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:31:"Invalid mailbox syntax is used.";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Header current address]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=header-current-address</link>
 					<pubDate>Tue, 09 Jul 2024 09:07:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=56</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"58146abc-a788-495e-8821-a71fa2ee5017","rowGap":"30","paddingTop":"30"} -->
 <div id="wd-58146abc" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/row {"blockId":"ea9279cc-03f5-4bf9-807f-5a7e226a0a63","columnsGap":20,"paddingRight":"30","paddingLeft":"30","borderColorCode":"rgba(0,0,0,0.11)","borderWidthLock":false} -->
@@ -13559,7 +13560,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Fullscreen search custom content]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=fullscreen-search-custom-content</link>
 					<pubDate>Tue, 09 Jul 2024 09:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=58</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"b27fae24-080b-446a-b955-c24efd756ce2"} -->
 <div id="wd-b27fae24" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"01752263-c9e9-4401-9dec-2022b2d38064","adjacentCount":4} -->
@@ -13610,7 +13611,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Flooring]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-flooring</link>
 					<pubDate>Tue, 09 Jul 2024 09:08:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=59</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"b1e9d0b0-f03a-4d3f-86f8-b0e913797d1d"} -->
 <div id="wd-b1e9d0b0" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"ab0b14d0-14c6-4f72-aa8d-7790578b6e63","adjacentCount":4,"colWidth":19,"blocksGap":40} -->
@@ -13805,7 +13806,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Plumbing]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-plumbing</link>
 					<pubDate>Tue, 09 Jul 2024 09:08:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=60</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"15cf8206-72d5-4291-b0fb-1acd52b282ec"} -->
 <div id="wd-15cf8206" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"bde3a201-d1a6-4309-8906-7c9e1d7fe0cd","adjacentCount":4,"colWidth":19,"blocksGap":40} -->
@@ -13980,7 +13981,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Bathroom]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-bathroom</link>
 					<pubDate>Tue, 09 Jul 2024 09:09:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=61</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"39e8bb7b-e40c-48bd-beac-9686084b3e13"} -->
 <div id="wd-39e8bb7b" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"36bb0a0c-3ff4-4ebc-a8d3-5f8776fc090b","adjacentCount":4,"colWidth":19,"blocksGap":40} -->
@@ -14151,7 +14152,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Tools]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-tools</link>
 					<pubDate>Tue, 09 Jul 2024 09:09:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=62</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"6a8774a5-6901-41b6-bea3-230f2d66822f"} -->
 <div id="wd-6a8774a5" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"98c8516e-7529-4c5f-97ab-e0a50a13931d","adjacentCount":4,"colWidth":21,"blocksGap":40} -->
@@ -14282,7 +14283,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Heating]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-heating</link>
 					<pubDate>Tue, 09 Jul 2024 09:09:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=63</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e3e497f9-459d-4232-bffd-584d1bbb540c"} -->
 <div id="wd-e3e497f9" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"4b6c4676-fce9-4975-81f4-d63ee7c8c783","adjacentCount":4,"colWidth":19} -->
@@ -14415,7 +14416,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Lighting]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-lighting</link>
 					<pubDate>Tue, 09 Jul 2024 09:09:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=64</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"ebce599c-ceb7-4d64-9893-06d2caf64aaf"} -->
 <div id="wd-ebce599c" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"f6e6ba79-fce4-4cd3-aea5-af86f2d2bd4a","adjacentCount":4,"colWidth":19,"blocksGap":40} -->
@@ -14606,7 +14607,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Menu category Accessories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?cms_block=menu-category-accessories</link>
 					<pubDate>Tue, 09 Jul 2024 09:09:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=cms_block&#038;p=65</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"9c7d858e-50eb-4e5e-aab4-fe55ca9ecb22"} -->
 <div id="wd-9c7d858e" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"74b64823-3de1-45f2-bbfe-eec04c5e78a9","adjacentCount":4,"colWidth":19,"blocksGap":40} -->
@@ -14763,7 +14764,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Rectangular Sink]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/rectangular-sink/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=70</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -14873,8 +14874,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>70</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:08]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:55]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:55]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[rectangular-sink]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -14883,7 +14884,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="20-x-24-x-71in"><![CDATA[20 x 24 x 71in.]]></category>
 		<category domain="product_cat" nicename="acrylic"><![CDATA[Acrylic]]></category>
-		<category domain="pa_brand" nicename="alpha"><![CDATA[Alpha]]></category>
+		<category domain="product_brand" nicename="alpha"><![CDATA[Alpha]]></category>
 		<category domain="pa_color" nicename="beige"><![CDATA[Beige]]></category>
 		<category domain="product_cat" nicename="floor-vanities"><![CDATA[Floor vanities]]></category>
 		<category domain="product_cat" nicename="flush-keys"><![CDATA[Flush keys]]></category>
@@ -14911,7 +14912,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -14994,7 +14995,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Granite Wall Tile - Gray]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/granite-wall-tile/?attribute_pa_color=gray</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=73</guid>
 																<excerpt:encoded><![CDATA[Color: Gray]]></excerpt:encoded>
 										<wp:post_id>73</wp:post_id>
@@ -15057,7 +15058,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Granite Wall Tile - Black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/granite-wall-tile/?attribute_pa_color=black</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=74</guid>
 																<excerpt:encoded><![CDATA[Color: Black]]></excerpt:encoded>
 										<wp:post_id>74</wp:post_id>
@@ -15120,7 +15121,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Face Mirror]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/face-mirror/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=75</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -15230,8 +15231,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>75</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:09]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:52]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:03:34]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:03:34]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[face-mirror]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -15240,7 +15241,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="33-1-2-x-72in"><![CDATA[33 1/2 x 72in.]]></category>
 		<category domain="product_cat" nicename="aroma-candles"><![CDATA[Aroma candles]]></category>
-		<category domain="pa_brand" nicename="atlant"><![CDATA[Atlant]]></category>
+		<category domain="product_brand" nicename="atlant"><![CDATA[Atlant]]></category>
 		<category domain="product_cat" nicename="bathroom-mats"><![CDATA[Bathroom mats]]></category>
 		<category domain="pa_color" nicename="beige"><![CDATA[Beige]]></category>
 		<category domain="product_cat" nicename="illuminated-mirrors"><![CDATA[Illuminated mirrors]]></category>
@@ -15269,7 +15270,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -15344,7 +15345,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Linoleum Starry Nght]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/linoleum-starry-nght/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=76</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -15454,8 +15455,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>76</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:09]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:51]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:04:12]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:04:12]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[linoleum-starry-nght]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -15467,7 +15468,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="product_cat" nicename="ceramic-tiles"><![CDATA[Ceramic tiles]]></category>
 		<category domain="product_cat" nicename="dark"><![CDATA[Dark]]></category>
 		<category domain="product_cat" nicename="dark-wooden-floor"><![CDATA[Dark wooden floor]]></category>
-		<category domain="pa_brand" nicename="elemental"><![CDATA[Elemental]]></category>
+		<category domain="product_brand" nicename="elemental"><![CDATA[Elemental]]></category>
 		<category domain="product_cat" nicename="flexible-plinth"><![CDATA[Flexible plinth]]></category>
 		<category domain="product_cat" nicename="light-laminate"><![CDATA[Light laminate]]></category>
 		<category domain="product_cat" nicename="light-linoleum"><![CDATA[Light linoleum]]></category>
@@ -15496,7 +15497,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -15571,7 +15572,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[V510 100 Liters Vertical]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/product/v510-100-liters-vertical/</link>
 					<pubDate>Tue, 09 Jul 2024 11:13:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=product&#038;p=77</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"e1eb1aac-881f-43bf-a831-9e9c67dcc483","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-e1eb1aac" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a0f358c9-47a2-4388-8e6a-97653833999e","adjacentCount":2,"colWidth":58,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -15681,8 +15682,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>77</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 11:13:09]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-09 11:13:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-16 09:52:50]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-16 09:52:50]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:05:13]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:05:13]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[v510-100-liters-vertical]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -15700,7 +15701,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="slim-water-heaters"><![CDATA[Slim water heaters]]></category>
 		<category domain="product_cat" nicename="threaded-fittings"><![CDATA[Threaded fittings]]></category>
-		<category domain="pa_brand" nicename="tukker"><![CDATA[Tukker]]></category>
+		<category domain="product_brand" nicename="tukker"><![CDATA[Tukker]]></category>
 		<category domain="product_cat" nicename="with-dry-heating-elements"><![CDATA[With dry heating elements]]></category>
 		<category domain="product_cat" nicename="with-piezo-ignition"><![CDATA[With piezo ignition]]></category>
 		<category domain="pa_color" nicename="yellow"><![CDATA[Yellow]]></category>
@@ -15722,7 +15723,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -15797,7 +15798,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Shop]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/shop/</link>
 					<pubDate>Tue, 09 Jul 2024 08:50:21 +0000</pubDate>
-					<dc:creator><![CDATA[admin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/shop/</guid>
 															<wp:post_id>11</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 08:50:21]]></wp:post_date>
@@ -15815,7 +15816,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Contact form 1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=wpcf7_contact_form&#038;p=16</link>
 					<pubDate>Tue, 09 Jul 2024 08:50:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?post_type=wpcf7_contact_form&#038;p=16</guid>
 											<content:encoded><![CDATA[<label> Your name
     [text* your-name autocomplete:name] </label>
@@ -15933,7 +15934,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home Megamarket]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/</link>
 					<pubDate>Tue, 09 Jul 2024 09:01:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=31</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"063a9293-b592-47d4-82d6-4a0a02c29f9e","bgType":"gradient","bgGradient":"linear-gradient(180deg,rgb(40,89,184) 0%,rgb(40,89,184) 82%,rgb(255,255,255) 82%)","marginTop":"-40","marginBottom":"80","paddingTopTablet":"20","marginBottomTablet":"60"} -->
 <div id="wd-063a9293" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"cec768b6-6d7d-4a09-98b3-a56d4556f577","columnsGap":20} -->
@@ -16286,7 +16287,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Wishlist]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wishlist/</link>
 					<pubDate>Tue, 09 Jul 2024 09:02:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=33</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_wishlist]
@@ -16319,7 +16320,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Track Order]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/track-order/</link>
 					<pubDate>Tue, 09 Jul 2024 09:03:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=37</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"55b5dea8-92e6-4f33-8171-ebe486a6b0c2","textAlign":"center","marginTop":"40","marginBottom":"80","displayWidth":"custom","customWidth":"920","marginTopTablet":"0","marginBottomTablet":"60"} -->
 <div id="wd-55b5dea8" class="wp-block-wd-container wd-dir-col wd-align wd-custom-width"><!-- wp:wd/title {"blockId":"7edb58ad-27f8-4396-ad97-ba430534a07b","content":"Order Tracking","tpFontSize":"36","tpFontVariant":"800","tpFontWeight":"800","colorVariable":"\u002d\u002dwd-primary-color","tpFontSizeTablet":"28","tpFontSizeMobile":"24","marginTopTablet":"-20"} -->
@@ -16518,7 +16519,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/</link>
 					<pubDate>Tue, 09 Jul 2024 09:03:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=39</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"02f72d59-b1e2-477d-aad2-7a160674d46a","marginBottom":"60","marginTopTablet":"-20"} -->
 <div id="wd-02f72d59" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"ca91cdbb-b5cb-440a-a22b-d6a415cdc3e6","adjacentCount":2,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -16765,7 +16766,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Promotions]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/</link>
 					<pubDate>Tue, 09 Jul 2024 09:03:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=41</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"89ba1454-3b30-4c67-98fb-45e4056870d1","content":"Promotions","tpFontSize":"36","tpFontVariant":"800","tpFontWeight":"800","colorVariable":"\u002d\u002dwd-primary-color","tpFontSizeTablet":"26","tpFontSizeMobile":"24"} -->
 <h2 id="wd-89ba1454" class="wp-block-wd-title title">Promotions</h2>
@@ -16908,7 +16909,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Payment and Delivery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/payment-and-delivery/</link>
 					<pubDate>Tue, 09 Jul 2024 09:03:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?page_id=43</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"ca886a68-4bfe-456a-bad8-efb309674c30","content":"Delivery Information","tpFontSize":"36","tpFontVariant":"800","tpFontWeight":"800","colorVariable":"\u002d\u002dwd-primary-color","marginBottom":"30","tpFontSizeTablet":"28","tpFontSizeMobile":"24","marginTopTablet":"-20"} -->
 <h2 id="wd-ca886a68" class="wp-block-wd-title title">Delivery Information</h2>
@@ -17003,7 +17004,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[All Categories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/all-categories/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=390</guid>
 															<wp:post_id>390</wp:post_id>
 					<wp:post_date><![CDATA[2024-09-30 11:13:11]]></wp:post_date>
@@ -17074,7 +17075,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/391/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=391</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>391</wp:post_id>
@@ -17150,7 +17151,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/392/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=392</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>392</wp:post_id>
@@ -17226,7 +17227,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/393/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=393</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>393</wp:post_id>
@@ -17302,7 +17303,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Green interior design inspiration]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/05/24/green-interior-design-inspiration/</link>
 					<pubDate>Fri, 24 May 2024 09:46:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=745</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"b1d0aa99-17aa-4150-adad-1a7c82fcf1ae"} -->
 <p id="wd-b1d0aa99" class="wp-block-wd-paragraph"><em>Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I’d say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration&nbsp;</em>&nbsp;holds steadfastly to the notion that design<em>.</em></p>
@@ -17399,7 +17400,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Collar brings back coffee brewing ritual]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/05/27/collar-brings-back-coffee-brewing-ritual/</link>
 					<pubDate>Mon, 27 May 2024 09:47:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=748</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"6f0daf1b-7387-44d7-82e9-c1d62cb2a444"} -->
 <p id="wd-6f0daf1b" class="wp-block-wd-paragraph">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It&nbsp;<em>might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</em></p>
@@ -17500,7 +17501,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Reinterprets the classic bookshelf]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/05/28/reinterprets-the-classic-bookshelf/</link>
 					<pubDate>Tue, 28 May 2024 09:48:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=750</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"4198f9bc-5082-472a-a7ba-81ff44940b00"} -->
 <p id="wd-4198f9bc" class="wp-block-wd-paragraph">You made all the required mock ups for commissioned layout, got all the approvals, built a tested code base or had them built, you decided on a content management system, got a license for it or adapted open source software for your client’s needs. Then the question arises: where’s the content? Not there yet? That’s not so bad, there’s dummy copy to the rescue.</p>
@@ -17616,7 +17617,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Creative water features and exterior]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/06/01/creative-water-features-and-exterior/</link>
 					<pubDate>Sat, 01 Jun 2024 09:49:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=752</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"a4128caa-a915-4df1-81d8-1324eab928a7"} -->
 <p id="wd-a4128caa" class="wp-block-wd-paragraph"><em>Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I’d say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration&nbsp;</em>&nbsp;holds steadfastly to the notion that design<em>.</em></p>
@@ -17713,7 +17714,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Sweet seat: functional seat for IT folks]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/06/03/sweet-seat-functional-seat-for-it-folks/</link>
 					<pubDate>Mon, 03 Jun 2024 09:50:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=754</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"496a1d14-90bd-4cd5-8e51-3d16af8b455b"} -->
 <p id="wd-496a1d14" class="wp-block-wd-paragraph">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It&nbsp;<em>might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</em></p>
@@ -17814,7 +17815,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[The big design: Wall likes pictures]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/06/09/the-big-design-wall-likes-pictures/</link>
 					<pubDate>Sun, 09 Jun 2024 09:51:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=756</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"86b2b831-2876-4c44-9885-5bed0bf4be83"} -->
 <p id="wd-86b2b831" class="wp-block-wd-paragraph">You made all the required mock ups for commissioned layout, got all the approvals, built a tested code base or had them built, you decided on a content management system, got a license for it or adapted open source software for your client’s needs. Then the question arises: where’s the content? Not there yet? That’s not so bad, there’s dummy copy to the rescue.</p>
@@ -17929,7 +17930,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[New home decor from John Doerson]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/06/14/new-home-decor-from-john-doerson/</link>
 					<pubDate>Fri, 14 Jun 2024 09:51:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=758</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"1103889b-77e2-4603-aad6-70676ab30e17"} -->
 <p id="wd-1103889b" class="wp-block-wd-paragraph"><em>Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I’d say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration&nbsp;</em>&nbsp;holds steadfastly to the notion that design<em>.</em></p>
@@ -18026,7 +18027,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Minimalist Japanese-inspired furniture]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/06/20/minimalist-japanese-inspired-furniture/</link>
 					<pubDate>Thu, 20 Jun 2024 09:52:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=760</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"57bca3ae-d982-4e6e-b648-33dd6a828b71"} -->
 <p id="wd-57bca3ae" class="wp-block-wd-paragraph">If the copy becomes distracting in the design then you are doing something wrong or they are discussing copy changes. It&nbsp;<em>might be a bit annoying but you could tell them that that discussion would be best suited for another time. At worst the discussion is at least working towards the final goal of your site where questions about lorem ipsum don’t.</em></p>
@@ -18135,7 +18136,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/394/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=394</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>394</wp:post_id>
@@ -18211,7 +18212,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/395/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=395</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>395</wp:post_id>
@@ -18287,7 +18288,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/396/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=396</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>396</wp:post_id>
@@ -18363,7 +18364,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/397/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=397</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>397</wp:post_id>
@@ -18439,7 +18440,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[All products]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/09/30/all-products/</link>
 					<pubDate>Tue, 09 Jul 2024 14:04:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=398</guid>
 															<wp:post_id>398</wp:post_id>
 					<wp:post_date><![CDATA[2024-09-30 11:13:11]]></wp:post_date>
@@ -18510,7 +18511,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Find a Store]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/11/find-a-store/</link>
 					<pubDate>Tue, 09 Jul 2024 14:10:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=399</guid>
 															<wp:post_id>399</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 09:03:22]]></wp:post_date>
@@ -18589,7 +18590,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Expert Advice]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/expert-advice/</link>
 					<pubDate>Tue, 09 Jul 2024 14:12:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=400</guid>
 															<wp:post_id>400</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:12:37]]></wp:post_date>
@@ -18640,7 +18641,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/401/</link>
 					<pubDate>Tue, 09 Jul 2024 14:12:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=401</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>401</wp:post_id>
@@ -18692,7 +18693,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/402/</link>
 					<pubDate>Tue, 09 Jul 2024 14:12:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=402</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>402</wp:post_id>
@@ -18744,7 +18745,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/403/</link>
 					<pubDate>Tue, 09 Jul 2024 14:12:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=403</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>403</wp:post_id>
@@ -18800,7 +18801,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/404/</link>
 					<pubDate>Tue, 09 Jul 2024 14:12:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=404</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>404</wp:post_id>
@@ -18856,7 +18857,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/405/</link>
 					<pubDate>Tue, 09 Jul 2024 14:12:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=405</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>405</wp:post_id>
@@ -18912,7 +18913,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/home/</link>
 					<pubDate>Tue, 09 Jul 2024 14:14:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=406</guid>
 															<wp:post_id>406</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:14:37]]></wp:post_date>
@@ -18963,7 +18964,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/407/</link>
 					<pubDate>Tue, 09 Jul 2024 14:14:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=407</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>407</wp:post_id>
@@ -19015,7 +19016,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/07/09/408/</link>
 					<pubDate>Tue, 09 Jul 2024 14:14:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=408</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>408</wp:post_id>
@@ -19067,7 +19068,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/414/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=414</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>414</wp:post_id>
@@ -19127,7 +19128,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/415/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=415</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>415</wp:post_id>
@@ -19187,7 +19188,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/416/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=416</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>416</wp:post_id>
@@ -19247,7 +19248,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/417/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=417</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>417</wp:post_id>
@@ -19307,7 +19308,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/418/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=418</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>418</wp:post_id>
@@ -19367,7 +19368,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/409/</link>
 					<pubDate>Tue, 09 Jul 2024 14:15:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=409</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>409</wp:post_id>
@@ -19423,7 +19424,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/410/</link>
 					<pubDate>Tue, 09 Jul 2024 14:15:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=410</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>410</wp:post_id>
@@ -19479,7 +19480,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/411/</link>
 					<pubDate>Tue, 09 Jul 2024 14:15:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=411</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>411</wp:post_id>
@@ -19535,7 +19536,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/412/</link>
 					<pubDate>Tue, 09 Jul 2024 14:15:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=412</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>412</wp:post_id>
@@ -19591,7 +19592,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/413/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=413</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>413</wp:post_id>
@@ -19651,7 +19652,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/2024/11/18/419/</link>
 					<pubDate>Tue, 09 Jul 2024 14:16:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?p=419</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>419</wp:post_id>

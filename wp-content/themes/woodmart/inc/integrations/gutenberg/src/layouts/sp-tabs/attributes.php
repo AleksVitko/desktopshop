@@ -168,7 +168,7 @@ if ( ! function_exists( 'wd_get_single_product_block_tabs_attrs' ) ) {
 		$attr->add_attr( wd_get_color_control_attrs( 'tabsTitleTextHoverColor' ) );
 		$attr->add_attr( wd_get_color_control_attrs( 'tabsTitleTextActiveColor' ) );
 
-		$attr->add_attr( wd_get_box_shadow_control_attrs( 'accordionBoxShadow' ) );
+		wd_get_box_shadow_control_attrs( $attr, 'accordionBoxShadow' );
 		$attr->add_attr( wd_get_color_control_attrs( 'accordionShadowBgColor' ) );
 		$attr->add_attr( wd_get_typography_control_attrs(), 'accordionTitleTp' );
 		$attr->add_attr( wd_get_color_control_attrs( 'accordionTitleTextColor' ) );
@@ -189,7 +189,7 @@ if ( ! function_exists( 'wd_get_single_product_block_tabs_attrs' ) ) {
 		$attr->add_attr( wd_get_typography_control_attrs(), 'additionalInfoTermTp' );
 		$attr->add_attr( wd_get_color_control_attrs( 'additionalInfoTermColor' ) );
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

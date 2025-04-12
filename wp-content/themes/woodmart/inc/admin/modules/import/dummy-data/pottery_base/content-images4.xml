@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-07-30 08:52" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-07 09:52" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Pottery</title>
 	<link>https://dummy.xtemos.com/woodmart2/pottery</link>
 	<description></description>
-	<pubDate>Tue, 30 Jul 2024 08:52:02 +0000</pubDate>
+	<pubDate>Fri, 07 Feb 2025 09:52:38 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/pottery</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[w-hmp-category-mugs]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/w-hmp-category-mugs/</link>
 					<pubDate>Fri, 19 Jul 2024 12:09:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-category-mugs.png</guid>
 															<wp:post_id>107</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:09:43]]></wp:post_date>
@@ -73,7 +72,7 @@
 					<title><![CDATA[w-hmp-category-decor]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/w-hmp-category-decor/</link>
 					<pubDate>Fri, 19 Jul 2024 12:09:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-category-decor.png</guid>
 															<wp:post_id>108</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:09:45]]></wp:post_date>
@@ -96,7 +95,7 @@
 					<title><![CDATA[w-hmp-category-bowls]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/w-hmp-category-bowls/</link>
 					<pubDate>Fri, 19 Jul 2024 12:09:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-category-bowls.png</guid>
 															<wp:post_id>109</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:09:45]]></wp:post_date>
@@ -119,7 +118,7 @@
 					<title><![CDATA[w-hmp-category-plates]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/w-hmp-category-plates/</link>
 					<pubDate>Fri, 19 Jul 2024 12:09:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-category-plates.png</guid>
 															<wp:post_id>110</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:09:46]]></wp:post_date>
@@ -142,7 +141,7 @@
 					<title><![CDATA[w-hmp-category-pots]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/w-hmp-category-pots/</link>
 					<pubDate>Fri, 19 Jul 2024 12:09:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-category-pots.png</guid>
 															<wp:post_id>111</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:09:47]]></wp:post_date>
@@ -165,7 +164,7 @@
 					<title><![CDATA[w-hmp-blog-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/02/12/5-reasons-youll-love-handmade-mugs/w-hmp-blog-5-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:16:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-blog-5-opt.jpg</guid>
 															<wp:post_id>117</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:16:38]]></wp:post_date>
@@ -188,7 +187,7 @@
 					<title><![CDATA[w-hmp-blog-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/03/23/keeeps-pottery-classes-wheel-throwing-courses/w-hmp-blog-4-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:17:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-blog-4-opt.jpg</guid>
 															<wp:post_id>120</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:17:07]]></wp:post_date>
@@ -211,7 +210,7 @@
 					<title><![CDATA[w-hmp-blog-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/04/01/the-inspiration-behind-the-dust-to-dust-necklace/w-hmp-blog-3-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:17:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-blog-3-opt.jpg</guid>
 															<wp:post_id>123</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:17:37]]></wp:post_date>
@@ -234,7 +233,7 @@
 					<title><![CDATA[w-hmp-blog-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/05/25/our-top-5-pottery-gift-ideas/w-hmp-blog-2-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:18:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-blog-2-opt.jpg</guid>
 															<wp:post_id>126</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:18:07]]></wp:post_date>
@@ -257,7 +256,7 @@
 					<title><![CDATA[w-hmp-blog-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-blog-1-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:18:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-blog-1-opt.jpg</guid>
 															<wp:post_id>129</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:18:36]]></wp:post_date>
@@ -280,7 +279,7 @@
 					<title><![CDATA[w-hmp-single-post-image-9-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/01/07/pottery-for-beginners-the-4-main-types-of-clay/w-hmp-single-post-image-9-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:20:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-single-post-image-9-opt.jpg</guid>
 															<wp:post_id>138</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:20:58]]></wp:post_date>
@@ -303,7 +302,7 @@
 					<title><![CDATA[w-hmp-blog-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/01/07/pottery-for-beginners-the-4-main-types-of-clay/w-hmp-blog-4-opt-2/</link>
 					<pubDate>Fri, 19 Jul 2024 12:21:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-blog-4-opt.jpg</guid>
 															<wp:post_id>140</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:21:09]]></wp:post_date>
@@ -323,10 +322,56 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[w-hmp-single-post-image-2-opt]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/01/07/pottery-for-beginners-the-4-main-types-of-clay/w-hmp-single-post-image-2-opt/</link>
+					<pubDate>Fri, 19 Jul 2024 12:21:35 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-single-post-image-2-opt.jpg</guid>
+															<wp:post_id>141</wp:post_id>
+					<wp:post_date><![CDATA[2024-07-19 12:21:35]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-07-19 12:21:35]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-07-19 12:21:35]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-07-19 12:21:35]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[w-hmp-single-post-image-2-opt]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>113</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-single-post-image-2-opt.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/01/w-hmp-single-post-image-2-opt.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[w-hmp-single-post-image-4-opt]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/01/07/pottery-for-beginners-the-4-main-types-of-clay/w-hmp-single-post-image-4-opt/</link>
+					<pubDate>Fri, 19 Jul 2024 12:21:37 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-single-post-image-4-opt.jpg</guid>
+															<wp:post_id>143</wp:post_id>
+					<wp:post_date><![CDATA[2024-07-19 12:21:37]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-07-19 12:21:37]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-07-19 12:21:37]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-07-19 12:21:37]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[w-hmp-single-post-image-4-opt]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>113</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-single-post-image-4-opt.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/01/w-hmp-single-post-image-4-opt.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[w-hmp-single-post-image-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/01/07/pottery-for-beginners-the-4-main-types-of-clay/w-hmp-single-post-image-5-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:21:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/01/w-hmp-single-post-image-5-opt.jpg</guid>
 															<wp:post_id>144</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:21:37]]></wp:post_date>
@@ -349,7 +394,7 @@
 					<title><![CDATA[logo-white]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/woodmart_slide/pottery-slide-1/logo-white/</link>
 					<pubDate>Fri, 19 Jul 2024 12:43:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/logo-white.svg</guid>
 															<wp:post_id>165</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:43:10]]></wp:post_date>
@@ -372,7 +417,7 @@
 					<title><![CDATA[w-hmp-potteries]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/home-pottery/w-hmp-potteries/</link>
 					<pubDate>Fri, 19 Jul 2024 12:50:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-potteries.jpg</guid>
 															<wp:post_id>177</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:50:00]]></wp:post_date>
@@ -395,7 +440,7 @@
 					<title><![CDATA[w-hmp-img-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/home-pottery/w-hmp-img-1-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:50:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-img-1-opt.jpg</guid>
 															<wp:post_id>178</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:50:17]]></wp:post_date>
@@ -418,7 +463,7 @@
 					<title><![CDATA[w-hmp-img-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/home-pottery/w-hmp-img-2-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 12:50:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/07/w-hmp-img-2-opt.jpg</guid>
 															<wp:post_id>179</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 12:50:30]]></wp:post_date>
@@ -441,7 +486,7 @@
 					<title><![CDATA[w-hmp-single-post-image-test-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-single-post-image-test-3/</link>
 					<pubDate>Mon, 29 Jul 2024 11:44:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/2024/06/w-hmp-single-post-image-test-3.jpg</guid>
 															<wp:post_id>237</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-29 11:44:02]]></wp:post_date>

@@ -104,6 +104,28 @@
 		// }
 	}
 
+	.xts-activated-message {
+
+		> p {
+			// margin-bottom: 15px;
+
+			&:first-child {
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.xts-dev-license-label {
+		display: inline-block;
+		line-height: 1;
+		// margin-inline-start: 15px;
+		// padding: 3px 8px;
+		// vertical-align: middle;
+		// border: 1px solid currentColor;
+		// border-radius: 3px;
+		// color: var(--xts-btn-warning-color)
+	}
+
 	.xts-dev-domain-agree,
 	.xts-activation-form-agree {
 		display: flex;

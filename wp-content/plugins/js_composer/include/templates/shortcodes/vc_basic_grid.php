@@ -19,9 +19,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var WPBakeryShortCode_Vc_Basic_Grid $this
  */
 $this->post_id = false;
-$this->items = array();
+$this->items = [];
 $css = $el_class = '';
-$posts = $filter_terms = array();
+$posts = $filter_terms = [];
 $this->buildAtts( $atts, $content );
 
 $css = isset( $atts['css'] ) ? $atts['css'] : '';
@@ -49,12 +49,12 @@ $animation = isset( $this->atts['initial_loading_animation'] ) ? $this->atts['in
 
 // Used for preload first page.
 if ( ! vc_is_page_editable() ) {
-	$haystack = array(
+	$haystack = [
 		'load-more',
 		'lazy',
 		'all',
-	);
-	if ( in_array( $this->atts['style'], $haystack, true ) && in_array( $this->settings['base'], array( 'vc_basic_grid' ), true ) ) {
+	];
+	if ( in_array( $this->atts['style'], $haystack, true ) && in_array( $this->settings['base'], [ 'vc_basic_grid' ], true ) ) {
 		$this->atts['max_items'] = 'all' === $this->atts['style'] || $this->atts['items_per_page'] > $this->atts['max_items'] ? $this->atts['max_items'] : $this->atts['items_per_page'];
 		$this->buildItems();
 	}

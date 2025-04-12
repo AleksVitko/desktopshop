@@ -50,7 +50,7 @@ if ( ! function_exists( 'woodmart_product_brand' ) ) {
 
 		$wrapper_attrs = '';
 
-		$classes = 'sidebar' === woodmart_get_opt( 'product_brand_location' ) && ! woodmart_loop_prop( 'is_quick_view' ) ? ' widget sidebar-widget' : '';
+		$classes = 'sidebar' === woodmart_get_opt( 'product_brand_location' ) && ! woodmart_loop_prop( 'is_quick_view' ) ? ' wd-widget widget sidebar-widget' : '';
 
 		if ( ! empty( $args['classes'] ) ) {
 			$classes .= $args['classes'];

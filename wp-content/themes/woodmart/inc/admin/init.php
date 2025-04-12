@@ -253,12 +253,7 @@ if ( ! function_exists( 'woodmart_enqueue_admin_scripts' ) ) {
 					'deactivate_plugin_nonce'          => wp_create_nonce( 'woodmart_deactivate_plugin_nonce' ),
 					'check_plugins_nonce'              => wp_create_nonce( 'woodmart_check_plugins_nonce' ),
 					'install_child_theme_nonce'        => wp_create_nonce( 'woodmart_install_child_theme_nonce' ),
-					'get_builder_elements_nonce'       => wp_create_nonce( 'woodmart-get-builder-elements-nonce' ),
-					'get_builder_element_nonce'        => wp_create_nonce( 'woodmart-get-builder-element-nonce' ),
-					'builder_load_header_nonce'        => wp_create_nonce( 'woodmart-builder-load-header-nonce' ),
-					'builder_save_header_nonce'        => wp_create_nonce( 'woodmart-builder-save-header-nonce' ),
-					'builder_remove_header_nonce'      => wp_create_nonce( 'woodmart-builder-remove-header-nonce' ),
-					'builder_set_default_header_nonce' => wp_create_nonce( 'woodmart-builder-set-default-header-nonce' ),
+
 					'presets_nonce'                    => wp_create_nonce( 'xts_presets_nonce' ),
 					'import_nonce'                     => wp_create_nonce( 'woodmart-import-nonce' ),
 					'backup_nonce'                     => wp_create_nonce( 'xts_backup_nonce' ),
@@ -357,10 +352,6 @@ if ( ! function_exists( 'woodmart_enqueue_admin_styles' ) ) {
 
 		if ( 'xts_wpb_css_generator' === $_GET['page'] ) { //phpcs:ignore
 			wp_enqueue_style( 'wd-admin-page-css-generator', WOODMART_ASSETS . '/css/parts/page-css-generator.min.css', array(), WOODMART_VERSION );
-		}
-
-		if ( 'xts_header_builder' === $_GET['page'] ) { //phpcs:ignore
-			wp_enqueue_style( 'wd-admin-page-header-builder', WOODMART_ASSETS . '/css/parts/page-header-builder.min.css', array(), WOODMART_VERSION );
 		}
 	}
 

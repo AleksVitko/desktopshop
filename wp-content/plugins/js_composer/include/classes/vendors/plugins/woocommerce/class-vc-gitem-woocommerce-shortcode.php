@@ -37,7 +37,7 @@ class Vc_Gitem_Woocommerce_Shortcode extends WPBakeryShortCode {
 		 * @var string $show_label
 		 * @var string $align
 		 */
-		$atts = shortcode_atts( array(
+		$atts = shortcode_atts( [
 			'el_class' => '',
 			'post_type' => 'product',
 			'product_field_key' => 'sku',
@@ -46,7 +46,7 @@ class Vc_Gitem_Woocommerce_Shortcode extends WPBakeryShortCode {
 			'order_custom_key' => '',
 			'show_label' => '',
 			'align' => '',
-		), $atts );
+		], $atts );
 		extract( $atts );
 		if ( 'product' === $post_type ) {
 			$key = '_custom_' === $product_field_key ? $product_custom_key : $product_field_key;

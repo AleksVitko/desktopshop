@@ -7,6 +7,9 @@
 
 namespace XTS\WC_Wishlist;
 
+use WP_User;
+use WC_Product;
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'No direct script access allowed' );
 }
@@ -41,6 +44,8 @@ class Sends_About_Products_Wishlists extends Singleton {
 		add_action( 'init', array( $this, 'unsubscribe_user' ) );
 
 		add_filter( 'woocommerce_email_classes', array( $this, 'add_woocommerce_emails' ) );
+
+		add_filter( 'woocommerce_prepare_email_for_preview', array( $this, 'prepare_email_for_preview' ) );
 	}
 
 	/**
@@ -73,9 +78,9 @@ class Sends_About_Products_Wishlists extends Singleton {
 	 * @return array
 	 */
 	public function add_woocommerce_emails( $emails ) {
-		$emails['woodmart_wishlist_back_in_stock']    = include XTS_WISHLIST_DIR . '/emails/class-back-in-stock-email.php';
-		$emails['woodmart_wishlist_on_sale_products'] = include XTS_WISHLIST_DIR . '/emails/class-on-sale-products-email.php';
-		$emails['woodmart_promotional_email']         = include XTS_WISHLIST_DIR . '/emails/class-promotional-email.php';
+		$emails['XTS_Email_Wishlist_Back_In_Stock']    = include XTS_WISHLIST_DIR . '/emails/class-back-in-stock-email.php';
+		$emails['XTS_Email_Wishlist_On_Sale_Products'] = include XTS_WISHLIST_DIR . '/emails/class-on-sale-products-email.php';
+		$emails['XTS_Email_Wishlist_Promotional']      = include XTS_WISHLIST_DIR . '/emails/class-promotional-email.php';
 
 		return $emails;
 	}
@@ -133,6 +138,45 @@ class Sends_About_Products_Wishlists extends Singleton {
 		wc_add_notice( esc_html__( 'You have unsubscribed from our wishlist-related mailing lists', 'woodmart' ), 'success' );
 		wp_safe_redirect( $redirect );
 		exit();
+	}
+
+	/**
+	 * Prepare email for preview.
+	 *
+	 * @param object $preview_email Email object.
+	 */
+	public function prepare_email_for_preview( $preview_email ) {
+		$emails = array(
+			'XTS_Email_Wishlist_Back_In_Stock',
+			'XTS_Email_Wishlist_On_Sale_Products',
+			'XTS_Email_Wishlist_Promotional',
+		);
+
+		if ( in_array( get_class( $preview_email ), $emails, true ) ) {
+			$preview_email->recipient = 'user_preview@example.com';
+			$preview_email->user      = new WP_User( 0 );
+			$preview_email->items     = array( $this->get_dummy_product() );
+
+			$preview_email->user->user_login         = 'user_preview';
+			$preview_email->user->user_email         = 'user_preview@example.com';
+			$preview_email->user->billing_first_name = 'user';
+			$preview_email->user->billing_last_name  = 'preview';
+		}
+
+		return $preview_email;
+	}
+
+	/**
+	 * Get a dummy product.
+	 *
+	 * @return WC_Product
+	 */
+	private function get_dummy_product() {
+		$product = new WC_Product();
+		$product->set_name( 'Dummy Product' );
+		$product->set_price( 25 );
+
+		return $product;
 	}
 }
 

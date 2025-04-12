@@ -1,12 +1,10 @@
-var observer = new MutationObserver(() => {
-	if ( window.innerWidth > document.getElementsByTagName( 'html' )[0].offsetWidth ) {
-		document.getElementsByTagName( 'html' )[0].className += ' wd-scrollbar';
-		observer.disconnect();
-	}
-});
+const htmlElement = document.getElementsByTagName('html')[0];
+const windowWidth = window.innerWidth;
 
-window.addEventListener('load',function() {
-	observer.disconnect();
-});
+if (windowWidth > 1024 && windowWidth > htmlElement.offsetWidth) {
+	const scrollbarWidth = window.innerWidth - htmlElement.offsetWidth;
+	const styleElement = document.createElement('style');
 
-observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true,  subtree: true});
+	styleElement.textContent = `:root {--wd-scroll-w: ${scrollbarWidth}px;}`;
+	document.head.appendChild(styleElement);
+}

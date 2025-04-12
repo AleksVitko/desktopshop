@@ -22,7 +22,7 @@ if ( 'sidebar-left' === woodmart_get_page_layout() ) {
 }
 
 ?>
-<div class="wd-content-area site-content<?php echo esc_attr( $classes ); ?>"<?php echo wp_kses( $style, true ); ?>">
+<div class="wd-content-area site-content<?php echo esc_attr( $classes ); ?>"<?php echo wp_kses( $style, true ); ?>>
 		<?php /* The loop */ ?>
 		<?php
 		while ( have_posts() ) :

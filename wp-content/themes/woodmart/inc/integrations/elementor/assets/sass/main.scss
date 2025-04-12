@@ -186,7 +186,7 @@ div[id*="elementor-panel-category-wd-"] {
 
 		.elementor-add-section-inner {
 			padding: 0;
-			border: none;
+			border: none !important;
 			background: none;
 			// margin-top: 10px;
 		}
@@ -294,6 +294,10 @@ div[id*="elementor-panel-category-wd-"] {
 		display: none;
 	}
 
+	.wd-action-hide-btn {
+		position: relative;
+	}
+
 	.wd-sticky-nav-enabled {
 		--wd-sticky-nav-w: .001px;
 	}
@@ -363,29 +367,82 @@ div[id*="elementor-panel-category-wd-"] {
 	}
 }
 
+//**** FIX WOODMART CAROUSEL INSIDE COLUMN CONTAINER ****//
+
+.e-preview--show-hidden-elements {
+
+	&[data-elementor-device-mode=desktop],
+	&[data-elementor-device-mode=laptop],
+	&[data-elementor-device-mode=mobile],
+	&[data-elementor-device-mode=mobile_extra],
+	&[data-elementor-device-mode=tablet],
+	&[data-elementor-device-mode=tablet_extra],
+	&[data-elementor-device-mode=widescreen] {
+
+		.elementor-edit-area-active {
+
+			.elementor-hidden-desktop,
+			.elementor-hidden-laptop,
+			.elementor-hidden-mobile,
+			.elementor-hidden-mobile_extra,
+			.elementor-hidden-tablet,
+			.elementor-hidden-tablet_extra {
+
+				&:has(.wd-carousel) {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// ADD SECTION
+// ------------------------------------------------------------------------------------------------
+
+.elementor-add-section-inner {
+
+	button {
+		min-height: unset;
+	}
+
+	.flex-preset-button,
+	.grid-preset-button {
+		gap: 0;
+		flex-direction: column;
+	}
+}
+
 // ------------------------------------------------------------------------------------------------
 // XTEMOS TEMPLATES
 // ------------------------------------------------------------------------------------------------
 
-.xts-library-modal-btn {
-	// margin-left: 5px;
-	background-color: #0F4C81;
-	vertical-align: top;
-	font-size: 0 !important;
+.elementor-editor-active {
 
-	&:before {
-		content: "";
-		width: 16px;
-		height: 16px;
-		background-image: url(../../../../admin/assets/images/vc-icon/wd-xts-icon.svg);
-		background-position: center;
-		background-size: contain;
-		background-repeat: no-repeat;
-	}
+	div.xts-library-modal-btn {
+		// margin-left: 5px;
+		background-color: #0F4C81;
+		vertical-align: top;
+		font-size: 0 !important;
 
-	.rtl & {
-		margin-right: 5px;
-		margin-left: 0;
+		&:hover {
+			background-color: #0b3b65;
+		}
+	
+		&:before {
+			content: "";
+			width: 16px;
+			height: 16px;
+			background-image: url(../../../../admin/assets/images/vc-icon/wd-xts-icon.svg);
+			background-position: center;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+	
+		// .rtl & {
+		// 	margin-right: 5px;
+		// 	margin-left: 0;
+		// }
 	}
 }
 

@@ -120,6 +120,8 @@ class Icons_Font extends Field {
 		'f175' => 'whatsapp-brands',
 		'f184' => 'discord-brands',
 		'f187' => 'yelp-brands',
+		'f188' => 'threads-brands',
+		'f189' => 'bluesky-brands',
 	);
 
 	/**

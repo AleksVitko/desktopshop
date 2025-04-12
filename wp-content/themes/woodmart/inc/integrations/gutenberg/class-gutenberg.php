@@ -28,6 +28,7 @@ class Gutenberg extends Singleton {
 		add_action( 'init', array( $this, 'files_include' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'scripts_styles' ), 30 );
 		add_filter( 'pre_render_block', array( $this, 'pre_render_block' ), 10, 2 );
+		add_action( 'rest_api_init', array( $this, 'register_rest_fields' ) );
 	}
 
 	/**
@@ -263,6 +264,79 @@ class Gutenberg extends Singleton {
 		}
 
 		return $value;
+	}
+
+	/**
+	 * Register REST fields.
+	 *
+	 * @return void
+	 */
+	public function register_rest_fields() {
+		if ( ! woodmart_get_opt( 'gutenberg_blocks' ) ) {
+			return;
+		}
+
+		register_rest_route(
+			'wd/v1',
+			'/attribute-terms',
+			array(
+				'methods'             => 'GET',
+				'callback'            => array( $this, 'get_attribute_terms' ),
+				'permission_callback' => function () {
+					return is_user_logged_in();
+				},
+			)
+		);
+	}
+
+	/**
+	 * Get attribute terms.
+	 *
+	 * @param object $request Request object.
+	 * @return \WP_Error|\WP_HTTP_Response|\WP_REST_Response
+	 */
+	public function get_attribute_terms( $request ) {
+		$search_term  = $request->get_param( 'search' );
+		$selected_ids = $request->get_param( 'selected' );
+		$results      = array();
+
+		if ( empty( $search_term ) && empty( $selected_ids ) || ! woodmart_woocommerce_installed() ) {
+			return rest_ensure_response( $results );
+		}
+
+		$raw_taxonomies = wc_get_attribute_taxonomies();
+		$taxonomies     = array();
+
+		if ( ! $raw_taxonomies ) {
+			return rest_ensure_response( $results );
+		}
+
+		foreach ( $raw_taxonomies as $taxonomy ) {
+			$taxonomies[] = 'pa_' . $taxonomy->attribute_name;
+		}
+
+		$args = array(
+			'taxonomy'   => $taxonomies,
+			'hide_empty' => false,
+			'search'     => $search_term,
+			'exclude'    => $search_term && ! empty( $selected_ids ) ? $selected_ids : array(),
+			'include'    => ! $search_term && ! empty( $selected_ids ) ? $selected_ids : array(),
+		);
+
+		$terms = get_terms( $args );
+
+		if ( is_array( $terms ) && ! empty( $terms ) ) {
+			foreach ( $terms as $term ) {
+				if ( is_object( $term ) ) {
+					$results[] = array(
+						'value' => $term->term_id,
+						'label' => $term->name . ' (' . $term->taxonomy . ')',
+					);
+				}
+			}
+		}
+
+		return rest_ensure_response( $results );
 	}
 }
 

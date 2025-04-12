@@ -57,10 +57,10 @@ class Vc_Google_Fonts {
 	 */
 	public function render( $settings, $value ) {
 		// @var array $fields - used in template.php
-		$fields = array();
+		$fields = [];
 		// @var array $values - used in template.php
-		$values = array();
-		$set = isset( $settings['settings'], $settings['settings']['fields'] ) ? $settings['settings']['fields'] : array();
+		$values = [];
+		$set = isset( $settings['settings'], $settings['settings']['fields'] ) ? $settings['settings']['fields'] : [];
 		extract( $this->_vc_google_fonts_parse_attributes( $set, $value ) );
 		ob_start();
 		include vc_path_dir( 'TEMPLATES_DIR', 'params/google_fonts/template.php' );
@@ -91,7 +91,7 @@ class Vc_Google_Fonts {
 	 * @since 4.3
 	 */
 	public function _vc_google_fonts_parse_attributes( $attr, $value ) { // phpcs:ignore:PSR2.Methods.MethodDeclaration.Underscore
-		$fields = array();
+		$fields = [];
 		if ( is_array( $attr ) && ! empty( $attr ) ) {
 			foreach ( $attr as $key => $val ) {
 				if ( is_numeric( $key ) ) {
@@ -102,17 +102,17 @@ class Vc_Google_Fonts {
 			}
 		}
 
-		$values = vc_parse_multi_attribute( $value, array(
+		$values = vc_parse_multi_attribute( $value, [
 			'font_family' => isset( $fields['font_family'] ) ? $fields['font_family'] : '',
 			'font_style' => isset( $fields['font_style'] ) ? $fields['font_style'] : '',
 			'font_family_description' => isset( $fields['font_family_description'] ) ? $fields['font_family_description'] : '',
 			'font_style_description' => isset( $fields['font_style_description'] ) ? $fields['font_style_description'] : '',
-		) );
+		] );
 
-		return array(
+		return [
 			'fields' => $fields,
 			'values' => $values,
-		);
+		];
 	}
 }
 

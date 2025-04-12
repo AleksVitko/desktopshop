@@ -32,21 +32,21 @@ extract( $atts );
 $width = wpb_translateColumnWidthToSpan( $width );
 $width = vc_column_offset_class_merge( $offset, $width );
 
-$css_classes = array(
+$css_classes = [
 	$this->getExtraClass( $el_class ),
 	'wpb_column',
 	'vc_column_container',
 	$width,
-);
+];
 
-if ( vc_shortcode_custom_css_has_property( $css, array(
+if ( vc_shortcode_custom_css_has_property( $css, [
 	'border',
 	'background',
-) ) ) {
+] ) ) {
 	$css_classes[] = 'vc_col-has-fill';
 }
 
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 
 $css_class = preg_replace( '/\s+/', ' ', apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, implode( ' ', array_filter( $css_classes ) ), $this->settings['base'], $atts ) );
 $wrapper_attributes[] = 'class="' . esc_attr( trim( $css_class ) ) . '"';

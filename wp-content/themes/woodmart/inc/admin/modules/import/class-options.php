@@ -139,10 +139,9 @@ class Options {
 		$new_options = json_decode( $new_options_json, true ) + $this->get_reset_options();
 
 		// Set builder to WPB or Elementor.
-		$xts_woodmart_options['variation_gallery_storage_method'] = 'new';
-		$xts_woodmart_options['current_builder']                  = woodmart_get_opt( 'current_builder' );
-		$xts_woodmart_options['gutenberg_blocks']                 = woodmart_get_opt( 'gutenberg_blocks' );
-		$xts_woodmart_options['enable_gutenberg_for_products']    = woodmart_get_opt( 'enable_gutenberg_for_products' );
+		$xts_woodmart_options['current_builder']               = woodmart_get_opt( 'current_builder' );
+		$xts_woodmart_options['gutenberg_blocks']              = woodmart_get_opt( 'gutenberg_blocks' );
+		$xts_woodmart_options['enable_gutenberg_for_products'] = woodmart_get_opt( 'enable_gutenberg_for_products' );
 
 		if ( 'native' === woodmart_get_opt( 'current_builder' ) ) {
 			$xts_woodmart_options['woodmart_slider'] = 0;

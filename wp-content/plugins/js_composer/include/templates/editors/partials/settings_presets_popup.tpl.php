@@ -10,10 +10,10 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
-$save_as_template_elements = apply_filters( 'vc_popup_save_as_template_elements', array(
+$save_as_template_elements = apply_filters( 'vc_popup_save_as_template_elements', [
 	'vc_row',
 	'vc_section',
-) );
+] );
 $custom_tag = 'script'; // TODO: Remove this file after 6.2 when BC is completed.
 ?>
 <div class="vc_ui-list-bar-group">

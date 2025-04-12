@@ -42,7 +42,7 @@ $block_css->add_css_rules(
 );
 
 $block_css->add_css_rules(
-	$block_selector . ' .wd-nav-arrows',
+	$block_selector . ' div.wd-nav-arrows',
 	array(
 		array(
 			'attr_name' => 'paginationArrowsOffsetH',
@@ -56,7 +56,7 @@ $block_css->add_css_rules(
 );
 
 $block_css->add_css_rules(
-	$block_selector . ' .wd-nav-arrows',
+	$block_selector . ' div.wd-nav-arrows',
 	array(
 		array(
 			'attr_name' => 'paginationArrowsOffsetHTablet',
@@ -71,7 +71,7 @@ $block_css->add_css_rules(
 );
 
 $block_css->add_css_rules(
-	$block_selector . ' .wd-nav-arrows',
+	$block_selector . ' div.wd-nav-arrows',
 	array(
 		array(
 			'attr_name' => 'paginationArrowsOffsetHMobile',

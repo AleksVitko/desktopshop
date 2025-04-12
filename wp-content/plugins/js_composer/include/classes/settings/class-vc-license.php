@@ -72,33 +72,33 @@ class Vc_License {
 			}
 		}
 
-		add_action( 'wp_ajax_vc_get_activation_url', array(
+		add_action( 'wp_ajax_vc_get_activation_url', [
 			$this,
 			'startActivationResponse',
-		) );
-		add_action( 'wp_ajax_vc_get_deactivation_url', array(
+		] );
+		add_action( 'wp_ajax_vc_get_deactivation_url', [
 			$this,
 			'startDeactivationResponse',
-		) );
-		add_action( 'wp_ajax_vc_sync_license', array(
+		] );
+		add_action( 'wp_ajax_vc_sync_license', [
 			$this,
 			'syncLicense',
-		) );
+		] );
 
-		add_action( 'wp_ajax_nopriv_vc_check_license_key', array(
+		add_action( 'wp_ajax_nopriv_vc_check_license_key', [
 			vc_license(),
 			'checkLicenseKeyFromRemote',
-		) );
+		] );
 
-		add_action( 'vc_after_init', array(
+		add_action( 'vc_after_init', [
 			$this,
 			'checkLicenseKey',
-		) );
+		] );
 
-		add_action( 'admin_notices', array(
+		add_action( 'admin_notices', [
 			$this,
 			'outputLastError',
-		), 20 );
+		], 20 );
 	}
 
 	/**
@@ -108,14 +108,14 @@ class Vc_License {
 	 * @param bool $success
 	 */
 	public function outputNotice( $message, $success = true ) {
-		printf( '<div class="%s"><p>%s</p></div>', (bool) $success ? 'updated' : 'error', wp_kses( $message, array(
-			'a' => array(
-				'href' => array(),
-				'title' => array(),
-				'target' => array(),
-				'rel' => array(),
-			),
-		) ) );
+		printf( '<div class="%s"><p>%s</p></div>', (bool) $success ? 'updated' : 'error', wp_kses( $message, [
+			'a' => [
+				'href' => [],
+				'title' => [],
+				'target' => [],
+				'rel' => [],
+			],
+		] ) );
 	}
 
 	/**
@@ -216,10 +216,10 @@ class Vc_License {
 			$url = self::$support_host . '/finish-license-deactivation';
 		}
 
-		$params = array(
-			'body' => array( 'token' => $user_token ),
+		$params = [
+			'body' => [ 'token' => $user_token ],
 			'timeout' => 30,
-		);
+		];
 		// FIX SSL SNI.
 		$filter_add = true;
 		if ( function_exists( 'curl_version' ) ) {
@@ -271,19 +271,19 @@ class Vc_License {
 
 			$this->setLicenseOptions( $json['license_key'] );
 
-			add_action( 'admin_notices', array(
+			add_action( 'admin_notices', [
 				$this,
 				'outputActivatedSuccess',
-			) );
+			] );
 		} else {
 			$this->setLicenseKey( '' );
 
 			$this->setLicenseOptions();
 
-			add_action( 'admin_notices', array(
+			add_action( 'admin_notices', [
 				$this,
 				'outputDeactivatedSuccess',
-			) );
+			] );
 		}
 
 		return true;
@@ -327,12 +327,12 @@ class Vc_License {
 		$license_key = vc_request_param( 'license_key' );
 
 		if ( ! $this->isValid( $license_key ) ) {
-			$response = array(
+			$response = [
 				'status' => false,
 				'error' => esc_html__( 'Invalid license key', 'js_composer' ),
-			);
+			];
 		} else {
-			$response = array( 'status' => true );
+			$response = [ 'status' => true ];
 		}
 
 		die( wp_json_encode( $response ) );
@@ -357,13 +357,13 @@ class Vc_License {
 		}
 
 		$url = self::$support_host . '/check-license-key';
-		$params = array(
-			'body' => array(
+		$params = [
+			'body' => [
 				'license_key' => $license_key,
 				'domain' => $site_url,
-			),
+			],
 			'timeout' => 30,
-		);
+		];
 		// FIX SSL SNI.
 		$filter_add = true;
 		if ( function_exists( 'curl_version' ) ) {
@@ -473,10 +473,10 @@ class Vc_License {
 	public function startActivationResponse() {
 		vc_user_access()->checkAdminNonce()->validateDie()->wpAny( 'manage_options' )->validateDie()->part( 'settings' )->can( 'vc-updater-tab' )->validateDie();
 
-		$response = array(
+		$response = [
 			'status' => true,
 			'url' => $this->generateActivationUrl(),
-		);
+		];
 
 		die( wp_json_encode( $response ) );
 	}
@@ -487,10 +487,10 @@ class Vc_License {
 	public function startDeactivationResponse() {
 		vc_user_access()->checkAdminNonce()->validateDie( 'Failed nonce check' )->wpAny( 'manage_options' )->validateDie( 'Failed access check' )->part( 'settings' )->can( 'vc-updater-tab' )->validateDie( 'Failed access check #2' );
 
-		$response = array(
+		$response = [
 			'status' => true,
 			'url' => $this->generateDeactivationUrl(),
-		);
+		];
 
 		die( wp_json_encode( $response ) );
 	}
@@ -581,10 +581,10 @@ class Vc_License {
 		$version1 = isset( $_COOKIE['vchideactivationmsg_vc11'] ) ? sanitize_text_field( wp_unslash( $_COOKIE['vchideactivationmsg_vc11'] ) ) : '';
 
 		if ( ! $this->isActivated() && ( empty( $version1 ) || version_compare( $version1, WPB_VC_VERSION, '<' ) ) && ! ( vc_is_network_plugin() && is_network_admin() ) ) {
-			add_action( 'admin_notices', array(
+			add_action( 'admin_notices', [
 				$this,
 				'adminNoticeLicenseActivation',
-			) );
+			] );
 		}
 	}
 
@@ -611,7 +611,7 @@ class Vc_License {
 			return true;
 		}
 
-		if ( in_array( end( $chunks ), array(
+		if ( in_array( end( $chunks ), [
 			'local',
 			'dev',
 			'wp',
@@ -619,7 +619,7 @@ class Vc_License {
 			'example',
 			'localhost',
 			'invalid',
-		), true ) ) {
+		], true ) ) {
 			return true;
 		}
 

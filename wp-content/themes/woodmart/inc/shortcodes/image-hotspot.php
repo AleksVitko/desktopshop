@@ -169,13 +169,13 @@ if ( ! function_exists( 'woodmart_hotspot_shortcode' ) ) {
 
 			$image_allowed_tags = array(
 				'img' => array(
-					'width'         => true,
-					'height'        => true,
-					'src'           => true,
-					'alt'           => true,
-					'data-wood-src' => true,
-					'data-srcset'   => true,
-					'class'         => true,
+					'width'       => true,
+					'height'      => true,
+					'src'         => true,
+					'alt'         => true,
+					'data-src'    => true,
+					'data-srcset' => true,
+					'class'       => true,
 				),
 			);
 

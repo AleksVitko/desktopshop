@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-05 13:01" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 14:31" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Elementor 2.0 WoodMart dummy</title>
 	<link>https://dummy.xtemos.com/woodmart2/elementor</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Tue, 05 Nov 2024 13:01:04 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 14:31:48 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[adad@adad.ad]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term><wp:term_id>101</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-menu-repair]]></wp:term_slug><wp:term_name><![CDATA[Main menu Repair]]></wp:term_name>
 </wp:term>
@@ -47,7 +46,7 @@
 					<title><![CDATA[repair-header-contact-form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=7505</link>
 					<pubDate>Sun, 24 Oct 2021 12:34:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-header-contact-form.jpg</guid>
 															<wp:post_id>7505</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:34:37]]></wp:post_date>
@@ -70,7 +69,7 @@
 					<title><![CDATA[repair-footer-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-footer-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-footer-logo.svg</guid>
 															<wp:post_id>7510</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:49]]></wp:post_date>
@@ -97,7 +96,7 @@
 					<title><![CDATA[repair-header-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-header-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-header-logo.svg</guid>
 															<wp:post_id>7511</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:50]]></wp:post_date>
@@ -124,7 +123,7 @@
 					<title><![CDATA[repair-lines-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-1/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-1.svg</guid>
 															<wp:post_id>7513</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:52]]></wp:post_date>
@@ -151,7 +150,7 @@
 					<title><![CDATA[repair-lines-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-2/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-2.svg</guid>
 															<wp:post_id>7514</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:53]]></wp:post_date>
@@ -178,7 +177,7 @@
 					<title><![CDATA[repair-lines-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-3/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-3.svg</guid>
 															<wp:post_id>7515</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:54]]></wp:post_date>
@@ -205,7 +204,7 @@
 					<title><![CDATA[repair-phone-call]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-phone-call/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-phone-call.svg</guid>
 															<wp:post_id>7516</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:55]]></wp:post_date>
@@ -232,7 +231,7 @@
 					<title><![CDATA[repair-pic-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-pic-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 12:47:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic-bg.jpg</guid>
 															<wp:post_id>7531</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:47:50]]></wp:post_date>
@@ -255,7 +254,7 @@
 					<title><![CDATA[repair-timeline-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-1/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-1.jpg</guid>
 															<wp:post_id>7691</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:02]]></wp:post_date>
@@ -278,7 +277,7 @@
 					<title><![CDATA[repair-timeline-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-2/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-2.jpg</guid>
 															<wp:post_id>7692</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:04]]></wp:post_date>
@@ -301,7 +300,7 @@
 					<title><![CDATA[repair-timeline-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-3/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-3.jpg</guid>
 															<wp:post_id>7693</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:06]]></wp:post_date>
@@ -324,7 +323,7 @@
 					<title><![CDATA[repair-timeline-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-4/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-4.jpg</guid>
 															<wp:post_id>7694</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:07]]></wp:post_date>
@@ -347,7 +346,7 @@
 					<title><![CDATA[repair-portfolio-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-1/</link>
 					<pubDate>Mon, 25 Oct 2021 09:50:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-1.jpg</guid>
 															<wp:post_id>7709</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:50:57]]></wp:post_date>
@@ -370,7 +369,7 @@
 					<title><![CDATA[repair-portfolio-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-2/</link>
 					<pubDate>Mon, 25 Oct 2021 09:50:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-2.jpg</guid>
 															<wp:post_id>7710</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:50:59]]></wp:post_date>
@@ -393,7 +392,7 @@
 					<title><![CDATA[repair-portfolio-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-3/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-3.jpg</guid>
 															<wp:post_id>7711</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:01]]></wp:post_date>
@@ -416,7 +415,7 @@
 					<title><![CDATA[repair-portfolio-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-4/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-4.jpg</guid>
 															<wp:post_id>7712</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:02]]></wp:post_date>
@@ -439,7 +438,7 @@
 					<title><![CDATA[repair-portfolio-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-5/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-5.jpg</guid>
 															<wp:post_id>7713</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:05]]></wp:post_date>
@@ -462,7 +461,7 @@
 					<title><![CDATA[repair-portfolio-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-6/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-6.jpg</guid>
 															<wp:post_id>7714</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:07]]></wp:post_date>
@@ -485,7 +484,7 @@
 					<title><![CDATA[repair-portfolio-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-7/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-7.jpg</guid>
 															<wp:post_id>7715</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:09]]></wp:post_date>
@@ -508,7 +507,7 @@
 					<title><![CDATA[repair-portfolio-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-8/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-8.jpg</guid>
 															<wp:post_id>7716</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:11]]></wp:post_date>
@@ -528,110 +527,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[cat-light-bulb]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/cat-light-bulb/</link>
-					<pubDate>Thu, 26 Aug 2021 12:44:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-light-bulb.svg</guid>
-															<wp:post_id>98</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 12:44:51]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 12:44:51]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2022-06-20 13:59:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2022-06-20 13:59:05]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[cat-light-bulb]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-light-bulb.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/cat-light-bulb.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Capa_1" x="0px" y="0px" viewBox="0 0 60.002 60.002" style="enable-background:new 0 0 60.002 60.002;" xml:space="preserve" width="512px" height="512px"> <g> <path d="M43.669,5.224c-4.401-3.94-10.081-5.748-16.008-5.092C18.24,1.177,10.655,8.777,9.626,18.205 c-0.699,6.407,1.553,12.626,6.179,17.062c2.984,2.861,4.696,6.799,4.696,10.803v1.933v2v2v4h2.5l3,4h7l3-4h2.5v-4v-2v-2v-1 c0-4.218,1.862-8.29,5.108-11.173c4.38-3.889,6.892-9.476,6.892-15.327C50.501,14.679,48.011,9.109,43.669,5.224z M32.001,58.002 h-5l-1.5-2h8L32.001,58.002z M36.501,54.002h-14v-2h14V54.002z M36.501,50.002h-14v-2h4h6h4V50.002z M28.501,39.002h2v7h-2V39.002z M42.281,34.333c-3.417,3.034-5.479,7.242-5.75,11.669h-4.031v-8c0-7.383,1.57-10,6-10c0.552,0,1-0.447,1-1s-0.448-1-1-1 c-7.37,0-7.949,6.871-7.995,11h-2.011c-0.046-4.129-0.625-11-7.995-11c-0.552,0-1,0.447-1,1s0.448,1,1,1c4.43,0,6,2.617,6,10v8h-4 c-0.019-4.522-1.953-8.958-5.312-12.179c-4.174-4.003-6.206-9.616-5.575-15.401C12.542,9.918,19.384,3.063,27.882,2.12 c5.351-0.592,10.481,1.038,14.453,4.593c3.918,3.508,6.166,8.534,6.166,13.789C48.501,25.783,46.234,30.824,42.281,34.333z" fill="#FFFFFF"></path> <path d="M42.029,21.152c-0.468-0.29-1.085-0.148-1.377,0.321c-0.613,0.985-1.376,1.528-2.151,1.528s-1.538-0.543-2.151-1.528 c-0.005-0.008-0.014-0.012-0.019-0.021c-0.037-0.056-0.091-0.099-0.14-0.148c-0.047-0.046-0.087-0.097-0.141-0.133 c-0.009-0.006-0.013-0.015-0.022-0.02c-0.044-0.027-0.094-0.032-0.14-0.052c-0.066-0.028-0.128-0.06-0.198-0.073 c-0.063-0.012-0.125-0.007-0.188-0.007c-0.065,0-0.128-0.006-0.193,0.007c-0.071,0.014-0.134,0.046-0.201,0.075 c-0.045,0.02-0.093,0.024-0.136,0.051c-0.008,0.005-0.012,0.014-0.02,0.019c-0.056,0.037-0.099,0.09-0.147,0.138 c-0.047,0.047-0.099,0.088-0.134,0.143c-0.005,0.008-0.014,0.012-0.02,0.021c-0.613,0.985-1.376,1.528-2.151,1.528 s-1.538-0.543-2.151-1.528c-0.005-0.008-0.014-0.012-0.019-0.021c-0.037-0.056-0.091-0.099-0.14-0.148 c-0.047-0.046-0.087-0.097-0.141-0.133c-0.009-0.006-0.013-0.015-0.022-0.02c-0.044-0.027-0.094-0.032-0.14-0.052 c-0.066-0.028-0.128-0.06-0.198-0.073c-0.063-0.012-0.125-0.007-0.188-0.007c-0.065,0-0.128-0.006-0.193,0.007 c-0.071,0.014-0.134,0.046-0.201,0.075c-0.045,0.02-0.093,0.024-0.136,0.051c-0.008,0.005-0.012,0.014-0.02,0.019 c-0.056,0.037-0.099,0.09-0.147,0.138c-0.047,0.047-0.099,0.088-0.134,0.143c-0.005,0.008-0.014,0.012-0.02,0.021 c-0.613,0.985-1.376,1.528-2.151,1.528s-1.538-0.543-2.151-1.528c-0.005-0.008-0.014-0.012-0.019-0.021 c-0.037-0.056-0.091-0.099-0.14-0.148c-0.047-0.046-0.087-0.097-0.141-0.133c-0.009-0.006-0.013-0.015-0.022-0.02 c-0.044-0.027-0.094-0.032-0.14-0.052c-0.066-0.028-0.128-0.06-0.198-0.073c-0.063-0.012-0.125-0.007-0.188-0.007 c-0.065,0-0.128-0.006-0.193,0.007c-0.071,0.014-0.134,0.046-0.201,0.075c-0.045,0.02-0.093,0.024-0.136,0.051 c-0.008,0.005-0.012,0.014-0.02,0.019c-0.056,0.037-0.099,0.09-0.147,0.138c-0.047,0.047-0.099,0.088-0.134,0.143 c-0.005,0.008-0.014,0.012-0.02,0.021c-0.613,0.985-1.376,1.528-2.151,1.528s-1.538-0.543-2.151-1.528 c-0.292-0.469-0.909-0.612-1.377-0.321c-0.469,0.292-0.613,0.908-0.321,1.378c0.991,1.594,2.358,2.472,3.849,2.472 c1.102,0,2.135-0.482,3-1.376c0.865,0.894,1.898,1.376,3,1.376s2.135-0.482,3-1.376c0.865,0.894,1.898,1.376,3,1.376 s2.135-0.482,3-1.376c0.865,0.894,1.898,1.376,3,1.376c1.491,0,2.858-0.878,3.849-2.472C42.641,22.061,42.498,21.444,42.029,21.152 z" fill="#FFFFFF"></path> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[minimalis-slide-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/minimalism-slide-1/minimalis-slide-1/</link>
-					<pubDate>Tue, 31 Aug 2021 17:03:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/minimalis-slide-1.jpg</guid>
-															<wp:post_id>908</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-31 17:03:46]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-31 17:03:46]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-08-31 17:03:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-08-31 17:03:46]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[minimalis-slide-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>907</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/minimalis-slide-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/minimalis-slide-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[organic-hitwork-svg-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/organic-hitwork-svg-1/</link>
-					<pubDate>Thu, 09 Sep 2021 14:36:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/organic-hitwork-svg-1.svg</guid>
-															<wp:post_id>3197</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-09 14:36:34]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-09 14:36:34]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-09 14:36:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-09 14:36:34]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[organic-hitwork-svg-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/organic-hitwork-svg-1.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/09/organic-hitwork-svg-1.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><metadata></metadata><defs><style> .cls-1 { fill: #83ac2b; fill-rule: evenodd; } </style></defs><path id="hitwork-svg-1" class="cls-1" d="M1213,5923a32,32,0,1,0,32,32A32.036,32.036,0,0,0,1213,5923Zm0,61.87a29.87,29.87,0,1,1,29.87-29.87A29.9,29.9,0,0,1,1213,5984.87Zm17.35-9.76-10.54-10.54-7.15-7.16-3.11-3.1-8.25-8.26-8.41-8.4a1,1,0,0,0-.81-0.31,1.036,1.036,0,0,0-.78.4,27.394,27.394,0,0,0-6.03,17.26,27.762,27.762,0,0,0,27.73,27.73,27.435,27.435,0,0,0,17.26-6.03A1.07,1.07,0,0,0,1230.35,5975.11Zm-22.75-12.46-3.32-3.32a18.464,18.464,0,0,1,3.47-.15A17.6,17.6,0,0,1,1207.6,5962.65Zm0.09-7.18c-0.04.6-.06,1.14-0.06,1.57-2.21-.1-6.84.06-9.62,2.83l1.51,1.51a6.463,6.463,0,0,1,2.35-1.44l5.12,5.12a6.463,6.463,0,0,1-1.44,2.35l1.51,1.51a9.341,9.341,0,0,0,2.31-4.26l0.12-.12-0.07-.07a18.657,18.657,0,0,0,.47-5.22c0.44,0.02.98,0.02,1.59,0l6.27,6.28a12.791,12.791,0,1,1-17.41-17.41Zm5.31,25.13a25.63,25.63,0,0,1-25.6-25.6,25.32,25.32,0,0,1,4.84-14.98l6.55,6.54a14.8,14.8,0,0,0-7.12,12.71,14.95,14.95,0,0,0,14.93,14.93,14.793,14.793,0,0,0,12.7-7.12l8.68,8.67A25.261,25.261,0,0,1,1213,5980.6Zm0-53.33a27.394,27.394,0,0,0-17.26,6.03,1.033,1.033,0,0,0-.4.77,1.047,1.047,0,0,0,.31.82l14.57,14.57,0.01,0.01,7.45,7.45,0.01,0.01,15.42,15.42a1.06,1.06,0,0,0,.75.31h0.06a1.069,1.069,0,0,0,.78-0.4,27.435,27.435,0,0,0,6.03-17.26A27.762,27.762,0,0,0,1213,5927.27Zm6.32,26.19c-0.09.16-.17,0.3-0.26,0.45a6.053,6.053,0,0,1-.56.77,0.022,0.022,0,0,0-.02.02l-6.03-6.03a5.8,5.8,0,0,1,.79-0.59c0.13-.09.27-0.17,0.41-0.25l0.18-.09,5.56,5.56C1219.37,5953.36,1219.34,5953.41,1219.32,5953.46Zm-3.32-6.57a18.215,18.215,0,0,1,4.54-.56,19,19,0,0,1-.36,4.74Zm17.76,23.09-13.78-13.78c0.14-.15.29-0.31,0.42-0.48,0.1-.12.18-0.25,0.27-0.38,0.07-.11.15-0.21,0.22-0.33a6.215,6.215,0,0,0,.32-0.56,1.865,1.865,0,0,0,.1-0.2c0.12-.23.22-0.46,0.32-0.7a0.3,0.3,0,0,1,.04-0.08v-0.02a17.785,17.785,0,0,0,1.02-6.82c0.49,0.04,1.09.08,1.76,0.08,2.4,0,5.66-.46,7.81-2.61l-1.51-1.51a5.789,5.789,0,0,1-1.39.97l-5.64-5.64a6.635,6.635,0,0,1,.99-1.37l-1.51-1.5c-2.7,2.7-2.92,6.98-2.83,9.15a18.01,18.01,0,0,0-6.75,1.26h-0.01a0.053,0.053,0,0,1-.03.02c-0.25.11-.49,0.23-0.73,0.35a1.505,1.505,0,0,0-.17.1q-0.285.15-.57,0.33c-0.1.07-.2,0.15-0.3,0.22-0.13.09-.27,0.18-0.39,0.28-0.17.13-.32,0.27-0.47,0.41l-12.93-12.92a25.261,25.261,0,0,1,14.98-4.85,25.624,25.624,0,0,1,25.6,25.6A25.32,25.32,0,0,1,1233.76,5969.98Zm-10.88-29.88,4.22,4.22a15.867,15.867,0,0,1-4.58.14A15.092,15.092,0,0,1,1222.88,5940.1Z" transform="translate(-1181 -5923)"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[electronics-2-product-6]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/electronics-2-product-6/</link>
-					<pubDate>Tue, 19 Oct 2021 16:08:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/electronics-2-product-6.jpg</guid>
-															<wp:post_id>5311</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-19 16:08:44]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-19 16:08:44]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-19 16:08:44]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-19 16:08:44]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[electronics-2-product-6]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/electronics-2-product-6.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/electronics-2-product-6.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[lawyer-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-1/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-1.jpg</guid>
 															<wp:post_id>7473</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:56]]></wp:post_date>
@@ -654,7 +553,7 @@
 					<title><![CDATA[lawyer-testimonials-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-2/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-2.jpg</guid>
 															<wp:post_id>7474</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
@@ -674,10 +573,56 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[lawyer-testimonials-3]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-3/</link>
+					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3.jpg</guid>
+															<wp:post_id>7475</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 11:55:57]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 11:55:57]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 11:55:57]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[lawyer-testimonials-3]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>7429</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/lawyer-testimonials-3.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[lawyer-testimonials-4]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-4/</link>
+					<pubDate>Sun, 24 Oct 2021 11:55:58 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4.jpg</guid>
+															<wp:post_id>7476</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 11:55:58]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 11:55:58]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 11:55:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 11:55:58]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[lawyer-testimonials-4]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>7429</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/lawyer-testimonials-4.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[repair-check]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-check/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg</guid>
 															<wp:post_id>7509</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:48]]></wp:post_date>
@@ -704,7 +649,7 @@
 					<title><![CDATA[repair-infobox-element]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-infobox-element/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg</guid>
 															<wp:post_id>7512</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:51]]></wp:post_date>
@@ -728,10 +673,37 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[repair-lines-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-1/</link>
+					<pubDate>Sun, 24 Oct 2021 12:35:52 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-1.svg</guid>
+															<wp:post_id>7513</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 12:35:52]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 12:35:52]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 12:35:52]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 12:35:52]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[repair-lines-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/repair-lines-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="20" viewBox="0 0 1152 20" fill="none"><path d="M1 20V0M6 11V19M11 11V19M16 19V11M21 19V11M26 20V6M31 11V19M36 11V19M41 19V11M46 19V11M51 20V0M56 11V19M61 11V19M66 19V11M71 19V11M76 20V6M81 11V19M86 11V19M91 19V11M96 19V11M101 20V0M106 11V19M111 11V19M116 19V11M121 19V11M126 20V6M131 11V19M136 11V19M141 19V11M146 19V11M151 20V0M156 11V19M161 11V19M166 19V11M171 19V11M176 20V6M181 11V19M186 11V19M191 19V11M196 19V11M201 20V0M206 11V19M211 11V19M216 19V11M221 19V11M226 20V6M231 11V19M236 11V19M241 19V11M246 19V11M251 20V0M256 11V19M261 11V19M266 19V11M271 19V11M276 20V6M281 11V19M286 11V19M291 19V11M296 19V11M301 20V0M306 11V19M311 11V19M316 19V11M321 19V11M326 20V6M331 11V19M336 11V19M341 19V11M346 19V11M351 20V0M356 11V19M361 11V19M366 19V11M371 19V11M376 20V6M381 11V19M386 11V19M391 19V11M396 19V11M401 20V0M406 11V19M411 11V19M416 19V11M421 19V11M426 20V6M431 11V19M436 11V19M441 19V11M446 19V11M451 20V0M456 11V19M461 11V19M466 19V11M471 19V11M476 20V6M481 11V19M486 11V19M491 19V11M496 19V11M501 20V0M506 11V19M511 11V19M516 19V11M521 19V11M526 20V6M531 11V19M536 11V19M541 19V11M546 19V11M551 20V0M556 11V19M561 11V19M566 19V11M571 19V11M576 20V6M581 11V19M586 11V19M591 19V11M596 19V11M601 20V0M606 11V19M611 11V19M616 19V11M621 19V11M626 20V6M631 11V19M636 11V19M641 19V11M646 19V11M651 20V0M656 11V19M661 11V19M666 19V11M671 19V11M676 20V6M681 11V19M686 11V19M691 19V11M696 19V11M701 20V0M706 11V19M711 11V19M716 19V11M721 19V11M726 20V6M731 11V19M736 11V19M741 19V11M746 19V11M751 20V0M756 11V19M761 11V19M766 19V11M771 19V11M776 20V6M781 11V19M786 11V19M791 19V11M796 19V11M801 20V0M806 11V19M811 11V19M816 19V11M821 19V11M826 20V6M831 11V19M836 11V19M841 19V11M846 19V11M851 20V0M856 11V19M861 11V19M866 19V11M871 19V11M876 20V6M881 11V19M886 11V19M891 19V11M896 19V11M901 20V0M906 11V19M911 11V19M916 19V11M921 19V11M926 20V6M931 11V19M936 11V19M941 19V11M946 19V11M951 20V0M956 11V19M961 11V19M966 19V11M971 19V11M976 20V6M981 11V19M986 11V19M991 19V11M996 19V11M1001 20V0M1006 11V19M1011 11V19M1016 19V11M1021 19V11M1026 20V6M1031 11V19M1036 11V19M1041 19V11M1046 19V11M1051 20V0M1056 11V19M1061 11V19M1066 19V11M1071 19V11M1076 20V6M1081 11V19M1086 11V19M1091 19V11M1096 19V11M1101 20V0M1106 11V19M1111 11V19M1116 19V11M1121 19V11M1126 20V6M1131 11V19M1136 11V19M1141 19V11M1146 19V11M1151 20V0" stroke="white" stroke-opacity="0.3" stroke-width="2"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[repair-lines-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-2/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-2.svg</guid>
 															<wp:post_id>7514</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:53]]></wp:post_date>
@@ -758,7 +730,7 @@
 					<title><![CDATA[repair-lines-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-3/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-3.svg</guid>
 															<wp:post_id>7515</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:54]]></wp:post_date>
@@ -782,10 +754,82 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[Footer Repair]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-repair</link>
+					<pubDate>Sun, 24 Oct 2021 12:37:36 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7517</guid>
+											<content:encoded><![CDATA[ 					
+				<h4>You Still Have a Question?</h4> 
+					<p>Leave your mobile phone number and we will call you back</p>				
+						 						 					<ul>
+											<li>
+											<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>					
+						Your phone number					
+									</li>
+					</ul>
+<p role="status" aria-live="polite"></p> <ul></ul>
+
+
+
+
+
+
+
+		<p>
+		</p>
+		<p>
+		</p>
+
+							<a href="#" aria-label="Image link">
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-footer-logo.svg" title="repair-footer-logo" loading="lazy" width="200" height="45">							</a>
+						 					
+			<p><a href="#"><strong>WOODMART</strong></a> Created By <a href="#"><strong>XTEMOS STUDIO</strong></a> Copyright  2021</p>]]></content:encoded>
+															<wp:post_id>7517</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 12:37:36]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 12:37:36]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2025-01-21 14:31:29]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-21 14:31:29]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[footer-repair]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[cms_block]]></wp:post_type>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+							<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
+							<wp:meta_value><![CDATA[3.24.7]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
+							<wp:meta_value><![CDATA[[{"id":"5f6c872","elType":"container","settings":{"flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"wd_section_stretch":"stretch","structure":"22","background_background":"classic","background_color":"#F5B332","background_image":{"id":"7513","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-lines-1.svg","alt":"","source":"library"},"background_position":"bottom center","background_repeat":"repeat-x","padding":{"unit":"px","top":"40","right":"15","bottom":"35","left":"15","isLinked":""},"flex_direction":"row","flex_align_items":"center","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"7c3e1d0","elType":"container","settings":{"_column_size":"66","width":{"size":"60","unit":"%"},"width_tablet":{"size":"50","unit":"%"},"wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","container_sticky_offset":"50"},"elements":[{"id":"99a5077","elType":"widget","settings":{"subtitle":"","title":"You Still Have a Question?","after_title":"<p>Leave your mobile phone number and we will call you back<\/p>","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"100","sizes":[]},"subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80","title_typography_typography":"custom","title_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"title_typography_line_height":{"unit":"em","size":"1.2","sizes":[]}},"elements":[],"widgetType":"wd_title"}],"isInner":"1"},{"id":"75edcb2","elType":"container","settings":{"_column_size":"33","width":{"size":"40","unit":"%"},"width_tablet":{"size":"50","unit":"%"},"wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"40bbf75","elType":"widget","settings":{"list_items":[{"list_content":"Your phone number","_id":"ce70592","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-mobile-alt","library":"fa-solid"},"size":"medium","icons_color":"#FFFFFF","scroll_y":"-80"},"elements":[],"widgetType":"wd_list"},{"id":"22a1c62","elType":"widget","settings":{"form_id":"4388","scroll_y":"-80","form_bg":"#FFFFFF","button_text_color":"#242424","button_bg_color":"#FFFFFF","button_text_color_hover":"#333333","button_bg_color_hover":"#E9E9E9"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":"1"}],"isInner":""},{"id":"a11b898","elType":"container","settings":{"content_position":"middle","wd_section_stretch":"stretch","background_background":"classic","background_color":"#101010","padding":{"unit":"px","top":"20","right":"15","bottom":"20","left":"15","isLinked":""},"flex_direction":"row","flex_align_items":"center","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"flex_justify_content":"space-between","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"169b4d3","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-footer-logo.svg","id":"7510","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"200","height":"45"},"on_click_action":"link","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""},"scroll_y":"-80","_element_width":"auto"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"38c8b0a","elType":"widget","settings":{"text":"<p><a href=\"#\"><strong>WOODMART<\/strong><\/a> Created By <a href=\"#\"><strong><span style=\"color: #cd3e3e\">X<\/span>TEMOS STUDIO<\/strong><\/a>\u00a0Copyright <i class=\"fa fa-copyright\"><\/i> 2021<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"12","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":""}]]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_controls_usage]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:7:{s:8:"wd_title";a:3:{s:5:"count";i:1;s:15:"control_percent";i:6;s:8:"controls";a:3:{s:7:"content";a:1:{s:23:"general_content_section";a:3:{s:8:"subtitle";i:1;s:5:"title";i:1;s:11:"after_title";i:1;}}s:5:"style";a:3:{s:21:"general_style_section";a:4:{s:5:"color";i:1;s:4:"size";i:1;s:5:"align";i:1;s:5:"width";i:1;}s:22:"subtitle_style_section";a:3:{s:31:"subtitle_typography_font_family";i:1;s:29:"subtitle_typography_font_size";i:1;s:31:"subtitle_typography_font_weight";i:1;}s:19:"title_style_section";a:2:{s:27:"title_typography_typography";i:1;s:28:"title_typography_line_height";i:1;}}s:8:"advanced";a:2:{s:14:"_section_style";a:1:{s:7:"_margin";i:1;}s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}}}}s:6:"column";a:3:{s:5:"count";i:3;s:15:"control_percent";i:2;s:8:"controls";a:3:{s:6:"layout";a:1:{s:6:"layout";a:2:{s:12:"_inline_size";i:2;s:5:"align";i:1;}}s:5:"style";a:1:{s:14:"wd_extra_style";a:1:{s:15:"wd_color_scheme";i:3;}}s:8:"advanced";a:1:{s:8:"wd_extra";a:2:{s:20:"column_sticky_offset";i:3;s:8:"scroll_y";i:3;}}}}s:7:"wd_list";a:3:{s:5:"count";i:1;s:15:"control_percent";i:3;s:8:"controls";a:3:{s:7:"content";a:2:{s:23:"general_content_section";a:1:{s:10:"list_items";i:1;}s:20:"icon_content_section";a:1:{s:4:"icon";i:1;}}s:5:"style";a:2:{s:21:"general_style_section";a:1:{s:4:"size";i:1;}s:18:"icon_style_section";a:1:{s:11:"icons_color";i:1;}}s:8:"advanced";a:1:{s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}}}}s:17:"wd_contact_form_7";a:3:{s:5:"count";i:1;s:15:"control_percent";i:3;s:8:"controls";a:2:{s:7:"content";a:1:{s:23:"general_content_section";a:2:{s:7:"form_id";i:1;s:5:"style";i:1;}}s:8:"advanced";a:2:{s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}s:14:"_section_style";a:1:{s:7:"_margin";i:1;}}}}s:7:"section";a:3:{s:5:"count";i:2;s:15:"control_percent";i:2;s:8:"controls";a:3:{s:6:"layout";a:3:{s:14:"section_layout";a:2:{s:3:"gap";i:1;s:16:"content_position";i:1;}s:15:"wd_extra_layout";a:1:{s:18:"wd_section_stretch";i:2;}s:17:"section_structure";a:1:{s:9:"structure";i:1;}}s:5:"style";a:1:{s:18:"section_background";a:5:{s:21:"background_background";i:2;s:16:"background_color";i:2;s:16:"background_image";i:1;s:19:"background_position";i:1;s:17:"background_repeat";i:1;}}s:8:"advanced";a:1:{s:16:"section_advanced";a:2:{s:7:"padding";i:2;s:6:"margin";i:1;}}}}s:15:"wd_image_or_svg";a:3:{s:5:"count";i:1;s:15:"control_percent";i:4;s:8:"controls";a:2:{s:7:"content";a:1:{s:23:"general_content_section";a:5:{s:5:"image";i:1;s:10:"image_size";i:1;s:22:"image_custom_dimension";i:1;s:15:"on_click_action";i:1;s:4:"link";i:1;}}s:8:"advanced";a:1:{s:17:"_section_position";a:1:{s:14:"_element_width";i:1;}}}}s:11:"text-editor";a:3:{s:5:"count";i:1;s:15:"control_percent";i:3;s:8:"controls";a:3:{s:7:"content";a:1:{s:14:"section_editor";a:1:{s:6:"editor";i:1;}}s:5:"style";a:1:{s:13:"section_style";a:2:{s:21:"typography_typography";i:1;s:20:"typography_font_size";i:1;}}s:8:"advanced";a:2:{s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}s:17:"_section_position";a:1:{s:14:"_element_width";i:1;}}}}}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[repair-pic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-pic/</link>
 					<pubDate>Sun, 24 Oct 2021 12:47:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic.png</guid>
 															<wp:post_id>7530</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:47:40]]></wp:post_date>
@@ -808,7 +852,7 @@
 					<title><![CDATA[repair-pic-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-pic-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 12:47:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic-bg.jpg</guid>
 															<wp:post_id>7531</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:47:50]]></wp:post_date>
@@ -831,20 +875,20 @@
 					<title><![CDATA[Home Repair]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/</link>
 					<pubDate>Mon, 25 Oct 2021 09:32:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=7681</guid>
 											<content:encoded><![CDATA[<img width="453" height="700" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic.png" alt="" />					
 						 					
 										 							
 					We have extensive experience in repair				
 				<h4>Your Repair Our Concern</h4> 
-								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" width="50" height="50">					
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" loading="lazy" width="50" height="50">					
 						 					
 											<h4 class="info-box-title title box-title-style-default wd-fontsize-xl" data-elementor-setting-key="title">
 								Repair<br />
 You Home						</h4>
 					<p>From 120$ / m</p>
-								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" width="50" height="50">					
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" loading="lazy" width="50" height="50">					
 											<h4 class="info-box-title title box-title-style-default wd-fontsize-xl" data-elementor-setting-key="title">
 								Build<br />
 New Home						</h4>
@@ -865,10 +909,10 @@ New Home						</h4>
 
 
 
-	<p>
-	</p>
-	<p>
-	</p>
+		<p>
+		</p>
+		<p>
+		</p>
 
 								<img width="440" height="520" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic-1.png" alt="" />					
 					What can expect				
@@ -884,29 +928,29 @@ New Home						</h4>
 			<p>With us you will build a house from scratch, perform the necessary finishing work and fully complete the house. Our experience in construction services is more than 10 years.</p>
 					<ul>
 											<li>
-											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" width="40" height="40">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" loading="lazy" width="40" height="40">					
 						Apartment renovation					
 									</li>
 											<li>
-											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" width="40" height="40">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" loading="lazy" width="40" height="40">					
 						The interior design					
 									</li>
 											<li>
-											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" width="40" height="40">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" loading="lazy" width="40" height="40">					
 						Plumbing installation					
 									</li>
 					</ul>
 					<ul>
 											<li>
-											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" width="40" height="40">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" loading="lazy" width="40" height="40">					
 						Electrical wiring					
 									</li>
 											<li>
-											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" width="40" height="40">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" loading="lazy" width="40" height="40">					
 						Furniture to order					
 									</li>
 											<li>
-											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" width="40" height="40">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-check.svg" title="repair-check" loading="lazy" width="40" height="40">					
 						Facade insulation					
 									</li>
 					</ul>
@@ -1053,22 +1097,22 @@ New Home						</h4>
 			<a href="#">
 					View more				
 							</a>
-								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" width="50" height="50">					
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" loading="lazy" width="50" height="50">					
 															01.													
 											<h4 class="info-box-title title box-title-style-default wd-fontsize-xl" data-elementor-setting-key="title">
 								Versatility						</h4>
 					<p>We have a master for every household problem</p>
-								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" width="50" height="50">					
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" loading="lazy" width="50" height="50">					
 															02.													
 											<h4 class="info-box-title title box-title-style-default wd-fontsize-xl" data-elementor-setting-key="title">
 								Goodwill						</h4>
 					<p>Even if your less into design and more into content</p>
-								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" width="50" height="50">					
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" loading="lazy" width="50" height="50">					
 															03.													
 											<h4 class="info-box-title title box-title-style-default wd-fontsize-xl" data-elementor-setting-key="title">
 								Professionalism						</h4>
 					<p>You made all the required mock ups for layout</p>
-								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" width="50" height="50">					
+								<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-infobox-element.svg" title="repair-infobox-element" loading="lazy" width="50" height="50">					
 															04.													
 											<h4 class="info-box-title title box-title-style-default wd-fontsize-xl" data-elementor-setting-key="title">
 								Loyalty						</h4>
@@ -1108,8 +1152,8 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 															<wp:post_id>7681</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:32:57]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-10-25 09:32:57]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-11-05 13:00:27]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-11-05 13:00:27]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-21 14:30:46]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-21 14:30:46]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-repair]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1154,7 +1198,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"4f40d5c","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"60","unit":"px","isLinked":""},"wd_section_stretch":"stretch","structure":"20","background_background":"classic","background_image":{"id":"7531","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic-bg.jpg","alt":"","source":"library"},"background_position":"top left","background_repeat":"no-repeat","margin":{"unit":"px","top":"-40","right":"0","bottom":"0","left":"0","isLinked":""},"background_size_tablet":"initial","background_bg_width_tablet":{"unit":"px","size":"0","sizes":[]},"reverse_order_tablet":"reverse-tablet","reverse_order_mobile":"reverse-mobile","flex_direction":"row","flex_direction_tablet":"row","scroll_y":"-80","container_sticky_offset":"50","flex_direction_mobile":"column-reverse"},"elements":[{"id":"921d8bb","elType":"widget","settings":{"anchor":"Home","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"02bfb0d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"","unit":"%"},"content_width":"full","width":{"unit":"%","size":"42","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"fd8b3db","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic.png","id":"7530","size":"","alt":"","source":"library"},"_margin":{"unit":"px","top":"10","right":"0","bottom":"90","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"10","right":"0","bottom":"0","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"},{"id":"98a1f7d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","margin":{"unit":"px","top":"80","right":"0","bottom":"0","left":"0","isLinked":""},"width_tablet":{"size":"","unit":"%"},"content_width":"full","width":{"unit":"%","size":"58","sizes":[]},"flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"padding":{"unit":"%","top":"0","right":"0","bottom":"0","left":"8","isLinked":""},"padding_tablet":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"e653553","elType":"widget","settings":{"subtitle":"We have extensive experience in repair","title":"Your Repair Our Concern","after_title":"","color":"primary","align":"left","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"95","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"46","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"42","sizes":[]},"title_typography_line_height":{"unit":"em","size":"1.1","sizes":[]},"scroll_y":"-80","width_tablet":{"unit":"px","size":"353","sizes":[]},"width_mobile":{"unit":"px","size":"","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"165046d","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"fa71cc1","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"flex_gap_tablet":{"column":"","row":"","isLinked":"1","unit":"px","size":""},"container_sticky_offset":"50"},"elements":[{"id":"1419e06","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"64d1831","elType":"widget","settings":{"icon_text":"","subtitle":"","title":"Repair\nYou Home","content":"<p>From 120$ \/ m<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","custom_text_color":"#F5B332","content_typography_typography":"custom","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"18","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"_z_index":"2"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"ee36c90","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"8e5dff5","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"6b4e271","elType":"widget","settings":{"icon_text":"","subtitle":"","title":"Build\nNew Home","content":"<p>From 380$ \/ m<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","custom_text_color":"#F5B332","content_typography_typography":"custom","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"18","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"_z_index":"2"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"}],"isInner":"1"}],"isInner":""},{"id":"9f445a4","elType":"container","settings":{"background_background":"classic","margin":{"unit":"px","top":"-172","right":"0","bottom":"80","left":"0","isLinked":""},"background_color":"#F5B332","background_image":{"id":"7515","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-lines-3.svg","alt":"","source":"library"},"background_position":"bottom center","background_repeat":"no-repeat","margin_tablet":{"unit":"px","top":"-20","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"-20","right":"0","bottom":"60","left":"0","isLinked":""},"padding":{"unit":"custom","top":"40px","right":"5%","bottom":"40px","left":"5%","isLinked":""},"padding_tablet":{"unit":"px","top":"40","right":"30","bottom":"40","left":"30","isLinked":""},"flex_direction":"row","flex_align_items":"center","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"wd_color_scheme":"light","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"9fbdc78","elType":"container","settings":{"_column_size":"66","width":{"size":"58","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"534bd89","elType":"widget","settings":{"subtitle":"","title":"Free evaluation of your project","after_title":"<p>Leave your mobile phone number and we will call you back<\/p>","size":"large","align":"left","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_title"}],"isInner":"1"},{"id":"826d1c9","elType":"container","settings":{"_column_size":"33","width":{"size":"42","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"e39a846","elType":"widget","settings":{"list_items":[{"list_content":"Your phone number","_id":"ce70592","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-mobile-alt","library":"fa-solid"},"size":"medium","icons_color":"#FFFFFF","scroll_y":"-80"},"elements":[],"widgetType":"wd_list"},{"id":"ca837b5","elType":"widget","settings":{"form_id":"4388","scroll_y":"-80","style":"wd-style-with-bg"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":"1"}],"isInner":""},{"id":"3ac7b6d","elType":"container","settings":{"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"40","unit":"px"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"ccad1b4","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"padding":{"unit":"%","top":"0","right":"0","bottom":"0","left":"5","isLinked":""},"padding_tablet":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":"1"},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"a0dbdaa","elType":"widget","settings":{"anchor":"Services","scroll_y":"-80"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"4babf64","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic-1.png","id":"7689","alt":"","source":"library"},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"},{"id":"ea08380","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"c8c210d","elType":"widget","settings":{"subtitle":"What can expect","title":"Comprehensive repair of all types of housing","after_title":"","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"908ff56","elType":"widget","settings":{"text":"<p>Distinguished by the quality of our people and our relentless pursuit of the most successful results, we align our capabilities with the goals of our clients to ensure lasting positive impact.<\/p><p>The core of our company is held by our invariable values - ethics, safety, quality, people, as well as our covenants: punctuality, honesty, respect, cooperation, trust.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"0e1e98a","elType":"widget","settings":{"text":"Read more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":"1"}],"isInner":""},{"id":"4c58acc","elType":"container","settings":{"content_position":"middle","structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"reverse_order_mobile":"reverse-mobile","flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"60","unit":"px"},"scroll_y":"-80","flex_align_items":"center","container_sticky_offset":"50"},"elements":[{"id":"c728e54","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"612f57d","elType":"widget","settings":{"subtitle":"Our services","title":"Here's what we can do","after_title":"","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"8ca2a05","elType":"widget","settings":{"text":"<p>With us you will build a house from scratch, perform the necessary finishing work and fully complete the house. Our experience in construction services is more than 10 years.<\/p>","width":{"unit":"px","size":"557","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"da94d66","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"15","unit":"px"},"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"e8c7e67","elType":"widget","settings":{"list_items":[{"list_content":"Apartment renovation","_id":"52c4f2b","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"The interior design","_id":"53e924c","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Plumbing installation","_id":"344029d","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"image","image":{"id":"7509","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-check.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"40","height":"40"},"size":"medium","scroll_y":"-80","_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"-13","left":"0","isLinked":""},"_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]}},"elements":[],"widgetType":"wd_list"},{"id":"8840042","elType":"widget","settings":{"list_items":[{"list_content":"Electrical wiring","_id":"52c4f2b","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Furniture to order","_id":"53e924c","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Facade insulation","_id":"344029d","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"image","image":{"id":"7509","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-check.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"40","height":"40"},"size":"medium","scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]}},"elements":[],"widgetType":"wd_list"}],"isInner":"1"}],"isInner":"1"},{"id":"e20c4c3","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","padding":{"unit":"%","top":"0","right":"0","bottom":"0","left":"5","isLinked":""},"padding_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"5311ec7","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic-2.png","id":"7690","alt":"","source":"library"},"alignment":"center","scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"}],"isInner":""},{"id":"20169e1","elType":"container","settings":{"wd_section_stretch":"stretch","background_background":"classic","background_color":"#F4F0ED","background_image":{"id":"7514","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-lines-2.svg","alt":"","source":"library"},"background_position":"top center","background_repeat":"no-repeat","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"padding":{"unit":"px","top":"80","right":"15","bottom":"80","left":"15","isLinked":""},"padding_mobile":{"unit":"px","top":"60","right":"15","bottom":"60","left":"15","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"64b377a","elType":"widget","settings":{"anchor":"Portfolio","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"bad9249","elType":"widget","settings":{"subtitle":"Our portfolio","title":"Our finished works","after_title":"<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have<\/p>","color":"primary","size":"extra-large","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"3197cbd","elType":"widget","settings":{"posts_per_page":"5","spacing":"20","pagination":"disable","image_size":"custom","image_size_custom":{"width":"580","height":"800"},"scroll_y":"-80","layout":"carousel","slides_per_view":{"unit":"px","size":"4","sizes":[]},"hide_pagination_control":"yes","slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"2","sizes":[]},"sync_parent_id":"wd_65844fa5f05dd"},"elements":[],"widgetType":"wd_portfolio"}],"isInner":""},{"id":"5fc8d43","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"40","unit":"px"},"structure":"21","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_direction_tablet":"column","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"5e09fcd","elType":"widget","settings":{"anchor":"Our_Advantages","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"6bd060a","elType":"container","settings":{"_column_size":"33","width":{"size":"41","unit":"%"},"margin":{"unit":"px","top":"40","right":"0","bottom":"0","left":"0","isLinked":""},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"100","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"container_sticky_offset":"50"},"elements":[{"id":"00bd7c6","elType":"widget","settings":{"subtitle":"Our advantages","title":"Why do people trust our company?","after_title":"","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"a6b3d1f","elType":"widget","settings":{"text":"<p>We will be happy to take on the implementation of a project of any complexity. We guarantee the quality of our work and have many years of experience in the field of repair.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"1d65ad7","elType":"widget","settings":{"text":"View more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":"1"},{"id":"60eca3b","elType":"container","settings":{"_column_size":"66","width":{"size":"59","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"100","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"47edf27","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"0f72e85","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"291fcae","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"9f6b5ea","elType":"widget","settings":{"icon_text":"01.","subtitle":"","title":"Versatility","content":"<p>We have a master for every household problem<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"_padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"c4ccd13","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"f8dfa53","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"2377f13","elType":"widget","settings":{"icon_text":"02.","subtitle":"","title":"Goodwill","content":"<p>Even if your less into design and more into content<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"_padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"},{"id":"be2a15c","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"f52242d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"e2e46e0","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"e4b8932","elType":"widget","settings":{"icon_text":"03.","subtitle":"","title":"Professionalism","content":"<p>You made all the required mock ups for layout<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small","padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""}},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"f939413","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"04c2782","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"cf97825","elType":"widget","settings":{"icon_text":"04.","subtitle":"","title":"Loyalty","content":"<p>Management system, got a license for it or adapted<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"_padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"}],"isInner":"1"}],"isInner":""},{"id":"9b45dd8","elType":"container","settings":{"wd_section_stretch":"stretch","background_background":"classic","background_color":"#FFFFFF","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"padding":{"unit":"px","top":"80","right":"15","bottom":"80","left":"15","isLinked":""},"padding_mobile":{"unit":"px","top":"60","right":"15","bottom":"60","left":"15","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"bf92291","elType":"widget","settings":{"subtitle":"How we work","title":"Here's what we can do","after_title":"<p>Even if your less into design and more into content many variations client's<\/p>","color":"primary","size":"extra-large","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"830f212","elType":"widget","settings":{"items":[{"_id":"686e1ff","title":"Title example","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"title_primary":"","content":"<h2><span style=\"color: #f5b332\">01.<\/span><\/h2><h2>Measurements<\/h2><p>You leave a request for a miscalculation <br class=\"hidden-xs\" \/>and meet with a surveyor or a master.<\/p>","image_secondary_size":"full","title_secondary":"","content_secondary":"","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-1.jpg","id":"7691","alt":"","source":"library"}},{"_id":"54343b1","title":"Title example","position":"right","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"image_primary_size":"full","title_primary":"","content":"<h2><span style=\"color: #f5b332\">02.<\/span><\/h2>\n<h2>Calculation<\/h2>\nWithin 24 hours, we will calculate the work <br class=\"hidden-xs\" \/>and send it to you for approval.","image_secondary_size":"full","title_secondary":"","content_secondary":"","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-2.jpg","id":"7692","alt":"","source":"library"}},{"title":"Title example","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"title_primary":"","content":"<h2><span style=\"color: #f5b332\">03.<\/span><\/h2>\n<h2>Execution of work<\/h2>\nAt the agreed time, our team arrives and begins <br class=\"hidden-xs\" \/>to implement the specified repair plan.","image_secondary_size":"full","title_secondary":"","content_secondary":"","_id":"925a36f","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-3.jpg","id":"7693","alt":"","source":"library"}},{"title":"Title example","position":"right","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"image_primary_size":"full","title_primary":"","content":"<h2><span style=\"color: #f5b332\">04.<\/span><\/h2><h2>Repairs are ready<\/h2><p>You accept the work completed by our team <br class=\"hidden-xs\" \/>and make the final agreed payment.<\/p>","image_secondary_size":"full","title_secondary":"","content_secondary":"","_id":"1e06a0c","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-4.jpg","id":"7694","alt":"","source":"library"}}],"dots_color":"#F5B332","scroll_y":"-80"},"elements":[],"widgetType":"wd_timeline"}],"isInner":""},{"id":"ba4748b","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"f466fa5","elType":"widget","settings":{"anchor":"Contacts","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"0734f92","elType":"widget","settings":{"subtitle":"Testimonials","title":"Customer Reviews","after_title":"<p>Content management system, got a license for it or adapted<\/p>","color":"primary","size":"extra-large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"18dd87d","elType":"widget","settings":{"items_repeater":[{"title":"","name":"Kristin Watson","content":"<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always.<\/p>","_id":"836b437","image":{"id":"7473","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-1.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"}},{"title":"","name":"Ronald Richards","content":"<p>We contacted a lawyer last year when a question arose about reorganizing the firm. We were very lucky, everything was done quickly!<\/p>","image":{"id":"7474","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-2.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"b10b3c3"},{"title":"","name":"Wade Warren","content":"<p>The way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming.<\/p>","image":{"id":"7475","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-3.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"c93ae77"},{"title":"","name":"Aviana Plummer","content":"<p>But worse, what if the fish doesn\u2019t fit in the can, the foot\u2019s to big for the boot? Or to small? To short sentences, to many headings, images too.<\/p>","image":{"id":"7476","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-4.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"66b1dff"}],"align":"left","hide_pagination_control":"yes","scroll_y":"-80","style":"info-top","_background_background":"classic","text_background_color_normal":"#FFFFFF","slides_per_view_tablet":{"unit":"px","size":"2","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"1","sizes":[]},"sync_parent_id":"wd_65844fa5ec723"},"elements":[],"widgetType":"wd_testimonials"}],"isInner":""}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"4f40d5c","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"60","unit":"px","isLinked":""},"wd_section_stretch":"stretch","structure":"20","background_background":"classic","background_image":{"id":"7531","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic-bg.jpg","alt":"","source":"library"},"background_position":"top left","background_repeat":"no-repeat","margin":{"unit":"px","top":"-40","right":"0","bottom":"0","left":"0","isLinked":""},"background_size_tablet":"initial","background_bg_width_tablet":{"unit":"px","size":"0","sizes":[]},"reverse_order_tablet":"reverse-tablet","reverse_order_mobile":"reverse-mobile","flex_direction":"row","flex_direction_tablet":"row","scroll_y":"-80","container_sticky_offset":"50","flex_direction_mobile":"column-reverse"},"elements":[{"id":"921d8bb","elType":"widget","settings":{"anchor":"Home","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"02bfb0d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"","unit":"%"},"content_width":"full","width":{"unit":"%","size":"42","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"fd8b3db","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic.png","id":"7530","size":"","alt":"","source":"library"},"_margin":{"unit":"px","top":"10","right":"0","bottom":"90","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"10","right":"0","bottom":"0","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"},{"id":"98a1f7d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","margin":{"unit":"px","top":"80","right":"0","bottom":"0","left":"0","isLinked":""},"width_tablet":{"size":"","unit":"%"},"content_width":"full","width":{"unit":"%","size":"58","sizes":[]},"flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"padding":{"unit":"%","top":"0","right":"0","bottom":"0","left":"8","isLinked":""},"padding_tablet":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"e653553","elType":"widget","settings":{"subtitle":"We have extensive experience in repair","title":"Your Repair Our Concern","after_title":"","color":"primary","align":"left","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"95","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"46","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"42","sizes":[]},"title_typography_line_height":{"unit":"em","size":"1.1","sizes":[]},"scroll_y":"-80","width_tablet":{"unit":"px","size":"353","sizes":[]},"width_mobile":{"unit":"px","size":"","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"165046d","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"fa71cc1","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"flex_gap_tablet":{"column":"","row":"","isLinked":"1","unit":"px","size":""},"container_sticky_offset":"50"},"elements":[{"id":"1419e06","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"64d1831","elType":"widget","settings":{"icon_text":"","subtitle":"","title":"Repair\nYou Home","content":"<p>From 120$ \/ m<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","custom_text_color":"#F5B332","content_typography_typography":"custom","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"18","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"_z_index":"2"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"ee36c90","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"8e5dff5","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"6b4e271","elType":"widget","settings":{"icon_text":"","subtitle":"","title":"Build\nNew Home","content":"<p>From 380$ \/ m<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","custom_text_color":"#F5B332","content_typography_typography":"custom","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"18","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"_z_index":"2"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"}],"isInner":"1"}],"isInner":""},{"id":"9f445a4","elType":"container","settings":{"background_background":"classic","margin":{"unit":"px","top":"-172","right":"0","bottom":"80","left":"0","isLinked":""},"background_color":"#F5B332","background_image":{"id":"7515","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-lines-3.svg","alt":"","source":"library"},"background_position":"bottom center","background_repeat":"no-repeat","margin_tablet":{"unit":"px","top":"-20","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"-20","right":"0","bottom":"60","left":"0","isLinked":""},"padding":{"unit":"custom","top":"40px","right":"5%","bottom":"40px","left":"5%","isLinked":""},"padding_tablet":{"unit":"px","top":"40","right":"30","bottom":"40","left":"30","isLinked":""},"flex_direction":"row","flex_align_items":"center","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"wd_color_scheme":"light","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"9fbdc78","elType":"container","settings":{"_column_size":"66","width":{"size":"58","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"534bd89","elType":"widget","settings":{"subtitle":"","title":"Free evaluation of your project","after_title":"<p>Leave your mobile phone number and we will call you back<\/p>","size":"large","align":"left","text_typography_typography":"custom","text_typography_font_size":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_title"}],"isInner":"1"},{"id":"826d1c9","elType":"container","settings":{"_column_size":"33","width":{"size":"42","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"e39a846","elType":"widget","settings":{"list_items":[{"list_content":"Your phone number","_id":"ce70592","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-mobile-alt","library":"fa-solid"},"size":"medium","icons_color":"#FFFFFF","scroll_y":"-80"},"elements":[],"widgetType":"wd_list"},{"id":"ca837b5","elType":"widget","settings":{"form_id":"4388","scroll_y":"-80","form_bg":"#FFFFFF","button_text_color":"#242424","button_bg_color":"#FFFFFF","button_text_color_hover":"#333333","button_bg_color_hover":"#E9E9E9"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":"1"}],"isInner":""},{"id":"3ac7b6d","elType":"container","settings":{"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"40","unit":"px"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"ccad1b4","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"padding":{"unit":"%","top":"0","right":"0","bottom":"0","left":"5","isLinked":""},"padding_tablet":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":"1"},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"a0dbdaa","elType":"widget","settings":{"anchor":"Services","scroll_y":"-80"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"4babf64","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic-1.png","id":"7689","alt":"","source":"library"},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"},{"id":"ea08380","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"c8c210d","elType":"widget","settings":{"subtitle":"What can expect","title":"Comprehensive repair of all types of housing","after_title":"","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"908ff56","elType":"widget","settings":{"text":"<p>Distinguished by the quality of our people and our relentless pursuit of the most successful results, we align our capabilities with the goals of our clients to ensure lasting positive impact.<\/p><p>The core of our company is held by our invariable values - ethics, safety, quality, people, as well as our covenants: punctuality, honesty, respect, cooperation, trust.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"0e1e98a","elType":"widget","settings":{"text":"Read more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":"1"}],"isInner":""},{"id":"4c58acc","elType":"container","settings":{"content_position":"middle","structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"reverse_order_mobile":"reverse-mobile","flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"60","unit":"px"},"scroll_y":"-80","flex_align_items":"center","container_sticky_offset":"50"},"elements":[{"id":"c728e54","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50"},"elements":[{"id":"612f57d","elType":"widget","settings":{"subtitle":"Our services","title":"Here's what we can do","after_title":"","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"8ca2a05","elType":"widget","settings":{"text":"<p>With us you will build a house from scratch, perform the necessary finishing work and fully complete the house. Our experience in construction services is more than 10 years.<\/p>","width":{"unit":"px","size":"557","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"da94d66","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"15","unit":"px"},"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"e8c7e67","elType":"widget","settings":{"list_items":[{"list_content":"Apartment renovation","_id":"52c4f2b","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"The interior design","_id":"53e924c","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Plumbing installation","_id":"344029d","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"image","image":{"id":"7509","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-check.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"40","height":"40"},"size":"medium","scroll_y":"-80","_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"-13","left":"0","isLinked":""},"_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]}},"elements":[],"widgetType":"wd_list"},{"id":"8840042","elType":"widget","settings":{"list_items":[{"list_content":"Electrical wiring","_id":"52c4f2b","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Furniture to order","_id":"53e924c","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Facade insulation","_id":"344029d","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"image","image":{"id":"7509","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-check.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"40","height":"40"},"size":"medium","scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]}},"elements":[],"widgetType":"wd_list"}],"isInner":"1"}],"isInner":"1"},{"id":"e20c4c3","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","padding":{"unit":"%","top":"0","right":"0","bottom":"0","left":"5","isLinked":""},"padding_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"5311ec7","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-pic-2.png","id":"7690","alt":"","source":"library"},"alignment":"center","scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"}],"isInner":""},{"id":"20169e1","elType":"container","settings":{"wd_section_stretch":"stretch","background_background":"classic","background_color":"#F4F0ED","background_image":{"id":"7514","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-lines-2.svg","alt":"","source":"library"},"background_position":"top center","background_repeat":"no-repeat","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"padding":{"unit":"px","top":"80","right":"15","bottom":"80","left":"15","isLinked":""},"padding_mobile":{"unit":"px","top":"60","right":"15","bottom":"60","left":"15","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"64b377a","elType":"widget","settings":{"anchor":"Portfolio","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"bad9249","elType":"widget","settings":{"subtitle":"Our portfolio","title":"Our finished works","after_title":"<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have<\/p>","color":"primary","size":"extra-large","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"3197cbd","elType":"widget","settings":{"posts_per_page":"5","spacing":"20","pagination":"disable","image_size":"custom","image_size_custom":{"width":"580","height":"800"},"scroll_y":"-80","layout":"carousel","slides_per_view":{"unit":"px","size":"4","sizes":[]},"hide_pagination_control":"yes","slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"2","sizes":[]},"sync_parent_id":"wd_65844fa5f05dd"},"elements":[],"widgetType":"wd_portfolio"}],"isInner":""},{"id":"5fc8d43","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"40","unit":"px"},"structure":"21","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_direction_tablet":"column","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"5e09fcd","elType":"widget","settings":{"anchor":"Our_Advantages","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"6bd060a","elType":"container","settings":{"_column_size":"33","width":{"size":"41","unit":"%"},"margin":{"unit":"px","top":"40","right":"0","bottom":"0","left":"0","isLinked":""},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"100","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"container_sticky_offset":"50"},"elements":[{"id":"00bd7c6","elType":"widget","settings":{"subtitle":"Our advantages","title":"Why do people trust our company?","after_title":"","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"a6b3d1f","elType":"widget","settings":{"text":"<p>We will be happy to take on the implementation of a project of any complexity. We guarantee the quality of our work and have many years of experience in the field of repair.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"1d65ad7","elType":"widget","settings":{"text":"View more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":"1"},{"id":"60eca3b","elType":"container","settings":{"_column_size":"66","width":{"size":"59","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width_tablet":{"unit":"%","size":"100","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"47edf27","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"0f72e85","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"291fcae","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"9f6b5ea","elType":"widget","settings":{"icon_text":"01.","subtitle":"","title":"Versatility","content":"<p>We have a master for every household problem<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"_padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"c4ccd13","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"f8dfa53","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"2377f13","elType":"widget","settings":{"icon_text":"02.","subtitle":"","title":"Goodwill","content":"<p>Even if your less into design and more into content<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"_padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"},{"id":"be2a15c","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"f52242d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"e2e46e0","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"e4b8932","elType":"widget","settings":{"icon_text":"03.","subtitle":"","title":"Professionalism","content":"<p>You made all the required mock ups for layout<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small","padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""}},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"f939413","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"container_sticky_offset":"50"},"elements":[{"id":"04c2782","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-infobox-element.svg","id":"7512","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"50","height":"50"},"_margin":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"_margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"-30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"cf97825","elType":"widget","settings":{"icon_text":"04.","subtitle":"","title":"Loyalty","content":"<p>Management system, got a license for it or adapted<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"alignment":"left","title_size":"large","content_typography_font_size":{"unit":"px","size":"26","sizes":[]},"content_typography_font_size_tablet":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"20","isLinked":""},"_padding":{"unit":"px","top":"30","right":"20","bottom":"30","left":"20","isLinked":""},"scroll_y":"-80","_border_border":"solid","_border_width":{"unit":"px","top":"4","right":"4","bottom":"4","left":"4","isLinked":"1"},"_border_color":"rgba(16, 16, 16, 0.05)","icon_text_size":"small"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"}],"isInner":"1"}],"isInner":""},{"id":"9b45dd8","elType":"container","settings":{"wd_section_stretch":"stretch","background_background":"classic","background_color":"#FFFFFF","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"padding":{"unit":"px","top":"80","right":"15","bottom":"80","left":"15","isLinked":""},"padding_mobile":{"unit":"px","top":"60","right":"15","bottom":"60","left":"15","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"bf92291","elType":"widget","settings":{"subtitle":"How we work","title":"Here's what we can do","after_title":"<p>Even if your less into design and more into content many variations client's<\/p>","color":"primary","size":"extra-large","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_typography":"custom","subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"830f212","elType":"widget","settings":{"items":[{"_id":"686e1ff","title":"Title example","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"title_primary":"","content":"<h2><span style=\"color: #f5b332\">01.<\/span><\/h2><h2>Measurements<\/h2><p>You leave a request for a miscalculation <br class=\"hidden-xs\" \/>and meet with a surveyor or a master.<\/p>","image_secondary_size":"full","title_secondary":"","content_secondary":"","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-1.jpg","id":"7691","alt":"","source":"library"}},{"_id":"54343b1","title":"Title example","position":"right","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"image_primary_size":"full","title_primary":"","content":"<h2><span style=\"color: #f5b332\">02.<\/span><\/h2>\n<h2>Calculation<\/h2>\nWithin 24 hours, we will calculate the work <br class=\"hidden-xs\" \/>and send it to you for approval.","image_secondary_size":"full","title_secondary":"","content_secondary":"","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-2.jpg","id":"7692","alt":"","source":"library"}},{"title":"Title example","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"title_primary":"","content":"<h2><span style=\"color: #f5b332\">03.<\/span><\/h2>\n<h2>Execution of work<\/h2>\nAt the agreed time, our team arrives and begins <br class=\"hidden-xs\" \/>to implement the specified repair plan.","image_secondary_size":"full","title_secondary":"","content_secondary":"","_id":"925a36f","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-3.jpg","id":"7693","alt":"","source":"library"}},{"title":"Title example","position":"right","color_bg_item":"#FFFFFF","image_primary":{"url":"","id":""},"image_primary_size":"full","title_primary":"","content":"<h2><span style=\"color: #f5b332\">04.<\/span><\/h2><h2>Repairs are ready<\/h2><p>You accept the work completed by our team <br class=\"hidden-xs\" \/>and make the final agreed payment.<\/p>","image_secondary_size":"full","title_secondary":"","content_secondary":"","_id":"1e06a0c","image_secondary":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-timeline-4.jpg","id":"7694","alt":"","source":"library"}}],"dots_color":"#F5B332","scroll_y":"-80"},"elements":[],"widgetType":"wd_timeline"}],"isInner":""},{"id":"ba4748b","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"f466fa5","elType":"widget","settings":{"anchor":"Contacts","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"0734f92","elType":"widget","settings":{"subtitle":"Testimonials","title":"Customer Reviews","after_title":"<p>Content management system, got a license for it or adapted<\/p>","color":"primary","size":"extra-large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"18dd87d","elType":"widget","settings":{"items_repeater":[{"title":"","name":"Kristin Watson","content":"<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always.<\/p>","_id":"836b437","image":{"id":"7473","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-1.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"}},{"title":"","name":"Ronald Richards","content":"<p>We contacted a lawyer last year when a question arose about reorganizing the firm. We were very lucky, everything was done quickly!<\/p>","image":{"id":"7474","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-2.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"b10b3c3"},{"title":"","name":"Wade Warren","content":"<p>The way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming.<\/p>","image":{"id":"7475","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-3.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"c93ae77"},{"title":"","name":"Aviana Plummer","content":"<p>But worse, what if the fish doesn\u2019t fit in the can, the foot\u2019s to big for the boot? Or to small? To short sentences, to many headings, images too.<\/p>","image":{"id":"7476","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-4.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"66b1dff"}],"align":"left","hide_pagination_control":"yes","scroll_y":"-80","style":"info-top","_background_background":"classic","text_background_color_normal":"#FFFFFF","slides_per_view_tablet":{"unit":"px","size":"2","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"1","sizes":[]},"sync_parent_id":"wd_65844fa5ec723"},"elements":[],"widgetType":"wd_testimonials"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -1169,7 +1213,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-pic-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-pic-1/</link>
 					<pubDate>Mon, 25 Oct 2021 09:40:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic-1.png</guid>
 															<wp:post_id>7689</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:40:38]]></wp:post_date>
@@ -1192,7 +1236,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-pic-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-pic-2/</link>
 					<pubDate>Mon, 25 Oct 2021 09:41:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-pic-2.png</guid>
 															<wp:post_id>7690</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:41:18]]></wp:post_date>
@@ -1215,7 +1259,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-timeline-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-1/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-1.jpg</guid>
 															<wp:post_id>7691</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:02]]></wp:post_date>
@@ -1238,7 +1282,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-timeline-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-2/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-2.jpg</guid>
 															<wp:post_id>7692</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:04]]></wp:post_date>
@@ -1261,7 +1305,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-timeline-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-3/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-3.jpg</guid>
 															<wp:post_id>7693</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:06]]></wp:post_date>
@@ -1284,7 +1328,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-timeline-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-repair/repair-timeline-4/</link>
 					<pubDate>Mon, 25 Oct 2021 09:44:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-timeline-4.jpg</guid>
 															<wp:post_id>7694</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:44:07]]></wp:post_date>
@@ -1307,7 +1351,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[repair-portfolio-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-portfolio-9/</link>
 					<pubDate>Mon, 25 Oct 2021 09:51:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-portfolio-9.jpg</guid>
 															<wp:post_id>7717</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-25 09:51:14]]></wp:post_date>
@@ -1327,106 +1371,10 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[woocommerce-placeholder]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/woocommerce-placeholder/</link>
-					<pubDate>Wed, 25 Aug 2021 13:20:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/woocommerce-placeholder.png</guid>
-															<wp:post_id>7</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-25 13:20:31]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-25 13:20:31]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-08-25 13:20:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-08-25 13:20:31]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[woocommerce-placeholder]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/woocommerce-placeholder.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[woocommerce-placeholder.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[slider-main-demo-1-41.jpg]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/slider-main-demo-1-41-jpg/</link>
-					<pubDate>Thu, 26 Aug 2021 12:18:16 +0000</pubDate>
-					<dc:creator><![CDATA[admin]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/revslider/main-slider/slider-main-demo-1-41.jpg</guid>
-															<wp:post_id>33</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 12:18:16]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 12:18:16]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-08-26 12:18:16]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-08-26 12:18:16]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[slider-main-demo-1-41-jpg]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/revslider/main-slider/slider-main-demo-1-41.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[revslider/main-slider/slider-main-demo-1-41.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[cat-rocking-horse]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/cat-rocking-horse/</link>
-					<pubDate>Thu, 26 Aug 2021 12:44:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-rocking-horse.svg</guid>
-															<wp:post_id>99</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 12:44:52]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 12:44:52]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2022-06-20 13:59:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2022-06-20 13:59:05]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[cat-rocking-horse]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-rocking-horse.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/cat-rocking-horse.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 505.584 505.584" style="enable-background:new 0 0 505.584 505.584;" xml:space="preserve" width="512px" height="512px"> <g transform="translate(1 1)"> <g> <g> <path d="M83.153,134.389c-5.036,0-8.393,3.357-8.393,8.393s3.357,8.393,8.393,8.393s8.393-3.357,8.393-8.393 S88.189,134.389,83.153,134.389z" fill="#FFFFFF"></path> <path d="M499.467,305.615c-2.518-1.679-5.875-1.679-8.393-0.839c-0.839,0-1.679,0.839-3.357,0.839 c1.679-5.036,3.357-10.911,5.036-15.108l1.679-3.357c9.233-19.305,11.751-40.289,9.233-63.79 c-3.357-31.895-38.61-54.557-67.987-55.397c-23.324-0.752-43.269,11.991-55.617,34.588c-10.847-5.994-23.35-9.408-36.711-9.408 h-66.308c-1.679,0-42.807-4.197-42.807-50.361c0-55.397-32.734-72.184-37.771-74.702c-30.769-16.722-55.141-6.792-64.196-1.644 c-2.368-1.625-4.91-3.048-7.584-4.234c0.285-3.001,0.436-6.082,0.436-9.23c0-22.662-7.554-41.967-20.144-51.2 c-3.357-2.518-6.715-2.518-10.072,0C84.44,9.91,78.81,23.685,76.336,37.24c-11.121-6.564-22.315-9.59-32.633-7.77 c-3.357,0-5.875,3.357-6.715,6.715c-3.008,21.053,10.826,42.772,28.222,55.518c-11.041,17.45-22.787,35.085-35.776,50.239 l-8.247,9.746c-0.911,0.47-1.789,1.129-2.665,2.005l-8.393,9.233c-15.108,17.626-14.269,43.646,1.679,59.593 c3.834,3.834,8.373,6.957,13.368,9.229c18.203,8.981,40.788,4.602,55.459-10.069l7.554-7.554 c2.518-2.518,5.875-3.357,10.072-2.518c3.357,0.839,6.715,4.197,7.554,7.554l39.449,125.902L97.979,464.065 c-49.468-14.664-80.586-31.285-84.492-33.388c-1.679-2.518-5.036-3.357-7.554-2.518c-3.357,0.839-5.875,3.357-6.715,6.715 s0.839,7.554,3.357,9.233c0.966,0.483,36.4,20.141,94.135,36.748c0.853,0.767,1.927,1.428,3.229,1.862 c19.305,5.036,40.289,10.072,60.433,13.43c0.839,0,0.839,0,1.679,0c0.507,0,1.014-0.064,1.512-0.173 c28.26,4.692,59.333,7.727,92.494,7.727c45.028,0,94.208-5.759,145.173-20.79c0.837,0.039,1.693-0.022,2.551-0.193 c16.787-5.036,35.252-11.751,53.718-19.305c1.129-0.452,2.069-1.152,2.817-2.008c12.451-5.424,24.951-11.443,37.471-18.137 c4.197-1.679,5.875-6.715,3.357-10.911c-1.679-4.197-6.715-5.875-10.911-3.357c-10.625,5.552-21.212,10.621-31.747,15.259 L418.89,342.546v-73.862c0-8.729-1.471-17.086-4.15-24.862c7.315-17.74,15.225-25.498,19.258-25.498 c5.036,0,9.233,5.036,10.072,10.911c0.839,11.751-0.839,24.341-7.554,37.77l-0.839,1.679 c-11.751,36.931-10.072,64.63,5.875,78.898c6.715,6.715,15.948,10.072,26.02,10.072c9.233,0,20.144-2.518,31.056-7.554 c3.357-1.679,5.036-4.197,5.036-7.554v-30.216C503.664,309.811,501.985,307.293,499.467,305.615z M299.704,302.257h-21.823 l5.036-25.18h11.751L299.704,302.257z M301.382,260.29h-25.18h-33.574c-5.036,0-8.393-3.357-8.393-8.393V209.93h41.967h58.754 v41.967c0,5.036-3.357,8.393-8.393,8.393H301.382z M188.91,82.349c0,0.839,0.839,0.839,0.839,0.839 c1.679,0.839,28.538,12.59,28.538,59.593c0,23.502,8.393,40.289,20.144,50.361h-12.59h-8.393l-46.164-65.469 c-9.233-13.43-16.787-28.538-24.341-44.485V81.51c-0.839-0.839-0.839-2.518-1.679-3.357 C152.818,74.795,168.766,71.438,188.91,82.349z M99.94,20.238c5.036,7.554,8.393,19.305,8.393,31.895 c0,13.43-3.357,25.18-8.393,32.734c-3.417-4.556-6.058-11.435-7.405-19.318c-0.618-4.011-0.938-8.139-0.977-12.536 C91.689,39.885,95.004,27.642,99.94,20.238z M53.776,46.257c6.715,0.839,14.269,4.197,20.984,10.072 c0,2.617,0.176,5.229,0.509,7.772c0.345,3.27,0.857,6.441,1.55,9.476c-0.987,0.997-1.662,1.752-2.241,2.933 c-0.325,0.456-0.629,0.928-0.914,1.417C62.893,68.729,55.441,57.082,53.776,46.257z M32.654,216.857 c-2.483-1.058-4.825-2.439-6.933-4.145c-0.018-0.014-0.035-0.029-0.053-0.043c-0.308-0.251-0.609-0.511-0.907-0.775 c-0.14-0.125-0.278-0.252-0.416-0.38c-0.198-0.183-0.394-0.368-0.587-0.557c-0.213-0.209-0.421-0.422-0.626-0.637 c-0.115-0.12-0.232-0.24-0.344-0.362c-0.226-0.246-0.445-0.498-0.661-0.752c-0.101-0.118-0.207-0.234-0.305-0.354 c-0.123-0.149-0.238-0.304-0.357-0.455c-7.918-10.07-7.283-24.406,1.256-33.721l4.197-5.036 c10.795,3.321,33.899,15.688,38.456,41.144C56.068,218.816,43.291,221.027,32.654,216.857z M173.264,480.894l50.059-128.276 h118.348l48.327,116.141C309.63,491.111,234.758,490.268,173.264,480.894z M441.553,450.821 c-12.59,5.036-25.18,9.233-37.771,13.43l-50.361-123.384c-0.839-3.357-4.197-5.036-7.554-5.036H216.608 c-3.357,0-6.715,1.679-7.554,5.036L156.176,477.68c-13.629-2.405-27.258-5.576-40.887-8.782 c-0.637-0.167-1.266-0.336-1.898-0.504l49.5-120.813c0.839-1.679,0.839-4.197,0-5.875l-41.128-129.259 c-3.357-9.233-10.911-15.948-20.144-18.466c-7.418-2.023-15.374-0.248-21.699,4.008c-8.161-23.718-28.698-36.485-41.71-42.458 l2.976-3.517c15.599-17.159,28.298-37.215,40.119-56.131c0.714-0.47,1.358-1.048,1.848-1.783l1.107-1.771 c1.933,3.138,4.132,5.94,6.578,8.349c1.075,1.248,2.151,2.419,3.226,3.495c2.808,2.106,6.2,2.444,8.709,1.027 c0.734-0.297,1.468-0.66,2.202-1.027c7.051-5.171,12.521-13.501,15.97-23.81c3.898,2.453,7.646,5.633,9.21,9.542l0.839,0.839 c7.554,15.948,15.948,31.895,26.02,47.003l48.682,68.826c1.679,1.679,4.197,3.357,6.715,3.357h0.839h4.197v41.967 c0,14.269,10.911,25.18,25.18,25.18h23.166l-6.379,31.895c0,2.518,0,5.036,1.679,6.715c1.679,2.518,4.197,3.357,6.715,3.357 h41.967c2.518,0,5.036-0.839,6.715-3.357c1.679-1.679,2.518-4.197,1.679-6.715l-6.379-31.895h14.772 c14.269,0,25.18-10.911,25.18-25.18v-41.111c27.839,4.704,48.682,28.604,48.682,57.898v75.541c0,1.679,0.839,2.518,0.839,3.357 L441.553,450.821z M469.251,316.526c0.839,2.518,1.679,3.357,4.197,5.036c2.518,1.679,4.197,1.679,6.715,1.679h1.679 c1.679,0,3.357-0.839,5.036-0.839v14.269c-6.715,2.518-13.429,4.197-19.305,4.197s-10.911-2.518-15.108-5.875 c-10.911-10.072-11.751-31.895-1.679-61.272l0.839-0.839c7.554-15.948,10.072-31.056,8.393-46.164 c-1.679-14.269-13.43-25.18-26.859-25.18c-9.987,0-19.149,7.439-28.304,23.112c-3.454-4.835-7.464-9.236-11.944-13.117 c6.728-13.407,20.145-27.619,41.088-26.781c21.823,0,49.521,18.466,52.039,40.289c2.518,20.144,0,37.771-7.554,54.557v0.839 l-1.679,4.197C471.769,298.9,468.412,309.811,469.251,316.526z" fill="#FFFFFF"></path> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[post-3-testimonials-2-min]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/08/26/the-big-design-wall-likes-pictures/post-3-testimonials-2-min/</link>
-					<pubDate>Thu, 26 Aug 2021 13:49:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/post-3-testimonials-2-min.jpg</guid>
-															<wp:post_id>169</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 13:49:32]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 13:49:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2022-06-20 13:59:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2022-06-20 13:59:05]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[post-3-testimonials-2-min]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>160</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/post-3-testimonials-2-min.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/post-3-testimonials-2-min.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/home-11/</link>
 					<pubDate>Wed, 29 Sep 2021 13:59:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4370</guid>
 															<wp:post_id>4370</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:00:05]]></wp:post_date>
@@ -1473,7 +1421,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[Services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/services-6/</link>
 					<pubDate>Wed, 29 Sep 2021 13:59:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4371</guid>
 															<wp:post_id>4371</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:00:05]]></wp:post_date>
@@ -1520,7 +1468,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[Portfolio]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/portfolio-2/</link>
 					<pubDate>Wed, 29 Sep 2021 13:59:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4372</guid>
 															<wp:post_id>4372</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:00:05]]></wp:post_date>
@@ -1567,7 +1515,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[Our Advantages]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/our-advantages/</link>
 					<pubDate>Wed, 29 Sep 2021 13:59:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4373</guid>
 															<wp:post_id>4373</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:00:05]]></wp:post_date>
@@ -1614,7 +1562,7 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[Contacts]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/contacts-2/</link>
 					<pubDate>Wed, 29 Sep 2021 13:59:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4374</guid>
 															<wp:post_id>4374</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:00:05]]></wp:post_date>
@@ -1661,19 +1609,19 @@ At the agreed time, our team arrives and begins <br />to implement the specified
 					<title><![CDATA[Contact form Lawyer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4381</link>
 					<pubDate>Wed, 29 Sep 2021 14:05:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4381</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-lg-12">[text* First name placeholder ="First name"]</p>
-<p class="col-lg-12">[text* Last name placeholder ="Last name"]</p>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-white"Get Consult"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* First name placeholder ="First name"]</div>
+<div class="wd-col">[text* Last name placeholder ="Last name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">[submit class:btn class:btn-color-white "Get Consult"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1687,7 +1635,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -1723,8 +1671,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4381</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:05:08]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:05:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:05:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:05:08]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:28:12]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:28:12]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-lawyer]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1733,16 +1681,16 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-lg-12">[text* First name placeholder ="First name"]</p>
-<p class="col-lg-12">[text* Last name placeholder ="Last name"]</p>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-white"Get Consult"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* First name placeholder ="First name"]</div>
+<div class="wd-col">[text* Last name placeholder ="Last name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">[submit class:btn class:btn-color-white "Get Consult"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1753,7 +1701,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1771,22 +1719,26 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
 							<wp:meta_value><![CDATA[34020a0654cde6b59c9490dadffd08aa6d4de515]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Contact form Repair]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4388</link>
 					<pubDate>Wed, 29 Sep 2021 14:07:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4388</guid>
-											<content:encoded><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-8">[text* Your phone number placeholder ="(406) 555-0120"]</p>
-<p class="col-lg-4">[submit class:btn class:btn-color-white "CALL ME BACK"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Your phone number placeholder ="(406) 555-0120"]</div>
+<div class="wd-col-auto">[submit class:btn "CALL ME BACK"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1800,7 +1752,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -1836,8 +1788,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4388</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:07:25]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:07:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:07:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:07:25]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:17:23]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:17:23]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-repair]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1846,14 +1798,14 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-8">[text* Your phone number placeholder ="(406) 555-0120"]</p>
-<p class="col-lg-4">[submit class:btn class:btn-color-white "CALL ME BACK"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Your phone number placeholder ="(406) 555-0120"]</div>
+<div class="wd-col-auto">[submit class:btn "CALL ME BACK"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1864,7 +1816,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1882,58 +1834,16 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
 							<wp:meta_value><![CDATA[b940071080336e70d5a55e63457981d6be25bd7f]]></wp:meta_value>
 						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[lawyer-testimonials-3]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-3/</link>
-					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3.jpg</guid>
-															<wp:post_id>7475</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 11:55:57]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 11:55:57]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 11:55:57]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[lawyer-testimonials-3]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>7429</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/lawyer-testimonials-3.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[lawyer-testimonials-4]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-4/</link>
-					<pubDate>Sun, 24 Oct 2021 11:55:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4.jpg</guid>
-															<wp:post_id>7476</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 11:55:58]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 11:55:58]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 11:55:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 11:55:58]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[lawyer-testimonials-4]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>7429</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/lawyer-testimonials-4.jpg]]></wp:meta_value>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Header popup Repair]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=header-popup-repair</link>
 					<pubDate>Sun, 24 Oct 2021 12:32:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7497</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-mfp-popup-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-magnific-popup.min.css?ver=7.3.0" type="text/css" media="all" /> 							
 			<a  href="#popup-6175526d943c5">
@@ -2017,7 +1927,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Popup Repair]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-repair</link>
 					<pubDate>Sun, 24 Oct 2021 12:33:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7500</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.0" type="text/css" media="all" /> 					
 				<h4>Looking for a best construction company</h4> 
@@ -2094,7 +2004,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[repair-header-contact-form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=7505</link>
 					<pubDate>Sun, 24 Oct 2021 12:34:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-header-contact-form.jpg</guid>
 															<wp:post_id>7505</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:34:37]]></wp:post_date>
@@ -2117,7 +2027,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[repair-footer-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-footer-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 12:35:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-footer-logo.svg</guid>
 															<wp:post_id>7510</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:35:49]]></wp:post_date>
@@ -2138,105 +2048,6 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
 							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="230" height="44" viewBox="0 0 230 44" fill="none"><path d="M37 33L19.5 0H17.5L0 33L1 35H15L15 24L12 21L13 14L15 12H16V18.5L17.5 20H19.5L21 18.5V12H22L24 14L25 21L22 24L22 35H36L37 33Z" fill="white"></path><path d="M22 37H15V42L17 44H20L22 42V37Z" fill="white"></path><path d="M72.3719 12.28H77.6919L71.8959 33H64.7559L60.6119 18.104L56.2999 33H49.1599L43.3779 12.28H49.0339L53.1499 27.918L57.6019 12.28H63.7619L68.0879 28.198L72.3719 12.28Z" fill="white"></path><path d="M87.8343 33.224C85.8556 33.224 84.1336 32.888 82.6683 32.216C81.2123 31.544 80.0876 30.5687 79.2943 29.29C78.5103 28.0114 78.1183 26.476 78.1183 24.684C78.1183 22.892 78.5103 21.3567 79.2943 20.078C80.0876 18.79 81.2123 17.81 82.6683 17.138C84.1336 16.4567 85.8556 16.116 87.8343 16.116C89.8223 16.116 91.5443 16.4567 93.0003 17.138C94.4656 17.81 95.5903 18.79 96.3743 20.078C97.1676 21.366 97.5643 22.9014 97.5643 24.684C97.5643 26.4574 97.1676 27.988 96.3743 29.276C95.5809 30.5547 94.4516 31.5347 92.9863 32.216C91.5303 32.888 89.8129 33.224 87.8343 33.224ZM87.8343 29.094C89.1596 29.094 90.1676 28.73 90.8583 28.002C91.5489 27.274 91.8943 26.1914 91.8943 24.754C91.8943 23.2514 91.5443 22.1267 90.8443 21.38C90.1536 20.624 89.1503 20.246 87.8343 20.246C86.5276 20.246 85.5243 20.61 84.8243 21.338C84.1336 22.0567 83.7883 23.1394 83.7883 24.586C83.7883 27.5914 85.1369 29.094 87.8343 29.094Z" fill="white"></path><path d="M109.217 33.224C107.238 33.224 105.516 32.888 104.051 32.216C102.595 31.544 101.47 30.5687 100.677 29.29C99.8931 28.0114 99.5011 26.476 99.5011 24.684C99.5011 22.892 99.8931 21.3567 100.677 20.078C101.47 18.79 102.595 17.81 104.051 17.138C105.516 16.4567 107.238 16.116 109.217 16.116C111.205 16.116 112.927 16.4567 114.383 17.138C115.848 17.81 116.973 18.79 117.757 20.078C118.55 21.366 118.947 22.9014 118.947 24.684C118.947 26.4574 118.55 27.988 117.757 29.276C116.964 30.5547 115.834 31.5347 114.369 32.216C112.913 32.888 111.196 33.224 109.217 33.224ZM109.217 29.094C110.542 29.094 111.55 28.73 112.241 28.002C112.932 27.274 113.277 26.1914 113.277 24.754C113.277 23.2514 112.927 22.1267 112.227 21.38C111.536 20.624 110.533 20.246 109.217 20.246C107.91 20.246 106.907 20.61 106.207 21.338C105.516 22.0567 105.171 23.1394 105.171 24.586C105.171 27.5914 106.52 29.094 109.217 29.094Z" fill="white"></path><path d="M127.66 33.182C126.708 33.182 125.7 33.154 124.636 33.098C123.581 33.0514 122.629 32.9814 121.78 32.888V16.844C122.723 16.6294 123.81 16.4614 125.042 16.34C126.274 16.2094 127.427 16.144 128.5 16.144C132.233 16.144 135.029 16.844 136.886 18.244C138.743 19.6347 139.672 21.7814 139.672 24.684C139.672 26.6814 139.229 28.3054 138.342 29.556C137.465 30.8067 136.144 31.726 134.38 32.314C132.616 32.8927 130.376 33.182 127.66 33.182ZM129.032 29.024C130.189 29.024 131.132 28.8794 131.86 28.59C132.597 28.2914 133.143 27.8247 133.498 27.19C133.853 26.546 134.03 25.6967 134.03 24.642C134.03 23.1114 133.615 22.0054 132.784 21.324C131.963 20.6427 130.698 20.302 128.99 20.302C128.458 20.302 127.912 20.3487 127.352 20.442V28.968C127.847 29.0054 128.407 29.024 129.032 29.024Z" fill="white"></path><path d="M157.753 16.34H164.431V33H159.321V22.822L155.695 30.508H151.271L147.645 23.27V33H142.535V16.34H149.213L153.553 25.286L157.753 16.34Z" fill="white"></path><path d="M180.628 33L179.466 29.304H173.124L171.962 33H166.572L172.256 16.34H180.39L186.074 33H180.628ZM174.356 25.384H178.234L176.302 19.182L174.356 25.384Z" fill="white"></path><path d="M198.769 33L194.849 27.484C194.307 27.4654 193.901 27.4467 193.631 27.428V33H188.171V16.844C189.141 16.6294 190.196 16.4567 191.335 16.326C192.483 16.186 193.584 16.116 194.639 16.116C197.485 16.116 199.623 16.5874 201.051 17.53C202.479 18.4634 203.193 19.8867 203.193 21.8C203.193 22.9014 202.927 23.8487 202.395 24.642C201.872 25.4354 201.116 26.07 200.127 26.546L204.845 33H198.769ZM193.631 23.76C194.331 23.8067 194.895 23.83 195.325 23.83C196.249 23.83 196.93 23.6714 197.369 23.354C197.807 23.0274 198.027 22.5094 198.027 21.8C198.027 21.0907 197.793 20.568 197.327 20.232C196.869 19.896 196.169 19.728 195.227 19.728C194.657 19.728 194.125 19.7794 193.631 19.882V23.76Z" fill="white"></path><path d="M209.621 33V20.526H203.937V16.34H220.891V20.526H215.207V33H209.621Z" fill="white"></path><path d="M223.612 33.266C222.539 33.266 221.69 32.9814 221.064 32.412C220.439 31.8427 220.126 31.068 220.126 30.088C220.126 29.0987 220.434 28.324 221.05 27.764C221.666 27.1947 222.52 26.91 223.612 26.91C224.695 26.91 225.544 27.1994 226.16 27.778C226.786 28.3474 227.098 29.1174 227.098 30.088C227.098 30.7227 226.954 31.2827 226.664 31.768C226.384 32.244 225.983 32.6127 225.46 32.874C224.938 33.1354 224.322 33.266 223.612 33.266Z" fill="white"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[repair-lines-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/repair-lines-1/</link>
-					<pubDate>Sun, 24 Oct 2021 12:35:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-1.svg</guid>
-															<wp:post_id>7513</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 12:35:52]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 12:35:52]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 12:35:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 12:35:52]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[repair-lines-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-lines-1.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/repair-lines-1.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="20" viewBox="0 0 1152 20" fill="none"><path d="M1 20V0M6 11V19M11 11V19M16 19V11M21 19V11M26 20V6M31 11V19M36 11V19M41 19V11M46 19V11M51 20V0M56 11V19M61 11V19M66 19V11M71 19V11M76 20V6M81 11V19M86 11V19M91 19V11M96 19V11M101 20V0M106 11V19M111 11V19M116 19V11M121 19V11M126 20V6M131 11V19M136 11V19M141 19V11M146 19V11M151 20V0M156 11V19M161 11V19M166 19V11M171 19V11M176 20V6M181 11V19M186 11V19M191 19V11M196 19V11M201 20V0M206 11V19M211 11V19M216 19V11M221 19V11M226 20V6M231 11V19M236 11V19M241 19V11M246 19V11M251 20V0M256 11V19M261 11V19M266 19V11M271 19V11M276 20V6M281 11V19M286 11V19M291 19V11M296 19V11M301 20V0M306 11V19M311 11V19M316 19V11M321 19V11M326 20V6M331 11V19M336 11V19M341 19V11M346 19V11M351 20V0M356 11V19M361 11V19M366 19V11M371 19V11M376 20V6M381 11V19M386 11V19M391 19V11M396 19V11M401 20V0M406 11V19M411 11V19M416 19V11M421 19V11M426 20V6M431 11V19M436 11V19M441 19V11M446 19V11M451 20V0M456 11V19M461 11V19M466 19V11M471 19V11M476 20V6M481 11V19M486 11V19M491 19V11M496 19V11M501 20V0M506 11V19M511 11V19M516 19V11M521 19V11M526 20V6M531 11V19M536 11V19M541 19V11M546 19V11M551 20V0M556 11V19M561 11V19M566 19V11M571 19V11M576 20V6M581 11V19M586 11V19M591 19V11M596 19V11M601 20V0M606 11V19M611 11V19M616 19V11M621 19V11M626 20V6M631 11V19M636 11V19M641 19V11M646 19V11M651 20V0M656 11V19M661 11V19M666 19V11M671 19V11M676 20V6M681 11V19M686 11V19M691 19V11M696 19V11M701 20V0M706 11V19M711 11V19M716 19V11M721 19V11M726 20V6M731 11V19M736 11V19M741 19V11M746 19V11M751 20V0M756 11V19M761 11V19M766 19V11M771 19V11M776 20V6M781 11V19M786 11V19M791 19V11M796 19V11M801 20V0M806 11V19M811 11V19M816 19V11M821 19V11M826 20V6M831 11V19M836 11V19M841 19V11M846 19V11M851 20V0M856 11V19M861 11V19M866 19V11M871 19V11M876 20V6M881 11V19M886 11V19M891 19V11M896 19V11M901 20V0M906 11V19M911 11V19M916 19V11M921 19V11M926 20V6M931 11V19M936 11V19M941 19V11M946 19V11M951 20V0M956 11V19M961 11V19M966 19V11M971 19V11M976 20V6M981 11V19M986 11V19M991 19V11M996 19V11M1001 20V0M1006 11V19M1011 11V19M1016 19V11M1021 19V11M1026 20V6M1031 11V19M1036 11V19M1041 19V11M1046 19V11M1051 20V0M1056 11V19M1061 11V19M1066 19V11M1071 19V11M1076 20V6M1081 11V19M1086 11V19M1091 19V11M1096 19V11M1101 20V0M1106 11V19M1111 11V19M1116 19V11M1121 19V11M1126 20V6M1131 11V19M1136 11V19M1141 19V11M1146 19V11M1151 20V0" stroke="white" stroke-opacity="0.3" stroke-width="2"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Footer Repair]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-repair</link>
-					<pubDate>Sun, 24 Oct 2021 12:37:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7517</guid>
-											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.4.0" type="text/css" media="all" /> 					
-				<h4>You Still Have a Question?</h4> 
-					<p>Leave your mobile phone number and we will call you back</p>				
-						<link rel="stylesheet" id="wd-list-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-list.min.css?ver=7.4.0" type="text/css" media="all" /> 					<ul>
-											<li>
-											<svg viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>					
-						Your phone number					
-									</li>
-					</ul>
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/woodmart2/elementor/wp-admin/admin-ajax.php#wpcf7-f4388-o1" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<input type="hidden" name="_wpcf7" value="4388" />
-<input type="hidden" name="_wpcf7_version" value="5.8.7" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4388-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="(406) 555-0120" value="" type="text" name="Your" />
-	</p>
-	<p><input type="submit" value="CALL ME BACK" />
-	</p>
-</form>
-							<a  href="#">
-								<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/repair-footer-logo.svg" title="repair-footer-logo" width="200" height="45">							</a>
-						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.4.0" type="text/css" media="all" /> 					
-			<p><a href="#"><strong>WOODMART</strong></a> Created By <a href="#"><strong>XTEMOS STUDIO</strong></a> Copyright  2021</p>]]></content:encoded>
-															<wp:post_id>7517</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 12:37:36]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 12:37:36]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-03-01 15:49:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-03-01 15:49:48]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[footer-repair]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[cms_block]]></wp:post_type>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-							<wp:meta_value><![CDATA[default]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
-							<wp:meta_value><![CDATA[builder]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
-							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.19.4]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"5f6c872","elType":"container","settings":{"flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"wd_section_stretch":"stretch","structure":"22","background_background":"classic","background_color":"#F5B332","background_image":{"id":7513,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-lines-1.svg","alt":"","source":"library"},"background_position":"bottom center","background_repeat":"repeat-x","padding":{"unit":"px","top":"40","right":"15","bottom":"35","left":"15","isLinked":""},"flex_direction":"row","flex_align_items":"center","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"7c3e1d0","elType":"container","settings":{"_column_size":"66","width":{"size":"60","unit":"%"},"width_tablet":{"size":50,"unit":"%"},"wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","container_sticky_offset":50},"elements":[{"id":"99a5077","elType":"widget","settings":{"subtitle":"","title":"You Still Have a Question?","after_title":"<p>Leave your mobile phone number and we will call you back<\/p>","color":"primary","size":"extra-large","align":"left","width":{"unit":"%","size":"100","sizes":[]},"subtitle_typography_font_family":"Kumbh Sans","subtitle_typography_font_size":{"unit":"px","size":"18","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"13","sizes":[]},"subtitle_typography_font_weight":"700","scroll_y":"-80","title_typography_typography":"custom","title_typography_font_size_tablet":{"unit":"px","size":22,"sizes":[]},"title_typography_line_height":{"unit":"em","size":"1.2","sizes":[]}},"elements":[],"widgetType":"wd_title"}],"isInner":true},{"id":"75edcb2","elType":"container","settings":{"_column_size":"33","width":{"size":40,"unit":"%"},"width_tablet":{"size":50,"unit":"%"},"wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"10","row":"10","isLinked":true,"unit":"px","size":10},"container_sticky_offset":50},"elements":[{"id":"40bbf75","elType":"widget","settings":{"list_items":[{"list_content":"Your phone number","_id":"ce70592","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-mobile-alt","library":"fa-solid"},"size":"medium","icons_color":"#FFFFFF","scroll_y":"-80"},"elements":[],"widgetType":"wd_list"},{"id":"22a1c62","elType":"widget","settings":{"form_id":"4388","scroll_y":"-80","style":"wd-style-with-bg"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":true}],"isInner":false},{"id":"a11b898","elType":"container","settings":{"content_position":"middle","wd_section_stretch":"stretch","background_background":"classic","background_color":"#101010","padding":{"unit":"px","top":"20","right":"15","bottom":"20","left":"15","isLinked":false},"flex_direction":"row","flex_align_items":"center","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"flex_justify_content":"space-between","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"169b4d3","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/repair-footer-logo.svg","id":7510,"alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"200","height":"45"},"on_click_action":"link","link":{"url":"#","is_external":false,"nofollow":false,"custom_attributes":""},"scroll_y":-80,"_element_width":"auto"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"38c8b0a","elType":"widget","settings":{"text":"<p><a href=\"#\"><strong>WOODMART<\/strong><\/a> Created By <a href=\"#\"><strong><span style=\"color: #cd3e3e;\">X<\/span>TEMOS STUDIO<\/strong><\/a>\u00a0Copyright <i class=\"fa fa-copyright\"><\/i> 2021<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":12,"sizes":[]},"scroll_y":-80},"elements":[],"widgetType":"wd_text_block"}],"isInner":false}]]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_controls_usage]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:7:{s:8:"wd_title";a:3:{s:5:"count";i:1;s:15:"control_percent";i:6;s:8:"controls";a:3:{s:7:"content";a:1:{s:23:"general_content_section";a:3:{s:8:"subtitle";i:1;s:5:"title";i:1;s:11:"after_title";i:1;}}s:5:"style";a:3:{s:21:"general_style_section";a:4:{s:5:"color";i:1;s:4:"size";i:1;s:5:"align";i:1;s:5:"width";i:1;}s:22:"subtitle_style_section";a:3:{s:31:"subtitle_typography_font_family";i:1;s:29:"subtitle_typography_font_size";i:1;s:31:"subtitle_typography_font_weight";i:1;}s:19:"title_style_section";a:2:{s:27:"title_typography_typography";i:1;s:28:"title_typography_line_height";i:1;}}s:8:"advanced";a:2:{s:14:"_section_style";a:1:{s:7:"_margin";i:1;}s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}}}}s:6:"column";a:3:{s:5:"count";i:3;s:15:"control_percent";i:2;s:8:"controls";a:3:{s:6:"layout";a:1:{s:6:"layout";a:2:{s:12:"_inline_size";i:2;s:5:"align";i:1;}}s:5:"style";a:1:{s:14:"wd_extra_style";a:1:{s:15:"wd_color_scheme";i:3;}}s:8:"advanced";a:1:{s:8:"wd_extra";a:2:{s:20:"column_sticky_offset";i:3;s:8:"scroll_y";i:3;}}}}s:7:"wd_list";a:3:{s:5:"count";i:1;s:15:"control_percent";i:3;s:8:"controls";a:3:{s:7:"content";a:2:{s:23:"general_content_section";a:1:{s:10:"list_items";i:1;}s:20:"icon_content_section";a:1:{s:4:"icon";i:1;}}s:5:"style";a:2:{s:21:"general_style_section";a:1:{s:4:"size";i:1;}s:18:"icon_style_section";a:1:{s:11:"icons_color";i:1;}}s:8:"advanced";a:1:{s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}}}}s:17:"wd_contact_form_7";a:3:{s:5:"count";i:1;s:15:"control_percent";i:3;s:8:"controls";a:2:{s:7:"content";a:1:{s:23:"general_content_section";a:2:{s:7:"form_id";i:1;s:5:"style";i:1;}}s:8:"advanced";a:2:{s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}s:14:"_section_style";a:1:{s:7:"_margin";i:1;}}}}s:7:"section";a:3:{s:5:"count";i:2;s:15:"control_percent";i:2;s:8:"controls";a:3:{s:6:"layout";a:3:{s:14:"section_layout";a:2:{s:3:"gap";i:1;s:16:"content_position";i:1;}s:15:"wd_extra_layout";a:1:{s:18:"wd_section_stretch";i:2;}s:17:"section_structure";a:1:{s:9:"structure";i:1;}}s:5:"style";a:1:{s:18:"section_background";a:5:{s:21:"background_background";i:2;s:16:"background_color";i:2;s:16:"background_image";i:1;s:19:"background_position";i:1;s:17:"background_repeat";i:1;}}s:8:"advanced";a:1:{s:16:"section_advanced";a:2:{s:7:"padding";i:2;s:6:"margin";i:1;}}}}s:15:"wd_image_or_svg";a:3:{s:5:"count";i:1;s:15:"control_percent";i:4;s:8:"controls";a:2:{s:7:"content";a:1:{s:23:"general_content_section";a:5:{s:5:"image";i:1;s:10:"image_size";i:1;s:22:"image_custom_dimension";i:1;s:15:"on_click_action";i:1;s:4:"link";i:1;}}s:8:"advanced";a:1:{s:17:"_section_position";a:1:{s:14:"_element_width";i:1;}}}}s:11:"text-editor";a:3:{s:5:"count";i:1;s:15:"control_percent";i:3;s:8:"controls";a:3:{s:7:"content";a:1:{s:14:"section_editor";a:1:{s:6:"editor";i:1;}}s:5:"style";a:1:{s:13:"section_style";a:2:{s:21:"typography_typography";i:1;s:20:"typography_font_size";i:1;}}s:8:"advanced";a:2:{s:8:"wd_extra";a:1:{s:8:"scroll_y";i:1;}s:17:"_section_position";a:1:{s:14:"_element_width";i:1;}}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 				</channel>

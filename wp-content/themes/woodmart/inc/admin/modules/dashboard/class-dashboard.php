@@ -194,11 +194,13 @@ class Dashboard extends Singleton {
 		$header_object = whb_get_header();
 
 		if ( $header_object && ! is_admin() ) {
+			global $wp;
+
 			$admin_bar->add_node(
 				array(
 					'id'     => 'xts_header_builder_edit',
 					'title'  => esc_html__( 'Edit current header', 'woodmart' ),
-					'href'   => admin_url( 'admin.php?page=xts_header_builder#/builder/' . $header_object->get_id() ),
+					'href'   => home_url( add_query_arg( array(), $wp->request ) ) . '?whb-header-frontend=' . $header_object->get_id(),
 					'parent' => 'xts_header_builder',
 					'meta'   => array(
 						'title' => $header_object->get_name(),

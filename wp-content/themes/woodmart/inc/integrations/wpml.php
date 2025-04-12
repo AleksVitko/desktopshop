@@ -291,7 +291,7 @@ if ( ! function_exists( 'woodmart_get_wpml_languages_in_mobile_menu' ) ) {
 				<li class="menu-item menu-item-languages <?php echo esc_attr( $languages || ! $flag_url ? ' menu-item-has-children' : '' ); ?> item-level-0">
 					<a href="<?php echo esc_url( $current_url ); ?>" class="woodmart-nav-link">
 						<?php if ( $flag_url && $settings['burger']['show_language_flag'] ) : ?>
-							<img src="<?php echo esc_url( $flag_url ); ?>" alt="<?php echo esc_attr( $current_lang ); ?>" class="wd-nav-img">
+							<img src="<?php echo esc_url( $flag_url ); ?>" alt="<?php echo esc_attr( sprintf( __( 'Flag for %s', 'woodmart' ), $current_lang ) ); ?>" class="wd-nav-img">
 						<?php endif; ?>
 						<span class="nav-link-text">
 							<?php echo esc_html( $current_lang ); ?>
@@ -364,42 +364,6 @@ if ( class_exists( 'woocommerce_wpml' ) && ! function_exists( 'woodmart_wpml_shi
 	add_filter( 'woodmart_product_pricing_amount_discounts_value', 'woodmart_wpml_shipping_progress_bar_amount' );
 }
 
-if ( ! function_exists( 'woodmart_add_translated_product_to_waitlist' ) ) {
-	/**
-	 * When a user adds a translated product to the waitlist, the ID of the translated product is recorded in the database instead of the original.
-	 * Therefore, when the stock status of the original changes, we need to search the database for not only this ID but also all translation IDs.
-	 *
-	 * @param array $waitlists Queue for sending notifications about product restocks.
-	 * @param int   $product_id ID of the product whose stock status has just changed.
-	 *
-	 * @return array
-	 */
-	function woodmart_add_translated_product_to_waitlist( $waitlists, $product_id ) {
-		$db_storage   = XTS\Modules\Waitlist\DB_Storage::get_instance();
-		$current_lang = apply_filters( 'wpml_current_language', null );
-		$active_langs = apply_filters( 'wpml_active_languages', null );
-
-		foreach ( $active_langs as $lang ) {
-			if ( $current_lang === $lang['language_code'] ) {
-				continue;
-			}
-
-			$translated_product_id = apply_filters( 'wpml_object_id', $product_id, 'product', false, $lang['language_code'] );
-			$product               = wc_get_product( $translated_product_id );
-
-			if ( ! $product instanceof WC_Product ) {
-				continue;
-			}
-
-			$waitlists = array_merge( $waitlists, $db_storage->get_subscriptions_by_product( $product ) );
-		}
-
-		return $waitlists;
-	}
-
-	add_filter( 'woodmart_waitlists_instock_list', 'woodmart_add_translated_product_to_waitlist', 10, 2 );
-}
-
 if ( ! function_exists( 'woodmart_add_wcml_emails_options_to_translate' ) ) {
 	/**
 	 * Add woodmart emails for WooCommerce Multilingual & Multicurrency plugin translate.
@@ -418,6 +382,9 @@ if ( ! function_exists( 'woodmart_add_wcml_emails_options_to_translate' ) ) {
 		$email_options[] = 'woocommerce_woodmart_waitlist_confirm_subscription_email_settings';
 		$email_options[] = 'woocommerce_woodmart_waitlist_in_stock_settings';
 		$email_options[] = 'woocommerce_woodmart_waitlist_subscribe_email_settings';
+
+		// Abandoned cart.
+		$email_options[] = 'woocommerce_woodmart_abandoned_cart_email_settings';
 
 		return $email_options;
 	}
@@ -444,6 +411,8 @@ if ( ! function_exists( 'woodmart_change_wcml_emails_section_name_prefix' ) ) {
 			'woocommerce_woodmart_waitlist_confirm_subscription_email_settings',
 			'woocommerce_woodmart_waitlist_in_stock_settings',
 			'woocommerce_woodmart_waitlist_subscribe_email_settings',
+			// Abandoned cart.
+			'woocommerce_woodmart_abandoned_cart_email_settings',
 		);
 
 		if ( in_array( $email_option, $waitlist_options, true ) ) {
@@ -456,22 +425,44 @@ if ( ! function_exists( 'woodmart_change_wcml_emails_section_name_prefix' ) ) {
 	add_filter( 'wcml_emails_section_name_prefix', 'woodmart_change_wcml_emails_section_name_prefix', 10, 2 );
 }
 
-if ( ! function_exists( 'woodmart_add_wcml_emails_text_keys_to_translate' ) ) {
+if ( ! function_exists( 'woodmart_change_wcml_emails_section_name' ) ) {
 	/**
-	 * Add custom emals options keys to translate.
+	 * Change wcml emails section name for woodmart emails.
 	 *
-	 * @param array $text_keys Option name.
-	 *
-	 * @return array
+	 * @param string $section_name Section name.
 	 */
-	function woodmart_add_wcml_emails_text_keys_to_translate( $text_keys ) {
-		$text_keys[] = 'content_html';
-		$text_keys[] = 'content_text';
+	function woodmart_change_wcml_emails_section_name( $section_name ) {
+		// Wishlist.
+		if ( 'woodmart_wishlist_back_in_stock' === $section_name ) {
+			return 'xts_email_wishlist_back_in_stock';
+		}
+		if ( 'woodmart_wishlist_on_sale_products' === $section_name ) {
+			return 'xts_email_wishlist_on_sale_products';
+		}
+		if ( 'woodmart_promotional_email' === $section_name ) {
+			return 'xts_email_wishlist_promotional';
+		}
 
-		return $text_keys;
+		// Waitlist.
+		if ( 'woodmart_waitlist_confirm_subscription_email' === $section_name ) {
+			return 'xts_email_waitlist_confirm_subscription';
+		}
+		if ( 'woodmart_waitlist_subscribe_email' === $section_name ) {
+			return 'xts_email_waitlist_subscribe';
+		}
+		if ( 'woodmart_waitlist_in_stock' === $section_name ) {
+			return 'xts_email_waitlist_back_in_stock';
+		}
+
+		// Abandoned cart.
+		if ( 'woodmart_abandoned_cart_email' === $section_name ) {
+			return 'xts_email_abandoned_cart';
+		}
+
+		return $section_name;
 	}
 
-	add_filter( 'wcml_emails_text_keys_to_translate', 'woodmart_add_wcml_emails_text_keys_to_translate' );
+	add_filter( 'wcml_emails_section_name_to_translate', 'woodmart_change_wcml_emails_section_name' );
 }
 
 if ( ! function_exists( 'woodmart_wpml_set_global_product' ) ) {

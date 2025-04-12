@@ -82,10 +82,9 @@ class Header_Builder extends Singleton {
 			'class-header',
 			'class-elements',
 			'class-styles',
-			'functions',
 		);
 
-		if ( is_admin() ) {
+		if ( ( current_user_can( 'administrator' ) && woodmart_is_header_frontend_editor() ) || is_admin() ) {
 			$classes[] = 'class-backend';
 		}
 

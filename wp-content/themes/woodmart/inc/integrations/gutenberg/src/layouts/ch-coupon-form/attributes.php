@@ -23,10 +23,10 @@ if ( ! function_exists( 'wd_get_checkout_block_coupon_form_attrs' ) ) {
 		$attr->add_attr( wd_get_typography_control_attrs(), 'toggleTp' );
 
 		$attr->add_attr( wd_get_color_control_attrs( 'formBgColor' ) );
-		$attr->add_attr( wd_get_border_control_attrs( 'formBorder' ) );
-		$attr->add_attr( wd_get_padding_control_attrs( 'formPadding' ) );
+		wd_get_border_control_attrs( $attr, 'formBorder' );
+		wd_get_padding_control_attrs( $attr, 'formPadding' );
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

@@ -27,9 +27,9 @@ if ( ! class_exists( 'WOODMART_Banner_Widget' ) ) {
 			$text_font      = woodmart_get_opt( 'text-font' );
 			$primary_font   = woodmart_get_opt( 'primary-font' );
 
-			$secondary_font_title = isset( $secondary_font[0] ) ? esc_html__( 'Secondary', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Secondary', 'woodmart' );
-			$text_font_title      = isset( $text_font[0] ) ? esc_html__( 'Text', 'woodmart' ) . ' (' . $text_font[0]['font-family'] . ')' : esc_html__( 'Text', 'woodmart' );
-			$primary_font_title   = isset( $primary_font[0] ) ? esc_html__( 'Primary', 'woodmart' ) . ' (' . $primary_font[0]['font-family'] . ')' : esc_html__( 'Primary', 'woodmart' );
+			$secondary_font_title = isset( $secondary_font[0]['font-family'] ) ? esc_html__( 'Secondary', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Secondary', 'woodmart' );
+			$text_font_title      = isset( $text_font[0]['font-family'] ) ? esc_html__( 'Text', 'woodmart' ) . ' (' . $text_font[0]['font-family'] . ')' : esc_html__( 'Text', 'woodmart' );
+			$primary_font_title   = isset( $primary_font[0]['font-family'] ) ? esc_html__( 'Primary', 'woodmart' ) . ' (' . $primary_font[0]['font-family'] . ')' : esc_html__( 'Primary', 'woodmart' );
 
 			$this->create_widget(
 				array(

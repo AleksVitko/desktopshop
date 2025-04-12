@@ -1,11 +1,7 @@
 <?php
 
-use XTS\Gutenberg\Block_Attributes;
-
 if ( ! function_exists( 'wd_get_carousel_settings_attrs' ) ) {
-	function wd_get_carousel_settings_attrs() {
-		$attr = new Block_Attributes();
-
+	function wd_get_carousel_settings_attrs( $attr ) {
 		$attr->add_attr(
 			array(
 				'slides_per_view'            => array(
@@ -87,7 +83,5 @@ if ( ! function_exists( 'wd_get_carousel_settings_attrs' ) ) {
 				),
 			)
 		);
-
-		return $attr->get_attr();
 	}
 }

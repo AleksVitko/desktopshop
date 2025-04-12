@@ -24,7 +24,7 @@ class Shop_Archive extends Layout_Type {
 
 		switch ( $condition['condition_type'] ) {
 			case 'all':
-				$is_active = is_shop() || is_product_category() || is_product_tag() || woodmart_is_product_attribute_archive();
+				$is_active = woodmart_is_shop_archive();
 				break;
 			case 'shop_page':
 				$is_active = is_shop();
@@ -56,6 +56,9 @@ class Shop_Archive extends Layout_Type {
 				break;
 			case 'product_tags':
 				$is_active = is_product_tag();
+				break;
+			case 'product_brands':
+				$is_active = is_tax( 'product_brand' );
 				break;
 			case 'product_attr':
 				$object   = get_queried_object();

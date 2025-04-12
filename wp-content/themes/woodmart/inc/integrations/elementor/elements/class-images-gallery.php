@@ -550,11 +550,12 @@ class Images_Gallery extends Widget_Base {
 				<?php foreach ( $settings['ids'] as $index => $image ) : ?>
 					<?php
 					$image_data = wp_get_attachment_image_src( $image['id'], 'full' );
-					$link       = $image_data[0];
 
 					if ( ! $image_data ) {
 						continue;
 					}
+
+					$link = $image_data[0];
 
 					if ( apply_filters( 'woodmart_image_gallery_caption', false ) ) {
 						$title = wp_get_attachment_caption( $image['id'] );

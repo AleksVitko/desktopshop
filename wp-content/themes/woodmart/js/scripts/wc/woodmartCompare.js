@@ -337,6 +337,7 @@
 			$button.addClass('added');
 
 			woodmartThemeModule.$document.trigger('added_to_compare');
+			woodmartThemeModule.$document.trigger('wdUpdateTooltip', $button);
 		}
 
 		function updateCountWidget(count) {

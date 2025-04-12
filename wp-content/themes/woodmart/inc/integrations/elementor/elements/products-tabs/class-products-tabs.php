@@ -242,7 +242,7 @@ class Products_Tabs extends Widget_Base {
 				'type'        => 'wd_autocomplete',
 				'search'      => 'woodmart_get_taxonomies_by_query',
 				'render'      => 'woodmart_get_taxonomies_title_by_id',
-				'taxonomy'    => array_merge( [ 'product_cat', 'product_tag' ], $this->get_product_attributes_array() ),
+				'taxonomy'    => array_merge( [ 'product_cat', 'product_tag', 'product_brand' ], $this->get_product_attributes_array() ),
 				'multiple'    => true,
 				'label_block' => true,
 				'condition'   => [

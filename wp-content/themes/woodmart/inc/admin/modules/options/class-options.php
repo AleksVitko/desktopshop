@@ -100,6 +100,7 @@ class Options extends Singleton {
 		'group'             => 'XTS\Admin\Modules\Options\Controls\Group',
 		'conditions'        => 'XTS\Admin\Modules\Options\Controls\Conditions',
 		'discount_rules'    => 'XTS\Admin\Modules\Options\Controls\Discount_Rules',
+		'timetable'         => 'XTS\Admin\Modules\Options\Controls\Timetable',
 	);
 
 	/**

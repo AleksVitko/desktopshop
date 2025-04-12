@@ -18,7 +18,7 @@ abstract class WPBakeryShortCodesContainer extends WPBakeryShortCode {
 	 *
 	 * @var array
 	 */
-	protected $predefined_atts = array();
+	protected $predefined_atts = [];
 
 	/**
 	 * Prepend controls to the backend editor.
@@ -82,7 +82,7 @@ abstract class WPBakeryShortCodesContainer extends WPBakeryShortCode {
 	 * @throws \Exception
 	 */
 	public function getColumnControls( $controls = 'full', $extended_css = '' ) {
-		$controls_html = array();
+		$controls_html = [];
 
 		$controls_html['start'] = '<div class="vc_controls vc_controls-visible controls_column' . ( ! empty( $extended_css ) ? " {$extended_css}" : '' ) . '">';
 		$controls_html['end'] = '</div>';
@@ -109,7 +109,7 @@ abstract class WPBakeryShortCodesContainer extends WPBakeryShortCode {
 
 		if ( ! empty( $controls ) ) {
 			if ( is_string( $controls ) ) {
-				$controls = array( $controls );
+				$controls = [ $controls ];
 			}
 			$controls_string = $controls_html['start'];
 			foreach ( $controls as $control ) {
@@ -188,11 +188,11 @@ abstract class WPBakeryShortCodesContainer extends WPBakeryShortCode {
 		if ( filter_var( $icon, FILTER_VALIDATE_URL ) ) {
 			$icon = '';
 		}
-		$params = array(
+		$params = [
 			'icon' => $icon,
 			'is_container' => $this->settings( 'is_container' ),
 			'title' => $title,
-		);
+		];
 
 		return '<h4 class="wpb_element_title"> ' . $this->getIcon( $params ) . '</h4>';
 	}

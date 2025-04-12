@@ -138,7 +138,7 @@ class Products_Brands extends Widget_Base {
 				'type'        => 'wd_autocomplete',
 				'search'      => 'woodmart_get_taxonomies_by_query',
 				'render'      => 'woodmart_get_taxonomies_title_by_id',
-				'taxonomy'    => woodmart_get_opt( 'brands_attribute' ),
+				'taxonomy'    => woodmart_get_opt( 'brands_attribute' ) ? woodmart_get_opt( 'brands_attribute' ) : 'product_brand',
 				'multiple'    => true,
 				'label_block' => true,
 			)

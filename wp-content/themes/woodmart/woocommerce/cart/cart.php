@@ -42,9 +42,6 @@ if ( woodmart_get_opt( 'update_cart_quantity_change' ) ) {
 						<th class="product-remove"><span class="screen-reader-text"><?php esc_html_e( 'Remove item', 'woocommerce' ); ?></span></th>
 						<th class="product-thumbnail"><span class="screen-reader-text"><?php esc_html_e( 'Thumbnail image', 'woocommerce' ); ?></span></th>
 						<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
-						<?php if ( woodmart_get_opt( 'show_sku_in_cart' ) ) : ?>
-							<th class="product-sku"><?php esc_html_e( 'SKU', 'woocommerce' ); ?></th>
-						<?php endif; ?>
 						<th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?></th>
 						<th class="product-quantity"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
 						<th class="product-subtotal"><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
@@ -117,18 +114,6 @@ if ( woodmart_get_opt( 'update_cart_quantity_change' ) ) {
 							}
 							?>
 							</td>
-
-							<?php if ( woodmart_get_opt( 'show_sku_in_cart' ) ) : ?>
-								<td class="product-sku" data-title="<?php esc_attr_e( 'SKU', 'woocommerce' ); ?>">
-									<span>
-										<?php if ( $_product->get_sku() ) : ?>
-											<?php echo esc_html( $_product->get_sku() ); ?>
-										<?php else : ?>
-											<?php esc_html_e( 'N/A', 'woocommerce' ); ?>
-										<?php endif; ?>
-									</span>
-								</td>
-							<?php endif; ?>
 
 							<td class="product-price" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
 								<?php

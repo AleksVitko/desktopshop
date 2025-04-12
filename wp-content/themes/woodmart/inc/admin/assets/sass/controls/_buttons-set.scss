@@ -16,7 +16,7 @@
 				background-color: #FFF;
 
 				.xts-hint {
-					margin-inline-start: 5px;
+					// margin-inline-start: 5px;
 					background-color: transparent;
 				}
 
@@ -32,9 +32,9 @@
 		border-radius: var(--xts-option-border-radius);
 		@extend %xts-button;
 
-		&:before {
-			margin-inline-end: 6px;
-		}
+		// &:before {
+		// 	margin-inline-end: 6px;
+		// }
 
 		&.xts-active {
 			@extend %xts-button-alternative;

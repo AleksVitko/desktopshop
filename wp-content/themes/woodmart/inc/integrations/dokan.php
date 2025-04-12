@@ -27,13 +27,13 @@ if ( ! function_exists( 'woodmart_dokan_lazy_load_fix' ) ) {
 	function woodmart_dokan_lazy_load_fix() {
 		return array(
 			'img' => array(
-				'alt'           => array(),
-				'class'         => array(),
-				'height'        => array(),
-				'src'           => array(),
-				'width'         => array(),
-				'data-wood-src' => array(),
-				'data-srcset'   => array(),
+				'alt'         => array(),
+				'class'       => array(),
+				'height'      => array(),
+				'src'         => array(),
+				'width'       => array(),
+				'data-src'    => array(),
+				'data-srcset' => array(),
 			),
 		);
 	}

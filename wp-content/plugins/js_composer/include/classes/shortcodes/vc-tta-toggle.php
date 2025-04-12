@@ -131,7 +131,7 @@ class WPBakeryShortCode_Vc_Tta_Toggle extends WPBakeryShortCode_Vc_Tta_Pageable 
 	 * @return string
 	 */
 	public function getTtaContainerClasses() {
-		$classes = array();
+		$classes = [];
 		$classes[] = 'vc_tta-container';
 		$classes[] = 'wpb-wrapper-tta-toggle';
 
@@ -184,27 +184,32 @@ class WPBakeryShortCode_Vc_Tta_Toggle extends WPBakeryShortCode_Vc_Tta_Pageable 
 		if ( empty( $atts['pagination_style'] ) ) {
 			return null;
 		}
-		$isPageEditable = vc_is_page_editable();
 
-		$html = array();
-		$html[] = '<ul class="' . $this->getTtaPaginationClasses() . '">';
+		$html = [];
+		$html[] = vc_get_template( 'partials/tta-pagination-start.php', [
+			'classes' => $this->getTtaPaginationClasses(),
+		] );
 
-		if ( ! $isPageEditable ) {
+		if ( ! vc_is_page_editable() ) {
 			VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_Vc_Tta_Toggle_Section' );
 			foreach ( WPBakeryShortCode_Vc_Tta_Toggle_Section::$section_info as $nth => $section ) {
-				$active_section = $this->getActiveSection( $atts, false );
+				$active_section = $this->getActiveSection( $atts );
 
-				$classes = array( 'vc_pagination-item' );
-				if ( ( $nth + 1 ) === $active_section ) {
+				$classes = [ 'vc_pagination-item' ];
+				$current = $nth + 1;
+				if ( $current === $active_section ) {
 					$classes[] = $this->activeClass;
 				}
 
-				$a_html = '<a href="#' . $section['tab_id'] . '" class="vc_pagination-trigger" data-vc-tabs data-vc-container=".vc_tta"></a>';
-				$html[] = '<li class="' . implode( ' ', $classes ) . '" data-vc-tab>' . $a_html . '</li>';
+				$html[] = vc_get_template( 'partials/tta-pagination-item.php', [
+					'classes' => implode( ' ', $classes ),
+					'current' => $current,
+					'section' => $section,
+				] );
 			}
 		}
 
-		$html[] = '</ul>';
+		$html[] = vc_get_template( 'partials/tta-pagination-end.php' );
 
 		return implode( '', $html );
 	}
@@ -227,7 +232,7 @@ class WPBakeryShortCode_Vc_Tta_Toggle extends WPBakeryShortCode_Vc_Tta_Pageable 
 			VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_Vc_Tta_Toggle_Section' );
 			WPBakeryShortCode_Vc_Tta_Toggle_Section::$tta_base_shortcode = $this;
 			WPBakeryShortCode_Vc_Tta_Toggle_Section::$self_count = 0;
-			WPBakeryShortCode_Vc_Tta_Toggle_Section::$section_info = array();
+			WPBakeryShortCode_Vc_Tta_Toggle_Section::$section_info = [];
 
 			return true;
 		}

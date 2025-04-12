@@ -88,7 +88,7 @@ class Instagram_Api extends Field {
 		$base_url      = 'https://www.facebook.com/v19.0/dialog/oauth';
 		$redirect_uri  = urlencode( 'https://xtemos.com/instagram.php' );
 		$response_type = 'code';
-		$scope         = apply_filters( 'woodmart_instagram_token_scope', 'manage_pages,instagram_basic,public_profile,pages_read_engagement,business_management' );
+		$scope         = apply_filters( 'woodmart_instagram_token_scope', 'instagram_basic,public_profile,pages_read_engagement,business_management' );
 		$return_url    = urlencode( $this->get_return_url() );
 
 		return $base_url . '?response_type=' . $response_type . '&client_id=' . $app_id . '&redirect_uri=' . $redirect_uri . '&scope=' . $scope . '&state=' . $return_url;

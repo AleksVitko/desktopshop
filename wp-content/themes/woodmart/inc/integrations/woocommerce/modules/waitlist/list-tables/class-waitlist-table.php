@@ -102,7 +102,7 @@ class Waitlist_Table extends WP_List_Table {
 			'view_product' => sprintf( '<a href="%s" title="%s" rel="permalink">%s</a>', $product->get_permalink(), esc_html__( 'View Product', 'woodmart' ), esc_html__( 'View Product', 'woodmart' ) ),
 		);
 
-		if ( 'variation' === $product->get_type() ) {
+		if ( in_array( $product->get_type(), array( 'variation', 'subscription_variation' ), true ) ) {
 			$attributes = array();
 
 			foreach ( $product->get_attributes() as $taxonomy => $value ) {
@@ -351,7 +351,7 @@ class Waitlist_Table extends WP_List_Table {
 					" GROUP BY
 						$wpdb->wd_waitlists.`product_id`,
 						$wpdb->wd_waitlists.`variation_id`
-					LIMIT 50;",
+					;",
 					ARRAY_A
 				)
 			);

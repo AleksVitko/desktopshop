@@ -12,7 +12,7 @@
  *
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @package WooCommerce/Templates
- * @version 9.2.0
+ * @version 9.7.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -77,7 +77,7 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 
 		<h2 class="wd-login-title"><?php esc_html_e( 'Register', 'woocommerce' ); ?></h2>
 
-		<form method="post" action="<?php echo esc_url( add_query_arg( 'action', 'register', $account_link ) ); ?>" class="woocommerce-form woocommerce-form-register register" <?php do_action( 'woocommerce_register_form_tag' ); ?> >
+		<form method="post" action="<?php echo esc_url( add_query_arg( 'action', 'register', $account_link ) ); ?>" class="woocommerce-form woocommerce-form-register register" novalidate <?php do_action( 'woocommerce_register_form_tag' ); ?> >
 
 			<?php do_action( 'woocommerce_register_form_start' ); ?>
 

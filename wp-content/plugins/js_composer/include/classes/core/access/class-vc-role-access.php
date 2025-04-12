@@ -25,7 +25,7 @@ class Vc_Role_Access extends Vc_Access {
 	 *
 	 * @var array
 	 */
-	protected $parts = array();
+	protected $parts = [];
 
 	/**
 	 * Vc_Role_Access constructor.

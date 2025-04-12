@@ -45,19 +45,19 @@ class Vc_Templates_Panel_Editor {
 			return;
 		}
 		$this->initialized = true;
-		add_filter( 'vc_load_default_templates_welcome_block', array(
+		add_filter( 'vc_load_default_templates_welcome_block', [
 			$this,
 			'loadDefaultTemplatesLimit',
-		) );
+		] );
 
-		add_filter( 'vc_templates_render_category', array(
+		add_filter( 'vc_templates_render_category', [
 			$this,
 			'renderTemplateBlock',
-		), 10 );
-		add_filter( 'vc_templates_render_template', array(
+		], 10 );
+		add_filter( 'vc_templates_render_template', [
 			$this,
 			'renderTemplateWindow',
-		), 10, 2 );
+		], 10, 2 );
 
 		/**
 		 * Ajax methods
@@ -66,26 +66,26 @@ class Vc_Templates_Panel_Editor {
 		 *  'vc_frontend_load_template' -> loading template content for frontend
 		 *  'vc_delete_template' -> deleting template by index
 		 */
-		add_action( 'wp_ajax_vc_save_template', array(
+		add_action( 'wp_ajax_vc_save_template', [
 			$this,
 			'save',
-		) );
-		add_action( 'wp_ajax_vc_backend_load_template', array(
+		] );
+		add_action( 'wp_ajax_vc_backend_load_template', [
 			$this,
 			'renderBackendTemplate',
-		) );
-		add_action( 'wp_ajax_vc_frontend_load_template', array(
+		] );
+		add_action( 'wp_ajax_vc_frontend_load_template', [
 			$this,
 			'renderFrontendTemplate',
-		) );
-		add_action( 'wp_ajax_vc_load_template_preview', array(
+		] );
+		add_action( 'wp_ajax_vc_load_template_preview', [
 			$this,
 			'renderTemplatePreview',
-		) );
-		add_action( 'wp_ajax_vc_delete_template', array(
+		] );
+		add_action( 'wp_ajax_vc_delete_template', [
 			$this,
 			'delete',
-		) );
+		] );
 	}
 
 	/**
@@ -255,16 +255,16 @@ class Vc_Templates_Panel_Editor {
 	public function renderFrontendTemplate() {
 		vc_user_access()->checkAdminNonce()->validateDie()->wpAny( 'edit_posts', 'edit_pages' )->validateDie()->part( 'templates' )->can()->validateDie();
 
-		add_filter( 'vc_frontend_template_the_content', array(
+		add_filter( 'vc_frontend_template_the_content', [
 			$this,
 			'frontendDoTemplatesShortcodes',
-		) );
+		] );
 		$template_id = vc_post_param( 'template_unique_id' );
 		$template_type = vc_post_param( 'template_type' );
-		add_action( 'wp_print_scripts', array(
+		add_action( 'wp_print_scripts', [
 			$this,
 			'addFrontendTemplatesShortcodesCustomCss',
-		) );
+		] );
 
 		if ( '' === $template_id ) {
 			die( 'Error: Vc_Templates_Panel_Editor::renderFrontendTemplate:1' );
@@ -274,9 +274,9 @@ class Vc_Templates_Panel_Editor {
 			$saved_templates = get_option( $this->option_name );
 			vc_frontend_editor()->setTemplateContent( $saved_templates[ $template_id ]['template'] );
 			vc_frontend_editor()->enqueueRequired();
-			vc_include_template( 'editors/frontend_template.tpl.php', array(
+			vc_include_template( 'editors/frontend_template.tpl.php', [
 				'editor' => vc_frontend_editor(),
-			) );
+			] );
 			die();
 		} elseif ( 'default_templates' === $template_type ) {
 				$this->renderFrontendDefaultTemplate();
@@ -300,9 +300,9 @@ class Vc_Templates_Panel_Editor {
 		}
 		vc_frontend_editor()->setTemplateContent( trim( $data['content'] ) );
 		vc_frontend_editor()->enqueueRequired();
-		vc_include_template( 'editors/frontend_template.tpl.php', array(
+		vc_include_template( 'editors/frontend_template.tpl.php', [
 			'editor' => vc_frontend_editor(),
-		) );
+		] );
 		die();
 	}
 
@@ -312,9 +312,9 @@ class Vc_Templates_Panel_Editor {
 	 * @since 4.7
 	 */
 	public function renderUITemplate() {
-		vc_include_template( 'editors/popups/vc_ui-panel-templates.tpl.php', array(
+		vc_include_template( 'editors/popups/vc_ui-panel-templates.tpl.php', [
 			'box' => $this,
-		) );
+		] );
 
 		return '';
 	}
@@ -334,28 +334,28 @@ class Vc_Templates_Panel_Editor {
 			throw new Exception( 'Error: Vc_Templates_Panel_Editor::save:1' );
 		}
 
-		$template_arr = array(
+		$template_arr = [
 			'name' => stripslashes( $template_name ),
 			'template' => stripslashes( $template ),
-		);
+		];
 
 		$saved_templates = get_option( $this->option_name );
 
 		$template_id = sanitize_title( $template_name ) . '_' . wp_rand();
 		if ( false === $saved_templates ) {
 			$autoload = 'no';
-			$new_template = array();
+			$new_template = [];
 			$new_template[ $template_id ] = $template_arr;
 			add_option( $this->option_name, $new_template, '', $autoload );
 		} else {
 			$saved_templates[ $template_id ] = $template_arr;
 			update_option( $this->option_name, $saved_templates );
 		}
-		$template = array(
+		$template = [
 			'name' => $template_arr['name'],
 			'type' => 'my_templates',
 			'unique_id' => $template_id,
-		);
+		];
 		// @codingStandardsIgnoreLine
 		print $this->renderTemplateListItem( $template );
 		die;
@@ -403,10 +403,10 @@ class Vc_Templates_Panel_Editor {
 	 * @since 4.8
 	 */
 	public function renderTemplatePreview() {
-		vc_user_access()->checkAdminNonce()->validateDie()->wpAny( array(
+		vc_user_access()->checkAdminNonce()->validateDie()->wpAny( [
 			'edit_post',
 			(int) vc_request_param( 'post_id' ),
-		) )->validateDie()->part( 'templates' )->can()->validateDie();
+		] )->validateDie()->part( 'templates' )->can()->validateDie();
 
 		$template_id = vc_request_param( 'template_unique_id' );
 		$template_type = vc_request_param( 'template_type' );
@@ -430,11 +430,11 @@ class Vc_Templates_Panel_Editor {
 			$content = apply_filters( 'vc_templates_render_backend_template_preview', $template_id, $template_type );
 		}
 
-		vc_include_template( apply_filters( 'vc_render_template_preview_include_template', 'editors/vc_ui-template-preview.tpl.php' ), array(
+		vc_include_template( apply_filters( 'vc_render_template_preview_include_template', 'editors/vc_ui-template-preview.tpl.php' ), [
 			'content' => $content,
 			'editor_post' => get_post( vc_request_param( 'post_id' ) ),
 			'current_user' => $current_user,
-		) );
+		] );
 		die();
 	}
 
@@ -446,9 +446,9 @@ class Vc_Templates_Panel_Editor {
 		wpbakery()->registerAdminCss();
 		vc_backend_editor()->registerBackendJavascript();
 		vc_backend_editor()->registerBackendCss();
-		wp_register_script( 'vc_editors-templates-preview-js', vc_asset_url( 'js/editors/templates-preview.js' ), array(
+		wp_register_script( 'vc_editors-templates-preview-js', vc_asset_url( 'js/editors/templates-preview.js' ), [
 			'vc-backend-min-js',
-		), WPB_VC_VERSION, true );
+		], WPB_VC_VERSION, true );
 	}
 
 	/**
@@ -534,30 +534,30 @@ class Vc_Templates_Panel_Editor {
 	 * @since 4.4
 	 */
 	public function getAllTemplates() {
-		$data = array();
+		$data = [];
 		// Here we go..
 		if ( apply_filters( 'vc_show_user_templates', true ) ) {
 			// We need to get all "My Templates".
 			$user_templates = $this->getUserTemplates();
 			// this has only 'name' and 'template' key  and index 'key' is template id.
-			$arr_category = array(
+			$arr_category = [
 				'category' => 'my_templates',
 				'category_name' => esc_html__( 'My Templates', 'js_composer' ),
 				'category_description' => esc_html__( 'Append previously saved template to the current layout.', 'js_composer' ),
 				'category_weight' => 10,
-			);
-			$category_templates = array();
+			];
+			$category_templates = [];
 			if ( is_array( $user_templates ) ) {
 				foreach ( $user_templates as $template_id => $template_data ) {
 					if ( ! is_array( $template_data ) || ! isset( $template_data['name'] ) ) {
 						continue;
 					}
-					$category_templates[] = array(
+					$category_templates[] = [
 						'unique_id' => $template_id,
 						'name' => $template_data['name'],
 						'type' => 'my_templates',
 						// for rendering in backend/frontend with ajax.
-					);
+					];
 				}
 			}
 			$arr_category['templates'] = $category_templates;
@@ -567,18 +567,18 @@ class Vc_Templates_Panel_Editor {
 		// To get all "Default Templates".
 		$default_templates = $this->getDefaultTemplates();
 		if ( ! empty( $default_templates ) ) {
-			$arr_category = array(
+			$arr_category = [
 				'category' => 'default_templates',
 				'category_name' => esc_html__( 'Default Templates', 'js_composer' ),
 				'category_description' => esc_html__( 'Append default template to the current layout.', 'js_composer' ),
 				'category_weight' => 11,
-			);
-			$category_templates = array();
+			];
+			$category_templates = [];
 			foreach ( $default_templates as $template_id => $template_data ) {
 				if ( isset( $template_data['disabled'] ) && $template_data['disabled'] ) {
 					continue;
 				}
-				$category_templates[] = array(
+				$category_templates[] = [
 					'unique_id' => $template_id,
 					'name' => $template_data['name'],
 					'type' => 'default_templates',
@@ -586,7 +586,7 @@ class Vc_Templates_Panel_Editor {
 					'image' => isset( $template_data['image_path'] ) ? $template_data['image_path'] : false,
 					// preview image.
 					'custom_class' => isset( $template_data['custom_class'] ) ? $template_data['custom_class'] : false,
-				);
+				];
 			}
 			if ( ! empty( $category_templates ) ) {
 				$arr_category['templates'] = $category_templates;
@@ -674,7 +674,7 @@ class Vc_Templates_Panel_Editor {
 	public function addDefaultTemplates( $data ) {
 		if ( is_array( $data ) && ! empty( $data ) && isset( $data['name'], $data['content'] ) ) {
 			if ( ! is_array( $this->default_templates ) ) {
-				$this->default_templates = array();
+				$this->default_templates = [];
 			}
 			$this->default_templates[] = $data;
 
@@ -717,10 +717,10 @@ class Vc_Templates_Panel_Editor {
 	 */
 	public function sortTemplatesByCategories( array $data ) {
 		$buffer = $data;
-		uasort( $buffer, array(
+		uasort( $buffer, [
 			$this,
 			'cmpCategory',
-		) );
+		] );
 
 		return $buffer;
 	}
@@ -735,10 +735,10 @@ class Vc_Templates_Panel_Editor {
 	 */
 	public function sortTemplatesByNameWeight( array $data ) {
 		$buffer = $data;
-		uasort( $buffer, array(
+		uasort( $buffer, [
 			$this,
 			'cmpNameWeight',
-		) );
+		] );
 
 		return $buffer;
 	}
@@ -752,7 +752,7 @@ class Vc_Templates_Panel_Editor {
 	 * @since 4.4
 	 */
 	public function getAllCategoriesNames( array $categories ) {
-		$categories_names = array();
+		$categories_names = [];
 
 		foreach ( $categories as $category ) {
 			if ( isset( $category['category'] ) ) {

@@ -229,5 +229,40 @@
         "attachment": "",
         "position": ""
     },
-    "portfolio_page": "150"
+    "portfolio_page": "150",
+    "widget-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Poppins",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ]
 }

@@ -57,7 +57,9 @@
 		}
 	};
 
-	$(document).ready(function() {
-		woodmartThemeModule.menuSetUp();
+	['wdEventStarted', 'wdUpdatedHeader'].forEach((eventName) => {
+		window.addEventListener(eventName, function () {
+			woodmartThemeModule.menuSetUp();
+		});
 	});
 })(jQuery);

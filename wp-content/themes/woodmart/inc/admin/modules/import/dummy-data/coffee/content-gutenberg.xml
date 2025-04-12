@@ -35,8 +35,8 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[coffee-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-popup/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-popup.jpg</guid>
 															<wp:post_id>19930</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:43]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[coffee-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-page-title/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-page-title.jpg</guid>
 															<wp:post_id>19931</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:44]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[coffee-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-1.jpg</guid>
 															<wp:post_id>19943</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:18]]></wp:post_date>
@@ -120,7 +120,7 @@
 					<title><![CDATA[coffee-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-2/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-2.jpg</guid>
 															<wp:post_id>19944</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:19]]></wp:post_date>
@@ -143,7 +143,7 @@
 					<title><![CDATA[coffee-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-3/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-3.jpg</guid>
 															<wp:post_id>19945</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:20]]></wp:post_date>
@@ -166,7 +166,7 @@
 					<title><![CDATA[coffee-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-4/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-4.jpg</guid>
 															<wp:post_id>19946</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:20]]></wp:post_date>
@@ -189,7 +189,7 @@
 					<title><![CDATA[coffee-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-5/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-5.jpg</guid>
 															<wp:post_id>19947</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:21]]></wp:post_date>
@@ -212,7 +212,7 @@
 					<title><![CDATA[coffee-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-6/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-6.jpg</guid>
 															<wp:post_id>19948</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:21]]></wp:post_date>
@@ -235,7 +235,7 @@
 					<title><![CDATA[coffee-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-7/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-7.jpg</guid>
 															<wp:post_id>19949</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:22]]></wp:post_date>
@@ -258,7 +258,7 @@
 					<title><![CDATA[coffee-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-8/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-8.jpg</guid>
 															<wp:post_id>19950</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:22]]></wp:post_date>
@@ -281,7 +281,7 @@
 					<title><![CDATA[coffee-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-9/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-9.jpg</guid>
 															<wp:post_id>19951</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:23]]></wp:post_date>
@@ -304,7 +304,7 @@
 					<title><![CDATA[coffee-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-10/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-10.jpg</guid>
 															<wp:post_id>19952</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:23]]></wp:post_date>
@@ -327,7 +327,7 @@
 					<title><![CDATA[coffee-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-11/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-11.jpg</guid>
 															<wp:post_id>19953</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:24]]></wp:post_date>
@@ -350,7 +350,7 @@
 					<title><![CDATA[coffee-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-product-12/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-product-12.jpg</guid>
 															<wp:post_id>19954</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:24]]></wp:post_date>
@@ -373,7 +373,7 @@
 					<title><![CDATA[coffee-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-1.jpg</guid>
 															<wp:post_id>19955</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:36]]></wp:post_date>
@@ -396,7 +396,7 @@
 					<title><![CDATA[coffee-blog-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-2/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-2.jpg</guid>
 															<wp:post_id>19956</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:36]]></wp:post_date>
@@ -419,7 +419,7 @@
 					<title><![CDATA[coffee-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-3/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-3.jpg</guid>
 															<wp:post_id>19957</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:37]]></wp:post_date>
@@ -442,7 +442,7 @@
 					<title><![CDATA[coffee-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-4/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-4.jpg</guid>
 															<wp:post_id>19958</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:37]]></wp:post_date>
@@ -465,7 +465,7 @@
 					<title><![CDATA[coffee-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-5/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-5.jpg</guid>
 															<wp:post_id>19959</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:38]]></wp:post_date>
@@ -488,7 +488,7 @@
 					<title><![CDATA[coffee-blog-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-6/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-6.jpg</guid>
 															<wp:post_id>19960</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:38]]></wp:post_date>
@@ -511,7 +511,7 @@
 					<title><![CDATA[wood-logo-white-reserve]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/wood-logo-white-reserve/</link>
 					<pubDate>Wed, 21 Jun 2017 08:17:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2017/06/wood-logo-white-reserve.svg</guid>
 															<wp:post_id>302</wp:post_id>
 					<wp:post_date><![CDATA[2017-06-21 08:17:11]]></wp:post_date>
@@ -534,7 +534,7 @@
 					<title><![CDATA[Footer 1 column Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-1-column-light</link>
 					<pubDate>Fri, 24 May 2024 13:40:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=12962</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"44ed7d08-e070-4837-b8c5-83401769c4d1","paddingTop":"40","paddingBottom":"40"} -->
 <div id="wd-44ed7d08" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"d5a06582-d2b6-4d73-83f9-ccc08f331d22","adjacentCount":5,"colWidth":25,"adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100} -->
@@ -721,7 +721,7 @@
 					<title><![CDATA[Home Coffee]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-coffee/</link>
 					<pubDate>Wed, 26 Jun 2024 15:42:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=19926</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"142c00b3-4bcb-4d3a-98c0-ee26551b20c8","pagination":false,"paginationTablet":false,"paginationMobile":false,"autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"820","marginBottom":"80","heightTablet":"620","heightMobile":"480","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-142c00b3" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-slide wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="slide" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"47c103a9-7e6a-4529-8b24-d65500a1371b","align":"flex-start","bgImage":{"id":19940,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-slide-1.jpg"},"bgColorCode":"#e2ede9"} -->
@@ -980,7 +980,7 @@
 					<title><![CDATA[Prefooter Coffee]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=prefooter-coffee</link>
 					<pubDate>Wed, 26 Jun 2024 15:44:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=19928</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"87e39aef-7b15-4529-a249-4ca710de98e1","bgColorCode":"#f3f3f3","paddingTop":"40","marginBottom":"-40"} -->
 <div id="wd-87e39aef" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"993acb2d-e6e8-4aac-ae72-9608dc849c22","columnsGapMobile":30} -->
@@ -1019,7 +1019,7 @@
 					<title><![CDATA[coffee-prefooter]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-prefooter/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-prefooter.jpg</guid>
 															<wp:post_id>19932</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:44]]></wp:post_date>
@@ -1042,7 +1042,7 @@
 					<title><![CDATA[coffee-parallax-scroll-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-parallax-scroll-2/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-parallax-scroll-2.jpg</guid>
 															<wp:post_id>19933</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:45]]></wp:post_date>
@@ -1065,7 +1065,7 @@
 					<title><![CDATA[coffee-parallax-scroll-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-parallax-scroll-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-parallax-scroll-1.jpg</guid>
 															<wp:post_id>19934</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:45]]></wp:post_date>
@@ -1088,7 +1088,7 @@
 					<title><![CDATA[coffee-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-bg/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-bg.jpg</guid>
 															<wp:post_id>19935</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:46]]></wp:post_date>
@@ -1111,7 +1111,7 @@
 					<title><![CDATA[coffee-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-banner-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-banner-1.jpg</guid>
 															<wp:post_id>19936</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:46]]></wp:post_date>
@@ -1134,7 +1134,7 @@
 					<title><![CDATA[coffee-image-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-image-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-image-1.jpg</guid>
 															<wp:post_id>19937</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:46]]></wp:post_date>
@@ -1157,7 +1157,7 @@
 					<title><![CDATA[coffee-svg-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-svg-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-svg-1.svg</guid>
 															<wp:post_id>19938</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:56]]></wp:post_date>
@@ -1180,7 +1180,7 @@
 					<title><![CDATA[coffee-svg-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-svg-2/</link>
 					<pubDate>Wed, 26 Jun 2024 15:52:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-svg-2.svg</guid>
 															<wp:post_id>19939</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:52:56]]></wp:post_date>
@@ -1203,7 +1203,7 @@
 					<title><![CDATA[coffee-slide-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-slide-1/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-slide-1.jpg</guid>
 															<wp:post_id>19940</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:04]]></wp:post_date>
@@ -1226,7 +1226,7 @@
 					<title><![CDATA[coffee-slide-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-slide-2/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-slide-2.jpg</guid>
 															<wp:post_id>19941</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:05]]></wp:post_date>
@@ -1249,7 +1249,7 @@
 					<title><![CDATA[coffee-slide-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-slide-3/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-slide-3.jpg</guid>
 															<wp:post_id>19942</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:05]]></wp:post_date>
@@ -1272,7 +1272,7 @@
 					<title><![CDATA[coffee-blog-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-7/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-7.jpg</guid>
 															<wp:post_id>19961</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:39]]></wp:post_date>
@@ -1295,7 +1295,7 @@
 					<title><![CDATA[coffee-blog-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-8/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-8.jpg</guid>
 															<wp:post_id>19962</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:39]]></wp:post_date>
@@ -1318,7 +1318,7 @@
 					<title><![CDATA[coffee-blog-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/coffee-blog-9/</link>
 					<pubDate>Wed, 26 Jun 2024 15:53:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/coffee-blog-9.jpg</guid>
 															<wp:post_id>19963</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-26 15:53:40]]></wp:post_date>
@@ -1341,7 +1341,7 @@
 					<title><![CDATA[wd-cursor-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34179</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-cursor-light.svg</guid>
 															<wp:post_id>34179</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:47]]></wp:post_date>
@@ -1364,7 +1364,7 @@
 					<title><![CDATA[wd-phone-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34181</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-phone-light.svg</guid>
 															<wp:post_id>34181</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:48]]></wp:post_date>
@@ -1387,7 +1387,7 @@
 					<title><![CDATA[wd-envelope-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34180</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-envelope-light.svg</guid>
 															<wp:post_id>34180</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:47]]></wp:post_date>

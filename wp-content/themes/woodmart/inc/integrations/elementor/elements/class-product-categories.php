@@ -1120,22 +1120,18 @@ class Product_Categories extends Widget_Base {
 			woodmart_set_loop_prop( 'hide_categories_product_count', 'disable' === $settings['grid_product_count'] );
 		}
 
-		$settings['columns'] = isset( $settings['columns']['size'] ) ? $settings['columns']['size'] : 4;
-
 		woodmart_set_loop_prop( 'product_categories_design', $settings['categories_design'] );
 		if ( ! empty( $settings['categories_with_shadow'] ) ) {
 			woodmart_set_loop_prop( 'product_categories_shadow', $settings['categories_with_shadow'] );
 		}
-		woodmart_set_loop_prop( 'products_columns', $settings['columns'] );
+
+		if ( $settings['columns'] ) {
+			woodmart_set_loop_prop( 'products_columns', $settings['columns']['size'] );
+			woodmart_set_loop_prop( 'products_columns_tablet', ! empty( $settings['columns_tablet']['size'] ) ? $settings['columns_tablet']['size'] : 'auto' );
+			woodmart_set_loop_prop( 'products_columns_mobile', ! empty( $settings['columns_mobile']['size'] ) ? $settings['columns_mobile']['size'] : 'auto' );
+		}
+
 		woodmart_set_loop_prop( 'product_categories_style', $settings['style'] );
-
-		if ( isset( $settings['columns_tablet']['size'] ) && $settings['columns_tablet']['size'] ) {
-			woodmart_set_loop_prop( 'products_columns_tablet', $settings['columns_tablet']['size'] );
-		}
-
-		if ( isset( $settings['columns_mobile']['size'] ) && $settings['columns_mobile']['size'] ) {
-			woodmart_set_loop_prop( 'products_columns_mobile', $settings['columns_mobile']['size'] );
-		}
 
 		// Wrapper classes.
 		$this->add_render_attribute(
@@ -1145,7 +1141,7 @@ class Product_Categories extends Widget_Base {
 						'wd-cats',
 						'products',
 						'woocommerce',
-						'columns-' . $settings['columns'],
+						'columns-' . ( 'carousel' === $settings['style'] ? $settings['slides_per_view']['size'] : $settings['columns']['size'] ),
 					),
 				),
 			)
@@ -1198,7 +1194,7 @@ class Product_Categories extends Widget_Base {
 			}
 		}
 
-		if ( 'masonry' === $settings['style'] || 'masonry-first' === $settings['style'] || 'carousel' === $settings['style'] ) {
+		if ( 'masonry' === $settings['style'] || 'masonry-first' === $settings['style'] ) {
 			woodmart_enqueue_inline_style( 'woo-categories-loop-layout-masonry' );
 		}
 
@@ -1308,6 +1304,7 @@ class Product_Categories extends Widget_Base {
 							'spacing'        => $settings['spacing'],
 							'spacing_tablet' => $settings['spacing_tablet'],
 							'spacing_mobile' => $settings['spacing_mobile'],
+							'post_type'      => 'product',
 						)
 					)
 				);

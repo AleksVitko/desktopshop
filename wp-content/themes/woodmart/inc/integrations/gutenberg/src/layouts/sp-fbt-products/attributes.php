@@ -55,7 +55,7 @@ if ( ! function_exists( 'wd_get_single_product_block_fbt_products_attrs' ) ) {
 		);
 
 		$attr->add_attr( wd_get_color_control_attrs( 'formBgColor' ) );
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

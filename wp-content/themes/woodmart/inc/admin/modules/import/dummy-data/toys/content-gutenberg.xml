@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-04 07:46" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:39" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,14 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 04 Nov 2024 07:46:07 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:39:35 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
 		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[toys-footer-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-footer-bg/</link>
 					<pubDate>Mon, 17 Jun 2024 06:52:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-footer-bg.jpg</guid>
 															<wp:post_id>16317</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 06:52:07]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[toys-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-page-title/</link>
 					<pubDate>Mon, 17 Jun 2024 06:54:02 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-page-title.jpg</guid>
 															<wp:post_id>16318</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 06:54:02]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[toys-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-popup/</link>
 					<pubDate>Mon, 17 Jun 2024 06:58:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-popup.jpg</guid>
 															<wp:post_id>16319</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 06:58:25]]></wp:post_date>
@@ -120,7 +120,7 @@
 					<title><![CDATA[toys-gift]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-gift/</link>
 					<pubDate>Mon, 17 Jun 2024 07:07:50 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-gift.svg</guid>
 															<wp:post_id>16320</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:07:50]]></wp:post_date>
@@ -143,7 +143,7 @@
 					<title><![CDATA[toys-categ-circle-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-categ-circle-1/</link>
 					<pubDate>Mon, 17 Jun 2024 07:35:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-categ-circle-1.png</guid>
 															<wp:post_id>16347</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:35:52]]></wp:post_date>
@@ -166,7 +166,7 @@
 					<title><![CDATA[toys-categ-circle-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-categ-circle-2/</link>
 					<pubDate>Mon, 17 Jun 2024 07:35:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-categ-circle-2.png</guid>
 															<wp:post_id>16348</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:35:52]]></wp:post_date>
@@ -189,7 +189,7 @@
 					<title><![CDATA[toys-categ-circle-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-categ-circle-3/</link>
 					<pubDate>Mon, 17 Jun 2024 07:35:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-categ-circle-3.png</guid>
 															<wp:post_id>16349</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:35:52]]></wp:post_date>
@@ -212,7 +212,7 @@
 					<title><![CDATA[toys-categ-circle-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-categ-circle-4/</link>
 					<pubDate>Mon, 17 Jun 2024 07:35:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-categ-circle-4.png</guid>
 															<wp:post_id>16350</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:35:53]]></wp:post_date>
@@ -235,7 +235,7 @@
 					<title><![CDATA[toys-categ-circle-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-categ-circle-5/</link>
 					<pubDate>Mon, 17 Jun 2024 07:35:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-categ-circle-5.png</guid>
 															<wp:post_id>16351</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:35:53]]></wp:post_date>
@@ -258,7 +258,7 @@
 					<title><![CDATA[toys-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-1/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-1.jpg</guid>
 															<wp:post_id>17090</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:16]]></wp:post_date>
@@ -281,7 +281,7 @@
 					<title><![CDATA[toys-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-2/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-2.jpg</guid>
 															<wp:post_id>17091</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:16]]></wp:post_date>
@@ -304,7 +304,7 @@
 					<title><![CDATA[toys-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-3/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-3.jpg</guid>
 															<wp:post_id>17092</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:17]]></wp:post_date>
@@ -327,7 +327,7 @@
 					<title><![CDATA[toys-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-4/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-4.jpg</guid>
 															<wp:post_id>17093</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:17]]></wp:post_date>
@@ -350,7 +350,7 @@
 					<title><![CDATA[toys-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-5/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-5.jpg</guid>
 															<wp:post_id>17094</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:18]]></wp:post_date>
@@ -373,7 +373,7 @@
 					<title><![CDATA[toys-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-6/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-6.jpg</guid>
 															<wp:post_id>17095</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:18]]></wp:post_date>
@@ -396,7 +396,7 @@
 					<title><![CDATA[toys-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-7/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-7.jpg</guid>
 															<wp:post_id>17096</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:19]]></wp:post_date>
@@ -419,7 +419,7 @@
 					<title><![CDATA[toys-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-8/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-8.jpg</guid>
 															<wp:post_id>17097</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:19]]></wp:post_date>
@@ -442,7 +442,7 @@
 					<title><![CDATA[toys-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-9/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-9.jpg</guid>
 															<wp:post_id>17098</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:20]]></wp:post_date>
@@ -465,7 +465,7 @@
 					<title><![CDATA[toys-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-10/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-10.jpg</guid>
 															<wp:post_id>17099</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:20]]></wp:post_date>
@@ -488,7 +488,7 @@
 					<title><![CDATA[toys-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-11/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:21 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-11.jpg</guid>
 															<wp:post_id>17100</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:21]]></wp:post_date>
@@ -511,7 +511,7 @@
 					<title><![CDATA[Home Toys]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/</link>
 					<pubDate>Mon, 17 Jun 2024 06:14:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=16097</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"5f275755-e279-4959-9280-681c59ef4351","effect":"parallax","arrowsStyle":"3","pagination":false,"paginationTablet":false,"paginationMobile":false,"autoplay":true,"autoplaySpeed":"25000","height":"580","arrowsCustomSettings":true,"arrowsHoverStyle":"1","marginTop":"-40","marginBottom":"30","heightTablet":"600","heightMobile":"560"} -->
 <div id="wd-5f275755" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-parallax"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="parallax" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"cc3fe584-09e5-4eb5-96bc-c4d2ea62e6fa","effect":"parallax","bgImage":{"id":16321,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-slider-bg-1.jpg"},"bgColorCode":"#8cc366","paddingRightMobile":"15","paddingLeftMobile":"15"} -->
@@ -531,7 +531,7 @@
 <!-- /wp:wd/column -->
 
 <!-- wp:wd/column {"blockId":"dc5163c5-9058-44e2-b928-eb6c0b359f85","adjacentCount":2,"adjacentCountTablet":2,"colWidthTablet":40} -->
-<div id="wd-dc5163c5" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"46fd372d-c4ba-41fc-b58e-7b02f9abaa2d","image":{"id":16328,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-1.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-1.png","width":626,"height":630},"marginRight":"-15","marginBottom":"-80","marginLeft":"-15","animation":"slide-from-right","animationDelay":"200","animationDuration":"600","parallaxScroll":true,"parallaxScrollY":30,"parallaxScrollZ":-30,"marginRightTablet":"-40","marginRightMobile":"0","marginBottomMobile":"0","marginLeftTablet":"-40","marginLeftMobile":"0"} -->
+<div id="wd-dc5163c5" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"46fd372d-c4ba-41fc-b58e-7b02f9abaa2d","image":{"id":16328,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-1.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-1.png","width":626,"height":630},"marginRight":"-15","marginBottom":"-80","marginLeft":"-15","animation":"slide-from-right","animationDelay":"200","animationDuration":"600","parallaxScroll":true,"parallaxScrollY":30,"parallaxScrollZ":-30,"marginRightTablet":"-40","marginRightMobile":"0","marginBottomMobile":"0","marginLeftTablet":"-40","marginLeftMobile":"0","className":"wd_scroll_x_undefined"} -->
 <div id="wd-46fd372d" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_200 wd-parallax-on-scroll wd_scroll_x_0 wd_scroll_y_30 wd_scroll_z_-30 wd_scroll_smoothness_30 wd_scroll_x_undefined"><img class="wp-image-16328" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-1.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
@@ -587,7 +587,7 @@
 <!-- /wp:wd/slider-item --></div></div><div class="wd-nav-arrows wd-slider-arrows wd-custom-style wd-pos-sep wd-style-3 color-scheme-dark wd-hover-1"><div class="wd-btn-arrow wd-prev"><div class="wd-arrow-inner"></div></div><div class="wd-btn-arrow wd-next"><div class="wd-arrow-inner"></div></div></div></div></div>
 <!-- /wp:wd/slider -->
 
-<!-- wp:wd/carousel {"blockId":"3c4c13c8-ab70-4b0a-945b-b38f3c075d87","currentSlide":1,"spacing":"30","paginationControl":false,"syncParentId":"wd_3c4c13c8","marginBottom":"80","slidesPerViewTablet":"2","slidesPerViewMobile":"1","marginBottomTablet":"70"} -->
+<!-- wp:wd/carousel {"blockId":"3c4c13c8-ab70-4b0a-945b-b38f3c075d87","spacing":"30","syncParentId":"wd_3c4c13c8","marginBottom":"80","slidesPerViewTablet":"2","slidesPerViewMobile":"1","marginBottomTablet":"70"} -->
 <div id="wd-3c4c13c8" class="wp-block-wd-carousel wd-carousel-container"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:3;--wd-col-md:2;--wd-col-sm:1;--wd-gap-lg:30px;--wd-gap-sm:10px" data-scroll_per_page="yes"><div class="wd-carousel-wrap"><!-- wp:wd/carousel-item {"blockId":"9587d6fc-1033-4927-9f02-57554bde4145"} -->
 <div id="wd-9587d6fc" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/cover {"blockId":"754bef97-1c67-49c7-8fe8-6d0270034051","hover":"zoom-in","contentAlignVertical":"center","colorScheme":"light","size":"aspectRatio","aspectRatio":"asImage","imageAspectRatio":"384/220","bgImage":{"id":16334,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-banner-img-1.jpg"},"aspectRatioTablet":"asImage"} -->
 <div id="wd-754bef97" class="wp-block-wd-cover wd-hover-parent wd-hover-zoom-in color-scheme-light"><div class="wd-block-cover-img"></div><a class="wd-block-cover-link wd-fill" href="#" aria-label="Cover link"></a><!-- wp:wd/container {"blockId":"9573bbf0-16c9-4487-94a2-8e9645078065","metadata":{"name":"Banner content"}} -->
@@ -640,7 +640,7 @@
 <!-- /wp:wd/button --></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/cover --></div>
-<!-- /wp:wd/carousel-item --></div></div><div class="wd-nav-arrows wd-pos-sep wd-hover-1 wd-icon-1"><div class="wd-btn-arrow wd-prev"><div class="wd-arrow-inner"></div></div><div class="wd-btn-arrow wd-next"><div class="wd-arrow-inner"></div></div></div></div><div class="wd-nav-pagin-wrap text-center wd-style-shape wd-hide-lg"><ul class="wd-nav-pagin"></ul></div></div>
+<!-- /wp:wd/carousel-item --></div></div><div class="wd-nav-arrows wd-pos-sep wd-hover-1 wd-icon-1"><div class="wd-btn-arrow wd-prev"><div class="wd-arrow-inner"></div></div><div class="wd-btn-arrow wd-next"><div class="wd-arrow-inner"></div></div></div></div><div class="wd-nav-pagin-wrap text-center wd-style-shape"><ul class="wd-nav-pagin"></ul></div></div>
 <!-- /wp:wd/carousel -->
 
 <!-- wp:wd/row {"blockId":"d6b14384-0e7e-4ba1-ad31-159ef82aa369","marginBottom":"60"} -->
@@ -731,7 +731,7 @@
 <h2 id="wd-59683b4f" class="wp-block-wd-title title">Kids' Toys by Age​</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/product-categories {"blockId":"a0ea3caf-6219-4843-a92e-61ada5a356d4","number":"5","image_container_width":"126","custom_rounding_size":"50","style":"carousel","columns":5,"spacing":"30","img_size":"thumbnail","displayWidth":"","customWidth":"","slides_per_view":"5","disable_overflow_carousel":false,"hide_pagination_control":true,"sync_parent_id":"wd_f71fe65b","titleTextTransform":"capitalize","custom_rounding_sizeUnits":"%"} /--></div>
+<!-- wp:wd/product-categories {"blockId":"a0ea3caf-6219-4843-a92e-61ada5a356d4","number":"5","image_container_width":"126","custom_rounding_size":"50","style":"carousel","columns":5,"spacing":"30","img_size":"thumbnail","displayWidth":"","customWidth":"","slides_per_view":"5","disable_overflow_carousel":false,"sync_parent_id":"wd_2cdf210f","titleTextTransform":"capitalize","custom_rounding_sizeUnits":"%"} /--></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/section -->
 
@@ -749,8 +749,8 @@
 
 <!-- wp:wd/products-tabs {"blockId":"ac2e1050-5623-454b-b9c9-88649db37b47","marginBottom":"70"} -->
 <div id="wd-ac2e1050" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-default wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"52decc34-9a64-487d-a8b5-b7a750aa4ce6","hasTitle":false,"titleStyle":"underline","alignment":"center"} -->
-<div id="wd-52decc34" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"5a0c374b-8485-487a-b2a3-297818cc26da","title":"plush toys","items_per_page":"8"} -->
-<li id="wd-5a0c374b" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;items_per_page&quot;:&quot;8&quot;,&quot;el_id&quot;:&quot;wd-5a0c374b&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">plush toys</span></a></li>
+<div id="wd-52decc34" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"c0782c7c-be75-4eb4-bafd-070e6269d26b","title":"plush toys","items_per_page":"8"} -->
+<li id="wd-c0782c7c" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;items_per_page&quot;:&quot;8&quot;,&quot;el_id&quot;:&quot;wd-c0782c7c&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">plush toys</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"1934ada9-6bb0-4b2b-b340-cdb63ca8a6a2","title":"action figures","order":"DESC","items_per_page":"8"} -->
@@ -762,7 +762,7 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"0e613f09-6f42-47e2-b37c-8eb231cc3110","title":"plush toys","items_per_page":"8"} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"c0782c7c-be75-4eb4-bafd-070e6269d26b","title":"plush toys","items_per_page":"8"} /--></div>
 <!-- /wp:wd/products-tabs -->
 
 <!-- wp:wd/section {"blockId":"b543eaa1-2ddb-4961-bbb6-ce21ee968ac0","bgImage":{"id":16376,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-special-offer-bg.jpg"},"bgPosition":"center right","bgRepeat":"no-repeat","bgDisplaySize":"contain","paddingBottom":"40","marginBottom":"0","bgDisplaySizeMobile":"custom","bgCustomDisplaySizeMobile":"0","paddingBottomTablet":"60"} -->
@@ -812,7 +812,7 @@
 <h2 id="wd-f3a04e78" class="wp-block-wd-title title wd-align">Customer Reviews​</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/carousel {"blockId":"d1fc80ca-6beb-48b4-a664-5d71dbe3cc75","currentSlide":2,"slidesPerView":"1","spacing":"30","disableOverflowCarousel":false,"dynamicPaginationControl":false,"syncParentId":"wd_d1fc80ca","alignSelf":"center","displayWidth":"custom","customWidth":"680","displayWidthMobile":"full-width"} -->
+<!-- wp:wd/carousel {"blockId":"d1fc80ca-6beb-48b4-a664-5d71dbe3cc75","slidesPerView":"1","spacing":"30","disableOverflowCarousel":false,"dynamicPaginationControl":false,"syncParentId":"wd_d1fc80ca","alignSelf":"center","displayWidth":"custom","customWidth":"680","displayWidthMobile":"full-width"} -->
 <div id="wd-d1fc80ca" class="wp-block-wd-carousel wd-carousel-container wd-custom-width wd-align-s-center"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1;--wd-gap-lg:30px;--wd-gap-sm:10px" data-scroll_per_page="yes"><div class="wd-carousel-wrap"><!-- wp:wd/carousel-item {"blockId":"144bbb40-acef-4b0c-8336-17be12612aeb"} -->
 <div id="wd-144bbb40" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"475918d2-440f-40f7-a6ab-fb0900675ac8","design":"2","alignment":"center"} -->
 <div id="wd-475918d2" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"0374b7ce-374f-41a7-a019-8fd5fb06eca9","extraClass":"wd-testimonial-heading","displayWidth":"custom"} -->
@@ -1063,8 +1063,8 @@
 															<wp:post_id>16097</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 06:14:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-06-17 06:14:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-11-04 07:45:28]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-11-04 07:45:28]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-21 12:13:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-21 12:13:43]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-toys]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1100,7 +1100,7 @@
 					<title><![CDATA[toys-slider-bg-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-slider-bg-1/</link>
 					<pubDate>Mon, 17 Jun 2024 07:10:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-slider-bg-1.jpg</guid>
 															<wp:post_id>16321</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:10:07]]></wp:post_date>
@@ -1123,7 +1123,7 @@
 					<title><![CDATA[toys-slider-bg-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-slider-bg-2/</link>
 					<pubDate>Mon, 17 Jun 2024 07:10:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-slider-bg-2.jpg</guid>
 															<wp:post_id>16322</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:10:07]]></wp:post_date>
@@ -1146,7 +1146,7 @@
 					<title><![CDATA[toys-slider-bg-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-slider-bg-3/</link>
 					<pubDate>Mon, 17 Jun 2024 07:10:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-slider-bg-3.jpg</guid>
 															<wp:post_id>16323</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:10:07]]></wp:post_date>
@@ -1169,7 +1169,7 @@
 					<title><![CDATA[v-toy-sl-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/v-toy-sl-1/</link>
 					<pubDate>Mon, 17 Jun 2024 07:13:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-1.png</guid>
 															<wp:post_id>16328</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:13:33]]></wp:post_date>
@@ -1192,7 +1192,7 @@
 					<title><![CDATA[v-toy-sl-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/v-toy-sl-2/</link>
 					<pubDate>Mon, 17 Jun 2024 07:13:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-2.png</guid>
 															<wp:post_id>16329</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:13:33]]></wp:post_date>
@@ -1215,7 +1215,7 @@
 					<title><![CDATA[v-toy-sl-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/v-toy-sl-3/</link>
 					<pubDate>Mon, 17 Jun 2024 07:13:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/v-toy-sl-3.png</guid>
 															<wp:post_id>16330</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:13:34]]></wp:post_date>
@@ -1238,7 +1238,7 @@
 					<title><![CDATA[toys-banner-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-banner-img-1/</link>
 					<pubDate>Mon, 17 Jun 2024 07:18:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-banner-img-1.jpg</guid>
 															<wp:post_id>16334</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:18:16]]></wp:post_date>
@@ -1261,7 +1261,7 @@
 					<title><![CDATA[toys-banner-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-banner-img-2/</link>
 					<pubDate>Mon, 17 Jun 2024 07:18:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-banner-img-2.jpg</guid>
 															<wp:post_id>16335</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:18:16]]></wp:post_date>
@@ -1284,7 +1284,7 @@
 					<title><![CDATA[toys-banner-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-banner-img-3/</link>
 					<pubDate>Mon, 17 Jun 2024 07:18:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-banner-img-3.jpg</guid>
 															<wp:post_id>16336</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:18:17]]></wp:post_date>
@@ -1307,7 +1307,7 @@
 					<title><![CDATA[toys-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-1/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-1.jpg</guid>
 															<wp:post_id>17076</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:26]]></wp:post_date>
@@ -1330,7 +1330,7 @@
 					<title><![CDATA[toys-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-3/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-3.jpg</guid>
 															<wp:post_id>17077</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:27]]></wp:post_date>
@@ -1353,7 +1353,7 @@
 					<title><![CDATA[toys-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-4/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-4.jpg</guid>
 															<wp:post_id>17078</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:27]]></wp:post_date>
@@ -1376,7 +1376,7 @@
 					<title><![CDATA[toys-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-5/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-5.jpg</guid>
 															<wp:post_id>17079</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:28]]></wp:post_date>
@@ -1399,7 +1399,7 @@
 					<title><![CDATA[toys-blog-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-6/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-6.jpg</guid>
 															<wp:post_id>17080</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:28]]></wp:post_date>
@@ -1422,7 +1422,7 @@
 					<title><![CDATA[toys-blog-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-7/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:29 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-7.jpg</guid>
 															<wp:post_id>17081</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:29]]></wp:post_date>
@@ -1445,7 +1445,7 @@
 					<title><![CDATA[toys-blog-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-8/</link>
 					<pubDate>Tue, 18 Jun 2024 11:28:29 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-8.jpg</guid>
 															<wp:post_id>17082</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:28:29]]></wp:post_date>
@@ -1468,7 +1468,7 @@
 					<title><![CDATA[toys-blog-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-blog-9/</link>
 					<pubDate>Tue, 18 Jun 2024 11:31:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-blog-9.jpg</guid>
 															<wp:post_id>17089</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:31:20]]></wp:post_date>
@@ -1491,7 +1491,7 @@
 					<title><![CDATA[toys-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/toys-product-12/</link>
 					<pubDate>Tue, 18 Jun 2024 11:32:21 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-12.jpg</guid>
 															<wp:post_id>17101</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:32:21]]></wp:post_date>
@@ -1537,7 +1537,7 @@
 					<title><![CDATA[Footer 1 column Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-1-column-light</link>
 					<pubDate>Fri, 24 May 2024 13:40:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=12962</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"44ed7d08-e070-4837-b8c5-83401769c4d1","paddingTop":"40","paddingBottom":"40"} -->
 <div id="wd-44ed7d08" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"d5a06582-d2b6-4d73-83f9-ccc08f331d22","adjacentCount":5,"colWidth":25,"adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100} -->
@@ -1747,7 +1747,7 @@
 					<title><![CDATA[toys-pattern-opacity]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-pattern-opacity/</link>
 					<pubDate>Mon, 17 Jun 2024 07:39:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-pattern-opacity.png</guid>
 															<wp:post_id>16354</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:39:33]]></wp:post_date>
@@ -1770,7 +1770,7 @@
 					<title><![CDATA[toys-pattern]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-pattern/</link>
 					<pubDate>Mon, 17 Jun 2024 07:39:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-pattern.png</guid>
 															<wp:post_id>16355</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:39:34]]></wp:post_date>
@@ -1793,7 +1793,7 @@
 					<title><![CDATA[toys-video-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-video-img/</link>
 					<pubDate>Mon, 17 Jun 2024 07:44:02 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-video-img.jpg</guid>
 															<wp:post_id>16358</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:44:02]]></wp:post_date>
@@ -1816,7 +1816,7 @@
 					<title><![CDATA[toys-product-left]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-product-left/</link>
 					<pubDate>Mon, 17 Jun 2024 07:52:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-product-left.png</guid>
 															<wp:post_id>16368</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:52:09]]></wp:post_date>
@@ -1839,7 +1839,7 @@
 					<title><![CDATA[toys-shape-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-shape-1/</link>
 					<pubDate>Mon, 17 Jun 2024 07:52:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-shape-1.svg</guid>
 															<wp:post_id>16371</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:52:55]]></wp:post_date>
@@ -1862,7 +1862,7 @@
 					<title><![CDATA[toys-shape-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-shape-2/</link>
 					<pubDate>Mon, 17 Jun 2024 07:52:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-shape-2.svg</guid>
 															<wp:post_id>16372</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:52:55]]></wp:post_date>
@@ -1885,7 +1885,7 @@
 					<title><![CDATA[toys-shape-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-shape-3/</link>
 					<pubDate>Mon, 17 Jun 2024 07:52:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-shape-3.svg</guid>
 															<wp:post_id>16373</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:52:55]]></wp:post_date>
@@ -1908,7 +1908,7 @@
 					<title><![CDATA[toys-special-offer-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-special-offer-bg/</link>
 					<pubDate>Mon, 17 Jun 2024 07:56:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-special-offer-bg.jpg</guid>
 															<wp:post_id>16376</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:56:11]]></wp:post_date>
@@ -1931,7 +1931,7 @@
 					<title><![CDATA[toys-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-testimonials-1/</link>
 					<pubDate>Mon, 17 Jun 2024 07:58:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-testimonials-1.jpg</guid>
 															<wp:post_id>16379</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:58:05]]></wp:post_date>
@@ -1954,7 +1954,7 @@
 					<title><![CDATA[toys-testimonials-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-testimonials-3/</link>
 					<pubDate>Mon, 17 Jun 2024 07:58:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-testimonials-3.jpg</guid>
 															<wp:post_id>16380</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 07:58:33]]></wp:post_date>
@@ -1977,7 +1977,7 @@
 					<title><![CDATA[toys-category-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-category-1/</link>
 					<pubDate>Mon, 17 Jun 2024 08:25:24 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-category-1.jpg</guid>
 															<wp:post_id>16387</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 08:25:24]]></wp:post_date>
@@ -2000,7 +2000,7 @@
 					<title><![CDATA[toys-category-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-category-2/</link>
 					<pubDate>Mon, 17 Jun 2024 08:25:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-category-2.jpg</guid>
 															<wp:post_id>16388</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 08:25:25]]></wp:post_date>
@@ -2023,7 +2023,7 @@
 					<title><![CDATA[toys-category-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-category-3/</link>
 					<pubDate>Mon, 17 Jun 2024 08:25:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-category-3.jpg</guid>
 															<wp:post_id>16389</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 08:25:25]]></wp:post_date>
@@ -2046,7 +2046,7 @@
 					<title><![CDATA[toys-category-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-category-4/</link>
 					<pubDate>Mon, 17 Jun 2024 08:25:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-category-4.jpg</guid>
 															<wp:post_id>16390</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 08:25:25]]></wp:post_date>
@@ -2069,7 +2069,7 @@
 					<title><![CDATA[toys-category-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-category-5/</link>
 					<pubDate>Mon, 17 Jun 2024 08:25:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-category-5.jpg</guid>
 															<wp:post_id>16391</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 08:25:26]]></wp:post_date>
@@ -2092,7 +2092,7 @@
 					<title><![CDATA[toys-category-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-toys/toys-category-6/</link>
 					<pubDate>Mon, 17 Jun 2024 08:25:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/toys-category-6.jpg</guid>
 															<wp:post_id>16392</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 08:25:26]]></wp:post_date>
@@ -2115,7 +2115,7 @@
 					<title><![CDATA[wd-cursor-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34179</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-cursor-light.svg</guid>
 															<wp:post_id>34179</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:47]]></wp:post_date>
@@ -2138,7 +2138,7 @@
 					<title><![CDATA[wd-envelope-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34180</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-envelope-light.svg</guid>
 															<wp:post_id>34180</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:47]]></wp:post_date>
@@ -2161,7 +2161,7 @@
 					<title><![CDATA[wd-phone-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34181</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-phone-light.svg</guid>
 															<wp:post_id>34181</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:48]]></wp:post_date>

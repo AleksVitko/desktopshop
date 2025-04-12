@@ -109,9 +109,9 @@ class Vc_Page {
 	 * Render the page using the specified template.
 	 */
 	public function render() {
-		vc_include_template( $this->getTemplatePath(), array(
+		vc_include_template( $this->getTemplatePath(), [
 			'page' => $this,
-		) );
+		] );
 	}
 
 	/**

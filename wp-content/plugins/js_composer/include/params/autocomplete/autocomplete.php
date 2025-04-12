@@ -67,10 +67,10 @@ class Vc_AutoComplete {
 		if ( isset( $this->value ) && strlen( $this->value ) > 0 ) {
 			$values = explode( ',', $this->value );
 			foreach ( $values as $key => $val ) {
-				$value = array(
+				$value = [
 					'value' => trim( $val ),
 					'label' => trim( $val ),
-				);
+				];
 				if ( isset( $this->settings['settings'], $this->settings['settings']['values'] ) && ! empty( $this->settings['settings']['values'] ) ) {
 					foreach ( $this->settings['settings']['values'] as $data ) {
 						if ( trim( $data['value'] ) === trim( $val ) ) {
@@ -127,7 +127,7 @@ function vc_render_suggestion( $query, $tag, $param_name ) {
 	if ( is_array( $suggestions ) && ! empty( $suggestions ) ) {
 		die( wp_json_encode( $suggestions ) );
 	}
-	die( wp_json_encode( array() ) ); // if nothing found..
+	die( wp_json_encode( [] ) ); // if nothing found..
 }
 
 /**

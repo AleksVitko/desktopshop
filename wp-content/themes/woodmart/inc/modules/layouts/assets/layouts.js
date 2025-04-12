@@ -126,7 +126,7 @@
 			$querySelect.select2('destroy');
 		}
 
-		if ('all' === conditionType || 'shop_page' === conditionType || 'product_search' === conditionType || 'product_cats' === conditionType || 'product_tags' === conditionType || 'checkout_form' === conditionType || 'checkout_content' === conditionType || 'cart' === conditionType || 'empty_cart' === conditionType || 'filtered_product_term_any' === conditionType) {
+		if ('all' === conditionType || 'shop_page' === conditionType || 'product_search' === conditionType || 'product_cats' === conditionType || 'product_tags' === conditionType  || 'product_brands' === conditionType || 'checkout_form' === conditionType || 'checkout_content' === conditionType || 'cart' === conditionType || 'empty_cart' === conditionType || 'filtered_product_term_any' === conditionType) {
 			$querySelect.addClass('xts-hidden');
 			$querySelect.removeAttr('data-query-type');
 		} else {

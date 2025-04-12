@@ -35,8 +35,8 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[Newsletter form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/mc4wp-form/74/</link>
 					<pubDate>Mon, 26 Aug 2024 15:00:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart/blog/mc4wp-form/74/</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-gap: 10px">
 <div class="wd-col"><input type="email" name="EMAIL" placeholder="Your email address" required /></div>
@@ -129,7 +129,7 @@
 					<title><![CDATA[Maintenance 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/maintenance-2/</link>
 					<pubDate>Tue, 06 Aug 2024 12:07:44 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=27989</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"938eabf4-9998-4f5c-a2d9-c6496c33521d","bgImage":{"id":28001,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/maintenance-2-bg.jpg"},"bgPosition":"center center","bgDisplaySize":"cover","bgPositionTablet":"bottom left"} -->
 <div id="wd-938eabf4" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"366a8bb6-1755-4a3e-9e2d-9cb1ee2ca77c","columnsGap":null,"paddingTop":"40","paddingBottom":"40","displayWidth":"custom","customWidth":"1600","minHeight":"100","minHeightUnits":"vh"} -->
@@ -196,7 +196,7 @@
 					<title><![CDATA[maintenance-2-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/maintenance-2/maintenance-2-bg/</link>
 					<pubDate>Tue, 06 Aug 2024 12:16:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/maintenance-2-bg.jpg</guid>
 															<wp:post_id>28001</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 12:16:19]]></wp:post_date>

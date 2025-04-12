@@ -17,6 +17,14 @@
 				return;
 			}
 
+			if ($form.parents('.wd-sticky-btn-cart').length > 0) {
+				var $stickyBtnWrap = $form.parents('.wd-sticky-btn-cart');
+
+				if ($stickyBtnWrap.hasClass('wd-product-type-external')) {
+					return;
+				}
+			}
+
 			e.preventDefault();
 
 			var $thisbutton = $form.find('.single_add_to_cart_button'),

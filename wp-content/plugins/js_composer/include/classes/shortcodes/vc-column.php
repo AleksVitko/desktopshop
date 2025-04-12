@@ -36,8 +36,8 @@ class WPBakeryShortCode_VC_Column extends WPBakeryShortCode {
 	 * Register shortcode scripts.
 	 */
 	protected function shortcodeScripts() {
-		wp_register_script( 'vc_jquery_skrollr_js', vc_asset_url( 'lib/vendor/node_modules/skrollr/dist/skrollr.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_youtube_iframe_api_js', 'https://www.youtube.com/iframe_api', array(), WPB_VC_VERSION, true );
+		wp_register_script( 'vc_jquery_skrollr_js', vc_asset_url( 'lib/vendor/node_modules/skrollr/dist/skrollr.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_youtube_iframe_api_js', 'https://www.youtube.com/iframe_api', [], WPB_VC_VERSION, true );
 	}
 
 	/**
@@ -120,7 +120,7 @@ class WPBakeryShortCode_VC_Column extends WPBakeryShortCode {
 	public function singleParamHtmlHolder( $param, $value ) {
 		$output = '';
 		// Compatibility fixes.
-		$old_names = array(
+		$old_names = [
 			'yellow_message',
 			'blue_message',
 			'green_message',
@@ -130,8 +130,8 @@ class WPBakeryShortCode_VC_Column extends WPBakeryShortCode {
 			'button_blue',
 			'button_red',
 			'button_orange',
-		);
-		$new_names = array(
+		];
+		$new_names = [
 			'alert-block',
 			'alert-info',
 			'alert-success',
@@ -141,7 +141,7 @@ class WPBakeryShortCode_VC_Column extends WPBakeryShortCode {
 			'btn-primary',
 			'btn-danger',
 			'btn-warning',
-		);
+		];
 		$value = str_ireplace( $old_names, $new_names, $value );
 		$param_name = isset( $param['param_name'] ) ? $param['param_name'] : '';
 		$type = isset( $param['type'] ) ? $param['type'] : '';
@@ -175,44 +175,44 @@ class WPBakeryShortCode_VC_Column extends WPBakeryShortCode {
 		$column_controls_bottom = $this->getColumnControls( 'add', 'bottom-controls' );
 
 		if ( 'column_14' === $width || '1/4' === $width ) {
-			$width = array( 'vc_col-sm-3' );
+			$width = [ 'vc_col-sm-3' ];
 		} elseif ( 'column_14-14-14-14' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-3',
 				'vc_col-sm-3',
 				'vc_col-sm-3',
 				'vc_col-sm-3',
-			);
+			];
 		} elseif ( 'column_13' === $width || '1/3' === $width ) {
-			$width = array( 'vc_col-sm-4' );
+			$width = [ 'vc_col-sm-4' ];
 		} elseif ( 'column_13-23' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-4',
 				'vc_col-sm-8',
-			);
+			];
 		} elseif ( 'column_13-13-13' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-4',
 				'vc_col-sm-4',
 				'vc_col-sm-4',
-			);
+			];
 		} elseif ( 'column_12' === $width || '1/2' === $width ) {
-			$width = array( 'vc_col-sm-6' );
+			$width = [ 'vc_col-sm-6' ];
 		} elseif ( 'column_12-12' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-6',
 				'vc_col-sm-6',
-			);
+			];
 		} elseif ( 'column_23' === $width || '2/3' === $width ) {
-			$width = array( 'vc_col-sm-8' );
+			$width = [ 'vc_col-sm-8' ];
 		} elseif ( 'column_34' === $width || '3/4' === $width ) {
-			$width = array( 'vc_col-sm-9' );
+			$width = [ 'vc_col-sm-9' ];
 		} elseif ( 'column_16' === $width || '1/6' === $width ) {
-			$width = array( 'vc_col-sm-2' );
+			$width = [ 'vc_col-sm-2' ];
 		} elseif ( ' column_56' === $width || ' 5/6' === $width ) {
-			$width = array( 'vc_col-sm-10' );
+			$width = [ 'vc_col-sm-10' ];
 		} else {
-			$width = array( '' );
+			$width = [ '' ];
 		}
 		$count = count( $width );
 		for ( $i = 0; $i < $count; $i++ ) {

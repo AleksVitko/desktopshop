@@ -155,11 +155,11 @@ class Vc_Post_Seo {
 		foreach ( $categories as $key => $name ) {
 			$filter = '.js-category-' . md5( $name );
 
-			$tabs[] = array(
+			$tabs[] = [
 				'name' => $name,
 				'filter' => $filter,
 				'active' => 0 === $key,
-			);
+			];
 		}
 
 		return $tabs;

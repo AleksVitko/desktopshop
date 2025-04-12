@@ -28,13 +28,13 @@ $atts['filter'] = true; // Hack to make sure that <p> added.
 extract( $atts );
 
 $el_class = $this->getExtraClass( $el_class );
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }
 $output = '<div ' . implode( ' ', $wrapper_attributes ) . ' class="vc_wp_text wpb_content_element' . esc_attr( $el_class ) . '">';
 $type = 'WP_Widget_Text';
-$args = array();
+$args = [];
 $content = apply_filters( 'vc_wp_text_widget_shortcode', $content );
 if ( strlen( $content ) > 0 ) {
 	$atts['text'] = $content;

@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-18 13:33" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:06" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,15 +29,13 @@
 	<title>Megamarket gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Mon, 18 Nov 2024 13:33:34 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:06:47 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -45,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[woodmart-building-supplies-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/woodmart-building-supplies-logo/</link>
 					<pubDate>Tue, 09 Jul 2024 13:55:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/woodmart-building-supplies-logo.svg</guid>
 															<wp:post_id>357</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 13:55:01]]></wp:post_date>
@@ -74,7 +72,7 @@
 					<title><![CDATA[collection]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/collection/</link>
 					<pubDate>Tue, 09 Jul 2024 14:00:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/collection.svg</guid>
 															<wp:post_id>383</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:00:53]]></wp:post_date>
@@ -97,7 +95,7 @@
 					<title><![CDATA[size]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/size/</link>
 					<pubDate>Tue, 09 Jul 2024 14:00:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/size.svg</guid>
 															<wp:post_id>384</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:00:57]]></wp:post_date>
@@ -120,7 +118,7 @@
 					<title><![CDATA[map-point]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=420</link>
 					<pubDate>Tue, 09 Jul 2024 14:22:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/map-point.svg</guid>
 															<wp:post_id>420</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:22:00]]></wp:post_date>
@@ -143,7 +141,7 @@
 					<title><![CDATA[megamarket-promotion-image-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/lighting-discount-2/megamarket-promotion-image-1/</link>
 					<pubDate>Thu, 11 Jul 2024 07:25:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/megamarket-promotion-image-1.jpg</guid>
 															<wp:post_id>622</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:25:10]]></wp:post_date>
@@ -166,7 +164,7 @@
 					<title><![CDATA[product-sink-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=801</link>
 					<pubDate>Thu, 11 Jul 2024 11:24:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/product-sink-img-1.jpg</guid>
 															<wp:post_id>801</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 11:24:25]]></wp:post_date>
@@ -189,7 +187,7 @@
 					<title><![CDATA[product-sink-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=802</link>
 					<pubDate>Thu, 11 Jul 2024 11:24:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/product-sink-img-2.jpg</guid>
 															<wp:post_id>802</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 11:24:26]]></wp:post_date>
@@ -212,7 +210,7 @@
 					<title><![CDATA[product-sink-information]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=803</link>
 					<pubDate>Thu, 11 Jul 2024 11:26:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/product-sink-information.jpg</guid>
 															<wp:post_id>803</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 11:26:55]]></wp:post_date>
@@ -235,7 +233,7 @@
 					<title><![CDATA[materials]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=806</link>
 					<pubDate>Thu, 11 Jul 2024 11:29:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/materials.svg</guid>
 															<wp:post_id>806</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 11:29:22]]></wp:post_date>
@@ -258,7 +256,7 @@
 					<title><![CDATA[product-sink-banner]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=808</link>
 					<pubDate>Thu, 11 Jul 2024 11:31:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/product-sink-banner.jpg</guid>
 															<wp:post_id>808</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 11:31:30]]></wp:post_date>
@@ -281,7 +279,7 @@
 					<title><![CDATA[flooring-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1215</link>
 					<pubDate>Mon, 07 Oct 2024 09:06:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/flooring-product-10.jpg</guid>
 															<wp:post_id>1215</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:06:54]]></wp:post_date>
@@ -304,7 +302,7 @@
 					<title><![CDATA[lighting-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1217</link>
 					<pubDate>Mon, 07 Oct 2024 09:09:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/lighting-product-6.jpg</guid>
 															<wp:post_id>1217</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:09:48]]></wp:post_date>
@@ -327,7 +325,7 @@
 					<title><![CDATA[tools-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1222</link>
 					<pubDate>Mon, 07 Oct 2024 09:11:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/tools-product-12.jpg</guid>
 															<wp:post_id>1222</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:11:32]]></wp:post_date>
@@ -350,7 +348,7 @@
 					<title><![CDATA[tools-product-18]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1225</link>
 					<pubDate>Mon, 07 Oct 2024 09:12:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/tools-product-18.jpg</guid>
 															<wp:post_id>1225</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:12:15]]></wp:post_date>
@@ -373,7 +371,7 @@
 					<title><![CDATA[hot-spot-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1231</link>
 					<pubDate>Mon, 07 Oct 2024 09:14:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/hot-spot-product-3.jpg</guid>
 															<wp:post_id>1231</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:14:11]]></wp:post_date>
@@ -396,7 +394,7 @@
 					<title><![CDATA[bathroom-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/bathroom-product-3/</link>
 					<pubDate>Mon, 07 Oct 2024 09:55:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/bathroom-product-3.jpg</guid>
 															<wp:post_id>1241</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:55:09]]></wp:post_date>
@@ -419,7 +417,7 @@
 					<title><![CDATA[flooring-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1246</link>
 					<pubDate>Mon, 07 Oct 2024 09:56:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/flooring-product-6.jpg</guid>
 															<wp:post_id>1246</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:56:20]]></wp:post_date>
@@ -442,7 +440,7 @@
 					<title><![CDATA[bathroom-product-20]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1247</link>
 					<pubDate>Mon, 07 Oct 2024 09:58:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/bathroom-product-20.jpg</guid>
 															<wp:post_id>1247</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:58:00]]></wp:post_date>
@@ -465,7 +463,7 @@
 					<title><![CDATA[flooring-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1248</link>
 					<pubDate>Mon, 07 Oct 2024 09:58:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/flooring-product-7.jpg</guid>
 															<wp:post_id>1248</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:58:41]]></wp:post_date>
@@ -488,7 +486,7 @@
 					<title><![CDATA[bathroom-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1249</link>
 					<pubDate>Mon, 07 Oct 2024 09:59:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/bathroom-product-2.jpg</guid>
 															<wp:post_id>1249</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:59:25]]></wp:post_date>
@@ -511,7 +509,7 @@
 					<title><![CDATA[banner-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/banner-5/</link>
 					<pubDate>Thu, 11 Jul 2024 07:45:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-5.jpg</guid>
 															<wp:post_id>655</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:45:15]]></wp:post_date>
@@ -534,7 +532,7 @@
 					<title><![CDATA[min-dd-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=821</link>
 					<pubDate>Thu, 11 Jul 2024 12:25:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/min-dd-banner-1.jpg</guid>
 															<wp:post_id>821</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:25:35]]></wp:post_date>
@@ -557,7 +555,7 @@
 					<title><![CDATA[min-dd-banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=822</link>
 					<pubDate>Thu, 11 Jul 2024 12:26:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/min-dd-banner-2.jpg</guid>
 															<wp:post_id>822</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:26:00]]></wp:post_date>
@@ -580,7 +578,7 @@
 					<title><![CDATA[banner-8-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=825</link>
 					<pubDate>Thu, 11 Jul 2024 12:33:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-8-1.jpg</guid>
 															<wp:post_id>825</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:33:14]]></wp:post_date>
@@ -603,7 +601,7 @@
 					<title><![CDATA[min-dd-banner-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=827</link>
 					<pubDate>Thu, 11 Jul 2024 12:36:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/min-dd-banner-4.jpg</guid>
 															<wp:post_id>827</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:36:57]]></wp:post_date>
@@ -626,7 +624,7 @@
 					<title><![CDATA[min-dd-banner-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=828</link>
 					<pubDate>Thu, 11 Jul 2024 12:37:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/min-dd-banner-5.jpg</guid>
 															<wp:post_id>828</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:37:28]]></wp:post_date>
@@ -649,7 +647,7 @@
 					<title><![CDATA[min-dd-banner-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=829</link>
 					<pubDate>Thu, 11 Jul 2024 12:37:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/min-dd-banner-6.jpg</guid>
 															<wp:post_id>829</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:37:41]]></wp:post_date>
@@ -672,7 +670,7 @@
 					<title><![CDATA[accessories-product-18]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1219</link>
 					<pubDate>Mon, 07 Oct 2024 09:10:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/accessories-product-18.jpg</guid>
 															<wp:post_id>1219</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:10:28]]></wp:post_date>
@@ -695,7 +693,7 @@
 					<title><![CDATA[hot-spot-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1221</link>
 					<pubDate>Mon, 07 Oct 2024 09:11:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/hot-spot-product-1.jpg</guid>
 															<wp:post_id>1221</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:11:00]]></wp:post_date>
@@ -718,7 +716,7 @@
 					<title><![CDATA[tools-product-16]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1224</link>
 					<pubDate>Mon, 07 Oct 2024 09:11:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/tools-product-16.jpg</guid>
 															<wp:post_id>1224</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:11:56]]></wp:post_date>
@@ -741,7 +739,7 @@
 					<title><![CDATA[tools-product-19]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1226</link>
 					<pubDate>Mon, 07 Oct 2024 09:12:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/tools-product-19.jpg</guid>
 															<wp:post_id>1226</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:12:49]]></wp:post_date>
@@ -764,7 +762,7 @@
 					<title><![CDATA[tools-product-14]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1227</link>
 					<pubDate>Mon, 07 Oct 2024 09:13:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/tools-product-14.jpg</guid>
 															<wp:post_id>1227</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:13:05]]></wp:post_date>
@@ -787,7 +785,7 @@
 					<title><![CDATA[thermal-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1228</link>
 					<pubDate>Mon, 07 Oct 2024 09:13:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/thermal-product-12.jpg</guid>
 															<wp:post_id>1228</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:13:24]]></wp:post_date>
@@ -810,7 +808,7 @@
 					<title><![CDATA[plumbing-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1229</link>
 					<pubDate>Mon, 07 Oct 2024 09:13:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/plumbing-product-11.jpg</guid>
 															<wp:post_id>1229</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:13:47]]></wp:post_date>
@@ -833,7 +831,7 @@
 					<title><![CDATA[hot-spot-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1233</link>
 					<pubDate>Mon, 07 Oct 2024 09:14:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/hot-spot-product-2.jpg</guid>
 															<wp:post_id>1233</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:14:36]]></wp:post_date>
@@ -856,7 +854,7 @@
 					<title><![CDATA[bathroom-product-14]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1235</link>
 					<pubDate>Mon, 07 Oct 2024 09:14:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/bathroom-product-14.jpg</guid>
 															<wp:post_id>1235</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:14:59]]></wp:post_date>
@@ -879,7 +877,7 @@
 					<title><![CDATA[flooring-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1237</link>
 					<pubDate>Mon, 07 Oct 2024 09:15:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/flooring-product-1.jpg</guid>
 															<wp:post_id>1237</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:15:17]]></wp:post_date>
@@ -902,7 +900,7 @@
 					<title><![CDATA[bathroom-product-16]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1239</link>
 					<pubDate>Mon, 07 Oct 2024 09:15:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/bathroom-product-16.jpg</guid>
 															<wp:post_id>1239</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:15:38]]></wp:post_date>
@@ -925,7 +923,7 @@
 					<title><![CDATA[bathroom-product-17]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/bathroom-product-17/</link>
 					<pubDate>Mon, 07 Oct 2024 09:55:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/bathroom-product-17.jpg</guid>
 															<wp:post_id>1242</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:55:35]]></wp:post_date>
@@ -948,7 +946,7 @@
 					<title><![CDATA[thermal-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1244</link>
 					<pubDate>Mon, 07 Oct 2024 09:56:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/thermal-product-6.jpg</guid>
 															<wp:post_id>1244</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-07 09:56:01]]></wp:post_date>
@@ -971,7 +969,7 @@
 					<title><![CDATA[delivery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/delivery/</link>
 					<pubDate>Tue, 09 Jul 2024 14:00:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/delivery.svg</guid>
 															<wp:post_id>375</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:00:05]]></wp:post_date>
@@ -994,7 +992,7 @@
 					<title><![CDATA[ready-design]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/ready-design/</link>
 					<pubDate>Tue, 09 Jul 2024 14:00:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/ready-design.svg</guid>
 															<wp:post_id>378</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:00:22]]></wp:post_date>
@@ -1017,7 +1015,7 @@
 					<title><![CDATA[services-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/services-img-1/</link>
 					<pubDate>Wed, 10 Jul 2024 12:58:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/services-img-1.jpg</guid>
 															<wp:post_id>579</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 12:58:50]]></wp:post_date>
@@ -1040,7 +1038,7 @@
 					<title><![CDATA[services-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/services-img-2/</link>
 					<pubDate>Wed, 10 Jul 2024 12:58:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/services-img-2.jpg</guid>
 															<wp:post_id>580</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 12:58:51]]></wp:post_date>
@@ -1063,7 +1061,7 @@
 					<title><![CDATA[services-banner]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/services-banner/</link>
 					<pubDate>Wed, 10 Jul 2024 13:23:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/services-banner.jpg</guid>
 															<wp:post_id>593</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:23:06]]></wp:post_date>
@@ -1086,7 +1084,7 @@
 					<title><![CDATA[banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/banner-1/</link>
 					<pubDate>Thu, 11 Jul 2024 07:36:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-1.jpg</guid>
 															<wp:post_id>640</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:36:19]]></wp:post_date>
@@ -1109,7 +1107,7 @@
 					<title><![CDATA[banner-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/banner-3/</link>
 					<pubDate>Thu, 11 Jul 2024 07:44:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-3.jpg</guid>
 															<wp:post_id>653</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:44:42]]></wp:post_date>
@@ -1132,7 +1130,7 @@
 					<title><![CDATA[banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/banner-2/</link>
 					<pubDate>Thu, 11 Jul 2024 07:45:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-2.jpg</guid>
 															<wp:post_id>657</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:45:59]]></wp:post_date>
@@ -1155,7 +1153,7 @@
 					<title><![CDATA[banner-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/banner-4/</link>
 					<pubDate>Thu, 11 Jul 2024 07:46:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-4.jpg</guid>
 															<wp:post_id>659</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:46:29]]></wp:post_date>
@@ -1178,7 +1176,7 @@
 					<title><![CDATA[banner-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/promotions/banner-6/</link>
 					<pubDate>Thu, 11 Jul 2024 07:46:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-6.jpg</guid>
 															<wp:post_id>660</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:46:53]]></wp:post_date>
@@ -1201,7 +1199,7 @@
 					<title><![CDATA[payment-and-delivery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/payment-and-delivery/payment-and-delivery-2/</link>
 					<pubDate>Thu, 11 Jul 2024 07:51:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/payment-and-delivery.jpg</guid>
 															<wp:post_id>666</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 07:51:26]]></wp:post_date>
@@ -1224,7 +1222,7 @@
 					<title><![CDATA[megamarket-testimonials-pic-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/about-us/megamarket-testimonials-pic-3/</link>
 					<pubDate>Thu, 11 Jul 2024 08:28:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/megamarket-testimonials-pic-3.jpg</guid>
 															<wp:post_id>694</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 08:28:54]]></wp:post_date>
@@ -1247,7 +1245,7 @@
 					<title><![CDATA[megamarket-testimonials-pic-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/about-us/megamarket-testimonials-pic-2/</link>
 					<pubDate>Thu, 11 Jul 2024 08:31:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/megamarket-testimonials-pic-2.jpg</guid>
 															<wp:post_id>698</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 08:31:23]]></wp:post_date>
@@ -1270,7 +1268,7 @@
 					<title><![CDATA[megamarket-testimonials-pic-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/about-us/megamarket-testimonials-pic-1/</link>
 					<pubDate>Thu, 11 Jul 2024 08:31:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/megamarket-testimonials-pic-1.jpg</guid>
 															<wp:post_id>700</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 08:31:56]]></wp:post_date>
@@ -1293,7 +1291,7 @@
 					<title><![CDATA[banner-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=819</link>
 					<pubDate>Thu, 11 Jul 2024 12:15:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-7.jpg</guid>
 															<wp:post_id>819</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:15:35]]></wp:post_date>
@@ -1316,7 +1314,7 @@
 					<title><![CDATA[min-dd-banner-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=823</link>
 					<pubDate>Thu, 11 Jul 2024 12:26:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/min-dd-banner-3.jpg</guid>
 															<wp:post_id>823</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 12:26:09]]></wp:post_date>
@@ -1339,7 +1337,7 @@
 					<title><![CDATA[wd-cursor-megamarket]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1331</link>
 					<pubDate>Mon, 28 Oct 2024 14:22:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/wd-cursor-megamarket.svg</guid>
 															<wp:post_id>1331</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:22:28]]></wp:post_date>
@@ -1362,7 +1360,7 @@
 					<title><![CDATA[wd-phone-megamarket]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/?attachment_id=1333</link>
 					<pubDate>Mon, 28 Oct 2024 14:22:29 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/wd-phone-megamarket.svg</guid>
 															<wp:post_id>1333</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:22:29]]></wp:post_date>
@@ -1385,7 +1383,7 @@
 					<title><![CDATA[design]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/design/</link>
 					<pubDate>Tue, 09 Jul 2024 14:00:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/design.svg</guid>
 															<wp:post_id>376</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:00:06]]></wp:post_date>
@@ -1408,7 +1406,7 @@
 					<title><![CDATA[payment]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/payment/</link>
 					<pubDate>Tue, 09 Jul 2024 14:00:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/payment.svg</guid>
 															<wp:post_id>377</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:00:06]]></wp:post_date>
@@ -1431,7 +1429,7 @@
 					<title><![CDATA[slider-1-min]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/slider-1-min/</link>
 					<pubDate>Tue, 09 Jul 2024 14:46:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/slider-1-min.jpg</guid>
 															<wp:post_id>426</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:46:16]]></wp:post_date>
@@ -1454,7 +1452,7 @@
 					<title><![CDATA[slider-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/slider-2/</link>
 					<pubDate>Tue, 09 Jul 2024 14:46:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/slider-2.jpg</guid>
 															<wp:post_id>427</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:46:16]]></wp:post_date>
@@ -1477,7 +1475,7 @@
 					<title><![CDATA[slider-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/slider-3/</link>
 					<pubDate>Tue, 09 Jul 2024 14:46:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/slider-3.jpg</guid>
 															<wp:post_id>428</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 14:46:17]]></wp:post_date>
@@ -1500,7 +1498,7 @@
 					<title><![CDATA[banner-servises]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/banner-servises/</link>
 					<pubDate>Wed, 10 Jul 2024 08:22:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/banner-servises.jpg</guid>
 															<wp:post_id>453</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 08:22:45]]></wp:post_date>
@@ -1523,7 +1521,7 @@
 					<title><![CDATA[shipping-banner-x2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/shipping-banner-x2/</link>
 					<pubDate>Wed, 10 Jul 2024 08:26:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/shipping-banner-x2.jpg</guid>
 															<wp:post_id>459</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 08:26:44]]></wp:post_date>
@@ -1546,7 +1544,7 @@
 					<title><![CDATA[home-hotspot-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/home-hotspot-1/</link>
 					<pubDate>Wed, 10 Jul 2024 09:33:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/home-hotspot-1.jpg</guid>
 															<wp:post_id>513</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 09:33:32]]></wp:post_date>
@@ -1569,7 +1567,7 @@
 					<title><![CDATA[Installing-Appliances]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/installing-appliances/</link>
 					<pubDate>Wed, 10 Jul 2024 13:27:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Installing-Appliances.png</guid>
 															<wp:post_id>601</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:27:48]]></wp:post_date>
@@ -1592,7 +1590,7 @@
 					<title><![CDATA[Installing-Cabinets]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/installing-cabinets/</link>
 					<pubDate>Wed, 10 Jul 2024 13:28:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Installing-Cabinets.png</guid>
 															<wp:post_id>602</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:28:29]]></wp:post_date>
@@ -1615,7 +1613,7 @@
 					<title><![CDATA[Cutting-Carpet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/cutting-carpet/</link>
 					<pubDate>Wed, 10 Jul 2024 13:28:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Cutting-Carpet.png</guid>
 															<wp:post_id>603</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:28:50]]></wp:post_date>
@@ -1638,7 +1636,7 @@
 					<title><![CDATA[Laying-Flooring]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/laying-flooring/</link>
 					<pubDate>Wed, 10 Jul 2024 13:29:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Laying-Flooring.png</guid>
 															<wp:post_id>604</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:29:17]]></wp:post_date>
@@ -1661,7 +1659,7 @@
 					<title><![CDATA[Installing-doors]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/installing-doors/</link>
 					<pubDate>Wed, 10 Jul 2024 13:29:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Installing-doors.png</guid>
 															<wp:post_id>605</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:29:39]]></wp:post_date>
@@ -1684,7 +1682,7 @@
 					<title><![CDATA[Installing-Water-Heaters]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/installing-water-heaters/</link>
 					<pubDate>Wed, 10 Jul 2024 13:31:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Installing-Water-Heaters.png</guid>
 															<wp:post_id>606</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:31:32]]></wp:post_date>
@@ -1707,7 +1705,7 @@
 					<title><![CDATA[Installing-backsplashes]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/installing-backsplashes/</link>
 					<pubDate>Wed, 10 Jul 2024 13:31:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Installing-backsplashes.png</guid>
 															<wp:post_id>607</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:31:56]]></wp:post_date>
@@ -1730,7 +1728,7 @@
 					<title><![CDATA[Installing-shower-doors]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/installing-shower-doors/</link>
 					<pubDate>Wed, 10 Jul 2024 13:32:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Installing-shower-doors.png</guid>
 															<wp:post_id>608</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:32:22]]></wp:post_date>
@@ -1753,7 +1751,7 @@
 					<title><![CDATA[Shipping]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/services/shipping/</link>
 					<pubDate>Wed, 10 Jul 2024 13:33:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/Shipping.png</guid>
 															<wp:post_id>609</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 13:33:43]]></wp:post_date>
@@ -1776,7 +1774,7 @@
 					<title><![CDATA[wd-mobile-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/track-order/wd-mobile-light/</link>
 					<pubDate>Mon, 18 Nov 2024 13:32:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/11/wd-mobile-light.svg</guid>
 															<wp:post_id>1337</wp:post_id>
 					<wp:post_date><![CDATA[2024-11-18 13:32:42]]></wp:post_date>
@@ -1799,7 +1797,7 @@
 					<title><![CDATA[wd-paper-plane-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/track-order/wd-paper-plane-light/</link>
 					<pubDate>Mon, 18 Nov 2024 13:32:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/11/wd-paper-plane-light.svg</guid>
 															<wp:post_id>1338</wp:post_id>
 					<wp:post_date><![CDATA[2024-11-18 13:32:43]]></wp:post_date>
@@ -1822,7 +1820,7 @@
 					<title><![CDATA[wd-pointer-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/track-order/wd-pointer-light/</link>
 					<pubDate>Mon, 18 Nov 2024 13:32:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/11/wd-pointer-light.svg</guid>
 															<wp:post_id>1339</wp:post_id>
 					<wp:post_date><![CDATA[2024-11-18 13:32:43]]></wp:post_date>
@@ -1845,7 +1843,7 @@
 					<title><![CDATA[category-flooring]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/category-flooring/</link>
 					<pubDate>Tue, 09 Jul 2024 13:55:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/category-flooring.svg</guid>
 															<wp:post_id>361</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 13:55:41]]></wp:post_date>
@@ -1868,7 +1866,7 @@
 					<title><![CDATA[category-lighting]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/category-lighting/</link>
 					<pubDate>Tue, 09 Jul 2024 13:55:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/category-lighting.svg</guid>
 															<wp:post_id>362</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 13:55:42]]></wp:post_date>
@@ -1891,7 +1889,7 @@
 					<title><![CDATA[category-tool]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/category-tool/</link>
 					<pubDate>Tue, 09 Jul 2024 13:55:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/category-tool.svg</guid>
 															<wp:post_id>365</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 13:55:44]]></wp:post_date>
@@ -1914,7 +1912,7 @@
 					<title><![CDATA[services-128x129]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/megamarket-gutenberg/home/services-128x129/</link>
 					<pubDate>Wed, 10 Jul 2024 09:30:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/megamarket-gutenberg/wp-content/uploads/sites/25/2024/07/services-128x129-1.jpg</guid>
 															<wp:post_id>507</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-10 09:30:26]]></wp:post_date>

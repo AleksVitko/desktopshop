@@ -42,8 +42,8 @@ switch ( $type ) {
 		$tweet_btn_text = esc_html__( 'Tweet', 'js_composer' );
 		break;
 }
-$data = array();
-$classes = array();
+$data = [];
+$classes = [];
 $element_class = empty( $this->settings['element_default_class'] ) ? '' : $this->settings['element_default_class'];
 $class_to_filter = 'vc_tweetmeme-element' . vc_shortcode_custom_css_class( $atts['css'], ' ' ) . $this->getCSSAnimation( $atts['css_animation'] ) . ' ' . esc_attr( $element_class ) . $this->getExtraClass( $atts['el_class'] );
 $el_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $class_to_filter, $this->getShortcode(), $atts );
@@ -86,7 +86,7 @@ if ( 'share' === $type ) {
 } elseif ( 'hashtag' === $type ) {
 	$url = 'https://twitter.com/intent/tweet?';
 	$classes[] = 'twitter-hashtag-button';
-	$url_atts = array();
+	$url_atts = [];
 	if ( ! empty( $atts['hashtag_hash'] ) ) {
 		$url_atts[] = 'button_hashtag=' . esc_attr( $atts['hashtag_hash'] );
 		$tweet_btn_text .= ' #' . esc_attr( $atts['hashtag_hash'] );
@@ -96,7 +96,7 @@ if ( 'share' === $type ) {
 	}
 	$url .= implode( '&', $url_atts );
 
-	$rel = array();
+	$rel = [];
 	if ( ! empty( $atts['hashtag_recommend_1'] ) ) {
 		$rel[] = $atts['hashtag_recommend_1'];
 	}
@@ -112,7 +112,7 @@ if ( 'share' === $type ) {
 } elseif ( 'mention' === $type ) {
 	$url = 'https://twitter.com/intent/tweet?';
 	$classes[] = 'twitter-mention-button';
-	$url_atts = array();
+	$url_atts = [];
 	if ( ! empty( $atts['mention_tweet_to'] ) ) {
 		$url_atts[] = 'screen_name=' . esc_attr( $atts['mention_tweet_to'] );
 		$tweet_btn_text .= ' @' . esc_attr( $atts['mention_tweet_to'] );
@@ -122,7 +122,7 @@ if ( 'share' === $type ) {
 	}
 	$url .= implode( '&', $url_atts );
 
-	$rel = array();
+	$rel = [];
 	if ( ! empty( $atts['mention_recommend_1'] ) ) {
 		$rel[] = $atts['mention_recommend_1'];
 	}
@@ -137,11 +137,11 @@ if ( 'share' === $type ) {
 if ( ! empty( $atts['lang'] ) ) {
 	$data['data-lang'] = $atts['lang'];
 }
-$data_imploded = array();
+$data_imploded = [];
 foreach ( $data as $k => $v ) {
 	$data_imploded[] = $k . '="' . esc_attr( $v ) . '"';
 }
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $atts['el_id'] ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $atts['el_id'] ) . '"';
 }

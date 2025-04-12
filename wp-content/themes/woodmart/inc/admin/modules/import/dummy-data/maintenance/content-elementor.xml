@@ -35,7 +35,7 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[Popup with contact form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-with-contact-form</link>
 					<pubDate>Thu, 02 Sep 2021 16:29:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=1570</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.0" type="text/css" media="all" /> 					
 				<h4>SEND US A MESSAGE</h4> 
@@ -139,7 +139,7 @@
 					<title><![CDATA[Contact form alternative]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=1572</link>
 					<pubDate>Thu, 02 Sep 2021 16:32:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=1572</guid>
 											<content:encoded><![CDATA[<div class="row">
 <p class="col-md-6"><label>Your Name</label>[text* your-name]</p>
@@ -153,7 +153,7 @@
 <p>[submit class:btn-color-black "ASK A QUESTION"]</p>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title]  
 [_site_admin_email]
 From: [your-name] <[your-email]>
 Subject: [your-subject]
@@ -169,7 +169,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title]  
 [your-email]
 Message Body:
 [your-message]
@@ -228,7 +228,7 @@ The telephone number is invalid.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
 Subject: [your-subject]
 
 Message Body:
@@ -239,7 +239,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -283,7 +283,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[wd-mobile]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-mobile/</link>
 					<pubDate>Thu, 02 Sep 2021 16:32:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-mobile.svg</guid>
 															<wp:post_id>1574</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-02 16:32:11]]></wp:post_date>
@@ -306,7 +306,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[wd-paper-plane]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-paper-plane/</link>
 					<pubDate>Thu, 02 Sep 2021 16:32:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-paper-plane.svg</guid>
 															<wp:post_id>1575</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-02 16:32:12]]></wp:post_date>
@@ -329,7 +329,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[wd-pointer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-pointer/</link>
 					<pubDate>Thu, 02 Sep 2021 16:32:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-pointer.svg</guid>
 															<wp:post_id>1576</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-02 16:32:13]]></wp:post_date>
@@ -352,7 +352,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Maintenance]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/maintenance/</link>
 					<pubDate>Thu, 04 Nov 2021 17:32:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=8856</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.4.0" type="text/css" media="all" /> 					
 					BRAND NEW STORE				
@@ -492,7 +492,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[maintenance-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/maintenance/maintenance-bg/</link>
 					<pubDate>Thu, 04 Nov 2021 17:33:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/11/maintenance-bg.jpg</guid>
 															<wp:post_id>8860</wp:post_id>
 					<wp:post_date><![CDATA[2021-11-04 17:33:47]]></wp:post_date>

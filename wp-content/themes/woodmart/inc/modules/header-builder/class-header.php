@@ -2,6 +2,7 @@
 
 namespace XTS\Modules\Header_Builder;
 
+use XTS\Modules\Header_Builder;
 use XTS\Modules\Styles_Storage;
 
 /**
@@ -76,6 +77,13 @@ class Header {
 	private $_structure_elements_types = array( 'logo', 'search', 'cart', 'wishlist', 'account', 'compare', 'burger', 'mainmenu', 'mobilesearch', 'burger' );
 
 	/**
+	 * Object main class.
+	 *
+	 * @var null
+	 */
+	private $_builder = null;
+
+	/**
 	 * Construct.
 	 *
 	 * @param object  $elements Elements.
@@ -85,6 +93,7 @@ class Header {
 	public function __construct( $elements, $id, $new = false ) {
 		$this->_elements = $elements;
 		$this->_id       = ( $id ) ? $id : WOODMART_HB_DEFAULT_ID;
+		$this->_builder = Header_Builder::get_instance();
 
 		if ( $new ) {
 			$this->create_empty();
@@ -206,11 +215,12 @@ class Header {
 	 * @return void
 	 */
 	public function save() {
-		$styles = new Styles();
+		$styles   = new Styles();
+		$autoload = $this->_builder->manager->get_default_header() === $this->get_id();
 
 		$this->_storage->write( $styles->get_all_css( $this->get_structure(), $this->get_options() ) );
 
-		update_option( 'whb_' . $this->get_id(), $this->get_raw_data() );
+		update_option( 'whb_' . $this->get_id(), $this->get_raw_data(), $autoload );
 	}
 
 	/**

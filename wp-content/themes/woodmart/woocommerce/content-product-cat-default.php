@@ -25,9 +25,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="wd-cat-wrap">
 	<?php endif; ?>
 
-	<div class="wrapp-category">
-		<div class="category-image-wrapp">
-			<a href="<?php echo esc_url( get_term_link( $args['category']->slug, 'product_cat' ) ); ?>" class="category-image" aria-label="<?php esc_html_e( 'Category image', 'woodmart' ); ?>">
+	<div class="wd-cat-inner wrapp-category">
+		<div class="wd-cat-thumb category-image-wrapp">
+			<a class="wd-cat-image category-image" href="<?php echo esc_url( get_term_link( $args['category']->slug, 'product_cat' ) ); ?>" aria-label="<?php esc_html_e( 'Category image', 'woodmart' ); ?>">
 				<?php do_action( 'woocommerce_before_subcategory', $args['category'] ); ?>
 
 				<?php
@@ -40,19 +40,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 				?>
 			</a>
 		</div>
-		<div class="hover-mask">
+		<div class="wd-cat-content hover-mask">
 			<h3 class="wd-entities-title<?php echo woodmart_get_old_classes( ' category-title' ); ?>">
 				<?php
 				echo esc_html( $args['category']->name );
-
-				if ( $args['category']->count > 0 ) {
-					echo apply_filters( 'woocommerce_subcategory_count_html', ' <mark class="count">(' . $args['category']->count . ')</mark>', $args['category'] );
-				}
 				?>
 			</h3>
 
 			<?php if ( ! woodmart_loop_prop( 'hide_categories_product_count' ) ) : ?>
-				<div class="more-products">
+				<div class="wd-cat-count more-products">
 					<a href="<?php echo esc_url( get_term_link( $args['category']->slug, 'product_cat' ) ); ?>">
 					<?php
 					$products_count = $args['category']->count;
@@ -83,7 +79,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
 		<?php /* translators: %s: Name product category */ ?>
-		<a href="<?php echo esc_url( get_term_link( $args['category']->slug, 'product_cat' ) ); ?>" class="category-link wd-fill" aria-label="<?php echo esc_attr( sprintf( __( 'Product category %s', 'woodmart' ), $args['category']->slug ) ); ?>"></a>
+		<a class="wd-fill category-link" href="<?php echo esc_url( get_term_link( $args['category']->slug, 'product_cat' ) ); ?>" aria-label="<?php echo esc_attr( sprintf( __( 'Product category %s', 'woodmart' ), $args['category']->slug ) ); ?>"></a>
 		<?php do_action( 'woocommerce_after_subcategory', $args['category'] ); ?>
 	</div>
 

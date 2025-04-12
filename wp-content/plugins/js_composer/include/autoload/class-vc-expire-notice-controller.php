@@ -35,10 +35,10 @@ class Vc_Expire_Notice_Controller {
 			'init',
 		] );
 
-		add_action( 'admin_notices', array(
+		add_action( 'admin_notices', [
 			$this,
 			'handle_expire_notice',
-		) );
+		] );
 
 		add_action( 'wp_ajax_wpb_dismiss_expire_notice', [
 			$this,
@@ -163,14 +163,14 @@ class Vc_Expire_Notice_Controller {
 	public function output_expire_notice( $message, $success = true, $dismissible = false ) {
 		$classes = (bool) $success ? 'updated' : 'error';
 		$classes = $dismissible ? $classes . ' notice is-dismissible wpb-notice wpb-expire-notice' : $classes;
-		printf( '<div class="%s"><p>%s</p></div>', esc_attr( $classes ), wp_kses( $message, array(
-			'a' => array(
-				'href' => array(),
-				'title' => array(),
-				'target' => array(),
-				'rel' => array(),
-			),
-		) ) );
+		printf( '<div class="%s"><p>%s</p></div>', esc_attr( $classes ), wp_kses( $message, [
+			'a' => [
+				'href' => [],
+				'title' => [],
+				'target' => [],
+				'rel' => [],
+			],
+		] ) );
 	}
 }
 

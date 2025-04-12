@@ -134,13 +134,15 @@ if ( 'quote' === $post_format ) {
 				</div>
 			<?php endif; ?>
 
-			<div class="wd-modified-date">
-				<?php woodmart_post_modified_date(); ?>
-			</div>
+			<?php if ( woodmart_loop_prop( 'parts_published_date', true ) ) : ?>
+				<div class="wd-modified-date">
+					<?php woodmart_post_modified_date(); ?>
+				</div>
 
-			<div class="wd-meta-date">
-				<?php echo esc_html( get_the_date( 'd M Y' ) ); ?>
-			</div>
+				<div class="wd-meta-date">
+					<?php echo esc_html( get_the_date( 'd M Y' ) ); ?>
+				</div>
+			<?php endif; ?>
 		</div>
 
 		<?php if ( woodmart_loop_prop( 'parts_title' ) ) : ?>

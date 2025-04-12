@@ -12,12 +12,13 @@ if ( ! function_exists( 'wd_get_woo_block_hook_attrs' ) ) {
 					'type' => 'string',
 				),
 				'cleanActions' => array(
-					'type' => 'boolean',
+					'type'    => 'boolean',
+					'default' => true,
 				),
 			)
 		);
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

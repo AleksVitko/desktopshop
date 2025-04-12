@@ -36,7 +36,7 @@ woodmart_enqueue_inline_style( 'woo-single-prod-el-navigation' );
 					</a>
 
 					<span class="price">
-						<?php echo wp_kses_post( $prev->get_price_html() ); ?>
+						<?php echo $prev->get_price_html(); // phpcs:ignore ?>
 					</span>
 				</div>
 			</div>
@@ -64,7 +64,7 @@ woodmart_enqueue_inline_style( 'woo-single-prod-el-navigation' );
 					</a>
 
 					<span class="price">
-						<?php echo wp_kses_post( $next->get_price_html() ); ?>
+						<?php echo $next->get_price_html(); // phpcs:ignore  ?>
 					</span>
 				</div>
 			</div>

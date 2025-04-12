@@ -37,6 +37,10 @@
 		background-color: #FFF;
 		transition: all .25s ease;
 
+		.xts-box & {
+			border: 1px solid var(--xts-option-border-color);
+		}
+
 		.xts-plugin-img {
 			min-width: 58px;
 			text-align: center;

@@ -145,9 +145,6 @@ class Cart_Table extends Widget_Base {
 						<th class="product-remove">&nbsp;</th>
 						<th class="product-thumbnail">&nbsp;</th>
 						<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
-						<?php if ( woodmart_get_opt( 'show_sku_in_cart' ) ) : ?>
-							<th class="product-sku"><?php esc_html_e( 'SKU', 'woocommerce' ); ?></th>
-						<?php endif; ?>
 						<th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?></th>
 						<th class="product-quantity"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
 						<th class="product-subtotal"><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
@@ -214,18 +211,6 @@ class Cart_Table extends Widget_Base {
 									}
 									?>
 								</td>
-
-								<?php if ( woodmart_get_opt( 'show_sku_in_cart' ) ) : ?>
-									<td class="product-sku" data-title="<?php esc_attr_e( 'SKU', 'woocommerce' ); ?>">
-										<span>
-											<?php if ( $_product->get_sku() ) : ?>
-												<?php echo esc_html( $_product->get_sku() ); ?>
-											<?php else : ?>
-												<?php esc_html_e( 'N/A', 'woocommerce' ); ?>
-											<?php endif; ?>
-										</span>
-									</td>
-								<?php endif; ?>
 
 								<td class="product-price" data-title="<?php esc_attr_e( 'Price', 'woocommerce' ); ?>">
 									<?php echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key ); ?>

@@ -50,6 +50,7 @@ if ( isset( $params['wrap_type'], $params['style'], $params['icon_design'], $par
 
 if ( isset( $id ) ) {
 	$extra_class .= ' whb-' . $id;
+	$classes     .= ' whb-' . $id;
 }
 
 $classes     .= woodmart_get_old_classes( ' navigation-style-' . $menu_style );

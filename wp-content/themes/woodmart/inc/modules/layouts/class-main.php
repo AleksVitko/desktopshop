@@ -259,6 +259,7 @@ class Main extends Singleton {
 				break;
 			case 'product_cat':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 			case 'product_term':
 				$priority = 70;
@@ -352,6 +353,10 @@ class Main extends Singleton {
 
 		if ( isset( $_POST['action'] ) && 'wd_layout_create' === $_POST['action'] ) { // phpcs:ignore
 			return true;
+		}
+
+		if ( wp_is_post_revision( $layout_id ) ) {
+			$layout_id = wp_get_post_parent_id( $layout_id );
 		}
 
 		$layout_type = get_post_meta( $layout_id, 'wd_layout_type', true );

@@ -204,5 +204,22 @@
     "categories_design": "alt",
     "products_hover": "quick",
     "popup_padding": "eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiIxNSJ9fX0=",
-    "update_cart_quantity_change": "1"
+    "update_cart_quantity_change": "1",
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ]
 }

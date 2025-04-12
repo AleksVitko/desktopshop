@@ -34,14 +34,17 @@
 		}
 
 		.select2-selection--multiple {
-			display: block;
+			// display: block;
+			display: flex;
+			align-items: center;
 			box-sizing: border-box;
 			min-height: 32px;
 			cursor: pointer;
 			user-select: none;
 
 			.select2-selection__rendered {
-				display: inline-block;
+				// display: inline-block;
+				display: block;
 				overflow: hidden;
 				padding-left: 8px;
 				text-overflow: ellipsis;
@@ -54,7 +57,7 @@
 
 			.select2-search__field {
 				box-sizing: border-box;
-				margin-top: 5px;
+				// margin-top: 5px;
 				padding: 0;
 				border: none;
 				font-size: 100%;
@@ -666,9 +669,9 @@
 
 				.select2-selection__choice {
 					float: left;
-					margin-top: 6px;
-					margin-right: 5px;
-					padding: 5px 12px 5px 6px;
+					margin-top: 3px;
+					margin-right: 3px;
+					padding: 3px 12px 3px 6px;
 					border-radius: var(--xts-option-border-radius);
 					background-color: var(--xts-primary-color);
 					color: #FFF;

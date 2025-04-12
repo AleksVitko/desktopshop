@@ -21,23 +21,21 @@ if ( ! empty( $breadcrumb ) ) {
 	echo wp_kses_post( $wrap_before );
 
 	foreach ( $breadcrumb as $key => $crumb ) {
-		$class = '';
+		$attr = '';
 
 		$i++;
 
 		if ( $i === $count - 1 ) {
-			$class = ' wd-last-link';
+			$attr = ' class="wd-last-link"';
 		}
 
 		echo wp_kses_post( $before );
 
 		if ( ! empty( $crumb[1] ) && count( $breadcrumb ) !== $key + 1 ) :
 			?>
-				<span typeof="v:Breadcrumb" class="<?php echo esc_attr( $class ); ?>">
-					<a href="<?php echo esc_url( $crumb[1] ); ?>" rel="v:url" property="v:title">
-						<?php echo esc_html( $crumb[0] ); ?>
-					</a>
-				</span>
+				<a href="<?php echo esc_url( $crumb[1] ); ?>"<?php echo wp_kses( $attr, true ); ?>>
+					<?php echo esc_html( $crumb[0] ); ?>
+				</a>
 			<?php
 		else :
 			?>

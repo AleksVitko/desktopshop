@@ -36,6 +36,8 @@ class Emails extends Singleton {
 
 		add_action( 'woocommerce_product_set_stock_status', array( $this, 'send_instock_email_emails' ), 10, 3 );
 		add_action( 'woocommerce_variation_set_stock_status', array( $this, 'send_instock_email_emails' ), 10, 3 );
+
+		add_filter( 'woocommerce_prepare_email_for_preview', array( $this, 'prepare_email_for_preview' ) );
 	}
 
 	/**
@@ -50,11 +52,18 @@ class Emails extends Singleton {
 		$token    = woodmart_clean( $_GET['token'] ); //phpcs:ignore
 
 		if ( $this->db_storage->confirm_subscription( $token ) ) {
-			$data       = $this->db_storage->get_subscription_by_token( $token );
-			$product_id = ! empty( $data->variation_id ) ? $data->variation_id : $data->product_id;
-			$product    = wc_get_product( $product_id );
+			$data         = $this->db_storage->get_subscription_by_token( $token );
+			$product_id   = ! empty( $data->variation_id ) ? $data->variation_id : $data->product_id;
+			$current_lang = '';
 
-			do_action( 'woodmart_waitlist_send_subscribe_email', $data->user_email, $product );
+			if ( defined( 'WCML_VERSION' ) && defined( 'ICL_SITEPRESS_VERSION' ) ) {
+				$current_lang = apply_filters( 'wpml_current_language', null );
+				$product_id   = apply_filters( 'wpml_object_id', $product_id, 'product', false, $current_lang );
+			}
+
+			$product = wc_get_product( $product_id );
+
+			do_action( 'woodmart_waitlist_send_subscribe_email', $data->user_email, $product, $current_lang );
 
 			wc_add_notice( esc_html__( 'Your waitlist subscription has been successfully confirmed.', 'woodmart' ), 'success' );
 		}
@@ -100,9 +109,9 @@ class Emails extends Singleton {
 	public function register_email( $emails ) {
 		include_once XTS_WAITLIST_DIR . 'emails/class-waitlist-email.php'; // Include parent waitlists class.
 
-		$emails['woodmart_waitlist_in_stock']                   = include XTS_WAITLIST_DIR . 'emails/class-instock-email.php';
-		$emails['woodmart_waitlist_subscribe_email']            = include XTS_WAITLIST_DIR . 'emails/class-subscribe-email.php';
-		$emails['woodmart_waitlist_confirm_subscription_email'] = include XTS_WAITLIST_DIR . 'emails/class-confirm-subscription-email.php';
+		$emails['XTS_Email_Waitlist_Back_In_Stock']        = include XTS_WAITLIST_DIR . 'emails/class-instock-email.php';
+		$emails['XTS_Email_Waitlist_Subscribe']            = include XTS_WAITLIST_DIR . 'emails/class-subscribe-email.php';
+		$emails['XTS_Email_Waitlist_Confirm_Subscription'] = include XTS_WAITLIST_DIR . 'emails/class-confirm-subscription-email.php';
 
 		return $emails;
 	}
@@ -119,24 +128,67 @@ class Emails extends Singleton {
 	 * @return void
 	 */
 	public function send_instock_email_emails( $product_id, $stock_status, $product ) {
-		if ( 'instock' !== $stock_status || 'variable' === $product->get_type() ) {
+		if ( 'instock' !== $stock_status || in_array( $product->get_type(), array( 'variable', 'variable-subscription' ), true ) ) {
 			return;
 		}
 
 		$waitlists       = $this->db_storage->get_subscriptions_by_product( $product );
-		$waitlists       = apply_filters( 'woodmart_waitlists_instock_list', $waitlists, $product_id );
 		$waitlists_chunk = array_chunk( $waitlists, apply_filters( 'woodmart_waitlist_scheduled_email_chunk', 50 ) );
-		$schedule_time   = time();
+		$schedule_time   = time() + 10;
 
 		foreach ( $waitlists_chunk as $waitlist_chunk ) {
-			wp_schedule_single_event(
-				$schedule_time,
-				'woodmart_waitlist_send_in_stock',
-				array( $waitlist_chunk )
-			);
+			if ( ! wp_next_scheduled( 'woodmart_waitlist_send_in_stock', array( $waitlist_chunk ) ) ) {
+				wp_schedule_single_event(
+					$schedule_time,
+					'woodmart_waitlist_send_in_stock',
+					array( $waitlist_chunk )
+				);
+			}
 
-			$schedule_time += apply_filters( 'woodmart_waitlist_schedule_time', intval( woodmart_get_opt( 'waitlist_wait_interval', HOUR_IN_SECONDS ) ) );
+			$schedule_time += apply_filters( 'woodmart_waitlist_schedule_time', intval( woodmart_get_opt( 'waitlist_wait_interval', HOUR_IN_SECONDS ) ) ) + 1;
 		}
+	}
+
+	/**
+	 * Prepare email for preview.
+	 *
+	 * @param object $preview_email Email object.
+	 */
+	public function prepare_email_for_preview( $preview_email ) {
+		$emails = array(
+			'XTS_Email_Waitlist_Back_In_Stock',
+			'XTS_Email_Waitlist_Subscribe',
+			'XTS_Email_Waitlist_Confirm_Subscription',
+		);
+
+		if ( in_array( get_class( $preview_email ), $emails, true ) ) {
+			$object = $this->get_dummy_product();
+
+			$preview_email->set_object( $object );
+			$preview_email->recipient     = 'user_preview@example.com';
+			$preview_email->user_name     = esc_html__( 'User Preview', 'woodmart' );
+			$preview_email->product_image = $preview_email->get_product_image_html();
+			$preview_email->product_price = $preview_email->get_product_price();
+		}
+
+		if ( 'XTS_Email_Waitlist_Confirm_Subscription' === get_class( $preview_email ) ) {
+			$preview_email->confirm_url = $preview_email->get_confirm_subscription_link();
+		}
+
+		return $preview_email;
+	}
+
+	/**
+	 * Get a dummy product.
+	 *
+	 * @return WC_Product
+	 */
+	private function get_dummy_product() {
+		$product = new WC_Product();
+		$product->set_name( 'Dummy Product' );
+		$product->set_price( 25 );
+
+		return $product;
 	}
 }
 

@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 09:35" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:58" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Vegetables gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 09:35:00 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:58:21 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[vg-logo-black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/vg-logo-black/</link>
 					<pubDate>Mon, 05 Aug 2024 09:46:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-logo-black.svg</guid>
 															<wp:post_id>79</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 09:46:06]]></wp:post_date>
@@ -73,7 +72,7 @@
 					<title><![CDATA[vg-logo-colored]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/vg-logo-colored/</link>
 					<pubDate>Mon, 05 Aug 2024 09:46:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-logo-colored.svg</guid>
 															<wp:post_id>80</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 09:46:06]]></wp:post_date>
@@ -96,7 +95,7 @@
 					<title><![CDATA[vg-logo-white]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/vg-logo-white/</link>
 					<pubDate>Mon, 05 Aug 2024 09:46:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-logo-white.svg</guid>
 															<wp:post_id>81</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 09:46:08]]></wp:post_date>
@@ -119,7 +118,7 @@
 					<title><![CDATA[vg-vegetables-fruits]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=200</link>
 					<pubDate>Tue, 06 Aug 2024 09:39:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vegetables-fruits-.svg</guid>
 															<wp:post_id>200</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:39:24]]></wp:post_date>
@@ -142,7 +141,7 @@
 					<title><![CDATA[vg-vegan-meat]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=201</link>
 					<pubDate>Tue, 06 Aug 2024 09:39:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vegan-meat.svg</guid>
 															<wp:post_id>201</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:39:45]]></wp:post_date>
@@ -165,7 +164,7 @@
 					<title><![CDATA[vg-seafood]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=202</link>
 					<pubDate>Tue, 06 Aug 2024 09:40:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-seafood.svg</guid>
 															<wp:post_id>202</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:40:03]]></wp:post_date>
@@ -188,7 +187,7 @@
 					<title><![CDATA[vg-dairy]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=203</link>
 					<pubDate>Tue, 06 Aug 2024 09:40:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-dairy.svg</guid>
 															<wp:post_id>203</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:40:24]]></wp:post_date>
@@ -211,7 +210,7 @@
 					<title><![CDATA[vg-bakery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=204</link>
 					<pubDate>Tue, 06 Aug 2024 09:40:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-bakery.svg</guid>
 															<wp:post_id>204</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:40:42]]></wp:post_date>
@@ -234,7 +233,7 @@
 					<title><![CDATA[vg-beverages]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=205</link>
 					<pubDate>Tue, 06 Aug 2024 09:40:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-beverages.svg</guid>
 															<wp:post_id>205</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:40:59]]></wp:post_date>
@@ -257,7 +256,7 @@
 					<title><![CDATA[vg-primary-discount]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=206</link>
 					<pubDate>Tue, 06 Aug 2024 09:41:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-primary-discount.svg</guid>
 															<wp:post_id>206</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:41:15]]></wp:post_date>
@@ -280,7 +279,7 @@
 					<title><![CDATA[vegetables-map-marker]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=215</link>
 					<pubDate>Tue, 06 Aug 2024 09:43:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vegetables-map-marker.svg</guid>
 															<wp:post_id>215</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:43:49]]></wp:post_date>
@@ -303,7 +302,7 @@
 					<title><![CDATA[vg-phone]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=216</link>
 					<pubDate>Tue, 06 Aug 2024 09:43:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-phone.svg</guid>
 															<wp:post_id>216</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:43:59]]></wp:post_date>
@@ -326,7 +325,7 @@
 					<title><![CDATA[vg-popular]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=220</link>
 					<pubDate>Tue, 06 Aug 2024 09:45:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-popular.svg</guid>
 															<wp:post_id>220</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:45:10]]></wp:post_date>
@@ -349,7 +348,7 @@
 					<title><![CDATA[vg-ideas-for-breakfast]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=221</link>
 					<pubDate>Tue, 06 Aug 2024 09:45:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-ideas-for-breakfast.svg</guid>
 															<wp:post_id>221</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:45:30]]></wp:post_date>
@@ -372,7 +371,7 @@
 					<title><![CDATA[vg-discount]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=222</link>
 					<pubDate>Tue, 06 Aug 2024 09:45:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-discount.svg</guid>
 															<wp:post_id>222</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:45:41]]></wp:post_date>
@@ -395,7 +394,7 @@
 					<title><![CDATA[vg-about-us-vid]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/about-us/vg-about-us-vid/</link>
 					<pubDate>Thu, 08 Aug 2024 08:50:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-about-us-vid.mp4</guid>
 															<wp:post_id>366</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 08:50:37]]></wp:post_date>
@@ -418,7 +417,7 @@
 					<title><![CDATA[vg-about-us-image-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/about-us/vg-about-us-image-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 08:51:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-about-us-image-opt.jpg</guid>
 															<wp:post_id>368</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 08:51:03]]></wp:post_date>
@@ -441,7 +440,7 @@
 					<title><![CDATA[vg-promo-original-milk-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/promotions/vg-promo-original-milk-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 11:22:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-promo-original-milk-opt.jpg</guid>
 															<wp:post_id>481</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:22:31]]></wp:post_date>
@@ -464,7 +463,7 @@
 					<title><![CDATA[vg-promo-free-delivery-baked-goods-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/promotions/vg-promo-free-delivery-baked-goods-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 11:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-promo-free-delivery-baked-goods-opt.jpg</guid>
 															<wp:post_id>485</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:23:31]]></wp:post_date>
@@ -487,7 +486,7 @@
 					<title><![CDATA[vg-promo-energy-drinks-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/promotions/vg-promo-energy-drinks-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 11:23:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-promo-energy-drinks-opt.jpg</guid>
 															<wp:post_id>486</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:23:45]]></wp:post_date>
@@ -510,7 +509,7 @@
 					<title><![CDATA[vg-vaf-ff-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=119</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vaf-ff-4.jpg</guid>
 															<wp:post_id>119</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:22]]></wp:post_date>
@@ -537,7 +536,7 @@
 					<title><![CDATA[vg-vaf-ff-5.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=120</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vaf-ff-5.jpg</guid>
 															<wp:post_id>120</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:22]]></wp:post_date>
@@ -564,7 +563,7 @@
 					<title><![CDATA[vg-vaf-ff-8.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=121</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vaf-ff-8.jpg</guid>
 															<wp:post_id>121</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:22]]></wp:post_date>
@@ -591,7 +590,7 @@
 					<title><![CDATA[vg-vaf-m-8.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=122</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vaf-m-8.jpg</guid>
 															<wp:post_id>122</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:23]]></wp:post_date>
@@ -618,7 +617,7 @@
 					<title><![CDATA[vg-vm-bec-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=123</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vm-bec-2.jpg</guid>
 															<wp:post_id>123</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:23]]></wp:post_date>
@@ -645,7 +644,7 @@
 					<title><![CDATA[vg-vm-be-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=124</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vm-be-2.jpg</guid>
 															<wp:post_id>124</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:24]]></wp:post_date>
@@ -672,7 +671,7 @@
 					<title><![CDATA[vg-vm-bu-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=125</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-vm-bu-2.jpg</guid>
 															<wp:post_id>125</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:24]]></wp:post_date>
@@ -699,7 +698,7 @@
 					<title><![CDATA[vg-d-eg-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=151</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-d-eg-2.jpg</guid>
 															<wp:post_id>151</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:33]]></wp:post_date>
@@ -726,7 +725,7 @@
 					<title><![CDATA[vg-d-eg-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=152</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-d-eg-4.jpg</guid>
 															<wp:post_id>152</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:34]]></wp:post_date>
@@ -753,7 +752,7 @@
 					<title><![CDATA[vg-d-mc-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=153</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-d-mc-3.jpg</guid>
 															<wp:post_id>153</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:34]]></wp:post_date>
@@ -780,7 +779,7 @@
 					<title><![CDATA[vg-d-mc-5.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=154</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-d-mc-5.jpg</guid>
 															<wp:post_id>154</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:35]]></wp:post_date>
@@ -807,7 +806,7 @@
 					<title><![CDATA[vg-d-yg-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=155</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-d-yg-3.jpg</guid>
 															<wp:post_id>155</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:35]]></wp:post_date>
@@ -834,7 +833,7 @@
 					<title><![CDATA[vg-d-yg-8.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=156</link>
 					<pubDate>Tue, 06 Aug 2024 09:17:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-d-yg-8.jpg</guid>
 															<wp:post_id>156</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 09:17:35]]></wp:post_date>
@@ -861,7 +860,7 @@
 					<title><![CDATA[google-play]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=359</link>
 					<pubDate>Wed, 07 Aug 2024 14:58:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/google-play.svg</guid>
 															<wp:post_id>359</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 14:58:52]]></wp:post_date>
@@ -884,7 +883,7 @@
 					<title><![CDATA[app-store]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=360</link>
 					<pubDate>Wed, 07 Aug 2024 14:59:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/app-store.svg</guid>
 															<wp:post_id>360</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 14:59:19]]></wp:post_date>
@@ -907,7 +906,7 @@
 					<title><![CDATA[vg-newslatter-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/?attachment_id=361</link>
 					<pubDate>Wed, 07 Aug 2024 15:11:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-newslatter-opt.png</guid>
 															<wp:post_id>361</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 15:11:12]]></wp:post_date>
@@ -930,7 +929,7 @@
 					<title><![CDATA[vg-promo-discounts-vegetables-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/promotions/vg-promo-discounts-vegetables-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 11:17:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-promo-discounts-vegetables-opt.jpg</guid>
 															<wp:post_id>476</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:17:23]]></wp:post_date>
@@ -953,7 +952,7 @@
 					<title><![CDATA[vg-promo-buy-fish-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/promotions/vg-promo-buy-fish-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 11:23:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-promo-buy-fish-opt.jpg</guid>
 															<wp:post_id>483</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:23:01]]></wp:post_date>
@@ -976,7 +975,7 @@
 					<title><![CDATA[vg-promo-plant-based-nuggets-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/vegetables-gutenberg/promotions/vg-promo-plant-based-nuggets-opt/</link>
 					<pubDate>Thu, 08 Aug 2024 11:23:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/vegetables-gutenberg/wp-content/uploads/sites/37/2024/08/vg-promo-plant-based-nuggets-opt.jpg</guid>
 															<wp:post_id>484</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:23:14]]></wp:post_date>

@@ -19,15 +19,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="vc_ui-font-open-sans vc_ui-panel-window vc_media-xs vc_ui-panel" data-vc-panel=".vc_ui-panel-header-header" data-vc-ui-element="panel-post-seo" id="vc_ui-panel-post-seo">
 	<div class="vc_ui-panel-window-inner">
 		<?php
-		vc_include_template('editors/popups/vc_ui-header.tpl.php', array(
+		vc_include_template('editors/popups/vc_ui-header.tpl.php', [
 			'title' => esc_html__( 'WPBakery SEO', 'js_composer' ),
-			'controls' => array( 'minimize', 'close' ),
+			'controls' => [ 'minimize', 'close' ],
 			'header_css_class' => 'vc_ui-post-settings-header-container',
 			'header_tabs_template' => 'editors/partials/add_element_tabs.tpl.php',
 			'header_tabs_template_variables' => $header_tabs_template_variables,
 			'is_default_tab' => true,
 			'box' => $box,
-		));
+		]);
 		?>
 		<div class="vc_ui-panel-content-container">
 			<div class="vc_ui-panel-content" data-vc-ui-element="panel-content">
@@ -58,20 +58,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 		<!-- param window footer-->
 		<?php
-		vc_include_template('editors/popups/vc_ui-footer.tpl.php', array(
-			'controls' => array(
-				array(
+		vc_include_template('editors/popups/vc_ui-footer.tpl.php', [
+			'controls' => [
+				[
 					'name' => 'close',
 					'label' => esc_html__( 'Close', 'js_composer' ),
-				),
-				array(
+				],
+				[
 					'name' => 'save',
 					'label' => esc_html__( 'Save changes', 'js_composer' ),
 					'css_classes' => 'vc_ui-button-fw',
 					'style' => 'action',
-				),
-			),
-		));
+				],
+			],
+		]);
 		?>
 	</div>
 </div>

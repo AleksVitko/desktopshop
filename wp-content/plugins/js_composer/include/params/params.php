@@ -26,21 +26,21 @@ class WpbakeryShortcodeParams {
 	 * @since 4.2
 	 * @var array - store shortcode attributes types
 	 */
-	protected static $params = array();
+	protected static $params = [];
 	/**
 	 * Scripts list.
 	 *
 	 * @since 4.2
 	 * @var array - store shortcode javascript files urls
 	 */
-	protected static $scripts = array();
+	protected static $scripts = [];
 	/**
 	 * Optional init params list.
 	 *
 	 * @since 4.7
 	 * @var array - store params not required to init
 	 */
-	protected static $optional_init_params = array();
+	protected static $optional_init_params = [];
 
 	/**
 	 * Get list of params that need to be initialized
@@ -70,11 +70,11 @@ class WpbakeryShortcodeParams {
 	public static function addField( $name, $form_field_callback, $script_url = null ) {
 		$result = false;
 		if ( ! empty( $name ) && ! empty( $form_field_callback ) ) {
-			self::$params[ $name ] = array(
-				'callbacks' => array(
+			self::$params[ $name ] = [
+				'callbacks' => [
 					'form' => $form_field_callback,
-				),
-			);
+				],
+			];
 			$result = true;
 
 			if ( is_string( $script_url ) && ! in_array( $script_url, self::$scripts, true ) ) {

@@ -66,8 +66,8 @@ if ( ! function_exists( 'wd_get_block_portfolio_attrs' ) ) {
 			)
 		);
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
-		$attr->add_attr( wd_get_carousel_settings_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
+		wd_get_carousel_settings_attrs( $attr );
 
 		return $attr->get_attr();
 	}

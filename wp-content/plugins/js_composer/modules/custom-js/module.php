@@ -49,15 +49,15 @@ class Vc_Custom_Js_Module {
 
 		add_filter( 'wpb_set_post_custom_meta', [ $this, 'set_post_custom_meta' ], 10, 2 );
 
-		add_filter( 'wpb_enqueue_backend_editor_js', array(
+		add_filter( 'wpb_enqueue_backend_editor_js', [
 			$this,
 			'enqueue_editor_js',
-		));
+		]);
 
-		add_filter( 'vc_enqueue_frontend_editor_js', array(
+		add_filter( 'vc_enqueue_frontend_editor_js', [
 			$this,
 			'enqueue_editor_js',
-		));
+		]);
 	}
 
 	/**
@@ -66,22 +66,22 @@ class Vc_Custom_Js_Module {
 	 * @since 7.7
 	 */
 	public function output_custom_js_to_page() {
-		add_filter( 'print_head_scripts', array(
+		add_filter( 'print_head_scripts', [
 			$this,
 			'output_post_header_custom_js',
-		), 90, 1 );
-		add_action( 'wp_print_footer_scripts', array(
+		], 90, 1 );
+		add_action( 'wp_print_footer_scripts', [
 			$this,
 			'output_post_footer_custom_js',
-		), 90 );
-		add_filter( 'print_head_scripts', array(
+		], 90 );
+		add_filter( 'print_head_scripts', [
 			$this,
 			'output_global_header_custom_html',
-		), 100, 1 );
-		add_action( 'wp_print_footer_scripts', array(
+		], 100, 1 );
+		add_action( 'wp_print_footer_scripts', [
 			$this,
 			'output_global_footer_custom_html',
-		), 100 );
+		], 100 );
 	}
 
 	/**
@@ -97,6 +97,8 @@ class Vc_Custom_Js_Module {
 		if ( ! $id ) {
 			return $is_print;
 		}
+
+		$id = wpb_update_id_with_preview_id( $id );
 
 		$post_header_html = get_post_meta( $id, '_wpb_post_custom_js_header', true );
 
@@ -119,6 +121,8 @@ class Vc_Custom_Js_Module {
 		if ( ! $id ) {
 			return;
 		}
+
+		$id = wpb_update_id_with_preview_id( $id );
 
 		$post_footer_html = get_post_meta( $id, '_wpb_post_custom_js_footer', true );
 

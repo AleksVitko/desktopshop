@@ -25,12 +25,12 @@ class WPBakeryShortCode_Vc_Pageable extends WPBakeryShortCode {
 	 * Register scripts and styles for pager
 	 */
 	public function shortcodeScripts() {
-		wp_register_script( 'vc_pageable_owl-carousel', vc_asset_url( 'lib/vendor/owl-carousel2-dist/owl.carousel.min.js' ), array(
+		wp_register_script( 'vc_pageable_owl-carousel', vc_asset_url( 'lib/vendor/owl-carousel2-dist/owl.carousel.min.js' ), [
 			'jquery-core',
-		), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_waypoints', vc_asset_url( 'lib/vc/vc_waypoints/vc-waypoints.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
+		], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_waypoints', vc_asset_url( 'lib/vc/vc_waypoints/vc-waypoints.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
 
-		wp_register_style( 'vc_pageable_owl-carousel-css', vc_asset_url( 'lib/vendor/owl-carousel2-dist/assets/owl.min.css' ), array(), WPB_VC_VERSION );
+		wp_register_style( 'vc_pageable_owl-carousel-css', vc_asset_url( 'lib/vendor/owl-carousel2-dist/assets/owl.min.css' ), [], WPB_VC_VERSION );
 	}
 
 	/**
@@ -65,15 +65,15 @@ class WPBakeryShortCode_Vc_Pageable extends WPBakeryShortCode {
 			$data = $settings['btn_data'];
 			$data['el_class'] = 'vc_grid-btn-load_more';
 			$data['link'] = 'load-more-grid';
-			$button3 = new WPBakeryShortCode_Vc_Btn( array( 'base' => 'vc_btn' ) );
+			$button3 = new WPBakeryShortCode_Vc_Btn( [ 'base' => 'vc_btn' ] );
 
-			$output = sprintf( '<div class="vc_pageable-slide-wrapper vc_clearfix" data-vc-grid-content="true">%s</div><div class="vc_pageable-load-more-btn" data-vc-grid-load-more-btn="true">%s</div>', $content, apply_filters( 'vc_gitem_template_attribute_vc_btn', '', array(
+			$output = sprintf( '<div class="vc_pageable-slide-wrapper vc_clearfix" data-vc-grid-content="true">%s</div><div class="vc_pageable-load-more-btn" data-vc-grid-load-more-btn="true">%s</div>', $content, apply_filters( 'vc_gitem_template_attribute_vc_btn', '', [
 				'post' => new stdClass(),
-				'data' => str_replace( array(
+				'data' => str_replace( [
 					'{{ vc_btn:',
 					'}}',
-				), '', $button3->output( $data ) ),
-			) ) );
+				], '', $button3->output( $data ) ),
+			] ) );
 
 			return $output;
 		}
@@ -141,9 +141,9 @@ class WPBakeryShortCode_Vc_Pageable extends WPBakeryShortCode {
 	 * @return bool
 	 */
 	public function currentUserCanManage( $page_id ) {
-		return vc_user_access()->wpAny( array(
+		return vc_user_access()->wpAny( [
 			'edit_post',
 			(int) $page_id,
-		) )->get();
+		] )->get();
 	}
 }

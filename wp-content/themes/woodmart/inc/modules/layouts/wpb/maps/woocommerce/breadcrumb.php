@@ -79,6 +79,64 @@ if ( ! function_exists( 'woodmart_get_vc_map_woocommerce_breadcrumb' ) ) {
 				$typography['line_height'],
 
 				array(
+					'type'       => 'woodmart_empty_space',
+					'param_name' => 'woodmart_empty_space',
+					'group'      => esc_html__( 'Style', 'woodmart' ),
+				),
+
+				array(
+					'heading'          => esc_html__( 'Idle color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'text_color',
+					'selectors'        => array(
+						'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => array(
+							'--wd-link-color: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
+					'heading'          => esc_html__( 'Hover color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'text_color_hover',
+					'selectors'        => array(
+						'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => array(
+							'--wd-link-color-hover: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
+					'heading'          => esc_html__( 'Active color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'text_color_active',
+					'selectors'        => array(
+						'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => array(
+							'--wd-bcrumb-color-active: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
+					'heading'          => esc_html__( 'Delimiter color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'delimiter_color',
+					'selectors'        => array(
+						'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => array(
+							'--wd-bcrumb-delim-color: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
 					'heading'    => esc_html__( 'CSS box', 'woodmart' ),
 					'group'      => esc_html__( 'Design Options', 'js_composer' ),
 					'type'       => 'css_editor',

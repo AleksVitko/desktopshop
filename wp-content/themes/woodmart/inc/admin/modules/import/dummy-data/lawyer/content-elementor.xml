@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.3" created="2023-12-21 13:43" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 12:56" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,24 +29,24 @@
 	<title>Elementor 2.0 WoodMart dummy</title>
 	<link>https://dummy.xtemos.com/woodmart2/elementor</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Thu, 21 Dec 2023 13:43:38 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 12:56:31 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term><wp:term_id>99</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-menu-lawyer]]></wp:term_slug><wp:term_name><![CDATA[Main menu Lawyer]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.2.3</generator>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
 
 					<item>
 					<title><![CDATA[corporate-2-microsoft]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/corporate-2-microsoft/</link>
 					<pubDate>Sun, 24 Oct 2021 10:46:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-microsoft.svg</guid>
 															<wp:post_id>7382</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 10:46:35]]></wp:post_date>
@@ -73,7 +73,7 @@
 					<title><![CDATA[corporate-2-network-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/corporate-2-network-2/</link>
 					<pubDate>Sun, 24 Oct 2021 10:46:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-network-2.svg</guid>
 															<wp:post_id>7383</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 10:46:36]]></wp:post_date>
@@ -100,7 +100,7 @@
 					<title><![CDATA[corporate-2-slack]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/corporate-2-slack/</link>
 					<pubDate>Sun, 24 Oct 2021 10:46:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-slack.svg</guid>
 															<wp:post_id>7387</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 10:46:39]]></wp:post_date>
@@ -127,189 +127,195 @@
 					<title><![CDATA[Home Lawyer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/</link>
 					<pubDate>Sun, 24 Oct 2021 11:32:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=7429</guid>
-											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.4" type="text/css" media="all" /> 					
+											<content:encoded><![CDATA[ 					
+										 							
 					Comprehensive legal support				
 				<h4>The Guarantor of Your Success</h4> 
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/woodmart2/elementor/wp-admin/admin-ajax.php#wpcf7-f4383-o1" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<input type="hidden" name="_wpcf7" value="4383" />
-<input type="hidden" name="_wpcf7_version" value="5.7.7" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4383-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Your name" value="" type="text" name="Your" />
-	</p>
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Your phone number" value="" type="text" name="Your" />
-	</p>
-	<p><input type="submit" value="Get Consult" />
-	</p>
-</form>
-						<link rel="stylesheet" id="wd-counter-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-counter.min.css?ver=7.3.4" type="text/css" media="all" /> 					
-				1500			
-						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.3.4" type="text/css" media="all" /> 					
+<p role="status" aria-live="polite"></p> <ul></ul>
+
+
+
+
+
+
+
+		<p>
+		</p>
+		<p>
+		</p>
+		<p>
+		</p>
+
+						 					
+				0			
+						 					
 			<p>Companies in service</p>
-				180			
+				0			
 			<p>Received licenses</p>
-				12			
+				0			
 			<p>Professional lawyers</p>
-								<img width="507" height="768" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic.png" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic.png 507w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic-198x300.png 198w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic-430x651.png 430w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic-130x197.png 130w" sizes="(max-width: 507px) 100vw, 507px" />					
+								<img width="507" height="768" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic.png" alt="" />					
 					EMPLOYEE PRODUCTIVITY				
 				<h4>We Work in Such Directions</h4> 
-						<link rel="stylesheet" id="wd-info-box-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-info-box.min.css?ver=7.3.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-info-box-style-shadow-and-bg-hover-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-info-box-style-shadow-and-bg-hover.min.css?ver=7.3.4" type="text/css" media="all" /> 					
+						 						 					
 															01.													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Registration						</h4>
 					<p>Authorities in our business will tell in no uncertain</p>
+									<a href="#" aria-label="Infobox link"></a>
 															02.													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Services						</h4>
 					<p>There are some redeeming factors in favor</p>
+									<a href="#" aria-label="Infobox link"></a>
 															03.													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Taxation						</h4>
 					<p>Anyway, you still use Lorem Ipsum and rightly</p>
+									<a href="#" aria-label="Infobox link"></a>
 															04.													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								IT law						</h4>
 					<p>Comprehensive support for IT projects deserved</p>
+									<a href="#" aria-label="Infobox link"></a>
 					FOR YOUR UNIQUE SOLUTIONS				
 				<h4>We provide such services</h4> 
 		<p>We provide qualified legal assistance in civil, criminal, economic and other branches of law. For the time of our work, we have helped our Clients resolve the most difficult issues, as evidenced by positive feedback.</p>		
 			Services for individuals:
-						<link rel="stylesheet" id="wd-list-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-list.min.css?ver=7.3.4" type="text/css" media="all" /> 					<ul>
+						 						 					<ul>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Consulting					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Land disputes					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Civil cases					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Support of transactions					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Obtaining a passport					
 									</li>
 					</ul>
 			<p>For legal entities:</p>
 					<ul>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Contract law					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Registration of legal entities					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Labor disputes					
 									</li>
 											<li>
-											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" width="16" height="16">					
+											<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg" title="w-lawyer-checked" loading="lazy" width="16" height="16">					
 						Obtaining licenses					
 									</li>
 					</ul>
-			<a  href="#">
+						 					
+			<a href="#">
 					learn more				
 							</a>
-								<img width="440" height="560" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services.jpg 440w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services-236x300.jpg 236w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services-430x547.jpg 430w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services-130x165.jpg 130w" sizes="(max-width: 440px) 100vw, 440px" />					
+								<img width="440" height="560" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services.jpg" alt="" />					
 					FOR YOUR ADVANCED FEATURES				
 				<h4>How We Work with Clients</h4> 
-						<link rel="stylesheet" id="wd-swiper-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-swiper.min.css?ver=7.3.4" type="text/css" media="all" /> 					
-															<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91" fill="none"><rect width="64" height="64" rx="5" transform="matrix(0.707106 0.707107 -0.707106 0.707107 45.2548 0)" fill="#1A3D97"></rect><g clip-path="url(#clip0)"><path d="M59.5795 56.5311C59.7013 56.3721 59.8159 56.1502 59.8122 55.8641V32.4075C59.8122 31.8251 59.3399 31.3528 58.7575 31.3528H55.368V28.0547C55.368 27.4722 54.8958 27 54.3133 27H31.2424C30.66 27 30.1877 27.4722 30.1877 28.0547V57.5925C30.1877 58.1749 30.66 58.6472 31.2424 58.6472H34.6319V61.9453C34.6319 62.5278 35.1041 63 35.6866 63H52.3898C52.6019 62.9993 52.9121 62.9177 53.1188 62.7084L59.4855 56.6343C59.5152 56.6028 59.5154 56.6068 59.5795 56.5311ZM32.2971 56.5378V29.1094H53.2587V31.3528H35.6865C35.1041 31.3528 34.6318 31.8251 34.6318 32.4075V56.5379H32.2971V56.5378ZM36.7412 33.4622H57.7028V54.8165H52.3907C51.8083 54.8165 51.3361 55.2887 51.3361 55.8712V60.8906H36.7412V33.4622ZM53.4454 59.4814V56.9258H56.1241L53.4454 59.4814Z" fill="white"></path><path d="M40.0159 41.8767H54.5683C55.1508 41.8767 55.623 41.4045 55.623 40.822C55.623 40.2396 55.1508 39.7673 54.5683 39.7673H40.0159C39.4334 39.7673 38.9612 40.2396 38.9612 40.822C38.9612 41.4045 39.4334 41.8767 40.0159 41.8767Z" fill="white"></path><path d="M40.0159 46.1055H54.5683C55.1508 46.1055 55.623 45.6333 55.623 45.0508C55.623 44.4683 55.1508 43.9961 54.5683 43.9961H40.0159C39.4334 43.9961 38.9612 44.4683 38.9612 45.0508C38.9612 45.6333 39.4334 46.1055 40.0159 46.1055Z" fill="white"></path><path d="M40.0159 50.334H54.5683C55.1508 50.334 55.623 49.8618 55.623 49.2793C55.623 48.6968 55.1508 48.2246 54.5683 48.2246H40.0159C39.4334 48.2246 38.9612 48.6968 38.9612 49.2793C38.9612 49.8618 39.4334 50.334 40.0159 50.334Z" fill="white"></path><path d="M48.6657 52.4531H40.0159C39.4334 52.4531 38.9612 52.9253 38.9612 53.5078C38.9612 54.0903 39.4334 54.5625 40.0159 54.5625H48.6657C49.2481 54.5625 49.7203 54.0903 49.7203 53.5078C49.7203 52.9253 49.2481 52.4531 48.6657 52.4531Z" fill="white"></path></g><defs><clipPath id="svg-6348"><rect width="36" height="36" fill="white" transform="translate(27 27)"></rect></clipPath></defs></svg> 													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+						 					
+															<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-1.svg" title="lawyer-svg-1" loading="lazy" width="90" height="90">													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Preparation of a package of documents						</h4>
-															<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91" fill="none"><rect width="64" height="64" rx="5" transform="matrix(0.707106 0.707107 -0.707106 0.707107 45.2548 0)" fill="#1A3D97"></rect><g clip-path="url(#clip0)"><path d="M56.5105 50.5659C58.2449 50.4563 59.6109 49.0186 59.6109 47.2594C59.6109 46.3871 59.2721 45.5923 58.7191 44.9999C59.272 44.4074 59.6109 43.6124 59.6109 42.7395C59.6109 41.2812 58.6636 40.0398 57.3516 39.5985V38.2219C57.3516 32.0245 52.3377 27 46.1297 27H43.8703C37.6736 27 32.6485 32.0143 32.6485 38.2219V39.5983C31.3366 40.0395 30.389 41.2814 30.389 42.7418C30.389 43.6136 30.7276 44.4079 31.2802 45C30.7276 45.5923 30.389 46.3869 30.389 47.2594C30.389 49.0153 31.7506 50.4512 33.4903 50.5655C29.6097 55.0559 29.2594 59.9715 29.2594 61.9453C29.2594 62.5278 29.7316 63 30.3141 63H59.6859C60.2684 63 60.7406 62.5278 60.7406 61.9453C60.7406 59.9704 60.39 55.0552 56.5105 50.5659ZM32.4984 47.2582C32.4984 46.5946 33.0383 46.0547 33.7031 46.0547C34.2855 46.0547 34.7572 45.5825 34.7572 45C34.7572 44.4175 34.2844 43.9453 33.702 43.9453C33.0383 43.9453 32.4984 43.4054 32.4984 42.7395C32.4984 42.0759 33.0383 41.536 33.7031 41.536C34.2855 41.536 34.7578 41.0638 34.7578 40.4813V38.2219C34.7578 33.1811 38.8385 29.1094 43.8703 29.1094H46.1296C51.1707 29.1094 55.2422 33.1893 55.2422 38.2219V40.4812C55.2422 41.0637 55.7155 41.5359 56.298 41.5359C56.9616 41.5359 57.5015 42.0758 57.5015 42.7406C57.5015 43.4048 56.9611 43.9452 56.2969 43.9452C55.7144 43.9452 55.2422 44.4175 55.2422 44.9999C55.2422 45.5824 55.7144 46.0546 56.2969 46.0546C56.9611 46.0546 57.5015 46.595 57.5015 47.2593C57.5015 47.9299 56.9584 48.4639 56.2969 48.4639H54.0375C53.3833 48.4639 52.8328 47.9347 52.8328 47.2593V38.2219C52.8328 36.3592 51.3155 34.9078 49.5187 34.9078H48.3878C47.1013 34.9078 46.0546 33.8612 46.0546 32.5735C46.0546 31.991 45.5824 31.5193 44.9999 31.5193C44.4174 31.5193 43.9452 31.9921 43.9452 32.5746C43.9452 33.8612 42.8985 34.9078 41.612 34.9078H40.4811C38.6775 34.9078 37.1671 36.3669 37.1671 38.2219V47.2594C37.1671 47.9299 36.624 48.464 35.9624 48.464H33.7031C33.0478 48.4641 32.4984 47.9346 32.4984 47.2582ZM45 48.4641C41.8441 48.4641 39.2765 45.8966 39.2765 42.7406V38.2219C39.2765 37.5465 39.8274 37.0172 40.4812 37.0172H41.612C42.9682 37.0172 44.1844 36.4064 44.9999 35.4453C45.8155 36.4063 47.0317 37.0172 48.3879 37.0172H49.5188C50.1686 37.0172 50.7235 37.5417 50.7235 38.2219V42.7406C50.7235 45.8966 48.156 48.4641 45 48.4641ZM47.3344 50.2182V56.3719H42.6656V50.2182C43.4032 50.4489 44.1873 50.5734 45 50.5734C45.8126 50.5734 46.5968 50.4489 47.3344 50.2182ZM31.4046 60.8906C31.7623 55.6554 34.6158 52.3576 35.8531 51.1202C36.0882 50.8851 36.2864 50.6868 36.433 50.5401C37.8185 50.3445 38.9002 49.3014 39.1945 47.9933C39.6004 48.4414 40.0575 48.8423 40.5562 49.1871V57.4265C40.5562 58.009 41.0284 58.4812 41.6109 58.4812H48.389C48.9715 58.4812 49.4437 58.009 49.4437 57.4265V49.1872C49.9425 48.8423 50.3996 48.4414 50.8056 47.9933C51.152 49.5311 52.4244 50.3722 53.5659 50.5388L54.1475 51.1204C55.3863 52.3592 58.2376 55.6559 58.5954 60.8908H31.4046V60.8906Z" fill="white"></path><path d="M46.1297 42.8154H43.8704C43.2879 42.8154 42.8157 43.2876 42.8157 43.8701C42.8157 44.4526 43.2879 44.9248 43.8704 44.9248H46.1297C46.7122 44.9248 47.1844 44.4526 47.1844 43.8701C47.1844 43.2876 46.7122 42.8154 46.1297 42.8154Z" fill="white"></path></g><defs><clipPath id="svg-8682"><rect width="36" height="36" fill="white" transform="translate(27 27)"></rect></clipPath></defs></svg> 													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+															<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-2.svg" title="lawyer-svg-2" loading="lazy" width="90" height="90">													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Meeting with a lawyer, signing a contract						</h4>
-															<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91" fill="none"><rect width="64" height="64" rx="5" transform="matrix(0.707107 0.707106 -0.707107 0.707106 45.2549 0)" fill="#1A3D97"></rect><g clip-path="url(#clip0)"><path d="M48.4741 35.8345L50.9408 37.6594C51.2185 37.8648 51.0781 38.3193 50.7271 38.3215L49.953 38.3262C49.9522 38.3262 49.9515 38.3262 49.9507 38.3262C49.7516 38.3262 49.589 38.1651 49.5878 37.9659C49.5842 37.3835 49.1094 36.913 48.5267 36.9178C47.9442 36.9214 47.475 37.3965 47.4785 37.9789C47.4854 39.1043 48.2475 40.051 49.2801 40.3425V40.3935C49.2801 40.976 49.7523 41.4482 50.3347 41.4482C50.9171 41.4482 51.3893 40.976 51.3893 40.3935V40.3403C51.8002 40.2264 52.1764 40.0073 52.4841 39.6957C52.9483 39.2256 53.2016 38.6029 53.197 37.9406V37.934C53.1917 37.1604 52.8172 36.4238 52.1953 35.9637L49.7286 34.1389C49.4485 33.9316 49.5957 33.485 49.9446 33.485H50.7199C50.9201 33.485 51.0829 33.6476 51.0829 33.8475C51.0829 34.43 51.5551 34.9022 52.1375 34.9022C52.7199 34.9022 53.1921 34.43 53.1921 33.8475C53.1921 32.7165 52.4281 31.7611 51.3893 31.4685V31.4177C51.3893 30.8353 50.917 30.363 50.3346 30.363C49.7522 30.363 49.28 30.8353 49.28 31.4177V31.4671C48.2387 31.7581 47.4723 32.7147 47.4723 33.8475C47.4724 34.6276 47.8468 35.3704 48.4741 35.8345Z" fill="white"></path><path d="M50.3347 44.8112C55.2465 44.8112 59.2425 40.8162 59.2425 35.9056C59.2425 30.9949 55.2465 27 50.3347 27C45.4228 27 41.4268 30.995 41.4268 35.9056C41.4268 40.8163 45.4228 44.8112 50.3347 44.8112ZM50.3347 29.1094C54.0834 29.1094 57.1332 32.1582 57.1332 35.9056C57.1332 39.6531 54.0834 42.7019 50.3347 42.7019C46.5859 42.7019 43.5361 39.6531 43.5361 35.9056C43.5361 32.1582 46.5859 29.1094 50.3347 29.1094Z" fill="white"></path><path d="M62.2747 47.1928C61.1341 45.7243 59.0747 45.448 57.5924 46.4764L53.5796 49.161C53.022 48.1227 51.9255 47.4149 50.6666 47.4149H47.8041C46.3591 46.0597 44.4301 45.2903 42.4404 45.2903C40.9471 45.2903 39.4943 45.7122 38.2395 46.5103C37.1088 47.2296 36.1839 48.2231 35.5483 49.396L35.011 49.7246L34.8718 49.3174C34.6833 48.7664 34.084 48.4723 33.5329 48.6606L27.7139 50.6489C27.163 50.8372 26.8685 51.437 27.057 51.9882L30.5777 62.2863C30.7662 62.8377 31.3658 63.1313 31.9166 62.9432L37.7356 60.955C38.2553 60.7773 38.5957 60.2101 38.3809 59.5816L47.6144 59.2958C50.129 59.2924 52.5404 58.5202 54.5887 57.0622L61.5519 52.1093C63.1483 50.973 63.4778 48.7407 62.2747 47.1928ZM32.2325 60.6061L29.3941 52.304L33.217 50.9977C33.6289 52.2023 35.6304 58.0566 36.0554 59.2999L32.2325 60.6061ZM60.3291 50.3905L53.3659 55.3434C51.672 56.5491 49.6773 57.1863 47.5976 57.1863C47.5868 57.1863 47.5758 57.1865 47.565 57.1868L37.6669 57.4932L35.7101 51.7695L36.8994 51.0422C36.8997 51.0421 36.8999 51.0419 36.9002 51.0416C37.0753 50.9345 37.2122 50.7772 37.2957 50.607C38.2664 48.6286 40.2377 47.3995 42.4404 47.3995C44.0322 47.3995 45.5105 48.0368 46.6033 49.1938C46.8045 49.407 47.0936 49.5241 47.37 49.5241H50.6666C51.3255 49.5241 51.8616 50.0599 51.8616 50.7185C51.8616 51.3702 51.3345 51.9129 50.6666 51.9129H44.7161C44.1336 51.9129 43.6615 52.3851 43.6615 52.9676C43.6615 53.55 44.1337 54.0223 44.7161 54.0223H50.6666C51.5499 54.0223 52.3798 53.6783 53.0027 53.0545C53.4385 52.6188 53.7371 52.0829 53.878 51.499L58.7732 48.2241C58.7791 48.2201 58.785 48.2161 58.7908 48.2121C59.3681 47.8088 60.1677 47.9186 60.6092 48.4869C61.0747 49.086 60.9474 49.9504 60.3291 50.3905Z" fill="white"></path></g><defs><clipPath id="svg-7251"><rect width="36" height="36" fill="white" transform="translate(27 27)"></rect></clipPath></defs></svg> 													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+															<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-3.svg" title="lawyer-svg-3" loading="lazy" width="90" height="90">													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Terms of payment for the performance of work						</h4>
-					<link rel="stylesheet" id="wd-swiper-arrows-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-swiper-arrows.min.css?ver=7.3.4" type="text/css" media="all" /> 										
+					 										
 				<h4>Why People Choose Our Company and Not Others?</h4> 
 			<p>Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially serious design flaws. A seemingly elegant design can quickly begin to bloat unexpected content or break under the weight of actual activity.</p>
-						<link rel="stylesheet" id="wd-photoswipe-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-photoswipe.min.css?ver=7.3.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-image-gallery-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-gallery.min.css?ver=7.3.4" type="text/css" media="all" /> 					
-													<a  href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-microsoft.svg"data-width="122" data-height="40" data-index="1" data-elementor-open-lightbox="no">
-						<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-microsoft.svg"alt="corporate-2-microsoft">
+						 						 					
+													<a href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-microsoft.svg" data-width="122" data-height="40" data-index="1" data-elementor-open-lightbox="no">
+						<img width="122" height="40" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-microsoft.svg" alt="corporate-2-microsoft" />
 													</a>
-													<a  href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-network-2.svg"data-width="112" data-height="40" data-index="2" data-elementor-open-lightbox="no">
-						<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-network-2.svg"alt="corporate-2-network-2">
+													<a href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-network-2.svg" data-width="112" data-height="40" data-index="2" data-elementor-open-lightbox="no">
+						<img width="112" height="40" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-network-2.svg" alt="corporate-2-network-2" />
 													</a>
-													<a  href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-slack.svg"data-width="107" data-height="40" data-index="3" data-elementor-open-lightbox="no">
-						<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-slack.svg"alt="corporate-2-slack">
+													<a href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-slack.svg" data-width="107" data-height="40" data-index="3" data-elementor-open-lightbox="no">
+						<img width="107" height="40" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-slack.svg" alt="corporate-2-slack" />
 													</a>
-													<a  href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-figma.svg"data-width="95" data-height="40" data-index="4" data-elementor-open-lightbox="no">
-						<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-figma.svg"alt="corporate-2-figma">
+													<a href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-figma.svg" data-width="95" data-height="40" data-index="4" data-elementor-open-lightbox="no">
+						<img width="95" height="40" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-figma.svg" alt="corporate-2-figma" />
 													</a>
-													<a  href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-sketch.svg"data-width="122" data-height="40" data-index="5" data-elementor-open-lightbox="no">
-						<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-sketch.svg"alt="corporate-2-sketch">
+													<a href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-sketch.svg" data-width="122" data-height="40" data-index="5" data-elementor-open-lightbox="no">
+						<img width="122" height="40" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-sketch.svg" alt="corporate-2-sketch" />
 													</a>
-													<a  href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-pinterest.svg"data-width="122" data-height="40" data-index="6" data-elementor-open-lightbox="no">
-						<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-pinterest.svg"alt="corporate-2-pinterest">
+													<a href="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-pinterest.svg" data-width="122" data-height="40" data-index="6" data-elementor-open-lightbox="no">
+						<img width="122" height="40" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-pinterest.svg" alt="corporate-2-pinterest" />
 													</a>
 			<p>These companies trust us *</p>
-															<svg id="svg-8292" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none"><path d="M62.125 60.25H61.9916V25.975C61.9916 24.9395 61.1521 24.1 60.1166 24.1H44.8266L33.875 13.1484V11.7834H48.0666C49.1021 11.7834 49.9416 10.9439 49.9416 9.90837V1.875C49.9416 0.8395 49.1021 0 48.0666 0H32C30.9645 0 30.125 0.8395 30.125 1.875V13.1484L19.1734 24.1H3.88337C2.84787 24.1 2.00837 24.9395 2.00837 25.975V60.25H1.875C0.8395 60.25 0 61.0895 0 62.125C0 63.1605 0.8395 64 1.875 64H62.125C63.1605 64 64 63.1605 64 62.125C64 61.0895 63.1605 60.25 62.125 60.25ZM33.875 3.75H46.1916V8.03337H33.875V3.75ZM18.075 60.25H5.75838V55.9666H18.075V60.25ZM18.075 52.2166H5.75838V27.85H18.075V52.2166ZM32 16.5766L39.5234 24.1H24.4766L32 16.5766ZM21.825 35.8834H26.1084V52.2168H21.825V35.8834ZM42.175 60.25H21.825V55.9666H42.175V60.25ZM29.8584 52.2166V35.8834H34.1418V52.2168H29.8584V52.2166ZM42.175 52.2166H37.8916V35.8834H42.175V52.2166ZM42.175 32.1334H21.825V27.85H42.175V32.1334ZM58.2416 60.25H45.925V55.9666H58.2416V60.25ZM58.2416 52.2166H45.925V27.85H58.2416V52.2166Z" fill="white"></path><path d="M11.9166 47.9334C12.9521 47.9334 13.7916 47.0939 13.7916 46.0584V44.05C13.7916 43.0145 12.9521 42.175 11.9166 42.175C10.8811 42.175 10.0416 43.0145 10.0416 44.05V46.0584C10.0416 47.0939 10.8811 47.9334 11.9166 47.9334Z" fill="white"></path><path d="M11.9166 38.8958C12.9521 38.8958 13.7916 38.0563 13.7916 37.0208V35.0125C13.7916 33.977 12.9521 33.1375 11.9166 33.1375C10.8811 33.1375 10.0416 33.977 10.0416 35.0125V37.0207C10.0416 38.0563 10.8811 38.8958 11.9166 38.8958Z" fill="white"></path><path d="M52.0834 47.9334C53.1189 47.9334 53.9584 47.0939 53.9584 46.0584V44.05C53.9584 43.0145 53.1189 42.175 52.0834 42.175C51.0479 42.175 50.2084 43.0145 50.2084 44.05V46.0584C50.2084 47.0939 51.0477 47.9334 52.0834 47.9334Z" fill="white"></path><path d="M52.0834 38.8958C53.1189 38.8958 53.9584 38.0563 53.9584 37.0208V35.0125C53.9584 33.977 53.1189 33.1375 52.0834 33.1375C51.0479 33.1375 50.2084 33.977 50.2084 35.0125V37.0207C50.2084 38.0563 51.0477 38.8958 52.0834 38.8958Z" fill="white"></path></svg> 													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+															<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-4.svg" title="lawyer-svg-4" loading="lazy" width="64" height="64">													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Reliability						</h4>
 					<p>Our organization has established itself as a reliable and stable partner</p>
-															<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none"><g clip-path="url(#clip0)"><path d="M62.125 36.15H60.9106C56.5093 31.4808 54.3338 25.6874 54.0044 20.1262C56.0486 19.7461 57.9306 18.7626 59.4338 17.2606C59.7856 16.909 59.9834 16.4319 59.9834 15.9344V15.9334C59.9834 14.8979 59.1439 14.0589 58.1084 14.0589C57.5828 14.0589 57.1077 14.2752 56.7673 14.6237C55.97 15.4154 55.0075 15.9797 53.9584 16.2866V15.9331C53.9584 14.8977 53.119 14.0583 52.0835 14.0583C51.048 14.0583 50.2086 14.8976 50.2086 15.9331V16.2866C49.1528 15.9777 48.1847 15.4081 47.385 14.6085L43.3675 10.5909C43.0159 10.2392 42.539 10.0416 42.0418 10.0416H37.584C36.9972 8.29925 35.6175 6.91937 33.875 6.33275V1.875C33.875 0.8395 33.0355 0 32 0C30.9645 0 30.125 0.8395 30.125 1.875V6.33275C28.3825 6.9195 27.0028 8.29925 26.416 10.0417H21.9583C21.4609 10.0417 20.9838 10.2395 20.6321 10.5913C20.6321 10.5913 18.7505 12.474 16.6162 14.6081C15.816 15.4079 14.8477 15.9775 13.7917 16.2865V15.9331C13.7917 14.8977 12.9524 14.0583 11.9169 14.0583C10.8814 14.0583 10.042 14.8976 10.042 15.9331V16.2866C8.986 15.9777 8.01813 15.4081 7.21838 14.6085C6.87875 14.2686 6.40963 14.0584 5.89162 14.0584C4.85612 14.0584 4.01662 14.8979 4.01662 15.9334C4.01662 16.4522 4.22738 16.9219 4.568 17.2614C6.07025 18.7633 7.95188 19.7465 9.996 20.1264C9.66663 25.6875 7.49113 31.4809 3.08975 36.1501H1.875C0.8395 36.1501 0 36.9896 0 38.0251C0 44.596 5.34587 49.9417 11.9166 49.9417C18.4874 49.9417 23.8333 44.596 23.8333 38.0251C23.8333 36.9896 22.9937 36.1501 21.9583 36.1501H20.7439C16.3425 31.4809 14.167 25.6875 13.8376 20.1264C15.882 19.7463 17.764 18.7628 19.2674 17.2603C20.7025 15.8251 22.0234 14.5039 22.7351 13.7917H26.4159C27.0026 15.5343 28.3824 16.914 30.1249 17.5007V50.3563C25.0527 51.1614 21.0362 55.1777 20.2311 60.25H15.9333C14.8978 60.25 14.0583 61.0895 14.0583 62.125C14.0583 63.1605 14.8978 64 15.9333 64H48.0665C49.102 64 49.9415 63.1605 49.9415 62.125C49.9415 61.0895 49.102 60.25 48.0665 60.25H43.7687C42.9636 55.1779 38.9473 51.1614 33.875 50.3563V17.5006C35.6175 16.9139 36.9972 15.5341 37.584 13.7916H41.265L44.7335 17.2601C46.236 18.7626 48.118 19.7463 50.1628 20.1264C49.8334 25.6875 47.6579 31.4809 43.2565 36.1501H42.0416C41.0061 36.1501 40.1666 36.9896 40.1666 38.0251C40.1666 44.596 45.5124 49.9417 52.0832 49.9417C58.6541 49.9417 64 44.5959 64 38.025C64 36.9895 63.1605 36.15 62.125 36.15ZM11.9166 46.1916C8.05863 46.1916 4.81675 43.5023 3.96712 39.9H19.8661C19.0165 43.5024 15.7747 46.1916 11.9166 46.1916ZM15.8527 36.15H7.981C9.34425 34.323 10.79 31.9377 11.9169 28.9459C13.0437 31.9377 14.4895 34.323 15.8527 36.15ZM39.9495 60.25H24.0505C24.9001 56.6476 28.142 53.9584 32 53.9584C35.858 53.9584 39.0999 56.6476 39.9495 60.25ZM32 14.0584C30.8191 14.0584 29.8584 13.0976 29.8584 11.9167C29.8584 10.7359 30.8191 9.775 32 9.775C33.1809 9.775 34.1416 10.7358 34.1416 11.9166C34.1416 13.0975 33.1809 14.0584 32 14.0584ZM52.0835 28.9459C53.2104 31.9377 54.6561 34.323 56.0194 36.15H48.1476C49.5109 34.323 50.9566 31.9377 52.0835 28.9459ZM52.0834 46.1916C48.2254 46.1916 44.9835 43.5023 44.1339 39.9H60.0329C59.1833 43.5024 55.9414 46.1916 52.0834 46.1916Z" fill="white"></path></g><defs><clipPath id="svg-3083"><rect width="64" height="64" fill="white"></rect></clipPath></defs></svg> 													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+															<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-5.svg" title="lawyer-svg-5" loading="lazy" width="64" height="64">													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Quality						</h4>
 					<p>We combine the quality of services and a deep understanding of the law</p>
-															<svg id="svg-6547" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none"><path d="M62.1248 52.2166H33.9663C32.9308 52.2166 32.0913 53.0561 32.0913 54.0916V62.125C32.0913 63.1605 32.9308 64 33.9663 64H62.1248C63.1603 64 63.9998 63.1605 63.9998 62.125V54.0916C63.9998 53.0561 63.1603 52.2166 62.1248 52.2166ZM60.2498 60.2499H35.8413V55.9666H60.2498V60.2499Z" fill="white"></path><path d="M32.9786 28.8571L32.8844 28.9512C32.1521 29.6837 32.1529 30.8713 32.8844 31.6028L38.5649 37.2833C39.2973 38.0157 40.4851 38.0148 41.2166 37.2833L55.4176 23.0824C56.1498 22.3503 56.1498 21.1631 55.4176 20.4308L49.7372 14.7503C49.0048 14.0179 47.8171 14.0188 47.0856 14.7503L46.9909 14.8449L41.1222 8.97582L41.2164 8.88157C41.9487 8.14932 41.9487 6.96219 41.2164 6.22994L35.5361 0.549441C34.8037 -0.182934 33.6159 -0.182059 32.8844 0.549441L18.6834 14.7503C17.9512 15.4826 17.9512 16.6697 18.6834 17.4019L24.3639 23.0824C25.0963 23.8148 26.2841 23.8139 27.0156 23.0824L27.1097 22.9883L28.7187 24.5972L23.9667 29.3488L22.4524 27.8346C21.7203 27.1023 20.5332 27.1024 19.8008 27.8346L0.549319 47.0854C-0.182931 47.8177 -0.182306 49.0056 0.549319 49.7371L6.22982 55.4177C6.96369 56.1514 8.15069 56.1484 8.88144 55.4177L28.1328 36.1668C28.8651 35.4346 28.8644 34.2467 28.1328 33.5152L26.6182 32.0004L31.3703 27.2487L32.9786 28.8571ZM7.55569 51.4402L4.52682 48.4113L21.1266 31.8121L24.1553 34.8409L7.55569 51.4402ZM48.4113 18.7278L51.4401 21.7567L39.8906 33.3059L36.8618 30.2771L48.4113 18.7278ZM25.6897 19.1051L22.6609 16.0762L34.2103 4.52694L37.2391 7.55582L25.6897 19.1051ZM38.4706 11.6274L44.3397 17.4969L35.6306 26.2056L29.7616 20.3367L38.4706 11.6274Z" fill="white"></path><path d="M46.1914 42.0417V46.0584C46.1914 47.0939 47.0309 47.9334 48.0664 47.9334C49.1019 47.9334 49.9414 47.0939 49.9414 46.0584V42.0417C49.9414 41.0062 49.1019 40.1667 48.0664 40.1667C47.0309 40.1667 46.1914 41.0062 46.1914 42.0417Z" fill="white"></path><path d="M54.774 47.384C55.506 48.1161 56.6934 48.1164 57.4257 47.384L59.4341 45.3756C60.1663 44.6434 60.1663 43.4562 59.4341 42.724C58.7019 41.9917 57.5147 41.9917 56.7824 42.724L54.774 44.7324C54.0418 45.4646 54.0418 46.6518 54.774 47.384Z" fill="white"></path><path d="M36.6991 42.7241C35.9668 43.4564 35.9668 44.6435 36.6991 45.3758L38.7073 47.3842C39.4395 48.1162 40.6265 48.1165 41.359 47.3842C42.0912 46.6519 42.0912 45.4648 41.359 44.7325L39.3507 42.7241C38.6186 41.992 37.4313 41.992 36.6991 42.7241Z" fill="white"></path></svg> 													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
+															<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-6.svg" title="lawyer-svg-6" loading="lazy" width="64" height="64">													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">
 								Result						</h4>
 					<p>An effective way to protect the client's rights and achieve maximum results</p>
 				<h4>Are There Any Other Questions?</h4> 
 					<p>Fill out the form and we will call you back.</p>				
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/woodmart2/elementor/wp-admin/admin-ajax.php#wpcf7-f4382-o2" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<input type="hidden" name="_wpcf7" value="4382" />
-<input type="hidden" name="_wpcf7_version" value="5.7.7" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4382-o2" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Your phone number" value="" type="text" name="Your" />
-	</p>
-	<p><input type="submit" value="Get Consult" />
-	</p>
-</form>
+<p role="status" aria-live="polite"></p> <ul></ul>
+
+
+
+
+
+
+
+		<p>
+		</p>
+		<p>
+		</p>
+
 					PRODUCTIVITY REDEFINED				
 				<h4>We Are a Team of Highly Professional Specialists</h4> 
 			<p>Each of us practices in certain areas of law, which in general allows us to fully meet the client’s needs for legal support. We are always open to interesting ideas and proposals, as well as ready for constructive and comprehensive cooperation!</p>
-			<a  href="#">
+			<a href="#">
 					learn more				
 							</a>
-								<img width="520" height="420" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists.jpg 520w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists-371x300.jpg 371w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists-430x347.jpg 430w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists-130x105.jpg 130w" sizes="(max-width: 520px) 100vw, 520px" />					
+								<img width="520" height="420" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists.jpg" alt="" />					
 					TESTIMONIALS				
 				<h4>Customer Reviews</h4> 
 					<p>They have already used our services</p>				
-						<link rel="stylesheet" id="wd-mod-star-rating-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/mod-star-rating.min.css?ver=7.3.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-testimonial-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-testimonial.min.css?ver=7.3.4" type="text/css" media="all" /> 					
-				<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-1-60x60.jpg">			
+						 						 					
+				<img width="60" height="60" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-1-60x60.jpg" alt="" />			
 					Kristin Watson				
 			<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always.</p>		
-				<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-2-60x60.jpg">			
+				<img width="60" height="60" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-2-60x60.jpg" alt="" />			
 					Ronald Richards				
 			<p>We contacted a lawyer last year when a question arose about reorganizing the firm. We were very lucky, everything was done quickly!</p>		
-				<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3-60x60.jpg">			
+				<img width="60" height="60" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3-60x60.jpg" alt="" />			
 					Wade Warren				
 			<p>The way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming.</p>		
-				<img src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4-60x60.jpg">			
+				<img width="60" height="60" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4-60x60.jpg" alt="" />			
 					Aviana Plummer				
 			<p>But worse, what if the fish doesn’t fit in the can, the foot’s to big for the boot? Or to small? To short sentences, to many headings, images too.</p>		
-							<link rel="stylesheet" id="wd-swiper-pagin-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-swiper-pagin.min.css?ver=7.3.4" type="text/css" media="all" /> 					
+							 					
 			<ul></ul>
 				<h4>A Guarantee of Achieving the Desired Result!</h4> 
 		<p>The specialists of our company will provide you with expert advice on any issue that interests you.</p>		
@@ -324,32 +330,32 @@
 						An integrated approach					
 									</li>
 					</ul>
-								<img width="357" height="520" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom.png" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom.png 357w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom-206x300.png 206w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom-130x189.png 130w" sizes="(max-width: 357px) 100vw, 357px" />					
+								<img width="357" height="520" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom.png" alt="" />					
 				<h4>Get Free Consultation!</h4> 
 			<p>We are ready to answer right now! Sign up for a free consultation.</p>
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/woodmart2/elementor/wp-admin/admin-ajax.php#wpcf7-f4381-o3" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<input type="hidden" name="_wpcf7" value="4381" />
-<input type="hidden" name="_wpcf7_version" value="5.7.7" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4381-o3" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="First name" value="" type="text" name="First" />
-	</p>
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Last name" value="" type="text" name="Last" />
-	</p>
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Your phone number" value="" type="text" name="Your" />
-	</p>
-	<p><input type="submit" value="Get Consult" />
-	</p>
-</form>
+<p role="status" aria-live="polite"></p> <ul></ul>
+
+
+
+
+
+
+
+		<p>
+		</p>
+		<p>
+		</p>
+		<p>
+		</p>
+		<p>
+		</p>
+
 			<p>I consent to the processing of personal data and agree with the user agreement and privacy policy</p>]]></content:encoded>
 															<wp:post_id>7429</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:32:07]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-10-24 11:32:07]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-12-21 13:43:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-12-21 13:43:02]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-21 12:56:04]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-21 12:56:04]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-lawyer]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -390,7 +396,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.16.6]]></wp:meta_value>
+							<wp:meta_value><![CDATA[3.24.7]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
@@ -398,11 +404,11 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"d7a090c","elType":"container","settings":{"wd_section_stretch":"stretch","structure":"20","background_background":"classic","background_image":{"id":7469,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-pic-bg.jpg","alt":"","source":"library"},"background_position":"center center","background_repeat":"no-repeat","background_size":"cover","margin":{"unit":"px","top":"-40","right":"0","bottom":"100","left":"0","isLinked":""},"flex_gap":{"size":30,"column":"30","row":"0","unit":"px","isLinked":false},"content_position":"bottom","margin_tablet":{"unit":"px","top":"-40","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"-40","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_align_items":"flex-end","scroll_y":-80,"flex_align_items_tablet":"flex-end","padding":{"unit":"px","top":"30","right":"15","bottom":"0","left":"15","isLinked":false},"container_sticky_offset":50},"elements":[{"id":"f8ec154","elType":"widget","settings":{"anchor":"Home","scroll_y":-80,"_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"8ce9a64","elType":"container","settings":{"_column_size":"50","width":{"size":"58","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"50","unit":"%"},"content_width":"full","flex_justify_content_tablet":"flex-start","flex_gap":{"column":"30","row":"30","isLinked":true,"unit":"px","size":30},"margin":{"unit":"px","top":"40","right":"0","bottom":"40","left":"0","isLinked":false},"container_sticky_offset":50},"elements":[{"id":"4533be6","elType":"widget","settings":{"subtitle":"Comprehensive legal support","title":"The Guarantor of Your Success","after_title":"","align":"left","subtitle_color":"rgba(16, 16, 16, 0.8)","subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":"24","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"18","sizes":[]},"title_color":"#1A3D97","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"83","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"42","sizes":[]},"title_typography_font_weight":"700","scroll_y":"-80","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_font_family":"Roboto","title_typography_line_height":{"unit":"em","size":"1.1","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"4ddb8de","elType":"widget","settings":{"form_id":"4383","_margin":{"unit":"px","top":"0","right":"0","bottom":"55","left":"0","isLinked":false},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"scroll_y":"-80","style":"wd-style-with-bg"},"elements":[],"widgetType":"wd_contact_form_7"},{"id":"3611707","elType":"container","settings":{"flex_gap":{"size":30,"column":"30","row":"30","unit":"px","isLinked":true},"structure":"30","margin":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":false},"hide_tablet":"hidden-tablet","hide_mobile":"hidden-phone","flex_direction":"row","content_width":"full","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"34e80c9","elType":"container","settings":{"_column_size":"33","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"25","row":"25","isLinked":true,"unit":"px","size":25},"container_sticky_offset":50},"elements":[{"id":"fdaf13f","elType":"widget","settings":{"label":"","value":"1500","size":"extra-large","align":"left","color_scheme":"custom","color":"#1A3D97","scroll_y":"-80","value_typography_font_family":"Inter","value_typography_font_weight":"300"},"elements":[],"widgetType":"wd_counter"},{"id":"7df49d2","elType":"widget","settings":{"text":"<p>Companies in service<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":18,"sizes":[]},"text_color":"primary","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"}],"isInner":true},{"id":"ddb17dd","elType":"container","settings":{"_column_size":"33","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"25","row":"25","isLinked":true,"unit":"px","size":25},"container_sticky_offset":50},"elements":[{"id":"994b0b1","elType":"widget","settings":{"label":"","value":"180","size":"extra-large","align":"left","color_scheme":"custom","color":"#1A3D97","scroll_y":"-80","value_typography_font_family":"Inter","value_typography_font_weight":"300"},"elements":[],"widgetType":"wd_counter"},{"id":"c148849","elType":"widget","settings":{"text":"<p>Received licenses<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":18,"sizes":[]},"text_color":"primary","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"}],"isInner":true},{"id":"3d60ee7","elType":"container","settings":{"_column_size":"33","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"25","row":"25","isLinked":true,"unit":"px","size":25},"container_sticky_offset":50},"elements":[{"id":"d47f94e","elType":"widget","settings":{"label":"","value":"12","size":"extra-large","align":"left","color_scheme":"custom","color":"#1A3D97","scroll_y":"-80","value_typography_font_family":"Inter","value_typography_font_weight":"300"},"elements":[],"widgetType":"wd_counter"},{"id":"bd865ab","elType":"widget","settings":{"text":"<p>Professional lawyers<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":18,"sizes":[]},"text_color":"primary","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"}],"isInner":true}],"isInner":true}],"isInner":true},{"id":"52d19d9","elType":"container","settings":{"_column_size":"50","width":{"size":"42","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"50","unit":"%"},"content_width":"full","container_sticky_offset":50},"elements":[{"id":"a3d7377","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-pic.png","id":7470,"alt":"","source":"library"},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":true}],"isInner":false},{"id":"7519902","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"90","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":30,"column":"30","row":"30","unit":"px","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"5802434","elType":"widget","settings":{"anchor":"Services","scroll_y":-80,"_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"385de34","elType":"widget","settings":{"subtitle":"EMPLOYEE PRODUCTIVITY","title":"We Work in Such Directions","after_title":"","color":"primary","size":"large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"bb24cbb","elType":"container","settings":{"flex_gap":{"size":30,"column":"30","row":"30","unit":"px","isLinked":true},"structure":"40","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","flex_direction_tablet":"column","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"979bdc2","elType":"container","settings":{"_column_size":"25","width_tablet":{"size":100,"unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_direction":"row","flex_gap":{"column":"30","row":"30","isLinked":true,"unit":"px","size":30},"container_sticky_offset":50},"elements":[{"id":"dea9ade","elType":"widget","settings":{"icon_text":"01.","subtitle":"","title":"Registration","content":"<p>Authorities in our business will tell in no uncertain<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":50,"sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":100,"sizes":[]}},"elements":[],"widgetType":"wd_infobox"},{"id":"08cc807","elType":"widget","settings":{"icon_text":"02.","subtitle":"","title":"Services","content":"<p>There are some redeeming factors in favor<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":50,"sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":100,"sizes":[]}},"elements":[],"widgetType":"wd_infobox"}],"isInner":true},{"id":"0261b5c","elType":"container","settings":{"_column_size":"25","width_tablet":{"size":100,"unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_direction":"row","flex_gap":{"column":"30","row":"30","isLinked":true,"unit":"px","size":30},"container_sticky_offset":50},"elements":[{"id":"44d14e9","elType":"widget","settings":{"icon_text":"03.","subtitle":"","title":"Taxation","content":"<p>Anyway, you still use Lorem Ipsum and rightly<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":50,"sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":100,"sizes":[]}},"elements":[],"widgetType":"wd_infobox"},{"id":"bbd5986","elType":"widget","settings":{"icon_text":"04.","subtitle":"","title":"IT law","content":"<p>Comprehensive support for IT projects deserved<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":50,"sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":100,"sizes":[]}},"elements":[],"widgetType":"wd_infobox"}],"isInner":true}],"isInner":true}],"isInner":false},{"id":"5cd7efb","elType":"container","settings":{"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"100","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"reverse_order_mobile":"reverse-mobile","flex_direction":"row","flex_gap":{"size":30,"column":"30","row":"40","unit":"px","isLinked":false},"flex_direction_mobile":"column-reverse","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"75256a9","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":50,"sizes":[]},"flex_gap":{"column":"30","row":"30","isLinked":true,"unit":"px","size":30},"container_sticky_offset":50},"elements":[{"id":"fb2b07a","elType":"widget","settings":{"subtitle":"FOR YOUR UNIQUE SOLUTIONS","title":"We provide such services","after_title":"","color":"primary","size":"large","align":"left","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80","_margin":{"unit":"px","top":"0","right":"0","bottom":"-15","left":"0","isLinked":false}},"elements":[],"widgetType":"wd_title"},{"id":"5890eba","elType":"widget","settings":{"editor":"<p>We provide qualified legal assistance in civil, criminal, economic and other branches of law. For the time of our work, we have helped our Clients resolve the most difficult issues, as evidenced by positive feedback.<\/p>","scroll_y":"-80","wd_content_width":{"unit":"px","size":"582","sizes":[]}},"elements":[],"widgetType":"text-editor"},{"id":"72cfc7a","elType":"container","settings":{"structure":"20","flex_direction":"row","flex_gap":{"size":30,"column":"30","row":"30","unit":"px","isLinked":true},"content_width":"full","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"b0e5353","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"15","row":"15","isLinked":false,"unit":"px","size":15},"container_sticky_offset":50},"elements":[{"id":"a416edb","elType":"widget","settings":{"text":"Services for individuals:","typography_typography":"custom","typography_font_family":"Roboto","typography_font_size":{"unit":"px","size":20,"sizes":[]},"typography_font_size_mobile":{"unit":"px","size":18,"sizes":[]},"typography_font_weight":"700","text_color":"title","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"},{"id":"3a0a344","elType":"widget","settings":{"list_items":[{"list_content":"Consulting","_id":"10c821a","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Land disputes","_id":"ea69978","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Civil cases","_id":"70f0c54","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Support of transactions","_id":"ae0354f","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Obtaining a passport","_id":"c46b8b9","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-check","library":"fa-solid"},"icons_color":"#1A3D97","scroll_y":"-80","size":"medium","list_type":"image","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2023\/11\/w-lawyer-checked.svg","id":21235,"size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"16","height":"16"}},"elements":[],"widgetType":"wd_list"}],"isInner":true},{"id":"d8725a9","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"15","row":"15","isLinked":true,"unit":"px","size":15},"container_sticky_offset":50},"elements":[{"id":"11da2bf","elType":"widget","settings":{"text":"<p>For legal entities:<\/p>","typography_typography":"custom","typography_font_family":"Roboto","typography_font_size":{"unit":"px","size":20,"sizes":[]},"typography_font_size_mobile":{"unit":"px","size":18,"sizes":[]},"typography_font_weight":"700","text_color":"title","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"},{"id":"3b71c4b","elType":"widget","settings":{"list_items":[{"list_content":"Contract law","_id":"10c821a","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Registration of legal entities","_id":"59bb188","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Labor disputes","_id":"32055bb","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Obtaining licenses","_id":"c265304","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-check","library":"fa-solid"},"icons_color":"#1A3D97","scroll_y":"-80","size":"medium","list_type":"image","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2023\/11\/w-lawyer-checked.svg","id":21235,"size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"16","height":"16"}},"elements":[],"widgetType":"wd_list"}],"isInner":true}],"isInner":true},{"id":"5b1193b","elType":"widget","settings":{"text":"learn more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":true},{"id":"8fb765d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":50,"sizes":[]},"container_sticky_offset":50},"elements":[{"id":"02de2ba","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-services.jpg","id":7471,"alt":"","source":"library"},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80","alignment":"right"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":true}],"isInner":false},{"id":"a9e5c57","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"100","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":30,"column":"30","row":"30","unit":"px","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"e8cacdb","elType":"widget","settings":{"subtitle":"FOR YOUR ADVANCED FEATURES","title":"How We Work with Clients","after_title":"","color":"primary","size":"large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"34c804f","elType":"widget","settings":{"content_repeater":[{"title":"Preparation of a package of documents","subtitle":"","_id":"24f8325","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"id":7445,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-1.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"content":"","btn_text":""},{"title":"Meeting with a lawyer, signing a contract","subtitle":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"id":7446,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-2.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"content":"","btn_text":"","_id":"26cadab"},{"title":"Terms of payment for the performance of work","subtitle":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"id":7447,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-3.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"content":"","btn_text":"","_id":"e51a468"}],"hide_pagination_control":"yes","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80","padding":{"unit":"px","top":"0","right":"30","bottom":"0","left":"30","isLinked":false},"slides_per_view_tablet":{"unit":"px","size":2,"sizes":[]},"slides_per_view_mobile":{"unit":"px","size":1,"sizes":[]},"sync_parent_id":"wd_65843fc454c99"},"elements":[],"widgetType":"wd_infobox_carousel"}],"isInner":false},{"id":"88f9aed","elType":"container","settings":{"wd_section_stretch":"stretch","structure":"20","background_background":"classic","background_color":"#1A3D97","padding":{"unit":"px","top":"100","right":"15","bottom":"130","left":"15","isLinked":""},"padding_tablet":{"unit":"px","top":"80","right":"15","bottom":"110","left":"15","isLinked":""},"padding_mobile":{"unit":"px","top":"60","right":"15","bottom":"90","left":"15","isLinked":""},"flex_gap":{"size":30,"column":"30","row":"40","unit":"px","isLinked":false},"content_position":"middle","flex_direction":"row","flex_align_items":"center","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"50af6d0","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","wd_color_scheme":"light","content_width":"full","width":{"unit":"%","size":50,"sizes":[]},"flex_gap":{"column":"30","row":"30","isLinked":true,"unit":"px","size":30},"container_sticky_offset":50},"elements":[{"id":"0f1a67a","elType":"widget","settings":{"anchor":"About_Us","scroll_y":-80,"_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"a57c2ff","elType":"widget","settings":{"subtitle":"","title":"Why People Choose Our Company and Not Others?","after_title":"","color":"white","align":"left","width":{"unit":"%","size":"90","sizes":[]},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"54","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"26","sizes":[]},"scroll_y":"-80","_margin":{"unit":"px","top":"0","right":"0","bottom":"-5","left":"0","isLinked":false}},"elements":[],"widgetType":"wd_title"},{"id":"bc928a2","elType":"widget","settings":{"text":"<p>Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially serious design flaws. A seemingly elegant design can quickly begin to bloat unexpected content or break under the weight of actual activity.<\/p>","text_color_scheme":"light","width":{"unit":"px","size":522,"sizes":[]},"scroll_y":"-80","typography_typography":"custom","typography_font_family":"Roboto"},"elements":[],"widgetType":"wd_text_block"},{"id":"c9cf65a","elType":"widget","settings":{"ids_size":"full","view":"carousel","spacing":"30","vertical_align":"top","hide_pagination_control":"yes","scroll_y":"-80","ids":[{"id":7382,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-microsoft.svg"},{"id":7383,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-network-2.svg"},{"id":7387,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-slack.svg"},{"id":7379,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-figma.svg"},{"id":7386,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-sketch.svg"},{"id":7385,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-pinterest.svg"}],"slides_per_view_tablet":{"unit":"px","size":3,"sizes":[]},"slides_per_view_mobile":{"unit":"px","size":2,"sizes":[]},"sync_parent_id":"wd_65843fc451b04"},"elements":[],"widgetType":"wd_images_gallery"},{"id":"67c1262","elType":"widget","settings":{"text":"<p>These companies trust us *<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"15","sizes":[]},"text_color":"custom","custom_text_color":"#FFFFFF4D","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":true},{"id":"3bb3a92","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","margin":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":true},"content_width":"full","width":{"unit":"%","size":50,"sizes":[]},"flex_gap":{"column":"40","row":"40","isLinked":true,"unit":"px","size":40},"padding":{"unit":"%","top":"0","right":"8","bottom":"0","left":"8","isLinked":false},"padding_tablet":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":true},"container_sticky_offset":50},"elements":[{"id":"2f9f94e","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":7448,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-4.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"64","height":"64"},"subtitle":"","title":"Reliability","content":"<p>Our organization has established itself as a reliable and stable partner<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"},{"id":"ae33797","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":7449,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-5.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"64","height":"64"},"subtitle":"","title":"Quality","content":"<p>We combine the quality of services and a deep understanding of the law<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"},{"id":"db8062b","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":7450,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-6.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"64","height":"64"},"subtitle":"","title":"Result","content":"<p>An effective way to protect the client's rights and achieve maximum results<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"}],"isInner":true}],"isInner":false},{"id":"269caad","elType":"container","settings":{"margin":{"unit":"px","top":"-40","right":"0","bottom":"80","left":"0","isLinked":""},"content_position":"middle","margin_mobile":{"unit":"px","top":"-40","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_align_items":"center","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"flex_direction_tablet":"column","flex_justify_content":"space-between","flex_justify_content_tablet":"flex-start","background_background":"classic","background_color":"#FFFFFF","padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"ce525e7","elType":"widget","settings":{"subtitle":"","title":"Are There Any Other Questions?","after_title":"<p>Fill out the form and we will call you back.<\/p>","size":"large","align":"left","title_color":"#1A3D97","scroll_y":"-80","_element_width_tablet":"inherit","_element_custom_width":{"unit":"%","size":50,"sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"39440c4","elType":"widget","settings":{"form_id":"4382","scroll_y":"-80","_element_width_tablet":"inherit","_element_custom_width":{"unit":"px","size":420,"sizes":[]},"_element_custom_width_tablet":{"unit":"px","size":"745","sizes":[]},"_flex_size":"grow"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":false},{"id":"d96db01","elType":"container","settings":{"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"100","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"reverse_order_mobile":"reverse-mobile","flex_gap":{"size":30,"column":"30","row":"40","unit":"px"},"content_position":"middle","flex_direction":"row","flex_align_items":"center","flex_direction_mobile":"column-reverse","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"abb234a","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":50,"sizes":[]},"container_sticky_offset":50},"elements":[{"id":"8d91c3f","elType":"widget","settings":{"subtitle":"PRODUCTIVITY REDEFINED","title":"We Are a Team of Highly Professional Specialists","after_title":"","color":"primary","size":"large","align":"left","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"d86df9f","elType":"widget","settings":{"text":"<p>Each of us practices in certain areas of law, which in general allows us to fully meet the client\u2019s needs for legal support. We are always open to interesting ideas and proposals, as well as ready for constructive and comprehensive cooperation!<\/p>","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"26757ee","elType":"widget","settings":{"text":"learn more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":true},{"id":"0bce23e","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":50,"sizes":[]},"container_sticky_offset":50},"elements":[{"id":"6bb5ce8","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-specialists.jpg","id":7472,"alt":"","source":"library"},"alignment":"right","scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":true}],"isInner":false},{"id":"01a2af8","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":30,"column":"30","row":"30","unit":"px","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"d489074","elType":"widget","settings":{"anchor":"Testimonials","scroll_y":-80,"_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"be8c743","elType":"widget","settings":{"subtitle":"TESTIMONIALS","title":"Customer Reviews","after_title":"<p>They have already used our services<\/p>","color":"primary","size":"large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"ee8bed0","elType":"widget","settings":{"items_repeater":[{"title":"","name":"Kristin Watson","content":"<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always.<\/p>","_id":"836b437","image":{"id":7473,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-1.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"}},{"title":"","name":"Ronald Richards","content":"<p>We contacted a lawyer last year when a question arose about reorganizing the firm. We were very lucky, everything was done quickly!<\/p>","image":{"id":7474,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-2.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"b10b3c3"},{"title":"","name":"Wade Warren","content":"<p>The way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming.<\/p>","image":{"id":7475,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-3.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"c93ae77"},{"title":"","name":"Aviana Plummer","content":"<p>But worse, what if the fish doesn\u2019t fit in the can, the foot\u2019s to big for the boot? Or to small? To short sentences, to many headings, images too.<\/p>","image":{"id":7476,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-4.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"66b1dff"}],"align":"left","hide_pagination_control":"","scroll_y":"-80","style":"info-top","_background_background":"classic","text_background_color_normal":"#FFFFFF","slides_per_view_tablet":{"unit":"px","size":2,"sizes":[]},"slides_per_view_mobile":{"unit":"px","size":1,"sizes":[]},"sync_parent_id":"wd_65843fc453669"},"elements":[],"widgetType":"wd_testimonials"}],"isInner":false},{"id":"137d9f1","elType":"container","settings":{"content_position":"bottom","wd_section_stretch":"stretch","structure":"30","background_background":"classic","background_image":{"id":7482,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-bottom-bg.jpg","alt":"","source":"library"},"background_position":"top center","background_repeat":"no-repeat","background_size":"cover","background_size_mobile":"initial","background_bg_width_mobile":{"unit":"px","size":"0","sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"-40","left":"0","isLinked":""},"padding_tablet":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true},"flex_direction":"row","flex_align_items":"flex-end","flex_gap":{"size":0,"column":"0","row":"0","unit":"px","isLinked":true},"flex_direction_tablet":"column","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"53dcb89","elType":"container","settings":{"_column_size":"33","width":{"size":67,"unit":"%"},"width_tablet":{"size":100,"unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_direction":"row","flex_align_items":"flex-end","flex_gap":{"column":"15","row":"0","isLinked":false,"unit":"px","size":15},"container_sticky_offset":50},"elements":[{"id":"2b28155","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":55,"sizes":[]},"width_tablet":{"unit":"%","size":58,"sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"boxed_width":{"unit":"%","size":50,"sizes":[]},"boxed_width_tablet":{"unit":"%","size":"","sizes":[]},"boxed_width_mobile":{"unit":"%","size":"","sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"50","left":"0","isLinked":false},"margin_tablet":{"unit":"px","top":"0","right":"15","bottom":"40","left":"15","isLinked":false},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"98c23db","elType":"widget","settings":{"anchor":"Contacts","scroll_y":-80},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"cb64a80","elType":"widget","settings":{"subtitle":"","title":"A Guarantee of Achieving the Desired Result!","after_title":"","align":"left","width":{"unit":"%","size":"90","sizes":[]},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"54","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"26","sizes":[]},"scroll_y":"-80","title_color":"#1A3D97","title_typography_line_height":{"unit":"em","size":1.2,"sizes":[]},"title_typography_font_family":"Roboto"},"elements":[],"widgetType":"wd_title"},{"id":"b4ae8fc","elType":"widget","settings":{"editor":"<p>The specialists of our company will provide you with expert advice on any issue that interests you.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"text-editor"},{"id":"d2c4735","elType":"widget","settings":{"list_items":[{"list_content":"Experienced lawyers","_id":"6eb6b5f","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Speed and reliability","_id":"1e48d4f","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"An integrated approach","_id":"1a7dd44","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"ordered","size":"medium","list_style":"square","icons_color":"#FFFFFF","icons_bg_color":"#1A3D97","scroll_y":"-80"},"elements":[],"widgetType":"wd_list"}],"isInner":true},{"id":"43d7fc4","elType":"container","settings":{"_column_size":"33","width":{"size":45,"unit":"%"},"width_tablet":{"size":"42","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","container_sticky_offset":50},"elements":[{"id":"deb2829","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-bottom.png","id":7478,"size":"","alt":"","source":"library"},"alignment":"center","_margin":{"unit":"%","top":"0","right":"0","bottom":"0","left":"-20","isLinked":false},"_margin_tablet":{"unit":"%","top":"0","right":"-20","bottom":"0","left":"0","isLinked":false},"_margin_mobile":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":false},"_element_custom_width":{"unit":"px","size":502,"sizes":[]},"scroll_y":-80,"_transform_keep_proportions":"","_transform_scale_effect":{"unit":"px","size":1.1,"sizes":[]}},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":true}],"isInner":true},{"id":"d952828","elType":"container","settings":{"_column_size":"33","width_tablet":{"size":"100","unit":"%"},"background_background":"classic","background_color":"#1A3D97","padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"column_sticky_offset":"50","scroll_y":"-80","wd_color_scheme":"light","content_width":"full","width":{"unit":"%","size":33,"sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":true,"unit":"px","size":0},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true},"container_sticky_offset":50},"elements":[{"id":"0fe6d01","elType":"widget","settings":{"subtitle":"","title":"Get Free Consultation!","after_title":"","color":"white","align":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"54","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"26","sizes":[]},"scroll_y":"-80","width_mobile":{"unit":"%","size":"100","sizes":[]},"title_typography_font_family":"Roboto","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":false}},"elements":[],"widgetType":"wd_title"},{"id":"8b8ef2b","elType":"widget","settings":{"text":"<p>We are ready to answer right now! Sign up for a free consultation.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":false},"scroll_y":-80},"elements":[],"widgetType":"wd_text_block"},{"id":"39a3097","elType":"widget","settings":{"form_id":"4381","scroll_y":"-80","style":"wd-style-with-bg","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":false}},"elements":[],"widgetType":"wd_contact_form_7"},{"id":"3c03571","elType":"widget","settings":{"text":"<p>I consent to the processing of personal data and agree with the user agreement and privacy policy<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":13,"sizes":[]},"text_color":"custom","custom_text_color":"#FFFFFF4D","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"d7a090c","elType":"container","settings":{"wd_section_stretch":"stretch","structure":"20","background_background":"classic","background_image":{"id":"7469","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-pic-bg.jpg","alt":"","source":"library"},"background_position":"center center","background_repeat":"no-repeat","background_size":"cover","margin":{"unit":"px","top":"-40","right":"0","bottom":"100","left":"0","isLinked":""},"flex_gap":{"size":"30","column":"30","row":"0","unit":"px","isLinked":""},"content_position":"bottom","margin_tablet":{"unit":"px","top":"-40","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"-40","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_align_items":"flex-end","scroll_y":"-80","flex_align_items_tablet":"flex-end","padding":{"unit":"px","top":"30","right":"15","bottom":"0","left":"15","isLinked":""},"container_sticky_offset":"50"},"elements":[{"id":"f8ec154","elType":"widget","settings":{"anchor":"Home","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"8ce9a64","elType":"container","settings":{"_column_size":"50","width":{"size":"58","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"50","unit":"%"},"content_width":"full","flex_justify_content_tablet":"flex-start","flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"margin":{"unit":"px","top":"40","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50"},"elements":[{"id":"4533be6","elType":"widget","settings":{"subtitle":"Comprehensive legal support","title":"The Guarantor of Your Success","after_title":"","align":"left","subtitle_color":"rgba(16, 16, 16, 0.8)","subtitle_typography_typography":"custom","subtitle_typography_font_size":{"unit":"px","size":"24","sizes":[]},"subtitle_typography_font_size_tablet":{"unit":"px","size":"18","sizes":[]},"title_color":"#1A3D97","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"83","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"42","sizes":[]},"title_typography_font_weight":"700","scroll_y":"-80","width":{"unit":"%","size":"90","sizes":[]},"subtitle_typography_font_family":"Roboto","title_typography_line_height":{"unit":"em","size":"1.1","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"4ddb8de","elType":"widget","settings":{"form_id":"4383","_margin":{"unit":"px","top":"0","right":"0","bottom":"55","left":"0","isLinked":""},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"scroll_y":"-80","style":"wd-style-with-bg"},"elements":[],"widgetType":"wd_contact_form_7"},{"id":"3611707","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"30","margin":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":""},"hide_tablet":"hidden-tablet","hide_mobile":"hidden-phone","flex_direction":"row","content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"34e80c9","elType":"container","settings":{"_column_size":"33","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"25","row":"25","isLinked":"1","unit":"px","size":"25"},"container_sticky_offset":"50"},"elements":[{"id":"fdaf13f","elType":"widget","settings":{"label":"","value":"1500","size":"extra-large","align":"left","color_scheme":"custom","color":"#1A3D97","scroll_y":"-80","value_typography_font_family":"Inter","value_typography_font_weight":"300"},"elements":[],"widgetType":"wd_counter"},{"id":"7df49d2","elType":"widget","settings":{"text":"<p>Companies in service<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"18","sizes":[]},"text_color":"primary","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":"1"},{"id":"ddb17dd","elType":"container","settings":{"_column_size":"33","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"25","row":"25","isLinked":"1","unit":"px","size":"25"},"container_sticky_offset":"50"},"elements":[{"id":"994b0b1","elType":"widget","settings":{"label":"","value":"180","size":"extra-large","align":"left","color_scheme":"custom","color":"#1A3D97","scroll_y":"-80","value_typography_font_family":"Inter","value_typography_font_weight":"300"},"elements":[],"widgetType":"wd_counter"},{"id":"c148849","elType":"widget","settings":{"text":"<p>Received licenses<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"18","sizes":[]},"text_color":"primary","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":"1"},{"id":"3d60ee7","elType":"container","settings":{"_column_size":"33","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"25","row":"25","isLinked":"1","unit":"px","size":"25"},"container_sticky_offset":"50"},"elements":[{"id":"d47f94e","elType":"widget","settings":{"label":"","value":"12","size":"extra-large","align":"left","color_scheme":"custom","color":"#1A3D97","scroll_y":"-80","value_typography_font_family":"Inter","value_typography_font_weight":"300"},"elements":[],"widgetType":"wd_counter"},{"id":"bd865ab","elType":"widget","settings":{"text":"<p>Professional lawyers<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"18","sizes":[]},"text_color":"primary","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":"1"}],"isInner":"1"}],"isInner":"1"},{"id":"52d19d9","elType":"container","settings":{"_column_size":"50","width":{"size":"42","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"50","unit":"%"},"content_width":"full","container_sticky_offset":"50"},"elements":[{"id":"a3d7377","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-pic.png","id":"7470","alt":"","source":"library"},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"}],"isInner":""},{"id":"7519902","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"90","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"5802434","elType":"widget","settings":{"anchor":"Services","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"385de34","elType":"widget","settings":{"subtitle":"EMPLOYEE PRODUCTIVITY","title":"We Work in Such Directions","after_title":"","color":"primary","size":"large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"bb24cbb","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"40","margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"flex_direction":"row","content_width":"full","flex_direction_tablet":"column","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"979bdc2","elType":"container","settings":{"_column_size":"25","width_tablet":{"size":"100","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_direction":"row","flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"container_sticky_offset":"50"},"elements":[{"id":"dea9ade","elType":"widget","settings":{"icon_text":"01.","subtitle":"","title":"Registration","content":"<p>Authorities in our business will tell in no uncertain<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":"100","sizes":[]}},"elements":[],"widgetType":"wd_infobox"},{"id":"08cc807","elType":"widget","settings":{"icon_text":"02.","subtitle":"","title":"Services","content":"<p>There are some redeeming factors in favor<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":"100","sizes":[]}},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"},{"id":"0261b5c","elType":"container","settings":{"_column_size":"25","width_tablet":{"size":"100","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_direction":"row","flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"container_sticky_offset":"50"},"elements":[{"id":"44d14e9","elType":"widget","settings":{"icon_text":"03.","subtitle":"","title":"Taxation","content":"<p>Anyway, you still use Lorem Ipsum and rightly<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":"100","sizes":[]}},"elements":[],"widgetType":"wd_infobox"},{"id":"bbd5986","elType":"widget","settings":{"icon_text":"04.","subtitle":"","title":"IT law","content":"<p>Comprehensive support for IT projects deserved<\/p>","btn_text":"","style":"bg-hover","woodmart_color_scheme":"dark","alignment":"left","box_bg_color":"#FFFFFF","box_bg_hover_color":"#1A3D97","icon_text_size":"small","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"scroll_y":"-80","_element_width":"initial","_element_custom_width":{"unit":"%","size":"50","sizes":[]},"_element_custom_width_mobile":{"unit":"%","size":"100","sizes":[]}},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":"1"}],"isInner":""},{"id":"5cd7efb","elType":"container","settings":{"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"100","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"reverse_order_mobile":"reverse-mobile","flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"40","unit":"px","isLinked":""},"flex_direction_mobile":"column-reverse","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"75256a9","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"container_sticky_offset":"50"},"elements":[{"id":"fb2b07a","elType":"widget","settings":{"subtitle":"FOR YOUR UNIQUE SOLUTIONS","title":"We provide such services","after_title":"","color":"primary","size":"large","align":"left","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80","_margin":{"unit":"px","top":"0","right":"0","bottom":"-15","left":"0","isLinked":""}},"elements":[],"widgetType":"wd_title"},{"id":"5890eba","elType":"widget","settings":{"editor":"<p>We provide qualified legal assistance in civil, criminal, economic and other branches of law. For the time of our work, we have helped our Clients resolve the most difficult issues, as evidenced by positive feedback.<\/p>","scroll_y":"-80","wd_content_width":{"unit":"px","size":"582","sizes":[]}},"elements":[],"widgetType":"text-editor"},{"id":"72cfc7a","elType":"container","settings":{"structure":"20","flex_direction":"row","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"b0e5353","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"15","row":"15","isLinked":"","unit":"px","size":"15"},"container_sticky_offset":"50"},"elements":[{"id":"a416edb","elType":"widget","settings":{"text":"Services for individuals:","typography_typography":"custom","typography_font_family":"Roboto","typography_font_size":{"unit":"px","size":"20","sizes":[]},"typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"typography_font_weight":"700","text_color":"title","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"3a0a344","elType":"widget","settings":{"list_items":[{"list_content":"Consulting","_id":"10c821a","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Land disputes","_id":"ea69978","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Civil cases","_id":"70f0c54","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Support of transactions","_id":"ae0354f","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Obtaining a passport","_id":"c46b8b9","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-check","library":"fa-solid"},"icons_color":"#1A3D97","scroll_y":"-80","size":"medium","list_type":"image","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2023\/11\/w-lawyer-checked.svg","id":"21235","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"16","height":"16"}},"elements":[],"widgetType":"wd_list"}],"isInner":"1"},{"id":"d8725a9","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_gap":{"column":"15","row":"15","isLinked":"1","unit":"px","size":"15"},"container_sticky_offset":"50"},"elements":[{"id":"11da2bf","elType":"widget","settings":{"text":"<p>For legal entities:<\/p>","typography_typography":"custom","typography_font_family":"Roboto","typography_font_size":{"unit":"px","size":"20","sizes":[]},"typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"typography_font_weight":"700","text_color":"title","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"3b71c4b","elType":"widget","settings":{"list_items":[{"list_content":"Contract law","_id":"10c821a","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Registration of legal entities","_id":"59bb188","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Labor disputes","_id":"32055bb","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Obtaining licenses","_id":"c265304","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"icon":{"value":"fas fa-check","library":"fa-solid"},"icons_color":"#1A3D97","scroll_y":"-80","size":"medium","list_type":"image","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2023\/11\/w-lawyer-checked.svg","id":"21235","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"16","height":"16"}},"elements":[],"widgetType":"wd_list"}],"isInner":"1"}],"isInner":"1"},{"id":"5b1193b","elType":"widget","settings":{"text":"learn more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":"1"},{"id":"8fb765d","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"02de2ba","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-services.jpg","id":"7471","alt":"","source":"library"},"_margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"scroll_y":"-80","alignment":"right"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"}],"isInner":""},{"id":"a9e5c57","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"100","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"e8cacdb","elType":"widget","settings":{"subtitle":"FOR YOUR ADVANCED FEATURES","title":"How We Work with Clients","after_title":"","color":"primary","size":"large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"34c804f","elType":"widget","settings":{"content_repeater":[{"title":"Preparation of a package of documents","subtitle":"","_id":"24f8325","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"id":"7445","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-1.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"content":"","btn_text":""},{"title":"Meeting with a lawyer, signing a contract","subtitle":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"id":"7446","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-2.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"content":"","btn_text":"","_id":"26cadab"},{"title":"Terms of payment for the performance of work","subtitle":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"icon_type":"icon","icon_text":"01.","image":{"id":"7447","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-3.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"content":"","btn_text":"","_id":"e51a468"}],"hide_pagination_control":"yes","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80","padding":{"unit":"px","top":"0","right":"30","bottom":"0","left":"30","isLinked":""},"slides_per_view_tablet":{"unit":"px","size":"2","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"1","sizes":[]},"sync_parent_id":"wd_65843fc454c99"},"elements":[],"widgetType":"wd_infobox_carousel"}],"isInner":""},{"id":"88f9aed","elType":"container","settings":{"wd_section_stretch":"stretch","structure":"20","background_background":"classic","background_color":"#1A3D97","padding":{"unit":"px","top":"100","right":"15","bottom":"130","left":"15","isLinked":""},"padding_tablet":{"unit":"px","top":"80","right":"15","bottom":"110","left":"15","isLinked":""},"padding_mobile":{"unit":"px","top":"60","right":"15","bottom":"90","left":"15","isLinked":""},"flex_gap":{"size":"30","column":"30","row":"40","unit":"px","isLinked":""},"content_position":"middle","flex_direction":"row","flex_align_items":"center","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"50af6d0","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","wd_color_scheme":"light","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"container_sticky_offset":"50"},"elements":[{"id":"0f1a67a","elType":"widget","settings":{"anchor":"About_Us","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"a57c2ff","elType":"widget","settings":{"subtitle":"","title":"Why People Choose Our Company and Not Others?","after_title":"","color":"white","align":"left","width":{"unit":"%","size":"90","sizes":[]},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"54","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"26","sizes":[]},"scroll_y":"-80","_margin":{"unit":"px","top":"0","right":"0","bottom":"-5","left":"0","isLinked":""}},"elements":[],"widgetType":"wd_title"},{"id":"bc928a2","elType":"widget","settings":{"text":"<p>Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially serious design flaws. A seemingly elegant design can quickly begin to bloat unexpected content or break under the weight of actual activity.<\/p>","text_color_scheme":"light","width":{"unit":"px","size":"522","sizes":[]},"scroll_y":"-80","typography_typography":"custom","typography_font_family":"Roboto"},"elements":[],"widgetType":"wd_text_block"},{"id":"c9cf65a","elType":"widget","settings":{"ids_size":"full","view":"carousel","spacing":"30","vertical_align":"top","hide_pagination_control":"yes","scroll_y":"-80","ids":[{"id":"7382","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-microsoft.svg"},{"id":"7383","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-network-2.svg"},{"id":"7387","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-slack.svg"},{"id":"7379","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-figma.svg"},{"id":"7386","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-sketch.svg"},{"id":"7385","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/corporate-2-pinterest.svg"}],"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"2","sizes":[]},"sync_parent_id":"wd_65843fc451b04"},"elements":[],"widgetType":"wd_images_gallery"},{"id":"67c1262","elType":"widget","settings":{"text":"<p>These companies trust us *<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"15","sizes":[]},"text_color":"custom","custom_text_color":"#FFFFFF4D","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":"1"},{"id":"3bb3a92","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","margin":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"flex_gap":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"padding":{"unit":"%","top":"0","right":"8","bottom":"0","left":"8","isLinked":""},"padding_tablet":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"padding_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"2f9f94e","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":"7448","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-4.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"64","height":"64"},"subtitle":"","title":"Reliability","content":"<p>Our organization has established itself as a reliable and stable partner<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"},{"id":"ae33797","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":"7449","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-5.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"64","height":"64"},"subtitle":"","title":"Quality","content":"<p>We combine the quality of services and a deep understanding of the law<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"},{"id":"db8062b","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":"7450","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-svg-6.svg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"64","height":"64"},"subtitle":"","title":"Result","content":"<p>An effective way to protect the client's rights and achieve maximum results<\/p>","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"20","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"18","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"}],"isInner":"1"}],"isInner":""},{"id":"269caad","elType":"container","settings":{"margin":{"unit":"px","top":"-40","right":"0","bottom":"80","left":"0","isLinked":""},"content_position":"middle","margin_mobile":{"unit":"px","top":"-40","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_align_items":"center","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"flex_direction_tablet":"column","flex_justify_content":"space-between","flex_justify_content_tablet":"flex-start","background_background":"classic","background_color":"#FFFFFF","padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"ce525e7","elType":"widget","settings":{"subtitle":"","title":"Are There Any Other Questions?","after_title":"<p>Fill out the form and we will call you back.<\/p>","size":"large","align":"left","title_color":"#1A3D97","scroll_y":"-80","_element_width_tablet":"inherit","_element_custom_width":{"unit":"%","size":"50","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"39440c4","elType":"widget","settings":{"form_id":"4382","scroll_y":"-80","_element_width_tablet":"inherit","_element_custom_width":{"unit":"px","size":"420","sizes":[]},"_element_custom_width_tablet":{"unit":"px","size":"745","sizes":[]},"_flex_size":"grow","_element_width":"initial"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":""},{"id":"d96db01","elType":"container","settings":{"structure":"20","margin":{"unit":"px","top":"0","right":"0","bottom":"100","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"reverse_order_mobile":"reverse-mobile","flex_gap":{"size":"30","column":"30","row":"40","unit":"px"},"content_position":"middle","flex_direction":"row","flex_align_items":"center","flex_direction_mobile":"column-reverse","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"abb234a","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"8d91c3f","elType":"widget","settings":{"subtitle":"PRODUCTIVITY REDEFINED","title":"We Are a Team of Highly Professional Specialists","after_title":"","color":"primary","size":"large","align":"left","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"d86df9f","elType":"widget","settings":{"text":"<p>Each of us practices in certain areas of law, which in general allows us to fully meet the client\u2019s needs for legal support. We are always open to interesting ideas and proposals, as well as ready for constructive and comprehensive cooperation!<\/p>","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"26757ee","elType":"widget","settings":{"text":"learn more","color":"primary","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_button"}],"isInner":"1"},{"id":"0bce23e","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"6bb5ce8","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-specialists.jpg","id":"7472","alt":"","source":"library"},"alignment":"right","scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"}],"isInner":""},{"id":"01a2af8","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"flex_direction":"column","flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"d489074","elType":"widget","settings":{"anchor":"Testimonials","scroll_y":"-80","_position":"absolute"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"be8c743","elType":"widget","settings":{"subtitle":"TESTIMONIALS","title":"Customer Reviews","after_title":"<p>They have already used our services<\/p>","color":"primary","size":"large","subtitle_typography_typography":"custom","subtitle_typography_font_family":"Roboto","subtitle_typography_font_weight":"500","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"ee8bed0","elType":"widget","settings":{"items_repeater":[{"title":"","name":"Kristin Watson","content":"<p>Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always.<\/p>","_id":"836b437","image":{"id":"7473","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-1.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"}},{"title":"","name":"Ronald Richards","content":"<p>We contacted a lawyer last year when a question arose about reorganizing the firm. We were very lucky, everything was done quickly!<\/p>","image":{"id":"7474","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-2.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"b10b3c3"},{"title":"","name":"Wade Warren","content":"<p>The way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming.<\/p>","image":{"id":"7475","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-3.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"c93ae77"},{"title":"","name":"Aviana Plummer","content":"<p>But worse, what if the fish doesn\u2019t fit in the can, the foot\u2019s to big for the boot? Or to small? To short sentences, to many headings, images too.<\/p>","image":{"id":"7476","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-testimonials-4.jpg","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"60","height":"60"},"_id":"66b1dff"}],"align":"left","hide_pagination_control":"","scroll_y":"-80","style":"info-top","_background_background":"classic","text_background_color_normal":"#FFFFFF","slides_per_view_tablet":{"unit":"px","size":"2","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"1","sizes":[]},"sync_parent_id":"wd_65843fc453669"},"elements":[],"widgetType":"wd_testimonials"}],"isInner":""},{"id":"137d9f1","elType":"container","settings":{"content_position":"bottom","wd_section_stretch":"stretch","structure":"30","background_background":"classic","background_image":{"id":"7482","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-bottom-bg.jpg","alt":"","source":"library"},"background_position":"top center","background_repeat":"no-repeat","background_size":"cover","background_size_mobile":"initial","background_bg_width_mobile":{"unit":"px","size":"0","sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"-40","left":"0","isLinked":""},"padding_tablet":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":"1"},"flex_direction":"row","flex_align_items":"flex-end","flex_gap":{"size":"0","column":"0","row":"0","unit":"px","isLinked":"1"},"flex_direction_tablet":"column","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"53dcb89","elType":"container","settings":{"_column_size":"33","width":{"size":"67","unit":"%"},"width_tablet":{"size":"100","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","flex_direction":"row","flex_align_items":"flex-end","flex_gap":{"column":"15","row":"0","isLinked":"","unit":"px","size":"15"},"container_sticky_offset":"50"},"elements":[{"id":"2b28155","elType":"container","settings":{"content_width":"full","width":{"unit":"%","size":"55","sizes":[]},"width_tablet":{"unit":"%","size":"58","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"boxed_width":{"unit":"%","size":"50","sizes":[]},"boxed_width_tablet":{"unit":"%","size":"","sizes":[]},"boxed_width_mobile":{"unit":"%","size":"","sizes":[]},"margin":{"unit":"px","top":"0","right":"0","bottom":"50","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"15","bottom":"40","left":"15","isLinked":""},"scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"98c23db","elType":"widget","settings":{"anchor":"Contacts","scroll_y":"-80"},"elements":[],"widgetType":"woodmart_menu_anchor"},{"id":"cb64a80","elType":"widget","settings":{"subtitle":"","title":"A Guarantee of Achieving the Desired Result!","after_title":"","align":"left","width":{"unit":"%","size":"90","sizes":[]},"title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"54","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"26","sizes":[]},"scroll_y":"-80","title_color":"#1A3D97","title_typography_line_height":{"unit":"em","size":"1.2","sizes":[]},"title_typography_font_family":"Roboto"},"elements":[],"widgetType":"wd_title"},{"id":"b4ae8fc","elType":"widget","settings":{"editor":"<p>The specialists of our company will provide you with expert advice on any issue that interests you.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"text-editor"},{"id":"d2c4735","elType":"widget","settings":{"list_items":[{"list_content":"Experienced lawyers","_id":"6eb6b5f","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Speed and reliability","_id":"1e48d4f","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"An integrated approach","_id":"1a7dd44","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"ordered","size":"medium","list_style":"square","icons_color":"#FFFFFF","icons_bg_color":"#1A3D97","scroll_y":"-80"},"elements":[],"widgetType":"wd_list"}],"isInner":"1"},{"id":"43d7fc4","elType":"container","settings":{"_column_size":"33","width":{"size":"45","unit":"%"},"width_tablet":{"size":"42","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","content_width":"full","container_sticky_offset":"50"},"elements":[{"id":"deb2829","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-bottom.png","id":"7478","size":"","alt":"","source":"library"},"alignment":"center","_margin":{"unit":"%","top":"0","right":"0","bottom":"0","left":"-20","isLinked":""},"_margin_tablet":{"unit":"%","top":"0","right":"-20","bottom":"0","left":"0","isLinked":""},"_margin_mobile":{"unit":"%","top":"0","right":"0","bottom":"0","left":"0","isLinked":""},"_element_custom_width":{"unit":"px","size":"502","sizes":[]},"scroll_y":"-80","_transform_keep_proportions":"","_transform_scale_effect":{"unit":"px","size":"1.1","sizes":[]}},"elements":[],"widgetType":"wd_image_or_svg"}],"isInner":"1"}],"isInner":"1"},{"id":"d952828","elType":"container","settings":{"_column_size":"33","width_tablet":{"size":"100","unit":"%"},"background_background":"classic","background_color":"#1A3D97","padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"column_sticky_offset":"50","scroll_y":"-80","wd_color_scheme":"light","content_width":"full","width":{"unit":"%","size":"33","sizes":[]},"flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":"1"},"container_sticky_offset":"50"},"elements":[{"id":"0fe6d01","elType":"widget","settings":{"subtitle":"","title":"Get Free Consultation!","after_title":"","color":"white","align":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"54","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"32","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"26","sizes":[]},"scroll_y":"-80","width_mobile":{"unit":"%","size":"100","sizes":[]},"title_typography_font_family":"Roboto","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""}},"elements":[],"widgetType":"wd_title"},{"id":"8b8ef2b","elType":"widget","settings":{"text":"<p>We are ready to answer right now! Sign up for a free consultation.<\/p>","_margin":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":""},"scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"39a3097","elType":"widget","settings":{"form_id":"4381","scroll_y":"-80","style":"wd-style-with-bg","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":""}},"elements":[],"widgetType":"wd_contact_form_7"},{"id":"3c03571","elType":"widget","settings":{"text":"<p>I consent to the processing of personal data and agree with the user agreement and privacy policy<\/p>","typography_typography":"custom","typography_font_size":{"unit":"px","size":"13","sizes":[]},"text_color":"custom","custom_text_color":"#FFFFFF4D","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"}],"isInner":"1"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:1:{s:6:"styles";a:1:{i:0;s:18:"widget-text-editor";}}]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_controls_usage]]></wp:meta_key>
@@ -413,7 +419,7 @@
 					<title><![CDATA[lawyer-footer-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-footer-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-footer-logo.svg</guid>
 															<wp:post_id>7437</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:27]]></wp:post_date>
@@ -440,7 +446,7 @@
 					<title><![CDATA[lawyer-header-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-header-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-header-logo.svg</guid>
 															<wp:post_id>7438</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:28]]></wp:post_date>
@@ -467,7 +473,7 @@
 					<title><![CDATA[lawyer-phone-call]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-phone-call/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-phone-call.svg</guid>
 															<wp:post_id>7441</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:31]]></wp:post_date>
@@ -494,7 +500,7 @@
 					<title><![CDATA[lawyer-svg-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-svg-1/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-1.svg</guid>
 															<wp:post_id>7445</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:34]]></wp:post_date>
@@ -521,7 +527,7 @@
 					<title><![CDATA[lawyer-svg-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-svg-2/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-2.svg</guid>
 															<wp:post_id>7446</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:35]]></wp:post_date>
@@ -548,7 +554,7 @@
 					<title><![CDATA[lawyer-svg-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-svg-3/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-3.svg</guid>
 															<wp:post_id>7447</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:35]]></wp:post_date>
@@ -575,7 +581,7 @@
 					<title><![CDATA[lawyer-pic-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-pic-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 11:50:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic-bg.jpg</guid>
 															<wp:post_id>7469</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:50:36]]></wp:post_date>
@@ -598,7 +604,7 @@
 					<title><![CDATA[lawyer-pic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-pic/</link>
 					<pubDate>Sun, 24 Oct 2021 11:51:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-pic.png</guid>
 															<wp:post_id>7470</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:51:04]]></wp:post_date>
@@ -621,7 +627,7 @@
 					<title><![CDATA[lawyer-services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-services/</link>
 					<pubDate>Sun, 24 Oct 2021 11:51:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-services.jpg</guid>
 															<wp:post_id>7471</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:51:39]]></wp:post_date>
@@ -644,7 +650,7 @@
 					<title><![CDATA[lawyer-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-1/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-1.jpg</guid>
 															<wp:post_id>7473</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:56]]></wp:post_date>
@@ -667,7 +673,7 @@
 					<title><![CDATA[lawyer-testimonials-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-2/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-2.jpg</guid>
 															<wp:post_id>7474</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
@@ -690,7 +696,7 @@
 					<title><![CDATA[lawyer-testimonials-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-3/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3.jpg</guid>
 															<wp:post_id>7475</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
@@ -713,7 +719,7 @@
 					<title><![CDATA[lawyer-testimonials-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-4/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4.jpg</guid>
 															<wp:post_id>7476</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:58]]></wp:post_date>
@@ -736,7 +742,7 @@
 					<title><![CDATA[lawyer-bottom-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-bottom-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 11:58:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom-bg.jpg</guid>
 															<wp:post_id>7482</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:58:18]]></wp:post_date>
@@ -759,7 +765,7 @@
 					<title><![CDATA[w-lawyer-checked]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/w-lawyer-checked/</link>
 					<pubDate>Mon, 06 Nov 2023 15:08:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/w-lawyer-checked.svg</guid>
 															<wp:post_id>21235</wp:post_id>
 					<wp:post_date><![CDATA[2023-11-06 15:08:09]]></wp:post_date>
@@ -786,19 +792,19 @@
 					<title><![CDATA[Contact form Lawyer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4381</link>
 					<pubDate>Wed, 29 Sep 2021 14:05:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4381</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-lg-12">[text* First name placeholder ="First name"]</p>
-<p class="col-lg-12">[text* Last name placeholder ="Last name"]</p>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-white"Get Consult"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* First name placeholder ="First name"]</div>
+<div class="wd-col">[text* Last name placeholder ="Last name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">[submit class:btn class:btn-color-white "Get Consult"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -812,7 +818,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -848,8 +854,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4381</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:05:08]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:05:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:05:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:05:08]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:28:12]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:28:12]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-lawyer]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -858,16 +864,16 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-lg-12">[text* First name placeholder ="First name"]</p>
-<p class="col-lg-12">[text* Last name placeholder ="Last name"]</p>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-white"Get Consult"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* First name placeholder ="First name"]</div>
+<div class="wd-col">[text* Last name placeholder ="Last name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">[submit class:btn class:btn-color-white "Get Consult"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -878,7 +884,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -893,25 +899,29 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[34020a0654cde6b59c9490dadffd08aa6d4de515]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Contact form Lawyer 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4382</link>
 					<pubDate>Wed, 29 Sep 2021 14:05:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4382</guid>
-											<content:encoded><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-8">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary "Get Consult"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col-auto">[submit class:btn "Get Consult"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -925,7 +935,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -961,8 +971,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4382</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:05:31]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:05:31]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:05:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:05:31]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:53:53]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:53:53]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-lawyer-2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -971,14 +981,14 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-8">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary "Get Consult"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col-auto">[submit class:btn "Get Consult"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -989,7 +999,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1004,26 +1014,30 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[103d7e114f49c51a740ba9462fdecec69060443e]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Contact form Lawyer 3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4383</link>
 					<pubDate>Wed, 29 Sep 2021 14:05:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4383</guid>
-											<content:encoded><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-4">[text* Your name placeholder ="Your name"]</p>
-<p class="col-lg-5">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary "Get Consult"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* First name placeholder ="Your name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col-auto">[submit class:btn "Get Consult"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1037,7 +1051,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -1073,8 +1087,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4383</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:05:46]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:05:46]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:05:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:05:46]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:54:00]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:54:00]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-lawyer-3]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1083,15 +1097,15 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-4">[text* Your name placeholder ="Your name"]</p>
-<p class="col-lg-5">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary "Get Consult"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* First name placeholder ="Your name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col-auto">[submit class:btn "Get Consult"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1102,7 +1116,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1117,15 +1131,19 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[943d0b6a81bfa4c68aa233c3663e6b0fc07a9673]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[corporate-2-figma]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/corporate-2-figma/</link>
 					<pubDate>Sun, 24 Oct 2021 10:46:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-figma.svg</guid>
 															<wp:post_id>7379</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 10:46:32]]></wp:post_date>
@@ -1152,7 +1170,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[corporate-2-pinterest]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/corporate-2-pinterest/</link>
 					<pubDate>Sun, 24 Oct 2021 10:46:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-pinterest.svg</guid>
 															<wp:post_id>7385</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 10:46:38]]></wp:post_date>
@@ -1179,7 +1197,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[corporate-2-sketch]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/corporate-2-sketch/</link>
 					<pubDate>Sun, 24 Oct 2021 10:46:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/corporate-2-sketch.svg</guid>
 															<wp:post_id>7386</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 10:46:38]]></wp:post_date>
@@ -1206,7 +1224,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-footer-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-footer-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-footer-logo.svg</guid>
 															<wp:post_id>7437</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:27]]></wp:post_date>
@@ -1233,7 +1251,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-svg-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-svg-4/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-4.svg</guid>
 															<wp:post_id>7448</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:36]]></wp:post_date>
@@ -1260,7 +1278,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-svg-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-svg-5/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-5.svg</guid>
 															<wp:post_id>7449</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:37]]></wp:post_date>
@@ -1287,7 +1305,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-svg-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/lawyer-svg-6/</link>
 					<pubDate>Sun, 24 Oct 2021 11:33:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-svg-6.svg</guid>
 															<wp:post_id>7450</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:33:38]]></wp:post_date>
@@ -1314,7 +1332,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Header popup Lawyer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=header-popup-lawyer</link>
 					<pubDate>Sun, 24 Oct 2021 11:36:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7451</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-mfp-popup-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-magnific-popup.min.css?ver=7.3.0" type="text/css" media="all" /> 							
 			<a  href="#popup-617545518fe3c">
@@ -1387,7 +1405,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Popup Lawyer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-lawyer</link>
 					<pubDate>Sun, 24 Oct 2021 11:38:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7454</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.2" type="text/css" media="all" /> 					
 				<h4>Get Free Consultation!</h4> 
@@ -1455,17 +1473,17 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Footer Lawyer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-lawyer</link>
 					<pubDate>Sun, 24 Oct 2021 11:46:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7463</guid>
 											<content:encoded><![CDATA[<a  href="#">
 								<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-footer-logo.svg" title="lawyer-footer-logo" width="200" height="46">							</a>
-						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.3.2" type="text/css" media="all" /> 					
-			<a href="#"><strong>WOODMART</strong></a> Created By <a href="#"><strong>XTEMOS STUDIO</strong></a> Copyright  2021]]></content:encoded>
+						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.4.0" type="text/css" media="all" /> 					
+			<p><a href="#"><strong>WOODMART</strong></a> Created By <a href="#"><strong>XTEMOS STUDIO</strong></a> Copyright  2021</p>]]></content:encoded>
 															<wp:post_id>7463</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:46:12]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-10-24 11:46:12]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-11-07 12:45:55]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-11-07 12:45:55]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-03-01 15:48:09]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-03-01 15:48:09]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[footer-lawyer]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1486,11 +1504,11 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.16.6]]></wp:meta_value>
+							<wp:meta_value><![CDATA[3.19.4]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"432cb39","elType":"container","settings":{"content_position":"middle","padding":{"unit":"px","top":"20","right":"0","bottom":"20","left":"0","isLinked":false},"background_background":"classic","flex_direction":"row","flex_align_items":"center","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"flex_justify_content":"space-between","scroll_y":-80},"elements":[{"id":"99198b4","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-footer-logo.svg","id":7437,"alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"200","height":"46"},"scroll_y":"-80","_element_width":"auto","on_click_action":"link","link":{"url":"#","is_external":false,"nofollow":false,"custom_attributes":""}},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"48a923c","elType":"widget","settings":{"text":"<a href=\"https:\/\/woodmart.xtemos.com\/\"><strong>WOODMART<\/strong><\/a> Created By <a href=\"http:\/\/xtemos.com\"><strong><span style=\"color: #cd3e3e;\">X<\/span>TEMOS STUDIO<\/strong><\/a>\u00a0Copyright <i class=\"fa fa-copyright\"><\/i> 2021","scroll_y":-80,"typography_typography":"custom","typography_font_size":{"unit":"px","size":12,"sizes":[]}},"elements":[],"widgetType":"wd_text_block"}],"isInner":false}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"432cb39","elType":"container","settings":{"content_position":"middle","padding":{"unit":"px","top":"20","right":"0","bottom":"20","left":"0","isLinked":false},"background_background":"classic","flex_direction":"row","flex_align_items":"center","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"flex_justify_content":"space-between","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"99198b4","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/lawyer-footer-logo.svg","id":7437,"alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"200","height":"46"},"scroll_y":"-80","_element_width":"auto","on_click_action":"link","link":{"url":"#","is_external":false,"nofollow":false,"custom_attributes":""}},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"48a923c","elType":"widget","settings":{"text":"<p><a href=\"#\"><strong>WOODMART<\/strong><\/a> Created By <a href=\"#\"><strong><span style=\"color: #cd3e3e;\">X<\/span>TEMOS STUDIO<\/strong><\/a>\u00a0Copyright <i class=\"fa fa-copyright\"><\/i> 2021<\/p>","scroll_y":-80,"typography_typography":"custom","typography_font_size":{"unit":"px","size":12,"sizes":[]}},"elements":[],"widgetType":"wd_text_block"}],"isInner":false}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -1505,7 +1523,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-specialists]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-specialists/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-specialists.jpg</guid>
 															<wp:post_id>7472</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:28]]></wp:post_date>
@@ -1528,7 +1546,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-1/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-1.jpg</guid>
 															<wp:post_id>7473</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:56]]></wp:post_date>
@@ -1551,7 +1569,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-testimonials-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-2/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-2.jpg</guid>
 															<wp:post_id>7474</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
@@ -1574,7 +1592,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-testimonials-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-3/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-3.jpg</guid>
 															<wp:post_id>7475</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:57]]></wp:post_date>
@@ -1597,7 +1615,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-testimonials-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-testimonials-4/</link>
 					<pubDate>Sun, 24 Oct 2021 11:55:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-testimonials-4.jpg</guid>
 															<wp:post_id>7476</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:55:58]]></wp:post_date>
@@ -1620,7 +1638,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-bottom]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-bottom/</link>
 					<pubDate>Sun, 24 Oct 2021 11:57:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom.png</guid>
 															<wp:post_id>7478</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:57:22]]></wp:post_date>
@@ -1643,7 +1661,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[lawyer-bottom-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-lawyer/lawyer-bottom-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 11:58:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/lawyer-bottom-bg.jpg</guid>
 															<wp:post_id>7482</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 11:58:18]]></wp:post_date>
@@ -1666,7 +1684,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/home-9/</link>
 					<pubDate>Wed, 29 Sep 2021 13:53:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4360</guid>
 															<wp:post_id>4360</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:54:21]]></wp:post_date>
@@ -1713,7 +1731,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/services-4/</link>
 					<pubDate>Wed, 29 Sep 2021 13:53:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4361</guid>
 															<wp:post_id>4361</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:54:21]]></wp:post_date>
@@ -1760,7 +1778,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[About Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/about-us-4/</link>
 					<pubDate>Wed, 29 Sep 2021 13:53:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4362</guid>
 															<wp:post_id>4362</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:54:21]]></wp:post_date>
@@ -1807,7 +1825,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Testimonials]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/testimonials/</link>
 					<pubDate>Wed, 29 Sep 2021 13:53:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4363</guid>
 															<wp:post_id>4363</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:54:21]]></wp:post_date>
@@ -1854,7 +1872,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Contacts]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/contacts/</link>
 					<pubDate>Wed, 29 Sep 2021 13:53:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4364</guid>
 															<wp:post_id>4364</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:54:21]]></wp:post_date>

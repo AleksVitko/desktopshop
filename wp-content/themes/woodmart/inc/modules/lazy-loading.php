@@ -35,10 +35,33 @@ if ( ! function_exists( 'woodmart_lazy_loading_init' ) ) {
 
 		// Elementor.
 		add_filter( 'elementor/image_size/get_attachment_image_html', 'woodmart_filter_elementor_images', 10, 4 );
+
+		// Gutenberg.
+		add_action( 'wp_content_img_tag', 'woodmart_lazy_gutenberg_images', 20, 3 );
 	}
 
 	add_action( 'init', 'woodmart_lazy_loading_init', 120 );
+}
 
+if ( ! function_exists( 'woodmart_lazy_gutenberg_images' ) ) {
+	/**
+	 * Filters HTML <img> tag and adds lazy loading attributes. Used for gutenberg images.
+	 *
+	 * @param string $filtered_image Full img tag with attributes that will replace the source img tag.
+	 * @param string $context Additional context, like the current filter name or the function name from where this was called.
+	 * @param int    $attachment_id The image attachment ID. May be 0 in case the image is not an attachment.
+
+	 * @return string
+	 */
+	function woodmart_lazy_gutenberg_images( $filtered_image, $context, $attachment_id ) {
+		if ( str_contains( $filtered_image, woodmart_lazy_get_default_preview() ) || ! preg_match( '/class=["\'].*wp-image-.*["\']/is', $filtered_image ) ) {
+			return $filtered_image;
+		}
+
+		woodmart_enqueue_js_script( 'lazy-loading' );
+
+		return woodmart_lazy_replace_image( $filtered_image, woodmart_lazy_get_default_preview() );
+	}
 }
 
 if ( ! function_exists( 'woodmart_filter_elementor_images' ) ) {
@@ -55,7 +78,7 @@ if ( ! function_exists( 'woodmart_filter_elementor_images' ) ) {
 	 * @return string
 	 */
 	function woodmart_filter_elementor_images( $html, $settings, $image_size_key, $image_key ) {
-		if ( preg_match( "/src=['\"]data:image/is", $html ) ) {
+		if ( str_contains( $html, woodmart_lazy_get_default_preview() ) ) {
 			return $html;
 		}
 
@@ -106,6 +129,7 @@ if ( ! function_exists( 'woodmart_lazy_loading_deinit' ) ) {
 		remove_action( 'vc_wpb_getimagesize', 'woodmart_lazy_image', 10 );
 		remove_action( 'wp_get_attachment_image_attributes', 'woodmart_lazy_attributes', 10 );
 		remove_action( 'elementor/image_size/get_attachment_image_html', 'woodmart_filter_elementor_images', 10 );
+		remove_action( 'wp_content_img_tag', 'woodmart_lazy_gutenberg_images', 20 );
 	}
 }
 
@@ -147,7 +171,7 @@ if ( ! function_exists( 'woodmart_lazy_image_standard' ) ) {
 	 * @return string
 	 */
 	function woodmart_lazy_image_standard( $html ) {
-		if ( preg_match( "/src=['\"]data:image/is", $html ) ) {
+		if ( str_contains( $html, woodmart_lazy_get_default_preview() ) ) {
 			return $html;
 		}
 
@@ -184,7 +208,7 @@ if ( ! function_exists( 'woodmart_lazy_image' ) ) {
 	 * @return array
 	 */
 	function woodmart_lazy_image( $img, $attach_id, $params ) {
-		if ( preg_match( "/src=['\"]data:image/is", $img['thumbnail'] ) ) {
+		if ( str_contains( $img['thumbnail'], woodmart_lazy_get_default_preview() ) ) {
 			return $img;
 		}
 
@@ -216,13 +240,15 @@ if ( ! function_exists( 'woodmart_lazy_replace_image' ) ) {
 	function woodmart_lazy_replace_image( $html, $src ) {
 		$class = woodmart_lazy_css_class();
 
-		$new = preg_replace( '/<img(.*?)src=/is', '<img$1src="' . $src . '" data-wood-src=', $html );
+		$new = preg_replace( '/<img(.*?)src=/is', '<img$1src="' . $src . '" data-src=', $html );
 		$new = preg_replace( '/<img(.*?)srcset=/is', '<img$1srcset="" data-srcset=', $new );
 
-		if ( preg_match( '/class=["\']/i', $new ) ) {
-			$new = preg_replace( '/class=(["\'])(.*?)["\']/is', 'class=$1' . $class . ' $2$1', $new );
-		} else {
-			$new = preg_replace( '/<img/is', '<img class="' . $class . '"', $new );
+		if ( $class ) {
+			if ( preg_match( '/<img(.*?)class=["\']/i', $new ) ) {
+				$new = preg_replace( '/class=(["\'])(.*?)["\']/is', 'class=$1' . $class . ' $2$1', $new );
+			} else {
+				$new = preg_replace( '/<img/is', '<img class="' . $class . '"', $new );
+			}
 		}
 
 		return $new;
@@ -243,7 +269,7 @@ if ( ! function_exists( 'woodmart_lazy_attributes' ) ) {
 			return $attr;
 		}
 
-		$attr['data-wood-src'] = $attr['src'];
+		$attr['data-src'] = $attr['src'];
 
 		if ( ! empty( $attr['srcset'] ) ) {
 			$attr['data-srcset'] = $attr['srcset'];
@@ -296,4 +322,59 @@ if ( ! function_exists( 'woodmart_disable_default_lazy_loading' ) ) {
 	}
 
 	add_action( 'init', 'woodmart_disable_default_lazy_loading', 120 );
+}
+
+if ( ! function_exists( 'woodmart_add_lazy_load_background' ) ) {
+	/**
+	 * Add lazy load background for block.
+	 *
+	 * @param string   $block_content The block content.
+	 * @param array    $block The full block, including name and attributes.
+	 * @param WP_Block $instance The block instance.
+	 *
+	 * @return string
+	 */
+	function woodmart_add_lazy_load_background( $block_content, $block, $instance ) {
+		if ( ! woodmart_get_opt( 'lazy_loading_bg_images' ) ) {
+			return $block_content;
+		}
+
+		$bg_attributes = array( 'bgImage', 'bgImageTablet', 'bgImageMobile', 'bgHoverImage', 'bgHoverImageTablet', 'bgHoverImageMobile', 'bgParentHoverImage', 'bgParentHoverTablet', 'bgParentHoverMobile' );
+
+		$bg_overlay_attributes = array( 'overlayImage', 'overlayImageTablet', 'overlayImageMobile', 'overlayHoverImage', 'overlayHoverImageTablet', 'overlayHoverImageMobile', 'overlayParentHoverImage', 'overlayParentHoverImageTablet', 'overlayParentHoverImageMobile' );
+
+		if ( ! empty( $block['attrs'] ) && ( ( empty( $block['attrs']['bgExcludeLazyLoad'] ) && array_intersect( array_keys( $block['attrs'] ), $bg_attributes ) ) || ( empty( $block['attrs']['overlayExcludeLazyLoad'] ) && array_intersect( array_keys( $block['attrs'] ), $bg_overlay_attributes ) ) ) ) {
+			$tags = new WP_HTML_Tag_Processor( $block_content );
+
+			$has_bg_image = array_filter(
+				$bg_attributes,
+				function( $key ) use ( $block ) {
+					return ! empty( $block['attrs'][ $key ] ) && is_array( $block['attrs'][ $key ] ) && ! empty( $block['attrs'][ $key ]['url'] );
+				}
+			);
+
+			if ( empty( $block['attrs']['bgExcludeLazyLoad'] ) && $has_bg_image && $tags->next_tag() ) {
+				$tags->add_class( 'wd-lazy-bg' );
+			}
+
+			$has_overlay = array_filter(
+				$bg_overlay_attributes,
+				function( $key ) use ( $block ) {
+					return ! empty( $block['attrs'][ $key ] ) && is_array( $block['attrs'][ $key ] ) && ! empty( $block['attrs'][ $key ]['url'] );
+				}
+			);
+
+			if ( empty( $block['attrs']['overlayExcludeLazyLoad'] ) && $has_overlay && $tags->next_tag( array( 'class_name' => 'wd-bg-overlay' ) ) ) {
+				$tags->add_class( 'wd-lazy-bg' );
+			}
+
+			woodmart_enqueue_js_script( 'lazy-loading' );
+
+			return $tags->get_updated_html();
+		}
+
+		return $block_content;
+	}
+
+	add_filter( 'render_block', 'woodmart_add_lazy_load_background', 10, 3 );
 }

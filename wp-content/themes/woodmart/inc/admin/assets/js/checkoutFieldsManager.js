@@ -31,6 +31,15 @@
 						'security'      : woodmartConfig.checkout_fields_manager_nonce
 					},
 					dataType : 'json',
+					success : function(response) {	
+						let resetBtn = $('.xts-reset-all-fields');
+	
+						if ( response.show_reset_btn ) {
+							resetBtn.removeClass('xts-hidden');
+						} else {
+							resetBtn.addClass('xts-hidden');
+						}
+					},
 					error    : function(error) {
 						console.error(error);
 					},
@@ -73,6 +82,14 @@
 				dataType: 'json',
 				success : function(response) {
 					$switcher.replaceWith(response.new_html);
+
+					let resetBtn = $('.xts-reset-all-fields');
+
+					if ( response.show_reset_btn ) {
+						resetBtn.removeClass('xts-hidden');
+					} else {
+						resetBtn.addClass('xts-hidden');
+					}
 				},
 				error   : function(error) {
 					console.error(error);
@@ -102,6 +119,14 @@
 				dataType: 'json',
 				success : function(response) {
 					$select.replaceWith(response.new_html);
+
+					let resetBtn = $('.xts-reset-all-fields');
+
+					if ( response.show_reset_btn ) {
+						resetBtn.removeClass('xts-hidden');
+					} else {
+						resetBtn.addClass('xts-hidden');
+					}
 				},
 				error   : function(error) {
 					console.error(error);

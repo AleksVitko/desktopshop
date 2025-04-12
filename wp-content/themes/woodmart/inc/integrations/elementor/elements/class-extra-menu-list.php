@@ -6,6 +6,7 @@
 namespace XTS\Elementor;
 
 use Elementor\Group_Control_Image_Size;
+use Elementor\Group_Control_Typography;
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 use Elementor\Repeater;
@@ -360,6 +361,136 @@ class Extra_Menu_List extends Widget_Base {
 				],
 			]
 		);
+
+		$this->end_controls_section();
+
+		$this->start_controls_section(
+			'title_style_section',
+			array(
+				'label' => esc_html__( 'Title', 'woodmart' ),
+				'tab'   => Controls_Manager::TAB_STYLE,
+			)
+		);
+
+		$this->add_group_control(
+			Group_Control_Typography::get_type(),
+			array(
+				'name'     => 'title_typography',
+				'label'    => esc_html__( 'Typography', 'woodmart' ),
+				'selector' => '{{WRAPPER}} .wd-sub-accented > li > a',
+			)
+		);
+
+		$this->start_controls_tabs(
+			'title_color_tabs',
+		);
+
+		$this->start_controls_tab(
+			'title_color_tab',
+			array(
+				'label' => esc_html__( 'Idle', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'title_idle_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .wd-sub-accented > li > a' => 'color: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->start_controls_tab(
+			'title_hover_color_tab',
+			array(
+				'label' => esc_html__( 'Hover', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'title_hover_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .wd-sub-accented > li > a:hover' => 'color: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->end_controls_tabs();
+
+		$this->end_controls_section();
+
+		$this->start_controls_section(
+			'items_style_section',
+			array(
+				'label' => esc_html__( 'Items', 'woodmart' ),
+				'tab'   => Controls_Manager::TAB_STYLE,
+			)
+		);
+
+		$this->add_group_control(
+			Group_Control_Typography::get_type(),
+			array(
+				'name'     => 'item_typography',
+				'label'    => esc_html__( 'Typography', 'woodmart' ),
+				'selector' => '{{WRAPPER}} .sub-sub-menu > li > a',
+			)
+		);
+
+		$this->start_controls_tabs(
+			'items_color_tabs',
+		);
+
+		$this->start_controls_tab(
+			'items_color_tab',
+			array(
+				'label' => esc_html__( 'Idle', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'items_idle_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .sub-sub-menu > li > a' => 'color: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->start_controls_tab(
+			'items_hover_color_tab',
+			array(
+				'label' => esc_html__( 'Hover', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'items_hover_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} .sub-sub-menu > li:hover > a' => 'color: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->end_controls_tabs();
 
 		$this->end_controls_section();
 	}

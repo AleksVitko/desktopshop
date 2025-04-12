@@ -70,7 +70,6 @@ class NMI_Walker_Nav_Menu_Edit extends Walker_Nav_Menu_Edit {
 		// Hidden field with item's ID
 		$output .= '<input type="hidden" name="nmi_item_id" id="nmi_item_id" value="' . esc_attr( $item_id ) . '" />';
 
-		$output .= '<div class="nmi-item-custom-fields">';
 
 		$blocks = woodmart_get_static_blocks_array();
 
@@ -91,6 +90,12 @@ class NMI_Walker_Nav_Menu_Edit extends Walker_Nav_Menu_Edit {
 		$opanchor      = get_post_meta( $item_id, '_menu_item_opanchor', true );
 		$color_scheme  = get_post_meta( $item_id, '_menu_item_colorscheme', true );
 		$image_type    = get_post_meta( $item_id, '_menu_item_image-type', true );
+
+		$extra_class = ' wd-design-' . ( $design ? $design : 'default' );
+
+		$output .= '<div class="nmi-item-custom-fields' . $extra_class . '">';
+
+		ob_start();
 
 		?>
 			<h4 class="description-wide nmi-dropdown-title"><?php esc_html_e( 'Dropdown settings', 'woodmart' ); ?></h4>

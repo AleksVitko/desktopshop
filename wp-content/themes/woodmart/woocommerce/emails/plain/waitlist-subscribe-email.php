@@ -11,7 +11,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 echo esc_html( wp_strip_all_tags( $email_heading ) ) . "\n\n";
 
-echo esc_html( wp_strip_all_tags( wptexturize( $email_content ) ) ) . "\n\n";
+echo esc_html(
+	sprintf(
+		// translators: %s User name.
+		__(
+			'Hi, %s!',
+			'woodmart'
+		),
+		$email->user_name
+	)
+) . "\n";
+echo esc_html__( "We confirm that you have been added to the waitlist for the following item:\n", 'woodmart' );
+echo esc_html( $email->object->get_name() ) . ' ' . wp_kses( $email->product_price, true ) . ' ' . esc_url( $email->object->get_permalink() ) . "\n";
+echo esc_html__( "Stay tuned because we'll notify you when the product is available.\n", 'woodmart' );
+echo esc_html__( "Best regards,\n", 'woodmart' );
+echo esc_html( $email->get_blogname() ) . "\n";
 
 echo "\n----------------------------------------\n\n";
 

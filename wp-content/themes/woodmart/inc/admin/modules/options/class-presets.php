@@ -666,7 +666,7 @@ class Presets extends Singleton {
 					<option value="post_type" <?php selected( 'post_type', $rule['type'] ); ?>>
 						<?php esc_html_e( 'Post type', 'woodmart' ); ?>
 					</option>
-					<option value="single_post_type" <?php selected( 'post_type', $rule['type'] ); ?>>
+					<option value="single_post_type" <?php selected( 'single_post_type', $rule['type'] ); ?>>
 						<?php esc_html_e( 'Post type single page', 'woodmart' ); ?>
 					</option>
 					<option value="post_id" <?php selected( 'post_id', $rule['type'] ); ?>>

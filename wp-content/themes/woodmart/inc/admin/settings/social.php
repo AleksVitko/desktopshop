@@ -115,12 +115,36 @@ Options::add_field(
 
 Options::add_field(
 	array(
+		'id'       => 'bluesky_link',
+		'name'     => esc_html__( 'Bluesky link', 'woodmart' ),
+		'type'     => 'text_input',
+		'section'  => 'social_links',
+		'default'  => '',
+		'priority' => 30,
+		'class'    => 'xts-col-6',
+	)
+);
+
+Options::add_field(
+	array(
 		'id'       => 'isntagram_link',
 		'name'     => esc_html__( 'Instagram', 'woodmart' ),
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '#',
-		'priority' => 20,
+		'priority' => 40,
+		'class'    => 'xts-col-6',
+	)
+);
+
+Options::add_field(
+	array(
+		'id'       => 'threads_link',
+		'name'     => esc_html__( 'Threads link', 'woodmart' ),
+		'type'     => 'text_input',
+		'section'  => 'social_links',
+		'default'  => '',
+		'priority' => 50,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -132,7 +156,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '#',
-		'priority' => 30,
+		'priority' => 60,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -144,7 +168,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '#',
-		'priority' => 40,
+		'priority' => 70,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -156,7 +180,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 50,
+		'priority' => 80,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -168,7 +192,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 60,
+		'priority' => 90,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -180,7 +204,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 70,
+		'priority' => 100,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -192,7 +216,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 80,
+		'priority' => 110,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -204,7 +228,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 90,
+		'priority' => 120,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -216,7 +240,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 100,
+		'priority' => 130,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -228,7 +252,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 110,
+		'priority' => 140,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -240,7 +264,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 120,
+		'priority' => 150,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -252,7 +276,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 130,
+		'priority' => 160,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -264,7 +288,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 135,
+		'priority' => 170,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -276,7 +300,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 140,
+		'priority' => 180,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -288,7 +312,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 150,
+		'priority' => 190,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -300,7 +324,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 160,
+		'priority' => 200,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -312,7 +336,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 170,
+		'priority' => 210,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -324,7 +348,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 180,
+		'priority' => 220,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -336,7 +360,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 190,
+		'priority' => 230,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -348,7 +372,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 200,
+		'priority' => 240,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -360,7 +384,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 210,
+		'priority' => 250,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -372,7 +396,7 @@ Options::add_field(
 		'type'     => 'text_input',
 		'section'  => 'social_links',
 		'default'  => '',
-		'priority' => 220,
+		'priority' => 260,
 		'class'    => 'xts-col-6',
 	)
 );
@@ -384,7 +408,7 @@ Options::add_field(
 		'type'     => 'switcher',
 		'section'  => 'social_links',
 		'default'  => false,
-		'priority' => 230,
+		'priority' => 270,
 		'status'   => 'deprecated',
 	)
 );

@@ -25,13 +25,14 @@ if ( ! function_exists( 'woodmart_shortcode_off_canvas_btn' ) ) {
 
 		$settings = shortcode_atts(
 			array(
-				'woodmart_css_id' => '',
-				'css'             => '',
-				'button_text'     => 'Show column',
-				'icon_type'       => 'default',
-				'img_id'          => '',
-				'img_size'        => '20x20',
-				'sticky'          => '',
+				'woodmart_css_id'      => '',
+				'css'                  => '',
+				'button_text'          => 'Show column',
+				'icon_type'            => 'default',
+				'img_id'               => '',
+				'img_size'             => '20x20',
+				'sticky'               => '',
+				'only_sticky_button' => '',
 			),
 			$attr
 		);
@@ -41,7 +42,7 @@ if ( ! function_exists( 'woodmart_shortcode_off_canvas_btn' ) ) {
 
 		Builder::get_instance()->set_data( 'wd_show_sticky_sidebar_button', true );
 
-		if ( function_exists( 'vc_shortcode_custom_css_class' ) ) {
+		if ( function_exists( 'vc_shortcode_custom_css_class' ) && ! empty( $settings['css'] ) ) {
 			$wrapper_classes .= ' ' . vc_shortcode_custom_css_class( $settings['css'] );
 		}
 		// Icon settings.
@@ -61,6 +62,10 @@ if ( ! function_exists( 'woodmart_shortcode_off_canvas_btn' ) ) {
 			);
 		} else {
 			$icon_output = woodmart_otf_get_image_html( $settings['img_id'], $settings['img_size'] );
+		}
+
+		if ( 'yes' === $settings['sticky'] && 'yes' === $settings['only_sticky_button'] ) {
+			$wrapper_classes .= ' wd-action-hide-btn';
 		}
 
 		ob_start();

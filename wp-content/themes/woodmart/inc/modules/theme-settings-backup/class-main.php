@@ -132,7 +132,7 @@ class Main extends Singleton {
 	public function create_backup() {
 		check_ajax_referer( 'xts_backup_nonce', 'security' );
 
-		$backups     = get_option( 'xts_backups' );
+		$backups     = get_option( 'xts_backups', array() );
 		$backup_time = time();
 		$options     = get_option( 'xts-woodmart-options' );
 		$presets     = get_option( 'xts-options-presets' );

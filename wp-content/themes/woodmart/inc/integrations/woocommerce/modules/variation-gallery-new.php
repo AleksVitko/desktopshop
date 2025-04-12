@@ -3,7 +3,7 @@
 	exit( 'No direct script access allowed' );
 }
 
-if ( 'new' !== woodmart_get_opt( 'variation_gallery_storage_method', 'old' ) ) {
+if ( 'new' !== woodmart_get_opt( 'variation_gallery_storage_method', 'new' ) ) {
 	return;
 }
 

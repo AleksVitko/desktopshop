@@ -34,11 +34,11 @@ function vc_textarea_html_form_field( $settings, $value ) {
 		$default_content = $value;
 		// WP 3.3+.
 		ob_start();
-		wp_editor( '', 'wpb_tinymce_' . esc_attr( $settings['param_name'] ), array(
+		wp_editor( '', 'wpb_tinymce_' . esc_attr( $settings['param_name'] ), [
 			'editor_class' => 'wpb-textarea ' . esc_attr( $settings['param_name'] . ' ' . $settings['type'] ),
 			'media_buttons' => true,
 			'wpautop' => false,
-		) );
+		] );
 		$output_value = ob_get_contents();
 		ob_end_clean();
 		$default_content = is_string( $value ) ? $value : '';

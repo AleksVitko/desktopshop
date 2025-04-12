@@ -21,7 +21,7 @@ class WPBakeryShortCode_Vc_Gitem_Animated_Block extends WPBakeryShortCode_Vc_Git
 	 *
 	 * @var array
 	 */
-	protected static $animations = array();
+	protected static $animations = [];
 
 	/**
 	 * Attach item grid html to element output.
@@ -53,7 +53,7 @@ class WPBakeryShortCode_Vc_Gitem_Animated_Block extends WPBakeryShortCode_Vc_Git
 	 * @return array
 	 */
 	public static function animations() {
-		return array(
+		return [
 			esc_html__( 'Single block (no animation)', 'js_composer' ) => '',
 			esc_html__( 'Double block (no animation)', 'js_composer' ) => 'none',
 			esc_html__( 'Fade in', 'js_composer' ) => 'fadeIn',
@@ -69,6 +69,6 @@ class WPBakeryShortCode_Vc_Gitem_Animated_Block extends WPBakeryShortCode_Vc_Git
 			esc_html__( 'Horizontal flip in with fade', 'js_composer' ) => 'flipHorizontalFadeIn',
 			esc_html__( 'Go top', 'js_composer' ) => 'goTop20',
 			esc_html__( 'Go bottom', 'js_composer' ) => 'goBottom20',
-		);
+		];
 	}
 }

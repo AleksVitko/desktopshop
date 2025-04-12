@@ -57,10 +57,6 @@
 					'post_type': postType,
 				};
 
-				if ( isFullScreen2 ) {
-					$parentResult.removeClass('wd-no-results');
-				}
-
 				if ( ! $input.hasClass('wd-search-inited') ) {
 					$input.devbridgeAutocomplete({
 						serviceUrl      : url,
@@ -73,6 +69,10 @@
 							}
 						},
 						onHide          : function() {
+							if ( isFullScreen2 ) {
+								$parentResult.removeClass('wd-no-results');
+							}
+
 							$parentResult.removeClass('wd-opened');
 						},
 						onSearchStart   : function() {
@@ -131,8 +131,12 @@
 								returnValue = '<span class="no-found-msg">' + suggestion.value + '</span>';
 							}
 
-							if (isFullScreen2 && suggestion.no_results) {
-								$parentResult.addClass('wd-no-results');
+							if ( isFullScreen2 ) {
+								if (suggestion.no_results) {
+									$parentResult.addClass('wd-no-results');
+								} else {
+									$parentResult.removeClass('wd-no-results');
+								}
 							}
 
 							$parentResult.addClass('wd-opened');
@@ -181,6 +185,10 @@
 	};
 
 	$(document).ready(function() {
+		woodmartThemeModule.ajaxSearch();
+	});
+
+	window.addEventListener('wdUpdatedHeader',function() {
 		woodmartThemeModule.ajaxSearch();
 	});
 })(jQuery);

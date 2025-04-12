@@ -20,9 +20,9 @@ class WPBakeryShortCode_Vc_Row extends WPBakeryShortCode {
 	 *
 	 * @var array
 	 */
-	protected $predefined_atts = array(
+	protected $predefined_atts = [
 		'el_class' => '',
-	);
+	];
 
 	/**
 	 * Non draggable class.
@@ -45,8 +45,8 @@ class WPBakeryShortCode_Vc_Row extends WPBakeryShortCode {
 	 * Register shortcode scripts.
 	 */
 	protected function shortcodeScripts() {
-		wp_register_script( 'vc_jquery_skrollr_js', vc_asset_url( 'lib/vendor/node_modules/skrollr/dist/skrollr.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_youtube_iframe_api_js', 'https://www.youtube.com/iframe_api', array(), WPB_VC_VERSION, true );
+		wp_register_script( 'vc_jquery_skrollr_js', vc_asset_url( 'lib/vendor/node_modules/skrollr/dist/skrollr.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_youtube_iframe_api_js', 'https://www.youtube.com/iframe_api', [], WPB_VC_VERSION, true );
 	}
 
 	/**

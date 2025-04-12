@@ -14,9 +14,25 @@
     "btns_accent_bg_hover": {
         "idle": "rgb(169,127,79)"
     },
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Lora",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "15",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
     "primary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Marcellus SC",
             "font-weight": "400",
@@ -26,19 +42,8 @@
             "color": "#242424"
         }
     ],
-    "secondary-font": [
-        {
-            "custom": "",
-            "google": "1",
-            "font-family": "Lora",
-            "font-weight": "400",
-            "font-style": "",
-            "font-subset": ""
-        }
-    ],
     "post-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Marcellus SC",
             "font-weight": "400",
@@ -51,29 +56,17 @@
             }
         }
     ],
-    "text-font": [
+    "secondary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Lora",
             "font-weight": "400",
             "font-style": "",
-            "font-subset": "",
-            "font-size": "14",
-            "tablet": {
-                "font-size": ""
-            },
-            "mobile": {
-                "font-size": ""
-            },
-            "color": "#767676"
+            "font-subset": ""
         }
     ],
-    "products_hover": "icons",
-    "blog_style": "flat",
     "widget-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Marcellus SC",
             "font-weight": "400",
@@ -90,18 +83,8 @@
             "color": "#333"
         }
     ],
-    "footer-bar-bg": {
-        "color": "rgb(234,234,234)",
-        "url": "",
-        "id": "",
-        "repeat": "",
-        "size": "",
-        "attachment": "",
-        "position": ""
-    },
     "navigation-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Marcellus SC",
             "font-weight": "400",
@@ -117,6 +100,17 @@
             }
         }
     ],
+    "products_hover": "icons",
+    "blog_style": "flat",
+    "footer-bar-bg": {
+        "color": "rgb(234,234,234)",
+        "url": "",
+        "id": "",
+        "repeat": "",
+        "size": "",
+        "attachment": "",
+        "position": ""
+    },
     "pages-background": {
         "color": "rgb(244,244,244)",
         "url": "",

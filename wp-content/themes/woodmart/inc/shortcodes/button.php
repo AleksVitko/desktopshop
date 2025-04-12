@@ -147,10 +147,14 @@ if ( ! function_exists( 'woodmart_shortcode_button' ) ) {
 		} elseif ( 'image' === $icon_type && ! empty( $image ) ) {
 			$btn_class .= ' btn-icon-pos-' . $icon_position;
 
-			if ( woodmart_is_svg( wp_get_attachment_image_url( $image ) ) ) {
+			if ( is_array( $image ) && ! empty( $image['id'] ) ) {
+				if ( woodmart_is_svg( wp_get_attachment_image_url( $image['id'] ) ) ) {
+					$image_output = woodmart_get_svg_html( $image['id'], $img_size );
+				} else {
+					$image_output = woodmart_otf_get_image_html( $image['id'], $img_size );
+				}
+			} elseif ( woodmart_is_svg( wp_get_attachment_image_url( $image ) ) ) {
 				$image_output = woodmart_get_svg_html( $image, $img_size );
-			} elseif ( ! empty( $image['id'] ) ) {
-				$image_output = woodmart_otf_get_image_html( $image['id'], $img_size );
 			} else {
 				$image_output = woodmart_otf_get_image_html( $image, $img_size );
 			}

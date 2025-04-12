@@ -45,7 +45,7 @@ class WpbMap_Grid_Item extends WPBMap {
 		if ( ! $force && false !== self::$gitem_user_sc && false !== self::$gitem_user_categories ) {
 			return;
 		}
-		self::$gitem_user_sc = self::$gitem_user_categories = self::$gitem_user_sorted_sc = array();
+		self::$gitem_user_sc = self::$gitem_user_categories = self::$gitem_user_sorted_sc = [];
 		$deprecated = 'deprecated';
 		$add_deprecated = false;
 		if ( is_array( self::$sc ) && ! empty( self::$sc ) ) {
@@ -53,7 +53,7 @@ class WpbMap_Grid_Item extends WPBMap {
 				if ( isset( $values['post_type'] ) && Vc_Grid_Item_Editor::postType() === $values['post_type'] && vc_user_access_check_shortcode_all( $name ) ) {
 					if ( ! isset( $values['content_element'] ) || true === $values['content_element'] ) {
 						$categories = isset( $values['category'] ) ? $values['category'] : '_other_category_';
-						$values['_category_ids'] = array();
+						$values['_category_ids'] = [];
 						if ( isset( $values['deprecated'] ) && false !== $values['deprecated'] ) {
 							$add_deprecated = true;
 							$values['_category_ids'][] = $deprecated;

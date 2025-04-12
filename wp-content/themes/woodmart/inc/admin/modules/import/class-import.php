@@ -330,7 +330,7 @@ class Import extends Singleton {
 								<div class="xts-import-item-wrap xts-cat-show xts-col-6 xts-col-xl-4 <?php echo esc_attr( $item_wrap_classes ); ?>">
 									<div class="xts-import-item <?php echo esc_attr( $item_classes ); ?>" data-version="<?php echo esc_attr( $slug ); ?>" data-base="<?php echo esc_attr( $base ); ?>" data-type="<?php echo esc_attr( $type ); ?>" data-tags="<?php echo esc_attr( $tags ); ?>" data-cats="<?php echo esc_attr( implode( ',', $categories_array ) ); ?>">
 										<div class="xts-import-item-image">
-											<img data-wood-src="<?php echo esc_url( WOODMART_DUMMY_URL . $slug . '/preview.jpg' ); ?>" src="<?php echo esc_url( woodmart_lazy_get_default_preview() ); ?>" class="wd-lazy-load wd-lazy-fade" alt="<?php echo esc_attr__( 'Import preview', 'woodmart' ); ?>">
+											<img data-src="<?php echo esc_url( WOODMART_DUMMY_URL . $slug . '/preview.jpg' ); ?>" src="<?php echo esc_url( woodmart_lazy_get_default_preview() ); ?>" class="wd-lazy-load wd-lazy-fade" alt="<?php echo esc_attr__( 'Import preview', 'woodmart' ); ?>">
 											<div class="xts-box-labels">
 												<?php if ( 'main' === $slug ) : ?>
 													<div class="xts-box-label xts-label-default xts-i-flag">

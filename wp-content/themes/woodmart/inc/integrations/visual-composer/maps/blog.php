@@ -432,6 +432,16 @@ if ( ! function_exists( 'woodmart_get_vc_map_blog' ) ) {
 					'default'          => 1,
 					'edit_field_class' => 'vc_col-sm-6 vc_column',
 				),
+				array(
+					'type'             => 'woodmart_switch',
+					'heading'          => esc_html__( 'Published date', 'woodmart' ),
+					'param_name'       => 'parts_published_date',
+					'group'            => esc_html__( 'Design', 'woodmart' ),
+					'true_state'       => 1,
+					'false_state'      => 0,
+					'default'          => 1,
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
 				// Data settings
 				array(
 					'type'       => 'woodmart_title_divider',

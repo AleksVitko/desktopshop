@@ -2047,7 +2047,7 @@ Options::add_field(
 	array(
 		'id'          => 'related_product_count',
 		'name'        => esc_html__( 'Product count', 'woodmart' ),
-		'description' => esc_html__( 'The total number of related products to display.', 'woodmart' ),
+		'description' => esc_html__( 'The total number of products to display.', 'woodmart' ),
 		'group'       => esc_html__( 'Layout', 'woodmart' ),
 		'type'        => 'text_input',
 		'attributes'  => array(

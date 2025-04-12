@@ -32,7 +32,7 @@ class Vc_Roles {
 	 *
 	 * @var array
 	 */
-	protected $parts = array(
+	protected $parts = [
 		'post_types',
 		'backend_editor',
 		'frontend_editor',
@@ -44,7 +44,7 @@ class Vc_Roles {
 		'grid_builder',
 		'presets',
 		'dragndrop',
-	);
+	];
 
 	/**
 	 * Cached parts list.
@@ -75,10 +75,10 @@ class Vc_Roles {
 	 * @return array|string
 	 */
 	public function getPartCapability( $part ) {
-		return 'settings' !== $part ? array(
+		return 'settings' !== $part ? [
 			'edit_posts',
 			'edit_pages',
-		) : 'manage_options';
+		] : 'manage_options';
 	}
 
 	/**
@@ -128,8 +128,8 @@ class Vc_Roles {
 	 * @return array
 	 * @throws \Exception
 	 */
-	public function save( $params = array() ) {
-		$data = array( 'message' => '' );
+	public function save( $params = [] ) {
+		$data = [ 'message' => '' ];
 		$roles = $this->getWpRoles();
 		$editable_roles = get_editable_roles();
 		foreach ( $params as $role => $parts ) {
@@ -143,10 +143,10 @@ class Vc_Roles {
 					$roles->use_db = false; // Disable saving in DB on every cap change.
 					foreach ( $settings as $key => $value ) {
 						if ( '_state' === $key ) {
-							$state_value = in_array( $value, array(
+							$state_value = in_array( $value, [
 								'0',
 								'1',
-							), true ) ? (bool) $value : $value;
+							], true ) ? (bool) $value : $value;
 						} elseif ( empty( $value ) ) {
 								$roles->remove_cap( $role, $part_key . '/' . $key );
 						} else {
@@ -170,14 +170,14 @@ class Vc_Roles {
 	 */
 	public function getPostTypes() {
 		if ( false === $this->post_types ) {
-			$this->post_types = array();
+			$this->post_types = [];
 			$exclude = $this->getExcludePostTypes();
-			foreach ( get_post_types( array( 'public' => true ) ) as $post_type ) {
+			foreach ( get_post_types( [ 'public' => true ] ) as $post_type ) {
 				if ( ! in_array( $post_type, $exclude, true ) ) {
-					$this->post_types[] = array(
+					$this->post_types[] = [
 						$post_type,
 						$post_type,
-					);
+					];
 				}
 			}
 		}
@@ -192,12 +192,12 @@ class Vc_Roles {
 	 */
 	public function getExcludePostTypes() {
 		if ( false === $this->vc_excluded_post_types ) {
-			$this->vc_excluded_post_types = apply_filters( 'vc_settings_exclude_post_type', array(
+			$this->vc_excluded_post_types = apply_filters( 'vc_settings_exclude_post_type', [
 				'attachment',
 				'revision',
 				'nav_menu_item',
 				'mediapage',
-			) );
+			] );
 		}
 
 		return $this->vc_excluded_post_types;

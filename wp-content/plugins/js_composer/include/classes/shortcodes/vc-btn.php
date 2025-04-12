@@ -23,19 +23,19 @@ class WPBakeryShortCode_Vc_Btn extends WPBakeryShortCode {
 	 */
 	public static function convertAttributesToButton3( $atts ) {
 		// size btn1 to size btn2.
-		$btn1_sizes = array(
+		$btn1_sizes = [
 			'wpb_regularsize',
 			'btn-large',
 			'btn-small',
 			'btn-mini',
-		);
+		];
 		if ( isset( $atts['size'] ) && in_array( $atts['size'], $btn1_sizes, true ) ) {
-			$atts['size'] = str_replace( $btn1_sizes, array(
+			$atts['size'] = str_replace( $btn1_sizes, [
 				'md',
 				'lg',
 				'sm',
 				'xs',
-			), $atts['size'] );
+			], $atts['size'] );
 		}
 
 		// Convert Btn1 href+target attributes to Btn2 `link` attribute.
@@ -53,13 +53,13 @@ class WPBakeryShortCode_Vc_Btn extends WPBakeryShortCode {
 			$atts['icon_align'] = 'right';
 			$atts['icon_pixelicons'] = 'vc_pixel_icon vc_pixel_icon-' . str_replace( 'wpb_', '', $atts['icon'] );
 		}
-		$haystack = array(
+		$haystack = [
 			'rounded',
 			'square',
 			'round',
 			'outlined',
 			'square_outlined',
-		);
+		];
 		if ( isset( $atts['style'] ) && in_array( $atts['style'], $haystack, true ) ) {
 			switch ( $atts['style'] ) {
 				case 'rounded':

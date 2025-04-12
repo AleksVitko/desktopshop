@@ -98,6 +98,8 @@ $xts-icon-global: \e94a;
 $xts-icon-image: \e94f;
 $xts-icon-fbt: \e95c;
 $xts-icon-sticky-nav: \e95d;
+$xts-icon-header-backend: \e928a;
+$xts-icon-header-frontend: \e928b;
 
 $xts-icon-logo-youtube: \e977;
 $xts-icon-logo-facebook: \e90a;
@@ -126,6 +128,8 @@ $xts-icon-logo-xtemos: \e93d;
 $xts-icon-logo-google: \e94b;
 $xts-icon-logo-discord: \e95e;
 $xts-icon-logo-yelp: \e97f;
+$xts-icon-logo-bluesky: \e97c;
+$xts-icon-logo-threads: \e97b;
 
 // ------------------------------------------
 // MIXIN
@@ -763,6 +767,20 @@ $xts-icon-logo-yelp: \e97f;
 		&:before {
 			content: "\f120";
 			font-family: "dashicons";
+		}
+	}
+
+	.xts-i-header-builder-front {
+
+		&:before {
+			@include font-icon-content($xts-icon-header-frontend);
+		}
+	}
+
+	.xts-i-header-builder-end {
+
+		&:before {
+			@include font-icon-content($xts-icon-header-backend);
 		}
 	}
 

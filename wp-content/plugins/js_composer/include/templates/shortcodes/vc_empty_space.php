@@ -34,7 +34,7 @@ $inline_css = ( (float) $height >= 0.0 ) ? ' style="height: ' . esc_attr( $heigh
 
 $class = 'vc_empty_space ' . $this->getExtraClass( $el_class ) . vc_shortcode_custom_css_class( $css, ' ' );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $class, $this->settings['base'], $atts );
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }

@@ -459,6 +459,17 @@
             "isInner": "1"
           },
           {
+            "id": "b2f0013",
+            "elType": "widget",
+            "settings": {
+              "content_width": "full",
+              "hook": "woocommerce_single_product_summary",
+              "scroll_y": "-80"
+            },
+            "elements": [],
+            "widgetType": "wd_wc_hook"
+          },
+          {
             "id": "88fc8bf",
             "elType": "widget",
             "settings": {

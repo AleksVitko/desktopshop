@@ -32,6 +32,21 @@
 
 	.xts-group-control {
 
+		// :is(
+		// input,
+		// select) {
+		// 	min-width: 180px;
+		// }
+
+		.xts-option-control {
+
+			> :is(
+			input[type="number"],
+			select) {
+				min-width: 180px;
+			}
+		}
+
 		.xts-fields-group {
 			gap: 20px;
 

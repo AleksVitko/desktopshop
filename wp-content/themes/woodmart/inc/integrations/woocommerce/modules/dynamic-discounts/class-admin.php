@@ -73,7 +73,7 @@ class Admin extends Singleton {
 				'section'  => 'general',
 				'name'     => esc_html__( 'Rule type', 'woodmart' ),
 				'options'  => array(
-					'bulk'    => array(
+					'bulk' => array(
 						'name'  => esc_html__( 'Bulk pricing', 'woodmart' ),
 						'value' => 'bulk',
 					),
@@ -85,9 +85,30 @@ class Admin extends Singleton {
 
 		$metabox->add_field(
 			array(
+				'id'       => 'discount_rules',
+				'group'    => esc_html__( 'Rules', 'woodmart' ),
+				'type'     => 'discount_rules',
+				'section'  => 'general',
+				'priority' => 20,
+			)
+		);
+
+		$metabox->add_field(
+			array(
+				'id'       => 'discount_condition',
+				'group'    => esc_html__( 'Condition', 'woodmart' ),
+				'type'     => 'conditions',
+				'section'  => 'general',
+				'priority' => 30,
+			)
+		);
+
+		$metabox->add_field(
+			array(
 				'id'          => 'woodmart_discount_priority',
 				'name'        => esc_html__( 'Priority', 'woodmart' ),
 				'description' => esc_html__( 'Set priority for current discount rules. This will be useful if several rules apply to one product.', 'woodmart' ),
+				'group'       => esc_html__( 'Settings', 'woodmart' ),
 				'type'        => 'text_input',
 				'attributes'  => array(
 					'type' => 'number',
@@ -96,7 +117,7 @@ class Admin extends Singleton {
 				'default'     => 1,
 				'section'     => 'general',
 				'class'       => 'xts-col-6',
-				'priority'    => 20,
+				'priority'    => 40,
 			)
 		);
 
@@ -107,48 +128,29 @@ class Admin extends Singleton {
 				'section'     => 'general',
 				'name'        => esc_html__( 'Quantities', 'woodmart' ),
 				'description' => esc_html__( 'Choose "Individual variation" to have variations of a variable product count as an individual product.', 'woodmart' ),
+				'group'       => esc_html__( 'Settings', 'woodmart' ),
 				'options'     => array(
-					'individual_variation'    => array(
+					'individual_variation' => array(
 						'name'  => esc_html__( 'Individual variation', 'woodmart' ),
 						'value' => 'individual_variation',
 					),
-					'individual_product'    => array(
+					'individual_product'   => array(
 						'name'  => esc_html__( 'Individual product', 'woodmart' ),
 						'value' => 'individual_product',
 					),
 				),
 				'class'       => 'xts-col-6',
-				'priority'    => 30,
-			)
-		);
-
-		$metabox->add_field(
-			array(
-				'id'       => 'discount_rules',
-				'group'    => esc_html__( 'Discount rules', 'woodmart' ),
-				'type'     => 'discount_rules',
-				'section'  => 'general',
-				'priority' => 40,
-			)
-		);
-
-		$metabox->add_field(
-			array(
-				'id'       => 'discount_condition',
-				'group'    => esc_html__( 'Discount condition', 'woodmart' ),
-				'type'     => 'conditions',
-				'section'  => 'general',
-				'priority' => 50,
+				'priority'    => 50,
 			)
 		);
 
 		$this->manager->set_meta_boxes_fields_keys(
 			array(
 				'_woodmart_rule_type',
-				'woodmart_discount_priority',
-				'discount_quantities',
 				'discount_rules',
 				'discount_condition',
+				'woodmart_discount_priority',
+				'discount_quantities',
 			)
 		);
 	}

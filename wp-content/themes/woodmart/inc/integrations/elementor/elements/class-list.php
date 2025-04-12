@@ -192,11 +192,12 @@ class Icon_List extends Widget_Base {
 				'label'   => esc_html__( 'Type', 'woodmart' ),
 				'type'    => Controls_Manager::SELECT,
 				'options' => array(
-					'icon'      => esc_html__( 'With icon', 'woodmart' ),
-					'image'     => esc_html__( 'With image', 'woodmart' ),
-					'ordered'   => esc_html__( 'Ordered', 'woodmart' ),
-					'unordered' => esc_html__( 'Unordered', 'woodmart' ),
-					'without'   => esc_html__( 'Without icon', 'woodmart' ),
+					'icon'        => esc_html__( 'With icon', 'woodmart' ),
+					'image'       => esc_html__( 'With image', 'woodmart' ),
+					'ordered'     => esc_html__( 'With numbers', 'woodmart' ),
+					'unordered'   => esc_html__( 'With arrows', 'woodmart' ),
+					'unordered-2' => esc_html__( 'With bullets', 'woodmart' ),
+					'without'     => esc_html__( 'Without icon', 'woodmart' ),
 				),
 				'default' => 'icon',
 			)
@@ -412,7 +413,7 @@ class Icon_List extends Widget_Base {
 				),
 				'default'   => 'default',
 				'condition' => array(
-					'list_type' => array( 'icon', 'ordered', 'unordered', 'image' ),
+					'list_type' => array( 'icon', 'ordered', 'unordered', 'unordered-2', 'image' ),
 				),
 			)
 		);
@@ -427,7 +428,7 @@ class Icon_List extends Widget_Base {
 					'{{WRAPPER}} .wd-icon' => 'color: {{VALUE}}',
 				),
 				'condition' => array(
-					'list_type' => array( 'icon', 'ordered', 'unordered' ),
+					'list_type' => array( 'icon', 'ordered', 'unordered', 'unordered-2' ),
 				),
 			)
 		);
@@ -442,7 +443,7 @@ class Icon_List extends Widget_Base {
 					'{{WRAPPER}} li:hover .wd-icon' => 'color: {{VALUE}}',
 				),
 				'condition' => array(
-					'list_type' => array( 'icon', 'ordered', 'unordered' ),
+					'list_type' => array( 'icon', 'ordered', 'unordered', 'unordered-2' ),
 				),
 			)
 		);

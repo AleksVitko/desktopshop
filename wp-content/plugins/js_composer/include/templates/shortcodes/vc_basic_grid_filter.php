@@ -23,7 +23,7 @@ if ( 'yes' === $atts['show_filter'] && ! empty( $filter_terms ) ) {
 	// phpcs:ignore
 	$terms = count( $terms_ids ) > 0 ? get_terms( $atts['filter_source'], array(
 		'include' => implode( ',', $terms_ids ),
-	) ) : array();
+	) ) : [];
 
 	$filter_default = $atts['filter_default_title'];
 	if ( empty( $filter_default ) ) {

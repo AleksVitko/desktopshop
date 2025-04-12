@@ -4,6 +4,34 @@
 		woodmartThemeModule.stickyColumn();
 	});
 
+	woodmartThemeModule.$window.on('elementor/frontend/init', function() {
+		if (!elementorFrontend.isEditMode()) {
+			return;
+		}
+
+		elementorFrontend.hooks.addAction('frontend/element_ready/container', function($wrapper) {
+			var cid = $wrapper.data('model-cid');
+
+			if (typeof elementorFrontend.config.elements.data[cid] !== 'undefined') {
+				if (elementorFrontend.config.elements.data[cid].attributes.container_sticky) {
+					$wrapper.addClass('wd-sticky-container-lg');
+				} else {
+					$wrapper.removeClass('wd-sticky-container-lg');
+				}
+				if (elementorFrontend.config.elements.data[cid].attributes.container_sticky_tablet) {
+					$wrapper.addClass('wd-sticky-container-md-sm');
+				} else {
+					$wrapper.removeClass('wd-sticky-container-md-sm');
+				}
+				if (elementorFrontend.config.elements.data[cid].attributes.container_sticky_mobile) {
+					$wrapper.addClass('wd-sticky-container-sm');
+				} else {
+					$wrapper.removeClass('wd-sticky-container-sm');
+				}
+			}
+		});
+	});
+
 	woodmartThemeModule.stickyColumn = function() {
 		$('.woodmart-sticky-column').each(function() {
 			var $column = $(this),
@@ -36,7 +64,7 @@
 				}
 			}
 
-			var $widgetWrap = $column.find('> .elementor-column-wrap > .elementor-widget-wrap');
+			var $widgetWrap = $column.find(' > .elementor-widget-wrap');
 
 			if ($widgetWrap.length <= 0) {
 				$widgetWrap = $column.find('> .elementor-widget-wrap');
@@ -68,6 +96,33 @@
 				if ( ( ! $column.hasClass('wd-sticky-on-lg') && windowWidth > 1024 ) || ( ! $column.hasClass('wd-sticky-on-md-sm') && windowWidth <= 1024 && windowWidth > 768 ) || ( ! $column.hasClass('wd-sticky-on-sm') && windowWidth <= 768 ) ) {
 					return;
 				}
+
+				$column.stick_in_parent({
+					offset_top: offset
+				});
+			}
+
+			initSticky();
+
+			woodmartThemeModule.$window.on('resize', woodmartThemeModule.debounce(function() {
+				initSticky();
+			}, 300));
+		});
+
+		$('[class*="wd-sticky-container-"]').each(function() {
+			var $column = $(this);
+
+			function initSticky() {
+				var windowWidth = woodmartThemeModule.$window.width();
+
+				$column.trigger('sticky_kit:detach');
+
+				if ( ( ! $column.hasClass('wd-sticky-container-lg') && windowWidth > 1024 ) || ( ! $column.hasClass('wd-sticky-container-md-sm') && windowWidth <= 1024 && windowWidth > 768 ) || ( ! $column.hasClass('wd-sticky-container-sm') && windowWidth <= 768 ) ) {
+					return;
+				}
+
+				var carouselStyle = window.getComputedStyle($column[0]);
+				var offset = parseInt( carouselStyle.getPropertyValue('--wd-sticky-offset'), 10);
 
 				$column.stick_in_parent({
 					offset_top: offset

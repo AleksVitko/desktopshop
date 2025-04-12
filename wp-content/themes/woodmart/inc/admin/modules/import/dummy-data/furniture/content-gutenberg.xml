@@ -35,8 +35,8 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[promo-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/promo-popup-2/</link>
 					<pubDate>Mon, 19 Jul 2021 11:35:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2021/07/promo-popup.jpg</guid>
 															<wp:post_id>936</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-19 11:35:48]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[page-title-shop]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/page-title-shop/</link>
 					<pubDate>Fri, 23 Jul 2021 06:08:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2021/07/page-title-shop.jpg</guid>
 															<wp:post_id>1177</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-23 06:08:22]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[Home Furniture]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-furniture/</link>
 					<pubDate>Mon, 10 Jun 2024 09:55:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=14924</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"05b7de15-d47c-429e-9b65-3d94b7d7e05b","effect":"fade","arrowsStyle":"2","pagination":false,"autoplay":true,"autoplaySpeed":"25000","stretch":true,"fullWidthContent":true,"height":"870","marginTop":"-40","marginBottom":"50","displayWidth":"","heightTablet":"860","heightMobile":"720","paddingLockMobile":true} -->
 <div id="wd-05b7de15" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-fade wd-stretched wd-container-full-width"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="fade" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"faad0ed7-24ac-4387-93f3-2244d22ed6d1","blockGap":0,"align":"flex-start","effect":"fade","bgImage":{"id":14967,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-slide-1.jpg"},"bgColorCode":"#F3F3F3","paddingTop":"50","paddingBottom":"50","paddingLeft":"100","marginUnits":"%","justifyMobile":"flex-start","alignMobile":"flex-start","paddingRightTablet":"15","paddingLeftTablet":"15"} -->
@@ -570,7 +570,7 @@
 					<title><![CDATA[furniture-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-banner-1/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:02 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-banner-1.jpg</guid>
 															<wp:post_id>14958</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:02]]></wp:post_date>
@@ -593,7 +593,7 @@
 					<title><![CDATA[furniture-banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-banner-2/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:03 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-banner-2.jpg</guid>
 															<wp:post_id>14959</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:03]]></wp:post_date>
@@ -616,7 +616,7 @@
 					<title><![CDATA[furniture-banner-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-banner-3/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:03 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-banner-3.jpg</guid>
 															<wp:post_id>14960</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:03]]></wp:post_date>
@@ -639,7 +639,7 @@
 					<title><![CDATA[furniture-banner-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-banner-4/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-banner-4.jpg</guid>
 															<wp:post_id>14961</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:04]]></wp:post_date>
@@ -662,7 +662,7 @@
 					<title><![CDATA[furniture-banner-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-banner-5/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-banner-5.jpg</guid>
 															<wp:post_id>14962</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:04]]></wp:post_date>
@@ -685,7 +685,7 @@
 					<title><![CDATA[furniture-gallery-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-gallery-2/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-gallery-2.jpg</guid>
 															<wp:post_id>14965</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:07]]></wp:post_date>
@@ -708,7 +708,7 @@
 					<title><![CDATA[furniture-gallery-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-gallery-3/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-gallery-3.jpg</guid>
 															<wp:post_id>14966</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:07]]></wp:post_date>
@@ -731,7 +731,7 @@
 					<title><![CDATA[furniture-slide-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-slide-1/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-slide-1.jpg</guid>
 															<wp:post_id>14967</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:08]]></wp:post_date>
@@ -754,7 +754,7 @@
 					<title><![CDATA[furniture-slide-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-slide-2/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-slide-2.jpg</guid>
 															<wp:post_id>14968</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:09]]></wp:post_date>
@@ -777,7 +777,7 @@
 					<title><![CDATA[furniture-slide-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-slide-3/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-slide-3.jpg</guid>
 															<wp:post_id>14969</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:10]]></wp:post_date>
@@ -800,7 +800,7 @@
 					<title><![CDATA[furniture-gallery-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-furniture/furniture-gallery-1/</link>
 					<pubDate>Mon, 10 Jun 2024 11:31:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-gallery-1.jpg</guid>
 															<wp:post_id>14972</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:31:43]]></wp:post_date>
@@ -823,7 +823,7 @@
 					<title><![CDATA[furniture-cat-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-cat-1/</link>
 					<pubDate>Mon, 10 Jun 2024 11:53:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-cat-1.jpg</guid>
 															<wp:post_id>14997</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:53:57]]></wp:post_date>
@@ -846,7 +846,7 @@
 					<title><![CDATA[furniture-cat-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-cat-2/</link>
 					<pubDate>Mon, 10 Jun 2024 11:53:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-cat-2.jpg</guid>
 															<wp:post_id>14998</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:53:57]]></wp:post_date>
@@ -869,7 +869,7 @@
 					<title><![CDATA[furniture-cat-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-cat-3/</link>
 					<pubDate>Mon, 10 Jun 2024 11:53:58 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-cat-3.jpg</guid>
 															<wp:post_id>14999</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:53:58]]></wp:post_date>
@@ -892,7 +892,7 @@
 					<title><![CDATA[furniture-cat-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-cat-4/</link>
 					<pubDate>Mon, 10 Jun 2024 11:53:59 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-cat-4.jpg</guid>
 															<wp:post_id>15000</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:53:59]]></wp:post_date>
@@ -915,7 +915,7 @@
 					<title><![CDATA[furniture-cat-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-cat-5/</link>
 					<pubDate>Mon, 10 Jun 2024 11:53:59 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-cat-5.jpg</guid>
 															<wp:post_id>15001</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:53:59]]></wp:post_date>
@@ -938,7 +938,7 @@
 					<title><![CDATA[furniture-cat-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-cat-6/</link>
 					<pubDate>Mon, 10 Jun 2024 11:54:00 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-cat-6.jpg</guid>
 															<wp:post_id>15002</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:54:00]]></wp:post_date>
@@ -961,7 +961,7 @@
 					<title><![CDATA[furniture-bg-video]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-bg-video/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-bg-video.jpg</guid>
 															<wp:post_id>14963</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:05]]></wp:post_date>
@@ -984,7 +984,7 @@
 					<title><![CDATA[furniture-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/furniture-bg/</link>
 					<pubDate>Mon, 10 Jun 2024 11:21:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-bg.jpg</guid>
 															<wp:post_id>14964</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 11:21:05]]></wp:post_date>
@@ -1007,7 +1007,7 @@
 					<title><![CDATA[furniture-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-furniture/furniture-1/</link>
 					<pubDate>Fri, 14 Jun 2024 11:05:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-1.svg</guid>
 															<wp:post_id>16141</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:05:15]]></wp:post_date>
@@ -1030,7 +1030,7 @@
 					<title><![CDATA[furniture-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-furniture/furniture-2/</link>
 					<pubDate>Fri, 14 Jun 2024 11:05:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-2.svg</guid>
 															<wp:post_id>16142</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:05:15]]></wp:post_date>
@@ -1053,7 +1053,7 @@
 					<title><![CDATA[furniture-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-furniture/furniture-3/</link>
 					<pubDate>Fri, 14 Jun 2024 11:05:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-3.svg</guid>
 															<wp:post_id>16143</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:05:15]]></wp:post_date>
@@ -1076,7 +1076,7 @@
 					<title><![CDATA[furniture-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-furniture/furniture-4/</link>
 					<pubDate>Fri, 14 Jun 2024 11:05:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/furniture-4.svg</guid>
 															<wp:post_id>16144</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:05:16]]></wp:post_date>

@@ -18,26 +18,26 @@ class Vc_WXR_Parser_Plugin {
 	 *
 	 * @var array
 	 */
-	public $shortcodes = array(
-		'gallery' => array(
+	public $shortcodes = [
+		'gallery' => [
 			'ids',
-		),
-		'vc_single_image' => array(
+		],
+		'vc_single_image' => [
 			'image',
-		),
-		'vc_gallery' => array(
+		],
+		'vc_gallery' => [
 			'images',
-		),
-		'vc_images_carousel' => array(
+		],
+		'vc_images_carousel' => [
 			'images',
-		),
-		'vc_media_grid' => array(
+		],
+		'vc_media_grid' => [
 			'include',
-		),
-		'vc_masonry_media_grid' => array(
+		],
+		'vc_masonry_media_grid' => [
 			'include',
-		),
-	);
+		],
+	];
 
 	/**
 	 * Remaps.
@@ -51,22 +51,22 @@ class Vc_WXR_Parser_Plugin {
 	 *
 	 * @var array
 	 */
-	private $idsRemap = array();
+	private $idsRemap = [];
 
 	/**
 	 * Vc_WXR_Parser_Plugin constructor.
 	 */
 	public function __construct() {
 		$this->shortcodes = apply_filters( 'vc_shared_templates_import_shortcodes', $this->shortcodes );
-		add_filter( 'vc_import_post_data_processed', array(
+		add_filter( 'vc_import_post_data_processed', [
 			$this,
 			'processPostContent',
-		) );
+		] );
 
-		add_action( 'vc_import_pre_end', array(
+		add_action( 'vc_import_pre_end', [
 			$this,
 			'remapIdsInPosts',
-		) );
+		] );
 	}
 
 	/**
@@ -132,11 +132,11 @@ class Vc_WXR_Parser_Plugin {
 			}
 		}
 		$urlRegex = '#\bhttps?://[^\s()<>]+(?:\([\w\d]+\)|(?:[^[:punct:]\s]|/))#';
-		$urlMatches = array();
+		$urlMatches = [];
 		preg_match_all( $urlRegex, $content, $urlMatches );
 		if ( ! empty( $urlMatches[0] ) ) {
 			foreach ( $urlMatches[0] as $url ) {
-				$idsMatches = array();
+				$idsMatches = [];
 				preg_match_all( '/id\=(?P<id>\d+)/', $url, $idsMatches );
 				if ( ! empty( $idsMatches['id'] ) ) {
 					$this->remaps = true;
@@ -186,12 +186,12 @@ class Vc_WXR_Parser_Plugin {
 				$attributeValue = $shortcode['attrs'][ $attribute ];
 				$attributeValues = explode( ',', $attributeValue );
 				$newValues = $attributeValues;
-				array_walk( $newValues, array(
+				array_walk( $newValues, [
 					$this,
 					'attributesWalker',
-				), array(
+				], [
 					'attachments' => $attachments,
-				) );
+				] );
 				$newAttributeValue = implode( ',', $newValues );
 				$newQuery = str_replace( sprintf( '%s="%s"', $attribute, $attributeValue ), sprintf( '%s="%s"', $attribute, $newAttributeValue ), $newQuery );
 				$replacements++;
@@ -233,11 +233,11 @@ class Vc_WXR_Parser_Plugin {
 		}
 		foreach ( $found[2] as $index => $tag ) {
 			$content = $found[5][ $index ];
-			$shortcode = array(
+			$shortcode = [
 				'tag' => $tag,
 				'attrs_query' => $found[3][ $index ],
 				'attrs' => shortcode_parse_atts( $found[3][ $index ] ),
-			);
+			];
 			if ( array_key_exists( $tag, $this->shortcodes ) ) {
 				$this->idsRemap[] = $shortcode;
 			}

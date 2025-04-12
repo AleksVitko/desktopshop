@@ -12,7 +12,7 @@
 
 use XTS\Modules\Layouts\Admin;
 
-$conditions = $conditions ? wp_json_encode( $conditions, JSON_HEX_APOS ) : '';
+$conditions = $conditions && is_array( $conditions ) ? wp_json_encode( $conditions, JSON_HEX_APOS ) : '';
 
 ob_start();
 ?>

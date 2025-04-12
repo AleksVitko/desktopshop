@@ -37,11 +37,11 @@ abstract class WPBakeryVisualComposerAbstract {
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'edit',
 		'clone',
 		'delete',
-	);
+	];
 
 	/**
 	 * Shortcode content.
@@ -76,10 +76,10 @@ abstract class WPBakeryVisualComposerAbstract {
 	 * @deprecated 6.0 use native WordPress actions
 	 */
 	public function addAction( $action, $method, $priority = 10 ) {
-		return add_action( $action, array(
+		return add_action( $action, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -93,10 +93,10 @@ abstract class WPBakeryVisualComposerAbstract {
 	 * @deprecated 6.0 use native WordPress actions
 	 */
 	public function removeAction( $action, $method, $priority = 10 ) {
-		return remove_action( $action, array(
+		return remove_action( $action, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -110,10 +110,10 @@ abstract class WPBakeryVisualComposerAbstract {
 	 * @deprecated 6.0 use native WordPress actions
 	 */
 	public function addFilter( $filter, $method, $priority = 10 ) {
-		return add_filter( $filter, array(
+		return add_filter( $filter, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -126,10 +126,10 @@ abstract class WPBakeryVisualComposerAbstract {
 	 * @deprecated 6.0 use native WordPress
 	 */
 	public function removeFilter( $filter, $method, $priority = 10 ) {
-		return remove_filter( $filter, array(
+		return remove_filter( $filter, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**

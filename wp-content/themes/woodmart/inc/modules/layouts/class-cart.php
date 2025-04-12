@@ -113,9 +113,10 @@ class Cart extends Layout_Type {
 				return;
 			}
 
-			$product_id = woodmart_get_opt( 'single_product_builder_post_data' );
+			$product_id      = woodmart_get_opt( 'single_product_builder_post_data' );
+			$preview_product = wc_get_product( $product_id );
 
-			if ( ! $product_id ) {
+			if ( ! $product_id || 'product' !== get_post_type( $product_id ) || ! $preview_product || ! $preview_product->is_visible() ) {
 				$random_product = wc_get_products(
 					array(
 						'status' => 'publish',

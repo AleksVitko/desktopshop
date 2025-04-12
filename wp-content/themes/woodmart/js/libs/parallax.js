@@ -63,7 +63,7 @@ http://www.gnu.org/licenses/gpl.html
 					return;
 				}
 
-				$this.attr('style', 'background-position: ' + xpos + " " + Math.round((firstTop - pos) * speedFactor) + "px !important");
+				$this.attr('style', 'background-position: var(--wd-parallax-pos,' + xpos + " " + Math.round((firstTop - pos) * speedFactor) + "px) !important");
 			});
 		}		
 

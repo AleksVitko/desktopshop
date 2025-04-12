@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-07-19 14:23" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 14:17" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>admin</title>
 	<link>https://dummy.xtemos.com/woodmart2</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 19 Jul 2024 14:23:46 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 14:17:49 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>142</wp:term_id>
@@ -236,7 +236,7 @@
 		</wp:termmeta>
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-142-version]]></wp:meta_key>
-			<wp:meta_value><![CDATA[7.6.0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[8.0.4]]></wp:meta_value>
 		</wp:termmeta>
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-142-site-url]]></wp:meta_key>
@@ -248,7 +248,7 @@
 		</wp:termmeta>
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-142-file-data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{s:4:"path";s:36:"/2024/07/xts-term-142-1721398925.css";s:13:"theme_version";s:5:"7.6.0";s:8:"site_url";s:32:"65c5e7a3e87c59ae65d18b8d3b912a1e";}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:3:{s:4:"path";s:36:"/2025/01/xts-term-142-1736056164.css";s:13:"theme_version";s:5:"8.0.4";s:8:"site_url";s:32:"65c5e7a3e87c59ae65d18b8d3b912a1e";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term><wp:term_id>93</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[footer-menu-wine]]></wp:term_slug><wp:term_name><![CDATA[Footer menu Wine]]></wp:term_name>
@@ -260,7 +260,7 @@
 					<title><![CDATA[wine-footer-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-footer-bg/</link>
 					<pubDate>Thu, 12 Aug 2021 08:45:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-footer-bg.jpg</guid>
 															<wp:post_id>3821</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:45:17]]></wp:post_date>
@@ -283,7 +283,7 @@
 					<title><![CDATA[wine-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-page-title/</link>
 					<pubDate>Thu, 12 Aug 2021 08:54:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-page-title.jpg</guid>
 															<wp:post_id>3828</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:54:11]]></wp:post_date>
@@ -306,7 +306,7 @@
 					<title><![CDATA[wine-popup-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-popup-bg/</link>
 					<pubDate>Thu, 12 Aug 2021 08:58:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-popup-bg.jpg</guid>
 															<wp:post_id>3830</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:58:08]]></wp:post_date>
@@ -329,7 +329,7 @@
 					<title><![CDATA[wine-bg-top]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-bg-top/</link>
 					<pubDate>Thu, 12 Aug 2021 09:00:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-bg-top.jpg</guid>
 															<wp:post_id>3831</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:00:00]]></wp:post_date>
@@ -352,7 +352,7 @@
 					<title><![CDATA[wine-category-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-category-1/</link>
 					<pubDate>Thu, 12 Aug 2021 09:00:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-category-1.jpg</guid>
 															<wp:post_id>3833</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:00:19]]></wp:post_date>
@@ -375,7 +375,7 @@
 					<title><![CDATA[wine-category-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-category-2/</link>
 					<pubDate>Thu, 12 Aug 2021 09:00:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-category-2.jpg</guid>
 															<wp:post_id>3834</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:00:32]]></wp:post_date>
@@ -398,7 +398,7 @@
 					<title><![CDATA[wine-category-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-category-3/</link>
 					<pubDate>Thu, 12 Aug 2021 09:00:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-category-3.jpg</guid>
 															<wp:post_id>3835</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:00:44]]></wp:post_date>
@@ -421,7 +421,7 @@
 					<title><![CDATA[wine-left-side-vector-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-left-side-vector-1/</link>
 					<pubDate>Thu, 12 Aug 2021 09:01:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-left-side-vector-1.jpg</guid>
 															<wp:post_id>3836</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:01:03]]></wp:post_date>
@@ -444,7 +444,7 @@
 					<title><![CDATA[wine-right-flangship]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-right-flangship/</link>
 					<pubDate>Thu, 12 Aug 2021 09:02:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-right-flangship.jpg</guid>
 															<wp:post_id>3839</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:02:23]]></wp:post_date>
@@ -467,7 +467,7 @@
 					<title><![CDATA[wine-product-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-product-bg/</link>
 					<pubDate>Thu, 12 Aug 2021 09:03:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-product-bg.jpg</guid>
 															<wp:post_id>3841</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:03:01]]></wp:post_date>
@@ -490,7 +490,7 @@
 					<title><![CDATA[wine-sommelier-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-sommelier-bg/</link>
 					<pubDate>Thu, 12 Aug 2021 09:04:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-sommelier-bg.jpg</guid>
 															<wp:post_id>3843</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:04:25]]></wp:post_date>
@@ -513,7 +513,7 @@
 					<title><![CDATA[wine-infobox-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-infobox-bg/</link>
 					<pubDate>Thu, 12 Aug 2021 09:05:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-infobox-bg.jpg</guid>
 															<wp:post_id>3845</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:05:20]]></wp:post_date>
@@ -536,7 +536,7 @@
 					<title><![CDATA[wine-menu-left-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-menu-left-bg/</link>
 					<pubDate>Thu, 12 Aug 2021 09:10:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-menu-left-bg.jpg</guid>
 															<wp:post_id>3851</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:10:22]]></wp:post_date>
@@ -559,7 +559,7 @@
 					<title><![CDATA[wine-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-11/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-11.png</guid>
 															<wp:post_id>6392</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:40]]></wp:post_date>
@@ -582,7 +582,7 @@
 					<title><![CDATA[wine-sleder-bg-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1/wine-sleder-bg-1-opt/</link>
 					<pubDate>Mon, 22 Jan 2024 13:07:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-sleder-bg-1-opt.jpg</guid>
 															<wp:post_id>9640</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-22 13:07:13]]></wp:post_date>
@@ -605,7 +605,7 @@
 					<title><![CDATA[wine-sleder-bg-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2/wine-sleder-bg-2-opt/</link>
 					<pubDate>Mon, 22 Jan 2024 13:31:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-sleder-bg-2-opt.jpg</guid>
 															<wp:post_id>9645</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-22 13:31:14]]></wp:post_date>
@@ -628,7 +628,7 @@
 					<title><![CDATA[wine-sleder-bg-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2-2/wine-sleder-bg-3-opt/</link>
 					<pubDate>Mon, 22 Jan 2024 13:33:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-sleder-bg-3-opt.jpg</guid>
 															<wp:post_id>9649</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-22 13:33:03]]></wp:post_date>
@@ -651,7 +651,7 @@
 					<title><![CDATA[wine-slider-1-img-min-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1/wine-slider-1-img-min-1/</link>
 					<pubDate>Tue, 23 Jan 2024 14:20:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-slider-1-img-min-1.jpg</guid>
 															<wp:post_id>9674</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-23 14:20:22]]></wp:post_date>
@@ -674,7 +674,7 @@
 					<title><![CDATA[wine-slider-2-img-min-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2/wine-slider-2-img-min-1/</link>
 					<pubDate>Tue, 23 Jan 2024 14:21:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-slider-2-img-min-1.jpg</guid>
 															<wp:post_id>9675</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-23 14:21:11]]></wp:post_date>
@@ -697,7 +697,7 @@
 					<title><![CDATA[wine-slider-3-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2-2/wine-slider-3-img/</link>
 					<pubDate>Tue, 23 Jan 2024 14:21:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-slider-3-img.jpg</guid>
 															<wp:post_id>9676</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-23 14:21:44]]></wp:post_date>
@@ -720,7 +720,7 @@
 					<title><![CDATA[wine-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-1/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-1.png</guid>
 															<wp:post_id>6382</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:25]]></wp:post_date>
@@ -743,7 +743,7 @@
 					<title><![CDATA[wine-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-2/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-2.png</guid>
 															<wp:post_id>6383</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:26]]></wp:post_date>
@@ -766,7 +766,7 @@
 					<title><![CDATA[wine-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-3/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-3.png</guid>
 															<wp:post_id>6384</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:28]]></wp:post_date>
@@ -789,7 +789,7 @@
 					<title><![CDATA[wine-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-4/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-4.png</guid>
 															<wp:post_id>6385</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:29]]></wp:post_date>
@@ -812,7 +812,7 @@
 					<title><![CDATA[wine-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-5/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-5.png</guid>
 															<wp:post_id>6386</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:30]]></wp:post_date>
@@ -835,7 +835,7 @@
 					<title><![CDATA[wine-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-6/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-6.png</guid>
 															<wp:post_id>6387</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:32]]></wp:post_date>
@@ -858,7 +858,7 @@
 					<title><![CDATA[wine-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-7/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-7.png</guid>
 															<wp:post_id>6388</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:33]]></wp:post_date>
@@ -881,7 +881,7 @@
 					<title><![CDATA[wine-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-8/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-8.png</guid>
 															<wp:post_id>6389</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:34]]></wp:post_date>
@@ -904,7 +904,7 @@
 					<title><![CDATA[wine-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-9/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-9.png</guid>
 															<wp:post_id>6390</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:36]]></wp:post_date>
@@ -927,7 +927,7 @@
 					<title><![CDATA[wine-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-10/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-10.png</guid>
 															<wp:post_id>6391</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:38]]></wp:post_date>
@@ -950,7 +950,7 @@
 					<title><![CDATA[wine-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-product-12/</link>
 					<pubDate>Thu, 23 Sep 2021 16:01:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-product-12.png</guid>
 															<wp:post_id>6393</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:01:41]]></wp:post_date>
@@ -973,7 +973,7 @@
 					<title><![CDATA[wine-blog-img-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-9/</link>
 					<pubDate>Thu, 23 Sep 2021 16:02:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-9.jpg</guid>
 															<wp:post_id>6394</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:02:54]]></wp:post_date>
@@ -996,7 +996,7 @@
 					<title><![CDATA[wine-blog-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-1/</link>
 					<pubDate>Thu, 23 Sep 2021 16:02:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-1.jpg</guid>
 															<wp:post_id>6395</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:02:56]]></wp:post_date>
@@ -1019,7 +1019,7 @@
 					<title><![CDATA[wine-blog-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-2/</link>
 					<pubDate>Thu, 23 Sep 2021 16:02:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-2.jpg</guid>
 															<wp:post_id>6396</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:02:57]]></wp:post_date>
@@ -1042,7 +1042,7 @@
 					<title><![CDATA[wine-blog-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-3/</link>
 					<pubDate>Thu, 23 Sep 2021 16:03:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-3.jpg</guid>
 															<wp:post_id>6397</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:03:00]]></wp:post_date>
@@ -1065,7 +1065,7 @@
 					<title><![CDATA[wine-blog-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-4/</link>
 					<pubDate>Thu, 23 Sep 2021 16:03:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-4.jpg</guid>
 															<wp:post_id>6398</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:03:02]]></wp:post_date>
@@ -1088,7 +1088,7 @@
 					<title><![CDATA[wine-blog-img-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-5/</link>
 					<pubDate>Thu, 23 Sep 2021 16:03:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-5.jpg</guid>
 															<wp:post_id>6399</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:03:04]]></wp:post_date>
@@ -1111,7 +1111,7 @@
 					<title><![CDATA[wine-blog-img-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-6/</link>
 					<pubDate>Thu, 23 Sep 2021 16:03:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-6.jpg</guid>
 															<wp:post_id>6400</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:03:05]]></wp:post_date>
@@ -1134,7 +1134,7 @@
 					<title><![CDATA[wine-blog-img-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-7/</link>
 					<pubDate>Thu, 23 Sep 2021 16:03:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-7.jpg</guid>
 															<wp:post_id>6401</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:03:07]]></wp:post_date>
@@ -1157,7 +1157,7 @@
 					<title><![CDATA[wine-blog-img-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wine-blog-img-8/</link>
 					<pubDate>Thu, 23 Sep 2021 16:03:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/09/wine-blog-img-8.jpg</guid>
 															<wp:post_id>6402</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-23 16:03:09]]></wp:post_date>
@@ -1180,7 +1180,7 @@
 					<title><![CDATA[wood-logo-dark]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/wood-logo-dark/</link>
 					<pubDate>Thu, 15 Jul 2021 13:49:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/07/wood-logo-dark.svg</guid>
 															<wp:post_id>704</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-15 13:49:44]]></wp:post_date>
@@ -1203,7 +1203,7 @@
 					<title><![CDATA[wd-mobile]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-video/wd-mobile/</link>
 					<pubDate>Tue, 03 Aug 2021 08:43:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wd-mobile.svg</guid>
 															<wp:post_id>1934</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-03 08:43:34]]></wp:post_date>
@@ -1226,7 +1226,7 @@
 					<title><![CDATA[wd-paper-plane]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-video/wd-paper-plane/</link>
 					<pubDate>Tue, 03 Aug 2021 08:43:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wd-paper-plane.svg</guid>
 															<wp:post_id>1935</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-03 08:43:35]]></wp:post_date>
@@ -1249,7 +1249,7 @@
 					<title><![CDATA[wd-pointer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-video/wd-pointer/</link>
 					<pubDate>Tue, 03 Aug 2021 08:43:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wd-pointer.svg</guid>
 															<wp:post_id>1936</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-03 08:43:36]]></wp:post_date>
@@ -1272,23 +1272,25 @@
 					<title><![CDATA[Contact form alternative]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/?post_type=wpcf7_contact_form&#038;p=1938</link>
 					<pubDate>Tue, 03 Aug 2021 08:46:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?post_type=wpcf7_contact_form&#038;p=1938</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-md-6"><label>Your Name</label>[text* your-name]</p>
-<p class="col-md-6"><label>Your Email</label>[email* your-email]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><label>Your Name</label>[text* your-name]</div>
+<div class="wd-col"><label>Your Email</label>[email* your-email]</div>
 </div>
-<div class="row">
-<p class="col-md-6"><label>Phone Number</label>[tel tel-767]</p>
-<p class="col-md-6"><label>Company</label>[text text-1]</p>
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><label>Phone Number</label>[tel tel-767]</div>
+<div class="wd-col"><label>Company</label>[text text-1]</div>
 </div>
-<p><label>Your Message</label>[textarea your-message]</p>
-<p>[submit class:btn-color-black "ASK A QUESTION"]</p>
+<div><label>Your Message</label>[textarea your-message]</div>
+<div>[submit class:btn-color-black "ASK A QUESTION"]</div>
+</div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1302,7 +1304,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -1338,8 +1340,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>1938</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-03 08:46:14]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-08-03 08:46:14]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-02-07 14:15:45]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-02-07 14:15:45]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:36:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:36:58]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-alternative]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1348,20 +1350,22 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-md-6"><label>Your Name</label>[text* your-name]</p>
-<p class="col-md-6"><label>Your Email</label>[email* your-email]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><label>Your Name</label>[text* your-name]</div>
+<div class="wd-col"><label>Your Email</label>[email* your-email]</div>
 </div>
-<div class="row">
-<p class="col-md-6"><label>Phone Number</label>[tel tel-767]</p>
-<p class="col-md-6"><label>Company</label>[text text-1]</p>
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><label>Phone Number</label>[tel tel-767]</div>
+<div class="wd-col"><label>Company</label>[text text-1]</div>
 </div>
-<p><label>Your Message</label>[textarea your-message]</p>
-<p>[submit class:btn-color-black "ASK A QUESTION"]</p>]]></wp:meta_value>
+<div><label>Your Message</label>[textarea your-message]</div>
+<div>[submit class:btn-color-black "ASK A QUESTION"]</div>
+</div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1372,7 +1376,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1392,20 +1396,22 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-md-6"><label>Your Name</label>[text* your-name]</p>
-<p class="col-md-6"><label>Your Email</label>[email* your-email]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><label>Your Name</label>[text* your-name]</div>
+<div class="wd-col"><label>Your Email</label>[email* your-email]</div>
 </div>
-<div class="row">
-<p class="col-md-6"><label>Phone Number</label>[tel tel-767]</p>
-<p class="col-md-6"><label>Company</label>[text text-1]</p>
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><label>Phone Number</label>[tel tel-767]</div>
+<div class="wd-col"><label>Company</label>[text text-1]</div>
 </div>
-<p><label>Your Message</label>[textarea your-message]</p>
-<p>[submit class:btn-color-black "ASK A QUESTION"]</p>]]></wp:meta_value>
+<div><label>Your Message</label>[textarea your-message]</div>
+<div>[submit class:btn-color-black "ASK A QUESTION"]</div>
+</div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1416,7 +1422,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1435,18 +1441,18 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Popup with contact form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/?cms_block=popup-with-contact-form</link>
 					<pubDate>Tue, 03 Aug 2021 09:19:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?post_type=cms_block&#038;p=1953</guid>
-											<content:encoded><![CDATA[[vc_row equal_height="yes" woodmart_css_id="61090adb91014" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTA5MGFkYjkxMDE0Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" row_reverse_mobile="0" row_reverse_tablet="0" woodmart_disable_overflow="0" css=".vc_custom_1627982565310{margin-top: -30px !important;margin-right: -30px !important;margin-bottom: -30px !important;margin-left: -30px !important;}"][vc_column width="2/3" css=".vc_custom_1627982416578{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 15px !important;padding-left: 30px !important;}" woodmart_css_id="61090a45ae5b4" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTA5MGE0NWFlNWI0Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no"][woodmart_title size="small" align="left" title="SEND US A MESSAGE"][contact-form-7 id="1938"][/vc_column][vc_column width="1/3" woodmart_css_id="61090a7a94c28" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTA5MGE3YTk0YzI4Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no" css=".vc_custom_1627982466210{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;background-color: #333333 !important;}"][woodmart_title size="small" color="white" align="left" title="CONTACT INFORMATION"][woodmart_info_box image="1936" woodmart_color_scheme="light" image_alignment="left" img_size="30x30" woodmart_css_id="610901aed08e6" svg_animation="no" info_box_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]50 East 52nd Street
+											<content:encoded><![CDATA[[vc_row equal_height="yes" woodmart_css_id="61090adb91014" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTA5MGFkYjkxMDE0Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" row_reverse_mobile="0" row_reverse_tablet="0" woodmart_disable_overflow="0" css=".vc_custom_1627982565310{margin-top: -30px !important;margin-right: -30px !important;margin-bottom: -30px !important;margin-left: -30px !important;}"][vc_column width="2/3" css=".vc_custom_1737466602384{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;}" woodmart_css_id="678fa2e601f85" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NzhmYTJlNjAxZjg1Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" woodmart_box_shadow="no" wd_z_index="no"][woodmart_title align="left" size="small" title="SEND US A MESSAGE"][woodmart_contact_form_7 form_id="1938" woodmart_css_id="678fa2f10866c" css=".vc_custom_1737466615037{margin-bottom: 0px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NzhmYTJmMTA4NjZjIiwic2hvcnRjb2RlIjoid29vZG1hcnRfY29udGFjdF9mb3JtXzciLCJkYXRhIjp7InRhYmxldCI6e30sIm1vYmlsZSI6e319fQ==" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"][/vc_column][vc_column width="1/3" woodmart_css_id="61090a7a94c28" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTA5MGE3YTk0YzI4Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no" css=".vc_custom_1627982466210{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;background-color: #333333 !important;}"][woodmart_title align="left" color="white" size="small" title="CONTACT INFORMATION"][woodmart_info_box image="1936" woodmart_color_scheme="light" image_alignment="left" img_size="30x30" woodmart_css_id="610901aed08e6" svg_animation="no" info_box_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]50 East 52nd Street
 Brooklyn, NY 10022
 United States[/woodmart_info_box][woodmart_info_box image="1934" woodmart_color_scheme="light" image_alignment="left" img_size="30x30" woodmart_css_id="61090294af939" svg_animation="no" info_box_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]+1322224332
 +1546232784[/woodmart_info_box][woodmart_info_box image="1935" woodmart_color_scheme="light" image_alignment="left" img_size="30x30" woodmart_css_id="6109029ea1195" svg_animation="no" info_box_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]<a href="#">info@google.com</a>
-<a href="#">support@google.com</a>[/woodmart_info_box][vc_separator color="custom" accent_color="rgba(255,255,255,0.15)" css=".vc_custom_1484144347493{margin-bottom: 30px !important;}"][woodmart_text_block text_color_scheme="light" woodmart_css_id="6109094bc8729" content_width="100" css=".vc_custom_1627982162772{margin-bottom: 20px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]Do you have questions about how we can help your company? Send us an email and we’ll get in touch shortly.[/woodmart_text_block][social_buttons size="small" align="left" style="colored"][/vc_column][/vc_row]]]></content:encoded>
+<a href="#">support@google.com</a>[/woodmart_info_box][vc_separator color="custom" css=".vc_custom_1484144347493{margin-bottom: 30px !important;}" accent_color="rgba(255,255,255,0.15)"][woodmart_text_block text_color_scheme="light" woodmart_css_id="6109094bc8729" css=".vc_custom_1627982162772{margin-bottom: 20px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]Do you have questions about how we can help your company? Send us an email and we’ll get in touch shortly.[/woodmart_text_block][social_buttons align="left" style="colored" size="small" color="dark"][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>1953</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-03 09:19:02]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-08-03 09:19:02]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-08-03 09:22:47]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-08-03 09:22:47]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-21 13:36:56]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-21 13:36:56]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[popup-with-contact-form]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1455,14 +1461,22 @@ United States[/woodmart_info_box][woodmart_info_box image="1934" woodmart_color_
 					<wp:post_type><![CDATA[cms_block]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wpb_shortcodes_custom_css]]></wp:meta_key>
-							<wp:meta_value><![CDATA[.vc_custom_1627982565310{margin-top: -30px !important;margin-right: -30px !important;margin-bottom: -30px !important;margin-left: -30px !important;}.vc_custom_1627982416578{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 15px !important;padding-left: 30px !important;}.vc_custom_1627982466210{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;background-color: #333333 !important;}.vc_custom_1484144347493{margin-bottom: 30px !important;}.vc_custom_1627982162772{margin-bottom: 20px !important;}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[.vc_custom_1627982565310{margin-top: -30px !important;margin-right: -30px !important;margin-bottom: -30px !important;margin-left: -30px !important;}.vc_custom_1737466602384{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;}.vc_custom_1627982466210{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;background-color: #333333 !important;}.vc_custom_1737466615037{margin-bottom: 0px !important;}.vc_custom_1484144347493{margin-bottom: 30px !important;}.vc_custom_1627982162772{margin-bottom: 20px !important;}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wpb_post_custom_layout]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wpb_shortcodes_custom_css_updated]]></wp:meta_key>
+							<wp:meta_value><![CDATA[1]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Home Wine]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/</link>
 					<pubDate>Thu, 12 Aug 2021 08:40:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?page_id=3809</guid>
 											<content:encoded><![CDATA[<p>[vc_row css=".vc_custom_1705929007333{margin-top: -40px !important;margin-bottom: 40px !important;padding-top: 0px !important;}" woodmart_css_id="65ae692b8ede7" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNjkyYjhlZGU3Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnsibWFyZ2luLWJvdHRvbSI6IjIwcHgifX19" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" row_reverse_mobile="0" row_reverse_tablet="0" woodmart_disable_overflow="0" woodmart_box_shadow="no" wd_z_index="no"][vc_column css=".vc_custom_1628760563676{padding-top: 0px !important;}" woodmart_css_id="6114e9f1ef446" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZTlmMWVmNDQ2Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no"][woodmart_slider sync_parent_id="wd_65ae6915166c5" slider="wine-slider"][/vc_column][/vc_row][vc_row css=".vc_custom_1628760583796{margin-bottom: 60px !important;background-image: url(http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-bg-top.jpg?id=3831) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: contain !important;}" woodmart_css_id="6114e9ff7c95b" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZTlmZjdjOTViIiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnsibWFyZ2luLWJvdHRvbSI6IjQwIn19fQ==" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" row_reverse_mobile="0" row_reverse_tablet="0" woodmart_disable_overflow="0"][vc_column woodmart_text_align="center" css=".vc_custom_1628762278526{padding-top: 40px !important;}" woodmart_css_id="6114f0a0a4891" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZjBhMGE0ODkxIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no"][woodmart_title title_width="60" color="primary" subtitle_font_weight="600" woodmart_css_id="6114ea09742ea" title="Collection of wines with sophisticated tastes." subtitle="WINES THAT OFFER AMAZING QUALITY" after_title="These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every." subtitle_font_size="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIiAudGl0bGUtc3VidGl0bGUiXX0sInNlbGVjdG9yX2lkIjoiNjExNGVhMDk3NDJlYSIsImRhdGEiOnsiZGVza3RvcCI6IjE2cHgiLCJ0YWJsZXQiOiIxNHB4IiwibW9iaWxlIjoiMTJweCJ9fQ==" title_font_size="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIiAud29vZG1hcnQtdGl0bGUtY29udGFpbmVyIl19LCJzZWxlY3Rvcl9pZCI6IjYxMTRlYTA5NzQyZWEiLCJkYXRhIjp7ImRlc2t0b3AiOiI0OHB4IiwidGFibGV0IjoiMzZweCIsIm1vYmlsZSI6IjI4cHgifX0=" after_font_size="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIiAudGl0bGUtYWZ0ZXJfdGl0bGUiXX0sInNlbGVjdG9yX2lkIjoiNjExNGVhMDk3NDJlYSIsImRhdGEiOnsiZGVza3RvcCI6IjE2cHgifX0=" css=".vc_custom_1628760588181{margin-bottom: 0px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZWEwOTc0MmVhIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGl0bGUiLCJkYXRhIjp7InRhYmxldCI6e30sIm1vYmlsZSI6e319fQ=="][/vc_column][/vc_row][vc_row content_placement="middle" css=".vc_custom_1628760598680{margin-bottom: 40px !important;}" woodmart_css_id="6114ea0f85fca" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZWEwZjg1ZmNhIiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnsibWFyZ2luLWJvdHRvbSI6IjIwIn19fQ==" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" row_reverse_mobile="0" row_reverse_tablet="0" woodmart_disable_overflow="0"][vc_column width="1/3" woodmart_text_align="left" woodmart_bg_position="center-center" css=".vc_custom_1703090087341{margin-bottom: 40px !important;padding-top: 0px !important;background-image: url(http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-category-1.jpg?id=3833) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: contain !important;}" offset="vc_col-lg-4 vc_col-md-4" woodmart_css_id="658317a42de41" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NTgzMTdhNDJkZTQxIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" woodmart_box_shadow="no" wd_z_index="no"][vc_row_inner css=".vc_custom_1703090117681{padding-top: 45% !important;padding-bottom: 45% !important;}" woodmart_css_id="658317b76043d" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NTgzMTdiNzYwNDNkIiwic2hvcnRjb2RlIjoidmNfcm93X2lubmVyIiwiZGF0YSI6eyJ0YWJsZXQiOnsicGFkZGluZy10b3AiOiIzNSUiLCJwYWRkaW5nLWJvdHRvbSI6IjM1JSJ9LCJtb2JpbGUiOnsicGFkZGluZy10b3AiOiI0NSUiLCJwYWRkaW5nLWJvdHRvbSI6IjQ1JSJ9fX0=" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" woodmart_box_shadow="no" wd_z_index="no" woodmart_disable_overflow="0" row_reverse_mobile="0" row_reverse_tablet="0"][vc_column_inner css=".vc_custom_1628760650246{margin-bottom: 30px !important;padding-top: 0px !important;padding-right: 30px !important;padding-left: 20% !important;}" woodmart_css_id="6114ea415df6b" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZWE0MTVkZjZiIiwic2hvcnRjb2RlIjoidmNfY29sdW1uX2lubmVyIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0="][woodmart_text_block text_color_scheme="light" text_font_family="primary" text_font_size="custom" text_color="title" woodmart_css_id="658317e421010" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1ODMxN2U0MjEwMTAiLCJkYXRhIjp7ImRlc2t0b3AiOiI0MHB4IiwidGFibGV0IjoiMzJweCJ9fQ==" css=".vc_custom_1703090154043{margin-bottom: 20px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NTgzMTdlNDIxMDEwIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19"]Red<br />
 Wines[/woodmart_text_block][woodmart_button style="link" color="white" align="left" title="View More" link="url:%23|||"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/3" woodmart_text_align="left" woodmart_bg_position="center-center" css=".vc_custom_1703090094391{margin-bottom: 40px !important;padding-top: 0px !important;background-image: url(http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-category-2.jpg?id=3834) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: contain !important;}" offset="vc_col-lg-4 vc_col-md-4" woodmart_css_id="658317a9e513b" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NTgzMTdhOWU1MTNiIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" woodmart_box_shadow="no" wd_z_index="no"][vc_row_inner content_placement="middle" css=".vc_custom_1703090129686{padding-top: 45% !important;padding-bottom: 45% !important;}" woodmart_css_id="658317c789170" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NTgzMTdjNzg5MTcwIiwic2hvcnRjb2RlIjoidmNfcm93X2lubmVyIiwiZGF0YSI6eyJ0YWJsZXQiOnsicGFkZGluZy10b3AiOiIzNSUiLCJwYWRkaW5nLWJvdHRvbSI6IjM1JSJ9LCJtb2JpbGUiOnsicGFkZGluZy10b3AiOiI0NSUiLCJwYWRkaW5nLWJvdHRvbSI6IjQ1JSJ9fX0=" row_reverse_mobile="0" row_reverse_tablet="0" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" woodmart_box_shadow="no" wd_z_index="no" woodmart_disable_overflow="0"][vc_column_inner css=".vc_custom_1628760655022{margin-bottom: 30px !important;padding-top: 0px !important;padding-right: 30px !important;padding-left: 20% !important;}" woodmart_css_id="6114ea4bd8301" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZWE0YmQ4MzAxIiwic2hvcnRjb2RlIjoidmNfY29sdW1uX2lubmVyIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0="][woodmart_text_block text_color_scheme="light" text_font_family="primary" text_font_size="custom" text_color="title" woodmart_css_id="658317ec03b5b" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1ODMxN2VjMDNiNWIiLCJkYXRhIjp7ImRlc2t0b3AiOiI0MHB4IiwidGFibGV0IjoiMzJweCJ9fQ==" css=".vc_custom_1703090161170{margin-bottom: 20px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NTgzMTdlYzAzYjViIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19"]White<br />
@@ -1525,7 +1539,7 @@ Wines[/woodmart_text_block][woodmart_button style="link" color="white" align="le
 					<title><![CDATA[Footer Wine]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/?cms_block=footer-wine</link>
 					<pubDate>Thu, 12 Aug 2021 08:48:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?post_type=cms_block&#038;p=3822</guid>
 											<content:encoded><![CDATA[[vc_row full_width="stretch_row" css=".vc_custom_1632481319000{padding-top: 80px !important;padding-bottom: 70px !important;}" wd_z_index="no" woodmart_css_id="614db02092c67" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTRkYjAyMDkyYzY3Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnsicGFkZGluZy10b3AiOiI2MHB4IiwicGFkZGluZy1ib3R0b20iOiI1MHB4In0sIm1vYmlsZSI6e319fQ==" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" row_reverse_mobile="0" row_reverse_tablet="0" woodmart_disable_overflow="0"][vc_column woodmart_text_align="center" css=".vc_custom_1534940755313{padding-top: 0px !important;}"][woodmart_image img_align="center" img_id="704" img_size="256x40" css=".vc_custom_1628758096805{margin-bottom: 25px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"][woodmart_text_block text_font_size="custom" text_align="center" content_width="50" woodmart_css_id="614ca4746ba86" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjYxNGNhNDc0NmJhODYiLCJkYXRhIjp7ImRlc2t0b3AiOiIxNnB4IiwidGFibGV0IjoiMTRweCIsIm1vYmlsZSI6IjEycHgifX0=" css=".vc_custom_1632412792158{margin-bottom: 20px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]Parturient parturient hac feugiat vestibulum mauris a proin ridiculus blandit torquent etiam lorem integer suspendisse leo condimentum mi parturient diam.[/woodmart_text_block][woodmart_mega_menu nav_menu="Footer menu Wine" design="horizontal" style="separated" items_gap="m" alignment="center" woodmart_css_id="614ca3f2ce48d"][vc_empty_space height="15px" woodmart_hide_large="0" woodmart_hide_medium="0" woodmart_hide_small="0" woodmart_hide_extra_small="0"][social_buttons style="bordered"][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>3822</wp:post_id>
@@ -1552,7 +1566,7 @@ Wines[/woodmart_text_block][woodmart_button style="link" color="white" align="le
 					<title><![CDATA[Promo popup 6 Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/?cms_block=promo-popup-6-light</link>
 					<pubDate>Thu, 12 Aug 2021 08:57:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?post_type=cms_block&#038;p=3829</guid>
 											<content:encoded><![CDATA[[vc_row css=".vc_custom_1522144037503{padding: 15px !important;}"][vc_column woodmart_text_align="left" woodmart_css_id="6114e23610c41" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTE0ZTIzNjEwYzQxIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" parallax_scroll="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_sticky_column="false" mobile_reset_margin="no" tablet_reset_margin="no"][woodmart_text_block text_font_size="custom" text_color_scheme="light" woodmart_css_id="6114e1f8a1811" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjYxMTRlMWY4YTE4MTEiLCJkYXRhIjp7ImRlc2t0b3AiOiIxNHB4IiwidGFibGV0IjoiMTJweCJ9fQ==" css=".vc_custom_1628758555029{margin-bottom: 5px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]CURABITUR ALIQUET QUAM POSUERE[/woodmart_text_block][woodmart_title font_weight="700" color="white" align="left" title_width="60" title="DO YOU LIKE THE THEME?
 SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !important;}" woodmart_css_id="5c960a65000e7" title_font_size="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIiAud29vZG1hcnQtdGl0bGUtY29udGFpbmVyIl19LCJzZWxlY3Rvcl9pZCI6IjVjOTYwYTY1MDAwZTciLCJkYXRhIjp7ImRlc2t0b3AiOiIzMHB4IiwidGFibGV0IjoiMjZweCIsIm1vYmlsZSI6IjIwcHgifX0="][woodmart_mailchimp form_id="74" color_scheme="light" alignment="left" woodmart_css_id="6179546134dac" content_desktop_width="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfc2xpZGVyIiwiY3NzX2FyZ3MiOnsiLS13ZC1tYXgtd2lkdGgiOlsiIl19LCJjc3NfcGFyYW1zIjp7ImRldmljZSI6ImRlc2t0b3AifSwic2VsZWN0b3JfaWQiOiI2MTY3MWJiOTZkYjE3IiwiZGF0YSI6eyJkZXNrdG9wIjo0MjB9fQ==" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTc5NTQ2MTM0ZGFjIiwic2hvcnRjb2RlIjoid29vZG1hcnRfbWFpbGNoaW1wIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" form_width="eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiI0MjAifSwidGFibGV0Ijp7InVuaXQiOiIlIiwidmFsdWUiOiIifSwibW9iaWxlIjp7InVuaXQiOiIlIiwidmFsdWUiOiIifX0sInNlbGVjdG9yX2lkIjoiNjE3OTU0NjEzNGRhYyIsInNob3J0Y29kZSI6Indvb2RtYXJ0X21haWxjaGltcCIsInNlbGVjdG9ycyI6eyJ7e1dSQVBQRVJ9fSI6WyItLXdkLW1heC13aWR0aDoge3tWQUxVRX19e3tVTklUfX07Il19fQ=="][woodmart_text_block text_font_size="custom" text_color_scheme="light" woodmart_css_id="6114e24565add" css=".vc_custom_1628758631404{margin-bottom: 0px !important;}" parallax_scroll="no" woodmart_inline="no" wd_hide_on_desktop="no" wd_hide_on_tablet_landscape="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no"]Will be used in accordance with our <strong><a href="#">Privacy Policy</a></strong>[/woodmart_text_block][/vc_column][/vc_row]]]></content:encoded>
@@ -1584,7 +1598,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-gen-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-gen-img-1/</link>
 					<pubDate>Thu, 12 Aug 2021 09:01:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-gen-img-1.jpg</guid>
 															<wp:post_id>3837</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:01:20]]></wp:post_date>
@@ -1607,7 +1621,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-bottle-flangship]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-bottle-flangship/</link>
 					<pubDate>Thu, 12 Aug 2021 09:01:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-bottle-flangship.jpg</guid>
 															<wp:post_id>3838</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:01:56]]></wp:post_date>
@@ -1630,7 +1644,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-sommelier-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-sommelier-img/</link>
 					<pubDate>Thu, 12 Aug 2021 09:03:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-sommelier-img.png</guid>
 															<wp:post_id>3842</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:03:41]]></wp:post_date>
@@ -1653,7 +1667,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-infobox-stamp]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-infobox-stamp/</link>
 					<pubDate>Thu, 12 Aug 2021 09:04:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-infobox-stamp.png</guid>
 															<wp:post_id>3844</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:04:48]]></wp:post_date>
@@ -1676,7 +1690,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-red-wine-left-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-red-wine-left-img/</link>
 					<pubDate>Thu, 12 Aug 2021 09:05:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-red-wine-left-img.jpg</guid>
 															<wp:post_id>3846</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:05:46]]></wp:post_date>
@@ -1699,7 +1713,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-grape]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-grape/</link>
 					<pubDate>Thu, 12 Aug 2021 09:06:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-grape.svg</guid>
 															<wp:post_id>3847</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:06:18]]></wp:post_date>
@@ -1722,7 +1736,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-red-wine]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-red-wine/</link>
 					<pubDate>Thu, 12 Aug 2021 09:06:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-red-wine.svg</guid>
 															<wp:post_id>3848</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:06:19]]></wp:post_date>
@@ -1745,7 +1759,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-menu-right-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/home-wine/wine-menu-right-img/</link>
 					<pubDate>Thu, 12 Aug 2021 09:06:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2021/08/wine-menu-right-img.png</guid>
 															<wp:post_id>3849</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 09:06:50]]></wp:post_date>
@@ -1768,7 +1782,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[Wine slide 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2/</link>
 					<pubDate>Mon, 22 Jan 2024 13:32:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/?post_type=woodmart_slide&#038;p=9644</guid>
 											<content:encoded><![CDATA[[vc_row content_placement="middle" woodmart_css_id="65ae6950c1e79" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNjk1MGMxZTc5Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" woodmart_box_shadow="no" wd_z_index="no" woodmart_disable_overflow="0" row_reverse_mobile="0" row_reverse_tablet="0"][vc_column width="7/12" offset="vc_col-lg-7 vc_col-xs-8" woodmart_css_id="65ae6d5ca7500" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmQ1Y2E3NTAwIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" css=".vc_custom_1705930081045{margin-bottom: 90px !important;padding-left: 15px !important;}"][woodmart_text_block text_color_scheme="light" text_font_family="primary" text_font_size="custom" text_color="title" wd_animation="slide-from-bottom" woodmart_css_id="65bba0d82116c" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1YmJhMGQ4MjExNmMiLCJkYXRhIjp7ImRlc2t0b3AiOiI4MnB4IiwidGFibGV0IjoiNTRweCIsIm1vYmlsZSI6IjI4cHgifX0=" woodmart_inline="no" css=".vc_custom_1706795228905{margin-bottom: 10px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWJiYTBkODIxMTZjIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19" parallax_scroll="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="200"]Villadoria Barolo <em>Riserva</em> 2013.[/woodmart_text_block][woodmart_text_block text_color_scheme="light" text_font_family="alt" text_font_size="custom" wd_animation="slide-from-bottom" woodmart_css_id="65ae6de9aedee" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1YWU2ZGU5YWVkZWUiLCJkYXRhIjp7ImRlc2t0b3AiOiI0MHB4IiwidGFibGV0IjoiMzBweCIsIm1vYmlsZSI6IjE4cHgifX0=" woodmart_inline="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRlOWFlZGVlIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19" parallax_scroll="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="350"]More than 30 varieties of wine.[/woodmart_text_block][woodmart_button wd_animation="slide-from-bottom" size="large" color="white" align="left" woodmart_css_id="65ae6df272e85" title="To Shop" button_smooth_scroll="no" wd_button_collapsible_content="no" full_width="no" button_inline="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRmMjcyZTg1Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfYnV0dG9uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="500"][/vc_column][vc_column width="1/3" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-4" woodmart_css_id="65ae701abdd21" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNzAxYWJkZDIxIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnsibWFyZ2luLWxlZnQiOiIwcHgifX19" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" css=".vc_custom_1705930785791{margin-left: 50px !important;}"][woodmart_image img_align="center" rounding_size="" wd_animation="zoom-in" woodmart_css_id="65ae6e445133e" img_id="9646" img_size="full" display_inline="no" parallax_scroll="no" css=".vc_custom_1705930320621{margin-bottom: 0px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmU0NDUxMzNlIiwic2hvcnRjb2RlIjoid29vZG1hcnRfaW1hZ2UiLCJkYXRhIjp7InRhYmxldCI6e30sIm1vYmlsZSI6e319fQ==" woodmart_box_shadow="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="400"][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>9644</wp:post_id>
@@ -1884,7 +1898,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[Wine slide 3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2-2/</link>
 					<pubDate>Mon, 22 Jan 2024 13:33:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/?post_type=woodmart_slide&#038;p=9647</guid>
 											<content:encoded><![CDATA[[vc_row content_placement="middle" woodmart_css_id="65ae6950c1e79" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNjk1MGMxZTc5Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" woodmart_box_shadow="no" wd_z_index="no" woodmart_disable_overflow="0" row_reverse_mobile="0" row_reverse_tablet="0"][vc_column width="7/12" offset="vc_col-lg-7 vc_col-xs-8" woodmart_css_id="65ae6d5ca7500" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmQ1Y2E3NTAwIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" css=".vc_custom_1705930081045{margin-bottom: 90px !important;padding-left: 15px !important;}"][woodmart_text_block text_color_scheme="light" text_font_family="primary" text_font_size="custom" text_color="title" wd_animation="slide-from-bottom" woodmart_css_id="65bba0e0c5375" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1YmJhMGUwYzUzNzUiLCJkYXRhIjp7ImRlc2t0b3AiOiI4MnB4IiwidGFibGV0IjoiNTRweCIsIm1vYmlsZSI6IjI4cHgifX0=" woodmart_inline="no" css=".vc_custom_1706795238803{margin-bottom: 10px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWJiYTBlMGM1Mzc1Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19" parallax_scroll="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="200"]Matias Riccitelli <em>Malbec</em> 2012.[/woodmart_text_block][woodmart_text_block text_color_scheme="light" text_font_family="alt" text_font_size="custom" wd_animation="slide-from-bottom" woodmart_css_id="65ae6de9aedee" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1YWU2ZGU5YWVkZWUiLCJkYXRhIjp7ImRlc2t0b3AiOiI0MHB4IiwidGFibGV0IjoiMzBweCIsIm1vYmlsZSI6IjE4cHgifX0=" woodmart_inline="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRlOWFlZGVlIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19" parallax_scroll="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="350"]More than 30 varieties of wine.[/woodmart_text_block][woodmart_button wd_animation="slide-from-bottom" size="large" color="white" align="left" woodmart_css_id="65ae6df272e85" title="To Shop" button_smooth_scroll="no" wd_button_collapsible_content="no" full_width="no" button_inline="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRmMjcyZTg1Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfYnV0dG9uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="500"][/vc_column][vc_column width="1/3" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-4" woodmart_css_id="65ae70257dca9" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNzAyNTdkY2E5Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnsibWFyZ2luLWxlZnQiOiIwcHgifX19" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" css=".vc_custom_1705930796458{margin-left: 50px !important;}"][woodmart_image img_align="center" rounding_size="" wd_animation="zoom-in" woodmart_css_id="65ae6e7bd1982" img_id="9648" img_size="full" display_inline="no" parallax_scroll="no" css=".vc_custom_1705930376152{margin-bottom: 0px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmU3YmQxOTgyIiwic2hvcnRjb2RlIjoid29vZG1hcnRfaW1hZ2UiLCJkYXRhIjp7InRhYmxldCI6e30sIm1vYmlsZSI6e319fQ==" woodmart_box_shadow="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="400"][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>9647</wp:post_id>
@@ -2012,7 +2026,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-sleder-3-bottle-min-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2-2/wine-sleder-3-bottle-min-1/</link>
 					<pubDate>Mon, 22 Jan 2024 13:32:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-sleder-3-bottle-min-1.png</guid>
 															<wp:post_id>9648</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-22 13:32:53]]></wp:post_date>
@@ -2035,7 +2049,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/2021/08/12/home-5/</link>
 					<pubDate>Thu, 12 Aug 2021 08:49:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?p=3823</guid>
 															<wp:post_id>3823</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:49:35]]></wp:post_date>
@@ -2078,7 +2092,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[About]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/2021/08/12/about/</link>
 					<pubDate>Thu, 12 Aug 2021 08:49:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?p=3824</guid>
 															<wp:post_id>3824</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:49:35]]></wp:post_date>
@@ -2121,7 +2135,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[History]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/2021/08/12/history/</link>
 					<pubDate>Thu, 12 Aug 2021 08:49:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?p=3825</guid>
 															<wp:post_id>3825</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:49:35]]></wp:post_date>
@@ -2164,7 +2178,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[Services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/2021/08/12/services/</link>
 					<pubDate>Thu, 12 Aug 2021 08:49:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?p=3826</guid>
 															<wp:post_id>3826</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:49:35]]></wp:post_date>
@@ -2207,7 +2221,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[Contact Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/2021/08/12/contact-us-6/</link>
 					<pubDate>Thu, 12 Aug 2021 08:49:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?p=3827</guid>
 															<wp:post_id>3827</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-12 08:49:35]]></wp:post_date>
@@ -2250,7 +2264,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[Wine slide 1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1/</link>
 					<pubDate>Mon, 22 Jan 2024 13:09:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/?post_type=woodmart_slide&#038;p=9639</guid>
 											<content:encoded><![CDATA[[vc_row content_placement="middle" woodmart_css_id="65ae6950c1e79" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNjk1MGMxZTc5Iiwic2hvcnRjb2RlIjoidmNfcm93IiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_gradient_switch="no" woodmart_box_shadow="no" wd_z_index="no" woodmart_disable_overflow="0" row_reverse_mobile="0" row_reverse_tablet="0"][vc_column width="7/12" offset="vc_col-lg-7 vc_col-xs-8" woodmart_css_id="65ae6d5ca7500" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmQ1Y2E3NTAwIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" css=".vc_custom_1705930081045{margin-bottom: 90px !important;padding-left: 15px !important;}"][woodmart_text_block text_color_scheme="light" text_font_family="primary" text_font_size="custom" text_color="title" wd_animation="slide-from-bottom" woodmart_css_id="65bba0cf731d5" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1YmJhMGNmNzMxZDUiLCJkYXRhIjp7ImRlc2t0b3AiOiI4MnB4IiwidGFibGV0IjoiNTRweCIsIm1vYmlsZSI6IjI4cHgifX0=" woodmart_inline="no" css=".vc_custom_1706795220399{margin-bottom: 10px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWJiYTBjZjczMWQ1Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19" parallax_scroll="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="200"]Wines From The Best <em>Vineyards</em>.[/woodmart_text_block][woodmart_text_block text_color_scheme="light" text_font_family="alt" text_font_size="custom" wd_animation="slide-from-bottom" woodmart_css_id="65ae6de9aedee" text_font_size_custom="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zaXplIiwiY3NzX2FyZ3MiOnsiZm9udC1zaXplIjpbIi53ZC10ZXh0LWJsb2NrIl19LCJzZWxlY3Rvcl9pZCI6IjY1YWU2ZGU5YWVkZWUiLCJkYXRhIjp7ImRlc2t0b3AiOiI0MHB4IiwidGFibGV0IjoiMzBweCIsIm1vYmlsZSI6IjE4cHgifX0=" woodmart_inline="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRlOWFlZGVlIiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGV4dF9ibG9jayIsImRhdGEiOnsidGFibGV0Ijp7fSwibW9iaWxlIjp7fX19" parallax_scroll="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="350"]More than 30 varieties of wine.[/woodmart_text_block][woodmart_button wd_animation="slide-from-bottom" size="large" color="white" align="left" woodmart_css_id="65ae6df272e85" title="To Shop" button_smooth_scroll="no" wd_button_collapsible_content="no" full_width="no" button_inline="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRmMjcyZTg1Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfYnV0dG9uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0=" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="500"][/vc_column][vc_column width="5/12" offset="vc_col-lg-3 vc_col-xs-4" woodmart_css_id="65ae6d4eb15a4" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" wd_column_role_offcanvas_desktop="no" wd_column_role_offcanvas_tablet="no" wd_column_role_offcanvas_mobile="no" wd_column_role_content_desktop="no" wd_column_role_content_tablet="no" wd_column_role_content_mobile="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmQ0ZWIxNWE0Iiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnsibWFyZ2luLWxlZnQiOiIwIn19fQ==" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" css=".vc_custom_1705930075375{margin-left: 50px !important;}"][woodmart_image img_align="center" rounding_size="" wd_animation="zoom-in" woodmart_css_id="65ae6dfa6eee8" img_id="9641" img_size="full" display_inline="no" parallax_scroll="no" css=".vc_custom_1705930243753{margin-bottom: 0px !important;}" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2NWFlNmRmYTZlZWU4Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfaW1hZ2UiLCJkYXRhIjp7InRhYmxldCI6e30sIm1vYmlsZSI6e319fQ==" woodmart_box_shadow="no" wd_hide_on_desktop="no" wd_hide_on_tablet="no" wd_hide_on_mobile="no" wd_animation_delay="400"][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>9639</wp:post_id>
@@ -2350,7 +2364,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-sleder-1-bottle-min-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1/wine-sleder-1-bottle-min-1/</link>
 					<pubDate>Mon, 22 Jan 2024 13:08:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-sleder-1-bottle-min-1.png</guid>
 															<wp:post_id>9641</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-22 13:08:05]]></wp:post_date>
@@ -2373,7 +2387,7 @@ SHARE WITH YOUR FRIENDS!" css=".vc_custom_1553336935718{margin-bottom: 30px !imp
 					<title><![CDATA[wine-sleder-2-bottle-min-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/blog/woodmart_slide/wine-slide-1-2/wine-sleder-2-bottle-min-1/</link>
 					<pubDate>Mon, 22 Jan 2024 13:31:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/wp-content/uploads/2024/01/wine-sleder-2-bottle-min-1.png</guid>
 															<wp:post_id>9646</wp:post_id>
 					<wp:post_date><![CDATA[2024-01-22 13:31:57]]></wp:post_date>

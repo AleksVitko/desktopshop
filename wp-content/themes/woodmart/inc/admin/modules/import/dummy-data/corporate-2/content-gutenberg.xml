@@ -36,7 +36,7 @@
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
 		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -1361,7 +1361,7 @@
 					<title><![CDATA[Prefooter Corporate 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=prefooter-corporate-2</link>
 					<pubDate>Tue, 18 Jun 2024 13:26:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=17261</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"fb6c3097-67a1-4069-a9e4-e7a57442de0b","colorScheme":"light","bgImage":{"id":17244,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/corporate-2-bg-3.jpg"},"bgPosition":"center left","bgRepeat":"no-repeat","bgDisplaySize":"cover","paddingTop":"40","paddingBottom":"40","marginBottom":"-40"} -->
 <div id="wd-fb6c3097" class="wp-block-wd-section color-scheme-light"><!-- wp:wd/container {"blockId":"258e9dd5-d6d0-4377-887c-84bd908804ff","direction":"row","align":"center","colGap":"15","rowGap":"15","directionMobile":"row","alignMobile":"start"} -->
@@ -1560,7 +1560,7 @@
 					<title><![CDATA[Footer Corporate 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-corporate-2</link>
 					<pubDate>Tue, 18 Jun 2024 13:27:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=17264</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"f79a441c-972e-48e1-911b-f9ebffd76345","paddingTop":"40","paddingBottom":"40","borderType":"solid","borderColorCode":"rgba(119,119,119,0.2)","borderWidthBottom":"1","borderWidthLock":false} -->
 <div id="wd-f79a441c" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"bbd75854-38f2-4be5-a5bf-26a560bb3dd8","adjacentCount":5,"colWidth":32,"adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":67,"colWidthMobile":100} -->
@@ -2145,7 +2145,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -2156,7 +2156,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 

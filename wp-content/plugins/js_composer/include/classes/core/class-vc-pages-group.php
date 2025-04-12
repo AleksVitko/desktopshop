@@ -104,10 +104,10 @@ class Vc_Pages_Group extends Vc_Page {
 	 * Render html output for current page.
 	 */
 	public function render() {
-		vc_include_template( $this->getTemplatePath(), array(
+		vc_include_template( $this->getTemplatePath(), [
 			'pages' => $this->getPages(),
 			'active_page' => $this->activePage,
 			'page' => $this,
-		) );
+		] );
 	}
 }

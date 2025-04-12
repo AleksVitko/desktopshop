@@ -38,10 +38,10 @@ $content = '{{ post_author }}';
 if ( ! empty( $link_html ) ) {
 	$content = '<' . $link_html . '>' . $content . '</a>';
 }
-$css_class = array(
+$css_class = [
 	$styles['css_class'],
 	'vc_gitem-post-data',
-);
+];
 $css_class[] = 'vc_gitem-post-data-source-post_author';
 
 $this->enqueue_element_font_styles( $google_fonts_data );

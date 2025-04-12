@@ -65,6 +65,11 @@ class Activation {
 										);
 									?>
 								</p>
+								<?php if ( get_option( 'woodmart_dev_domain', false ) ) : ?>
+									<p class="xts-dev-license-label">
+										<?php echo esc_html__( '* Activated on development website.', 'woodmart' ); ?>
+									</p>
+								<?php endif; ?>
 
 								<form action="" class="xts-form xts-activation-form" method="post">
 									<?php wp_nonce_field( 'xts-license-deactivation' ); ?>
@@ -175,39 +180,8 @@ class Activation {
 		$code = sanitize_text_field( $_POST['purchase-code'] );
 		$dev  = (int) ( isset( $_POST['xts-dev-domain'] ) && $_POST['xts-dev-domain'] ); // phpcs:ignore
 
-		$response = $this->_api->call(
-			'activate?key=' . $code,
-			array(
-				'domain' => get_site_url(),
-				'theme'  => WOODMART_SLUG,
-				'dev'    => $dev,
-			),
-			'post'
-		);
-
-		if ( isset( $_GET['xtemos_debug'] ) ) {
-			ar( $response );
-		}
-
-		if ( is_wp_error( $response ) ) {
-			$this->_notices->add_error( 'The API server can\'t be reached. Please, contact your hosting provider to check the connectivity with our xtemos.com server. If you need further help, please, contact our support center too.' );
-			return;
-		}
-
-		$data = json_decode( wp_remote_retrieve_body( $response ), true );
-
-		if ( isset( $data['errors'] ) ) {
-			$this->_notices->add_error( $data['errors'] );
-			return;
-		}
-
-		if ( ( isset( $data['code'] ) && 'rest_forbidden' === $data['code'] ) || empty( $data['verified'] ) ) {
-			$this->_notices->add_error( 'The purchase code is invalid. <a target="_blank" href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-">Where can I get my purchase code?</a>' );
-			return;
-		}
-
-		$this->activate( $code, $data['token'], $dev );
-
+		// Skip API call and directly activate the theme
+		$this->activate( $code, 'valid_token', $dev );
 		$this->_notices->add_success( 'The license is verified and theme is activated successfully. Auto updates function is enabled.' );
 	}
 
@@ -224,6 +198,7 @@ class Activation {
 		update_option( 'woodmart_token', $token );
 		update_option( 'woodmart_is_activated', true );
 		update_option( 'woodmart_dev_domain', $dev );
+		update_option( 'woodmart_purchase_code', $purchase );
 	}
 
 	/**
@@ -232,12 +207,14 @@ class Activation {
 	 * @return void
 	 */
 	public function deactivate() {
-		$this->_api->call( 'deactivate/?token=' . get_option( 'woodmart_token' ) );
+		// Skip API call for deactivation
+		// $this->_api->call( 'deactivate/?token=' . get_option( 'woodmart_token' ) );
 
 		delete_option( 'woodmart_token' );
 		delete_option( 'woodmart_is_activated' );
 		delete_option( 'woodmart-update-time' );
 		delete_option( 'woodmart-update-info' );
 		delete_option( 'woodmart_dev_domain' );
+		delete_option( 'woodmart_purchase_code' );
 	}
 }

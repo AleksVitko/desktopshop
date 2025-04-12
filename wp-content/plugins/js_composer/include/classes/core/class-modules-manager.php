@@ -244,15 +244,25 @@ class Vc_Modules_Manager {
 	 *
 	 * @see $this->turn_on()
 	 *
-	 * @param string $module_slug
+	 * @param string|array $module_slug
 	 *
 	 * @since 7.7
 	 * @return bool
 	 */
 	public function is_module_on( $module_slug ) {
-		return in_array( $module_slug, self::$turn_on_list );
-	}
+		if ( is_string( $module_slug ) ) {
+			return in_array( $module_slug, self::$turn_on_list );
+		}
 
+		if ( is_array( $module_slug ) ) {
+			foreach ( $module_slug as $slug ) {
+				if ( in_array( $slug, self::$turn_on_list ) ) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 	/**
 	 * Check if module status in settings.
 	 * Module can be enabled by user in modules plugin tab of plugin settings.

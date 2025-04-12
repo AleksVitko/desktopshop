@@ -30,11 +30,11 @@ if ( ! function_exists( 'woodmart_shortcode_image' ) ) {
 			$atts
 		);
 
-		ob_start();
-
 		if ( empty( $atts['img_id'] ) ) {
 			return false;
 		}
+
+		ob_start();
 
 		$title_id = 'wd-' . $atts['woodmart_css_id'];
 

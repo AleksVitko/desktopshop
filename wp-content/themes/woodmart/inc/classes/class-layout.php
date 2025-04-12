@@ -166,6 +166,7 @@ class Layout {
 	private function set_content_layout() {
 		$size    = 12 - $this->get_sidebar_col_width();
 		$size_md = ( 'full-width' === $this->get_page_layout() || 12 === $size || strpos( $this->get_offcanvas_sidebar_classes(), 'wd-sidebar-hidden-md-sm' ) ) ? 12 : 9;
+		$page_id = $this->get_page_id();
 
 		if ( 12 !== $size && strpos( $this->get_offcanvas_sidebar_classes(), 'wd-sidebar-hidden-lg' ) ) {
 			$size = 12;
@@ -182,6 +183,14 @@ class Layout {
 				|| is_404()
 			) ) {
 				$this->has_sidebar_in_page = false;
+		}
+
+		if ( $page_id ) {
+			$specific = get_post_meta( $page_id, '_woodmart_main_layout', true );
+
+			if ( $specific && 'default' !== $specific ) {
+				$this->has_sidebar_in_page = 'full-width' !== $specific;
+			}
 		}
 
 		if ( woodmart_is_elementor_installed() && woodmart_is_elementor_full_width( true ) ) {

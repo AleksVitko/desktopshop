@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $mailer                     = WC()->mailer();
-$confirm_subscription_email = $mailer->emails['woodmart_waitlist_confirm_subscription_email'];
+$confirm_subscription_email = $mailer->emails['XTS_Email_Waitlist_Confirm_Subscription'];
 $show_confirmed_column      = $confirm_subscription_email->is_enabled() && 'all' === $confirm_subscription_email->get_option( 'send_to' );
 ?>
 
@@ -57,7 +57,13 @@ $show_confirmed_column      = $confirm_subscription_email->is_enabled() && 'all'
 			<?php
 			foreach ( $data as $waitlist ) {
 				$product_id = $waitlist->variation_id ? $waitlist->variation_id : $waitlist->product_id;
-				$product    = wc_get_product( $product_id );
+
+				if ( defined( 'WCML_VERSION' ) && defined( 'ICL_SITEPRESS_VERSION' ) ) {
+					$current_lang = apply_filters( 'wpml_current_language', null );
+					$product_id   = apply_filters( 'wpml_object_id', $product_id, 'product', false, $current_lang ) ?? $product_id;
+				}
+
+				$product = wc_get_product( $product_id );
 
 				if ( empty( $product ) ) {
 					continue;
@@ -96,7 +102,7 @@ $show_confirmed_column      = $confirm_subscription_email->is_enabled() && 'all'
 					</td>
 					<td class="product-name" data-title="<?php esc_attr_e( 'Product', 'woodmart' ); ?>">
 						<a class="product-title" href="<?php echo esc_url( $product_link ); ?>">
-							<?php echo esc_html( $product_name ); ?>
+							<?php echo wp_kses_post( $product_name ); ?>
 						</a>
 						<?php if ( isset( $attributes ) && ! empty( $attributes ) && count( $attributes ) > 2 ) : ?>
 							<?php wc_get_template( 'cart/cart-item-data.php', array( 'item_data' => $attributes ) ); ?>

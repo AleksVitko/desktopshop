@@ -58,14 +58,14 @@ class Vc_Role_Access_Controller extends Vc_Access {
 	 *
 	 * @var array
 	 */
-	protected $mergedCaps = array(
+	protected $mergedCaps = [
 		'vc_row_inner_all' => 'vc_row_all',
 		'vc_column_all' => 'vc_row_all',
 		'vc_column_inner_all' => 'vc_row_all',
 		'vc_row_inner_edit' => 'vc_row_edit',
 		'vc_column_edit' => 'vc_row_edit',
 		'vc_column_inner_edit' => 'vc_row_edit',
-	);
+	];
 
 	/**
 	 * Vc_Role_Access_Controller constructor.
@@ -238,7 +238,7 @@ class Vc_Role_Access_Controller extends Vc_Access {
 	 */
 	public function getAllCaps() {
 		$role = $this->getRole();
-		$caps = array();
+		$caps = [];
 		if ( $role ) {
 			$role = apply_filters( 'vc_role_access_all_caps_role', $role );
 			if ( isset( $role->capabilities ) && is_array( $role->capabilities ) ) {

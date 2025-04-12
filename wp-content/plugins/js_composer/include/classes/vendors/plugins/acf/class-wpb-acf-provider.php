@@ -67,4 +67,91 @@ class Wpb_Acf_Provider {
 
 		return false;
 	}
+
+	/**
+	 * Get field groups.
+	 *
+	 * @since 8.3
+	 * @return array
+	 */
+	public function get_field_groups() {
+		$groups = function_exists( 'acf_get_field_groups' ) ? acf_get_field_groups() : apply_filters( 'acf/get_field_groups', [] );
+		$groups_param_values = $fields_params = [];
+		foreach ( (array) $groups as $group ) {
+			$id = isset( $group['id'] ) ? 'id' : ( isset( $group['ID'] ) ? 'ID' : 'id' );
+			$groups_param_values[ $group['title'] ] = $group[ $id ];
+			$fields = function_exists( 'acf_get_fields' ) ? acf_get_fields( $group[ $id ] ) : apply_filters( 'acf/field_group/get_fields', [], $group[ $id ] );
+			$fields_param_value = [];
+			foreach ( (array) $fields as $field ) {
+				if ( '' === $field['label'] ) {
+					$field['label'] = __( '(no label)', 'acf' );
+				}
+
+				$fields_param_value[ $field['label'] ] = (string) $field['key'];
+			}
+			$fields_params[] = [
+				'type' => 'dropdown',
+				'heading' => esc_html__( 'Field name', 'js_composer' ),
+				'param_name' => 'field_from_' . $group[ $id ],
+				'value' => $fields_param_value,
+				'save_always' => true,
+				'description' => esc_html__( 'Choose field from group.', 'js_composer' ),
+				'dependency' => [
+					'element' => 'field_group',
+					'value' => [ (string) $group[ $id ] ],
+				],
+			];
+		}
+
+		return [
+			'groups_param_values' => $groups_param_values,
+			'fields_params' => $fields_params,
+		];
+	}
+
+	/**
+	 * Get ACF shortcode params.
+	 *
+	 * @since 8.3
+	 * @return array
+	 */
+	public function get_shortcode_params() {
+		$groups = $this->get_field_groups();
+		return array_merge( [
+			[
+				'type' => 'dropdown',
+				'heading' => esc_html__( 'Field group', 'js_composer' ),
+				'param_name' => 'field_group',
+				'value' => $groups['groups_param_values'],
+				'save_always' => true,
+				'description' => esc_html__( 'Select field group.', 'js_composer' ),
+			],
+		], $groups['fields_params'], [
+			[
+				'type' => 'checkbox',
+				'heading' => esc_html__( 'Show label', 'js_composer' ),
+				'param_name' => 'show_label',
+				'value' => [ esc_html__( 'Yes', 'js_composer' ) => 'yes' ],
+				'description' => esc_html__( 'Enter label to display before key value.', 'js_composer' ),
+			],
+			[
+				'type' => 'dropdown',
+				'heading' => esc_html__( 'Align', 'js_composer' ),
+				'param_name' => 'align',
+				'value' => [
+					esc_attr__( 'left', 'js_composer' ) => 'left',
+					esc_attr__( 'right', 'js_composer' ) => 'right',
+					esc_attr__( 'center', 'js_composer' ) => 'center',
+					esc_attr__( 'justify', 'js_composer' ) => 'justify',
+				],
+				'description' => esc_html__( 'Select alignment.', 'js_composer' ),
+			],
+			[
+				'type' => 'textfield',
+				'heading' => esc_html__( 'Extra class name', 'js_composer' ),
+				'param_name' => 'el_class',
+				'description' => esc_html__( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
+			],
+		] );
+	}
 }

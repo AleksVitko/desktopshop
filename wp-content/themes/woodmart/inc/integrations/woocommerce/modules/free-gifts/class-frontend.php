@@ -35,9 +35,13 @@ class Frontend extends Singleton {
 	public function init() {
 		$this->manager = Manager::get_instance();
 
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+
 		add_action( 'woocommerce_before_mini_cart_contents', array( $this, 'enqueue_style' ) );
 
-		add_action( woodmart_get_opt( 'free_gifts_table_location', 'woocommerce_after_cart_table' ), array( $this, 'output_free_gifts_table' ) );
+		add_action( woodmart_get_opt( 'free_gifts_table_location', 'woocommerce_after_cart_table' ), array( $this, 'output_free_gifts_table' ), 11 );
+
+		add_action( 'woocommerce_checkout_order_review', array( $this, 'output_free_gifts_table' ), 14 );
 
 		add_action( 'wp_ajax_woodmart_update_gifts_table', array( $this, 'update_gifts_table' ) );
 		add_action( 'wp_ajax_nopriv_woodmart_update_gifts_table', array( $this, 'update_gifts_table' ) );
@@ -75,6 +79,18 @@ class Frontend extends Singleton {
 	}
 
 	/**
+	 * Enqueue scripts.
+	 */
+	public function enqueue_scripts() {
+		if ( ! woodmart_get_opt( 'free_gifts_enabled' ) || ( ! is_cart() && ! is_checkout() ) ) {
+			return;
+		}
+
+		woodmart_enqueue_js_library( 'tooltips' );
+		woodmart_enqueue_js_script( 'btns-tooltips' );
+	}
+
+	/**
 	 * Add render actions.
 	 *
 	 * @codeCoverageIgnore
@@ -82,7 +98,7 @@ class Frontend extends Singleton {
 	 * @return void
 	 */
 	public function output_free_gifts_table() {
-		if ( ! woodmart_get_opt( 'free_gifts_enabled', 0 ) || woodmart_get_opt( 'free_gifts_limit', 5 ) < 1 || Layouts::get_instance()->has_custom_layout( 'cart' ) ) {
+		if ( ! woodmart_get_opt( 'free_gifts_enabled', 0 ) || woodmart_get_opt( 'free_gifts_limit', 5 ) < 1 || ( is_cart() && ! woodmart_get_opt( 'free_gift_on_cart', true ) ) || ( is_checkout() && ! woodmart_get_opt( 'free_gift_on_checkout' ) ) || Layouts::get_instance()->has_custom_layout( 'cart' ) || Layouts::get_instance()->has_custom_layout( 'checkout_form' ) ) {
 			return;
 		}
 
@@ -121,7 +137,7 @@ class Frontend extends Singleton {
 
 		wp_send_json(
 			array(
-				'html' => '<div class="wd-fg">' . $table_html . '</div>',
+				'html' => $table_html,
 			)
 		);
 		die();
@@ -129,6 +145,10 @@ class Frontend extends Singleton {
 
 	/**
 	 * Render free gifts table.
+	 *
+	 * @param array $settings Settings.
+	 *
+	 * @codeCoverageIgnore
 	 *
 	 * @return void
 	 */
@@ -205,9 +225,6 @@ class Frontend extends Singleton {
 	public function cart_item_name( $item_name, $item ) {
 		if ( ! empty( $item['wd_is_free_gift'] ) ) {
 			ob_start();
-
-			woodmart_enqueue_js_library( 'tooltips' );
-			woodmart_enqueue_js_script( 'btns-tooltips' );
 
 			?>
 			<span class="wd-cart-label wd-fg-label wd-tooltip">

@@ -8,6 +8,7 @@ use XTS\WC_Wishlist\Ui as Wishlist;
 use XTS\Modules\Visitor_Counter\Main as Visitor_Counter;
 use XTS\Modules\Sold_Counter\Main as Sold_Counter;
 use XTS\Modules\Estimate_Delivery\Frontend as Estimate_Delivery_Frontend;
+use XTS\Modules\Dynamic_Discounts\Frontend as Dynamic_Discounts_Frontend;
 
 if ( ! function_exists( 'wd_gutenberg_woo_hook' ) ) {
 	function wd_gutenberg_woo_hook( $block_attributes ) {
@@ -31,6 +32,7 @@ if ( ! function_exists( 'wd_gutenberg_woo_hook' ) ) {
 				remove_action( 'woocommerce_before_checkout_form', 'woocommerce_output_all_notices', 10 );
 			} elseif ( 'woocommerce_cart_collaterals' === $block_attributes['hook'] ) {
 				remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
+				remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 20 );
 				remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cart_totals', 10 );
 			} elseif ( 'woocommerce_before_cart' === $block_attributes['hook'] ) {
 				remove_action( 'woocommerce_before_cart', 'woocommerce_output_all_notices', 10 );
@@ -45,6 +47,7 @@ if ( ! function_exists( 'wd_gutenberg_woo_hook' ) ) {
 				remove_action( 'woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20 );
 			} elseif ( 'woocommerce_single_product_summary' === $block_attributes['hook'] ) {
 				remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
+				remove_action( 'woocommerce_single_product_summary', 'woodmart_stock_progress_bar', 16 );
 				remove_action( 'woocommerce_single_product_summary', 'woocommerce_output_product_data_tabs', 60 );
 				remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating' );
 				remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price' );
@@ -79,6 +82,9 @@ if ( ! function_exists( 'wd_gutenberg_woo_hook' ) ) {
 				}
 				if ( woodmart_get_opt( 'estimate_delivery_enabled' ) && woodmart_get_opt( 'estimate_delivery_show_on_single_product' ) ) {
 					remove_action( 'woocommerce_single_product_summary', array( Estimate_Delivery_Frontend::get_instance(), 'render_on_single_product' ), 39 );
+				}
+				if ( woodmart_get_opt( 'discounts_enabled' ) && woodmart_get_opt( 'show_discounts_table' ) ) {
+					remove_action( 'woocommerce_single_product_summary', array( Dynamic_Discounts_Frontend::get_instance(), 'render_dynamic_discounts_table' ), 25 );
 				}
 			} elseif ( 'woocommerce_before_add_to_cart_form' === $block_attributes['hook'] ) {
 				remove_action( 'woocommerce_before_add_to_cart_form', 'woodmart_single_product_add_to_cart_scripts' );

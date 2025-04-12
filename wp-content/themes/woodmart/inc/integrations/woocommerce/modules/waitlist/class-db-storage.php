@@ -30,6 +30,8 @@ class DB_Storage extends Singleton {
 		if ( ! get_option( 'wd_waitlist_installed' ) ) {
 			add_action( 'admin_init', array( __CLASS__, 'install' ), 100 );
 		}
+
+		add_action( 'admin_init', array( $this, 'add_email_language_column' ), 110 );
 	}
 
 	/**
@@ -40,7 +42,7 @@ class DB_Storage extends Singleton {
 	 *
 	 * @return int ID recording.
 	 */
-	public function create_subscription( $email, $product ) {
+	public function create_subscription( $email, $product, $email_language = '' ) {
 		global $wpdb;
 
 		$data = array_merge(
@@ -48,6 +50,7 @@ class DB_Storage extends Singleton {
 			array(
 				'user_id'           => get_current_user_id(),
 				'user_email'        => $email,
+				'email_language'    => $email_language,
 				'unsubscribe_token' => wp_generate_password( 24, false ),
 				'created_date_gmt'  => current_time( 'mysql', 1 ),
 			)
@@ -90,7 +93,7 @@ class DB_Storage extends Singleton {
 		$where = array();
 
 		if ( ! empty( $product ) && $product instanceof WC_Product ) {
-			$where_product_key = 'variation' === $product->get_type() ? 'variation_id' : 'product_id';
+			$where_product_key = $this->is_variation_product( $product ) ? 'variation_id' : 'product_id';
 			$where[]           = $where_product_key . ' = ' . $product->get_id();
 		}
 
@@ -183,7 +186,7 @@ class DB_Storage extends Singleton {
 		global $wpdb;
 
 		$where             = array();
-		$where_product_key = 'variation' === $product->get_type() ? 'variation_id' : 'product_id';
+		$where_product_key = $this->is_variation_product( $product ) ? 'variation_id' : 'product_id';
 		$where[]           = $where_product_key . ' = ' . $product->get_id();
 		$where[]           = $wpdb->prepare( 'user_email = %s', $email );
 
@@ -204,12 +207,17 @@ class DB_Storage extends Singleton {
 	public function check_subscription_exists_by_user_id( $product, $user_id ) {
 		global $wpdb;
 
-		$where = array();
+		$where      = array();
+		$product_id = $product->get_id();
 
-		if ( 'variation' === $product->get_type() ) {
-			$where[] = $wpdb->prepare( 'variation_id = %d', $product->get_id() );
+		if ( defined( 'WCML_VERSION' ) && defined( 'ICL_SITEPRESS_VERSION' ) ) {
+			$product_id = apply_filters( 'wpml_object_id', $product_id, 'product', true, wpml_get_default_language() );
+		}
+
+		if ( $this->is_variation_product( $product ) ) {
+			$where[] = $wpdb->prepare( 'variation_id = %d', $product_id );
 		} else {
-			$where[] = $wpdb->prepare( 'product_id = %d', $product->get_id() );
+			$where[] = $wpdb->prepare( 'product_id = %d', $product_id );
 		}
 
 		$where[] = $wpdb->prepare( 'user_id = %d', $user_id );
@@ -253,7 +261,7 @@ class DB_Storage extends Singleton {
 			'user_email' => $email,
 		);
 
-		$where_product_key           = 'variation' === $product->get_type() ? 'variation_id' : 'product_id';
+		$where_product_key           = $this->is_variation_product( $product ) ? 'variation_id' : 'product_id';
 		$where[ $where_product_key ] = $product->get_id();
 
 		$db_row = $wpdb->update( // phpcs:ignore.
@@ -386,6 +394,7 @@ class DB_Storage extends Singleton {
 					user_email VARCHAR(100) NOT NULL,
 					product_id bigint(20) NOT NULL,
 					variation_id bigint(20),
+					email_language VARCHAR(20),
 					confirmed tinyint(1) NOT NULL DEFAULT 0,
 					confirm_token VARCHAR(100),
 					unsubscribe_token VARCHAR(100),
@@ -399,6 +408,21 @@ class DB_Storage extends Singleton {
 		dbDelta( $sql );
 
 		update_option( 'wd_waitlist_installed', true, false );
+		update_option( 'woodmart_waitlist_added_email_language_column', true, false );
+	}
+
+	public function add_email_language_column() {
+		global $wpdb;
+
+		if ( get_option( 'woodmart_waitlist_added_email_language_column' ) ) {
+			return;
+		}
+
+		$table_name = $wpdb->prefix . self::WAITLISTS_TABLE;
+
+		$wpdb->query( "ALTER TABLE {$table_name} ADD COLUMN email_language VARCHAR(20) AFTER variation_id" );
+
+		update_option( 'woodmart_waitlist_added_email_language_column', true, false );
 	}
 
 	/**
@@ -411,7 +435,7 @@ class DB_Storage extends Singleton {
 	public function get_product_ids_by_type( $product ) {
 		$product_id = $product->get_id();
 
-		if ( $product->is_type( 'variation' ) ) {
+		if ( $this->is_variation_product( $product ) ) {
 			$variation_id = $product_id;
 			$product_id   = $product->get_parent_id();
 		} else {
@@ -422,6 +446,17 @@ class DB_Storage extends Singleton {
 			'product_id'   => $product_id,
 			'variation_id' => $variation_id,
 		);
+	}
+
+	/**
+	 * Сheck whether this product can be considered variation.
+	 *
+	 * @param WC_Product $product Product Object.
+	 *
+	 * @return bool
+	 */
+	public function is_variation_product( $product ) {
+		return in_array( $product->get_type(), array( 'variation', 'subscription_variation' ), true );
 	}
 }
 

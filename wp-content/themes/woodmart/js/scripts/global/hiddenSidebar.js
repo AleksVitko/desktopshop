@@ -11,8 +11,13 @@
 	woodmartThemeModule.hiddenSidebar = function() {
 		var position = woodmartThemeModule.$body.hasClass('rtl') ? 'right' : 'left';
 		var $sidebarWrapper = $('.wd-content-layout');
+		var windowWidth = woodmartThemeModule.windowWidth;
 
-		if ($sidebarWrapper.hasClass('wd-sidebar-hidden-lg') && woodmartThemeModule.windowWidth > 1024 || $sidebarWrapper.hasClass('wd-sidebar-hidden-md-sm') && woodmartThemeModule.windowWidth <= 1024 && woodmartThemeModule.windowWidth > 768 || $sidebarWrapper.hasClass('wd-sidebar-hidden-sm') && woodmartThemeModule.windowWidth <= 768) {
+		if ('undefined' !== typeof elementor && elementor.hasOwnProperty('$preview') && elementor.$preview.width()) {
+			windowWidth = elementor.$preview.width();
+		}
+
+		if ($sidebarWrapper.hasClass('wd-sidebar-hidden-lg') && windowWidth > 1024 || $sidebarWrapper.hasClass('wd-sidebar-hidden-md-sm') && windowWidth <= 1024 && windowWidth > 768 || $sidebarWrapper.hasClass('wd-sidebar-hidden-sm') && windowWidth <= 768) {
 			$('.wd-sidebar').addClass('wd-side-hidden wd-' + position + ' wd-scroll');
 			$('.wd-sidebar .widget-area').addClass('wd-scroll-content');
 		}

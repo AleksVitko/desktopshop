@@ -36,7 +36,7 @@
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
 		<wp:author><wp:author_id>80</wp:author_id><wp:author_login><![CDATA[erwin]]></wp:author_login><wp:author_email><![CDATA[erwin@erwin.erwin]]></wp:author_email><wp:author_display_name><![CDATA[erwin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -807,7 +807,7 @@
 					<title><![CDATA[scool-top-bg-new]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-school/scool-top-bg-new/</link>
 					<pubDate>Fri, 20 Sep 2024 12:14:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/09/scool-top-bg-new.svg</guid>
 															<wp:post_id>32843</wp:post_id>
 					<wp:post_date><![CDATA[2024-09-20 12:14:48]]></wp:post_date>
@@ -830,7 +830,7 @@
 					<title><![CDATA[scool-top-bg-test]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-school/scool-top-bg-test/</link>
 					<pubDate>Fri, 20 Sep 2024 12:15:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/09/scool-top-bg-test.png</guid>
 															<wp:post_id>32844</wp:post_id>
 					<wp:post_date><![CDATA[2024-09-20 12:15:31]]></wp:post_date>
@@ -1355,7 +1355,7 @@
 					<title><![CDATA[Footer School]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-school</link>
 					<pubDate>Tue, 09 Jul 2024 07:52:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=25997</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"9fb930ac-efe1-49d1-9651-6b8ac90bf3af","paddingTop":"120","shapeDividerTopIcon":"sweet-wave-top","shapeDividerTopColorCode":"#ffffff"} -->
 <div id="wd-9fb930ac" class="wp-block-wd-section wd-bg-parent"><div class="wd-shape-divider wd-pos-top"><svg height="50" viewBox="0 0 1920 80" xmlns="http://www.w3.org/2000/svg" class="sweet-wave-top_svg__wd-divider" preserveAspectRatio="none" size="24"><path class="sweet-wave-top_svg__elementor-shape-fill" d="M1920 60s-169.5 20-510 20-559.5-60-900-60S0 60 0 60V0h1920Z"></path></svg></div><!-- wp:wd/carousel {"blockId":"64951f23-e82f-4141-82eb-a27da765010d","currentSlide":1,"paginationControl":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_64951f23","marginBottom":"30","alignSelf":"center","displayWidth":"custom","customWidth":"1192"} -->
@@ -1416,7 +1416,7 @@
 
 <!-- wp:wd/container {"blockId":"999359d7-4ca6-401c-9586-d2ff99323186","paddingTop":"30","paddingBottom":"30","borderType":"solid","borderColorCode":"rgba(255,255,255,0.3)","borderWidthTop":"1","borderWidthLock":false} -->
 <div id="wd-999359d7" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"5983a02a-4bbc-406d-901e-8a6cd6fc5427","textAlign":"center","tpFontSize":"14","markColorCode":"#cd3e3e"} -->
-<p id="wd-5983a02a" class="wp-block-wd-paragraph wd-align"><a href="https://woodmart.xtemos.com/"><strong>WOODMART</strong></a>&nbsp;Created By&nbsp;<a href="http://xtemos.com/"><strong><span class="wd-highlight">X</span>TEMOS STUDIO</strong></a></p>
+<p id="wd-5983a02a" class="wp-block-wd-paragraph wd-align"><a href="#"><strong>WOODMART</strong></a>&nbsp;Created By&nbsp;<a href="http://xtemos.com/"><strong><span class="wd-highlight">X</span>TEMOS STUDIO</strong></a></p>
 <!-- /wp:wd/paragraph --></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/section -->]]></content:encoded>
@@ -1515,7 +1515,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -1526,7 +1526,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 

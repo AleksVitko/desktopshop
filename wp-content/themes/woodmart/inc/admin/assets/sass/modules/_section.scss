@@ -22,6 +22,14 @@
 				display: none;
 			}
 		}
+
+		&[data-id="estimate_delivery_section"],
+		&[data-id="free_gifts_section"],
+		&[data-id="waitlist_section"],
+		&[data-id="quick_view_section"] {
+			height: auto;
+			flex-grow: 0;
+		}
 	}
 
 	.xts-section-title {

@@ -50,7 +50,7 @@ vc_lean_map( 'vc_pricing_table', null, $vc_config_path . '/buttons/shortcode-vc-
 vc_lean_map( 'vc_widget_sidebar', null, $vc_config_path . '/structure/shortcode-vc-widget-sidebar.php' );
 vc_lean_map( 'vc_posts_slider', null, $vc_config_path . '/content/shortcode-vc-posts-slider.php' );
 vc_lean_map( 'vc_video', null, $vc_config_path . '/content/shortcode-vc-video.php' );
-vc_lean_map( 'vc_gmaps', null, $vc_config_path . '/content/shortcode-vc-gmaps.php' );
+vc_lean_map( 'vc_goo_maps', null, $vc_config_path . '/content/shortcode-vc-goo-maps.php' );
 vc_lean_map( 'vc_raw_html', null, $vc_config_path . '/structure/shortcode-vc-raw-html.php' );
 vc_lean_map( 'vc_raw_js', null, $vc_config_path . '/structure/shortcode-vc-raw-js.php' );
 vc_lean_map( 'vc_flickr', null, $vc_config_path . '/content/shortcode-vc-flickr.php' );
@@ -89,25 +89,27 @@ vc_lean_map( 'vc_button', null, $vc_config_path . '/deprecated/shortcode-vc-butt
 vc_lean_map( 'vc_button2', null, $vc_config_path . '/deprecated/shortcode-vc-button2.php' );
 vc_lean_map( 'vc_cta_button', null, $vc_config_path . '/deprecated/shortcode-vc-cta-button.php' );
 vc_lean_map( 'vc_cta_button2', null, $vc_config_path . '/deprecated/shortcode-vc-cta-button2.php' );
+vc_lean_map( 'vc_gmaps', null, $vc_config_path . '/deprecated/shortcode-vc-gmaps.php' );
+
 
 if ( is_admin() ) {
-	add_action( 'admin_print_scripts-post.php', array(
+	add_action( 'admin_print_scripts-post.php', [
 		Vc_Shortcodes_Manager::getInstance(),
 		'buildShortcodesAssets',
-	), 1 );
-	add_action( 'admin_print_scripts-post-new.php', array(
+	], 1 );
+	add_action( 'admin_print_scripts-post-new.php', [
 		Vc_Shortcodes_Manager::getInstance(),
 		'buildShortcodesAssets',
-	), 1 );
-	add_action( 'vc-render-templates-preview-template', array(
+	], 1 );
+	add_action( 'vc-render-templates-preview-template', [
 		Vc_Shortcodes_Manager::getInstance(),
 		'buildShortcodesAssets',
-	), 1 );
+	], 1 );
 } elseif ( vc_is_page_editable() ) {
-	add_action( 'wp_head', array(
+	add_action( 'wp_head', [
 		Vc_Shortcodes_Manager::getInstance(),
 		'buildShortcodesAssetsForEditable',
-	) ); // @todo where these icons are used in iframe?
+	] ); // @todo where these icons are used in iframe?
 }
 
 /**
@@ -126,10 +128,10 @@ function vc_add_css_animation() {
  * @return array
  */
 function vc_target_param_list() {
-	return array(
+	return [
 		esc_html__( 'Same window', 'js_composer' ) => '_self',
 		esc_html__( 'New window', 'js_composer' ) => '_blank',
-	);
+	];
 }
 
 /**
@@ -138,20 +140,20 @@ function vc_target_param_list() {
  * @return array
  */
 function vc_layout_sub_controls() {
-	return array(
-		array(
+	return [
+		[
 			'link_post',
 			esc_html__( 'Link to post', 'js_composer' ),
-		),
-		array(
+		],
+		[
 			'no_link',
 			esc_html__( 'No link', 'js_composer' ),
-		),
-		array(
+		],
+		[
 			'link_image',
 			esc_html__( 'Link to bigger image', 'js_composer' ),
-		),
-	);
+		],
+	];
 }
 
 /**
@@ -160,44 +162,44 @@ function vc_layout_sub_controls() {
  * @return array
  */
 function vc_pixel_icons() {
-	return array(
-		array( 'vc_pixel_icon vc_pixel_icon-alert' => esc_html__( 'Alert', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-info' => esc_html__( 'Info', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-tick' => esc_html__( 'Tick', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-explanation' => esc_html__( 'Explanation', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-address_book' => esc_html__( 'Address book', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-alarm_clock' => esc_html__( 'Alarm clock', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-anchor' => esc_html__( 'Anchor', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-application_image' => esc_html__( 'Application Image', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-arrow' => esc_html__( 'Arrow', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-asterisk' => esc_html__( 'Asterisk', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-hammer' => esc_html__( 'Hammer', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-balloon' => esc_html__( 'Balloon', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-balloon_buzz' => esc_html__( 'Balloon Buzz', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-balloon_facebook' => esc_html__( 'Balloon Facebook', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-balloon_twitter' => esc_html__( 'Balloon Twitter', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-battery' => esc_html__( 'Battery', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-binocular' => esc_html__( 'Binocular', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_excel' => esc_html__( 'Document Excel', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_image' => esc_html__( 'Document Image', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_music' => esc_html__( 'Document Music', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_office' => esc_html__( 'Document Office', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_pdf' => esc_html__( 'Document PDF', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_powerpoint' => esc_html__( 'Document Powerpoint', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-document_word' => esc_html__( 'Document Word', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-bookmark' => esc_html__( 'Bookmark', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-camcorder' => esc_html__( 'Camcorder', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-camera' => esc_html__( 'Camera', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-chart' => esc_html__( 'Chart', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-chart_pie' => esc_html__( 'Chart pie', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-clock' => esc_html__( 'Clock', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-fire' => esc_html__( 'Fire', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-heart' => esc_html__( 'Heart', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-mail' => esc_html__( 'Mail', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-play' => esc_html__( 'Play', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-shield' => esc_html__( 'Shield', 'js_composer' ) ),
-		array( 'vc_pixel_icon vc_pixel_icon-video' => esc_html__( 'Video', 'js_composer' ) ),
-	);
+	return [
+		[ 'vc_pixel_icon vc_pixel_icon-alert' => esc_html__( 'Alert', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-info' => esc_html__( 'Info', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-tick' => esc_html__( 'Tick', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-explanation' => esc_html__( 'Explanation', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-address_book' => esc_html__( 'Address book', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-alarm_clock' => esc_html__( 'Alarm clock', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-anchor' => esc_html__( 'Anchor', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-application_image' => esc_html__( 'Application Image', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-arrow' => esc_html__( 'Arrow', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-asterisk' => esc_html__( 'Asterisk', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-hammer' => esc_html__( 'Hammer', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-balloon' => esc_html__( 'Balloon', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-balloon_buzz' => esc_html__( 'Balloon Buzz', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-balloon_facebook' => esc_html__( 'Balloon Facebook', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-balloon_twitter' => esc_html__( 'Balloon Twitter', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-battery' => esc_html__( 'Battery', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-binocular' => esc_html__( 'Binocular', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_excel' => esc_html__( 'Document Excel', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_image' => esc_html__( 'Document Image', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_music' => esc_html__( 'Document Music', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_office' => esc_html__( 'Document Office', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_pdf' => esc_html__( 'Document PDF', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_powerpoint' => esc_html__( 'Document Powerpoint', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-document_word' => esc_html__( 'Document Word', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-bookmark' => esc_html__( 'Bookmark', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-camcorder' => esc_html__( 'Camcorder', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-camera' => esc_html__( 'Camera', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-chart' => esc_html__( 'Chart', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-chart_pie' => esc_html__( 'Chart pie', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-clock' => esc_html__( 'Clock', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-fire' => esc_html__( 'Fire', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-heart' => esc_html__( 'Heart', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-mail' => esc_html__( 'Mail', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-play' => esc_html__( 'Play', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-shield' => esc_html__( 'Shield', 'js_composer' ) ],
+		[ 'vc_pixel_icon vc_pixel_icon-video' => esc_html__( 'Video', 'js_composer' ) ],
+	];
 }
 
 /**
@@ -206,7 +208,7 @@ function vc_pixel_icons() {
  * @return array
  */
 function vc_colors_arr() {
-	return array(
+	return [
 		esc_html__( 'Grey', 'js_composer' ) => 'wpb_button',
 		esc_html__( 'Blue', 'js_composer' ) => 'btn-primary',
 		esc_html__( 'Turquoise', 'js_composer' ) => 'btn-info',
@@ -214,7 +216,7 @@ function vc_colors_arr() {
 		esc_html__( 'Orange', 'js_composer' ) => 'btn-warning',
 		esc_html__( 'Red', 'js_composer' ) => 'btn-danger',
 		esc_html__( 'Black', 'js_composer' ) => 'btn-inverse',
-	);
+	];
 }
 
 /**
@@ -223,12 +225,12 @@ function vc_colors_arr() {
  * @return array
  */
 function vc_size_arr() {
-	return array(
+	return [
 		esc_html__( 'Regular', 'js_composer' ) => 'wpb_regularsize',
 		esc_html__( 'Large', 'js_composer' ) => 'btn-large',
 		esc_html__( 'Small', 'js_composer' ) => 'btn-small',
 		esc_html__( 'Mini', 'js_composer' ) => 'btn-mini',
-	);
+	];
 }
 
 /**
@@ -237,7 +239,7 @@ function vc_size_arr() {
  * @return array
  */
 function vc_icons_arr() {
-	return array(
+	return [
 		esc_html__( 'None', 'js_composer' ) => 'none',
 		esc_html__( 'Address book icon', 'js_composer' ) => 'wpb_address_book',
 		esc_html__( 'Alarm clock icon', 'js_composer' ) => 'wpb_alarm_clock',
@@ -271,7 +273,7 @@ function vc_icons_arr() {
 		esc_html__( 'Play icon', 'js_composer' ) => 'wpb_play',
 		esc_html__( 'Shield icon', 'js_composer' ) => 'wpb_shield',
 		esc_html__( 'Video icon', 'js_composer' ) => 'wpb_video',
-	);
+	];
 }
 
 require_once vc_path_dir( 'CONFIG_DIR', 'grids/vc-grids-functions.php' );

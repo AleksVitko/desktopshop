@@ -1,4 +1,4 @@
-/* global woodmartConfig, wd_discount_rules_notice */
+/* global woodmartConfig */
 (function($) {
 	function validate() {
         let isValid        = true;
@@ -6,7 +6,7 @@
         let $ruleRows      = $discountRules.find('.xts-controls-wrapper > .xts-table-controls:not(.xts-table-heading)');
 
         if ( 0 === $ruleRows.length ) {
-            woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', wd_discount_rules_notice.no_quantity_range );
+            woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', woodmartConfig.no_quantity_range );
             isValid = false;
         }
 
@@ -27,17 +27,17 @@
                     return isValid;
                 }
 
-                woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', wd_discount_rules_notice.quantity_range_start );
+                woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', woodmartConfig.quantity_range_start );
                 isValid = false;
             }
 
             if ( priceFrom > priceTo ) {
-                woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', wd_discount_rules_notice.closing_quantity );
+                woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', woodmartConfig.closing_quantity );
                 isValid = false;
             }
 
             if ( 'percentage' === type && discountPercentageValue > 100 ) {
-                woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', wd_discount_rules_notice.max_value );
+                woodmartAdminModule.woodmartAdmin.addNotice( $discountRules, 'warning', woodmartConfig.max_value );
                 isValid = false;
             }
         });

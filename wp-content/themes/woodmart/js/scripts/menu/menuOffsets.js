@@ -161,4 +161,13 @@
 			woodmartThemeModule.menuOffsets();
 		}, 100);
 	});
+
+	window.addEventListener('wdUpdatedHeader', function () {
+		$('.whb-header .wd-offsets-calculated').removeClass('wd-offsets-calculated');
+		$('.whb-header .menu-item.wd-opened, .whb-header .wd-dropdown.wd-opened').removeClass('wd-opened');
+		$('.whb-header .wd-dropdown-menu').attr('style', '');
+
+		woodmartThemeModule.menuDropdownAside();
+		woodmartThemeModule.menuOffsets();
+	});
 })(jQuery);

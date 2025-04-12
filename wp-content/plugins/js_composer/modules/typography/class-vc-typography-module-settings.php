@@ -101,7 +101,7 @@ class Vc_Typography_Module_Settings {
 	 * @since 8.0
 	 */
 	public function google_fonts_sync_callback( $args ) {
-		vc_include_template( '/pages/vc-settings/fields/modules/typography/google-fonts.php', array( 'args' => $args ) );
+		vc_include_template( '/pages/vc-settings/fields/modules/typography/google-fonts.php', [ 'args' => $args ] );
 	}
 
 	/**
@@ -214,16 +214,16 @@ class Vc_Typography_Module_Settings {
 	 * @since 8.0
 	 */
 	public function load_module_settings_assets() {
-		wp_enqueue_script( 'wpb_typography_module', vc_asset_url( '../modules/typography/assets/dist/module.min.js' ), array( 'jquery' ), WPB_VC_VERSION, true );
+		wp_enqueue_script( 'wpb_typography_module', vc_asset_url( '../modules/typography/assets/dist/module.min.js' ), [ 'jquery' ], WPB_VC_VERSION, true );
 		wp_enqueue_style( 'wpb_typography_module', vc_asset_url( '../modules/typography/assets/dist/module.min.css' ), false, WPB_VC_VERSION );
 
-		wp_localize_script( 'wpb_typography_module', 'i18nLocaleSettings', array(
+		wp_localize_script( 'wpb_typography_module', 'i18nLocaleSettings', [
 			'enter_adobe_sync_web_project_id' => esc_html__( 'Please enter Adobe Web Project ID before activate synchronize.', 'js_composer' ),
 			'adobe_fonts_sync_failed' => esc_html__( 'The issue with the request to synchronization service. Please try again later.', 'js_composer' ),
 			'adobe_fonts_synced' => esc_html__( 'Your web project fonts were successfully synced. Now you can use them in editor elements', 'js_composer' ),
 			'google_fonts_sync_failed' => esc_html__( 'The issue with the request to synchronization service. Please try again later.', 'js_composer' ),
 			'google_fonts_synced' => esc_html__( 'Google fonts were successfully synced. Now you can use them in editor elements', 'js_composer' ),
-		) );
+		] );
 	}
 
 	/**

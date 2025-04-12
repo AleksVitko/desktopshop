@@ -26,13 +26,13 @@ class WPBakeryShortCode_VC_Accordion_Tab extends WPBakeryShortCode_VC_Tab {
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'add',
 		'edit',
 		'clone',
 		'copy',
 		'delete',
-	);
+	];
 
 	/**
 	 * Class for non draggable container.
@@ -60,42 +60,42 @@ class WPBakeryShortCode_VC_Accordion_Tab extends WPBakeryShortCode_VC_Tab {
 		$column_controls_bottom = $this->getColumnControls( 'add', 'bottom-controls' );
 
 		if ( 'column_14' === $width || '1/4' === $width ) {
-			$width = array( 'vc_col-sm-3' );
+			$width = [ 'vc_col-sm-3' ];
 		} elseif ( 'column_14-14-14-14' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-3',
 				'vc_col-sm-3',
 				'vc_col-sm-3',
 				'vc_col-sm-3',
-			);
+			];
 		} elseif ( 'column_13' === $width || '1/3' === $width ) {
-			$width = array( 'vc_col-sm-4' );
+			$width = [ 'vc_col-sm-4' ];
 		} elseif ( 'column_13-23' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-4',
 				'vc_col-sm-8',
-			);
+			];
 		} elseif ( 'column_13-13-13' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-4',
 				'vc_col-sm-4',
 				'vc_col-sm-4',
-			);
+			];
 		} elseif ( 'column_12' === $width || '1/2' === $width ) {
-			$width = array( 'vc_col-sm-6' );
+			$width = [ 'vc_col-sm-6' ];
 		} elseif ( 'column_12-12' === $width ) {
-			$width = array(
+			$width = [
 				'vc_col-sm-6',
 				'vc_col-sm-6',
-			);
+			];
 		} elseif ( 'column_23' === $width || '2/3' === $width ) {
-			$width = array( 'vc_col-sm-8' );
+			$width = [ 'vc_col-sm-8' ];
 		} elseif ( 'column_34' === $width || '3/4' === $width ) {
-			$width = array( 'vc_col-sm-9' );
+			$width = [ 'vc_col-sm-9' ];
 		} elseif ( 'column_16' === $width || '1/6' === $width ) {
-			$width = array( 'vc_col-sm-2' );
+			$width = [ 'vc_col-sm-2' ];
 		} else {
-			$width = array( '' );
+			$width = [ '' ];
 		}
 		$sortable = ( vc_user_access_check_shortcode_all( $this->shortcode ) ? 'wpb_sortable' : $this->nonDraggableClass );
 

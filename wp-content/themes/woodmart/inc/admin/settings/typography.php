@@ -20,7 +20,6 @@ Options::add_field(
 		),
 		'default'      => array(
 			array(
-				'font-family' => 'Lato',
 				'color'       => '#767676',
 				'font-size'   => '14',
 				'font-weight' => '400',
@@ -48,7 +47,6 @@ Options::add_field(
 		),
 		'default'        => array(
 			array(
-				'font-family' => 'Poppins',
 				'font-weight' => '600',
 				'color'       => '#242424',
 			),
@@ -78,7 +76,6 @@ Options::add_field(
 		),
 		'default'        => array(
 			array(
-				'font-family' => 'Poppins',
 				'font-weight' => '500',
 				'color'       => '#333333',
 				'hover'       => array(
@@ -108,7 +105,6 @@ Options::add_field(
 		),
 		'default'      => array(
 			array(
-				'font-family' => 'Lato',
 				'font-weight' => '400',
 			),
 		),
@@ -137,7 +133,6 @@ Options::add_field(
 		),
 		'default'        => array(
 			array(
-				'font-family'    => 'Poppins',
 				'font-weight'    => '600',
 				'font-size'      => '16',
 				'color'          => '#333',
@@ -167,7 +162,6 @@ Options::add_field(
 		),
 		'default'        => array(
 			array(
-				'font-family'    => 'Lato',
 				'font-weight'    => '700',
 				'font-size'      => '13',
 				'text-transform' => 'uppercase',

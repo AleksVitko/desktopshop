@@ -466,10 +466,17 @@ var woodmartOptions;
 							},
 							cache         : true
 						}
-					}).on('select2:select select2:unselect', function(e) {
-						// $(e.currentTarget).find('option').each(function(e) {
-						// 	$(this).removeAttr('selected');
-						// });
+					}).on('select2:unselect', function(e) {
+						var $this = $(this);
+						var $elm  = $(e.params.data.element);
+
+						$elm.removeAttr('selected');
+						$this.trigger('change.select2');
+
+						if ( 0 === $this.find('option[selected="selected"]').length ) {
+							$this.find('option[value=""]')
+								.attr('selected', 'selected');
+						}
 					});
 
 					$field.addClass('xts-field-inited');
@@ -533,13 +540,23 @@ var woodmartOptions;
 					return;
 				}
 
-				$('.xts-active-section .xts-select_with_table-control, .xts-active-section .xts-conditions-control, .xts-active-section .xts-discount_rules-control').each( function () {
+				$('.xts-active-section .xts-select_with_table-control, .xts-active-section .xts-conditions-control, .xts-active-section .xts-discount_rules-control, .xts-active-section .xts-timetable-control').each( function () {
 					var $control = $(this);
 
 					$control.on('click', '.xts-remove-item', function (e) {
 						e.preventDefault();
 
 						$(this).parent().parent().remove();
+
+						if (0 === $control.find('.xts-controls-wrapper .xts-table-controls:not(.xts-table-heading)').length) {
+							let addRowBtn = $control.find('.xts-add-row');
+
+							if (addRowBtn) {
+								addRowBtn.click();
+							}
+						}
+
+						$(document).trigger('xts_select_with_table_control_row_removed', [$control]);
 					});
 
 					$control.find('.xts-add-row').on('click', function (e) {

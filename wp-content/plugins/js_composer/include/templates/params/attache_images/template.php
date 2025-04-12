@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<input type="hidden" class="wpb_vc_param_value gallery_widget_attached_images_ids <?php echo esc_attr( $settings['param_name'] ) . ' ' . esc_attr( $settings['type'] ); ?>" name="<?php echo esc_attr( $settings['param_name'] ); ?>" value="<?php echo esc_attr( $value ); ?>"/>
+<input type="hidden" class="wpb_vc_param_value gallery_widget_attached_images_ids <?php echo esc_attr( $settings['param_name'] ) . ' ' . esc_attr( $settings['type'] ); ?>" name="<?php echo esc_attr( $settings['param_name'] ); ?>" value="<?php echo esc_attr( $value ); ?>" id="<?php echo ! empty( $settings['id'] ) ? esc_attr( $settings['id'] ) : esc_attr( $settings['param_name'] ); ?>"/>
 <div class="gallery_widget_attached_images">
 	<ul class="gallery_widget_attached_images_list">
 		<?php

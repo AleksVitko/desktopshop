@@ -30,15 +30,15 @@ class WPBakeryShortCodeFishBones extends WPBakeryShortCode {
 		}
 		$this->settings = $settings;
 		$this->shortcode = $this->settings['base'];
-		add_action( 'admin_init', array(
+		add_action( 'admin_init', [
 			$this,
 			'hookAdmin',
-		) );
+		] );
 		if ( ! shortcode_exists( $this->shortcode ) ) {
-			add_shortcode( $this->shortcode, array(
+			add_shortcode( $this->shortcode, [
 				$this,
 				'render',
-			) );
+			] );
 		}
 	}
 
@@ -47,30 +47,30 @@ class WPBakeryShortCodeFishBones extends WPBakeryShortCode {
 	 */
 	public function hookAdmin() {
 		$this->enqueueAssets();
-		add_action( 'admin_init', array(
+		add_action( 'admin_init', [
 			$this,
 			'enqueueAssets',
-		) );
+		] );
 		if ( vc_is_page_editable() ) {
 			// fix for page editable.
-			add_action( 'wp_head', array(
+			add_action( 'wp_head', [
 				$this,
 				'printIconStyles',
-			) );
+			] );
 		}
 
-		add_action( 'admin_head', array(
+		add_action( 'admin_head', [
 			$this,
 			'printIconStyles',
-		) ); // fe+be.
-		add_action( 'admin_print_scripts-post.php', array(
+		] ); // fe+be.
+		add_action( 'admin_print_scripts-post.php', [
 			$this,
 			'enqueueAssets',
-		) );
-		add_action( 'admin_print_scripts-post-new.php', array(
+		] );
+		add_action( 'admin_print_scripts-post-new.php', [
 			$this,
 			'enqueueAssets',
-		) );
+		] );
 	}
 
 	/**
@@ -165,6 +165,6 @@ class WPBakeryShortCodeFishBones extends WPBakeryShortCode {
 	 * @throws \Exception
 	 */
 	public function template( $content = '' ) {
-		return $this->shortcodeClass()->contentAdmin( array(), $content );
+		return $this->shortcodeClass()->contentAdmin( [], $content );
 	}
 }

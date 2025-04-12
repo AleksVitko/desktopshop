@@ -35,7 +35,7 @@
 	<wp:base_site_url>http://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>http://dummy.xtemos.com/woodmart2</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[Top Rated Products]]></title>
 					<link>http://dummy.xtemos.com/woodmart2/top-rated-products/</link>
 					<pubDate>Sun, 14 Nov 2021 10:49:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?page_id=7952</guid>
 											<content:encoded><![CDATA[[vc_row][vc_column][woodmart_title color="primary" style="bordered" title="<strong>5 STARS PRODUCTS</strong>" subtitle="WOOCOMMERCE" after_title="Products with all positive feedbacks" css=".vc_custom_1474542368296{margin-bottom: 50px !important;}"][top_rated_products per_page="6" columns="3" orderby="" order=""][/vc_column][vc_column width="1/2" offset="vc_col-lg-offset-3 vc_col-lg-6 vc_col-md-offset-3 vc_col-md-6 vc_col-sm-offset-3 vc_col-xs-12" woodmart_css_id="6193de4f9621a" parallax_scroll="no" woodmart_sticky_column="false" wd_collapsible_content_switcher="no" mobile_bg_img_hidden="no" tablet_bg_img_hidden="no" woodmart_parallax="0" woodmart_box_shadow="no" mobile_reset_margin="no" tablet_reset_margin="no" wd_z_index="no" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTkzZGU0Zjk2MjFhIiwic2hvcnRjb2RlIjoidmNfY29sdW1uIiwiZGF0YSI6eyJ0YWJsZXQiOnt9LCJtb2JpbGUiOnt9fX0="][vc_message style="square"]To set a product rating go to the desired product page and leave a comment for it with the maximum rating of 5 stars.[/vc_message][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>7952</wp:post_id>

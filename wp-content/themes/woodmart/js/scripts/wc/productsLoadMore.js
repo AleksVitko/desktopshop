@@ -21,41 +21,7 @@
 		$('.wd-products-element').each(function() {
 			var $this = $(this),
 			    cache = [],
-			    inner = $this.find('.wd-products'),
-			    btnWrap = $this.find('.wd-ajax-arrows');
-
-			if ( btnWrap.hasClass('wd-pos-sep') ) {
-				var btnLeft = btnWrap.find('.wd-btn-arrow.wd-prev'),
-					scrollTop,
-					holderTop,
-					holderBottom,
-					holderHeight,
-					btnsHeight,
-					offset;
-
-				woodmartThemeModule.$window.on('scroll', function() {
-					buttonsPos();
-				});
-
-				setTimeout(function() {
-					buttonsPos();
-				}, 500);
-
-				function buttonsPos() {
-					offset = woodmartThemeModule.$window.height() / 2;
-					scrollTop = woodmartThemeModule.$window.scrollTop();
-					holderTop = $this.offset().top - offset;
-					btnsHeight = btnLeft.outerHeight();
-					holderHeight = $this.height() - btnsHeight;
-					holderBottom = holderTop + holderHeight;
-
-					if (scrollTop < holderTop || scrollTop > holderBottom) {
-						btnWrap.removeClass('wd-shown');
-					} else {
-						btnWrap.addClass('wd-shown');
-					}
-				}
-			}
+			    inner = $this.find('.wd-products');
 
 			if (!inner.hasClass('pagination-arrows')) {
 				return;
@@ -66,9 +32,9 @@
 				status: 'have-posts'
 			};
 
-			$this.find('.wd-ajax-arrows .wd-btn-arrow.wd-prev, .wd-ajax-arrows .wd-btn-arrow.wd-next').on('click', function(e) {
+			$this.find('.wd-ajax-arrows .wd-btn-arrow.wd-prev .wd-arrow-inner, .wd-ajax-arrows .wd-btn-arrow.wd-next .wd-arrow-inner').on('click', function(e) {
 				e.preventDefault();
-				var $this = $(this);
+				var $this = $(this).parent('.wd-btn-arrow');
 
 				if (process || $this.hasClass('wd-disabled')) {
 					return;

@@ -794,7 +794,7 @@ div[id*=elementor-panel-category-wd-] {
 }
 .woodmart_slide-template-default [data-view=choose-action] .elementor-add-section-inner {
   padding: 0;
-  border: none;
+  border: none !important;
   background: none;
 }
 .woodmart_slide-template-default [data-view=select-preset] .elementor-add-section-inner {
@@ -858,6 +858,8 @@ div[id*=elementor-panel-category-wd-] {
 .elementor-html .wd-sticky-social,
 .elementor-html .wd-sticky-nav {
   display: none;
+}.elementor-html .wd-action-hide-btn {
+  position: relative;
 }
 .elementor-html .wd-sticky-nav-enabled {
   --wd-sticky-nav-w: .001px;
@@ -890,12 +892,37 @@ div[id*=elementor-panel-category-wd-] {
   display: none;
 }
 
-.xts-library-modal-btn {
+.e-preview--show-hidden-elements[data-elementor-device-mode=desktop] .elementor-edit-area-active .elementor-hidden-desktop:has(.wd-carousel),
+.e-preview--show-hidden-elements[data-elementor-device-mode=laptop] .elementor-edit-area-active .elementor-hidden-laptop:has(.wd-carousel),
+.e-preview--show-hidden-elements[data-elementor-device-mode=mobile] .elementor-edit-area-active .elementor-hidden-mobile:has(.wd-carousel),
+.e-preview--show-hidden-elements[data-elementor-device-mode=mobile_extra] .elementor-edit-area-active .elementor-hidden-mobile_extra:has(.wd-carousel),
+.e-preview--show-hidden-elements[data-elementor-device-mode=tablet] .elementor-edit-area-active .elementor-hidden-tablet:has(.wd-carousel),
+.e-preview--show-hidden-elements[data-elementor-device-mode=tablet_extra] .elementor-edit-area-active .elementor-hidden-tablet_extra:has(.wd-carousel),
+.e-preview--show-hidden-elements[data-elementor-device-mode=widescreen] .elementor-edit-area-active .elementor-hidden-widescreen:has(.wd-carousel) {
+	display: block;
+}
+
+.elementor-add-section-inner button {
+  min-height: unset;
+}
+
+.elementor-add-section-inner .flex-preset-button,
+.elementor-add-section-inner .grid-preset-button {
+  gap: 0;
+  flex-direction: column;
+}
+
+.elementor-editor-active div.xts-library-modal-btn {
   background-color: #0F4C81;
   vertical-align: top;
   font-size: 0 !important;
 }
-.xts-library-modal-btn:before {
+
+.elementor-editor-active div.xts-library-modal-btn:hover {
+  background-color: #0b3b65;
+}
+
+.elementor-editor-active div.xts-library-modal-btn:before {
   content: "";
   width: 16px;
   height: 16px;
@@ -903,10 +930,6 @@ div[id*=elementor-panel-category-wd-] {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-}
-.rtl .xts-library-modal-btn {
-  margin-right: 5px;
-  margin-left: 0;
 }
 
 #xts-library-modal .xts-elementor-template-library-template-name {

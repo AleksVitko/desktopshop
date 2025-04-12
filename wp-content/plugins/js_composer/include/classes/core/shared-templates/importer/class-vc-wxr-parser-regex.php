@@ -19,35 +19,35 @@ class Vc_WXR_Parser_Regex {
 	 *
 	 * @var array $authors
 	 */
-	public $authors = array();
+	public $authors = [];
 
 	/**
 	 * List of posts parsed from the WXR file.
 	 *
 	 * @var array $posts
 	 */
-	public $posts = array();
+	public $posts = [];
 
 	/**
 	 * List of categories parsed from the WXR file.
 	 *
 	 * @var array $categories
 	 */
-	public $categories = array();
+	public $categories = [];
 
 	/**
 	 * List of tags parsed from the WXR file.
 	 *
 	 * @var array $tags
 	 */
-	public $tags = array();
+	public $tags = [];
 
 	/**
 	 * List of terms parsed from the WXR file.
 	 *
 	 * @var array $terms
 	 */
-	public $terms = array();
+	public $terms = [];
 
 	/**
 	 * Base URL extracted from the WXR file.
@@ -131,7 +131,7 @@ class Vc_WXR_Parser_Regex {
 			return new WP_Error( 'WXR_parse_error', esc_html__( 'This does not appear to be a WXR file, missing/invalid WXR version number', 'js_composer' ) );
 		}
 
-		return array(
+		return [
 			'authors' => $this->authors,
 			'posts' => $this->posts,
 			'categories' => $this->categories,
@@ -139,7 +139,7 @@ class Vc_WXR_Parser_Regex {
 			'terms' => $this->terms,
 			'base_url' => $this->base_url,
 			'version' => $wxr_version,
-		);
+		];
 	}
 
 	/**
@@ -179,13 +179,13 @@ class Vc_WXR_Parser_Regex {
 	 * @return array
 	 */
 	public function process_category( $c ) {
-		return array(
+		return [
 			'term_id' => $this->get_tag( $c, 'wp:term_id' ),
 			'cat_name' => $this->get_tag( $c, 'wp:cat_name' ),
 			'category_nicename' => $this->get_tag( $c, 'wp:category_nicename' ),
 			'category_parent' => $this->get_tag( $c, 'wp:category_parent' ),
 			'category_description' => $this->get_tag( $c, 'wp:category_description' ),
-		);
+		];
 	}
 
 	/**
@@ -195,12 +195,12 @@ class Vc_WXR_Parser_Regex {
 	 * @return array
 	 */
 	public function process_tag( $t ) {
-		return array(
+		return [
 			'term_id' => $this->get_tag( $t, 'wp:term_id' ),
 			'tag_name' => $this->get_tag( $t, 'wp:tag_name' ),
 			'tag_slug' => $this->get_tag( $t, 'wp:tag_slug' ),
 			'tag_description' => $this->get_tag( $t, 'wp:tag_description' ),
-		);
+		];
 	}
 
 	/**
@@ -210,14 +210,14 @@ class Vc_WXR_Parser_Regex {
 	 * @return array
 	 */
 	public function process_term( $t ) {
-		return array(
+		return [
 			'term_id' => $this->get_tag( $t, 'wp:term_id' ),
 			'term_taxonomy' => $this->get_tag( $t, 'wp:term_taxonomy' ),
 			'slug' => $this->get_tag( $t, 'wp:term_slug' ),
 			'term_parent' => $this->get_tag( $t, 'wp:term_parent' ),
 			'term_name' => $this->get_tag( $t, 'wp:term_name' ),
 			'term_description' => $this->get_tag( $t, 'wp:term_description' ),
-		);
+		];
 	}
 
 	/**
@@ -227,14 +227,14 @@ class Vc_WXR_Parser_Regex {
 	 * @return array
 	 */
 	public function process_author( $a ) {
-		return array(
+		return [
 			'author_id' => $this->get_tag( $a, 'wp:author_id' ),
 			'author_login' => $this->get_tag( $a, 'wp:author_login' ),
 			'author_email' => $this->get_tag( $a, 'wp:author_email' ),
 			'author_display_name' => $this->get_tag( $a, 'wp:author_display_name' ),
 			'author_first_name' => $this->get_tag( $a, 'wp:author_first_name' ),
 			'author_last_name' => $this->get_tag( $a, 'wp:author_last_name' ),
-		);
+		];
 	}
 
 	/**
@@ -261,18 +261,18 @@ class Vc_WXR_Parser_Regex {
 		$post_author = $this->get_tag( $post, 'dc:creator' );
 
 		$post_excerpt = $this->get_tag( $post, 'excerpt:encoded' );
-		$post_excerpt = preg_replace_callback( '|<(/?[A-Z]+)|', array(
+		$post_excerpt = preg_replace_callback( '|<(/?[A-Z]+)|', [
 			$this,
 			'normalize_tag',
-		), $post_excerpt );
+		], $post_excerpt );
 		$post_excerpt = str_replace( '<br>', '<br />', $post_excerpt );
 		$post_excerpt = str_replace( '<hr>', '<hr />', $post_excerpt );
 
 		$post_content = $this->get_tag( $post, 'content:encoded' );
-		$post_content = preg_replace_callback( '|<(/?[A-Z]+)|', array(
+		$post_content = preg_replace_callback( '|<(/?[A-Z]+)|', [
 			$this,
 			'normalize_tag',
-		), $post_content );
+		], $post_content );
 		$post_content = str_replace( '<br>', '<br />', $post_content );
 		$post_content = str_replace( '<hr>', '<hr />', $post_content );
 
@@ -285,14 +285,14 @@ class Vc_WXR_Parser_Regex {
 
 		preg_match_all( '|<category domain="([^"]+?)" nicename="([^"]+?)">(.+?)</category>|is', $post, $terms, PREG_SET_ORDER );
 		foreach ( $terms as $t ) {
-			$post_terms[] = array(
+			$post_terms[] = [
 				'slug' => $t[2],
 				'domain' => $t[1],
-				'name' => str_replace( array(
+				'name' => str_replace( [
 					'<![CDATA[',
 					']]>',
-				), '', $t[3] ),
-			);
+				], '', $t[3] ),
+			];
 		}
 		if ( ! empty( $post_terms ) ) {
 			$postdata['terms'] = $post_terms;
@@ -304,15 +304,15 @@ class Vc_WXR_Parser_Regex {
 			foreach ( $comments as $comment ) {
 				preg_match_all( '|<wp:commentmeta>(.+?)</wp:commentmeta>|is', $comment, $commentmeta );
 				$commentmeta = $commentmeta[1];
-				$c_meta = array();
+				$c_meta = [];
 				foreach ( $commentmeta as $m ) {
-					$c_meta[] = array(
+					$c_meta[] = [
 						'key' => $this->get_tag( $m, 'wp:meta_key' ),
 						'value' => $this->get_tag( $m, 'wp:meta_value' ),
-					);
+					];
 				}
 
-				$post_comments[] = array(
+				$post_comments[] = [
 					'comment_id' => $this->get_tag( $comment, 'wp:comment_id' ),
 					'comment_author' => $this->get_tag( $comment, 'wp:comment_author' ),
 					'comment_author_email' => $this->get_tag( $comment, 'wp:comment_author_email' ),
@@ -326,7 +326,7 @@ class Vc_WXR_Parser_Regex {
 					'comment_parent' => $this->get_tag( $comment, 'wp:comment_parent' ),
 					'comment_user_id' => $this->get_tag( $comment, 'wp:comment_user_id' ),
 					'commentmeta' => $c_meta,
-				);
+				];
 			}
 		}
 		if ( ! empty( $post_comments ) ) {
@@ -337,10 +337,10 @@ class Vc_WXR_Parser_Regex {
 		$postmeta = $postmeta[1];
 		if ( $postmeta ) {
 			foreach ( $postmeta as $p ) {
-				$post_postmeta[] = array(
+				$post_postmeta[] = [
 					'key' => $this->get_tag( $p, 'wp:meta_key' ),
 					'value' => $this->get_tag( $p, 'wp:meta_value' ),
-				);
+				];
 			}
 		}
 		if ( ! empty( $post_postmeta ) ) {

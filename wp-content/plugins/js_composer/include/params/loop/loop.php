@@ -24,7 +24,7 @@ function vc_loop_form_field( $settings, $value ) {
 	$query_builder = new VcLoopSettings( $value );
 	$params = $query_builder->getContent();
 	$loop_info = '';
-	$parsed_value = array();
+	$parsed_value = [];
 	if ( is_array( $params ) ) {
 		foreach ( $params as $key => $param ) {
 			$param_value_render = vc_loop_get_value( $param );
@@ -35,7 +35,7 @@ function vc_loop_form_field( $settings, $value ) {
 		}
 	}
 	if ( ! isset( $settings['settings'] ) ) {
-		$settings['settings'] = array();
+		$settings['settings'] = [];
 	}
 
 	return '<div class="vc_loop"><input name="' . esc_attr( $settings['param_name'] ) . '" class="wpb_vc_param_value  ' . esc_attr( $settings['param_name'] . ' ' . $settings['type'] ) . '_field" type="hidden" value="' . esc_attr( join( '|', $parsed_value ) ) . '"/><a href="javascript:;" class="button vc_loop-build ' . esc_attr( $settings['param_name'] ) . '_button" data-settings="' . rawurlencode( wp_json_encode( $settings['settings'] ) ) . '">' . esc_html__( 'Build query', 'js_composer' ) . '</a><div class="vc_loop-info">' . $loop_info . '</div></div>';
@@ -50,7 +50,7 @@ function vc_loop_form_field( $settings, $value ) {
  * @since 4.2
  */
 function vc_loop_get_value( $param ) {
-	$value = array();
+	$value = [];
 	$selected_values = (array) $param['value'];
 	if ( isset( $param['options'] ) && is_array( $param['options'] ) ) {
 		foreach ( $param['options'] as $option ) {
@@ -86,10 +86,10 @@ class VcLoopQueryBuilder {
 	 * @since 4.2
 	 * @var array
 	 */
-	protected $args = array(
+	protected $args = [
 		'post_status' => 'publish',
 		// show only published posts #1098.
-	);
+	];
 
 	/**
 	 * VcLoopQueryBuilder constructor.
@@ -164,8 +164,8 @@ class VcLoopQueryBuilder {
 	 */
 	protected function parse_categories( $value ) {
 		$values = explode( ',', $value );
-		$cat_in = array();
-		$cat_not_in = array();
+		$cat_in = [];
+		$cat_not_in = [];
 		foreach ( $values as $cat ) {
 			if ( (int) $cat > 0 ) {
 				$cat_in[] = $cat;
@@ -191,17 +191,17 @@ class VcLoopQueryBuilder {
 	protected function parse_tax_query( $value ) {
 		$terms = $this->stringToArray( $value );
 		if ( empty( $this->args['tax_query'] ) ) {
-			$this->args['tax_query'] = array( 'relation' => 'AND' );
+			$this->args['tax_query'] = [ 'relation' => 'AND' ];
 		}
-		$negative_term_list = array();
+		$negative_term_list = [];
 		foreach ( $terms as $term ) {
 			if ( (int) $term < 0 ) {
 				$negative_term_list[] = abs( $term );
 			}
 		}
 
-		$not_in = array();
-		$in = array();
+		$not_in = [];
+		$in = [];
 
 		// phpcs:ignore
 		$terms = get_terms( VcLoopSettings::getTaxonomies(), array( 'include' => array_map( 'abs', $terms ) ) );
@@ -214,20 +214,20 @@ class VcLoopQueryBuilder {
 		}
 
 		foreach ( $in as $taxonomy => $terms ) {
-			$this->args['tax_query'][] = array(
+			$this->args['tax_query'][] = [
 				'field' => 'term_id',
 				'taxonomy' => $taxonomy,
 				'terms' => $terms,
 				'operator' => 'IN',
-			);
+			];
 		}
 		foreach ( $not_in as $taxonomy => $terms ) {
-			$this->args['tax_query'][] = array(
+			$this->args['tax_query'][] = [
 				'field' => 'term_id',
 				'taxonomy' => $taxonomy,
 				'terms' => $terms,
 				'operator' => 'NOT IN',
-			);
+			];
 		}
 	}
 
@@ -238,7 +238,7 @@ class VcLoopQueryBuilder {
 	 * @since 4.2
 	 */
 	protected function parse_tags( $value ) {
-		$in = $not_in = array();
+		$in = $not_in = [];
 		$tags_ids = $this->stringToArray( $value );
 		foreach ( $tags_ids as $tag ) {
 			$tag = (int) $tag;
@@ -271,7 +271,7 @@ class VcLoopQueryBuilder {
 	 * @since 4.2
 	 */
 	protected function parse_by_id( $value ) {
-		$in = $not_in = array();
+		$in = $not_in = [];
 		$ids = $this->stringToArray( $value );
 		foreach ( $ids as $id ) {
 			$id = (int) $id;
@@ -292,7 +292,7 @@ class VcLoopQueryBuilder {
 	 */
 	public function excludeId( $id ) {
 		if ( ! isset( $this->args['post__not_in'] ) ) {
-			$this->args['post__not_in'] = array();
+			$this->args['post__not_in'] = [];
 		}
 		if ( is_array( $id ) ) {
 			$this->args['post__not_in'] = array_merge( $this->args['post__not_in'], $id );
@@ -310,7 +310,7 @@ class VcLoopQueryBuilder {
 	 * @since 4.2
 	 */
 	protected function stringToArray( $value ) {
-		$valid_values = array();
+		$valid_values = [];
 		$list = preg_split( '/\,[\s]*/', $value );
 		foreach ( $list as $v ) {
 			if ( strlen( $v ) > 0 ) {
@@ -329,10 +329,10 @@ class VcLoopQueryBuilder {
 	public function build() {
 		$args = apply_filters( 'wpb_loop_query_build_args', $this->args );
 
-		return array(
+		return [
 			$args,
 			new WP_Query( $args ),
-		);
+		];
 	}
 }
 
@@ -348,7 +348,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 * @var array
 	 */
-	protected $content = array();
+	protected $content = [];
 	/**
 	 * Available parts of loop for WP_Query object.
 	 *
@@ -362,7 +362,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 * @var array
 	 */
-	protected $query_parts = array(
+	protected $query_parts = [
 		'size',
 		'order_by',
 		'order',
@@ -373,13 +373,13 @@ class VcLoopSettings {
 		'tags',
 		'tax_query',
 		'by_id',
-	);
+	];
 	/**
 	 * Contains the settings for each part of the loop.
 	 *
 	 * @var array
 	 */
-	public $settings = array();
+	public $settings = [];
 
 	/**
 	 * VcLoopSettings constructor.
@@ -388,8 +388,8 @@ class VcLoopSettings {
 	 * @param array $settings
 	 * @since 4.2
 	 */
-	public function __construct( $value, $settings = array() ) {
-		$this->parts = array(
+	public function __construct( $value, $settings = [] ) {
+		$this->parts = [
 			'size' => esc_html__( 'Post count', 'js_composer' ),
 			'order_by' => esc_html__( 'Order by', 'js_composer' ),
 			'order' => esc_html__( 'Sort order', 'js_composer' ),
@@ -400,7 +400,7 @@ class VcLoopSettings {
 			'tags' => esc_html__( 'Tags', 'js_composer' ),
 			'tax_query' => esc_html__( 'Taxonomies', 'js_composer' ),
 			'by_id' => esc_html__( 'Individual posts/pages', 'js_composer' ),
-		);
+		];
 		$this->settings = $settings;
 		// Parse loop string.
 		$data = $this->parseData( $value );
@@ -439,11 +439,11 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	protected function replaceLockedValue( $part ) {
-		return in_array( $part, array(
+		return in_array( $part, [
 			'size',
 			'order_by',
 			'order',
-		), true );
+		], true );
 	}
 
 	/**
@@ -482,7 +482,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parseString( $value ) {
-		return array( 'value' => $value );
+		return [ 'value' => $value ];
 	}
 
 	/**
@@ -494,11 +494,11 @@ class VcLoopSettings {
 	 * @return array
 	 * @since 4.2
 	 */
-	protected function parseDropDown( $value, $options = array() ) {
-		return array(
+	protected function parseDropDown( $value, $options = [] ) {
+		return [
 			'value' => $value,
 			'options' => $options,
-		);
+		];
 	}
 
 	/**
@@ -510,11 +510,11 @@ class VcLoopSettings {
 	 * @return array
 	 * @since 4.2
 	 */
-	protected function parseMultiSelect( $value, $options = array() ) {
-		return array(
+	protected function parseMultiSelect( $value, $options = [] ) {
+		return [
 			'value' => explode( ',', trim( $value, ',' ) ),
 			'options' => $options,
-		);
+		];
 	}
 
 	/**
@@ -526,37 +526,37 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_order_by( $value ) {
-		return $this->parseDropDown( $value, array(
-			array(
+		return $this->parseDropDown( $value, [
+			[
 				'date',
 				esc_html__( 'Date', 'js_composer' ),
-			),
+			],
 			'ID',
-			array(
+			[
 				'author',
 				esc_html__( 'Author', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'title',
 				esc_html__( 'Title', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'modified',
 				esc_html__( 'Modified', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'rand',
 				esc_html__( 'Random', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'comment_count',
 				esc_html__( 'Comment count', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'menu_order',
 				esc_html__( 'Menu order', 'js_composer' ),
-			),
-		) );
+			],
+		] );
 	}
 
 	/**
@@ -568,16 +568,16 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_order( $value ) {
-		return $this->parseDropDown( $value, array(
-			array(
+		return $this->parseDropDown( $value, [
+			[
 				'ASC',
 				esc_html__( 'Ascending', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'DESC',
 				esc_html__( 'Descending', 'js_composer' ),
-			),
-		) );
+			],
+		] );
 	}
 
 	/**
@@ -589,10 +589,10 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_post_type( $value ) {
-		$options = array();
-		$args = array(
+		$options = [];
+		$args = [
 			'public' => true,
-		);
+		];
 		$post_types = get_post_types( $args );
 		foreach ( $post_types as $post_type ) {
 			if ( 'attachment' !== $post_type ) {
@@ -611,7 +611,7 @@ class VcLoopSettings {
 	 * @return array
 	 */
 	public function parse_ignore_sticky_posts( $value ) {
-		return array(
+		return [
 			'value' => [ $value ],
 			'options' => [
 				[
@@ -619,7 +619,7 @@ class VcLoopSettings {
 					'Yes',
 				],
 			],
-		);
+		];
 	}
 
 	/**
@@ -631,7 +631,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_authors( $value ) {
-		$options = $not_in = array();
+		$options = $not_in = [];
 		if ( empty( $value ) ) {
 			return $this->parseMultiSelect( $value, $options );
 		}
@@ -641,13 +641,13 @@ class VcLoopSettings {
 				$not_in[] = abs( $id );
 			}
 		}
-		$users = get_users( array( 'include' => array_map( 'abs', $list ) ) );
+		$users = get_users( [ 'include' => array_map( 'abs', $list ) ] );
 		foreach ( $users as $user ) {
-			$options[] = array(
+			$options[] = [
 				'value' => (string) $user->ID,
 				'name' => $user->data->user_nicename,
 				'action' => in_array( (int) $user->ID, $not_in, true ) ? '-' : '+',
-			);
+			];
 		}
 
 		return $this->parseMultiSelect( $value, $options );
@@ -662,7 +662,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_categories( $value ) {
-		$options = $not_in = array();
+		$options = $not_in = [];
 		if ( empty( $value ) ) {
 			return $this->parseMultiSelect( $value, $options );
 		}
@@ -672,13 +672,13 @@ class VcLoopSettings {
 				$not_in[] = abs( $id );
 			}
 		}
-		$list = get_categories( array( 'include' => array_map( 'abs', $list ) ) );
+		$list = get_categories( [ 'include' => array_map( 'abs', $list ) ] );
 		foreach ( $list as $obj ) {
-			$options[] = array(
+			$options[] = [
 				'value' => (string) $obj->cat_ID,
 				'name' => $obj->cat_name,
 				'action' => in_array( (int) $obj->cat_ID, $not_in, true ) ? '-' : '+',
-			);
+			];
 		}
 		if ( empty( $list ) ) {
 			$value = '';
@@ -696,7 +696,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_tags( $value ) {
-		$options = $not_in = array();
+		$options = $not_in = [];
 		if ( empty( $value ) ) {
 			return $this->parseMultiSelect( $value, $options );
 		}
@@ -706,13 +706,13 @@ class VcLoopSettings {
 				$not_in[] = abs( $id );
 			}
 		}
-		$list = get_tags( array( 'include' => array_map( 'abs', $list ) ) );
+		$list = get_tags( [ 'include' => array_map( 'abs', $list ) ] );
 		foreach ( $list as $obj ) {
-			$options[] = array(
+			$options[] = [
 				'value' => (string) $obj->term_id,
 				'name' => $obj->name,
 				'action' => in_array( (int) $obj->term_id, $not_in, true ) ? '-' : '+',
-			);
+			];
 		}
 
 		return $this->parseMultiSelect( $value, $options );
@@ -727,7 +727,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_tax_query( $value ) {
-		$options = $not_in = array();
+		$options = $not_in = [];
 		if ( empty( $value ) ) {
 			return $this->parseMultiSelect( $value, $options );
 		}
@@ -740,11 +740,11 @@ class VcLoopSettings {
 		// phpcs:ignore
 		$list = get_terms( self::getTaxonomies(), array( 'include' => array_map( 'abs', $list ) ) );
 		foreach ( $list as $obj ) {
-			$options[] = array(
+			$options[] = [
 				'value' => (string) $obj->term_id,
 				'name' => $obj->name,
 				'action' => in_array( (int) $obj->term_id, $not_in, true ) ? '-' : '+',
-			);
+			];
 		}
 
 		return $this->parseMultiSelect( $value, $options );
@@ -759,7 +759,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public function parse_by_id( $value ) {
-		$options = $not_in = array();
+		$options = $not_in = [];
 		if ( empty( $value ) ) {
 			return $this->parseMultiSelect( $value, $options );
 		}
@@ -769,17 +769,17 @@ class VcLoopSettings {
 				$not_in[] = abs( $id );
 			}
 		}
-		$list = get_posts( array(
+		$list = get_posts( [
 			'post_type' => 'any',
 			'include' => array_map( 'abs', $list ),
-		) );
+		] );
 
 		foreach ( $list as $obj ) {
-			$options[] = array(
+			$options[] = [
 				'value' => (string) $obj->ID,
 				'name' => $obj->post_title,
 				'action' => in_array( (int) $obj->ID, $not_in, true ) ? '-' : '+',
-			);
+			];
 		}
 
 		return $this->parseMultiSelect( $value, $options );
@@ -814,7 +814,7 @@ class VcLoopSettings {
 	public static function getTaxonomies() {
 		$taxonomy_exclude = (array) apply_filters( 'get_categories_taxonomy', 'category' );
 		$taxonomy_exclude[] = 'post_tag';
-		$taxonomies = array();
+		$taxonomies = [];
 		foreach ( get_taxonomies() as $taxonomy ) {
 			if ( ! in_array( $taxonomy, $taxonomy_exclude, true ) ) {
 				$taxonomies[] = $taxonomy;
@@ -873,7 +873,7 @@ class VcLoopSettings {
 	 * @since 4.2
 	 */
 	public static function parseData( $value ) {
-		$data = array();
+		$data = [];
 		$values_pairs = preg_split( '/\|/', $value );
 		foreach ( $values_pairs as $pair ) {
 			if ( ! empty( $pair ) ) {
@@ -899,14 +899,14 @@ class VcLoopSuggestions {
 	 * @since 4.2
 	 * @var array
 	 */
-	protected $content = array();
+	protected $content = [];
 	/**
 	 * List of IDs to be excluded from the suggestions.
 	 *
 	 * @since 4.2
 	 * @var array
 	 */
-	protected $exclude = array();
+	protected $exclude = [];
 	/**
 	 * The field for which suggestions are being generated.
 	 *
@@ -940,19 +940,19 @@ class VcLoopSuggestions {
 	 * @since 4.2
 	 */
 	public function get_authors( $query ) {
-		$args = ! empty( $query ) ? array(
+		$args = ! empty( $query ) ? [
 			'search' => '*' . $query . '*',
-			'search_columns' => array( 'user_nicename' ),
-		) : array();
+			'search_columns' => [ 'user_nicename' ],
+		] : [];
 		if ( ! empty( $this->exclude ) ) {
 			$args['exclude'] = $this->exclude;
 		}
 		$users = get_users( $args );
 		foreach ( $users as $user ) {
-			$this->content[] = array(
+			$this->content[] = [
 				'value' => (string) $user->ID,
 				'name' => (string) $user->data->user_nicename,
-			);
+			];
 		}
 	}
 
@@ -964,17 +964,17 @@ class VcLoopSuggestions {
 	 * @since 4.2
 	 */
 	public function get_categories( $query ) {
-		$args = ! empty( $query ) ? array( 'search' => $query ) : array();
+		$args = ! empty( $query ) ? [ 'search' => $query ] : [];
 		if ( ! empty( $this->exclude ) ) {
 			$args['exclude'] = $this->exclude;
 		}
 		$categories = get_categories( $args );
 
 		foreach ( $categories as $cat ) {
-			$this->content[] = array(
+			$this->content[] = [
 				'value' => (string) $cat->cat_ID,
 				'name' => $cat->cat_name,
-			);
+			];
 		}
 	}
 
@@ -986,16 +986,16 @@ class VcLoopSuggestions {
 	 * @since 4.2
 	 */
 	public function get_tags( $query ) {
-		$args = ! empty( $query ) ? array( 'search' => $query ) : array();
+		$args = ! empty( $query ) ? [ 'search' => $query ] : [];
 		if ( ! empty( $this->exclude ) ) {
 			$args['exclude'] = $this->exclude;
 		}
 		$tags = get_tags( $args );
 		foreach ( $tags as $tag ) {
-			$this->content[] = array(
+			$this->content[] = [
 				'value' => (string) $tag->term_id,
 				'name' => $tag->name,
-			);
+			];
 		}
 	}
 
@@ -1007,17 +1007,17 @@ class VcLoopSuggestions {
 	 * @since 4.2
 	 */
 	public function get_tax_query( $query ) {
-		$args = ! empty( $query ) ? array( 'search' => $query ) : array();
+		$args = ! empty( $query ) ? [ 'search' => $query ] : [];
 		if ( ! empty( $this->exclude ) ) {
 			$args['exclude'] = $this->exclude;
 		}
 		// phpcs:ignore
 		$tags = get_terms( VcLoopSettings::getTaxonomies(), $args );
 		foreach ( $tags as $tag ) {
-			$this->content[] = array(
+			$this->content[] = [
 				'value' => $tag->term_id,
 				'name' => $tag->name . ' (' . $tag->taxonomy . ')',
-			);
+			];
 		}
 	}
 
@@ -1029,26 +1029,26 @@ class VcLoopSuggestions {
 	 * @since 4.2
 	 */
 	public function get_by_id( $query ) {
-		$args = ! empty( $query ) ? array(
+		$args = ! empty( $query ) ? [
 			's' => $query,
 			'post_type' => 'any',
 			'no_found_rows' => true,
 			'orderby' => 'relevance',
-		) : array(
+		] : [
 			'post_type' => 'any',
 			'no_found_rows' => true,
 			'orderby' => 'relevance',
-		);
+		];
 		if ( ! empty( $this->exclude ) ) {
 			$args['exclude'] = $this->exclude;
 		}
 		$args['ignore_sticky_posts'] = true;
 		$posts = get_posts( $args );
 		foreach ( $posts as $post ) {
-			$this->content[] = array(
+			$this->content[] = [
 				'value' => $post->ID,
 				'name' => $post->post_title,
-			);
+			];
 		}
 	}
 

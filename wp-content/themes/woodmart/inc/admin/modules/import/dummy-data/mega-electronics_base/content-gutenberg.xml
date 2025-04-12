@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-18 13:46" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:24" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Mega electronics gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 18 Nov 2024 13:46:09 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:24:27 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 			<wp:category>
 			<wp:term_id>1</wp:term_id>
 			<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
@@ -186,10 +185,6 @@
 			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[210]]></wp:meta_value>
 		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[wd_page_css_files]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:82:{i:0;s:19:"widget-price-filter";i:1;s:27:"widget-recent-post-comments";i:2;s:22:"widget-wd-recent-posts";i:3;s:10:"widget-nav";i:4;s:21:"widget-wd-layered-nav";i:5;s:21:"woo-mod-swatches-base";i:6;s:23:"woo-mod-swatches-filter";i:7;s:26:"widget-slider-price-filter";i:8;s:5:"wpcf7";i:9;s:5:"mc4wp";i:10;s:16:"woocommerce-base";i:11;s:15:"mod-star-rating";i:12;s:18:"woo-el-track-order";i:13;s:25:"woocommerce-block-notices";i:14;s:25:"woo-opt-free-progress-bar";i:15;s:20:"woo-mod-progress-bar";i:16;s:21:"widget-active-filters";i:17;s:15:"widget-collapse";i:18;s:16:"woo-shop-builder";i:19;s:25:"woo-opt-hide-larger-price";i:20;s:23:"woo-mod-shop-attributes";i:21;s:9:"wp-blocks";i:22;s:11:"block-title";i:23;s:15:"block-paragraph";i:24;s:11:"block-image";i:25;s:10:"block-icon";i:26;s:15:"block-container";i:27;s:13:"block-infobox";i:28;s:12:"block-layout";i:29;s:13:"block-divider";i:30;s:16:"mod-nav-vertical";i:31;s:10:"sticky-nav";i:32;s:20:"dropdown-full-height";i:33;s:23:"header-mod-content-calc";i:34;s:18:"mod-nav-menu-label";i:35;s:6:"button";i:36;s:12:"block-button";i:37;s:12:"block-banner";i:38;s:11:"header-base";i:39;s:9:"mod-tools";i:40;s:13:"header-search";i:41;s:18:"header-search-form";i:42;s:17:"wd-search-results";i:43;s:14:"wd-search-form";i:44;s:20:"header-elements-base";i:45;s:16:"helpers-wpb-elem";i:46;s:8:"info-box";i:47;s:26:"header-mobile-nav-dropdown";i:48;s:17:"header-my-account";i:49;s:18:"mod-tools-design-8";i:50;s:16:"header-cart-side";i:51;s:16:"woo-mod-quantity";i:52;s:11:"header-cart";i:53;s:20:"widget-shopping-cart";i:54;s:19:"widget-product-list";i:55;s:6:"swiper";i:56;s:12:"block-slider";i:57;s:12:"swiper-pagin";i:58;s:19:"slider-dots-style-3";i:59;s:20:"categories-loop-side";i:60;s:19:"woo-categories-loop";i:61;s:19:"woo-opt-products-bg";i:62;s:19:"woo-prod-loop-small";i:63;s:19:"woo-opt-title-limit";i:64;s:12:"product-loop";i:65;s:20:"woo-opt-stretch-cont";i:66;s:22:"product-loop-fw-button";i:67;s:23:"woo-mod-add-btn-replace";i:68;s:20:"mod-more-description";i:69;s:20:"woo-opt-grid-gallery";i:70;s:9:"mfp-popup";i:71;s:20:"woo-mod-stock-status";i:72;s:6:"brands";i:73;s:13:"swiper-arrows";i:74;s:11:"footer-base";i:75;s:15:"block-menu-list";i:76;s:12:"block-toggle";i:77;s:12:"social-icons";i:78;s:19:"social-icons-styles";i:79;s:10:"scroll-top";i:80;s:14:"bottom-toolbar";i:81;s:23:"shop-off-canvas-sidebar";}]]></wp:meta_value>
-		</wp:termmeta>
 		</wp:term>
 			<wp:term>
 			<wp:term_id>17</wp:term_id>
@@ -225,10 +220,6 @@
 			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[211]]></wp:meta_value>
 		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[wd_page_css_files]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:92:{i:0;s:19:"widget-price-filter";i:1;s:27:"widget-recent-post-comments";i:2;s:22:"widget-wd-recent-posts";i:3;s:10:"widget-nav";i:4;s:21:"widget-wd-layered-nav";i:5;s:21:"woo-mod-swatches-base";i:6;s:23:"woo-mod-swatches-filter";i:7;s:26:"widget-slider-price-filter";i:8;s:5:"wpcf7";i:9;s:5:"mc4wp";i:10;s:16:"woocommerce-base";i:11;s:15:"mod-star-rating";i:12;s:18:"woo-el-track-order";i:13;s:25:"woocommerce-block-notices";i:14;s:25:"woo-opt-free-progress-bar";i:15;s:20:"woo-mod-progress-bar";i:16;s:21:"widget-active-filters";i:17;s:15:"widget-collapse";i:18;s:16:"woo-shop-builder";i:19;s:25:"woo-opt-hide-larger-price";i:20;s:23:"woo-mod-shop-attributes";i:21;s:9:"wp-blocks";i:22;s:11:"block-title";i:23;s:15:"block-paragraph";i:24;s:11:"block-image";i:25;s:10:"block-icon";i:26;s:15:"block-container";i:27;s:13:"block-infobox";i:28;s:12:"block-layout";i:29;s:13:"block-divider";i:30;s:16:"mod-nav-vertical";i:31;s:10:"sticky-nav";i:32;s:20:"dropdown-full-height";i:33;s:23:"header-mod-content-calc";i:34;s:18:"mod-nav-menu-label";i:35;s:6:"button";i:36;s:12:"block-button";i:37;s:12:"block-banner";i:38;s:11:"header-base";i:39;s:9:"mod-tools";i:40;s:13:"header-search";i:41;s:18:"header-search-form";i:42;s:17:"wd-search-results";i:43;s:14:"wd-search-form";i:44;s:20:"header-elements-base";i:45;s:16:"helpers-wpb-elem";i:46;s:8:"info-box";i:47;s:26:"header-mobile-nav-dropdown";i:48;s:17:"header-my-account";i:49;s:18:"mod-tools-design-8";i:50;s:16:"header-cart-side";i:51;s:16:"woo-mod-quantity";i:52;s:11:"header-cart";i:53;s:20:"widget-shopping-cart";i:54;s:19:"widget-product-list";i:55;s:16:"block-opt-sticky";i:56;s:24:"el-off-canvas-column-btn";i:57;s:23:"block-off-canvas-layout";i:58;s:26:"woo-el-breadcrumbs-builder";i:59;s:34:"woo-categories-loop-layout-masonry";i:60;s:19:"woo-categories-loop";i:61;s:15:"categories-loop";i:62;s:6:"swiper";i:63;s:13:"swiper-arrows";i:64;s:24:"woo-mod-swatches-style-1";i:65;s:24:"woo-mod-swatches-style-3";i:66;s:24:"woo-mod-swatches-style-4";i:67;s:29:"woo-shop-el-products-per-page";i:68;s:25:"woo-shop-el-products-view";i:69;s:20:"woo-shop-el-order-by";i:70;s:13:"sticky-loader";i:71;s:19:"woo-opt-title-limit";i:72;s:12:"product-loop";i:73;s:22:"product-loop-fw-button";i:74;s:23:"woo-mod-add-btn-replace";i:75;s:20:"mod-more-description";i:76;s:23:"categories-loop-default";i:77;s:20:"woo-opt-stretch-cont";i:78;s:19:"woo-opt-products-bg";i:79;s:20:"woo-opt-grid-gallery";i:80;s:22:"woo-mod-product-labels";i:81;s:9:"mfp-popup";i:82;s:20:"woo-mod-stock-status";i:83;s:22:"woo-mod-swatches-dis-1";i:84;s:11:"footer-base";i:85;s:15:"block-menu-list";i:86;s:12:"block-toggle";i:87;s:12:"social-icons";i:88;s:19:"social-icons-styles";i:89;s:10:"scroll-top";i:90;s:14:"bottom-toolbar";i:91;s:23:"shop-off-canvas-sidebar";}]]></wp:meta_value>
-		</wp:termmeta>
 		</wp:term>
 			<wp:term>
 			<wp:term_id>18</wp:term_id>
@@ -263,6 +254,10 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[211]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[wd_page_css_files]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:94:{i:0;s:19:"widget-price-filter";i:1;s:27:"widget-recent-post-comments";i:2;s:22:"widget-wd-recent-posts";i:3;s:10:"widget-nav";i:4;s:21:"widget-wd-layered-nav";i:5;s:21:"woo-mod-swatches-base";i:6;s:23:"woo-mod-swatches-filter";i:7;s:26:"widget-slider-price-filter";i:8;s:5:"wpcf7";i:9;s:5:"mc4wp";i:10;s:13:"int-wordfence";i:11;s:16:"woocommerce-base";i:12;s:15:"mod-star-rating";i:13;s:18:"woo-el-track-order";i:14;s:25:"woocommerce-block-notices";i:15;s:25:"woo-opt-free-progress-bar";i:16;s:20:"woo-mod-progress-bar";i:17;s:21:"widget-active-filters";i:18;s:15:"widget-collapse";i:19;s:16:"woo-shop-builder";i:20;s:25:"woo-opt-hide-larger-price";i:21;s:23:"woo-mod-shop-attributes";i:22;s:9:"wp-blocks";i:23;s:11:"block-title";i:24;s:15:"block-paragraph";i:25;s:11:"block-image";i:26;s:10:"block-icon";i:27;s:15:"block-container";i:28;s:13:"block-infobox";i:29;s:12:"block-layout";i:30;s:13:"block-divider";i:31;s:16:"mod-nav-vertical";i:32;s:10:"sticky-nav";i:33;s:20:"dropdown-full-height";i:34;s:23:"header-mod-content-calc";i:35;s:18:"mod-nav-menu-label";i:36;s:6:"button";i:37;s:12:"block-button";i:38;s:12:"block-banner";i:39;s:11:"header-base";i:40;s:9:"mod-tools";i:41;s:13:"header-search";i:42;s:18:"header-search-form";i:43;s:17:"wd-search-results";i:44;s:14:"wd-search-form";i:45;s:20:"header-elements-base";i:46;s:16:"helpers-wpb-elem";i:47;s:8:"info-box";i:48;s:26:"header-mobile-nav-dropdown";i:49;s:18:"woo-mod-login-form";i:50;s:17:"header-my-account";i:51;s:18:"mod-tools-design-8";i:52;s:16:"header-cart-side";i:53;s:16:"woo-mod-quantity";i:54;s:11:"header-cart";i:55;s:20:"widget-shopping-cart";i:56;s:19:"widget-product-list";i:57;s:16:"block-opt-sticky";i:58;s:24:"el-off-canvas-column-btn";i:59;s:23:"block-off-canvas-layout";i:60;s:26:"woo-el-breadcrumbs-builder";i:61;s:34:"woo-categories-loop-layout-masonry";i:62;s:19:"woo-categories-loop";i:63;s:15:"categories-loop";i:64;s:24:"woo-mod-swatches-style-1";i:65;s:24:"woo-mod-swatches-style-3";i:66;s:24:"woo-mod-swatches-style-4";i:67;s:29:"woo-shop-el-products-per-page";i:68;s:25:"woo-shop-el-products-view";i:69;s:20:"woo-shop-el-order-by";i:70;s:13:"sticky-loader";i:71;s:19:"woo-opt-title-limit";i:72;s:12:"product-loop";i:73;s:22:"product-loop-fw-button";i:74;s:23:"woo-mod-add-btn-replace";i:75;s:20:"mod-more-description";i:76;s:23:"categories-loop-default";i:77;s:20:"woo-opt-stretch-cont";i:78;s:19:"woo-opt-products-bg";i:79;s:20:"woo-opt-grid-gallery";i:80;s:22:"woo-mod-product-labels";i:81;s:9:"mfp-popup";i:82;s:20:"woo-mod-stock-status";i:83;s:22:"woo-mod-swatches-dis-1";i:84;s:11:"footer-base";i:85;s:15:"block-menu-list";i:86;s:12:"block-toggle";i:87;s:12:"social-icons";i:88;s:19:"social-icons-styles";i:89;s:10:"scroll-top";i:90;s:25:"header-my-account-sidebar";i:91;s:14:"bottom-toolbar";i:92;s:23:"shop-off-canvas-sidebar";i:93;s:25:"mod-sticky-sidebar-opener";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -767,21 +762,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>34</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[apple]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Apple]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-34-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:118:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-apple.jpg";s:2:"id";s:3:"227";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>35</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[silver]]></wp:term_slug>
@@ -831,36 +811,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>38</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[gigabyte]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Gigabyte]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-38-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:121:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-gigabyte.jpg";s:2:"id";s:3:"231";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>39</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[hp]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[HP]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-39-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:115:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-hp.jpg";s:2:"id";s:3:"232";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>40</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[white]]></wp:term_slug>
@@ -877,21 +827,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[color]]></wp:meta_key>
 			<wp:meta_value><![CDATA[rgb(244,244,244)]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>41</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[asus]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Asus]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-41-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-asus.jpg";s:2:"id";s:3:"228";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -974,36 +909,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>47</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[philips]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Philips]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-47-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:120:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-philips.jpg";s:2:"id";s:3:"234";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>48</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[viewsonic]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Viewsonic]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-48-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:122:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-viewsonic.jpg";s:2:"id";s:3:"236";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>49</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[black]]></wp:term_slug>
@@ -1031,36 +936,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-50-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>51</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[canon]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Canon]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-51-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:118:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-canon.jpg";s:2:"id";s:3:"229";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>52</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[logitech]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Logitech]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-52-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:121:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-logitech.jpg";s:2:"id";s:3:"233";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -1162,6 +1037,10 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[186]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[wd_page_css_files]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:72:{i:0;s:19:"widget-price-filter";i:1;s:27:"widget-recent-post-comments";i:2;s:22:"widget-wd-recent-posts";i:3;s:10:"widget-nav";i:4;s:21:"widget-wd-layered-nav";i:5;s:21:"woo-mod-swatches-base";i:6;s:23:"woo-mod-swatches-filter";i:7;s:26:"widget-slider-price-filter";i:8;s:5:"wpcf7";i:9;s:5:"mc4wp";i:10;s:13:"int-wordfence";i:11;s:16:"woocommerce-base";i:12;s:15:"mod-star-rating";i:13;s:18:"woo-el-track-order";i:14;s:25:"woocommerce-block-notices";i:15;s:25:"woo-opt-free-progress-bar";i:16;s:20:"woo-mod-progress-bar";i:17;s:21:"widget-active-filters";i:18;s:16:"woo-shop-builder";i:19;s:25:"woo-opt-hide-larger-price";i:20;s:23:"woo-mod-shop-attributes";i:21;s:9:"wp-blocks";i:22;s:16:"mod-nav-vertical";i:23;s:10:"sticky-nav";i:24;s:20:"dropdown-full-height";i:25;s:23:"header-mod-content-calc";i:26;s:18:"mod-nav-menu-label";i:27;s:13:"block-divider";i:28;s:15:"block-paragraph";i:29;s:11:"block-title";i:30;s:6:"button";i:31;s:12:"block-button";i:32;s:15:"block-container";i:33;s:12:"block-banner";i:34;s:11:"header-base";i:35;s:9:"mod-tools";i:36;s:13:"header-search";i:37;s:18:"header-search-form";i:38;s:17:"wd-search-results";i:39;s:14:"wd-search-form";i:40;s:20:"header-elements-base";i:41;s:16:"helpers-wpb-elem";i:42;s:8:"info-box";i:43;s:26:"header-mobile-nav-dropdown";i:44;s:18:"woo-mod-login-form";i:45;s:17:"header-my-account";i:46;s:18:"mod-tools-design-8";i:47;s:16:"header-cart-side";i:48;s:11:"header-cart";i:49;s:20:"widget-shopping-cart";i:50;s:19:"widget-product-list";i:51;s:16:"block-opt-sticky";i:52;s:24:"el-off-canvas-column-btn";i:53;s:23:"block-off-canvas-layout";i:54;s:26:"woo-el-breadcrumbs-builder";i:55;s:34:"woo-categories-loop-layout-masonry";i:56;s:19:"woo-categories-loop";i:57;s:15:"categories-loop";i:58;s:24:"woo-mod-swatches-style-1";i:59;s:24:"woo-mod-swatches-style-3";i:60;s:24:"woo-mod-swatches-style-4";i:61;s:29:"woo-shop-el-products-per-page";i:62;s:25:"woo-shop-el-products-view";i:63;s:20:"woo-shop-el-order-by";i:64;s:13:"sticky-loader";i:65;s:15:"widget-collapse";i:66;s:11:"footer-base";i:67;s:10:"scroll-top";i:68;s:25:"header-my-account-sidebar";i:69;s:14:"bottom-toolbar";i:70;s:23:"shop-off-canvas-sidebar";i:71;s:25:"mod-sticky-sidebar-opener";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -1895,21 +1774,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>78</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[dell]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Dell]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-78-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-dell.jpg";s:2:"id";s:3:"230";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>79</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_size]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[360x208x425-mm]]></wp:term_slug>
@@ -1918,21 +1782,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-79-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>80</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[samsung]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Samsung]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-80-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:120:"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/wd-em-brand-samsung.jpg";s:2:"id";s:3:"235";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -2348,6 +2197,10 @@
 			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[221]]></wp:meta_value>
 		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[wd_page_css_files]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:74:{i:0;s:19:"widget-price-filter";i:1;s:27:"widget-recent-post-comments";i:2;s:22:"widget-wd-recent-posts";i:3;s:10:"widget-nav";i:4;s:21:"widget-wd-layered-nav";i:5;s:21:"woo-mod-swatches-base";i:6;s:23:"woo-mod-swatches-filter";i:7;s:26:"widget-slider-price-filter";i:8;s:5:"wpcf7";i:9;s:5:"mc4wp";i:10;s:13:"int-wordfence";i:11;s:16:"woocommerce-base";i:12;s:15:"mod-star-rating";i:13;s:18:"woo-el-track-order";i:14;s:25:"woocommerce-block-notices";i:15;s:25:"woo-opt-free-progress-bar";i:16;s:20:"woo-mod-progress-bar";i:17;s:21:"widget-active-filters";i:18;s:16:"woo-shop-builder";i:19;s:25:"woo-opt-hide-larger-price";i:20;s:23:"woo-mod-shop-attributes";i:21;s:9:"wp-blocks";i:22;s:16:"mod-nav-vertical";i:23;s:10:"sticky-nav";i:24;s:20:"dropdown-full-height";i:25;s:23:"header-mod-content-calc";i:26;s:18:"mod-nav-menu-label";i:27;s:13:"block-divider";i:28;s:15:"block-paragraph";i:29;s:11:"block-title";i:30;s:6:"button";i:31;s:12:"block-button";i:32;s:15:"block-container";i:33;s:12:"block-banner";i:34;s:11:"header-base";i:35;s:9:"mod-tools";i:36;s:13:"header-search";i:37;s:18:"header-search-form";i:38;s:17:"wd-search-results";i:39;s:14:"wd-search-form";i:40;s:20:"header-elements-base";i:41;s:16:"helpers-wpb-elem";i:42;s:8:"info-box";i:43;s:26:"header-mobile-nav-dropdown";i:44;s:18:"woo-mod-login-form";i:45;s:17:"header-my-account";i:46;s:18:"mod-tools-design-8";i:47;s:16:"header-cart-side";i:48;s:11:"header-cart";i:49;s:20:"widget-shopping-cart";i:50;s:19:"widget-product-list";i:51;s:16:"block-opt-sticky";i:52;s:24:"el-off-canvas-column-btn";i:53;s:23:"block-off-canvas-layout";i:54;s:26:"woo-el-breadcrumbs-builder";i:55;s:34:"woo-categories-loop-layout-masonry";i:56;s:19:"woo-categories-loop";i:57;s:15:"categories-loop";i:58;s:6:"swiper";i:59;s:13:"swiper-arrows";i:60;s:24:"woo-mod-swatches-style-1";i:61;s:24:"woo-mod-swatches-style-3";i:62;s:24:"woo-mod-swatches-style-4";i:63;s:29:"woo-shop-el-products-per-page";i:64;s:25:"woo-shop-el-products-view";i:65;s:20:"woo-shop-el-order-by";i:66;s:13:"sticky-loader";i:67;s:15:"widget-collapse";i:68;s:11:"footer-base";i:69;s:10:"scroll-top";i:70;s:25:"header-my-account-sidebar";i:71;s:14:"bottom-toolbar";i:72;s:23:"shop-off-canvas-sidebar";i:73;s:25:"mod-sticky-sidebar-opener";}]]></wp:meta_value>
+		</wp:termmeta>
 		</wp:term>
 			<wp:term>
 			<wp:term_id>95</wp:term_id>
@@ -2570,6 +2423,156 @@
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
+			<wp:term>
+			<wp:term_id>120</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[apple]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Apple]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[227]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-120-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>121</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[asus]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Asus]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[228]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-121-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>122</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[canon]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Canon]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[229]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-122-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>123</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[dell]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Dell]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[230]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-123-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>124</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[gigabyte]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Gigabyte]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[231]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-124-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>125</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[hp]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[HP]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[232]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-125-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>126</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[logitech]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Logitech]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[233]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-126-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>127</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[philips]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Philips]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[234]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-127-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>128</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[samsung]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Samsung]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[235]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-128-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>129</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[viewsonic]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Viewsonic]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[236]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-129-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
 			<wp:term><wp:term_id>100</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[header-menu-mega-electronics]]></wp:term_slug><wp:term_name><![CDATA[Header menu Mega electronics]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>101</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[header-right-menu]]></wp:term_slug><wp:term_name><![CDATA[Header right menu]]></wp:term_name>
@@ -2583,13 +2586,13 @@
 	<wp:term><wp:term_id>105</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[sticky-navigation-mega-electronics]]></wp:term_slug><wp:term_name><![CDATA[Sticky navigation Mega Electronics]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[HP Victus 16-e0174nw]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/hp-victus-16-e0174nw/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=64</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"MacBook Pro M1 Pro","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">MacBook Pro M1 Pro</h2>
@@ -2769,8 +2772,8 @@
 															<wp:post_id>64</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:42:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:42:24]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:23:00]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:23:00]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[hp-victus-16-e0174nw]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2779,7 +2782,7 @@
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="155x312-6x221x2-mm"><![CDATA[155×312.6x221x2 mm]]></category>
 		<category domain="product_cat" nicename="gaming-laptop"><![CDATA[Gaming Laptop]]></category>
-		<category domain="pa_brand" nicename="hp"><![CDATA[HP]]></category>
+		<category domain="product_brand" nicename="hp"><![CDATA[HP]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="pa_color" nicename="white"><![CDATA[White]]></category>
 											<wp:postmeta>
@@ -2800,7 +2803,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2895,7 +2898,7 @@
 					<title><![CDATA[ASUS TUF Gaming]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/asus-tuf-gaming/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=65</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"MacBook Pro M1 Pro","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">MacBook Pro M1 Pro</h2>
@@ -3075,8 +3078,8 @@
 															<wp:post_id>65</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:42:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:42:05]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[asus-tuf-gaming]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3084,7 +3087,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="304-2-x-203-x-13-9-mm"><![CDATA[304.2 x 203 x 13.9 mm]]></category>
-		<category domain="pa_brand" nicename="asus"><![CDATA[Asus]]></category>
+		<category domain="product_brand" nicename="asus"><![CDATA[Asus]]></category>
 		<category domain="product_cat" nicename="gaming-laptop"><![CDATA[Gaming Laptop]]></category>
 		<category domain="pa_color" nicename="gray"><![CDATA[Gray]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -3106,7 +3109,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3197,7 +3200,7 @@
 					<title><![CDATA[Apple iPad Mini 6 Wi-Fi]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-ipad-mini-6-wi-fi/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=69</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"MacBook Pro M1 Pro","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">MacBook Pro M1 Pro</h2>
@@ -3377,8 +3380,8 @@
 															<wp:post_id>69</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:41:56]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:41:56]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:22]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:22]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[apple-ipad-mini-6-wi-fi]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3386,7 +3389,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="247-6x178-5x6-1-mm"><![CDATA[247.6×178.5×6.1 mm]]></category>
-		<category domain="pa_brand" nicename="apple"><![CDATA[Apple]]></category>
+		<category domain="product_brand" nicename="apple"><![CDATA[Apple]]></category>
 		<category domain="product_cat" nicename="apple-ipad"><![CDATA[Apple Ipad]]></category>
 		<category domain="pa_color" nicename="pink"><![CDATA[Pink]]></category>
 		<category domain="pa_color" nicename="space-gray"><![CDATA[Space Gray]]></category>
@@ -3405,7 +3408,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3500,7 +3503,7 @@
 					<title><![CDATA[Canon i-SENSYS LBP722Cdw]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/canon-i-sensys-lbp722cdw/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=136</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -3618,15 +3621,15 @@
 															<wp:post_id>136</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:40:22]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:40:22]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:04]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:04]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[canon-i-sensys-lbp722cdw]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="canon"><![CDATA[Canon]]></category>
+												<category domain="product_brand" nicename="canon"><![CDATA[Canon]]></category>
 		<category domain="product_cat" nicename="laser-printers"><![CDATA[Laser Printers]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="pa_color" nicename="white"><![CDATA[White]]></category>
@@ -3648,7 +3651,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3747,7 +3750,7 @@
 					<title><![CDATA[Alogic Ultra Mini USB]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/alogic-ultra-mini-usb/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=138</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -3865,15 +3868,15 @@
 															<wp:post_id>138</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:39:59]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:39:59]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:42]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:42]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[alogic-ultra-mini-usb]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="asus"><![CDATA[Asus]]></category>
+												<category domain="product_brand" nicename="asus"><![CDATA[Asus]]></category>
 		<category domain="product_cat" nicename="card-readers"><![CDATA[Card Readers]]></category>
 		<category domain="pa_color" nicename="silver"><![CDATA[Silver]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -3895,7 +3898,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3986,7 +3989,7 @@
 					<title><![CDATA[Acer SA100 SATAIII]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/acer-sa100-sataiii/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=143</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"4279481b-beb5-4522-96a2-6d6935caf365","image":{"id":916,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg","width":780,"height":440}} -->
 <div id="wd-4279481b" class="wp-block-wd-image wd-block-image"><img class="wp-image-916" src="http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg" /></div>
@@ -4126,8 +4129,8 @@
 															<wp:post_id>143</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:39:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:39:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:23:18]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:23:18]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[acer-sa100-sataiii]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4135,7 +4138,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="360x208x425-mm"><![CDATA[360x208x425 mm]]></category>
-		<category domain="pa_brand" nicename="philips"><![CDATA[Philips]]></category>
+		<category domain="product_brand" nicename="philips"><![CDATA[Philips]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="ssd-drive"><![CDATA[SSD Drive]]></category>
 		<category domain="pa_color" nicename="white"><![CDATA[White]]></category>
@@ -4157,7 +4160,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4248,7 +4251,7 @@
 					<title><![CDATA[AMD Radeon Pro W5500]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/amd-radeon-pro-w5500/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=144</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"4279481b-beb5-4522-96a2-6d6935caf365","image":{"id":916,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg","width":780,"height":440}} -->
 <div id="wd-4279481b" class="wp-block-wd-image wd-block-image"><img class="wp-image-916" src="http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg" /></div>
@@ -4388,8 +4391,8 @@
 															<wp:post_id>144</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:39:20]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:39:20]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:47]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:47]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[amd-radeon-pro-w5500]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4397,7 +4400,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="304-2-x-203-x-13-9-mm"><![CDATA[304.2 x 203 x 13.9 mm]]></category>
-		<category domain="pa_brand" nicename="asus"><![CDATA[Asus]]></category>
+		<category domain="product_brand" nicename="asus"><![CDATA[Asus]]></category>
 		<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
 		<category domain="product_cat" nicename="graphics-cards"><![CDATA[Graphics Cards]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -4419,7 +4422,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4510,7 +4513,7 @@
 					<title><![CDATA[AMD Ryzen 5 5600X]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/amd-ryzen-5-5600x/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=145</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"4279481b-beb5-4522-96a2-6d6935caf365","image":{"id":916,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg","width":780,"height":440}} -->
 <div id="wd-4279481b" class="wp-block-wd-image wd-block-image"><img class="wp-image-916" src="http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg" /></div>
@@ -4650,8 +4653,8 @@
 															<wp:post_id>145</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:39:03]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:39:03]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[amd-ryzen-5-5600x]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4659,7 +4662,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="247-6x178-5x6-1-mm"><![CDATA[247.6×178.5×6.1 mm]]></category>
-		<category domain="pa_brand" nicename="hp"><![CDATA[HP]]></category>
+		<category domain="product_brand" nicename="hp"><![CDATA[HP]]></category>
 		<category domain="product_cat" nicename="processors"><![CDATA[Processors]]></category>
 		<category domain="pa_color" nicename="silver"><![CDATA[Silver]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -4681,7 +4684,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4772,7 +4775,7 @@
 					<title><![CDATA[AMD Ryzen 5 7600X]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/amd-ryzen-5-7600x/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=146</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"4279481b-beb5-4522-96a2-6d6935caf365","image":{"id":916,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg","width":780,"height":440}} -->
 <div id="wd-4279481b" class="wp-block-wd-image wd-block-image"><img class="wp-image-916" src="http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg" /></div>
@@ -4912,8 +4915,8 @@
 															<wp:post_id>146</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:38:00]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:38:00]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:56]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:56]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[amd-ryzen-5-7600x]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4921,7 +4924,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="247-6x178-5x6-1-mm"><![CDATA[247.6×178.5×6.1 mm]]></category>
-		<category domain="pa_brand" nicename="hp"><![CDATA[HP]]></category>
+		<category domain="product_brand" nicename="hp"><![CDATA[HP]]></category>
 		<category domain="product_cat" nicename="processors"><![CDATA[Processors]]></category>
 		<category domain="pa_color" nicename="silver"><![CDATA[Silver]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -4943,7 +4946,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5034,7 +5037,7 @@
 					<title><![CDATA[Ailink Aluminium Connector]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/ailink-aluminium-connector/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=153</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"4279481b-beb5-4522-96a2-6d6935caf365","image":{"id":916,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg","width":780,"height":440}} -->
 <div id="wd-4279481b" class="wp-block-wd-image wd-block-image"><img class="wp-image-916" src="http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/rtx-4090-1-opt.jpg" /></div>
@@ -5174,8 +5177,8 @@
 															<wp:post_id>153</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:37:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:37:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:30]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:30]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[ailink-aluminium-connector]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5183,7 +5186,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="cables-adapters"><![CDATA[Cables &amp; Adapters]]></category>
-		<category domain="pa_brand" nicename="dell"><![CDATA[Dell]]></category>
+		<category domain="product_brand" nicename="dell"><![CDATA[Dell]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="pa_color" nicename="space-gray"><![CDATA[Space Gray]]></category>
 											<wp:postmeta>
@@ -5204,7 +5207,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5295,7 +5298,7 @@
 					<title><![CDATA[Apple iPhone 14 Plus]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-iphone-14-plus/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=158</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/cover {"blockId":"d0149c76-ef53-451b-a23c-ca3c160a6b8b","contentAlignHorizontal":"end","contentAlignVertical":"center","height":"420","bgImage":{"id":946,"url":"https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/iphone-14-pro-1.jpg"},"marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-d0149c76" class="wp-block-wd-cover wd-hover-parent"><div class="wd-block-cover-img"></div><a class="wd-block-cover-link wd-fill" href="#" aria-label="Cover link"></a><!-- wp:wd/container {"blockId":"1f9cd57f-3a3b-44e1-9000-8ba5d1599d47","displayWidth":"custom","customWidth":"380","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"230","customWidthMobile":"190","metadata":{"name":"Banner content"}} -->
@@ -5415,15 +5418,15 @@
 															<wp:post_id>158</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 13:21:59]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 13:21:59]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:18]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:18]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[apple-iphone-14-plus]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="apple"><![CDATA[Apple]]></category>
+												<category domain="product_brand" nicename="apple"><![CDATA[Apple]]></category>
 		<category domain="product_cat" nicename="apple-iphone"><![CDATA[Apple iPhone]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
@@ -5447,7 +5450,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5534,7 +5537,7 @@
 					<title><![CDATA[Apple iPhone 14 Plus - Black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-iphone-14-plus/?attribute_pa_color=black</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=159</guid>
 																<excerpt:encoded><![CDATA[Color: Black]]></excerpt:encoded>
 										<wp:post_id>159</wp:post_id>
@@ -5585,7 +5588,7 @@
 					<title><![CDATA[Apple iPhone 14 Plus - Blue]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-iphone-14-plus/?attribute_pa_color=blue</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=160</guid>
 																<excerpt:encoded><![CDATA[Color: Blue]]></excerpt:encoded>
 										<wp:post_id>160</wp:post_id>
@@ -5640,7 +5643,7 @@
 					<title><![CDATA[Apple iPhone 14 Plus - Pink]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-iphone-14-plus/?attribute_pa_color=pink</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=161</guid>
 																<excerpt:encoded><![CDATA[Color: Pink]]></excerpt:encoded>
 										<wp:post_id>161</wp:post_id>
@@ -5691,7 +5694,7 @@
 					<title><![CDATA[Footer Mega electronics]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?cms_block=footer-mega-electronics</link>
 					<pubDate>Fri, 12 Jul 2024 07:28:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=cms_block&#038;p=285</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"46e20966-677d-42b3-8e9a-c4dc298381db","paddingTop":"40","paddingBottom":"40","marginBottom":"40","borderType":"solid","borderColorCode":"rgba(0,0,0,0.11)","borderWidthBottom":"1","borderWidthLock":false} -->
 <div id="wd-46e20966" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"cc8b22d8-c5c5-453a-9e76-f02dd8cfcea4","adjacentCount":4,"blocksGap":5,"adjacentCountTablet":2,"colWidthTablet":50} -->
@@ -5938,7 +5941,7 @@
 					<title><![CDATA[Sticky navigation Laptops, Tablets &amp; PCs]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?cms_block=sticky-navigation-laptops-tablets-pcs</link>
 					<pubDate>Fri, 12 Jul 2024 07:28:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=cms_block&#038;p=287</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/menu-list {"blockId":"a05b183b-a830-49b8-a82c-bb184885f5b3","title":"LAPTOPS"} -->
 <ul id="wd-a05b183b" class="wp-block-wd-menu-list wd-sub-menu wd-sub-accented"><li><a href="#">LAPTOPS</a><ul class="sub-sub-menu"><!-- wp:wd/menu-list-item {"blockId":"36201d0e-d5ed-4862-a97c-9298eb53648f","title":"Apple MacBook"} -->
@@ -6025,7 +6028,7 @@
 					<title><![CDATA[Sticky navigation Computer &amp; Office]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?cms_block=sticky-navigation-computer-office</link>
 					<pubDate>Fri, 12 Jul 2024 07:28:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=cms_block&#038;p=288</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/menu-list {"blockId":"a05b183b-a830-49b8-a82c-bb184885f5b3","title":"Monitors"} -->
 <ul id="wd-a05b183b" class="wp-block-wd-menu-list wd-sub-menu wd-sub-accented"><li><a href="#">Monitors</a><ul class="sub-sub-menu"><!-- wp:wd/menu-list-item {"blockId":"36201d0e-d5ed-4862-a97c-9298eb53648f","title":"2K Monitors"} -->
@@ -6108,7 +6111,7 @@
 					<title><![CDATA[Sticky navigation Hardware &amp; Components]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?cms_block=sticky-navigation-hardware-components</link>
 					<pubDate>Fri, 12 Jul 2024 07:28:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=cms_block&#038;p=289</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/menu-list {"blockId":"a05b183b-a830-49b8-a82c-bb184885f5b3","title":"PC Components"} -->
 <ul id="wd-a05b183b" class="wp-block-wd-menu-list wd-sub-menu wd-sub-accented"><li><a href="#">PC Components</a><ul class="sub-sub-menu"><!-- wp:wd/menu-list-item {"blockId":"36201d0e-d5ed-4862-a97c-9298eb53648f","title":"Cases"} -->
@@ -6199,7 +6202,7 @@
 					<title><![CDATA[Contact form Mega electronics]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=wpcf7_contact_form&#038;p=443</link>
 					<pubDate>Fri, 12 Jul 2024 12:22:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=wpcf7_contact_form&#038;p=443</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <div class="wd-grid-f-stretch">
@@ -6212,7 +6215,7 @@
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [_site_admin_email]
 From: [your-name] [your-email]
 Subject: [your-subject]
@@ -6228,7 +6231,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [your-email]
 Message Body:
 [your-message]
@@ -6264,8 +6267,8 @@ Please enter a telephone number.]]></content:encoded>
 															<wp:post_id>443</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:22:51]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 12:22:51]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-08-19 14:38:53]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-08-19 14:38:53]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-24 13:54:09]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-24 13:54:09]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-mega-electronics]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6286,7 +6289,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -6297,7 +6300,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -6317,14 +6320,14 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:2:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:31:"Invalid mailbox syntax is used.";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Apple Shopping Event]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/apple-shopping-event/</link>
 					<pubDate>Fri, 12 Jul 2024 13:47:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=449</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"29a26107-31c7-417a-b40d-872606dfe049","bgColorCode":"#1c61e7","paddingTop":"20","paddingRight":"35","paddingBottom":"20","paddingLeft":"35","marginTop":"-20","marginBottom":"80","borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-29a26107" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"2b89065d-11e3-4bc5-9351-ead8004249b6","adjacentCount":2,"blocksGap":0,"justifyContent":"center","colorScheme":"light"} -->
@@ -6385,7 +6388,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Delivery &amp; Return]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/delivery-return/</link>
 					<pubDate>Thu, 11 Jul 2024 15:00:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=39</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"42f375a5-92bc-401c-8342-667515039da7","columnsGap":20,"marginTop":"-20","marginBottom":"60","marginBottomTablet":"40"} -->
 <div id="wd-42f375a5" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"ab37dd53-e684-4480-a624-d6c8b627984d","adjacentCount":2,"colWidth":75,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -6692,7 +6695,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Outlet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/outlet/</link>
 					<pubDate>Thu, 11 Jul 2024 15:00:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=41</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"29a26107-31c7-417a-b40d-872606dfe049","bgColorCode":"#1c61e7","paddingTop":"30","paddingRight":"45","paddingBottom":"30","paddingLeft":"45","marginTop":"-20","marginBottom":"60","borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10","paddingTopTablet":"30","paddingRightTablet":"30","paddingBottomTablet":"30","paddingLeftTablet":"30","paddingLockTablet":true,"marginBottomTablet":"40"} -->
 <div id="wd-29a26107" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"2b89065d-11e3-4bc5-9351-ead8004249b6","adjacentCount":2,"blocksGap":10,"justifyContent":"center","colorScheme":"light","adjacentCountTablet":2,"colWidthTablet":50} -->
@@ -6827,7 +6830,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Alameda Store]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/alameda-store/</link>
 					<pubDate>Thu, 11 Jul 2024 15:09:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=43</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/cover {"blockId":"06815541-c076-47e4-9213-2d09ee72a34a","contentAlignVertical":"end","height":"480","bgImage":{"id":728,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/alameda-store-l-opt.jpg"},"marginTop":"-20","marginBottom":"40","overlay":false} -->
 <div id="wd-06815541" class="wp-block-wd-cover wd-hover-parent"><div class="wd-block-cover-img"></div><!-- wp:wd/container {"blockId":"fd8fdea8-e912-4eb2-a86f-551368b65b8f","colorScheme":"light","metadata":{"name":"Banner content"}} -->
@@ -6844,7 +6847,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- wp:wd/row {"blockId":"e6adc1aa-549f-4ad1-ac26-8a45a28ca6a1","columnsGap":20,"marginBottom":"40","marginBottomTablet":"20"} -->
 <div id="wd-e6adc1aa" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"968937a4-4531-4031-812f-24a7a344bb1b","adjacentCount":3,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-968937a4" class="wp-block-wd-column"><!-- wp:wd/open-street-map {"blockId":"1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17","zoom":15,"height":"480","locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","showButton":false,"buttonText":"","buttonUrl":"","behavior":"popup","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
+<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/ woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
 <!-- /wp:wd/open-street-map --></div>
 <!-- /wp:wd/column -->
 
@@ -6960,7 +6963,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Broadway Store]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/broadway-store/</link>
 					<pubDate>Thu, 11 Jul 2024 15:09:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=47</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/cover {"blockId":"06815541-c076-47e4-9213-2d09ee72a34a","contentAlignVertical":"end","height":"480","bgImage":{"id":672,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/broadway-store-l-opt.jpg"},"marginTop":"-20","marginBottom":"40","overlay":false} -->
 <div id="wd-06815541" class="wp-block-wd-cover wd-hover-parent"><div class="wd-block-cover-img"></div><!-- wp:wd/container {"blockId":"fd8fdea8-e912-4eb2-a86f-551368b65b8f","colorScheme":"light","metadata":{"name":"Banner content"}} -->
@@ -6977,7 +6980,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- wp:wd/row {"blockId":"e6adc1aa-549f-4ad1-ac26-8a45a28ca6a1","columnsGap":20,"marginBottom":"40","marginBottomTablet":"20"} -->
 <div id="wd-e6adc1aa" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"968937a4-4531-4031-812f-24a7a344bb1b","adjacentCount":3,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-968937a4" class="wp-block-wd-column"><!-- wp:wd/open-street-map {"blockId":"1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17","zoom":15,"height":"480","locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","showButton":false,"buttonText":"","buttonUrl":"","behavior":"popup","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
+<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/ woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
 <!-- /wp:wd/open-street-map --></div>
 <!-- /wp:wd/column -->
 
@@ -7099,7 +7102,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Emeryville Store]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/emeryville-store/</link>
 					<pubDate>Thu, 11 Jul 2024 15:09:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=49</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/cover {"blockId":"06815541-c076-47e4-9213-2d09ee72a34a","contentAlignVertical":"end","height":"480","bgImage":{"id":725,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/emeryville-store-l-opt.jpg"},"marginTop":"-20","marginBottom":"40","overlay":false} -->
 <div id="wd-06815541" class="wp-block-wd-cover wd-hover-parent"><div class="wd-block-cover-img"></div><!-- wp:wd/container {"blockId":"fd8fdea8-e912-4eb2-a86f-551368b65b8f","colorScheme":"light","metadata":{"name":"Banner content"}} -->
@@ -7116,7 +7119,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- wp:wd/row {"blockId":"e6adc1aa-549f-4ad1-ac26-8a45a28ca6a1","columnsGap":20,"marginBottom":"40","marginBottomTablet":"20"} -->
 <div id="wd-e6adc1aa" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"968937a4-4531-4031-812f-24a7a344bb1b","adjacentCount":3,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-968937a4" class="wp-block-wd-column"><!-- wp:wd/open-street-map {"blockId":"1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17","zoom":15,"height":"480","locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","showButton":false,"buttonText":"","buttonUrl":"","behavior":"popup","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
+<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/ woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
 <!-- /wp:wd/open-street-map --></div>
 <!-- /wp:wd/column -->
 
@@ -7238,7 +7241,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Valencia Store]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/valencia-store/</link>
 					<pubDate>Thu, 11 Jul 2024 15:10:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=51</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/cover {"blockId":"06815541-c076-47e4-9213-2d09ee72a34a","contentAlignVertical":"end","height":"480","bgImage":{"id":723,"url":"http://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/uploads/sites/27/2024/07/valencia-store-l-opt.jpg"},"marginTop":"-20","marginBottom":"40","overlayColorCode":"rgba(0,0,0,0.3)","overlay":false} -->
 <div id="wd-06815541" class="wp-block-wd-cover wd-hover-parent"><div class="wd-block-cover-img"></div><!-- wp:wd/container {"blockId":"fd8fdea8-e912-4eb2-a86f-551368b65b8f","colorScheme":"light","metadata":{"name":"Banner content"}} -->
@@ -7255,7 +7258,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- wp:wd/row {"blockId":"e6adc1aa-549f-4ad1-ac26-8a45a28ca6a1","columnsGap":20,"marginBottom":"40","marginBottomTablet":"20"} -->
 <div id="wd-e6adc1aa" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"968937a4-4531-4031-812f-24a7a344bb1b","adjacentCount":3,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-968937a4" class="wp-block-wd-column"><!-- wp:wd/open-street-map {"blockId":"1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17","zoom":15,"height":"480","locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","showButton":false,"buttonText":"","buttonUrl":"","behavior":"popup","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
+<div id="wd-1f2fa4e4" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1f2fa4e4-6d40-40bf-9e4b-49175cbc5a17" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/ woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
 <!-- /wp:wd/open-street-map --></div>
 <!-- /wp:wd/column -->
 
@@ -7371,7 +7374,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple MacBook Pro 16″ M1 Pro]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-macbook-pro-16%e2%80%b3-m1-pro/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=57</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"MacBook Pro M1 Pro","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">MacBook Pro M1 Pro</h2>
@@ -7551,8 +7554,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>57</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:21]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:21]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:43:09]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:43:09]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:27]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:27]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[apple-macbook-pro-16%e2%80%b3-m1-pro]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7560,7 +7563,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="155x312-6x221x2-mm"><![CDATA[155×312.6x221x2 mm]]></category>
-		<category domain="pa_brand" nicename="apple"><![CDATA[Apple]]></category>
+		<category domain="product_brand" nicename="apple"><![CDATA[Apple]]></category>
 		<category domain="product_cat" nicename="apple-macbook"><![CDATA[Apple MacBook]]></category>
 		<category domain="pa_color" nicename="silver"><![CDATA[Silver]]></category>
 		<category domain="pa_color" nicename="space-gray"><![CDATA[Space Gray]]></category>
@@ -7579,7 +7582,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7674,7 +7677,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple MacBook Pro 16″ M1 Pro - Silver]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-macbook-pro-16%e2%80%b3-m1-pro/?attribute_pa_color=silver</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=58</guid>
 																<excerpt:encoded><![CDATA[Color: Silver]]></excerpt:encoded>
 										<wp:post_id>58</wp:post_id>
@@ -7733,7 +7736,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple MacBook Pro 16″ M1 Pro - Space Gray]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-macbook-pro-16%e2%80%b3-m1-pro/?attribute_pa_color=space-gray</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=59</guid>
 																<excerpt:encoded><![CDATA[Color: Space Gray]]></excerpt:encoded>
 										<wp:post_id>59</wp:post_id>
@@ -7788,7 +7791,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple MacBook Pro 13” M2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-macbook-pro-13-m2/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=60</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"MacBook Pro M1 Pro","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">MacBook Pro M1 Pro</h2>
@@ -7968,8 +7971,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>60</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:21]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:21]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:42:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:42:51]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[apple-macbook-pro-13-m2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7977,7 +7980,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="155x312-6x221x2-mm"><![CDATA[155×312.6x221x2 mm]]></category>
-		<category domain="pa_brand" nicename="apple"><![CDATA[Apple]]></category>
+		<category domain="product_brand" nicename="apple"><![CDATA[Apple]]></category>
 		<category domain="product_cat" nicename="apple-macbook"><![CDATA[Apple MacBook]]></category>
 		<category domain="pa_color" nicename="silver"><![CDATA[Silver]]></category>
 		<category domain="pa_color" nicename="space-gray"><![CDATA[Space Gray]]></category>
@@ -7996,7 +7999,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8091,7 +8094,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple MacBook Pro 13” M2 - Silver]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-macbook-pro-13-m2/?attribute_pa_color=silver</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=61</guid>
 																<excerpt:encoded><![CDATA[Color: Silver]]></excerpt:encoded>
 										<wp:post_id>61</wp:post_id>
@@ -8146,7 +8149,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple MacBook Pro 13” M2 - Space Gray]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-macbook-pro-13-m2/?attribute_pa_color=space-gray</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=62</guid>
 																<excerpt:encoded><![CDATA[Color: Space Gray]]></excerpt:encoded>
 										<wp:post_id>62</wp:post_id>
@@ -8201,7 +8204,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Microsoft Surface Laptop Studio]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/microsoft-surface-laptop-studio/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=63</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"MacBook Pro M1 Pro","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">MacBook Pro M1 Pro</h2>
@@ -8381,8 +8384,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>63</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:21]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:21]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:42:38]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:42:38]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:42]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:42]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[microsoft-surface-laptop-studio]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -8390,7 +8393,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_size" nicename="155x312-6x221x2-mm"><![CDATA[155×312.6x221x2 mm]]></category>
-		<category domain="pa_brand" nicename="gigabyte"><![CDATA[Gigabyte]]></category>
+		<category domain="product_brand" nicename="gigabyte"><![CDATA[Gigabyte]]></category>
 		<category domain="pa_color" nicename="silver"><![CDATA[Silver]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="ultrabook"><![CDATA[Ultrabook]]></category>
@@ -8412,7 +8415,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8503,7 +8506,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple iPad Mini 6 Wi-Fi - Space Gray]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-ipad-mini-6-wi-fi/?attribute_pa_color=space-gray</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=70</guid>
 																<excerpt:encoded><![CDATA[Color: Space Gray]]></excerpt:encoded>
 										<wp:post_id>70</wp:post_id>
@@ -8562,7 +8565,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple iPad Mini 6 Wi-Fi - Pink]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/apple-ipad-mini-6-wi-fi/?attribute_pa_color=pink</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=71</guid>
 																<excerpt:encoded><![CDATA[Color: Pink]]></excerpt:encoded>
 										<wp:post_id>71</wp:post_id>
@@ -8625,7 +8628,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Acer ProDesigner PE320QK]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/acer-prodesigner-pe320qk/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=82</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -8743,8 +8746,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>82</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:41:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:41:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:21:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:21:55]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[acer-prodesigner-pe320qk]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -8752,7 +8755,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="4k-monitors"><![CDATA[4K Monitors]]></category>
-		<category domain="pa_brand" nicename="asus"><![CDATA[Asus]]></category>
+		<category domain="product_brand" nicename="asus"><![CDATA[Asus]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -8773,7 +8776,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8864,7 +8867,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[AOC AGON AG493UCX]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/aoc-agon-ag493ucx/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=83</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -8982,15 +8985,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>83</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:41:16]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:41:16]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:08]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:08]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aoc-agon-ag493ucx]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="canon"><![CDATA[Canon]]></category>
+												<category domain="product_brand" nicename="canon"><![CDATA[Canon]]></category>
 		<category domain="product_cat" nicename="gaming-monitors"><![CDATA[Gaming Monitors]]></category>
 		<category domain="pa_color" nicename="gray"><![CDATA[Gray]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -9012,7 +9015,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9107,7 +9110,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[AOC CU34G2X/BK]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/aoc-cu34g2x-bk/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=84</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -9225,8 +9228,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>84</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:41:04]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:41:04]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aoc-cu34g2x-bk]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9234,7 +9237,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
-		<category domain="pa_brand" nicename="canon"><![CDATA[Canon]]></category>
+		<category domain="product_brand" nicename="canon"><![CDATA[Canon]]></category>
 		<category domain="product_cat" nicename="gaming-monitors"><![CDATA[Gaming Monitors]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -9255,7 +9258,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9350,7 +9353,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[AOC Q24P2Q]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/aoc-q24p2q/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=85</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -9468,8 +9471,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>85</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:40:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:40:52]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:22:19]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:22:19]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aoc-q24p2q]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9478,7 +9481,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="2k-monitors"><![CDATA[2K Monitors]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
-		<category domain="pa_brand" nicename="canon"><![CDATA[Canon]]></category>
+		<category domain="product_brand" nicename="canon"><![CDATA[Canon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -9498,7 +9501,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9593,7 +9596,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[AOC U32U1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/product/aoc-u32u1/</link>
 					<pubDate>Fri, 12 Jul 2024 06:25:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?post_type=product&#038;p=86</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"b5c17938-74d4-4973-9693-6d9aa2994d90","textAlign":"center","content":"Logitech G735","tpFontSize":"34","marginBottom":"10","tpFontSizeTablet":"28","tpFontSizeMobile":"22"} -->
 <h2 id="wd-b5c17938" class="wp-block-wd-title title wd-align">Logitech G735</h2>
@@ -9711,8 +9714,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>86</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 06:25:22]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 06:25:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:40:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:40:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:23:09]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:23:09]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aoc-u32u1]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9721,7 +9724,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="4k-monitors"><![CDATA[4K Monitors]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
-		<category domain="pa_brand" nicename="logitech"><![CDATA[Logitech]]></category>
+		<category domain="product_brand" nicename="logitech"><![CDATA[Logitech]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -9741,7 +9744,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9832,7 +9835,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home Mega-electronics]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/</link>
 					<pubDate>Thu, 11 Jul 2024 14:58:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=25</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"d30c650d-44c7-4091-ab02-b948404d792f","columnsGap":20,"marginTop":"-20","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-d30c650d" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"e66fff29-671a-4fcd-aeb5-5c264faa0d8c","adjacentCount":2,"adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10217,7 +10220,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Promotions]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/promotions/</link>
 					<pubDate>Thu, 11 Jul 2024 14:58:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=27</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"8ca8364d-17a8-496f-8df6-2a0668215cd8","colorCode":"#a5a5a5","tpFontSize":"13","tpFontVariant":"600","tpFontWeight":"600","marginBottom":"10"} -->
 <p id="wd-8ca8364d" class="wp-block-wd-paragraph">CLOTHES THAT YOU LIKE</p>
@@ -10456,7 +10459,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Compare]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/compare/</link>
 					<pubDate>Thu, 11 Jul 2024 14:58:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=28</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_compare]
@@ -10493,7 +10496,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Wishlist]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wishlist/</link>
 					<pubDate>Thu, 11 Jul 2024 14:59:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=31</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_wishlist]
@@ -10526,7 +10529,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Blog]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/blog/</link>
 					<pubDate>Thu, 11 Jul 2024 14:59:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=33</guid>
 															<wp:post_id>33</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-11 14:59:27]]></wp:post_date>
@@ -10556,7 +10559,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Stores]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/stores/</link>
 					<pubDate>Thu, 11 Jul 2024 14:59:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=35</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"29a26107-31c7-417a-b40d-872606dfe049","bgColorCode":"#1c61e7","paddingTop":"30","paddingRight":"45","paddingBottom":"30","paddingLeft":"45","marginTop":"-20","borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10","paddingTopTablet":"30","paddingRightTablet":"30","paddingBottomTablet":"30","paddingLeftTablet":"30","paddingLockTablet":true} -->
 <div id="wd-29a26107" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"2b89065d-11e3-4bc5-9351-ead8004249b6","adjacentCount":2,"blocksGap":0,"justifyContent":"center","colorScheme":"light","adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -10775,10 +10778,10 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Our Contacts]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/our-contacts/</link>
 					<pubDate>Thu, 11 Jul 2024 15:00:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?page_id=37</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/open-street-map {"blockId":"1a1388a0-1e60-41d7-befc-6f5be902a4f0","marginTop":"-20","zoom":15,"locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","showButton":false,"buttonText":"","buttonUrl":"","behavior":"popup","image":{"url":"","id":""},"imageSize":"full"}],"heightTablet":"200"} -->
-<div id="wd-1a1388a0" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1a1388a0-1e60-41d7-befc-6f5be902a4f0" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
+<div id="wd-1a1388a0" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-1a1388a0-1e60-41d7-befc-6f5be902a4f0" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/wp-content/themes/ woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
 <!-- /wp:wd/open-street-map -->
 
 <!-- wp:wd/row {"blockId":"ee744dca-0bdd-48d7-8e3f-a71d4797b5bc","columnsGap":20} -->
@@ -10950,7 +10953,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/237/</link>
 					<pubDate>Fri, 12 Jul 2024 07:15:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=237</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>237</wp:post_id>
@@ -11002,7 +11005,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/238/</link>
 					<pubDate>Fri, 12 Jul 2024 07:15:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=238</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>238</wp:post_id>
@@ -11054,7 +11057,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/239/</link>
 					<pubDate>Fri, 12 Jul 2024 07:15:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=239</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>239</wp:post_id>
@@ -11106,7 +11109,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/240/</link>
 					<pubDate>Fri, 12 Jul 2024 07:15:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=240</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>240</wp:post_id>
@@ -11158,7 +11161,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/241/</link>
 					<pubDate>Fri, 12 Jul 2024 07:15:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=241</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>241</wp:post_id>
@@ -11210,7 +11213,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[USA]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/usa/</link>
 					<pubDate>Fri, 12 Jul 2024 07:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=242</guid>
 															<wp:post_id>242</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:16:56]]></wp:post_date>
@@ -11265,7 +11268,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Deutschland]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/deutschland/</link>
 					<pubDate>Fri, 12 Jul 2024 07:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=243</guid>
 															<wp:post_id>243</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:16:56]]></wp:post_date>
@@ -11324,7 +11327,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[United Kingdom]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/united-kingdom/</link>
 					<pubDate>Fri, 12 Jul 2024 07:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=244</guid>
 															<wp:post_id>244</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:16:56]]></wp:post_date>
@@ -11383,7 +11386,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[3 Minimalist Desk Setups]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/01/12/3-minimalist-desk-setups/</link>
 					<pubDate>Fri, 12 Jan 2024 11:49:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=423</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"6e0b8092-506e-4a41-9b15-f084092e21ac"} -->
 <p id="wd-6e0b8092" class="wp-block-wd-paragraph">At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.</p>
@@ -11568,7 +11571,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Cameras for Street Photography]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/02/24/cameras-for-street-photography/</link>
 					<pubDate>Sat, 24 Feb 2024 11:51:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=426</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"2e1131ad-6470-490e-88ce-98d9e96949d8"} -->
 <p id="wd-2e1131ad" class="wp-block-wd-paragraph">At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.</p>
@@ -11688,7 +11691,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Logitech POP Keys]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/03/03/logitech-pop-keys/</link>
 					<pubDate>Sun, 03 Mar 2024 11:52:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=429</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"9df102ee-6434-4d10-be39-f68c082d2b95","content":"1. Style","marginBottom":"10"} -->
 <h2 id="wd-9df102ee" class="wp-block-wd-title title">1. Style</h2>
@@ -11950,7 +11953,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[How to choose a HI-FI stereo system]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/04/16/how-to-choose-a-hi-fi-stereo-system/</link>
 					<pubDate>Tue, 16 Apr 2024 11:53:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=432</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"329dc7b9-5095-4961-81d5-baff18396904","content":"Overview","tpFontSize":"24","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
 <h2 id="wd-329dc7b9" class="wp-block-wd-title title">Overview</h2>
@@ -12133,8 +12136,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 												<category domain="post_tag" nicename="cameras"><![CDATA[Cameras]]></category>
 		<category domain="category" nicename="hi-fi"><![CDATA[Hi-Fi]]></category>
 		<category domain="post_tag" nicename="hi-fi"><![CDATA[Hi-Fi]]></category>
-		<category domain="category" nicename="sound"><![CDATA[Sound]]></category>
 		<category domain="post_tag" nicename="sound"><![CDATA[Sound]]></category>
+		<category domain="category" nicename="sound"><![CDATA[Sound]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024-07-12]]></wp:meta_value>
@@ -12160,7 +12163,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Best Gaming Laptop Models]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/05/23/best-gaming-laptop-models/</link>
 					<pubDate>Thu, 23 May 2024 11:54:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=435</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/title {"blockId":"9d0caf1d-ab4e-4ca4-ae9a-b03ec90ac153","content":"About Gaming Laptops","tpFontSize":"24","marginBottom":"10","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
 <h2 id="wd-9d0caf1d" class="wp-block-wd-title title">About Gaming Laptops</h2>
@@ -12605,7 +12608,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[USD]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/usd/</link>
 					<pubDate>Fri, 12 Jul 2024 07:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=245</guid>
 															<wp:post_id>245</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:16:56]]></wp:post_date>
@@ -12660,7 +12663,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[EUR]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/eur/</link>
 					<pubDate>Fri, 12 Jul 2024 07:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=246</guid>
 															<wp:post_id>246</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:16:56]]></wp:post_date>
@@ -12719,7 +12722,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[GBP]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/gbp/</link>
 					<pubDate>Fri, 12 Jul 2024 07:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=247</guid>
 															<wp:post_id>247</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:16:56]]></wp:post_date>
@@ -12778,7 +12781,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/249/</link>
 					<pubDate>Fri, 12 Jul 2024 07:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=249</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>249</wp:post_id>
@@ -12830,7 +12833,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/250/</link>
 					<pubDate>Fri, 12 Jul 2024 07:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=250</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>250</wp:post_id>
@@ -12882,7 +12885,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/251/</link>
 					<pubDate>Fri, 12 Jul 2024 07:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=251</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>251</wp:post_id>
@@ -12934,7 +12937,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/252/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=252</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>252</wp:post_id>
@@ -12990,7 +12993,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/253/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=253</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>253</wp:post_id>
@@ -13046,7 +13049,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/254/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=254</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>254</wp:post_id>
@@ -13102,7 +13105,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/255/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=255</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>255</wp:post_id>
@@ -13158,7 +13161,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/256/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=256</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>256</wp:post_id>
@@ -13214,7 +13217,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/257/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=257</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>257</wp:post_id>
@@ -13270,7 +13273,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/258/</link>
 					<pubDate>Fri, 12 Jul 2024 07:19:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=258</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>258</wp:post_id>
@@ -13326,7 +13329,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/271/</link>
 					<pubDate>Fri, 12 Jul 2024 07:25:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=271</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>271</wp:post_id>
@@ -13378,7 +13381,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/272/</link>
 					<pubDate>Fri, 12 Jul 2024 07:25:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=272</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>272</wp:post_id>
@@ -13430,7 +13433,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/273/</link>
 					<pubDate>Fri, 12 Jul 2024 07:25:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=273</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>273</wp:post_id>
@@ -13482,7 +13485,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/274/</link>
 					<pubDate>Fri, 12 Jul 2024 07:25:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=274</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>274</wp:post_id>
@@ -13534,7 +13537,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/275/</link>
 					<pubDate>Fri, 12 Jul 2024 07:25:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=275</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>275</wp:post_id>
@@ -13586,7 +13589,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/home-3/</link>
 					<pubDate>Fri, 12 Jul 2024 07:25:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=276</guid>
 															<wp:post_id>276</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:25:33]]></wp:post_date>
@@ -13637,7 +13640,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/home-2/</link>
 					<pubDate>Fri, 12 Jul 2024 07:26:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=277</guid>
 															<wp:post_id>277</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 07:26:00]]></wp:post_date>
@@ -13688,7 +13691,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/278/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=278</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>278</wp:post_id>
@@ -13756,7 +13759,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/279/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=279</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>279</wp:post_id>
@@ -13824,7 +13827,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/280/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=280</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>280</wp:post_id>
@@ -13892,7 +13895,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/281/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=281</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>281</wp:post_id>
@@ -13948,7 +13951,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/282/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=282</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>282</wp:post_id>
@@ -14004,7 +14007,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/283/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=283</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>283</wp:post_id>
@@ -14060,7 +14063,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/2024/07/12/284/</link>
 					<pubDate>Fri, 12 Jul 2024 07:27:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/mega-electronics-gutenberg/?p=284</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>284</wp:post_id>

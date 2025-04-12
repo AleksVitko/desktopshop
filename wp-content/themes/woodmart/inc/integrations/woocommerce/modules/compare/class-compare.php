@@ -388,6 +388,16 @@ class Compare extends Singleton {
 				),
 			);
 
+			if ( taxonomy_exists( 'product_brand' ) ) {
+				$taxonomy = get_taxonomy( 'product_brand' );
+				$label    = $taxonomy->labels->singular_name;
+
+				$options['product_brand'] = array(
+					'name'  => $label,
+					'value' => 'product_brand',
+				);
+			}
+
 			if ( count( $product_attributes ) > 0 ) {
 				foreach ( $product_attributes as $attribute ) {
 					$options[ 'pa_' . $attribute->attribute_name ] = array(

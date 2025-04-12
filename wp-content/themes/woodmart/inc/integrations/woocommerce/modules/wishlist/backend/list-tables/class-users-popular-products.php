@@ -185,7 +185,7 @@ class Users_Popular_Products extends WP_List_Table {
 				sprintf(
 					'%s <a href="%s">%s</a>.',
 					esc_html__( 'When you create a promotion, all customers that have a corresponding product in their wishlist will get an email. You can customize this email content in', 'woodmart' ),
-					esc_url( admin_url( 'admin.php?page=wc-settings&tab=email&section=woodmart_promotional_email' ) ),
+					esc_url( admin_url( 'admin.php?page=wc-settings&tab=email&section=xts_email_wishlist_promotional' ) ),
 					esc_html__( 'WooCommerce -> Settings -> Emails -> Wishlist “Promotional” email', 'woodmart' )
 				)
 			),

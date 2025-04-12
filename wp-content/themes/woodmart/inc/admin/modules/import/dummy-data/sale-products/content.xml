@@ -35,7 +35,7 @@
 	<wp:base_site_url>http://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>http://dummy.xtemos.com/woodmart2</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[Sale Products]]></title>
 					<link>http://dummy.xtemos.com/woodmart2/sale-products/</link>
 					<pubDate>Sun, 14 Nov 2021 10:47:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?page_id=7947</guid>
 											<content:encoded><![CDATA[[vc_row][vc_column][woodmart_title color="primary" style="bordered" title="PRODUCTS ON SALE" subtitle="WOOCOMMERCE" after_title="Products with sale prices" css=".vc_custom_1636886855907{margin-bottom: 50px !important;}" woodmart_css_id="6190e94350334" responsive_spacing="eyJwYXJhbV90eXBlIjoid29vZG1hcnRfcmVzcG9uc2l2ZV9zcGFjaW5nIiwic2VsZWN0b3JfaWQiOiI2MTkwZTk0MzUwMzM0Iiwic2hvcnRjb2RlIjoid29vZG1hcnRfdGl0bGUiLCJkYXRhIjp7InRhYmxldCI6e30sIm1vYmlsZSI6e319fQ=="][sale_products per_page="12" columns="4" orderby="ID" order="DESC"][/vc_column][/vc_row]]]></content:encoded>
 															<wp:post_id>7947</wp:post_id>

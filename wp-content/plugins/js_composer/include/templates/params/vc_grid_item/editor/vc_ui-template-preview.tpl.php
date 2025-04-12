@@ -17,13 +17,13 @@ global $vc_grid_item_editor;
 if ( $vc_grid_item_editor ) {
 	$vc_grid_item_editor->registerBackendCss();
 	$vc_grid_item_editor->registerBackendJavascript();
-	add_filter( 'admin_body_class', array( $vc_grid_item_editor->templatesEditor(), 'addBodyClassTemplatePreview' ) );
-	add_action( 'admin_enqueue_scripts', array( &$vc_grid_item_editor, 'enqueueEditorScripts' ) );
-	add_action( 'admin_footer', array( &$vc_grid_item_editor, 'renderEditorFooter' ) );
-	add_filter( 'vc_wpbakery_shortcode_get_controls_list', array( $vc_grid_item_editor, 'shortcodesControls' ) );
+	add_filter( 'admin_body_class', [ $vc_grid_item_editor->templatesEditor(), 'addBodyClassTemplatePreview' ] );
+	add_action( 'admin_enqueue_scripts', [ &$vc_grid_item_editor, 'enqueueEditorScripts' ] );
+	add_action( 'admin_footer', [ &$vc_grid_item_editor, 'renderEditorFooter' ] );
+	add_filter( 'vc_wpbakery_shortcode_get_controls_list', [ $vc_grid_item_editor, 'shortcodesControls' ] );
 }
 
-add_action( 'admin_enqueue_scripts', array( wpbakery()->templatesPanelEditor(), 'enqueuePreviewScripts' ) );
+add_action( 'admin_enqueue_scripts', [ wpbakery()->templatesPanelEditor(), 'enqueuePreviewScripts' ] );
 
 
 global $menu, $submenu, $parent_file, $post_ID, $post, $post_type;
@@ -33,13 +33,13 @@ $post_title = trim( $editor_post->post_title );
 $nonce_action = $nonce_action = 'update-post_' . $post_ID;
 $user_ID = isset( $current_user ) && isset( $current_user->ID ) ? (int) $current_user->ID : 0;
 $form_action = 'editpost';
-$menu = array();
+$menu = [];
 remove_action( 'wp_head', 'print_emoji_detection_script' );
 remove_action( 'wp_print_styles', 'print_emoji_styles' );
 remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
 add_thickbox();
-wp_enqueue_media( array( 'post' => $post_ID ) );
+wp_enqueue_media( [ 'post' => $post_ID ] );
 wpbakery()->templatesPanelEditor()->registerPreviewScripts();
 require_once ABSPATH . 'wp-admin/admin-header.php';
 $custom_tag = 'script';

@@ -60,6 +60,7 @@
 			padding: 0 10px;
 			width: var(--xts-color-picker-h) !important;
 			height: var(--xts-input-height) !important;
+			gap: 0 !important;
 			border: none;
 			border-radius: var(--xts-option-border-radius);
 			font-size: 0;
@@ -428,6 +429,7 @@
 			vertical-align: middle;
 			text-align: center;
 			font-size: 18px;
+			line-height: 1;
 			cursor: pointer;
 			transition: all .2s ease-in-out;
 

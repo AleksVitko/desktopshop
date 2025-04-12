@@ -18,9 +18,25 @@
     "btns_shop_style": "rounded",
     "btns_accent_style": "rounded",
     "form_fields_style": "rounded",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "15",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
     "primary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Montserrat",
             "font-weight": "600",
@@ -32,7 +48,6 @@
     ],
     "post-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Montserrat",
             "font-weight": "600",
@@ -47,7 +62,6 @@
     ],
     "secondary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Montserrat",
             "font-weight": "400",
@@ -57,7 +71,6 @@
     ],
     "widget-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Montserrat",
             "font-weight": "600",
@@ -72,6 +85,23 @@
                 "font-size": ""
             },
             "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
         }
     ],
     "blog_style": "flat",

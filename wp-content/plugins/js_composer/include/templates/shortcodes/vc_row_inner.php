@@ -31,7 +31,7 @@ $atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 extract( $atts );
 
 $el_class = $this->getExtraClass( $el_class );
-$css_classes = array(
+$css_classes = [
 	'vc_row',
 	'wpb_row',
 	// deprecated.
@@ -39,7 +39,7 @@ $css_classes = array(
 	'vc_row-fluid',
 	$el_class,
 	vc_shortcode_custom_css_class( $css ),
-);
+];
 if ( 'yes' === $disable_element ) {
 	if ( vc_is_page_editable() ) {
 		$css_classes[] = 'vc_hidden-lg vc_hidden-xs vc_hidden-sm vc_hidden-md';
@@ -48,10 +48,10 @@ if ( 'yes' === $disable_element ) {
 	}
 }
 
-if ( vc_shortcode_custom_css_has_property( $css, array(
+if ( vc_shortcode_custom_css_has_property( $css, [
 	'border',
 	'background',
-) ) ) {
+] ) ) {
 	$css_classes[] = 'vc_row-has-fill';
 }
 
@@ -77,7 +77,7 @@ if ( ! empty( $flex_row ) ) {
 	$css_classes[] = 'vc_row-flex';
 }
 
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 // build attributes for wrapper.
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';

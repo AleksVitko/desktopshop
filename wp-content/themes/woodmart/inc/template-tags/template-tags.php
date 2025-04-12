@@ -4,6 +4,7 @@ use Elementor\Plugin;
 use XTS\Modules\Layouts\Main as Builder;
 use XTS\Modules\Layouts\Global_Data as Builder_Data;
 use XTS\Modules\Mega_Menu_Walker;
+use XTS\Modules\Seo_Scheme\Breadcrumbs;
 use XTS\Registry;
 
 if ( ! function_exists( 'woodmart_get_carousel_nav_template' ) ) {
@@ -707,6 +708,12 @@ if ( ! function_exists( 'woodmart_post_meta' ) ) {
 
 if ( ! function_exists( 'woodmart_post_date' ) ) {
 	function woodmart_post_date( $args ) {
+		$is_elementor_edit_page = woodmart_is_elementor_installed() && ( woodmart_elementor_is_edit_mode() || woodmart_elementor_is_preview_page() || woodmart_elementor_is_preview_mode() );
+
+		if ( ( ! woodmart_loop_prop( 'parts_published_date', true ) && ( ! is_single() || $is_elementor_edit_page ) ) || ( is_single() && ! woodmart_get_opt( 'blog_published_date', true ) ) ) {
+			return;
+		}
+
 		?>
 			<div class="wd-post-date <?php echo esc_attr( $args['style'] ); ?>">
 				<span class="post-date-day">
@@ -991,22 +998,14 @@ if ( ! function_exists( 'woodmart_get_carousel_attributes' ) ) {
 
 		$custom_sizes = isset( $atts['custom_sizes'] ) ? $atts['custom_sizes'] : false;
 
-		$items = woodmart_get_col_sizes( $slides_per_view );
-
-		if ( 'product' === $post_type ) {
-			if ( 'auto' !== woodmart_get_opt( 'products_columns_tablet' ) && ! empty( $mobile_columns ) ) {
-				$items['tablet'] = woodmart_get_opt( 'products_columns_tablet' );
-			}
-
-			$items['mobile'] = woodmart_get_opt( 'products_columns_mobile' );
-		}
+		$items = woodmart_get_col_sizes( $slides_per_view, $post_type );
 
 		if ( $items['desktop'] == 1 ) {
 			$items['mobile'] = 1;
 		}
 
 		if ( is_array( $custom_sizes ) && ! empty( $custom_sizes['desktop'] ) ) {
-			$auto_columns = woodmart_get_col_sizes( $custom_sizes['desktop'] );
+			$auto_columns = woodmart_get_col_sizes( $custom_sizes['desktop'], $post_type );
 			$items        = $custom_sizes;
 
 			if ( empty( $custom_sizes['tablet'] ) || 'auto' === $custom_sizes['tablet'] ) {
@@ -1216,7 +1215,7 @@ if ( ! function_exists( 'woodmart_page_title' ) ) {
 
 		woodmart_enqueue_inline_style( 'page-title' );
 
-		if ( woodmart_woocommerce_installed() && ( is_product_taxonomy() || is_shop() || is_product_category() || is_product_tag() || woodmart_is_product_attribute_archive() ) ) {
+		if ( woodmart_woocommerce_installed() && ( is_product_taxonomy() || woodmart_is_shop_archive() ) ) {
 			woodmart_enqueue_inline_style( 'woo-shop-page-title' );
 
 			if ( ! woodmart_get_opt( 'shop_title' ) ) {
@@ -1267,9 +1266,11 @@ if ( ! function_exists( 'woodmart_page_title' ) ) {
 							<div class="wd-meta-author">
 								<?php woodmart_post_meta_author( true, 'long' ); ?>
 							</div>
-							<div class="wd-meta-date">
-								<?php echo esc_html( _x( 'On', 'meta-date', 'woodmart' ) ) . ' ' . get_the_date(); ?>
-							</div>
+							<?php if ( woodmart_get_opt( 'blog_published_date', true ) ) : ?>
+								<div class="wd-meta-date">
+									<?php echo esc_html( _x( 'On', 'meta-date', 'woodmart' ) ) . ' ' . get_the_date(); ?>
+								</div>
+							<?php endif; ?>
 							<div class="wd-meta-reply">
 								<?php woodmart_post_meta_reply(); ?>
 							</div>
@@ -1440,7 +1441,7 @@ if ( ! function_exists( 'woodmart_page_title' ) ) {
 							<?php endif; ?>
 						</div>
 
-						<?php if ( ! is_singular( 'product' ) && $shop_categories ) : ?>
+						<?php if ( ! is_search() && ! is_singular( 'product' ) && $shop_categories ) : ?>
 							<?php woodmart_product_categories_nav(); ?>
 						<?php endif; ?>
 					</div>
@@ -1487,213 +1488,268 @@ if ( ! function_exists( 'woodmart_get_category_page_title_image' ) ) {
 	}
 }
 
-
-
-// **********************************************************************//
-// ! Breacdrumbs function
-// ! Snippet from http://dimox.net/wordpress-breadcrumbs-without-a-plugin/
-// **********************************************************************//
-
 if ( ! function_exists( 'woodmart_breadcrumbs' ) ) {
+	/**
+	 * Breadcrumbs function.
+	 * Snippet from http://dimox.net/wordpress-breadcrumbs-without-a-plugin/
+	 *
+	 * @param string $builder_wrapper_classes Wrapper classes.
+	 * @return void
+	 */
 	function woodmart_breadcrumbs( $builder_wrapper_classes = '' ) {
-
-		/* === OPTIONS === */
-		$text['home']     = esc_html__( 'Home', 'woodmart' ); // text for the 'Home' link.
-		$text['category'] = esc_html__( 'Archive by Category "%s"', 'woodmart' ); // text for a category page.
-		$text['search']   = esc_html__( 'Search Results for "%s" Query', 'woodmart' ); // text for a search results page.
-		$text['tag']      = esc_html__( 'Posts Tagged "%s"', 'woodmart' ); // text for a tag page.
-		$text['author']   = esc_html__( 'Articles Posted by %s', 'woodmart' ); // text for an author page.
-		$text['404']      = esc_html__( 'Error 404', 'woodmart' ); // text for the 404 page.
-
-		$show_current_post = 0; // 1 - show current post
-		$show_current      = 1; // 1 - show current post/page/category title in breadcrumbs, 0 - don't show
-		$show_on_home      = 0; // 1 - show breadcrumbs on the homepage, 0 - don't show
-		$show_home_link    = 1; // 1 - show the 'Home' link, 0 - don't show
-		$show_title        = 1; // 1 - show the title for the links, 0 - don't show
-		$delimiter         = '<span class="wd-delimiter"></span>'; // delimiter between crumbs.
-		$before            = '<span class="wd-last">'; // tag before the current crumb.
-		$after             = '</span>'; // tag after the current crumb.
-		/* === END OF OPTIONS === */
-
 		global $post;
 
-		$home_link    = home_url( '/' );
-		$link_before  = '<span typeof="v:Breadcrumb">';
-		$link_after   = '</span>';
-		$link_attr    = ' rel="v:url" property="v:title"';
-		$link         = $link_before . '<a' . $link_attr . ' href="%1$s">%2$s</a>' . $link_after;
-		$parent_id    = $parent_id_2 = ( ! empty( $post ) && is_a( $post, 'WP_Post' ) ) ? $post->post_parent : 0;
-		$frontpage_id = get_option( 'page_on_front' );
-		$projects_id  = woodmart_get_portfolio_page_id();
+		$home_link = home_url( '/' );
+
+		$text = [
+			'home'     => esc_html__( 'Home', 'woodmart' ),
+			'category' => esc_html__( 'Archive by Category "%s"', 'woodmart' ),
+			'search'   => esc_html__( 'Search Results for "%s" Query', 'woodmart' ),
+			'tag'      => esc_html__( 'Posts Tagged "%s"', 'woodmart' ),
+			'author'   => esc_html__( 'Articles Posted by %s', 'woodmart' ),
+			'404'      => esc_html__( 'Error 404', 'woodmart' )
+		];
+
+		$options = apply_filters( 'woodmart_breadcrumbs_options',
+			array(
+				'show_current_post' => 0, // show current post.
+				'show_current'      => 1,
+				'show_on_home'      => 0,
+				'show_home_link'    => 1,
+				'show_title'        => 1,
+				'delimiter'         => '<span class="wd-delimiter"></span>',
+				'before'            => '<span class="wd-last">',
+				'after'             => '</span>',
+				'link_format'       => '<a href="%1$s">%2$s</a>',
+			)
+		);
 
 		if ( is_front_page() ) {
-			if ( $show_on_home == 1 ) {
-				echo '<nav class="wd-breadcrumbs' . $builder_wrapper_classes . '">' . $link_before . '<a href="' . $home_link . '">' . $text['home'] . '</a>' . $link_after . '</nav>';
+			if ( $options['show_on_home'] ) {
+				echo '<nav class="wd-breadcrumbs' . $builder_wrapper_classes . '"><a href="' . $home_link . '">' . $text['home'] . '</a></nav>';
 			}
-		} else {
-			echo '<nav class="wd-breadcrumbs' . $builder_wrapper_classes . '">';
-			if ( $show_home_link == 1 ) {
-				echo $link_before . '<a href="' . $home_link . '" rel="v:url" property="v:title">' . $text['home'] . '</a>' . $link_after;
-				if ( $frontpage_id == 0 || $parent_id != $frontpage_id ) {
-					if ( is_home() ) {
-						echo $delimiter . $link_before . esc_html__( 'Blog', 'woodmart' ) . $link_after;
-					} else {
-						echo $delimiter;
+
+			return;
+		}
+
+		$link_before  = '<span>';
+		$link_after   = '</span>';
+		$parent_id    = ( ! empty( $post ) && is_a( $post, 'WP_Post' ) ) ? $post->post_parent : 0;
+		$parent_id_2  = $parent_id;
+		$frontpage_id = get_option( 'page_on_front' );
+		$projects_id  = woodmart_get_portfolio_page_id();
+		$schema_items = array();
+
+		echo '<nav class="wd-breadcrumbs' . esc_attr( $builder_wrapper_classes ) . '">';
+
+		ob_start();
+
+		if ( $options['show_home_link'] ) {
+			echo '<a href="' . $home_link . '">' . $text['home'] . '</a>';
+			if ( $frontpage_id == 0 || $parent_id != $frontpage_id ) {
+				if ( is_home() ) {
+					echo $options['delimiter'] . $link_before . esc_html__( 'Blog', 'woodmart' ) . $link_after;
+				} else {
+					echo $options['delimiter'];
+				}
+			}
+		}
+
+		if ( is_category() ) {
+			$this_cat = get_category( get_query_var( 'cat' ), false );
+			if ( $this_cat->parent ) {
+				$cats = get_term_parents_list( $this_cat->parent, 'category', array( 'separator' => $options['delimiter'] ) );
+
+				if ( $options['show_current'] == 0 ) {
+					$delimiter = $options['delimiter'];
+					$cats = preg_replace( "#^(.+)$delimiter$#", '$1', $cats );
+				}
+				echo $cats;
+			}
+			if ( $options['show_current'] == 1 ) {
+				echo wp_kses_post( $options['before'] ) . sprintf( $text['category'], single_cat_title( '', false ) ) . wp_kses_post( $options['after'] );
+			}
+		} elseif ( ! is_single() && 'portfolio' === get_post_type() ) {
+			if ( is_tax( 'project-cat' ) ) {
+				$cat  = get_queried_object();
+				$cats = get_term_parents_list( $cat->term_id, 'project-cat', array( 'separator' => $options['delimiter'] ) );
+
+				$cats = substr_replace( $cats, '', -strlen( $options['delimiter'] ) );
+
+				echo $cats;
+			} else {
+				echo $link_before . get_the_title( $projects_id ) . $link_after;
+			}
+		} elseif ( is_search() ) {
+			echo wp_kses_post( $options['before'] ) . sprintf( $text['search'], get_search_query() ) . wp_kses_post( $options['after'] );
+
+		} elseif ( is_day() ) {
+			echo sprintf( $options['link_format'], get_year_link( get_the_time( 'Y' ) ), get_the_time( 'Y' ) ) . $options['delimiter'];
+			echo sprintf( $options['link_format'], get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ), get_the_time( 'F' ) ) . $options['delimiter'];
+			echo wp_kses_post( $options['before'] ) . get_the_time( 'd' ) . wp_kses_post( $options['after'] );
+		} elseif ( is_month() ) {
+			echo sprintf( $options['link_format'], get_year_link( get_the_time( 'Y' ) ), get_the_time( 'Y' ) ) . $options['delimiter'];
+			echo wp_kses_post( $options['before'] ) . get_the_time( 'F' ) . wp_kses_post( $options['after'] );
+
+		} elseif ( is_year() ) {
+			echo wp_kses_post( $options['before'] ) . get_the_time( 'Y' ) . wp_kses_post( $options['after'] );
+
+		} elseif ( is_single() && ! is_attachment() ) {
+			if ( get_post_type() == 'portfolio' ) {
+				printf( $options['link_format'], get_the_permalink( $projects_id ), get_the_title( $projects_id ) );
+				if ( $options['show_current'] == 1 ) {
+					echo $options['delimiter'] . $options['before'] . get_the_title() . $options['after'];
+				}
+
+			} elseif ( get_post_type() != 'post' ) {
+				$post_type = get_post_type_object( get_post_type() );
+				$slug      = $post_type->rewrite;
+				printf( $options['link_format'], $home_link . $slug['slug'] . '/', $post_type->labels->singular_name );
+				if ( $options['show_current'] == 1 ) {
+					echo $options['delimiter'] . $options['before'] . get_the_title() . $options['after'];
+				}
+			} else {
+				$cat = get_the_category();
+
+				if ( $cat && isset( $cat[0] ) ) {
+					$cat  = $cat[0];
+					$cats = get_category_parents( $cat, true, $options['delimiter'] );
+
+					if ( $options['show_current'] == 0 ) {
+						$delimiter = $options['delimiter'];
+						$cats = preg_replace( "#^(.+)$delimiter$#", '$1', $cats );
+					}
+					$cats = substr_replace( $cats, '', -strlen( $options['delimiter'] ) );
+					if ( $options['show_title'] == 0 ) {
+						$cats = preg_replace( '/ title="(.*?)"/', '', $cats );
+					}
+					echo $cats;
+
+					if ( $options['show_current_post'] == 1 ) {
+						echo wp_kses_post( $options['before'] ) . get_the_title() . wp_kses_post( $options['after'] );
+					}
+				}
+			}
+		} elseif ( ! is_single() && ! is_page() && get_post_type() != 'post' && ! is_404() ) {
+			$post_type = get_post_type_object( get_post_type() );
+			if ( is_object( $post_type ) ) {
+				echo wp_kses_post( $options['before'] ) . $post_type->labels->singular_name . wp_kses_post( $options['after'] );
+			}
+		} elseif ( is_attachment() ) {
+			$parent = get_post( $parent_id );
+			$cat    = get_the_category( $parent->ID );
+			$cat    = $cat[0];
+			if ( $cat ) {
+				$cats = get_category_parents( $cat, true, $options['delimiter'] );
+				if ( $options['show_title'] == 0 ) {
+					$cats = preg_replace( '/ title="(.*?)"/', '', $cats );
+				}
+				echo wp_kses_post( $cats );
+			}
+			printf( $options['link_format'], get_permalink( $parent ), $parent->post_title );
+			if ( $options['show_current'] == 1 ) {
+				echo $options['delimiter'] . $options['before'] . get_the_title() . $options['after'];
+			}
+		} elseif ( is_page() && ! $parent_id ) {
+			if ( $options['show_current'] == 1 ) {
+				echo wp_kses_post( $options['before'] ) . get_the_title() . wp_kses_post( $options['after'] );
+			}
+		} elseif ( is_page() && $parent_id ) {
+			if ( $parent_id != $frontpage_id ) {
+				$breadcrumbs = array();
+				while ( $parent_id ) {
+					$page = get_page( $parent_id );
+					if ( $parent_id != $frontpage_id ) {
+						$breadcrumbs[] = sprintf( $options['link_format'], get_permalink( $page->ID ), get_the_title( $page->ID ) );
+					}
+					$parent_id = $page->post_parent;
+				}
+				$breadcrumbs = array_reverse( $breadcrumbs );
+				for ( $i = 0; $i < count( $breadcrumbs ); $i++ ) {
+					echo wp_kses_post( $breadcrumbs[ $i ] );
+					if ( $i != count( $breadcrumbs ) - 1 ) {
+						echo $options['delimiter'];
+					}
+				}
+			}
+			if ( $options['show_current'] == 1 ) {
+				if ( $options['show_home_link'] || ( $parent_id_2 != 0 && $parent_id_2 != $frontpage_id ) ) {
+					echo $options['delimiter'];
+				}
+				echo wp_kses_post( $options['before'] ) . get_the_title() . wp_kses_post( $options['after'] );
+			}
+		} elseif ( is_tag() ) {
+			echo wp_kses_post( $options['before'] ) . sprintf( $text['tag'], single_tag_title( '', false ) ) . wp_kses_post( $options['after'] );
+
+		} elseif ( is_author() ) {
+			global $author;
+			$userdata = get_userdata( $author );
+			echo wp_kses_post( $options['before'] ) . sprintf( $text['author'], $userdata->display_name ) . wp_kses_post( $options['after'] );
+
+		} elseif ( is_404() ) {
+			echo wp_kses_post( $options['before'] ) . $text['404'] . wp_kses_post( $options['after'] );
+		}
+
+		$content = ob_get_clean();
+
+		echo wp_kses_post( $content );
+
+		if ( get_query_var( 'paged' ) ) {
+			echo $options['delimiter'] . $link_before;
+			if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) {
+				echo ' (';
+			}
+			echo esc_html__( 'Page', 'woodmart' ) . ' ' . get_query_var( 'paged' );
+			if ( is_category() || is_day() ||
+				is_month() || is_year() || is_search() || is_tag() || is_author() ) {
+				echo ')';
+			}
+			echo $link_after;
+		}
+
+		echo '</nav>';
+
+		if ( $content ) {
+			$position = 1;
+			$parts    = explode( $options['delimiter'], $content );
+
+			foreach ( $parts as $part ) {
+				if ( strpos( $part, '<a' ) !== false ) {
+					preg_match( '/<a href="([^"]+)">([^<]+)<\/a>/', $part, $matches );
+					if ( ! empty( $matches ) ) {
+						$schema_items[] = array(
+							'@type'    => 'ListItem',
+							'position' => $position++,
+							'name'     => $matches[2],
+							'item'     => $matches[1],
+						);
 					}
 				}
 			}
 
 			if ( is_category() ) {
-				$this_cat = get_category( get_query_var( 'cat' ), false );
-				if ( $this_cat->parent != 0 ) {
-					$cats = get_term_parents_list( $this_cat->parent, 'category', array( 'separator' => $delimiter ) );
-					if ( $show_current == 0 ) {
-						$cats = preg_replace( "#^(.+)$delimiter$#", '$1', $cats );
-					}
-					$cats = str_replace( '<a', $link_before . '<a' . $link_attr, $cats );
-					$cats = str_replace( '</a>', '</a>' . $link_after, $cats );
-
-					echo $cats;
-				}
-				if ( $show_current == 1 ) {
-					echo wp_kses_post( $before ) . sprintf( $text['category'], single_cat_title( '', false ) ) . wp_kses_post( $after );
-				}
-			} elseif ( ! is_single() && 'portfolio' === get_post_type() ) {
-				if ( is_tax( 'project-cat' ) ) {
-					$cat  = get_queried_object();
-					$cats = get_term_parents_list( $cat->term_id, 'project-cat', array( 'separator' => $delimiter ) );
-					$cats = str_replace( '<a', $link_before . '<a' . $link_attr, $cats );
-					$cats = str_replace( '</a>', '</a>' . $link_after, $cats );
-
-					$cats = substr_replace( $cats, '', -strlen( $delimiter ) );
-
-					echo $cats;
-				} else {
-					echo $link_before . get_the_title( $projects_id ) . $link_after;
-				}
-			} elseif ( is_search() ) {
-				echo wp_kses_post( $before ) . sprintf( $text['search'], get_search_query() ) . wp_kses_post( $after );
-
-			} elseif ( is_day() ) {
-				echo sprintf( $link, get_year_link( get_the_time( 'Y' ) ), get_the_time( 'Y' ) ) . $delimiter;
-				echo sprintf( $link, get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ), get_the_time( 'F' ) ) . $delimiter;
-				echo wp_kses_post( $before ) . get_the_time( 'd' ) . wp_kses_post( $after );
-			} elseif ( is_month() ) {
-				echo sprintf( $link, get_year_link( get_the_time( 'Y' ) ), get_the_time( 'Y' ) ) . $delimiter;
-				echo wp_kses_post( $before ) . get_the_time( 'F' ) . wp_kses_post( $after );
-
-			} elseif ( is_year() ) {
-				echo wp_kses_post( $before ) . get_the_time( 'Y' ) . wp_kses_post( $after );
-
-			} elseif ( is_single() && ! is_attachment() ) {
-				if ( get_post_type() == 'portfolio' ) {
-					printf( $link, get_the_permalink( $projects_id ), get_the_title( $projects_id ) );
-					if ( $show_current == 1 ) {
-							echo $delimiter . $before . get_the_title() . $after;
-					}
-				} elseif ( get_post_type() != 'post' ) {
-					$post_type = get_post_type_object( get_post_type() );
-					$slug      = $post_type->rewrite;
-					printf( $link, $home_link . $slug['slug'] . '/', $post_type->labels->singular_name );
-					if ( $show_current == 1 ) {
-						echo $delimiter . $before . get_the_title() . $after;
-					}
-				} else {
-					$cat = get_the_category();
-					if ( $cat && isset( $cat[0] ) ) {
-						$cat  = $cat[0];
-						$cats = get_category_parents( $cat, true, $delimiter );
-						if ( $show_current == 0 ) {
-							$cats = preg_replace( "#^(.+)$delimiter$#", '$1', $cats );
-						}
-						$cats = str_replace( '<a', $link_before . '<a' . $link_attr, $cats );
-						$cats = str_replace( '</a>', '</a>' . $link_after, $cats );
-						$cats = substr_replace( $cats, '', -strlen( $delimiter ) );
-						if ( $show_title == 0 ) {
-							$cats = preg_replace( '/ title="(.*?)"/', '', $cats );
-						}
-						echo $cats;
-						if ( $show_current_post == 1 ) {
-							echo wp_kses_post( $before ) . get_the_title() . wp_kses_post( $after );
-						}
-					}
-				}
-			} elseif ( ! is_single() && ! is_page() && get_post_type() != 'post' && ! is_404() ) {
-				$post_type = get_post_type_object( get_post_type() );
-				if ( is_object( $post_type ) ) {
-					echo wp_kses_post( $before ) . $post_type->labels->singular_name . wp_kses_post( $after );
-				}
-			} elseif ( is_attachment() ) {
-				$parent = get_post( $parent_id );
-				$cat    = get_the_category( $parent->ID );
-				$cat    = $cat[0];
-				if ( $cat ) {
-					$cats = get_category_parents( $cat, true, $delimiter );
-					$cats = str_replace( '<a', $link_before . '<a' . $link_attr, $cats );
-					$cats = str_replace( '</a>', '</a>' . $link_after, $cats );
-					if ( $show_title == 0 ) {
-							$cats = preg_replace( '/ title="(.*?)"/', '', $cats );
-					}
-					echo wp_kses_post( $cats );
-				}
-				printf( $link, get_permalink( $parent ), $parent->post_title );
-				if ( $show_current == 1 ) {
-					echo $delimiter . $before . get_the_title() . $after;
-				}
-			} elseif ( is_page() && ! $parent_id ) {
-				if ( $show_current == 1 ) {
-					echo wp_kses_post( $before ) . get_the_title() . wp_kses_post( $after );
-				}
-			} elseif ( is_page() && $parent_id ) {
-				if ( $parent_id != $frontpage_id ) {
-						$breadcrumbs = array();
-					while ( $parent_id ) {
-						$page = get_page( $parent_id );
-						if ( $parent_id != $frontpage_id ) {
-									$breadcrumbs[] = sprintf( $link, get_permalink( $page->ID ), get_the_title( $page->ID ) );
-						}
-						$parent_id = $page->post_parent;
-					}
-						$breadcrumbs = array_reverse( $breadcrumbs );
-					for ( $i = 0; $i < count( $breadcrumbs ); $i++ ) {
-						echo wp_kses_post( $breadcrumbs[ $i ] );
-						if ( $i != count( $breadcrumbs ) - 1 ) {
-							echo $delimiter;
-						}
-					}
-				}
-				if ( $show_current == 1 ) {
-					if ( $show_home_link == 1 || ( $parent_id_2 != 0 && $parent_id_2 != $frontpage_id ) ) {
-						echo $delimiter;
-					}
-					echo wp_kses_post( $before ) . get_the_title() . wp_kses_post( $after );
-				}
+				$schema_items[] = array(
+					'@type'    => 'ListItem',
+					'position' => $position++,
+					'name'     => single_cat_title( '', false ),
+				);
 			} elseif ( is_tag() ) {
-				echo wp_kses_post( $before ) . sprintf( $text['tag'], single_tag_title( '', false ) ) . wp_kses_post( $after );
-
-			} elseif ( is_author() ) {
-				global $author;
-				$userdata = get_userdata( $author );
-				echo wp_kses_post( $before ) . sprintf( $text['author'], $userdata->display_name ) . wp_kses_post( $after );
-
-			} elseif ( is_404() ) {
-				echo wp_kses_post( $before ) . $text['404'] . wp_kses_post( $after );
+				$schema_items[] = array(
+					'@type'    => 'ListItem',
+					'position' => $position++,
+					'name'     => single_tag_title( '', false ),
+				);
+			} elseif ( is_page() || is_single() ) {
+				$schema_items[] = array(
+					'@type'    => 'ListItem',
+					'position' => $position++,
+					'name'     => get_the_title(),
+				);
 			}
 
-			if ( get_query_var( 'paged' ) ) {
-				echo $delimiter . $link_before;
-				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) {
-					echo ' (';
-				}
-				echo esc_html__( 'Page', 'woodmart' ) . ' ' . get_query_var( 'paged' );
-				if ( is_category() || is_day() ||
-				is_month() || is_year() || is_search() || is_tag() || is_author() ) {
-					echo ')';
-				}
-				echo $link_after;
+			if ( $schema_items ) {
+				Breadcrumbs::get_instance()->set_schema_items( $schema_items );
 			}
-
-			echo '</nav>';
 		}
 	}
 }

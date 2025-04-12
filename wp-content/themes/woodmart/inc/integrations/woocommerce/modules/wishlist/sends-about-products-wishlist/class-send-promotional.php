@@ -99,9 +99,9 @@ class Sends_Promotional extends Singleton {
 			return;
 		}
 
-		$mailer         = WC()->mailer();
-		$email          = $mailer->emails['woodmart_promotional_email'];
-		$is_create      = false;
+		$mailer    = WC()->mailer();
+		$email     = $mailer->emails['XTS_Email_Wishlist_Promotional'];
+		$is_create = false;
 
 		if ( ! empty( $promotion_data ) ) {
 			foreach ( $promotion_data as $id => $data ) {

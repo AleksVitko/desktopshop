@@ -237,6 +237,7 @@ class Manager extends Singleton {
 					break;
 				case 'product_cat':
 				case 'product_tag':
+				case 'product_brand':
 				case 'product_attr_term':
 					$terms = wp_get_post_terms( $product->get_id(), get_taxonomies(), array( 'fields' => 'ids' ) );
 
@@ -300,6 +301,7 @@ class Manager extends Singleton {
 			case 'product_type':
 			case 'product_cat':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 				$priority = 30;
 				break;

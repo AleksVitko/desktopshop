@@ -586,15 +586,8 @@ class Themesettingscss {
 			}
 		}
 	<?php elseif ( $site_width && 'enabled' === woodmart_get_opt( 'negative_gap' ) && 'elementor' === woodmart_get_current_page_builder() ) : ?>
-		@media (min-width: <?php echo esc_html( $site_width + 17 ); ?>px) {
-			.platform-Windows .wd-section-stretch > .elementor-container {
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
-
 		@media (min-width: <?php echo esc_html( $site_width ); ?>px) {
-			html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+			section.elementor-section.wd-section-stretch > .elementor-container {
 				margin-left: auto;
 				margin-right: auto;
 			}

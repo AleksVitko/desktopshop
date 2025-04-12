@@ -35,8 +35,8 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[wood-logo-white-reserve]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/wood-logo-white-reserve/</link>
 					<pubDate>Wed, 21 Jun 2017 08:17:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2017/06/wood-logo-white-reserve.svg</guid>
 															<wp:post_id>302</wp:post_id>
 					<wp:post_date><![CDATA[2017-06-21 08:17:11]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[old-team-member-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/about-us/old-team-member-1/</link>
 					<pubDate>Fri, 02 Aug 2024 12:19:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-1.jpg</guid>
 															<wp:post_id>27387</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-02 12:19:09]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[old-team-member-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/about-us/old-team-member-2/</link>
 					<pubDate>Fri, 02 Aug 2024 12:19:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-2.jpg</guid>
 															<wp:post_id>27388</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-02 12:19:09]]></wp:post_date>
@@ -120,7 +120,7 @@
 					<title><![CDATA[old-team-member-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/about-us/old-team-member-3/</link>
 					<pubDate>Fri, 02 Aug 2024 12:19:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-3.jpg</guid>
 															<wp:post_id>27389</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-02 12:19:10]]></wp:post_date>
@@ -143,7 +143,7 @@
 					<title><![CDATA[old-team-member-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/about-us/old-team-member-4/</link>
 					<pubDate>Fri, 02 Aug 2024 12:19:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-4.jpg</guid>
 															<wp:post_id>27390</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-02 12:19:11]]></wp:post_date>
@@ -166,7 +166,7 @@
 					<title><![CDATA[Old Our Team]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/</link>
 					<pubDate>Mon, 05 Aug 2024 12:35:23 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=27737</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"d33ffe81-86a0-42ba-8992-bdd0a8816540","blockGap":10,"colorScheme":"light","positionType":"relative","positionZIndex":"1","bgImage":{"id":27742,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-our-team-bg-1.jpg"},"bgPosition":"center center","bgDisplaySize":"cover","paddingTop":"285","paddingBottom":"330","marginTop":"-40","paddingTopTablet":"150","paddingBottomTablet":"150"} -->
 <div id="wd-d33ffe81" class="wp-block-wd-section color-scheme-light"><!-- wp:wd/title {"blockId":"5d085dcd-81b1-4bc1-8734-7df2528b2471","textAlign":"center","content":"There are no secrets to success. It is the result of preparation, hard work, and learning from failure.","tpFontSize":"36","alignSelf":"center","displayWidth":"custom","customWidth":"727","tpFontSizeTablet":"22"} -->
@@ -417,7 +417,7 @@
 					<title><![CDATA[old-our-team-bg-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-our-team-bg-1/</link>
 					<pubDate>Mon, 05 Aug 2024 12:38:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-our-team-bg-1.jpg</guid>
 															<wp:post_id>27742</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:38:19]]></wp:post_date>
@@ -440,7 +440,7 @@
 					<title><![CDATA[old-team-member-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-team-member-5/</link>
 					<pubDate>Mon, 05 Aug 2024 12:44:58 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-5.jpg</guid>
 															<wp:post_id>27746</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:44:58]]></wp:post_date>
@@ -463,7 +463,7 @@
 					<title><![CDATA[old-team-member-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-team-member-6/</link>
 					<pubDate>Mon, 05 Aug 2024 12:47:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-6.jpg</guid>
 															<wp:post_id>27748</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:47:57]]></wp:post_date>
@@ -486,7 +486,7 @@
 					<title><![CDATA[old-team-member-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-team-member-7/</link>
 					<pubDate>Mon, 05 Aug 2024 12:47:58 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-7.jpg</guid>
 															<wp:post_id>27749</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:47:58]]></wp:post_date>
@@ -509,7 +509,7 @@
 					<title><![CDATA[old-team-member-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-team-member-8/</link>
 					<pubDate>Mon, 05 Aug 2024 12:47:59 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-team-member-8.jpg</guid>
 															<wp:post_id>27750</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:47:59]]></wp:post_date>
@@ -532,7 +532,7 @@
 					<title><![CDATA[old-our-team-image-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-our-team-image-1/</link>
 					<pubDate>Mon, 05 Aug 2024 12:53:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-our-team-image-1.jpg</guid>
 															<wp:post_id>27757</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:53:26]]></wp:post_date>
@@ -555,7 +555,7 @@
 					<title><![CDATA[old-our-team-image-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-our-team-image-2/</link>
 					<pubDate>Mon, 05 Aug 2024 12:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-our-team-image-2.jpg</guid>
 															<wp:post_id>27758</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:53:27]]></wp:post_date>
@@ -578,7 +578,7 @@
 					<title><![CDATA[old-our-team-image-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-our-team-image-3/</link>
 					<pubDate>Mon, 05 Aug 2024 12:53:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-our-team-image-3.jpg</guid>
 															<wp:post_id>27759</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:53:28]]></wp:post_date>
@@ -601,7 +601,7 @@
 					<title><![CDATA[old-our-team-image-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/our-team/old-our-team-image-4/</link>
 					<pubDate>Mon, 05 Aug 2024 12:53:29 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/old-our-team-image-4.jpg</guid>
 															<wp:post_id>27760</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-05 12:53:29]]></wp:post_date>

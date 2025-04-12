@@ -37,8 +37,9 @@
 
 	function initializeScrollLogic () {
 		vc.events.on( 'afterLoadShortcode', _.debounce( scrollToElement, 300 ) );
+		vc.events.on( 'templateAdd', _.debounce( scrollToElement, 300 ) );
 	}
-	var isModuleEnabled = !window.vc_modules.hasOwnProperty( 'vc-scroll-to-element' ) || window.vc_modules['vc-scroll-to-element'];
+	var isModuleEnabled = window.vc_modules && ( !window.vc_modules.hasOwnProperty( 'vc-scroll-to-element' ) || window.vc_modules['vc-scroll-to-element']);
 	var isFrontendEditor = 'admin_frontend_editor' === window.vc_mode;
 	if ( isModuleEnabled ) {
 		if ( isFrontendEditor ) {

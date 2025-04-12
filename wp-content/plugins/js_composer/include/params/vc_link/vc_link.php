@@ -48,10 +48,10 @@ function vc_vc_link_form_field( $settings, $value ) {
  * @since 4.2
  */
 function vc_build_link( $value ) {
-	return vc_parse_multi_attribute( $value, array(
+	return vc_parse_multi_attribute( $value, [
 		'url' => '',
 		'title' => '',
 		'target' => '',
 		'rel' => '',
-	) );
+	] );
 }

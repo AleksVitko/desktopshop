@@ -80,7 +80,7 @@ class After extends Singleton {
 		$uncategorized = get_term_by( 'id', get_option( 'default_product_cat' ), 'product_cat' );
 		$accessories   = get_term_by( 'name', 'Accessories', 'product_cat' );
 
-		if ( ! $uncategorized ) {
+		if ( ! $uncategorized || ! $accessories ) {
 			return;
 		}
 
@@ -458,6 +458,19 @@ class After extends Singleton {
 
 		foreach ( $settings as $key => $setting ) {
 			Plugin::$instance->kits_manager->update_kit_settings_based_on_option( $key, $setting );
+		}
+
+		$current_settings = Plugin::$instance->kits_manager->get_current_settings();
+		$system_typography = ! empty( $current_settings['system_typography'] ) ? $current_settings['system_typography'] : array();
+
+		if ( $system_typography ) {
+			foreach ( $system_typography as $key => $setting ) {
+				if ( isset( $setting['typography_font_family'] ) ) {
+					unset( $system_typography[ $key ]['typography_font_family'] );
+				}
+			}
+
+			Plugin::$instance->kits_manager->update_kit_settings_based_on_option( 'system_typography', $system_typography );
 		}
 	}
 }

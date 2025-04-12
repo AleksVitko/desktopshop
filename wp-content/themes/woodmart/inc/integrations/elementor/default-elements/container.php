@@ -113,13 +113,13 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role',
 			array(
-				'label'       => __('Column role for "off-canvas layout"', 'woodmart'),
-				'description' => esc_html__('You can create your page layout with an off-canvas sidebar. In this case, you need to have two columns: one will be set as the off-canvas sidebar and another as the content. NOTE: you need to also display the Off-canvas button element somewhere in your content column to open the sidebar. Also, you need to enable them on specific devices synchronously.', 'woodmart'),
+				'label'       => __( 'Column role for "off-canvas layout"', 'woodmart' ),
+				'description' => esc_html__( 'You can create your page layout with an off-canvas sidebar. In this case, you need to have two columns: one will be set as the off-canvas sidebar and another as the content. NOTE: you need to also display the Off-canvas button element somewhere in your content column to open the sidebar. Also, you need to enable them on specific devices synchronously.', 'woodmart' ),
 				'type'        => Controls_Manager::SELECT,
 				'options'     => array(
-					''          => esc_html__('None', 'woodmart'),
-					'offcanvas' => esc_html__('Off canvas column', 'woodmart'),
-					'content'   => esc_html__('Content column', 'woodmart'),
+					''          => esc_html__( 'None', 'woodmart' ),
+					'offcanvas' => esc_html__( 'Off canvas column', 'woodmart' ),
+					'content'   => esc_html__( 'Content column', 'woodmart' ),
 				),
 				'render_type' => 'template',
 				'default'     => '',
@@ -129,11 +129,11 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role_offcanvas_desktop',
 			array(
-				'label'        => esc_html__('Desktop', 'woodmart'),
+				'label'        => esc_html__( 'Desktop', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'lg',
 				'prefix_class' => 'wd-col-offcanvas-',
 				'condition'    => array(
@@ -146,11 +146,11 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role_offcanvas_tablet',
 			array(
-				'label'        => esc_html__('Tablet', 'woodmart'),
+				'label'        => esc_html__( 'Tablet', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'md-sm',
 				'prefix_class' => 'wd-col-offcanvas-',
 				'condition'    => array(
@@ -163,11 +163,11 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role_offcanvas_mobile',
 			array(
-				'label'        => esc_html__('Mobile', 'woodmart'),
+				'label'        => esc_html__( 'Mobile', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'sm',
 				'prefix_class' => 'wd-col-offcanvas-',
 				'condition'    => array(
@@ -180,11 +180,11 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role_content_desktop',
 			array(
-				'label'        => esc_html__('Desktop', 'woodmart'),
+				'label'        => esc_html__( 'Desktop', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'lg',
 				'prefix_class' => 'wd-col-content-',
 				'condition'    => array(
@@ -197,11 +197,11 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role_content_tablet',
 			array(
-				'label'        => esc_html__('Tablet', 'woodmart'),
+				'label'        => esc_html__( 'Tablet', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'md-sm',
 				'prefix_class' => 'wd-col-content-',
 				'condition'    => array(
@@ -214,11 +214,11 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_column_role_content_mobile',
 			array(
-				'label'        => esc_html__('Mobile', 'woodmart'),
+				'label'        => esc_html__( 'Mobile', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'sm',
 				'prefix_class' => 'wd-col-content-',
 				'condition'    => array(
@@ -231,16 +231,16 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_off_canvas_alignment',
 			array(
-				'label'        => esc_html__('Off canvas alignment', 'woodmart'),
+				'label'        => esc_html__( 'Off canvas alignment', 'woodmart' ),
 				'type'         => 'wd_buttons',
 				'options'      => array(
-					'left' => array(
-						'title' => esc_html__('Left', 'woodmart'),
+					'left'  => array(
+						'title' => esc_html__( 'Left', 'woodmart' ),
 						'image' => WOODMART_ASSETS_IMAGES . '/settings/sidebar-layout/left.png',
 						'style' => 'col-2',
 					),
 					'right' => array(
-						'title' => esc_html__('Right', 'woodmart'),
+						'title' => esc_html__( 'Right', 'woodmart' ),
 						'image' => WOODMART_ASSETS_IMAGES . '/settings/sidebar-layout/right.png',
 					),
 				),
@@ -267,25 +267,26 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_responsive_control(
 			'container_sticky',
 			array(
-				'label'        => esc_html__( 'Sticky container', 'woodmart' ),
-				'type'         => Controls_Manager::SWITCHER,
-				'devices'      => array( 'desktop', 'tablet', 'mobile' ),
-				'default'      => '',
-				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
-				'label_off'    => esc_html__( 'No', 'woodmart' ),
-				'prefix_class' => ' wd-sticky-container%s-',
-				'render_type'  => 'template',
+				'label'       => esc_html__( 'Sticky container', 'woodmart' ),
+				'type'        => Controls_Manager::SWITCHER,
+				'devices'     => array( 'desktop', 'tablet', 'mobile' ),
+				'default'     => '',
+				'label_on'    => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'   => esc_html__( 'No', 'woodmart' ),
+				'render_type' => 'template',
 			)
 		);
 
 		$element->add_control(
 			'container_sticky_offset',
 			array(
-				'label'        => esc_html__( 'Sticky container offset (px)', 'woodmart' ),
-				'type'         => Controls_Manager::TEXT,
-				'default'      => 50,
-				'prefix_class' => 'wd-sticky-offset-',
-				'condition'    => array(
+				'label'     => esc_html__( 'Sticky container offset (px)', 'woodmart' ),
+				'type'      => Controls_Manager::NUMBER,
+				'default'   => 150,
+				'selectors' => array(
+					'{{WRAPPER}}' => '--wd-sticky-offset: {{VALUE}}px;',
+				),
+				'condition' => array(
 					'container_sticky!' => '',
 				),
 			)
@@ -305,17 +306,17 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'column_parallax',
 			array(
-				'label'        => esc_html__('Parallax on scroll', 'woodmart'),
-				'description'  => esc_html__('Smooth element movement when you scroll the page to create beautiful parallax effect.', 'woodmart'),
+				'label'        => esc_html__( 'Parallax on scroll', 'woodmart' ),
+				'description'  => esc_html__( 'Smooth element movement when you scroll the page to create beautiful parallax effect.', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'parallax-on-scroll',
 				'prefix_class' => 'wd-',
 				'render_type'  => 'template',
 				'condition'    => array(
-					'wd_column_role' => array(''),
+					'wd_column_role' => array( '' ),
 				),
 			)
 		);
@@ -323,15 +324,15 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'scroll_x',
 			array(
-				'label'        => esc_html__('X axis translation', 'woodmart'),
-				'description'  => esc_html__('Recommended -200 to 200', 'woodmart'),
+				'label'        => esc_html__( 'X axis translation', 'woodmart' ),
+				'description'  => esc_html__( 'Recommended -200 to 200', 'woodmart' ),
 				'type'         => Controls_Manager::TEXT,
 				'default'      => 0,
 				'render_type'  => 'template',
 				'prefix_class' => 'wd_scroll_x_',
 				'condition'    => array(
-					'column_parallax' => array('parallax-on-scroll'),
-					'wd_column_role' => array(''),
+					'column_parallax' => array( 'parallax-on-scroll' ),
+					'wd_column_role'  => array( '' ),
 				),
 			)
 		);
@@ -339,15 +340,15 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'scroll_y',
 			array(
-				'label'        => esc_html__('Y axis translation', 'woodmart'),
-				'description'  => esc_html__('Recommended -200 to 200', 'woodmart'),
+				'label'        => esc_html__( 'Y axis translation', 'woodmart' ),
+				'description'  => esc_html__( 'Recommended -200 to 200', 'woodmart' ),
 				'type'         => Controls_Manager::TEXT,
 				'default'      => -80,
 				'render_type'  => 'template',
 				'prefix_class' => 'wd_scroll_y_',
 				'condition'    => array(
-					'column_parallax' => array('parallax-on-scroll'),
-					'wd_column_role' => array(''),
+					'column_parallax' => array( 'parallax-on-scroll' ),
+					'wd_column_role'  => array( '' ),
 				),
 			)
 		);
@@ -355,15 +356,15 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'scroll_z',
 			array(
-				'label'        => esc_html__('Z axis translation', 'woodmart'),
-				'description'  => esc_html__('Recommended -200 to 200', 'woodmart'),
+				'label'        => esc_html__( 'Z axis translation', 'woodmart' ),
+				'description'  => esc_html__( 'Recommended -200 to 200', 'woodmart' ),
 				'type'         => Controls_Manager::TEXT,
 				'default'      => 0,
 				'render_type'  => 'template',
 				'prefix_class' => 'wd_scroll_z_',
 				'condition'    => array(
-					'column_parallax' => array('parallax-on-scroll'),
-					'wd_column_role' => array(''),
+					'column_parallax' => array( 'parallax-on-scroll' ),
+					'wd_column_role'  => array( '' ),
 				),
 			)
 		);
@@ -371,10 +372,10 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'scroll_smoothness',
 			array(
-				'label'       => esc_html__('Parallax smoothness', 'woodmart'),
-				'description' => esc_html__('Define the parallax smoothness on mouse scroll. By default - 30', 'woodmart'),
-				'type'        => Controls_Manager::SELECT,
-				'options'     => array(
+				'label'        => esc_html__( 'Parallax smoothness', 'woodmart' ),
+				'description'  => esc_html__( 'Define the parallax smoothness on mouse scroll. By default - 30', 'woodmart' ),
+				'type'         => Controls_Manager::SELECT,
+				'options'      => array(
 					'10'  => '10',
 					'20'  => '20',
 					'30'  => '30',
@@ -390,8 +391,8 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 				'render_type'  => 'template',
 				'prefix_class' => 'wd_scroll_smoothness_',
 				'condition'    => array(
-					'column_parallax' => array('parallax-on-scroll'),
-					'wd_column_role' => array(''),
+					'column_parallax' => array( 'parallax-on-scroll' ),
+					'wd_column_role'  => array( '' ),
 				),
 			)
 		);
@@ -402,7 +403,7 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 				'type'      => Controls_Manager::DIVIDER,
 				'style'     => 'thick',
 				'condition' => array(
-					'wd_column_role' => array(''),
+					'wd_column_role' => array( '' ),
 				),
 			)
 		);
@@ -413,16 +414,16 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_collapsible_content_switcher',
 			array(
-				'label'        => esc_html__('Collapsible content', 'woodmart'),
-				'description'  => esc_html__('Limit the column height and add the "Read more" button. IMPORTANT: you need to add our "Button" element to the end of this container and enable an appropriate option there as well.', 'woodmart'),
+				'label'        => esc_html__( 'Collapsible content', 'woodmart' ),
+				'description'  => esc_html__( 'Limit the column height and add the "Read more" button. IMPORTANT: you need to add our "Button" element to the end of this container and enable an appropriate option there as well.', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => '',
-				'label_on'     => esc_html__('Yes', 'woodmart'),
-				'label_off'    => esc_html__('No', 'woodmart'),
+				'label_on'     => esc_html__( 'Yes', 'woodmart' ),
+				'label_off'    => esc_html__( 'No', 'woodmart' ),
 				'return_value' => 'collapsible-content',
 				'prefix_class' => 'wd-',
 				'condition'    => array(
-					'wd_column_role' => array(''),
+					'wd_column_role' => array( '' ),
 				),
 			)
 		);
@@ -430,12 +431,12 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_responsive_control(
 			'wd_collapsible_content_height',
 			array(
-				'label'     => esc_html__('Column content height', 'woodmart'),
+				'label'     => esc_html__( 'Column content height', 'woodmart' ),
 				'type'      => Controls_Manager::SLIDER,
 				'range'     => array(
 					'px' => array(
-						'min' => 1,
-						'max' => 1000,
+						'min'  => 1,
+						'max'  => 1000,
 						'step' => 1,
 					),
 				),
@@ -446,8 +447,8 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 					'size' => 300,
 				),
 				'condition' => array(
-					'wd_collapsible_content_switcher' => array('collapsible-content'),
-					'wd_column_role' => array(''),
+					'wd_collapsible_content_switcher' => array( 'collapsible-content' ),
+					'wd_column_role'                  => array( '' ),
 				),
 			)
 		);
@@ -455,14 +456,14 @@ if ( ! function_exists( 'woodmart_add_container_custom_controls' ) ) {
 		$element->add_control(
 			'wd_collapsible_content_fade_out_color',
 			array(
-				'label'     => esc_html__('Fade out color', 'woodmart'),
+				'label'     => esc_html__( 'Fade out color', 'woodmart' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
 					'{{WRAPPER}}.wd-collapsible-content.e-con:not(.wd-opened):after' => 'color: {{VALUE}}',
 				),
 				'condition' => array(
-					'wd_collapsible_content_switcher' => array('collapsible-content'),
-					'wd_column_role' => array(''),
+					'wd_collapsible_content_switcher' => array( 'collapsible-content' ),
+					'wd_column_role'                  => array( '' ),
 				),
 			)
 		);
@@ -523,7 +524,19 @@ if ( ! function_exists( 'woodmart_container_before_render' ) ) {
 		}
 
 		if ( ! empty( $settings['container_sticky'] ) || ! empty( $settings['container_sticky_tablet'] ) || ! empty( $settings['container_sticky_mobile'] ) ) {
-			woodmart_enqueue_js_script( 'sticky-container' );
+			woodmart_enqueue_inline_style( 'int-elem-opt-sticky-column' );
+			woodmart_enqueue_js_library( 'sticky-kit' );
+			woodmart_enqueue_js_script( 'sticky-column' );
+
+			if ( ! empty( $settings['container_sticky'] ) ) {
+				$widget->add_render_attribute( '_wrapper', 'class', 'wd-sticky-container-lg' );
+			}
+			if ( ! empty( $settings['container_sticky_tablet'] ) ) {
+				$widget->add_render_attribute( '_wrapper', 'class', 'wd-sticky-container-md-sm' );
+			}
+			if ( ! empty( $settings['container_sticky_mobile'] ) ) {
+				$widget->add_render_attribute( '_wrapper', 'class', 'wd-sticky-container-sm' );
+			}
 		}
 	}
 

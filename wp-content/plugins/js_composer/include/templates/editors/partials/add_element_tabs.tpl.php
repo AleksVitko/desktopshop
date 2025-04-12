@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	$tabs = apply_filters( 'vc_add_element_categories', $tabs );
 
 	foreach ( $tabs as $key => $v ) :
-		$classes = array( 'vc_edit-form-tab-control' );
+		$classes = [ 'vc_edit-form-tab-control' ];
 		if ( $v['active'] ) {
 			$classes[] = 'vc_active';
 		}

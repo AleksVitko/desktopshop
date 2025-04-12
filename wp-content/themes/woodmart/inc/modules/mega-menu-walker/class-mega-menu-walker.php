@@ -428,7 +428,16 @@ class Mega_Menu_Walker extends Walker_Nav_Menu {
 					if ( woodmart_is_svg( $icon_data['url'] ) ) {
 						$image_output .= woodmart_get_svg_html( $icon_data['id'], apply_filters( 'woodmart_mega_menu_icon_size_svg', '18x18' ), array( 'class' => 'wd-nav-img' ) );
 					} else {
-						$image_output .= wp_get_attachment_image( $icon_data['id'], apply_filters( 'woodmart_mega_menu_icon_size', 'thumbnail' ), false, array( 'class' => 'wd-nav-img' ) );
+						$image_output .= wp_get_attachment_image(
+							$icon_data['id'],
+							apply_filters( 'woodmart_mega_menu_icon_size', 'thumbnail' ),
+							false,
+							array(
+								'class'   => 'wd-nav-img',
+								'alt'     => esc_attr( $item->title ),
+								'loading' => ! wp_lazy_loading_enabled( 'img', '' ) ? 'lazy' : '',
+							)
+						);
 					}
 				} else {
 					if ( isset( $icon_data['url'] ) ) {
@@ -436,7 +445,7 @@ class Mega_Menu_Walker extends Walker_Nav_Menu {
 					}
 
 					if ( $icon_data ) {
-						$image_output .= '<img src="' . esc_url( $icon_data ) . '" alt="' . esc_attr( $item->title ) . '" ' . $icon_attrs . ' class="wd-nav-img' . woodmart_get_old_classes( ' category-icon' ) . '" />';
+						$image_output .= '<img src="' . esc_url( $icon_data ) . '" alt="' . esc_attr( $item->title ) . '" ' . $icon_attrs . ' class="wd-nav-img' . woodmart_get_old_classes( ' category-icon' ) . '" loading="lazy"/>';
 					}
 				}
 			}
@@ -446,7 +455,7 @@ class Mega_Menu_Walker extends Walker_Nav_Menu {
 		$item_output .= '<a' . $attributes . '>';
 		if ( $icon ) {
 			if ( 'wpb' === woodmart_get_current_page_builder() ) {
-				wp_enqueue_style( 'vc_font_awesome_5' );
+				wp_enqueue_style( 'vc_font_awesome_6' );
 				wp_enqueue_style( 'vc_font_awesome_5_shims' );
 			} elseif ( 'elementor' === woodmart_get_current_page_builder() ) {
 				wp_enqueue_style( 'elementor-icons-fa-solid' );

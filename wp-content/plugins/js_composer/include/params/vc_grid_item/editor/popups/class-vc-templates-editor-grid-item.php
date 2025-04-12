@@ -19,20 +19,20 @@ class Vc_Templates_Editor_Grid_Item extends Vc_Templates_Panel_Editor {
 	 *
 	 * @var array
 	 */
-	protected $default_templates = array();
+	protected $default_templates = [];
 
 	/**
 	 * Vc_Templates_Editor_Grid_Item constructor.
 	 */
 	public function __construct() {
-		add_filter( 'vc_templates_render_category', array(
+		add_filter( 'vc_templates_render_category', [
 			$this,
 			'renderTemplateBlock',
-		), 10, 2 );
-		add_filter( 'vc_templates_render_template', array(
+		], 10, 2 );
+		add_filter( 'vc_templates_render_template', [
 			$this,
 			'renderTemplateWindowGrid',
-		), 10, 2 );
+		], 10, 2 );
 	}
 
 	/**
@@ -171,42 +171,42 @@ class Vc_Templates_Editor_Grid_Item extends Vc_Templates_Panel_Editor {
 	 * @return array|mixed|void
 	 */
 	public function getAllTemplates() {
-		$data = array();
+		$data = [];
 		$grid_templates = $this->getGridTemplates();
 		// this has only 'name' and 'template' key  and index 'key' is template id.
 		if ( ! empty( $grid_templates ) ) {
-			$arr_category = array(
+			$arr_category = [
 				'category' => 'grid_templates',
 				'category_name' => esc_html__( 'Grid Templates', 'js_composer' ),
 				'category_weight' => 10,
-			);
-			$category_templates = array();
+			];
+			$category_templates = [];
 			foreach ( $grid_templates as $template_id => $template_data ) {
-				$category_templates[] = array(
+				$category_templates[] = [
 					'unique_id' => $template_id,
 					'name' => $template_data['name'],
 					'type' => 'grid_templates',
 					// for rendering in backend/frontend with ajax.
-				);
+				];
 			}
 			$arr_category['templates'] = $category_templates;
 			$data[] = $arr_category;
 		}
 		$custom_grid_templates = $this->getCustomTemplateList();
 		if ( ! empty( $custom_grid_templates ) ) {
-			$arr_category = array(
+			$arr_category = [
 				'category' => 'grid_templates_custom',
 				'category_name' => esc_html__( 'Custom Grid Templates', 'js_composer' ),
 				'category_weight' => 10,
-			);
-			$category_templates = array();
+			];
+			$category_templates = [];
 			foreach ( $custom_grid_templates as $template_name => $template_id ) {
-				$category_templates[] = array(
+				$category_templates[] = [
 					'unique_id' => $template_id,
 					'name' => $template_name,
 					'type' => 'grid_templates_custom',
 					// for rendering in backend/frontend with ajax).
-				);
+				];
 			}
 			$arr_category['templates'] = $category_templates;
 			$data[] = $arr_category;
@@ -222,11 +222,11 @@ class Vc_Templates_Editor_Grid_Item extends Vc_Templates_Panel_Editor {
 	 * @return array
 	 */
 	protected function getCustomTemplateList() {
-		$list = array();
-		$templates = get_posts( array(
+		$list = [];
+		$templates = get_posts( [
 			'post_type' => Vc_Grid_Item_Editor::postType(),
 			'numberposts' => - 1,
-		) );
+		] );
 		foreach ( $templates as $template ) {
 			$id = $template->ID;
 			$list[ $template->post_title ] = $id;

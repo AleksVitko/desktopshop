@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:34" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:43" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:34:30 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:43:49 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
@@ -592,8 +592,8 @@
 
 <!-- wp:wd/products-tabs {"blockId":"530d26c0-11aa-427c-9778-7cc140d046d3","marginBottom":"70","marginBottomMobile":"50"} -->
 <div id="wd-530d26c0" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-default wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"8bf0504b-1521-4f84-a6ff-dd90d05ca899","hasTitle":false,"titleStyle":"underline","alignment":"center"} -->
-<div id="wd-8bf0504b" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"26d72e0f-924f-46bd-bc00-d658378d82a8","title":"BEST SELLERS","items_per_page":"8","pagination":"arrows"} -->
-<li id="wd-26d72e0f" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;8&quot;,&quot;el_id&quot;:&quot;wd-26d72e0f&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">BEST SELLERS</span></a></li>
+<div id="wd-8bf0504b" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"18b115cb-e807-49ec-8905-d4965ad28b98","title":"BEST SELLERS","items_per_page":"8","pagination":"arrows"} -->
+<li id="wd-18b115cb" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;8&quot;,&quot;el_id&quot;:&quot;wd-18b115cb&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">BEST SELLERS</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"6f35066b-2581-487d-a950-0177a6c791ae","title":"FEATURED","order":"DESC","items_per_page":"8","pagination":"arrows"} -->
@@ -605,7 +605,7 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"aeff3cd9-c4f1-4372-858f-0f46f31e3f5f","title":"BEST SELLERS","items_per_page":"8","pagination":"arrows"} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"26d72e0f-924f-46bd-bc00-d658378d82a8","title":"BEST SELLERS","items_per_page":"8","pagination":"arrows"} /--></div>
 <!-- /wp:wd/products-tabs -->
 
 <!-- wp:wd/paragraph {"blockId":"57210f90-4440-425b-835a-08f52220244c","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600","marginBottom":"10"} -->
@@ -638,7 +638,7 @@
 <div id="wd-f45806e7" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"e1e0c8fc-6113-4e7d-a6d5-54e8dd9a3957","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50} -->
 <div id="wd-e1e0c8fc" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"82320de1-21ef-4663-8418-67bda47de844","align":"center","marginBottom":"20"} -->
 <div id="wd-82320de1" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"1c5e5539-f59f-4c35-af38-b9d0cdf601a0","image":{"id":16658,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-origami-bird.svg"},"width":"100","bgColorCode":"#f1f1f1","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"marginBottom":"-40","borderRadius":"50","borderRadiusTop":"50","borderRadiusRight":"50","borderRadiusBottom":"50","borderRadiusLeft":"50","borderRadiusUnits":"%"} -->
-<div id="wd-1c5e5539" class="wp-block-wd-icon"><img class="wp-image-16658" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-origami-bird.svg" /></div>
+<div id="wd-1c5e5539" class="wp-block-wd-icon"><img class="wp-image-16658" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-origami-bird.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"0e9e3bad-1a7c-4017-856c-5089d0f047ee","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"solid","borderColorCode":"rgba(0,0,0,0.11)","borderWidth":"3","borderWidthTop":"3","borderWidthRight":"3","borderWidthBottom":"3","borderWidthLeft":"3","metadata":{"name":"Infobox content"}} -->
@@ -660,7 +660,7 @@
 <!-- wp:wd/column {"blockId":"047b2668-657c-4b80-adb6-3d0352e8e57d","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50} -->
 <div id="wd-047b2668" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"ea9d8545-3db3-4513-9553-e89bd146618d","align":"center","marginBottom":"20"} -->
 <div id="wd-ea9d8545" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"2c55f213-1d77-41a1-ba84-ca5aaacc4ef3","image":{"id":16659,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-shackle.svg"},"width":"100","bgColorCode":"#f1f1f1","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"marginBottom":"-40","borderRadius":"50","borderRadiusTop":"50","borderRadiusRight":"50","borderRadiusBottom":"50","borderRadiusLeft":"50","borderRadiusUnits":"%"} -->
-<div id="wd-2c55f213" class="wp-block-wd-icon"><img class="wp-image-16659" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-shackle.svg" /></div>
+<div id="wd-2c55f213" class="wp-block-wd-icon"><img class="wp-image-16659" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-shackle.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"34687bdc-321f-491a-9ec3-2820478e0c40","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"solid","borderColorCode":"rgba(0,0,0,0.11)","borderWidth":"3","borderWidthTop":"3","borderWidthRight":"3","borderWidthBottom":"3","borderWidthLeft":"3","metadata":{"name":"Infobox content"}} -->
@@ -682,7 +682,7 @@
 <!-- wp:wd/column {"blockId":"3002e4b3-1597-4a78-b657-d60bce30d4fd","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50} -->
 <div id="wd-3002e4b3" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"088a2ba2-1e85-424f-9e59-a99a199c2e92","align":"center","marginBottom":"20"} -->
 <div id="wd-088a2ba2" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"1f921560-c9b5-4396-b307-c5cb67762e37","image":{"id":16657,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bracelet.svg"},"width":"100","bgColorCode":"#f1f1f1","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"marginBottom":"-40","borderRadius":"50","borderRadiusTop":"50","borderRadiusRight":"50","borderRadiusBottom":"50","borderRadiusLeft":"50","borderRadiusUnits":"%"} -->
-<div id="wd-1f921560" class="wp-block-wd-icon"><img class="wp-image-16657" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bracelet.svg" /></div>
+<div id="wd-1f921560" class="wp-block-wd-icon"><img class="wp-image-16657" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bracelet.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"15dbbfde-b3d8-49b5-8343-951dc882b31c","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"solid","borderColorCode":"rgba(0,0,0,0.11)","borderWidth":"3","borderWidthTop":"3","borderWidthRight":"3","borderWidthBottom":"3","borderWidthLeft":"3","metadata":{"name":"Infobox content"}} -->
@@ -704,7 +704,7 @@
 <!-- wp:wd/column {"blockId":"c947538d-a7d0-42e1-bb3a-c4e0b8690373","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50} -->
 <div id="wd-c947538d" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"236ed0ab-1a3f-44d3-91cd-e1e3cd697c09","align":"center","marginBottom":"20"} -->
 <div id="wd-236ed0ab" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"0210af14-3b8a-445f-b83d-7bd0a7eea9e9","image":{"id":16656,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bag.svg"},"width":"100","bgColorCode":"#f1f1f1","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"marginBottom":"-40","borderRadius":"50","borderRadiusTop":"50","borderRadiusRight":"50","borderRadiusBottom":"50","borderRadiusLeft":"50","borderRadiusUnits":"%"} -->
-<div id="wd-0210af14" class="wp-block-wd-icon"><img class="wp-image-16656" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bag.svg" /></div>
+<div id="wd-0210af14" class="wp-block-wd-icon"><img class="wp-image-16656" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bag.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"0c46f373-346f-458a-86dc-ccd772cc1dc8","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"solid","borderColorCode":"rgba(0,0,0,0.11)","borderWidth":"3","borderWidthTop":"3","borderWidthRight":"3","borderWidthBottom":"3","borderWidthLeft":"3","metadata":{"name":"Infobox content"}} -->
@@ -739,13 +739,13 @@
 <!-- wp:wd/blog {"blockId":"cbebf5db-47ea-45a0-8910-2a447958c4e8","items_per_page":"4","layout":"carousel","marginBottom":"80","sync_parent_id":"wd_132319a1","marginBottomTablet":"70","marginBottomMobile":"60","slides_per_viewTablet":"2","slides_per_viewMobile":"1"} /-->
 
 <!-- wp:wd/row {"blockId":"d2c83208-8548-48ed-8d3d-a8b7bdd62f81","marginBottom":"80","marginBottomTablet":"70","marginBottomMobile":"60"} -->
-<div id="wd-d2c83208" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"5d18103b-2d58-4e7f-8efd-7a9cdc20af6b","adjacentCount":2,"colWidth":50,"blocksGap":10,"justifyContent":"center","paddingRight":"4","paddingLeft":"4","paddingUnits":"%"} -->
-<div id="wd-5d18103b" class="wp-block-wd-column"><!-- wp:wd/paragraph {"blockId":"ed64a84b-fbfc-47f0-bb38-902388ece853","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600"} -->
-<p id="wd-ed64a84b" class="wp-block-wd-paragraph wd-align">WOODEN ACCESSORIES</p>
+<div id="wd-d2c83208" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"5d18103b-2d58-4e7f-8efd-7a9cdc20af6b","adjacentCount":2,"colWidth":50,"blocksGap":10,"justifyContent":"center","textAlign":"center","paddingRight":"4","paddingLeft":"4","paddingUnits":"%"} -->
+<div id="wd-5d18103b" class="wp-block-wd-column wd-align"><!-- wp:wd/paragraph {"blockId":"ed64a84b-fbfc-47f0-bb38-902388ece853","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600"} -->
+<p id="wd-ed64a84b" class="wp-block-wd-paragraph">WOODEN ACCESSORIES</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"9e1ab0fd-31b4-4009-a1e5-a54a7d5089a0","textAlign":"center","design":"simple","content":"WHAT THEY SAY ABOUT US","tpFontSize":"22","activeBorderColorVariable":"\u002d\u002dwd-primary-color"} -->
-<h2 id="wd-9e1ab0fd" class="wp-block-wd-title title wd-align wd-design-simple"><span>WHAT THEY SAY ABOUT US</span></h2>
+<!-- wp:wd/title {"blockId":"9e1ab0fd-31b4-4009-a1e5-a54a7d5089a0","design":"simple","content":"WHAT THEY SAY ABOUT US","tpFontSize":"22","activeBorderColorVariable":"\u002d\u002dwd-primary-color"} -->
+<h2 id="wd-9e1ab0fd" class="wp-block-wd-title title wd-design-simple"><span>WHAT THEY SAY ABOUT US</span></h2>
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/carousel {"blockId":"ee7c1dcc-9dac-4a57-bf99-18aa9e4b39bf","slidesPerView":"1","syncParentId":"wd_ee7c1dcc"} -->
@@ -753,7 +753,7 @@
 <div id="wd-2b0b6274" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"549c0eb0-7b22-4e3d-8d36-35188afde989","design":"2"} -->
 <div id="wd-549c0eb0" class="wp-block-wd-testimonial wd-design-2"><!-- wp:wd/container {"blockId":"ae2b357f-4f5e-4c39-9c92-fb247ff39356","align":"center","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-ae2b357f" class="wp-block-wd-container wd-dir-col wd-align-is-lg-center wd-testimonial-heading"><!-- wp:wd/image {"blockId":"7947e587-c241-4510-9096-0a7168ab1d75","image":{"id":16660,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1-1.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1-1.jpg","width":150,"height":150}} -->
-<div id="wd-7947e587" class="wp-block-wd-image wd-block-image"><img class="wp-image-16660" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1-1.jpg" /></div>
+<div id="wd-7947e587" class="wp-block-wd-image wd-block-image"><img class="wp-image-16660" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1-1.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"9f697195-08ff-4d01-9866-6fc052293629","align":"center"} -->
@@ -773,7 +773,7 @@
 <div id="wd-0cd310ec" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"1d603b5e-273c-4f3f-918d-698c2730c78c","design":"2"} -->
 <div id="wd-1d603b5e" class="wp-block-wd-testimonial wd-design-2"><!-- wp:wd/container {"blockId":"d2cc6cda-18f0-4d34-a3f8-51adf353a86d","align":"center","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-d2cc6cda" class="wp-block-wd-container wd-dir-col wd-align-is-lg-center wd-testimonial-heading"><!-- wp:wd/image {"blockId":"0b6dc1e8-ae23-4ace-a181-b741d11730c3","image":{"id":16661,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-2.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-2.jpg","width":150,"height":150}} -->
-<div id="wd-0b6dc1e8" class="wp-block-wd-image wd-block-image"><img class="wp-image-16661" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-2.jpg" /></div>
+<div id="wd-0b6dc1e8" class="wp-block-wd-image wd-block-image"><img class="wp-image-16661" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-2.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"16edf782-ad00-45d3-bad0-6e77cc870f6e","align":"center"} -->
@@ -793,7 +793,7 @@
 <div id="wd-7fe12f59" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"87d3f807-5b42-40ce-840c-5cae6ca573dc","design":"2"} -->
 <div id="wd-87d3f807" class="wp-block-wd-testimonial wd-design-2"><!-- wp:wd/container {"blockId":"66946390-5222-4a0b-88a2-34f1860dcb69","align":"center","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-66946390" class="wp-block-wd-container wd-dir-col wd-align-is-lg-center wd-testimonial-heading"><!-- wp:wd/image {"blockId":"9e1200c8-cdfc-4892-a9d8-7147c1722e38","image":{"id":16662,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-3.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-3.jpg","width":150,"height":150}} -->
-<div id="wd-9e1200c8" class="wp-block-wd-image wd-block-image"><img class="wp-image-16662" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-3.jpg" /></div>
+<div id="wd-9e1200c8" class="wp-block-wd-image wd-block-image"><img class="wp-image-16662" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-3.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"6c82c799-5a87-4f70-96aa-976e5685a7d5","align":"center"} -->
@@ -813,17 +813,17 @@
 
 <!-- wp:wd/column {"blockId":"4c430dad-a025-424a-9e28-08f07ca460ed","adjacentCount":2,"colWidth":50} -->
 <div id="wd-4c430dad" class="wp-block-wd-column"><!-- wp:wd/instagram {"blockId":"432bdcfc-6640-4abd-8bba-827ddf755700","username":"milosroom","images":[{"id":16668,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wd-inst-handmade-6.jpg","width":640,"height":640},{"id":16667,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wd-inst-handmade-5.jpg","width":612,"height":612},{"id":16666,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wd-inst-handmade-4.jpg","width":612,"height":612},{"id":16665,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wd-inst-handmade-3.jpg","width":640,"height":640},{"id":16664,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wd-inst-handmade-2.jpg","width":640,"height":640},{"id":16663,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wd-inst-handmade-1.jpg","width":640,"height":640}],"images_link":"","spacing_custom":"6","show_meta":false,"show_content":true,"per_rowTablet":2,"per_rowMobile":3} -->
-<!-- wp:wd/container {"blockId":"59c267e7-4a6d-4766-848c-8e6a91fb2a89","rowGap":"10"} -->
-<div id="wd-59c267e7" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/title {"blockId":"f3d7768d-55f6-4a58-bd4c-d1185e5f1a00","textAlign":"center","content":"INSTAGRAM","tpFontSize":"18"} -->
-<h2 id="wd-f3d7768d" class="wp-block-wd-title title wd-align">INSTAGRAM</h2>
+<!-- wp:wd/container {"blockId":"59c267e7-4a6d-4766-848c-8e6a91fb2a89","textAlign":"center","rowGap":"10"} -->
+<div id="wd-59c267e7" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/title {"blockId":"f3d7768d-55f6-4a58-bd4c-d1185e5f1a00","content":"INSTAGRAM","tpFontSize":"18"} -->
+<h2 id="wd-f3d7768d" class="wp-block-wd-title title">INSTAGRAM</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"c97bd4bf-4629-48a8-9abb-ea2072f8471f","textAlign":"center","colorCode":"#c4c4c4","tpFontSize":"14"} -->
-<p id="wd-c97bd4bf" class="wp-block-wd-paragraph wd-align">@NAME_ACCOUNT</p>
+<!-- wp:wd/paragraph {"blockId":"c97bd4bf-4629-48a8-9abb-ea2072f8471f","colorCode":"#c4c4c4","tpFontSize":"14"} -->
+<p id="wd-c97bd4bf" class="wp-block-wd-paragraph">@NAME_ACCOUNT</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/paragraph {"blockId":"c60f73c2-ef88-4a70-aaef-bf9fba00d0b7","textAlign":"center"} -->
-<p id="wd-c60f73c2" class="wp-block-wd-paragraph wd-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+<!-- wp:wd/paragraph {"blockId":"c60f73c2-ef88-4a70-aaef-bf9fba00d0b7"} -->
+<p id="wd-c60f73c2" class="wp-block-wd-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 <!-- /wp:wd/paragraph --></div>
 <!-- /wp:wd/container -->
 <!-- /wp:wd/instagram --></div>
@@ -831,29 +831,29 @@
 <!-- /wp:wd/row -->
 
 <!-- wp:wd/section {"blockId":"a9c4313f-8bfa-4dc4-b16e-3e86a7490fdc","bgImage":{"id":16669,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-bg.jpg"},"bgPosition":"center center","bgRepeat":"no-repeat","bgDisplaySize":"cover","bgColorCode":"#f9f9f9","paddingTop":"150","paddingBottom":"150","marginBottom":"-40","paddingTopTablet":"120","paddingTopMobile":"90","paddingBottomTablet":"120","paddingBottomMobile":"90"} -->
-<div id="wd-a9c4313f" class="wp-block-wd-section"><!-- wp:wd/container {"blockId":"76323121-2236-40d1-90b0-59bee4aeaf9f","align":"center"} -->
-<div id="wd-76323121" class="wp-block-wd-container wd-dir-col wd-align-is-lg-center"><!-- wp:wd/paragraph {"blockId":"3f412694-55f2-46a6-b0bc-e31bd3623dfc","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600","marginBottom":"-10"} -->
-<p id="wd-3f412694" class="wp-block-wd-paragraph wd-align">LAOREET IN VITAE AMET</p>
+<div id="wd-a9c4313f" class="wp-block-wd-section"><!-- wp:wd/container {"blockId":"76323121-2236-40d1-90b0-59bee4aeaf9f","textAlign":"center"} -->
+<div id="wd-76323121" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"3f412694-55f2-46a6-b0bc-e31bd3623dfc","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600","marginBottom":"-10"} -->
+<p id="wd-3f412694" class="wp-block-wd-paragraph">LAOREET IN VITAE AMET</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"7365a4a6-41b9-4ebd-9bf2-29012f72b4cf","textAlign":"center","content":"HEY YOU, SIGN UP AND CONNECT TO WOODMART!","tpFontSize":"36","alignSelf":"center","displayWidth":"custom","customWidth":"507","tpFontSizeTablet":"24","tpFontSizeMobile":"20","displayWidthTablet":"custom","customWidthTablet":"388"} -->
-<h2 id="wd-7365a4a6" class="wp-block-wd-title title wd-align wd-custom-width wd-align-s-center">HEY YOU, SIGN UP AND CONNECT TO WOODMART!</h2>
+<!-- wp:wd/title {"blockId":"7365a4a6-41b9-4ebd-9bf2-29012f72b4cf","content":"HEY YOU, SIGN UP AND CONNECT TO WOODMART!","tpFontSize":"36","displayWidth":"custom","customWidth":"507","tpFontSizeTablet":"24","tpFontSizeMobile":"20","displayWidthTablet":"custom","customWidthTablet":"388"} -->
+<h2 id="wd-7365a4a6" class="wp-block-wd-title title wd-custom-width">HEY YOU, SIGN UP AND CONNECT TO WOODMART!</h2>
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/mailchimp {"blockId":"2ba5809f-9352-47ae-b15c-bedaf9f5d329","form_id":"74","displayWidth":"custom","customWidth":"420"} /-->
 
 <!-- wp:wd/paragraph {"blockId":"62353111-f330-405c-9635-bd2d714c4b4d"} -->
-<p id="wd-62353111" class="wp-block-wd-paragraph">Will be used in accordance with our  <a href="#"><strong>Privacy Policy</strong></a></p>
+<p id="wd-62353111" class="wp-block-wd-paragraph">Will be used in accordance with our &nbsp;<a href="#"><strong>Privacy Policy</strong></a></p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/social-buttons {"blockId":"ff0ee0ba-a8aa-42b9-aaeb-e3b8f0d1555b","alignment":"center","style":"bordered","size":"small"} /--></div>
+<!-- wp:wd/social-buttons {"blockId":"ff0ee0ba-a8aa-42b9-aaeb-e3b8f0d1555b","style":"bordered","size":"small"} /--></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/section -->]]></content:encoded>
 															<wp:post_id>16642</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 12:52:29]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-06-17 12:52:29]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 11:51:20]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 11:51:20]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-21 14:41:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-21 14:41:58]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-handmade]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>

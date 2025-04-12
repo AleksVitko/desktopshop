@@ -31,6 +31,7 @@ class Single_Product extends Layout_Type {
 				break;
 			case 'product_cat':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 				$terms = wp_get_post_terms( woodmart_get_the_ID(), get_taxonomies(), array( 'fields' => 'ids' ) );
 
@@ -95,9 +96,10 @@ class Single_Product extends Layout_Type {
 	 * @return int
 	 */
 	public static function get_preview_product_id() {
-		$product_id = woodmart_get_opt( 'single_product_builder_post_data' );
+		$product_id      = woodmart_get_opt( 'single_product_builder_post_data' );
+		$preview_product = wc_get_product( $product_id );
 
-		if ( ! $product_id ) {
+		if ( ! $product_id || 'product' !== get_post_type( $product_id ) || ! $preview_product || ! $preview_product->is_visible() ) {
 			$random_product = new WP_Query(
 				array(
 					'posts_per_page' => '1',

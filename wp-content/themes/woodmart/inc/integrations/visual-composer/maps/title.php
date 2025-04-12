@@ -10,8 +10,8 @@ if ( ! function_exists( 'woodmart_get_vc_map_title' ) ) {
 	function woodmart_get_vc_map_title() {
 		$secondary_font        = woodmart_get_opt( 'secondary-font' );
 		$default_font          = woodmart_get_opt( 'text-font' );
-		$alt_font_subtitle     = isset( $secondary_font[0] ) ? esc_html__( 'Alternative', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Alternative', 'woodmart' );
-		$default_font_subtitle = isset( $default_font[0] ) ? esc_html__( 'Default', 'woodmart' ) . ' (' . $default_font[0]['font-family'] . ')' : esc_html__( 'Default', 'woodmart' );
+		$alt_font_subtitle     = isset( $secondary_font[0]['font-family'] ) ? esc_html__( 'Alternative', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Alternative', 'woodmart' );
+		$default_font_subtitle = isset( $default_font[0]['font-family'] ) ? esc_html__( 'Default', 'woodmart' ) . ' (' . $default_font[0]['font-family'] . ')' : esc_html__( 'Default', 'woodmart' );
 
 		return array(
 			'name'        => esc_html__( 'Section title', 'woodmart' ),

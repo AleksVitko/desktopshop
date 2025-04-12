@@ -441,13 +441,13 @@ function vc_get_dropdown_option( $param, $value ) {
  * @since 4.2
  */
 function vc_get_css_color( $prefix, $color ) {
-	$rgb_color = preg_match( '/rgba/', $color ) ? preg_replace( array(
+	$rgb_color = preg_match( '/rgba/', $color ) ? preg_replace( [
 		'/\s+/',
 		'/^rgba\((\d+)\,(\d+)\,(\d+)\,([\d\.]+)\)$/',
-	), array(
+	], [
 		'',
 		'rgb($1,$2,$3)',
-	), $color ) : $color;
+	], $color ) : $color;
 	$string = $prefix . ':' . $rgb_color . ';';
 	if ( $rgb_color !== $color ) {
 		$string .= $prefix . ':' . $color . ';';
@@ -482,13 +482,13 @@ function vc_shortcode_custom_css_class( $param_value, $prefix = '' ) {
  * @since 4.9
  */
 function vc_shortcode_custom_css_has_property( $subject, $property, $strict = false ) {
-	$styles = array();
+	$styles = [];
 	$pattern = '/\{([^\}]*?)\}/i';
 	preg_match( $pattern, $subject, $styles );
 	if ( array_key_exists( 1, $styles ) ) {
 		$styles = explode( ';', $styles[1] );
 	}
-	$new_styles = array();
+	$new_styles = [];
 	foreach ( $styles as $val ) {
 		$val = explode( ':', $val );
 		if ( is_array( $property ) ) {
@@ -582,14 +582,14 @@ function vc_user_access() {
 function vc_user_roles_get_all() {
 	require_once vc_path_dir( 'SETTINGS_DIR', 'class-vc-roles.php' );
 	$vc_roles = new Vc_Roles();
-	$capabilities = array();
+	$capabilities = [];
 	foreach ( $vc_roles->getParts() as $part ) {
 		$part_obj = vc_user_access()->part( $part );
-		$capabilities[ $part ] = array(
+		$capabilities[ $part ] = [
 			'state' => ( is_multisite() && is_super_admin() ) ? true : $part_obj->getState(),
 			'state_key' => $part_obj->getStateKey(),
 			'capabilities' => $part_obj->getAllCaps(),
-		);
+		];
 	}
 
 	return $capabilities;
@@ -607,7 +607,7 @@ function vc_generate_nonce( $data, $from_esi = false ) {
 	if ( ! $from_esi && ! vc_is_frontend_editor() ) {
 		if ( method_exists( 'LiteSpeed_Cache_API', 'esi_enabled' ) && LiteSpeed_Cache_API::esi_enabled() ) {
 			if ( method_exists( 'LiteSpeed_Cache_API', 'v' ) && LiteSpeed_Cache_API::v( '1.3' ) ) {
-				$params = array( 'data' => $data );
+				$params = [ 'data' => $data ];
 
 				return LiteSpeed_Cache_API::esi_url( 'js_composer', 'WPBakery Page Builder', $params, 'default', true );// The last parameter is to remove ESI comment wrapper.
 			}
@@ -794,10 +794,10 @@ function vc_htmlspecialchars_decode_deep( $value ) {
  * @return mixed
  */
 function vc_str_remove_protocol( $str ) {
-	return str_replace( array(
+	return str_replace( [
 		'https://',
 		'http://',
-	), '//', $str );
+	], '//', $str );
 }
 
 if ( ! function_exists( 'wpb_get_current_theme_slug' ) ) {

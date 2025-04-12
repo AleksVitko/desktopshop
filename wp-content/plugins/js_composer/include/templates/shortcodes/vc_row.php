@@ -46,14 +46,14 @@ wp_enqueue_script( 'wpb_composer_front_js' );
 
 $el_class = $this->getExtraClass( $el_class ) . $this->getCSSAnimation( $css_animation );
 
-$css_classes = array(
+$css_classes = [
 	'vc_row',
 	'wpb_row',
 	// deprecated.
 	'vc_row-fluid',
 	$el_class,
 	vc_shortcode_custom_css_class( $css ),
-);
+];
 
 if ( 'yes' === $disable_element ) {
 	if ( vc_is_page_editable() ) {
@@ -63,10 +63,10 @@ if ( 'yes' === $disable_element ) {
 	}
 }
 
-if ( vc_shortcode_custom_css_has_property( $css, array(
+if ( vc_shortcode_custom_css_has_property( $css, [
 	'border',
 	'background',
-) ) || $video_bg || $parallax
+] ) || $video_bg || $parallax
 ) {
 	$css_classes[] = 'vc_row-has-fill';
 }
@@ -79,7 +79,7 @@ if ( ! empty( $atts['rtl_reverse'] ) ) {
 	$css_classes[] = 'vc_rtl-columns-reverse';
 }
 
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 // build attributes for wrapper.
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';

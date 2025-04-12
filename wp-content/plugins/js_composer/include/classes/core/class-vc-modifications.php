@@ -22,10 +22,10 @@ class Vc_Modifications {
 	 * Vc_Modifications constructor.
 	 */
 	public function __construct() {
-		add_action( 'wp_footer', array(
+		add_action( 'wp_footer', [
 			$this,
 			'renderScript',
-		) );
+		] );
 	}
 
 	/**

@@ -185,7 +185,6 @@ class Main extends Singleton {
 	/**
 	 * Output count product visits in builder and single product.
 	 *
-	 * @codeCoverageIgnore
 	 * @param string $extra_classes Extra classes.
 	 */
 	public function output_count_visitors( $extra_classes = '', $icon_output = '' ) {

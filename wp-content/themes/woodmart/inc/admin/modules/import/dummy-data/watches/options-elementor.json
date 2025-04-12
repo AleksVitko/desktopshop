@@ -1,8 +1,24 @@
 {
     "default_header": "header_821912",
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "15",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
     "primary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Open Sans",
             "font-weight": "600",
@@ -14,7 +30,6 @@
     ],
     "post-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Open Sans",
             "font-weight": "600",
@@ -29,7 +44,6 @@
     ],
     "widget-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Open Sans",
             "font-weight": "600",
@@ -44,6 +58,23 @@
                 "font-size": ""
             },
             "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
         }
     ],
     "primary-color": {

@@ -383,6 +383,7 @@
 			$button.addClass('added');
 
 			woodmartThemeModule.$document.trigger('added_to_wishlist');
+			woodmartThemeModule.$document.trigger('wdUpdateTooltip', $button);
 		}
 	};
 

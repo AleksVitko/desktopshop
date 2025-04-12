@@ -41,7 +41,7 @@ if ( ! class_exists( 'WOODMART_Widget_Sorting' ) ) {
 		function widget( $args, $instance )	{
 			global $wp_query;
 
-			if ( ! woocommerce_products_will_display() ) {
+			if ( ! $this->is_widget_preview() && ! woocommerce_products_will_display() ) {
 				return;
 			}
 
@@ -53,7 +53,7 @@ if ( ! class_exists( 'WOODMART_Widget_Sorting' ) ) {
 				'rating'     => esc_html__( 'Average rating', 'woodmart' ),
 				'date'       => esc_html__( 'Newness', 'woodmart' ),
 				'price'      => esc_html__( 'Price: low to high', 'woodmart' ),
-				'price-desc' => esc_html__( 'Price: high to low', 'woodmart' )
+				'price-desc' => esc_html__( 'Price: high to low', 'woodmart' ),
 			) );
 
 			if ( ! $show_default_orderby ) {

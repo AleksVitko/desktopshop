@@ -1,28 +1,28 @@
 /**
- * Swiper 11.0.5
+ * Swiper 11.2.4
  * Most modern mobile touch slider and framework with hardware accelerated transitions
  * https://swiperjs.com
  *
- * Copyright 2014-2023 Vladimir Kharlampidi
+ * Copyright 2014-2025 Vladimir Kharlampidi
  *
  * Released under the MIT License
  *
- * Released on: November 22, 2023
+ * Released on: February 14, 2025
  */
 
 var wdSwiper = (function () {
 	'use strict';
 
 	/**
-	 * SSR Window 4.0.2
+	 * SSR Window 5.0.0
 	 * Better handling for window object in SSR environment
 	 * https://github.com/nolimits4web/ssr-window
 	 *
-	 * Copyright 2021, Vladimir Kharlampidi
+	 * Copyright 2025, Vladimir Kharlampidi
 	 *
 	 * Licensed under MIT
 	 *
-	 * Released on: December 13, 2021
+	 * Released on: February 12, 2025
 	 */
 	/* eslint-disable no-param-reassign */
 	function isObject$1(obj) {
@@ -35,7 +35,8 @@ var wdSwiper = (function () {
 		if (src === void 0) {
 			src = {};
 		}
-		Object.keys(src).forEach(key => {
+		const noExtend = ['__proto__', 'constructor', 'prototype'];
+		Object.keys(src).filter(key => noExtend.indexOf(key) < 0).forEach(key => {
 			if (typeof target[key] === 'undefined') target[key] = src[key];else if (isObject$1(src[key]) && isObject$1(target[key]) && Object.keys(src[key]).length > 0) {
 				extend$1(target[key], src[key]);
 			}
@@ -341,7 +342,38 @@ var wdSwiper = (function () {
 		if (selector === void 0) {
 			selector = '';
 		}
-		return [...element.children].filter(el => el.matches(selector));
+		const window = getWindow();
+		const children = [...element.children];
+		if (window.HTMLSlotElement && element instanceof HTMLSlotElement) {
+			children.push(...element.assignedElements());
+		}
+		if (!selector) {
+			return children;
+		}
+		return children.filter(el => el.matches(selector));
+	}
+	function elementIsChildOfSlot(el, slot) {
+		// Breadth-first search through all parent's children and assigned elements
+		const elementsQueue = [slot];
+		while (elementsQueue.length > 0) {
+			const elementToCheck = elementsQueue.shift();
+			if (el === elementToCheck) {
+				return true;
+			}
+			elementsQueue.push(...elementToCheck.children, ...(elementToCheck.shadowRoot ? elementToCheck.shadowRoot.children : []), ...(elementToCheck.assignedElements ? elementToCheck.assignedElements() : []));
+		}
+	}
+	function elementIsChildOf(el, parent) {
+		const window = getWindow();
+		let isChild = parent.contains(el);
+		if (!isChild && window.HTMLSlotElement && parent instanceof HTMLSlotElement) {
+			const children = [...parent.assignedElements()];
+			isChild = children.includes(el);
+			if (!isChild) {
+				isChild = elementIsChildOfSlot(el, parent);
+			}
+		}
+		return isChild;
 	}
 	function showWarning(text) {
 		try {
@@ -442,6 +474,17 @@ var wdSwiper = (function () {
 		}
 		return el.offsetWidth;
 	}
+	function makeElementsArray(el) {
+		return (Array.isArray(el) ? el : [el]).filter(e => !!e);
+	}
+	function getRotateFix(swiper) {
+		return v => {
+			if (Math.abs(v) > 0 && swiper.browser && swiper.browser.need3dFix && Math.abs(v) % 90 === 0) {
+				return v + 0.001;
+			}
+			return v;
+		};
+	}
 
 	let support;
 	function calcSupport() {
@@ -515,6 +558,7 @@ var wdSwiper = (function () {
 	let browser;
 	function calcBrowser() {
 		const window = getWindow();
+		const device = getDevice();
 		let needPerspectiveFix = false;
 		function isSafari() {
 			const ua = window.navigator.userAgent.toLowerCase();
@@ -527,10 +571,14 @@ var wdSwiper = (function () {
 				needPerspectiveFix = major < 16 || major === 16 && minor < 2;
 			}
 		}
+		const isWebView = /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(window.navigator.userAgent);
+		const isSafariBrowser = isSafari();
+		const need3dFix = isSafariBrowser || isWebView && device.ios;
 		return {
-			isSafari: needPerspectiveFix || isSafari(),
+			isSafari: needPerspectiveFix || isSafariBrowser,
 			needPerspectiveFix,
-			isWebView: /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(window.navigator.userAgent)
+			need3dFix,
+			isWebView
 		};
 	}
 	function getBrowser() {
@@ -643,7 +691,7 @@ var wdSwiper = (function () {
 			});
 			observer.observe(target, {
 				attributes: typeof options.attributes === 'undefined' ? true : options.attributes,
-				childList: typeof options.childList === 'undefined' ? true : options.childList,
+				childList: swiper.isElement || (typeof options.childList === 'undefined' ? true : options).childList,
 				characterData: typeof options.characterData === 'undefined' ? true : options.characterData
 			});
 			observers.push(observer);
@@ -1029,7 +1077,7 @@ var wdSwiper = (function () {
 				allSlidesSize += slideSizeValue + (spaceBetween || 0);
 			});
 			allSlidesSize -= spaceBetween;
-			const maxSnap = allSlidesSize - swiperSize;
+			const maxSnap = allSlidesSize > swiperSize ? allSlidesSize - swiperSize : 0;
 			snapGrid = snapGrid.map(snap => {
 				if (snap <= 0) return -offsetBefore;
 				if (snap > maxSnap) return maxSnap + offsetAfter;
@@ -1042,8 +1090,9 @@ var wdSwiper = (function () {
 				allSlidesSize += slideSizeValue + (spaceBetween || 0);
 			});
 			allSlidesSize -= spaceBetween;
-			if (allSlidesSize < swiperSize) {
-				const allSlidesOffset = (swiperSize - allSlidesSize) / 2;
+			const offsetSize = (params.slidesOffsetBefore || 0) + (params.slidesOffsetAfter || 0);
+			if (allSlidesSize + offsetSize < swiperSize) {
+				const allSlidesOffset = (swiperSize - allSlidesSize - offsetSize) / 2;
 				snapGrid.forEach((snap, snapIndex) => {
 					snapGrid[snapIndex] = snap - allSlidesOffset;
 				});
@@ -1147,6 +1196,13 @@ var wdSwiper = (function () {
 		}
 	}
 
+	const toggleSlideClasses$1 = (slideEl, condition, className) => {
+		if (condition && !slideEl.classList.contains(className)) {
+			slideEl.classList.add(className);
+		} else if (!condition && slideEl.classList.contains(className)) {
+			slideEl.classList.remove(className);
+		}
+	};
 	function updateSlidesProgress(translate) {
 		if (translate === void 0) {
 			translate = this && this.translate || 0;
@@ -1162,11 +1218,6 @@ var wdSwiper = (function () {
 		if (typeof slides[0].swiperSlideOffset === 'undefined') swiper.updateSlidesOffset();
 		let offsetCenter = -translate;
 		if (rtl) offsetCenter = translate;
-
-		// Visible Slides
-		slides.forEach(slideEl => {
-			slideEl.classList.remove(params.slideVisibleClass, params.slideFullyVisibleClass);
-		});
 		swiper.visibleSlidesIndexes = [];
 		swiper.visibleSlides = [];
 		let spaceBetween = params.spaceBetween;
@@ -1190,11 +1241,9 @@ var wdSwiper = (function () {
 			if (isVisible) {
 				swiper.visibleSlides.push(slide);
 				swiper.visibleSlidesIndexes.push(i);
-				slides[i].classList.add(params.slideVisibleClass);
 			}
-			if (isFullyVisible) {
-				slides[i].classList.add(params.slideFullyVisibleClass);
-			}
+			toggleSlideClasses$1(slide, isVisible, params.slideVisibleClass);
+			toggleSlideClasses$1(slide, isFullyVisible, params.slideFullyVisibleClass);
 			slide.progress = rtl ? -slideProgress : slideProgress;
 			slide.originalProgress = rtl ? -originalSlideProgress : originalSlideProgress;
 		}
@@ -1263,6 +1312,13 @@ var wdSwiper = (function () {
 		swiper.emit('progress', progress);
 	}
 
+	const toggleSlideClasses = (slideEl, condition, className) => {
+		if (condition && !slideEl.classList.contains(className)) {
+			slideEl.classList.add(className);
+		} else if (!condition && slideEl.classList.contains(className)) {
+			slideEl.classList.remove(className);
+		}
+	};
 	function updateSlidesClasses() {
 		const swiper = this;
 		const {
@@ -1276,9 +1332,6 @@ var wdSwiper = (function () {
 		const getFilteredSlide = selector => {
 			return elementChildren(slidesEl, `.${params.slideClass}${selector}, swiper-slide${selector}`)[0];
 		};
-		slides.forEach(slideEl => {
-			slideEl.classList.remove(params.slideActiveClass, params.slideNextClass, params.slidePrevClass);
-		});
 		let activeSlide;
 		let prevSlide;
 		let nextSlide;
@@ -1293,31 +1346,19 @@ var wdSwiper = (function () {
 			}
 		} else {
 			if (gridEnabled) {
-				activeSlide = slides.filter(slideEl => slideEl.column === activeIndex)[0];
-				nextSlide = slides.filter(slideEl => slideEl.column === activeIndex + 1)[0];
-				prevSlide = slides.filter(slideEl => slideEl.column === activeIndex - 1)[0];
+				activeSlide = slides.find(slideEl => slideEl.column === activeIndex);
+				nextSlide = slides.find(slideEl => slideEl.column === activeIndex + 1);
+				prevSlide = slides.find(slideEl => slideEl.column === activeIndex - 1);
 			} else {
 				activeSlide = slides[activeIndex];
 			}
 		}
 		if (activeSlide) {
-			// Active classes
-			activeSlide.classList.add(params.slideActiveClass);
-			if (gridEnabled) {
-				if (nextSlide) {
-					nextSlide.classList.add(params.slideNextClass);
-				}
-				if (prevSlide) {
-					prevSlide.classList.add(params.slidePrevClass);
-				}
-			} else {
+			if (!gridEnabled) {
 				// Next Slide
 				nextSlide = elementNextAll(activeSlide, `.${params.slideClass}, swiper-slide`)[0];
 				if (params.loop && !nextSlide) {
 					nextSlide = slides[0];
-				}
-				if (nextSlide) {
-					nextSlide.classList.add(params.slideNextClass);
 				}
 
 				// Prev Slide
@@ -1325,11 +1366,13 @@ var wdSwiper = (function () {
 				if (params.loop && !prevSlide === 0) {
 					prevSlide = slides[slides.length - 1];
 				}
-				if (prevSlide) {
-					prevSlide.classList.add(params.slidePrevClass);
-				}
 			}
 		}
+		slides.forEach(slideEl => {
+			toggleSlideClasses(slideEl, slideEl === activeSlide, params.slideActiveClass);
+			toggleSlideClasses(slideEl, slideEl === nextSlide, params.slideNextClass);
+			toggleSlideClasses(slideEl, slideEl === prevSlide, params.slidePrevClass);
+		});
 		swiper.emitSlidesClasses();
 	}
 
@@ -1470,7 +1513,7 @@ var wdSwiper = (function () {
 		if (swiper.virtual && params.virtual.enabled && params.loop) {
 			realIndex = getVirtualRealIndex(activeIndex);
 		} else if (gridEnabled) {
-			const firstSlideInColumn = swiper.slides.filter(slideEl => slideEl.column === activeIndex)[0];
+			const firstSlideInColumn = swiper.slides.find(slideEl => slideEl.column === activeIndex);
 			let activeSlideIndex = parseInt(firstSlideInColumn.getAttribute('data-swiper-slide-index'), 10);
 			if (Number.isNaN(activeSlideIndex)) {
 				activeSlideIndex = Math.max(swiper.slides.indexOf(firstSlideInColumn), 0);
@@ -1707,6 +1750,7 @@ var wdSwiper = (function () {
 						swiper.wrapperEl.removeEventListener('transitionend', swiper.onTranslateToWrapperTransitionEnd);
 						swiper.onTranslateToWrapperTransitionEnd = null;
 						delete swiper.onTranslateToWrapperTransitionEnd;
+						swiper.animating = false;
 						if (runCallbacks) {
 							swiper.emit('transitionEnd');
 						}
@@ -1814,9 +1858,6 @@ var wdSwiper = (function () {
 		if (index === void 0) {
 			index = 0;
 		}
-		if (speed === void 0) {
-			speed = this.params.speed;
-		}
 		if (runCallbacks === void 0) {
 			runCallbacks = true;
 		}
@@ -1836,8 +1877,11 @@ var wdSwiper = (function () {
 			wrapperEl,
 			enabled
 		} = swiper;
-		if (swiper.animating && params.preventInteractionOnTransition || !enabled && !internal && !initial) {
+		if (!enabled && !internal && !initial || swiper.destroyed || swiper.animating && params.preventInteractionOnTransition) {
 			return false;
+		}
+		if (typeof speed === 'undefined') {
+			speed = swiper.params.speed;
 		}
 		const skip = Math.min(swiper.params.slidesPerGroupSkip, slideIndex);
 		let snapIndex = skip + Math.floor((slideIndex - skip) / swiper.params.slidesPerGroup);
@@ -1880,8 +1924,11 @@ var wdSwiper = (function () {
 		let direction;
 		if (slideIndex > activeIndex) direction = 'next';else if (slideIndex < activeIndex) direction = 'prev';else direction = 'reset';
 
+		// initial virtual
+		const isVirtual = swiper.virtual && swiper.params.virtual.enabled;
+		const isInitialVirtual = isVirtual && initial;
 		// Update Index
-		if (rtl && -translate === swiper.translate || !rtl && translate === swiper.translate) {
+		if (!isInitialVirtual && (rtl && -translate === swiper.translate || !rtl && translate === swiper.translate)) {
 			swiper.updateActiveIndex(slideIndex);
 			// Update Height
 			if (params.autoHeight) {
@@ -1901,7 +1948,6 @@ var wdSwiper = (function () {
 			const isH = swiper.isHorizontal();
 			const t = rtl ? translate : -translate;
 			if (speed === 0) {
-				const isVirtual = swiper.virtual && swiper.params.virtual.enabled;
 				if (isVirtual) {
 					swiper.wrapperEl.style.scrollSnapType = 'none';
 					swiper._immediateVirtual = true;
@@ -1936,6 +1982,11 @@ var wdSwiper = (function () {
 			}
 			return true;
 		}
+		const browser = getBrowser();
+		const isSafari = browser.isSafari;
+		if (isVirtual && !initial && isSafari && swiper.isElement) {
+			swiper.virtual.update(false, false, slideIndex);
+		}
 		swiper.setTransition(speed);
 		swiper.setTranslate(translate);
 		swiper.updateActiveIndex(slideIndex);
@@ -1965,9 +2016,6 @@ var wdSwiper = (function () {
 		if (index === void 0) {
 			index = 0;
 		}
-		if (speed === void 0) {
-			speed = this.params.speed;
-		}
 		if (runCallbacks === void 0) {
 			runCallbacks = true;
 		}
@@ -1976,6 +2024,10 @@ var wdSwiper = (function () {
 			index = indexAsNumber;
 		}
 		const swiper = this;
+		if (swiper.destroyed) return;
+		if (typeof speed === 'undefined') {
+			speed = swiper.params.speed;
+		}
 		const gridEnabled = swiper.grid && swiper.params.grid && swiper.params.grid.rows > 1;
 		let newIndex = index;
 		if (swiper.params.loop) {
@@ -1986,7 +2038,7 @@ var wdSwiper = (function () {
 				let targetSlideIndex;
 				if (gridEnabled) {
 					const slideIndex = newIndex * swiper.params.grid.rows;
-					targetSlideIndex = swiper.slides.filter(slideEl => slideEl.getAttribute('data-swiper-slide-index') * 1 === slideIndex)[0].column;
+					targetSlideIndex = swiper.slides.find(slideEl => slideEl.getAttribute('data-swiper-slide-index') * 1 === slideIndex).column;
 				} else {
 					targetSlideIndex = swiper.getSlideIndexByData(newIndex);
 				}
@@ -2007,6 +2059,9 @@ var wdSwiper = (function () {
 				if (centeredSlides) {
 					needLoopFix = needLoopFix || targetSlideIndex < Math.ceil(slidesPerView / 2);
 				}
+				if (internal && centeredSlides && swiper.params.slidesPerView !== 'auto' && !gridEnabled) {
+					needLoopFix = false;
+				}
 				if (needLoopFix) {
 					const direction = centeredSlides ? targetSlideIndex < swiper.activeIndex ? 'prev' : 'next' : targetSlideIndex - swiper.activeIndex - 1 < swiper.params.slidesPerView ? 'next' : 'prev';
 					swiper.loopFix({
@@ -2018,7 +2073,7 @@ var wdSwiper = (function () {
 				}
 				if (gridEnabled) {
 					const slideIndex = newIndex * swiper.params.grid.rows;
-					newIndex = swiper.slides.filter(slideEl => slideEl.getAttribute('data-swiper-slide-index') * 1 === slideIndex)[0].column;
+					newIndex = swiper.slides.find(slideEl => slideEl.getAttribute('data-swiper-slide-index') * 1 === slideIndex).column;
 				} else {
 					newIndex = swiper.getSlideIndexByData(newIndex);
 				}
@@ -2032,9 +2087,6 @@ var wdSwiper = (function () {
 
 	/* eslint no-unused-vars: "off" */
 	function slideNext(speed, runCallbacks, internal) {
-		if (speed === void 0) {
-			speed = this.params.speed;
-		}
 		if (runCallbacks === void 0) {
 			runCallbacks = true;
 		}
@@ -2044,7 +2096,10 @@ var wdSwiper = (function () {
 			params,
 			animating
 		} = swiper;
-		if (!enabled) return swiper;
+		if (!enabled || swiper.destroyed) return swiper;
+		if (typeof speed === 'undefined') {
+			speed = swiper.params.speed;
+		}
 		let perGroup = params.slidesPerGroup;
 		if (params.slidesPerView === 'auto' && params.slidesPerGroup === 1 && params.slidesPerGroupAuto) {
 			perGroup = Math.max(swiper.slidesPerViewDynamic('current', true), 1);
@@ -2073,9 +2128,6 @@ var wdSwiper = (function () {
 
 	/* eslint no-unused-vars: "off" */
 	function slidePrev(speed, runCallbacks, internal) {
-		if (speed === void 0) {
-			speed = this.params.speed;
-		}
 		if (runCallbacks === void 0) {
 			runCallbacks = true;
 		}
@@ -2088,7 +2140,10 @@ var wdSwiper = (function () {
 			enabled,
 			animating
 		} = swiper;
-		if (!enabled) return swiper;
+		if (!enabled || swiper.destroyed) return swiper;
+		if (typeof speed === 'undefined') {
+			speed = swiper.params.speed;
+		}
 		const isVirtual = swiper.virtual && params.virtual.enabled;
 		if (params.loop) {
 			if (animating && !isVirtual && params.loopPreventsSliding) return false;
@@ -2105,8 +2160,9 @@ var wdSwiper = (function () {
 		}
 		const normalizedTranslate = normalize(translate);
 		const normalizedSnapGrid = snapGrid.map(val => normalize(val));
+		const isFreeMode = params.freeMode && params.freeMode.enabled;
 		let prevSnap = snapGrid[normalizedSnapGrid.indexOf(normalizedTranslate) - 1];
-		if (typeof prevSnap === 'undefined' && params.cssMode) {
+		if (typeof prevSnap === 'undefined' && (params.cssMode || isFreeMode)) {
 			let prevSnapIndex;
 			snapGrid.forEach((snap, snapIndex) => {
 				if (normalizedTranslate >= snap) {
@@ -2115,7 +2171,7 @@ var wdSwiper = (function () {
 				}
 			});
 			if (typeof prevSnapIndex !== 'undefined') {
-				prevSnap = snapGrid[prevSnapIndex > 0 ? prevSnapIndex - 1 : prevSnapIndex];
+				prevSnap = isFreeMode ? snapGrid[prevSnapIndex] : snapGrid[prevSnapIndex > 0 ? prevSnapIndex - 1 : prevSnapIndex];
 			}
 		}
 		let prevIndex = 0;
@@ -2141,21 +2197,19 @@ var wdSwiper = (function () {
 
 	/* eslint no-unused-vars: "off" */
 	function slideReset(speed, runCallbacks, internal) {
-		if (speed === void 0) {
-			speed = this.params.speed;
-		}
 		if (runCallbacks === void 0) {
 			runCallbacks = true;
 		}
 		const swiper = this;
+		if (swiper.destroyed) return;
+		if (typeof speed === 'undefined') {
+			speed = swiper.params.speed;
+		}
 		return swiper.slideTo(swiper.activeIndex, speed, runCallbacks, internal);
 	}
 
 	/* eslint no-unused-vars: "off" */
 	function slideToClosest(speed, runCallbacks, internal, threshold) {
-		if (speed === void 0) {
-			speed = this.params.speed;
-		}
 		if (runCallbacks === void 0) {
 			runCallbacks = true;
 		}
@@ -2163,6 +2217,10 @@ var wdSwiper = (function () {
 			threshold = 0.5;
 		}
 		const swiper = this;
+		if (swiper.destroyed) return;
+		if (typeof speed === 'undefined') {
+			speed = swiper.params.speed;
+		}
 		let index = swiper.activeIndex;
 		const skip = Math.min(swiper.params.slidesPerGroupSkip, index);
 		const snapIndex = skip + Math.floor((index - skip) / swiper.params.slidesPerGroup);
@@ -2191,6 +2249,7 @@ var wdSwiper = (function () {
 
 	function slideToClickedSlide() {
 		const swiper = this;
+		if (swiper.destroyed) return;
 		const {
 			params,
 			slidesEl
@@ -2354,7 +2413,7 @@ var wdSwiper = (function () {
 		const appendSlidesIndexes = [];
 		let activeIndex = swiper.activeIndex;
 		if (typeof activeSlideIndex === 'undefined') {
-			activeSlideIndex = swiper.getSlideIndex(slides.filter(el => el.classList.contains(params.slideActiveClass))[0]);
+			activeSlideIndex = swiper.getSlideIndex(slides.find(el => el.classList.contains(params.slideActiveClass)));
 		} else {
 			activeIndex = activeSlideIndex;
 		}
@@ -2433,7 +2492,7 @@ var wdSwiper = (function () {
 					if (byMousewheel) {
 						swiper.setTranslate(swiper.translate - diff);
 					} else {
-						swiper.slideTo(activeIndex + slidesPrepended, 0, false, true);
+						swiper.slideTo(activeIndex + Math.ceil(slidesPrepended), 0, false, true);
 						if (setTranslate) {
 							swiper.touchEventsData.startTranslate = swiper.touchEventsData.startTranslate - diff;
 							swiper.touchEventsData.currentTranslate = swiper.touchEventsData.currentTranslate - diff;
@@ -2625,7 +2684,7 @@ var wdSwiper = (function () {
 		}
 		let targetEl = e.target;
 		if (params.touchEventsTarget === 'wrapper') {
-			if (!swiper.wrapperEl.contains(targetEl)) return;
+			if (!elementIsChildOf(targetEl, swiper.wrapperEl)) return;
 		}
 		if ('which' in e && e.which === 3) return;
 		if ('button' in e && e.button > 0) return;
@@ -2680,7 +2739,7 @@ var wdSwiper = (function () {
 				data.isTouched = false;
 			}
 		}
-		if (document.activeElement && document.activeElement.matches(data.focusableElements) && document.activeElement !== targetEl) {
+		if (document.activeElement && document.activeElement.matches(data.focusableElements) && document.activeElement !== targetEl && (e.pointerType === 'mouse' || e.pointerType !== 'mouse' && !targetEl.matches(data.focusableElements))) {
 			document.activeElement.blur();
 		}
 		const shouldPreventDefault = preventDefault && swiper.allowTouchMove && params.touchStartPreventDefault;
@@ -2714,7 +2773,7 @@ var wdSwiper = (function () {
 		}
 		let targetTouch;
 		if (e.type === 'touchmove') {
-			targetTouch = [...e.changedTouches].filter(t => t.identifier === data.touchId)[0];
+			targetTouch = [...e.changedTouches].find(t => t.identifier === data.touchId);
 			if (!targetTouch || targetTouch.identifier !== data.touchId) return;
 		} else {
 			targetTouch = e;
@@ -2759,6 +2818,9 @@ var wdSwiper = (function () {
 				return;
 			}
 		}
+		if (document.activeElement && document.activeElement.matches(data.focusableElements) && document.activeElement !== e.target && e.pointerType !== 'mouse') {
+			document.activeElement.blur();
+		}
 		if (document.activeElement) {
 			if (e.target === document.activeElement && e.target.matches(data.focusableElements)) {
 				data.isMoved = true;
@@ -2796,7 +2858,7 @@ var wdSwiper = (function () {
 				data.startMoving = true;
 			}
 		}
-		if (data.isScrolling) {
+		if (data.isScrolling || e.type === 'touchmove' && data.preventTouchMoveFromPointerMove) {
 			data.isTouched = false;
 			return;
 		}
@@ -2838,7 +2900,10 @@ var wdSwiper = (function () {
 			if (swiper.animating) {
 				const evt = new window.CustomEvent('transitionend', {
 					bubbles: true,
-					cancelable: true
+					cancelable: true,
+					detail: {
+						bySwiperTouchMove: true
+					}
 				});
 				swiper.wrapperEl.dispatchEvent(evt);
 			}
@@ -2851,7 +2916,7 @@ var wdSwiper = (function () {
 		}
 		let loopFixed;
 		new Date().getTime();
-		if (data.isMoved && data.allowThresholdMove && prevTouchesDirection !== swiper.touchesDirection && isLoop && allowLoopFix && Math.abs(diff) >= 1) {
+		if (params._loopSwapReset !== false && data.isMoved && data.allowThresholdMove && prevTouchesDirection !== swiper.touchesDirection && isLoop && allowLoopFix && Math.abs(diff) >= 1) {
 			Object.assign(touches, {
 				startX: pageX,
 				startY: pageY,
@@ -2872,7 +2937,7 @@ var wdSwiper = (function () {
 			resistanceRatio = 0;
 		}
 		if (diff > 0) {
-			if (isLoop && allowLoopFix && !loopFixed && data.allowThresholdMove && data.currentTranslate > (params.centeredSlides ? swiper.minTranslate() - swiper.slidesSizesGrid[swiper.activeIndex + 1] : swiper.minTranslate())) {
+			if (isLoop && allowLoopFix && !loopFixed && data.allowThresholdMove && data.currentTranslate > (params.centeredSlides ? swiper.minTranslate() - swiper.slidesSizesGrid[swiper.activeIndex + 1] - (params.slidesPerView !== 'auto' && swiper.slides.length - params.slidesPerView >= 2 ? swiper.slidesSizesGrid[swiper.activeIndex + 1] + swiper.params.spaceBetween : 0) - swiper.params.spaceBetween : swiper.minTranslate())) {
 				swiper.loopFix({
 					direction: 'prev',
 					setTranslate: true,
@@ -2886,7 +2951,7 @@ var wdSwiper = (function () {
 				}
 			}
 		} else if (diff < 0) {
-			if (isLoop && allowLoopFix && !loopFixed && data.allowThresholdMove && data.currentTranslate < (params.centeredSlides ? swiper.maxTranslate() + swiper.slidesSizesGrid[swiper.slidesSizesGrid.length - 1] : swiper.maxTranslate())) {
+			if (isLoop && allowLoopFix && !loopFixed && data.allowThresholdMove && data.currentTranslate < (params.centeredSlides ? swiper.maxTranslate() + swiper.slidesSizesGrid[swiper.slidesSizesGrid.length - 1] + swiper.params.spaceBetween + (params.slidesPerView !== 'auto' && swiper.slides.length - params.slidesPerView >= 2 ? swiper.slidesSizesGrid[swiper.slidesSizesGrid.length - 1] + swiper.params.spaceBetween : 0) : swiper.maxTranslate())) {
 				swiper.loopFix({
 					direction: 'next',
 					setTranslate: true,
@@ -2959,7 +3024,7 @@ var wdSwiper = (function () {
 			if (e.pointerId !== data.pointerId) return;
 			targetTouch = e;
 		} else {
-			targetTouch = [...e.changedTouches].filter(t => t.identifier === data.touchId)[0];
+			targetTouch = [...e.changedTouches].find(t => t.identifier === data.touchId);
 			if (!targetTouch || targetTouch.identifier !== data.touchId) return;
 		}
 		if (['pointercancel', 'pointerout', 'pointerleave', 'contextmenu'].includes(e.type)) {
@@ -3232,6 +3297,7 @@ var wdSwiper = (function () {
 		const capture = !!params.nested;
 		const domMethod = method === 'on' ? 'addEventListener' : 'removeEventListener';
 		const swiperMethod = method;
+		if (!el || typeof el === 'string') return;
 
 		// Touch Events
 		document[domMethod]('touchstart', swiper.onDocumentTouchStart, {
@@ -3332,14 +3398,19 @@ var wdSwiper = (function () {
 		} = swiper;
 		const breakpoints = params.breakpoints;
 		if (!breakpoints || breakpoints && Object.keys(breakpoints).length === 0) return;
+		const document = getDocument();
 
-		// Get breakpoint for window width and update parameters
-		const breakpoint = swiper.getBreakpoint(breakpoints, swiper.params.breakpointsBase, swiper.el);
+		// Get breakpoint for window/container width and update parameters
+		const breakpointsBase = params.breakpointsBase === 'window' || !params.breakpointsBase ? params.breakpointsBase : 'container';
+		const breakpointContainer = ['window', 'container'].includes(params.breakpointsBase) || !params.breakpointsBase ? swiper.el : document.querySelector(params.breakpointsBase);
+		const breakpoint = swiper.getBreakpoint(breakpoints, breakpointsBase, breakpointContainer);
 		if (!breakpoint || swiper.currentBreakpoint === breakpoint) return;
 		const breakpointOnlyParams = breakpoint in breakpoints ? breakpoints[breakpoint] : undefined;
 		const breakpointParams = breakpointOnlyParams || swiper.originalParams;
 		const wasMultiRow = isGridEnabled(swiper, params);
 		const isMultiRow = isGridEnabled(swiper, breakpointParams);
+		const wasGrabCursor = swiper.params.grabCursor;
+		const isGrabCursor = breakpointParams.grabCursor;
 		const wasEnabled = params.enabled;
 		if (wasMultiRow && !isMultiRow) {
 			el.classList.remove(`${params.containerModifierClass}grid`, `${params.containerModifierClass}grid-column`);
@@ -3350,6 +3421,11 @@ var wdSwiper = (function () {
 				el.classList.add(`${params.containerModifierClass}grid-column`);
 			}
 			swiper.emitContainerClasses();
+		}
+		if (wasGrabCursor && !isGrabCursor) {
+			swiper.unsetGrabCursor();
+		} else if (!wasGrabCursor && isGrabCursor) {
+			swiper.setGrabCursor();
 		}
 
 		// Toggle navigation, pagination, scrollbar
@@ -3501,6 +3577,7 @@ var wdSwiper = (function () {
 			el,
 			classNames
 		} = swiper;
+		if (!el || typeof el === 'string') return;
 		el.classList.remove(...classNames);
 		swiper.emitContainerClasses();
 	}
@@ -3547,6 +3624,7 @@ var wdSwiper = (function () {
 		init: true,
 		direction: 'horizontal',
 		oneWayMovement: false,
+		swiperElementNodeName: 'SWIPER-CONTAINER',
 		touchEventsTarget: 'wrapper',
 		initialSlide: 0,
 		speed: 300,
@@ -3901,7 +3979,7 @@ var wdSwiper = (function () {
 			return elementIndex(slideEl) - firstSlideIndex;
 		}
 		getSlideIndexByData(index) {
-			return this.getSlideIndex(this.slides.filter(slideEl => slideEl.getAttribute('data-swiper-slide-index') * 1 === index)[0]);
+			return this.getSlideIndex(this.slides.find(slideEl => slideEl.getAttribute('data-swiper-slide-index') * 1 === index));
 		}
 		recalcSlides() {
 			const swiper = this;
@@ -3987,11 +4065,11 @@ var wdSwiper = (function () {
 			let spv = 1;
 			if (typeof params.slidesPerView === 'number') return params.slidesPerView;
 			if (params.centeredSlides) {
-				let slideSize = slides[activeIndex] ? slides[activeIndex].swiperSlideSize : 0;
+				let slideSize = slides[activeIndex] ? Math.ceil(slides[activeIndex].swiperSlideSize) : 0;
 				let breakLoop;
 				for (let i = activeIndex + 1; i < slides.length; i += 1) {
 					if (slides[i] && !breakLoop) {
-						slideSize += slides[i].swiperSlideSize;
+						slideSize += Math.ceil(slides[i].swiperSlideSize);
 						spv += 1;
 						if (slideSize > swiperSize) breakLoop = true;
 					}
@@ -4128,7 +4206,7 @@ var wdSwiper = (function () {
 				return false;
 			}
 			el.swiper = swiper;
-			if (el.parentNode && el.parentNode.host && el.parentNode.host.nodeName === 'SWIPER-CONTAINER') {
+			if (el.parentNode && el.parentNode.host && el.parentNode.host.nodeName === swiper.params.swiperElementNodeName.toUpperCase()) {
 				swiper.isElement = true;
 			}
 			const getWrapperSelector = () => {
@@ -4264,8 +4342,12 @@ var wdSwiper = (function () {
 			// Cleanup styles
 			if (cleanStyles) {
 				swiper.removeClasses();
-				el.removeAttribute('style');
-				wrapperEl.removeAttribute('style');
+				if (el && typeof el !== 'string') {
+					el.removeAttribute('style');
+				}
+				if (wrapperEl) {
+					wrapperEl.removeAttribute('style');
+				}
 				if (slides && slides.length) {
 					slides.forEach(slideEl => {
 						slideEl.classList.remove(params.slideVisibleClass, params.slideFullyVisibleClass, params.slideActiveClass, params.slideNextClass, params.slidePrevClass);
@@ -4281,7 +4363,9 @@ var wdSwiper = (function () {
 				swiper.off(eventName);
 			});
 			if (deleteInstance !== false) {
-				swiper.el.swiper = null;
+				if (swiper.el && typeof swiper.el !== 'string') {
+					swiper.el.swiper = null;
+				}
 				deleteProps(swiper);
 			}
 			swiper.destroyed = true;
@@ -4359,17 +4443,18 @@ var wdSwiper = (function () {
 			nextEl: null,
 			prevEl: null
 		};
-		const makeElementsArray = el => (Array.isArray(el) ? el : [el]).filter(e => !!e);
 		function getEl(el) {
 			let res;
 			if (el && typeof el === 'string' && swiper.isElement) {
-				res = swiper.el.querySelector(el);
+				res = swiper.el.querySelector(el) || swiper.hostEl.querySelector(el);
 				if (res) return res;
 			}
 			if (el) {
 				if (typeof el === 'string') res = [...document.querySelectorAll(el)];
-				if (swiper.params.uniqueNavElements && typeof el === 'string' && res.length > 1 && swiper.el.querySelectorAll(el).length === 1) {
+				if (swiper.params.uniqueNavElements && typeof el === 'string' && res && res.length > 1 && swiper.el.querySelectorAll(el).length === 1) {
 					res = swiper.el.querySelector(el);
+				} else if (res && res.length === 1) {
+					res = res[0];
 				}
 			}
 			if (el && !res) return el;
@@ -4491,7 +4576,14 @@ var wdSwiper = (function () {
 			nextEl = makeElementsArray(nextEl);
 			prevEl = makeElementsArray(prevEl);
 			const targetEl = e.target;
-			if (swiper.params.navigation.hideOnClick && !prevEl.includes(targetEl) && !nextEl.includes(targetEl)) {
+			let targetIsButton = prevEl.includes(targetEl) || nextEl.includes(targetEl);
+			if (swiper.isElement && !targetIsButton) {
+				const path = e.path || e.composedPath && e.composedPath();
+				if (path) {
+					targetIsButton = path.find(pathEl => nextEl.includes(pathEl) || prevEl.includes(pathEl));
+				}
+			}
+			if (swiper.params.navigation.hideOnClick && !targetIsButton) {
 				if (swiper.pagination && swiper.params.pagination && swiper.params.pagination.clickable && (swiper.pagination.el === targetEl || swiper.pagination.el.contains(targetEl))) return;
 				let isHidden;
 				if (nextEl.length) {
@@ -4579,7 +4671,6 @@ var wdSwiper = (function () {
 		};
 		let bulletSize;
 		let dynamicBulletIndex = 0;
-		const makeElementsArray = el => (Array.isArray(el) ? el : [el]).filter(e => !!e);
 		function isPaginationDisabled() {
 			return !swiper.params.pagination.el || !swiper.pagination.el || Array.isArray(swiper.pagination.el) && swiper.pagination.el.length === 0;
 		}
@@ -4597,6 +4688,16 @@ var wdSwiper = (function () {
 				}
 			}
 		}
+		function getMoveDirection(prevIndex, nextIndex, length) {
+			prevIndex = prevIndex % length;
+			nextIndex = nextIndex % length;
+			if (nextIndex === prevIndex + 1) {
+				return 'next';
+			} else if (nextIndex === prevIndex - 1) {
+				return 'previous';
+			}
+			return;
+		}
 		function onBulletClick(e) {
 			const bulletEl = e.target.closest(classesToSelector(swiper.params.pagination.bulletClass));
 			if (!bulletEl) {
@@ -4606,7 +4707,14 @@ var wdSwiper = (function () {
 			const index = elementIndex(bulletEl) * swiper.params.slidesPerGroup;
 			if (swiper.params.loop) {
 				if (swiper.realIndex === index) return;
-				swiper.slideToLoop(index);
+				const moveDirection = getMoveDirection(swiper.realIndex, index, swiper.slides.length);
+				if (moveDirection === 'next') {
+					swiper.slideNext();
+				} else if (moveDirection === 'previous') {
+					swiper.slidePrev();
+				} else {
+					swiper.slideToLoop(index);
+				}
 			} else {
 				swiper.slideTo(index);
 			}
@@ -4822,10 +4930,10 @@ var wdSwiper = (function () {
 				el = [...swiper.el.querySelectorAll(params.el)];
 				// check if it belongs to another nested Swiper
 				if (el.length > 1) {
-					el = el.filter(subEl => {
+					el = el.find(subEl => {
 						if (elementParents(subEl, '.swiper')[0] !== swiper.el) return false;
 						return true;
-					})[0];
+					});
 				}
 			}
 			if (Array.isArray(el) && el.length === 1) el = el[0];
@@ -5148,7 +5256,7 @@ var wdSwiper = (function () {
 				dragEl
 			} = scrollbar;
 			if (!isTouched) return;
-			if (e.preventDefault) e.preventDefault();else e.returnValue = false;
+			if (e.preventDefault && e.cancelable) e.preventDefault();else e.returnValue = false;
 			setDragPosition(e);
 			wrapperEl.style.transitionDuration = '0ms';
 			el.style.transitionDuration = '0ms';
@@ -5264,6 +5372,18 @@ var wdSwiper = (function () {
 			}
 			disableDraggable();
 		}
+		on('changeDirection', () => {
+			if (!swiper.scrollbar || !swiper.scrollbar.el) return;
+			const params = swiper.params.scrollbar;
+			let {
+				el
+			} = swiper.scrollbar;
+			el = makeElementsArray(el);
+			el.forEach(subEl => {
+				subEl.classList.remove(params.horizontalClass, params.verticalClass);
+				subEl.classList.add(swiper.isHorizontal() ? params.horizontalClass : params.verticalClass);
+			});
+		});
 		on('init', () => {
 			if (swiper.params.scrollbar.enabled === false) {
 				// eslint-disable-next-line
@@ -5274,7 +5394,7 @@ var wdSwiper = (function () {
 				setTranslate();
 			}
 		});
-		on('update resize observerUpdate lock unlock', () => {
+		on('update resize observerUpdate lock unlock changeDirection', () => {
 			updateSize();
 		});
 		on('setTranslate', () => {
@@ -5483,7 +5603,7 @@ var wdSwiper = (function () {
 			if (!swiper || swiper.destroyed || !swiper.wrapperEl) return;
 			if (e.target !== swiper.wrapperEl) return;
 			swiper.wrapperEl.removeEventListener('transitionend', onTransitionEnd);
-			if (pausedByPointerEnter) {
+			if (pausedByPointerEnter || e.detail && e.detail.bySwiperTouchMove) {
 				return;
 			}
 			resume();
@@ -5506,7 +5626,7 @@ var wdSwiper = (function () {
 		const getSlideDelay = () => {
 			let activeSlideEl;
 			if (swiper.virtual && swiper.params.virtual.enabled) {
-				activeSlideEl = swiper.slides.filter(slideEl => slideEl.classList.contains('swiper-slide-active'))[0];
+				activeSlideEl = swiper.slides.find(slideEl => slideEl.classList.contains('swiper-slide-active'));
 			} else {
 				activeSlideEl = swiper.slides[swiper.activeIndex];
 			}
@@ -5654,8 +5774,10 @@ var wdSwiper = (function () {
 			}
 		};
 		const detachMouseEvents = () => {
-			swiper.el.removeEventListener('pointerenter', onPointerEnter);
-			swiper.el.removeEventListener('pointerleave', onPointerLeave);
+			if (swiper.el && typeof swiper.el !== 'string') {
+				swiper.el.removeEventListener('pointerenter', onPointerEnter);
+				swiper.el.removeEventListener('pointerleave', onPointerLeave);
+			}
 		};
 		const attachDocumentEvents = () => {
 			const document = getDocument();
@@ -5845,7 +5967,7 @@ var wdSwiper = (function () {
 				let newThumbsIndex;
 				let direction;
 				if (thumbsSwiper.params.loop) {
-					const newThumbsSlide = thumbsSwiper.slides.filter(slideEl => slideEl.getAttribute('data-swiper-slide-index') === `${swiper.realIndex}`)[0];
+					const newThumbsSlide = thumbsSwiper.slides.find(slideEl => slideEl.getAttribute('data-swiper-slide-index') === `${swiper.realIndex}`);
 					newThumbsIndex = thumbsSwiper.slides.indexOf(newThumbsSlide);
 					direction = swiper.activeIndex > swiper.previousIndex ? 'next' : 'prev';
 				} else {
@@ -5881,15 +6003,16 @@ var wdSwiper = (function () {
 						init();
 						update(true);
 					} else if (thumbsElement) {
+						const eventName = `${swiper.params.eventsPrefix}init`;
 						const onThumbsSwiper = e => {
 							thumbs.swiper = e.detail[0];
-							thumbsElement.removeEventListener('init', onThumbsSwiper);
+							thumbsElement.removeEventListener(eventName, onThumbsSwiper);
 							init();
 							update(true);
 							thumbs.swiper.update();
 							swiper.update();
 						};
-						thumbsElement.addEventListener('init', onThumbsSwiper);
+						thumbsElement.addEventListener(eventName, onThumbsSwiper);
 					}
 					return thumbsElement;
 				};
@@ -6006,7 +6129,7 @@ var wdSwiper = (function () {
 		const getSlide = el => {
 			if (!el.parentElement) {
 				// assume shadow root
-				const slide = swiper.slides.filter(slideEl => slideEl.shadowRoot && slideEl.shadowRoot === el.parentNode)[0];
+				const slide = swiper.slides.find(slideEl => slideEl.shadowRoot && slideEl.shadowRoot === el.parentNode);
 				return slide;
 			}
 			return el.parentElement;
@@ -6099,15 +6222,15 @@ var wdSwiper = (function () {
 	}
 
 	/**
-	 * Swiper 11.0.5
+	 * Swiper 11.2.4
 	 * Most modern mobile touch slider and framework with hardware accelerated transitions
 	 * https://swiperjs.com
 	 *
-	 * Copyright 2014-2023 Vladimir Kharlampidi
+	 * Copyright 2014-2025 Vladimir Kharlampidi
 	 *
 	 * Released under the MIT License
 	 *
-	 * Released on: November 22, 2023
+	 * Released on: February 14, 2025
 	 */
 	// Swiper Class
 	const modules = [Navigation, Pagination, Scrollbar, Parallax, Autoplay, Thumb, EffectFade];

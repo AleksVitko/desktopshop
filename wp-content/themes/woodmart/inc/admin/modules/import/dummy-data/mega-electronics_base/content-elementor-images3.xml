@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.3" created="2023-12-05 13:50" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-03 14:35" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Mega electronics elementor</title>
 	<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor</link>
 	<description>Multipurpose WooCommerce Electronics Theme</description>
-	<pubDate>Tue, 05 Dec 2023 13:50:46 +0000</pubDate>
+	<pubDate>Mon, 03 Feb 2025 14:35:06 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,519 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.2.3</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
-					<title><![CDATA[apple-macbook-pro-16-silver-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8646</link>
-					<pubDate>Wed, 25 Jan 2023 10:59:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-16-silver-1.jpg</guid>
-															<wp:post_id>8646</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 10:59:35]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 10:59:35]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 10:59:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 10:59:35]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[apple-macbook-pro-16-silver-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-16-silver-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/apple-macbook-pro-16-silver-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[apple-ipad-mini-pink-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8683</link>
 					<pubDate>Wed, 25 Jan 2023 12:13:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg</guid>
-															<wp:post_id>8683</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:13:02]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:13:02]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:13:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:13:02]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[apple-ipad-mini-pink-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>977</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/apple-ipad-mini-pink-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-q24p2q-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8744</link>
-					<pubDate>Wed, 25 Jan 2023 12:26:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg</guid>
-															<wp:post_id>8744</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:26:34]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:26:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-q24p2q-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1369</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-q24p2q-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-u32u1-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8748</link>
-					<pubDate>Wed, 25 Jan 2023 12:27:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-u32u1-1.jpg</guid>
-															<wp:post_id>8748</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:27:12]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:27:12]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:27:12]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:27:12]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-u32u1-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1375</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-u32u1-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-u32u1-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[amd-ryzen-5-5600x-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8801</link>
-					<pubDate>Wed, 25 Jan 2023 12:37:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-5-5600x-1.jpg</guid>
-															<wp:post_id>8801</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:37:54]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:37:54]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:37:54]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:37:54]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[amd-ryzen-5-5600x-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1524</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-5-5600x-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/amd-ryzen-5-5600x-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8918</link>
-					<pubDate>Wed, 25 Jan 2023 13:07:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-1.jpg</guid>
-															<wp:post_id>8918</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:07:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:07:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:07:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:07:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8922</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-2.jpg</guid>
-															<wp:post_id>8922</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:11]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:11]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:11]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:11]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-2.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-2.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-white]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8923</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-white.jpg</guid>
-															<wp:post_id>8923</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:24]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:24]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:24]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-white]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-white.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-white.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8924</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg</guid>
-															<wp:post_id>8924</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-green]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8925</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-green.jpg</guid>
-															<wp:post_id>8925</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-green]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-green.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-green.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[apple-ipad-mini-pink-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8683</link>
-					<pubDate>Wed, 25 Jan 2023 12:13:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg</guid>
-															<wp:post_id>8683</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:13:02]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:13:02]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:13:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:13:02]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[apple-ipad-mini-pink-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>977</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/apple-ipad-mini-pink-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-agon-ag493ucx-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8735</link>
-					<pubDate>Wed, 25 Jan 2023 12:25:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-agon-ag493ucx-1.jpg</guid>
-															<wp:post_id>8735</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:25:03]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:25:03]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:25:03]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:25:03]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-agon-ag493ucx-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1359</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-agon-ag493ucx-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-agon-ag493ucx-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-cu34g2x-bk-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8740</link>
-					<pubDate>Wed, 25 Jan 2023 12:25:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-cu34g2x-bk-1.jpg</guid>
-															<wp:post_id>8740</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:25:48]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:25:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:25:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:25:48]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-cu34g2x-bk-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1364</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-cu34g2x-bk-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-cu34g2x-bk-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-q24p2q-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8744</link>
-					<pubDate>Wed, 25 Jan 2023 12:26:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg</guid>
-															<wp:post_id>8744</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:26:34]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:26:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-q24p2q-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1369</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-q24p2q-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[canon-i-sensys-lbp722cdw-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8765</link>
-					<pubDate>Wed, 25 Jan 2023 12:30:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg</guid>
-															<wp:post_id>8765</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:30:08]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:30:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[canon-i-sensys-lbp722cdw-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[acer-sa100-sataiii-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8793</link>
-					<pubDate>Wed, 25 Jan 2023 12:36:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/acer-sa100-sataiii-1.jpg</guid>
-															<wp:post_id>8793</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:36:24]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:36:24]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:36:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:36:24]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[acer-sa100-sataiii-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1451</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/acer-sa100-sataiii-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/acer-sa100-sataiii-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[amd-radeon-pro-w5500-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8797</link>
-					<pubDate>Wed, 25 Jan 2023 12:37:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg</guid>
-															<wp:post_id>8797</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:37:01]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:37:01]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:37:01]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:37:01]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[amd-radeon-pro-w5500-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1519</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/amd-radeon-pro-w5500-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8918</link>
-					<pubDate>Wed, 25 Jan 2023 13:07:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-1.jpg</guid>
-															<wp:post_id>8918</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:07:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:07:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:07:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:07:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8922</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-2.jpg</guid>
-															<wp:post_id>8922</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:11]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:11]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:11]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:11]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-2.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-2.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-white]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8923</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-white.jpg</guid>
-															<wp:post_id>8923</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:24]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:24]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:24]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-white]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-white.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-white.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8924</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg</guid>
-															<wp:post_id>8924</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-green]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8925</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-green.jpg</guid>
-															<wp:post_id>8925</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-green]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-green.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-green.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[apple-ipad-mini-pink-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8683</link>
-					<pubDate>Wed, 25 Jan 2023 12:13:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg</guid>
 															<wp:post_id>8683</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:13:02]]></wp:post_date>
@@ -579,7 +72,7 @@
 					<title><![CDATA[acer-prodesigner-pe320qk-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8731</link>
 					<pubDate>Wed, 25 Jan 2023 12:24:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/acer-prodesigner-pe320qk-1.jpg</guid>
 															<wp:post_id>8731</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:24:02]]></wp:post_date>
@@ -602,7 +95,7 @@
 					<title><![CDATA[aoc-cu34g2x-bk-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8740</link>
 					<pubDate>Wed, 25 Jan 2023 12:25:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-cu34g2x-bk-1.jpg</guid>
 															<wp:post_id>8740</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:25:48]]></wp:post_date>
@@ -622,33 +115,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[canon-i-sensys-lbp722cdw-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8765</link>
-					<pubDate>Wed, 25 Jan 2023 12:30:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg</guid>
-															<wp:post_id>8765</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:30:08]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:30:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[canon-i-sensys-lbp722cdw-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[alogic-ultra-mini-usb-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8773</link>
 					<pubDate>Wed, 25 Jan 2023 12:32:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/alogic-ultra-mini-usb-1.jpg</guid>
 															<wp:post_id>8773</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:32:36]]></wp:post_date>
@@ -666,12 +136,16 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2022/12/alogic-ultra-mini-usb-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[acer-sa100-sataiii-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8793</link>
 					<pubDate>Wed, 25 Jan 2023 12:36:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/acer-sa100-sataiii-1.jpg</guid>
 															<wp:post_id>8793</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:36:24]]></wp:post_date>
@@ -694,7 +168,7 @@
 					<title><![CDATA[amd-radeon-pro-w5500-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8797</link>
 					<pubDate>Wed, 25 Jan 2023 12:37:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg</guid>
 															<wp:post_id>8797</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:37:01]]></wp:post_date>
@@ -717,7 +191,7 @@
 					<title><![CDATA[amd-ryzen-5-5600x-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8801</link>
 					<pubDate>Wed, 25 Jan 2023 12:37:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-5-5600x-1.jpg</guid>
 															<wp:post_id>8801</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:37:54]]></wp:post_date>
@@ -737,148 +211,79 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[macbook-pro]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8867</link>
-					<pubDate>Wed, 25 Jan 2023 12:52:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg</guid>
-															<wp:post_id>8867</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:52:51]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:52:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_modified_gmt>
+					<title><![CDATA[amd-ryzen-5-7600x-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8805</link>
+					<pubDate>Wed, 25 Jan 2023 12:38:32 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-5-7600x-1.jpg</guid>
+															<wp:post_id>8805</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:38:32]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:38:32]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:38:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:38:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[macbook-pro]]></wp:post_name>
+					<wp:post_name><![CDATA[amd-ryzen-5-7600x-1]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1529</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-5-7600x-1.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/macbook-pro.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/amd-ryzen-5-7600x-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[m1-pro]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8868</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg</guid>
-															<wp:post_id>8868</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:07]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:07]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:07]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:07]]></wp:post_modified_gmt>
+					<title><![CDATA[ailink-aluminium-connector-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8836</link>
+					<pubDate>Wed, 25 Jan 2023 12:43:14 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/ailink-aluminium-connector-1.jpg</guid>
+															<wp:post_id>8836</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:43:14]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:43:14]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:43:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:43:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[m1-pro]]></wp:post_name>
+					<wp:post_name><![CDATA[ailink-aluminium-connector-1]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1567</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/ailink-aluminium-connector-1.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/m1-pro.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/ailink-aluminium-connector-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[m1-max]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8869</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg</guid>
-															<wp:post_id>8869</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:16]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:16]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:16]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:16]]></wp:post_modified_gmt>
+					<title><![CDATA[logitech-g735-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8918</link>
+					<pubDate>Wed, 25 Jan 2023 13:07:25 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-1.jpg</guid>
+															<wp:post_id>8918</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:07:25]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:07:25]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:07:25]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:07:25]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[m1-max]]></wp:post_name>
+					<wp:post_name><![CDATA[logitech-g735-1]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1397</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-1.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/m1-max.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Retina]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8870</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg</guid>
-															<wp:post_id>8870</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:29]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:29]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:29]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:29]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[retina]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/Retina.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[mac-os-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8871</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg</guid>
-															<wp:post_id>8871</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:41]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:41]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:41]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:41]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[mac-os-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/mac-os-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[mac-os-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8872</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg</guid>
-															<wp:post_id>8872</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:58]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:58]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:58]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[mac-os-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/mac-os-2.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/logitech-g735-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[logitech-g735-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8922</link>
 					<pubDate>Wed, 25 Jan 2023 13:08:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-2.jpg</guid>
 															<wp:post_id>8922</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 13:08:11]]></wp:post_date>
@@ -901,7 +306,7 @@
 					<title><![CDATA[logitech-g735-ear-mic-gallery-1-white]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8923</link>
 					<pubDate>Wed, 25 Jan 2023 13:08:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-white.jpg</guid>
 															<wp:post_id>8923</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 13:08:24]]></wp:post_date>
@@ -921,33 +326,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8924</link>
-					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg</guid>
-															<wp:post_id>8924</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 13:08:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[logitech-g735-ear-mic-gallery-1-green]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8925</link>
 					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-green.jpg</guid>
 															<wp:post_id>8925</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
@@ -967,631 +349,183 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[hp-victus-16-e0174nw-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8666</link>
-					<pubDate>Wed, 25 Jan 2023 12:08:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/hp-victus-16-e0174nw-1.jpg</guid>
-															<wp:post_id>8666</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:08:09]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:08:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:08:09]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:08:09]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-2]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8968</link>
+					<pubDate>Wed, 25 Jan 2023 13:15:08 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-2.jpg</guid>
+															<wp:post_id>8968</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:15:08]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:15:08]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:15:08]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:15:08]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[hp-victus-16-e0174nw-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>949</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/hp-victus-16-e0174nw-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/hp-victus-16-e0174nw-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[asus-tuf-gaming-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8672</link>
-					<pubDate>Wed, 25 Jan 2023 12:09:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/asus-tuf-gaming-1.jpg</guid>
-															<wp:post_id>8672</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:09:10]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:09:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:09:10]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:09:10]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[asus-tuf-gaming-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>955</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/asus-tuf-gaming-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/asus-tuf-gaming-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[apple-ipad-mini-pink-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8683</link>
-					<pubDate>Wed, 25 Jan 2023 12:13:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg</guid>
-															<wp:post_id>8683</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:13:02]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:13:02]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:13:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:13:02]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[apple-ipad-mini-pink-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>977</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-ipad-mini-pink-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/apple-ipad-mini-pink-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-q24p2q-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8744</link>
-					<pubDate>Wed, 25 Jan 2023 12:26:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg</guid>
-															<wp:post_id>8744</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:26:34]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:26:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-q24p2q-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1369</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-q24p2q-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[canon-i-sensys-lbp722cdw-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8765</link>
-					<pubDate>Wed, 25 Jan 2023 12:30:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg</guid>
-															<wp:post_id>8765</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:30:08]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:30:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[canon-i-sensys-lbp722cdw-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[amd-radeon-pro-w5500-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8797</link>
-					<pubDate>Wed, 25 Jan 2023 12:37:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg</guid>
-															<wp:post_id>8797</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:37:01]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:37:01]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:37:01]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:37:01]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[amd-radeon-pro-w5500-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1519</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/amd-radeon-pro-w5500-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[amd-ryzen-7-5800x-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8809</link>
-					<pubDate>Wed, 25 Jan 2023 12:39:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-7-5800x-1.jpg</guid>
-															<wp:post_id>8809</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:39:07]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:39:07]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:39:07]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:39:07]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[amd-ryzen-7-5800x-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1534</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-7-5800x-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/amd-ryzen-7-5800x-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[macbook-pro]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8867</link>
-					<pubDate>Wed, 25 Jan 2023 12:52:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg</guid>
-															<wp:post_id>8867</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:52:51]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:52:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[macbook-pro]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/macbook-pro.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[m1-pro]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8868</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg</guid>
-															<wp:post_id>8868</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:07]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:07]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:07]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:07]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[m1-pro]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/m1-pro.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[m1-max]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8869</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg</guid>
-															<wp:post_id>8869</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:16]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:16]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:16]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:16]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[m1-max]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/m1-max.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Retina]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8870</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg</guid>
-															<wp:post_id>8870</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:29]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:29]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:29]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:29]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[retina]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/Retina.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[mac-os-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8871</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg</guid>
-															<wp:post_id>8871</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:41]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:41]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:41]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:41]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[mac-os-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/mac-os-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[mac-os-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8872</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg</guid>
-															<wp:post_id>8872</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:58]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:58]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:58]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[mac-os-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/mac-os-2.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[apple-macbook-pro-13-silver-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8655</link>
-					<pubDate>Wed, 25 Jan 2023 12:04:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-13-silver-1.jpg</guid>
-															<wp:post_id>8655</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:04:09]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:04:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:04:09]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:04:09]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[apple-macbook-pro-13-silver-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>920</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-13-silver-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/apple-macbook-pro-13-silver-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[microsoft-surface-laptop-studio-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8662</link>
-					<pubDate>Wed, 25 Jan 2023 12:07:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/microsoft-surface-laptop-studio-1.jpg</guid>
-															<wp:post_id>8662</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:07:06]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:07:06]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:07:06]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:07:06]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[microsoft-surface-laptop-studio-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>939</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/microsoft-surface-laptop-studio-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/microsoft-surface-laptop-studio-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-agon-ag493ucx-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8735</link>
-					<pubDate>Wed, 25 Jan 2023 12:25:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-agon-ag493ucx-1.jpg</guid>
-															<wp:post_id>8735</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:25:03]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:25:03]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:25:03]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:25:03]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-agon-ag493ucx-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1359</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-agon-ag493ucx-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-agon-ag493ucx-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[aoc-cu34g2x-bk-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8740</link>
-					<pubDate>Wed, 25 Jan 2023 12:25:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-cu34g2x-bk-1.jpg</guid>
-															<wp:post_id>8740</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:25:48]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:25:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:25:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:25:48]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[aoc-cu34g2x-bk-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1364</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-cu34g2x-bk-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/aoc-cu34g2x-bk-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[canon-i-sensys-lbp722cdw-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8765</link>
-					<pubDate>Wed, 25 Jan 2023 12:30:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg</guid>
-															<wp:post_id>8765</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:30:08]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:30:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[canon-i-sensys-lbp722cdw-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1397</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[acer-sa100-sataiii-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8793</link>
-					<pubDate>Wed, 25 Jan 2023 12:36:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/acer-sa100-sataiii-1.jpg</guid>
-															<wp:post_id>8793</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:36:24]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:36:24]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:36:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:36:24]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[acer-sa100-sataiii-1]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-2]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
 					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/acer-sa100-sataiii-1.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-2.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/acer-sa100-sataiii-1.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-2.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[amd-radeon-pro-w5500-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8797</link>
-					<pubDate>Wed, 25 Jan 2023 12:37:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg</guid>
-															<wp:post_id>8797</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:37:01]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:37:01]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:37:01]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:37:01]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-3]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8969</link>
+					<pubDate>Wed, 25 Jan 2023 13:15:23 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-3.jpg</guid>
+															<wp:post_id>8969</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:15:23]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:15:23]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:15:23]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:15:23]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[amd-radeon-pro-w5500-1]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-3]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1519</wp:post_parent>
+					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-radeon-pro-w5500-1.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-3.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/amd-radeon-pro-w5500-1.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-3.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[ailink-aluminium-connector-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8836</link>
-					<pubDate>Wed, 25 Jan 2023 12:43:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/ailink-aluminium-connector-1.jpg</guid>
-															<wp:post_id>8836</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:43:14]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:43:14]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:43:14]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:43:14]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-4]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8970</link>
+					<pubDate>Wed, 25 Jan 2023 13:15:31 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-4.jpg</guid>
+															<wp:post_id>8970</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:15:31]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:15:31]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:15:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:15:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[ailink-aluminium-connector-1]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-4]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>1567</wp:post_parent>
+					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/ailink-aluminium-connector-1.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-4.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/ailink-aluminium-connector-1.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-4.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[macbook-pro]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8867</link>
-					<pubDate>Wed, 25 Jan 2023 12:52:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg</guid>
-															<wp:post_id>8867</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:52:51]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:52:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-5]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8971</link>
+					<pubDate>Wed, 25 Jan 2023 13:15:54 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-5.jpg</guid>
+															<wp:post_id>8971</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:15:54]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:15:54]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:15:54]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:15:54]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[macbook-pro]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-5]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-5.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/macbook-pro.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-5.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[m1-pro]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8868</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg</guid>
-															<wp:post_id>8868</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:07]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:07]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:07]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:07]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-icon-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8972</link>
+					<pubDate>Wed, 25 Jan 2023 13:16:07 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-icon-1.svg</guid>
+															<wp:post_id>8972</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:16:07]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:16:07]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:16:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:16:07]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[m1-pro]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-icon-1]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-icon-1.svg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/m1-pro.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-icon-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M27 4.5H24L23 4.5L22.9993 4.5C22.4473 4.50038 22 4.94795 22 5.5L10 5.5C10 4.94812 9.55294 4.50065 9.00121 4.5H5C4.44772 4.5 4 4.94772 4 5.5V8.5L4 9.5L4 9.5007C4.00038 10.0527 4.44795 10.5 5 10.5V22.5C4.44795 22.5 4.00038 22.9473 4 23.4993L4 23.5L4 24.5V27.5C4 28.0523 4.44772 28.5 5 28.5H8H9C9.55229 28.5 10 28.0523 10 27.5L22 27.5C22 28.0523 22.4477 28.5 23 28.5H24H27C27.5523 28.5 28 28.0523 28 27.5L28 24.5V23.5C28 23.4993 28 23.4987 28 23.498C27.9989 22.9466 27.5516 22.5 27 22.5L27 10.5C27.5523 10.5 28 10.0523 28 9.5V8.5V5.5C28 4.94772 27.5523 4.5 27 4.5ZM5 2.5C3.34315 2.5 2 3.84315 2 5.5V27.5C2 29.1569 3.34315 30.5 5 30.5H27C28.6569 30.5 30 29.1569 30 27.5V5.5C30 3.84315 28.6569 2.5 27 2.5H5ZM7 9C7 8.17157 7.67157 7.5 8.5 7.5C9.32843 7.5 10 8.17157 10 9C10 9.82843 9.32843 10.5 8.5 10.5C7.67157 10.5 7 9.82843 7 9ZM13.5 7.5C12.6716 7.5 12 8.17157 12 9C12 9.82843 12.6716 10.5 13.5 10.5C14.3284 10.5 15 9.82843 15 9C15 8.17157 14.3284 7.5 13.5 7.5ZM17 9C17 8.17157 17.6716 7.5 18.5 7.5C19.3284 7.5 20 8.17157 20 9C20 9.82843 19.3284 10.5 18.5 10.5C17.6716 10.5 17 9.82843 17 9ZM23.5 7.5C22.6716 7.5 22 8.17157 22 9C22 9.82843 22.6716 10.5 23.5 10.5C24.3284 10.5 25 9.82843 25 9C25 8.17157 24.3284 7.5 23.5 7.5ZM7 14C7 13.1716 7.67157 12.5 8.5 12.5C9.32843 12.5 10 13.1716 10 14C10 14.8284 9.32843 15.5 8.5 15.5C7.67157 15.5 7 14.8284 7 14ZM13.5 12.5C12.6716 12.5 12 13.1716 12 14C12 14.8284 12.6716 15.5 13.5 15.5C14.3284 15.5 15 14.8284 15 14C15 13.1716 14.3284 12.5 13.5 12.5ZM17 14C17 13.1716 17.6716 12.5 18.5 12.5C19.3284 12.5 20 13.1716 20 14C20 14.8284 19.3284 15.5 18.5 15.5C17.6716 15.5 17 14.8284 17 14ZM23.5 12.5C22.6716 12.5 22 13.1716 22 14C22 14.8284 22.6716 15.5 23.5 15.5C24.3284 15.5 25 14.8284 25 14C25 13.1716 24.3284 12.5 23.5 12.5ZM7 19C7 18.1716 7.67157 17.5 8.5 17.5C9.32843 17.5 10 18.1716 10 19C10 19.8284 9.32843 20.5 8.5 20.5C7.67157 20.5 7 19.8284 7 19ZM13.5 17.5C12.6716 17.5 12 18.1716 12 19C12 19.8284 12.6716 20.5 13.5 20.5C14.3284 20.5 15 19.8284 15 19C15 18.1716 14.3284 17.5 13.5 17.5ZM17 19C17 18.1716 17.6716 17.5 18.5 17.5C19.3284 17.5 20 18.1716 20 19C20 19.8284 19.3284 20.5 18.5 20.5C17.6716 20.5 17 19.8284 17 19ZM23.5 17.5C22.6716 17.5 22 18.1716 22 19C22 19.8284 22.6716 20.5 23.5 20.5C24.3284 20.5 25 19.8284 25 19C25 18.1716 24.3284 17.5 23.5 17.5ZM7 24C7 23.1716 7.67157 22.5 8.5 22.5C9.32843 22.5 10 23.1716 10 24C10 24.8284 9.32843 25.5 8.5 25.5C7.67157 25.5 7 24.8284 7 24ZM13.5 22.5C12.6716 22.5 12 23.1716 12 24C12 24.8284 12.6716 25.5 13.5 25.5C14.3284 25.5 15 24.8284 15 24C15 23.1716 14.3284 22.5 13.5 22.5ZM17 24C17 23.1716 17.6716 22.5 18.5 22.5C19.3284 22.5 20 23.1716 20 24C20 24.8284 19.3284 25.5 18.5 25.5C17.6716 25.5 17 24.8284 17 24ZM23.5 22.5C22.6716 22.5 22 23.1716 22 24C22 24.8284 22.6716 25.5 23.5 25.5C24.3284 25.5 25 24.8284 25 24C25 23.1716 24.3284 22.5 23.5 22.5Z" fill="#76B900"></path></svg>]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[m1-max]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8869</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg</guid>
-															<wp:post_id>8869</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:16]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:16]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:16]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:16]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-icon-2]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8973</link>
+					<pubDate>Wed, 25 Jan 2023 13:16:07 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-icon-2.svg</guid>
+															<wp:post_id>8973</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:16:07]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:16:07]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:16:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:16:07]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[m1-max]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-icon-2]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-icon-2.svg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/m1-max.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-icon-2.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><circle cx="16" cy="22.5" r="7" stroke="#76B900" stroke-width="2"></circle><path d="M12.9032 28.8038L22.8027 18.9043" stroke="#76B900" stroke-width="2" stroke-linejoin="round"></path><path d="M16.5 29.5L22.8027 23.1465" stroke="#76B900" stroke-width="2" stroke-linejoin="round"></path><path d="M10.0751 25.9757L19.9746 16.0762" stroke="#76B900" stroke-width="2" stroke-linejoin="round"></path><path d="M4 2.5L11.2779 12.0523C11.6547 12.5467 12.3865 12.5813 12.8082 12.1245L18 6.5M18 6.5V9.5M18 6.5H15" stroke="#76B900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.5 12.5L27 6.5M27 6.5V9.5M27 6.5H24" stroke="#76B900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Retina]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8870</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg</guid>
-															<wp:post_id>8870</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:29]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:29]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:29]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:29]]></wp:post_modified_gmt>
+					<title><![CDATA[rtx-4090-icon-3]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8974</link>
+					<pubDate>Wed, 25 Jan 2023 13:16:07 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-icon-3.svg</guid>
+															<wp:post_id>8974</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:16:07]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:16:07]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:16:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:16:07]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[retina]]></wp:post_name>
+					<wp:post_name><![CDATA[rtx-4090-icon-3]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
+					<wp:post_parent>1451</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/rtx-4090-icon-3.svg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/Retina.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2022/12/rtx-4090-icon-3.svg]]></wp:meta_value>
 						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[mac-os-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8871</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg</guid>
-															<wp:post_id>8871</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:41]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:41]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:41]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:41]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[mac-os-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/mac-os-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[mac-os-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8872</link>
-					<pubDate>Wed, 25 Jan 2023 12:53:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg</guid>
-															<wp:post_id>8872</wp:post_id>
-					<wp:post_date><![CDATA[2023-01-25 12:53:58]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2023-01-25 12:53:58]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-01-25 12:53:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-01-25 12:53:58]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[mac-os-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>835</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2022/12/mac-os-2.jpg]]></wp:meta_value>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none"><g clip-path="url(#clip0_9533_41937)"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 2.5C12.6863 2.5 10 5.18629 10 8.5C10 11.8137 12.6863 14.5 16 14.5C19.3137 14.5 22 11.8137 22 8.5C22 5.18629 19.3137 2.5 16 2.5ZM8 8.5C8 4.08172 11.5817 0.5 16 0.5C20.4183 0.5 24 4.08172 24 8.5C24 10.7759 23.0496 12.8299 21.5241 14.2866L28.3162 16.5507C28.7246 16.6868 29 17.0689 29 17.4993C29 17.9298 28.7246 18.3119 28.3162 18.448L23.6613 19.9997L28.3162 21.5513C28.7246 21.6874 29 22.0696 29 22.5C29 22.9304 28.7246 23.3126 28.3162 23.4487L23.6623 25L28.3162 26.5513C28.7246 26.6874 29 27.0696 29 27.5C29 27.9304 28.7246 28.3126 28.3162 28.4487L17.2649 32.1325C16.4438 32.4061 15.5562 32.4061 14.7351 32.1325L3.68377 28.4487C3.27543 28.3126 3 27.9304 3 27.5C3 27.0696 3.27543 26.6874 3.68377 26.5513L8.33772 25L3.68377 23.4487C3.27543 23.3126 3 22.9304 3 22.5C3 22.0696 3.27543 21.6874 3.68377 21.5513L8.3387 19.9997L3.68377 18.448C3.27543 18.3119 3 17.9298 3 17.4993C3 17.0689 3.27543 16.6868 3.68377 16.5507L10.4759 14.2866C8.95038 12.8299 8 10.7759 8 8.5ZM16 16.5C17.2434 16.5 18.4205 16.2163 19.4702 15.7102L24.8377 17.4993L16.6325 20.2344C16.2219 20.3713 15.7781 20.3713 15.3675 20.2344L7.16228 17.4993L12.5298 15.7102C13.5795 16.2163 14.7566 16.5 16 16.5ZM20.499 21.0538L17.2649 22.1318C16.4438 22.4055 15.5562 22.4055 14.7351 22.1318L11.501 21.0538L7.16228 22.5L15.3675 25.2351C15.7781 25.3719 16.2219 25.3719 16.6325 25.2351L24.8377 22.5L20.499 21.0538ZM17.2649 27.1325L20.5 26.0541L24.8377 27.5L16.6325 30.2351C16.2219 30.3719 15.7781 30.3719 15.3675 30.2351L7.16228 27.5L11.5 26.0541L14.7351 27.1325C15.5562 27.4061 16.4438 27.4061 17.2649 27.1325ZM19.7071 7.20711C20.0976 6.81658 20.0976 6.18342 19.7071 5.79289C19.3166 5.40237 18.6834 5.40237 18.2929 5.79289L15 9.08579L13.7071 7.79289C13.3166 7.40237 12.6834 7.40237 12.2929 7.79289C11.9024 8.18342 11.9024 8.81658 12.2929 9.20711L13.5858 10.5C14.3668 11.281 15.6332 11.281 16.4142 10.5L19.7071 7.20711Z" fill="#76B900"></path></g><defs><clipPath id="clip0_9533_41937"><rect width="32" height="32" fill="white" transform="translate(0 0.5)"></rect></clipPath></defs></svg>]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[apple-macbook-pro-16-silver-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8646</link>
 					<pubDate>Wed, 25 Jan 2023 10:59:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-16-silver-1.jpg</guid>
 															<wp:post_id>8646</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 10:59:35]]></wp:post_date>
@@ -1614,7 +548,7 @@
 					<title><![CDATA[apple-macbook-pro-16-silver-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8647</link>
 					<pubDate>Wed, 25 Jan 2023 10:59:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-16-silver-2.jpg</guid>
 															<wp:post_id>8647</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 10:59:35]]></wp:post_date>
@@ -1637,7 +571,7 @@
 					<title><![CDATA[apple-macbook-pro-16-silver-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8648</link>
 					<pubDate>Wed, 25 Jan 2023 10:59:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-16-silver-3.jpg</guid>
 															<wp:post_id>8648</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 10:59:36]]></wp:post_date>
@@ -1660,7 +594,7 @@
 					<title><![CDATA[apple-macbook-pro-16-silver-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8649</link>
 					<pubDate>Wed, 25 Jan 2023 10:59:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-16-silver-4.jpg</guid>
 															<wp:post_id>8649</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 10:59:36]]></wp:post_date>
@@ -1680,10 +614,225 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[apple-macbook-pro-13-silver-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8655</link>
+					<pubDate>Wed, 25 Jan 2023 12:04:09 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-13-silver-1.jpg</guid>
+															<wp:post_id>8655</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:04:09]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:04:09]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:04:09]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:04:09]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[apple-macbook-pro-13-silver-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>920</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/apple-macbook-pro-13-silver-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/apple-macbook-pro-13-silver-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[microsoft-surface-laptop-studio-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8662</link>
+					<pubDate>Wed, 25 Jan 2023 12:07:06 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/microsoft-surface-laptop-studio-1.jpg</guid>
+															<wp:post_id>8662</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:07:06]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:07:06]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:07:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:07:06]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[microsoft-surface-laptop-studio-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>939</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/microsoft-surface-laptop-studio-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/microsoft-surface-laptop-studio-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[asus-tuf-gaming-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8672</link>
+					<pubDate>Wed, 25 Jan 2023 12:09:10 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/asus-tuf-gaming-1.jpg</guid>
+															<wp:post_id>8672</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:09:10]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:09:10]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:09:10]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:09:10]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[asus-tuf-gaming-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>955</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/asus-tuf-gaming-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/asus-tuf-gaming-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[aoc-agon-ag493ucx-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8735</link>
+					<pubDate>Wed, 25 Jan 2023 12:25:03 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-agon-ag493ucx-1.jpg</guid>
+															<wp:post_id>8735</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:25:03]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:25:03]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:25:03]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:25:03]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[aoc-agon-ag493ucx-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>1359</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-agon-ag493ucx-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/aoc-agon-ag493ucx-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[aoc-q24p2q-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8744</link>
+					<pubDate>Wed, 25 Jan 2023 12:26:34 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg</guid>
+															<wp:post_id>8744</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:26:34]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:26:34]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:26:34]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[aoc-q24p2q-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>1369</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-q24p2q-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/aoc-q24p2q-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[aoc-u32u1-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8748</link>
+					<pubDate>Wed, 25 Jan 2023 12:27:12 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-u32u1-1.jpg</guid>
+															<wp:post_id>8748</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:27:12]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:27:12]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:27:12]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:27:12]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[aoc-u32u1-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>1375</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/aoc-u32u1-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/aoc-u32u1-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[canon-i-sensys-lbp722cdw-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8765</link>
+					<pubDate>Wed, 25 Jan 2023 12:30:08 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg</guid>
+															<wp:post_id>8765</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:30:08]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:30:08]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:30:08]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[canon-i-sensys-lbp722cdw-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>1397</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/canon-i-sensys-lbp722cdw-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[amd-ryzen-7-5800x-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8809</link>
+					<pubDate>Wed, 25 Jan 2023 12:39:07 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-7-5800x-1.jpg</guid>
+															<wp:post_id>8809</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:39:07]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:39:07]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:39:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:39:07]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[amd-ryzen-7-5800x-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>1534</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/amd-ryzen-7-5800x-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/amd-ryzen-7-5800x-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[macbook-pro]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8867</link>
+					<pubDate>Wed, 25 Jan 2023 12:52:51 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg</guid>
+															<wp:post_id>8867</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 12:52:51]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 12:52:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 12:52:51]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[macbook-pro]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>835</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/macbook-pro.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/macbook-pro.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[m1-pro]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8868</link>
 					<pubDate>Wed, 25 Jan 2023 12:53:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-pro.jpg</guid>
 															<wp:post_id>8868</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:53:07]]></wp:post_date>
@@ -1706,7 +855,7 @@
 					<title><![CDATA[m1-max]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8869</link>
 					<pubDate>Wed, 25 Jan 2023 12:53:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/m1-max.jpg</guid>
 															<wp:post_id>8869</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:53:16]]></wp:post_date>
@@ -1729,7 +878,7 @@
 					<title><![CDATA[Retina]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8870</link>
 					<pubDate>Wed, 25 Jan 2023 12:53:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/Retina.jpg</guid>
 															<wp:post_id>8870</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:53:29]]></wp:post_date>
@@ -1752,7 +901,7 @@
 					<title><![CDATA[mac-os-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8871</link>
 					<pubDate>Wed, 25 Jan 2023 12:53:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-1.jpg</guid>
 															<wp:post_id>8871</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:53:41]]></wp:post_date>
@@ -1775,7 +924,7 @@
 					<title><![CDATA[mac-os-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8872</link>
 					<pubDate>Wed, 25 Jan 2023 12:53:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/mac-os-2.jpg</guid>
 															<wp:post_id>8872</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-25 12:53:58]]></wp:post_date>
@@ -1795,10 +944,33 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=8924</link>
+					<pubDate>Wed, 25 Jan 2023 13:08:25 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg</guid>
+															<wp:post_id>8924</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 13:08:25]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 13:08:25]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 13:08:25]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[logitech-g735-ear-mic-gallery-1-pink]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>1397</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/logitech-g735-ear-mic-gallery-1-pink.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[apple-shopping-event-full-img-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/home-mega-electronics/apple-shopping-event-full-img-opt/</link>
 					<pubDate>Thu, 26 Jan 2023 16:29:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/apple-shopping-event-full-img-opt.png</guid>
 															<wp:post_id>9313</wp:post_id>
 					<wp:post_date><![CDATA[2023-01-26 16:29:34]]></wp:post_date>
@@ -1815,6 +987,458 @@
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2023/01/apple-shopping-event-full-img-opt.png]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[delivery-return-img]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/delivery-return-2/delivery-return-img/</link>
+					<pubDate>Wed, 25 Jan 2023 14:25:32 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/delivery-return-img.jpg</guid>
+															<wp:post_id>9168</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:25:32]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:25:32]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:25:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:25:32]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[delivery-return-img]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>52</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/delivery-return-img.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/delivery-return-img.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[delivery-img-icon-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=9177</link>
+					<pubDate>Wed, 25 Jan 2023 14:28:05 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/delivery-img-icon-1.svg</guid>
+															<wp:post_id>9177</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:28:05]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:28:05]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:28:05]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:28:05]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[delivery-img-icon-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>752</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/delivery-img-icon-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/delivery-img-icon-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><rect x="47" y="40" width="34" height="48" rx="5" fill="white"></rect><path d="M55.3672 56C54.8149 56 54.3672 56.4477 54.3672 57C54.3672 57.5523 54.8149 58 55.3672 58H56.7644L58.94 65.7003C59.305 66.9924 60.4842 67.8846 61.827 67.8846H68.6827C70.091 67.8846 71.3098 66.905 71.6125 65.5296L72.6131 60.9842C72.6725 60.7142 72.6175 60.4316 72.4611 60.2036C72.3047 59.9756 72.0609 59.8225 71.7875 59.7807L62.9798 58.4346C62.4339 58.3511 61.9237 58.7261 61.8402 59.272C61.7568 59.8179 62.1317 60.3282 62.6777 60.4116L70.4304 61.5965L69.6593 65.0996C69.5584 65.5581 69.1521 65.8846 68.6827 65.8846H61.827C61.3794 65.8846 60.9863 65.5872 60.8646 65.1565L58.4834 56.7281C58.3617 56.2974 57.9686 56 57.521 56H55.3672Z" fill="#1C61E7"></path><path d="M62 70.5C62 71.3284 61.3284 72 60.5 72C59.6716 72 59 71.3284 59 70.5C59 69.6716 59.6716 69 60.5 69C61.3284 69 62 69.6716 62 70.5Z" fill="#1C61E7"></path><path d="M71 70.5C71 71.3284 70.3284 72 69.5 72C68.6716 72 68 71.3284 68 70.5C68 69.6716 68.6716 69 69.5 69C70.3284 69 71 69.6716 71 70.5Z" fill="#1C61E7"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M56 39C56 34.5817 59.5817 31 64 31C68.4183 31 72 34.5817 72 39H76C79.3137 39 82 41.6863 82 45V83C82 86.3137 79.3137 89 76 89H52C48.6863 89 46 86.3137 46 83V45C46 41.6863 48.6863 39 52 39H56ZM56.252 41H52C49.7909 41 48 42.7909 48 45V83C48 85.2091 49.7909 87 52 87H76C78.2091 87 80 85.2091 80 83V45C80 42.7909 78.2091 41 76 41H71.748C70.8599 44.4505 67.7277 47 64 47C60.2723 47 57.1401 44.4505 56.252 41ZM68.7071 36.2929C69.0976 36.6834 69.0976 37.3166 68.7071 37.7071L63.7071 42.7071C63.3468 43.0674 62.7732 43.0992 62.3753 42.7809L59.8753 40.7809C59.444 40.4359 59.3741 39.8066 59.7191 39.3753C60.0641 38.944 60.6934 38.8741 61.1247 39.2191L62.9258 40.66L67.2929 36.2929C67.6834 35.9024 68.3166 35.9024 68.7071 36.2929Z" fill="#1C61E7"></path><path d="M68.9517 86.3833C68.5844 86.6978 68.4434 87.229 68.621 87.6885L69.8483 90.8637C70.0777 91.4574 70.6313 92.2508 71.1177 92.6733L71.1231 92.678L71.1285 92.6825L68.9517 86.3833ZM68.9517 86.3833L68.9379 86.3564M68.9517 86.3833L68.9379 86.3564M68.9379 86.3564L69.1677 86.2382L68.9379 86.3564ZM72.3801 87.0314C71.6028 86.1334 70.2814 85.8086 69.1734 86.2493L71.1286 92.6825L71.1287 92.6826L71.1297 92.6835L71.1343 92.6873L71.1535 92.7033C71.1706 92.7176 71.196 92.7391 71.2287 92.7668C71.294 92.8223 71.3878 92.9029 71.5007 93.0021C71.727 93.2012 72.0268 93.4727 72.325 93.7658C72.6259 94.0615 72.9125 94.3669 73.1197 94.6348C73.2236 94.7692 73.2971 94.8809 73.3422 94.9672C73.3671 95.0147 73.3767 95.0422 73.3801 95.0525V96V96.6H73.9801H77.9801H79.0739H79.9801H80.9801H81.5801V96V95.03C81.5801 95.0303 81.5801 95.0261 81.5811 95.0165C81.5821 95.0071 81.5839 94.9941 81.587 94.9772C81.5934 94.9429 81.604 94.8986 81.6202 94.8438C81.6529 94.7334 81.7028 94.5987 81.7683 94.444C81.8993 94.1348 82.078 93.78 82.2625 93.438C82.4461 93.0978 82.6303 92.7797 82.7691 92.5461C82.8383 92.4295 82.8959 92.3344 82.936 92.2688L82.9822 92.1936L82.9941 92.1745L82.9969 92.1699L82.9976 92.1689L82.9977 92.1688L82.9977 92.1687L82.9977 92.1687L83.0015 92.1626L83.0052 92.1564C83.1794 91.8621 83.3244 91.4848 83.4259 91.1188C83.5273 90.7533 83.5982 90.3529 83.5982 90.0066V85.9718H83.5983L83.598 85.9597C83.573 84.7205 82.5277 83.7545 81.2838 83.7545C80.9801 83.7545 80.6913 83.8478 80.4528 84.01C80.0278 83.5521 79.4106 83.2693 78.7391 83.2693C78.4354 83.2693 78.1467 83.3626 77.9081 83.5247C77.4831 83.0669 76.866 82.7841 76.1944 82.7841C76.0658 82.7841 75.9398 82.8008 75.8192 82.8324L75.6411 79.964C75.5863 79.0821 74.8472 78.4 73.9801 78.4C73.0912 78.4 72.3801 79.1177 72.3801 79.9998V84V87.0314Z" fill="white" stroke="#363B3E" stroke-width="1.2"></path><path d="M10 39C7.23858 39 5 41.2386 5 44V84C5 86.7614 7.23858 89 10 89H36C38.7614 89 41 86.7614 41 84V44C41 41.2386 38.7614 39 36 39H10Z" fill="#101010" fill-opacity="0.03"></path><path d="M92 39C89.2386 39 87 41.2386 87 44V84C87 86.7614 89.2386 89 92 89H118C120.761 89 123 86.7614 123 84V44C123 41.2386 120.761 39 118 39H92Z" fill="#101010" fill-opacity="0.03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5 44C5 41.2386 7.23858 39 10 39H36C38.7614 39 41 41.2386 41 44V84C41 86.7614 38.7614 89 36 89H10C7.23858 89 5 86.7614 5 84V44ZM10 41H36C37.6569 41 39 42.3431 39 44V84C39 85.6569 37.6569 87 36 87H10C8.34315 87 7 85.6569 7 84V44C7 42.3431 8.34315 41 10 41Z" fill="#101010" fill-opacity="0.1"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M87 44C87 41.2386 89.2386 39 92 39H118C120.761 39 123 41.2386 123 44V84C123 86.7614 120.761 89 118 89H92C89.2386 89 87 86.7614 87 84V44ZM92 41H118C119.657 41 121 42.3431 121 44V84C121 85.6569 119.657 87 118 87H92C90.3431 87 89 85.6569 89 84V44C89 42.3431 90.3431 41 92 41Z" fill="#101010" fill-opacity="0.1"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[delivery-img-icon-2]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=9178</link>
+					<pubDate>Wed, 25 Jan 2023 14:28:05 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/delivery-img-icon-2.svg</guid>
+															<wp:post_id>9178</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:28:05]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:28:05]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:28:05]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:28:05]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[delivery-img-icon-2]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>752</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/delivery-img-icon-2.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/delivery-img-icon-2.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><path d="M45 34C45 31.2386 47.2386 29 50 29H78C80.7614 29 83 31.2386 83 34V94C83 96.7614 80.7614 99 78 99H50C47.2386 99 45 96.7614 45 94V34Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M78 29C80.7614 29 83 31.2386 83 34V94C83 96.7614 80.7614 99 78 99H50C47.2386 99 45 96.7614 45 94V34C45 31.2386 47.2386 29 50 29H78ZM81 34V94C81 95.6569 79.6569 97 78 97H50C48.3431 97 47 95.6569 47 94V34C47 32.3431 48.3431 31 50 31H54C54.5523 31 55 31.4477 55 32C55 33.6569 56.3431 35 58 35H70C71.6569 35 73 33.6569 73 32C73 31.4477 73.4477 31 74 31H78C79.6569 31 81 32.3431 81 34ZM71.1707 31H56.8293C56.9398 31.3128 57 31.6494 57 32C57 32.5523 57.4477 33 58 33H70C70.5523 33 71 32.5523 71 32C71 31.6494 71.0602 31.3128 71.1707 31Z" fill="#1C61E7"></path><path d="M25 46C25 48.2091 26.7909 50 29 50H31.6056C32.3757 50 33 50.6243 33 51.3944C33 52.5082 34.2413 53.1725 35.1679 52.5547L38.1633 50.5578C38.7089 50.1941 39.3499 50 40.0056 50H46C48.7614 50 51 47.7614 51 45V39C51 36.2386 48.7614 34 46 34H30C27.2386 34 25 36.2386 25 39V46Z" fill="white"></path><path d="M31 68C31 70.2091 32.7909 72 35 72H37.6056C38.3757 72 39 72.6243 39 73.3944C39 74.5082 40.2413 75.1725 41.1679 74.5547L44.1633 72.5578C44.7089 72.1941 45.3499 72 46.0056 72H52C54.7614 72 57 69.7614 57 67V61C57 58.2386 54.7614 56 52 56H36C33.2386 56 31 58.2386 31 61L31 68Z" fill="white"></path><path d="M89.2071 31.2071C89.5976 30.8166 89.5976 30.1834 89.2071 29.7929C88.8166 29.4024 88.1834 29.4024 87.7929 29.7929L86 31.5858C85.219 32.3668 85.219 33.6332 86 34.4142L87.5858 36L86 37.5858C85.219 38.3668 85.219 39.6332 86 40.4142L87.5858 42L85.7929 43.7929C85.4024 44.1834 85.4024 44.8166 85.7929 45.2071C86.1834 45.5976 86.8166 45.5976 87.2071 45.2071L89 43.4142C89.7811 42.6332 89.7811 41.3668 89 40.5858L87.4142 39L89 37.4142C89.781 36.6332 89.7811 35.3668 89 34.5858L87.4142 33L89.2071 31.2071Z" fill="#101010" fill-opacity="0.2"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M29 50C26.7909 50 25 48.2091 25 46V39C25 36.2386 27.2386 34 30 34L46 34C48.7614 34 51 36.2386 51 39V45C51 47.7614 48.7614 50 46 50H40.0056C39.3499 50 38.7089 50.1941 38.1633 50.5578L35.1679 52.5547C34.2413 53.1725 33 52.5082 33 51.3944C33 50.6243 32.3757 50 31.6056 50H29ZM27 46L27 39C27 37.3431 28.3431 36 30 36L46 36C47.6569 36 49 37.3431 49 39V45C49 46.6569 47.6569 48 46 48H40.0056C38.955 48 37.928 48.311 37.0539 48.8937L34.8421 50.3682C34.4071 48.9951 33.1226 48 31.6056 48H29C27.8954 48 27 47.1046 27 46Z" fill="#101010" fill-opacity="0.2"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M35 72C32.7909 72 31 70.2091 31 68V61C31 58.2386 33.2386 56 36 56H52C54.7614 56 57 58.2386 57 61V67C57 69.7614 54.7614 72 52 72H46.0056C45.3499 72 44.7089 72.1941 44.1633 72.5578L41.1679 74.5547C40.2413 75.1725 39 74.5082 39 73.3944C39 72.6243 38.3757 72 37.6056 72H35ZM33 68L33 61C33 59.3431 34.3431 58 36 58H52C53.6569 58 55 59.3431 55 61V67C55 68.6569 53.6569 70 52 70H46.0056C44.955 70 43.928 70.311 43.0539 70.8937L40.8421 72.3682C40.4071 70.9951 39.1226 70 37.6056 70H35C33.8954 70 33 69.1046 33 68Z" fill="#101010" fill-opacity="0.2"></path><path d="M42.2071 81.7929C42.5976 82.1834 42.5976 82.8166 42.2071 83.2071L40.4142 85L42 86.5858C42.781 87.3668 42.781 88.6332 42 89.4142L40.4142 91L42 92.5858C42.781 93.3668 42.781 94.6332 42 95.4142L40.2071 97.2071C39.8166 97.5976 39.1834 97.5976 38.7929 97.2071C38.4024 96.8166 38.4024 96.1834 38.7929 95.7929L40.5858 94L39 92.4142C38.219 91.6332 38.219 90.3668 39 89.5858L40.5858 88L39 86.4142C38.219 85.6332 38.219 84.3668 39 83.5858L40.7929 81.7929C41.1834 81.4024 41.8166 81.4024 42.2071 81.7929Z" fill="#101010" fill-opacity="0.2"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[cart]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/cart-2/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:02 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/cart.svg</guid>
+															<wp:post_id>9188</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:02]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:02]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:02]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:02]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[cart-2]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/cart.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/cart.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M1.63867 1.3335C1.43034 1.3335 1.25326 1.40641 1.10742 1.55225C0.961589 1.69808 0.888672 1.87516 0.888672 2.0835C0.888672 2.29183 0.961589 2.46891 1.10742 2.61475C1.25326 2.76058 1.43034 2.8335 1.63867 2.8335H3.0293L4.37305 9.47412C4.4668 9.94287 4.69596 10.3283 5.06055 10.6304C5.42513 10.9325 5.847 11.0835 6.32617 11.0835H13.248C13.5397 11.0835 13.7949 11.0002 14.0137 10.8335C14.2428 10.6564 14.3939 10.4272 14.4668 10.146L15.6074 5.771C15.6387 5.66683 15.6439 5.56787 15.623 5.47412C15.6126 5.36995 15.5762 5.271 15.5137 5.17725C15.4616 5.09391 15.3887 5.021 15.2949 4.9585C15.2116 4.896 15.1178 4.85954 15.0137 4.84912L7.76367 3.59912C7.56575 3.55745 7.37825 3.59912 7.20117 3.72412C7.0345 3.8387 6.93555 4.00016 6.9043 4.2085C6.86263 4.40641 6.89909 4.59391 7.01367 4.771C7.13867 4.93766 7.30534 5.03662 7.51367 5.06787L13.9512 6.17725L13.0605 9.5835H6.32617C6.21159 9.5835 6.10742 9.54704 6.01367 9.47412C5.91992 9.4012 5.86263 9.30225 5.8418 9.17725L4.37305 1.94287C4.3418 1.76579 4.25326 1.61995 4.10742 1.50537C3.97201 1.39079 3.81576 1.3335 3.63867 1.3335H1.63867ZM6.63867 13.8335C6.63867 14.1772 6.51367 14.4741 6.26367 14.7241C6.02409 14.9637 5.73242 15.0835 5.38867 15.0835C5.04492 15.0835 4.74805 14.9637 4.49805 14.7241C4.25846 14.4741 4.13867 14.1772 4.13867 13.8335C4.13867 13.4897 4.25846 13.1981 4.49805 12.9585C4.74805 12.7085 5.04492 12.5835 5.38867 12.5835C5.73242 12.5835 6.02409 12.7085 6.26367 12.9585C6.51367 13.1981 6.63867 13.4897 6.63867 13.8335ZM14.6387 13.8335C14.6387 14.1772 14.5137 14.4741 14.2637 14.7241C14.0241 14.9637 13.7324 15.0835 13.3887 15.0835C13.0449 15.0835 12.748 14.9637 12.498 14.7241C12.2585 14.4741 12.1387 14.1772 12.1387 13.8335C12.1387 13.4897 12.2585 13.1981 12.498 12.9585C12.748 12.7085 13.0449 12.5835 13.3887 12.5835C13.7324 12.5835 14.0241 12.7085 14.2637 12.9585C14.5137 13.1981 14.6387 13.4897 14.6387 13.8335Z" fill="#3E3E3E"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[cog]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/cog-2/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:02 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/cog-1.svg</guid>
+															<wp:post_id>9189</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:02]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:02]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:02]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:02]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[cog-2]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/cog-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/cog-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><g clip-path="url(#clip0_10053_49231)"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 5.33333C7.26965 5.33333 6.62726 5.5966 6.11193 6.11193C5.5966 6.62726 5.33333 7.26965 5.33333 8C5.33333 8.73035 5.5966 9.37274 6.11193 9.88807C6.62726 10.4034 7.26965 10.6667 8 10.6667C8.73035 10.6667 9.37274 10.4034 9.88807 9.88807C10.4034 9.37274 10.6667 8.73035 10.6667 8C10.6667 7.26965 10.4034 6.62726 9.88807 6.11193C9.37274 5.5966 8.73035 5.33333 8 5.33333ZM7.05474 7.05474C7.31718 6.79229 7.61924 6.66667 8 6.66667C8.38076 6.66667 8.68282 6.79229 8.94526 7.05474C9.20771 7.31718 9.33333 7.61924 9.33333 8C9.33333 8.38076 9.20771 8.68282 8.94526 8.94526C8.68282 9.20771 8.38076 9.33333 8 9.33333C7.61924 9.33333 7.31718 9.20771 7.05474 8.94526C6.79229 8.68282 6.66667 8.38076 6.66667 8C6.66667 7.61924 6.79229 7.31718 7.05474 7.05474Z" fill="#3E3E3E"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.27869 0C6.86273 0 6.49522 0.161701 6.20619 0.450727C5.91858 0.738334 5.77049 1.10423 5.77049 1.5082V1.98907C5.77049 1.99114 5.77042 1.99473 5.76755 2.00281C5.7647 2.01085 5.75766 2.02711 5.74082 2.05146C5.70679 2.09222 5.65754 2.13304 5.57982 2.16967C5.50731 2.1959 5.44495 2.20356 5.38751 2.19974C5.34596 2.19047 5.32846 2.17664 5.31567 2.16384L4.98507 1.83324C4.69158 1.53975 4.31791 1.39754 3.91257 1.39754C3.50861 1.39754 3.14271 1.54563 2.8551 1.83324L1.83324 2.8551C1.53975 3.14859 1.39754 3.52225 1.39754 3.9276C1.39754 4.33156 1.54563 4.69746 1.83324 4.98507L2.16384 5.31567C2.17042 5.32224 2.17251 5.32611 2.17388 5.32905C2.17549 5.33251 2.18029 5.34393 2.18304 5.3687L2.18505 5.38676L2.18803 5.40468C2.19662 5.45622 2.19394 5.51129 2.16961 5.57985C2.13505 5.65217 2.09354 5.69914 2.04565 5.73426L2.03672 5.7408L2.02801 5.74765C2.00672 5.76438 1.99482 5.76906 1.99249 5.76992L1.99097 5.77041C1.99087 5.77042 1.99085 5.77044 1.99097 5.77041C1.99122 5.77036 1.99074 5.77049 1.98907 5.77049H1.5082C1.09224 5.77049 0.724725 5.93219 0.435699 6.22122C0.148092 6.50883 0 6.87473 0 7.27869V8.72131C0 9.12437 0.146898 9.4874 0.421637 9.77931L0.435483 9.79403L0.450194 9.80787C0.742104 10.0826 1.10514 10.2295 1.5082 10.2295H1.98907C1.99074 10.2295 1.9912 10.2296 1.99095 10.2296C1.9907 10.2295 1.99109 10.2296 1.99249 10.2301C1.99482 10.2309 2.00672 10.2356 2.02801 10.2524L2.03672 10.2592L2.04565 10.2657C2.09354 10.3009 2.13505 10.3478 2.16961 10.4201C2.19394 10.4887 2.19662 10.5438 2.18803 10.5953L2.18505 10.6132L2.18304 10.6313C2.18029 10.6561 2.17549 10.6675 2.17388 10.6709C2.17251 10.6739 2.17042 10.6778 2.16384 10.6843L1.83324 11.0149C1.53975 11.3084 1.39754 11.6821 1.39754 12.0874C1.39754 12.4914 1.54563 12.8573 1.83324 13.1449L2.8551 14.1668C3.14271 14.4544 3.50861 14.6025 3.91257 14.6025C4.31791 14.6025 4.69158 14.4602 4.98507 14.1668L5.31567 13.8362C5.32224 13.8296 5.32611 13.8275 5.32905 13.8261C5.33251 13.8245 5.34393 13.8197 5.3687 13.817L5.38676 13.815L5.40468 13.812C5.45622 13.8034 5.5113 13.8061 5.57986 13.8304C5.65217 13.865 5.69914 13.9065 5.73426 13.9544L5.7408 13.9633L5.74765 13.972C5.76438 13.9933 5.76906 14.0052 5.76992 14.0075C5.77043 14.0089 5.77046 14.0093 5.77041 14.0091C5.77037 14.0088 5.77049 14.0093 5.77049 14.0109V14.4918C5.77049 14.8958 5.91858 15.2617 6.20619 15.5493C6.49522 15.8383 6.86273 16 7.27869 16H8.72131C9.13187 16 9.49666 15.8419 9.77891 15.5494C10.0714 15.2672 10.2295 14.9024 10.2295 14.4918V14.0109C10.2295 14.0093 10.2296 14.0088 10.2296 14.0091C10.2295 14.0093 10.2296 14.0089 10.2301 14.0075C10.2309 14.0052 10.2356 13.9933 10.2524 13.972L10.2592 13.9633L10.2657 13.9544C10.3009 13.9065 10.3478 13.865 10.4201 13.8304C10.4887 13.8061 10.5438 13.8034 10.5953 13.812L10.6132 13.815L10.6313 13.817C10.6561 13.8197 10.6675 13.8245 10.6709 13.8261C10.6739 13.8275 10.6778 13.8296 10.6843 13.8362L11.0149 14.1668C11.3025 14.4544 11.6684 14.6025 12.0724 14.6025C12.4778 14.6025 12.8514 14.4602 13.1449 14.1668L14.1668 13.1449C14.4544 12.8573 14.6025 12.4914 14.6025 12.0874C14.6025 11.6821 14.4602 11.3084 14.1668 11.0149L13.8362 10.6843C13.8234 10.6715 13.8095 10.654 13.8003 10.6125C13.7964 10.555 13.8041 10.4927 13.8303 10.4202C13.867 10.3425 13.9078 10.2932 13.9485 10.2592C13.9729 10.2423 13.9891 10.2353 13.9972 10.2325C14.0053 10.2296 14.0089 10.2295 14.0109 10.2295H14.4918C14.8958 10.2295 15.2617 10.0814 15.5493 9.79381C15.8383 9.50478 16 9.13727 16 8.72131V7.27869C16 6.86813 15.8419 6.50334 15.5494 6.22109C15.2672 5.92855 14.9024 5.77049 14.4918 5.77049H14.0109C14.0089 5.77049 14.0053 5.77042 13.9972 5.76755C13.9891 5.7647 13.9729 5.75766 13.9485 5.74082C13.9078 5.70679 13.867 5.65754 13.8303 5.57983C13.8041 5.50731 13.7964 5.44495 13.8003 5.38751C13.8095 5.34596 13.8234 5.32846 13.8362 5.31567L14.1668 4.98507C14.4544 4.69746 14.6025 4.33156 14.6025 3.9276C14.6025 3.52225 14.4602 3.14859 14.1668 2.8551L13.1449 1.83324C12.8514 1.53975 12.4778 1.39754 12.0724 1.39754C11.6684 1.39754 11.3025 1.54563 11.0149 1.83324L10.6843 2.16384C10.6715 2.17664 10.654 2.19047 10.6125 2.19974C10.5551 2.20356 10.4927 2.1959 10.4202 2.16967C10.3425 2.13304 10.2932 2.09222 10.2592 2.05147C10.2423 2.02711 10.2353 2.01085 10.2325 2.00281C10.2296 1.99473 10.2295 1.99114 10.2295 1.98907V1.5082C10.2295 1.09764 10.0714 0.732848 9.77891 0.450598C9.49666 0.158061 9.13187 0 8.72131 0H7.27869ZM7.149 1.39354C7.20059 1.34194 7.23381 1.33333 7.27869 1.33333H8.72131C8.76481 1.33333 8.78546 1.34031 8.82191 1.37904L8.83576 1.39375L8.85047 1.4076C8.8892 1.44405 8.89618 1.4647 8.89618 1.5082V1.98907C8.89618 2.3133 9.01061 2.6038 9.19054 2.84916L9.19709 2.85809L9.20393 2.8668C9.38818 3.1013 9.6243 3.27522 9.89318 3.39473L9.9076 3.40114L9.9223 3.40686C10.196 3.5133 10.4843 3.55594 10.7785 3.52324L10.7966 3.52124L10.8145 3.51825C11.121 3.46717 11.4011 3.33265 11.6271 3.10665L11.9577 2.77605C11.9907 2.74307 12.0155 2.73087 12.0724 2.73087C12.1479 2.73087 12.175 2.74895 12.2021 2.77605L13.224 3.79791C13.251 3.825 13.2691 3.85207 13.2691 3.9276C13.2691 3.98447 13.2569 4.00928 13.224 4.04226L12.8934 4.37286C12.6673 4.59886 12.5328 4.879 12.4817 5.18548L12.4788 5.2034L12.4768 5.22146C12.4441 5.51572 12.4867 5.80399 12.5931 6.0777L12.5989 6.0924L12.6053 6.10683C12.7248 6.37571 12.8987 6.61182 13.1332 6.79607L13.1419 6.80291L13.1508 6.80946C13.3962 6.9894 13.6867 7.10383 14.0109 7.10383H14.4918C14.5353 7.10383 14.556 7.1108 14.5924 7.14953L14.6062 7.16424L14.621 7.17809C14.6597 7.21454 14.6667 7.23519 14.6667 7.27869V8.72131C14.6667 8.76619 14.6581 8.79941 14.6065 8.851C14.5735 8.88398 14.5487 8.89618 14.4918 8.89618H14.0109C13.6867 8.89618 13.3962 9.01061 13.1508 9.19054L13.1419 9.19709L13.1332 9.20393C12.8987 9.38818 12.7248 9.6243 12.6053 9.89318L12.5989 9.9076L12.5931 9.9223C12.4867 10.196 12.4441 10.4843 12.4768 10.7785L12.4788 10.7966L12.4817 10.8145C12.5328 11.121 12.6673 11.4011 12.8934 11.6271L13.224 11.9577C13.251 11.9848 13.2691 12.0119 13.2691 12.0874C13.2691 12.1443 13.2569 12.1691 13.224 12.2021L12.2021 13.224C12.175 13.251 12.1479 13.2691 12.0724 13.2691C12.0155 13.2691 11.9907 13.2569 11.9577 13.224L11.6271 12.8934C11.3969 12.6631 11.1096 12.5324 10.7968 12.4939C10.4973 12.4473 10.202 12.4844 9.9223 12.5931L9.9076 12.5989L9.89318 12.6053C9.61648 12.7283 9.37917 12.912 9.19703 13.1571C9.00967 13.399 8.89618 13.6883 8.89618 14.0109V14.4918C8.89618 14.5353 8.8892 14.556 8.85047 14.5924L8.83576 14.6062L8.82191 14.621C8.78546 14.6597 8.76481 14.6667 8.72131 14.6667H7.27869C7.23381 14.6667 7.20059 14.6581 7.149 14.6065C7.11602 14.5735 7.10383 14.5487 7.10383 14.4918V14.0109C7.10383 13.6883 6.99034 13.399 6.80298 13.1571C6.62084 12.912 6.38353 12.7283 6.10683 12.6053L6.0924 12.5989L6.0777 12.5931C5.79799 12.4844 5.50267 12.4473 5.20323 12.4939C4.89036 12.5324 4.60312 12.6631 4.37286 12.8934L4.04226 13.224C4.01516 13.251 3.9881 13.2691 3.91257 13.2691C3.85569 13.2691 3.83088 13.2569 3.79791 13.224L2.77605 12.2021C2.74307 12.1691 2.73087 12.1443 2.73087 12.0874C2.73087 12.0119 2.74895 11.9848 2.77605 11.9577L3.10665 11.6271C3.33691 11.3969 3.46763 11.1096 3.50608 10.7968C3.55271 10.4973 3.51563 10.202 3.40686 9.9223L3.40114 9.9076L3.39473 9.89318C3.27175 9.61649 3.08805 9.37919 2.84295 9.19705C2.60103 9.00967 2.3117 8.89618 1.98907 8.89618H1.5082C1.45652 8.89618 1.42091 8.88546 1.37911 8.8504C1.34405 8.8086 1.33333 8.77299 1.33333 8.72131V7.27869C1.33333 7.22181 1.34553 7.197 1.37851 7.16403C1.4301 7.11243 1.46332 7.10383 1.5082 7.10383H1.98907C2.3117 7.10383 2.60101 6.99034 2.84293 6.80297C3.08804 6.62083 3.27175 6.38352 3.39473 6.10683L3.40114 6.0924L3.40686 6.0777C3.51563 5.79799 3.55271 5.50266 3.50608 5.20322C3.46763 4.89036 3.33691 4.60312 3.10665 4.37286L2.77605 4.04226C2.74307 4.00928 2.73087 3.98447 2.73087 3.9276C2.73087 3.85207 2.74895 3.825 2.77605 3.79791L3.79791 2.77605C3.83088 2.74307 3.85569 2.73087 3.91257 2.73087C3.9881 2.73087 4.01516 2.74895 4.04226 2.77605L4.37286 3.10665C4.59886 3.33265 4.879 3.46717 5.18548 3.51825L5.2034 3.52124L5.22146 3.52324C5.51572 3.55594 5.80399 3.5133 6.0777 3.40686L6.0924 3.40114L6.10683 3.39473C6.37571 3.27522 6.61182 3.1013 6.79607 2.8668L6.80291 2.85809L6.80946 2.84916C6.9894 2.6038 7.10383 2.3133 7.10383 1.98907V1.5082C7.10383 1.45132 7.11602 1.42651 7.149 1.39354Z" fill="#3E3E3E"></path></g><defs><clipPath id="clip0_10053_49231"><rect width="16" height="16" fill="white"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[shop]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/shop-3/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:03 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/shop-1.svg</guid>
+															<wp:post_id>9190</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:03]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:03]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:03]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:03]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[shop-3]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/shop-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/shop-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><g clip-path="url(#clip0_10053_49230)"><path d="M3.56406 0C3.16823 0 2.80365 0.109375 2.47031 0.328125C2.13698 0.536458 1.89219 0.822917 1.73594 1.1875L0.235938 4.54688C0.100521 4.83854 0.0223958 5.14583 0.0015625 5.46875C-0.00885417 5.78125 0.0328125 6.09375 0.126562 6.40625L0.142188 6.45313C0.215104 6.70313 0.324479 6.9375 0.470313 7.15625C0.626563 7.36458 0.803646 7.54688 1.00156 7.70313V14C1.00156 14.5521 1.19427 15.0208 1.57969 15.4063C1.97552 15.8021 2.44948 16 3.00156 16H4.50156C5.05365 16 5.5224 15.8021 5.90781 15.4063C6.30365 15.0208 6.50156 14.5521 6.50156 14V11C6.50156 10.8646 6.54844 10.75 6.64219 10.6563C6.74635 10.5521 6.86615 10.5 7.00156 10.5H9.00156C9.13698 10.5 9.25156 10.5521 9.34531 10.6563C9.44948 10.75 9.50156 10.8646 9.50156 11V14C9.50156 14.5521 9.69427 15.0208 10.0797 15.4063C10.4755 15.8021 10.9495 16 11.5016 16H13.0016C13.5536 16 14.0224 15.8021 14.4078 15.4063C14.8036 15.0208 15.0016 14.5521 15.0016 14V7.70313C15.1995 7.54688 15.3714 7.36458 15.5172 7.15625C15.6734 6.9375 15.788 6.70313 15.8609 6.45313L15.8766 6.40625C15.9703 6.09375 16.0068 5.78125 15.9859 5.46875C15.9755 5.14583 15.9026 4.83854 15.7672 4.54688L14.2672 1.1875C14.1109 0.822917 13.8661 0.536458 13.5328 0.328125C13.1995 0.109375 12.8349 0 12.4391 0H3.56406ZM3.11094 1.79688C3.1526 1.70313 3.2099 1.63021 3.28281 1.57813C3.36615 1.52604 3.4599 1.5 3.56406 1.5H12.4391C12.5432 1.5 12.6318 1.52604 12.7047 1.57813C12.788 1.63021 12.8505 1.70313 12.8922 1.79688L14.4078 5.15625C14.4599 5.28125 14.4911 5.41667 14.5016 5.5625C14.512 5.69792 14.4964 5.82813 14.4547 5.95313L14.4391 6C14.3661 6.22917 14.2359 6.41146 14.0484 6.54688C13.8609 6.68229 13.6526 6.75 13.4234 6.75C13.1734 6.75 12.9495 6.67708 12.7516 6.53125C12.5641 6.375 12.4443 6.17708 12.3922 5.9375L12.2359 5.3125C12.1943 5.14583 12.1057 5.01042 11.9703 4.90625C11.8349 4.80208 11.6786 4.75 11.5016 4.75C11.3245 4.75 11.1682 4.80208 11.0328 4.90625C10.8974 5.01042 10.8089 5.14583 10.7672 5.3125L10.5797 6.10938C10.5276 6.29688 10.4234 6.45313 10.2672 6.57813C10.1214 6.69271 9.94948 6.75 9.75156 6.75C9.55365 6.75 9.37656 6.69271 9.22031 6.57813C9.07448 6.45313 8.97552 6.29688 8.92344 6.10938L8.73594 5.3125C8.69427 5.14583 8.60573 5.01042 8.47031 4.90625C8.3349 4.80208 8.17865 4.75 8.00156 4.75C7.82448 4.75 7.66823 4.80208 7.53281 4.90625C7.3974 5.01042 7.30885 5.14583 7.26719 5.3125L7.07969 6.10938C7.0276 6.29688 6.92344 6.45313 6.76719 6.57813C6.62135 6.69271 6.44948 6.75 6.25156 6.75C6.05365 6.75 5.87656 6.69271 5.72031 6.57813C5.57448 6.45313 5.47552 6.29688 5.42344 6.10938L5.23594 5.3125C5.19427 5.14583 5.10573 5.01042 4.97031 4.90625C4.8349 4.80208 4.67865 4.75 4.50156 4.75C4.32448 4.75 4.16823 4.80208 4.03281 4.90625C3.8974 5.01042 3.80885 5.14583 3.76719 5.3125L3.61094 5.9375C3.55885 6.17708 3.43385 6.375 3.23594 6.53125C3.04844 6.67708 2.82969 6.75 2.57969 6.75C2.35052 6.75 2.14219 6.68229 1.95469 6.54688C1.76719 6.41146 1.63698 6.22917 1.56406 6L1.54844 5.95313C1.50677 5.82813 1.49115 5.69792 1.50156 5.5625C1.51198 5.41667 1.54323 5.28125 1.59531 5.15625L3.11094 1.79688ZM13.5016 8.25V14C13.5016 14.1354 13.4495 14.2552 13.3453 14.3594C13.2516 14.4531 13.137 14.5 13.0016 14.5H11.5016C11.3661 14.5 11.2464 14.4531 11.1422 14.3594C11.0484 14.2552 11.0016 14.1354 11.0016 14V11C11.0016 10.4479 10.8036 9.97917 10.4078 9.59375C10.0224 9.19792 9.55365 9 9.00156 9H7.00156C6.44948 9 5.97552 9.19792 5.57969 9.59375C5.19427 9.97917 5.00156 10.4479 5.00156 11V14C5.00156 14.1354 4.94948 14.2552 4.84531 14.3594C4.75156 14.4531 4.63698 14.5 4.50156 14.5H3.00156C2.86615 14.5 2.74635 14.4531 2.64219 14.3594C2.54844 14.2552 2.50156 14.1354 2.50156 14V8.25C2.51198 8.25 2.5224 8.25 2.53281 8.25C2.55365 8.25 2.56927 8.25 2.57969 8.25C2.95469 8.25 3.30365 8.17708 3.62656 8.03125C3.94948 7.88542 4.23073 7.68229 4.47031 7.42188C4.68906 7.68229 4.94948 7.88542 5.25156 8.03125C5.56406 8.17708 5.8974 8.25 6.25156 8.25C6.59531 8.25 6.91823 8.18229 7.22031 8.04688C7.5224 7.90104 7.78281 7.70833 8.00156 7.46875C8.22031 7.70833 8.48073 7.90104 8.78281 8.04688C9.0849 8.18229 9.40781 8.25 9.75156 8.25C10.1057 8.25 10.4339 8.17708 10.7359 8.03125C11.0484 7.88542 11.3141 7.68229 11.5328 7.42188C11.7724 7.68229 12.0536 7.88542 12.3766 8.03125C12.6995 8.17708 13.0484 8.25 13.4234 8.25C13.4339 8.25 13.4443 8.25 13.4547 8.25C13.4755 8.25 13.4911 8.25 13.5016 8.25Z" fill="#3E3E3E"></path></g><defs><clipPath id="clip0_10053_49230"><rect width="16" height="16" fill="white"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[phone]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/phone-2/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:37 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/phone-1.svg</guid>
+															<wp:post_id>9191</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:37]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:37]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:37]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:37]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[phone-2]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/phone-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/phone-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><g clip-path="url(#clip0_8853_33062)"><rect width="36" height="36" rx="18" fill="#1C61E7"></rect><g clip-path="url(#clip1_8853_33062)"><g clip-path="url(#clip2_8853_33062)"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.2083 10.667C11.8739 10.667 10.6177 11.6966 10.6926 13.1677C11.0199 19.5943 16.3701 24.984 22.8331 25.3085C24.3038 25.3824 25.3334 24.1267 25.3334 22.7921V22.2803C25.3334 20.5791 23.8012 19.4706 22.372 19.2645L22.3305 19.2583C21.4378 19.1239 20.4159 19.3084 19.692 20.0323L19.3553 20.3689C17.7618 19.544 16.4564 18.2386 15.6315 16.6451L15.9681 16.3084C16.692 15.5845 16.8765 14.5626 16.7421 13.6699L16.736 13.6284C16.5298 12.1992 15.4213 10.667 13.7201 10.667H13.2083ZM12.0243 13.0999C11.995 12.5257 12.4948 12.0003 13.2083 12.0003H13.7201C14.5175 12.0003 15.2657 12.775 15.4163 13.8188L15.4236 13.8685C15.5142 14.4695 15.3695 15.0214 15.0253 15.3656L14.3535 16.0374C14.1574 16.2336 14.1032 16.5307 14.2175 16.7835C15.2189 18.9978 17.0026 20.7815 19.2169 21.7829C19.4697 21.8972 19.7668 21.8431 19.963 21.6469L20.6348 20.9751C20.979 20.6309 21.5309 20.4863 22.1319 20.5768L22.1816 20.5841C23.2254 20.7347 24.0001 21.4829 24.0001 22.2803V22.7921C24.0001 23.5055 23.4747 24.0058 22.9 23.9769C17.1239 23.6868 12.3169 18.8466 12.0243 13.0999Z" fill="white"></path></g></g></g><defs><clipPath id="clip0_8853_33062"><rect width="36" height="36" rx="18" fill="white"></rect></clipPath><clipPath id="clip1_8853_33062"><rect width="16" height="16" fill="white" transform="translate(10 10)"></rect></clipPath><clipPath id="clip2_8853_33062"><rect width="16" height="16" fill="white" transform="translate(10 10)"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[map-point]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/map-point/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/map-point.svg</guid>
+															<wp:post_id>9192</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:38]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[map-point]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/map-point.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/map-point.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><g clip-path="url(#clip0_8853_33061)"><rect width="36" height="36" rx="18" fill="#1C61E7"></rect><g clip-path="url(#clip1_8853_33061)"><path fill-rule="evenodd" clip-rule="evenodd" d="M20.6665 16.6663C20.6665 18.1391 19.4726 19.333 17.9998 19.333C16.5271 19.333 15.3332 18.1391 15.3332 16.6663C15.3332 15.1936 16.5271 13.9997 17.9998 13.9997C19.4726 13.9997 20.6665 15.1936 20.6665 16.6663ZM19.3332 16.6663C19.3332 17.4027 18.7362 17.9997 17.9998 17.9997C17.2635 17.9997 16.6665 17.4027 16.6665 16.6663C16.6665 15.93 17.2635 15.333 17.9998 15.333C18.7362 15.333 19.3332 15.93 19.3332 16.6663Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M17.9998 11.333C15.0543 11.333 12.6665 13.7208 12.6665 16.6663C12.6665 18.1279 13.3997 20.0844 14.3465 21.6453C14.8262 22.4361 15.385 23.1665 15.9769 23.7081C16.5501 24.2326 17.249 24.6663 17.9998 24.6663C18.7507 24.6663 19.4496 24.2326 20.0228 23.7081C20.6146 23.1665 21.1734 22.4361 21.6532 21.6453C22.6 20.0844 23.3332 18.1279 23.3332 16.6663C23.3332 13.7208 20.9454 11.333 17.9998 11.333ZM13.9998 16.6663C13.9998 14.4572 15.7907 12.6663 17.9998 12.6663C20.209 12.6663 21.9998 14.4572 21.9998 16.6663C21.9998 17.7821 21.3997 19.4923 20.5132 20.9537C20.0762 21.674 19.5934 22.2937 19.1227 22.7245C18.6334 23.1722 18.249 23.333 17.9998 23.333C17.7507 23.333 17.3663 23.1722 16.877 22.7245C16.4063 22.2937 15.9234 21.674 15.4865 20.9537C14.6 19.4923 13.9998 17.7821 13.9998 16.6663Z" fill="white"></path></g></g><defs><clipPath id="clip0_8853_33061"><rect width="36" height="36" rx="18" fill="white"></rect></clipPath><clipPath id="clip1_8853_33061"><rect width="16" height="16" fill="white" transform="translate(10 10)"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[parking]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/parking/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/parking.svg</guid>
+															<wp:post_id>9193</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:38]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[parking]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/parking.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/parking.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none"><g clip-path="url(#clip0_9058_37937)"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.334 5C9.7817 5 9.33398 5.44772 9.33398 6V17C9.33398 17.5523 9.7817 18 10.334 18C10.8863 18 11.334 17.5523 11.334 17V14H12.834C15.3193 14 17.334 11.9853 17.334 9.5C17.334 7.01472 15.3193 5 12.834 5H10.334ZM12.834 12H11.334V7H12.834C14.2147 7 15.334 8.11929 15.334 9.5C15.334 10.8807 14.2147 12 12.834 12Z" fill="#101010" fill-opacity="0.5"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M3.33398 0C1.67713 0 0.333984 1.34314 0.333984 3V21C0.333984 22.6569 1.67713 24 3.33398 24H21.334C22.9908 24 24.334 22.6569 24.334 21V3C24.334 1.34315 22.9908 0 21.334 0H3.33398ZM2.33398 3C2.33398 2.44772 2.7817 2 3.33398 2H21.334C21.8863 2 22.334 2.44771 22.334 3V21C22.334 21.5523 21.8863 22 21.334 22H3.33398C2.7817 22 2.33398 21.5523 2.33398 21V3Z" fill="#101010" fill-opacity="0.5"></path></g><defs><clipPath id="clip0_9058_37937"><rect width="24" height="24" fill="white" transform="translate(0.333984)"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[disabled-parking]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/disabled-parking/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/disabled-parking.svg</guid>
+															<wp:post_id>9194</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:38]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[disabled-parking]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/disabled-parking.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/disabled-parking.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#clip0_9058_37944)"><path d="M5.5 2.5C5.5 1.11929 6.61929 0 8 0C9.38071 0 10.5 1.11929 10.5 2.5C10.5 3.88071 9.38071 5 8 5C6.61929 5 5.5 3.88071 5.5 2.5Z" fill="#101010" fill-opacity="0.5"></path><path d="M9 7C9 6.44772 8.55229 6 8 6C7.44772 6 7 6.44772 7 7V15C7 15.5523 7.44772 16 8 16H13.5858L17.2929 19.7071C17.6834 20.0976 18.3166 20.0976 18.7071 19.7071C19.0976 19.3166 19.0976 18.6834 18.7071 18.2929L14.4142 14H9V10H14C14.5523 10 15 9.55228 15 9C15 8.44772 14.5523 8 14 8H9V7Z" fill="#101010" fill-opacity="0.5"></path><path d="M0 16.0005C0 12.6431 2.06817 9.76881 5 8.58203V10.8032C3.2066 11.8406 2 13.7797 2 16.0005C2 19.3142 4.68629 22.0005 8 22.0005C10.4333 22.0005 12.5282 20.5521 13.4697 18.4704L14.9553 19.956C13.5785 22.3717 10.9795 24.0005 8 24.0005C3.58172 24.0005 0 20.4188 0 16.0005Z" fill="#101010" fill-opacity="0.5"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M18 0C17.4477 0 17 0.447715 17 1V10C17 10.5523 17.4477 11 18 11C18.5523 11 19 10.5523 19 10V7H20.5C22.433 7 24 5.433 24 3.5C24 1.567 22.433 0 20.5 0H18ZM20.5 5H19V2H20.5C21.3284 2 22 2.67157 22 3.5C22 4.32843 21.3284 5 20.5 5Z" fill="#101010" fill-opacity="0.5"></path></g><defs><clipPath id="clip0_9058_37944"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[disabled-access]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/disabled-access/</link>
+					<pubDate>Wed, 25 Jan 2023 14:31:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/disabled-access.svg</guid>
+															<wp:post_id>9195</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:31:38]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:31:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:31:38]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[disabled-access]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/disabled-access.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/disabled-access.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none"><g clip-path="url(#clip0_9058_37955)"><path d="M11.667 0C10.2863 0 9.16699 1.11929 9.16699 2.5C9.16699 3.88071 10.2863 5 11.667 5C13.0477 5 14.167 3.88071 14.167 2.5C14.167 1.11929 13.0477 0 11.667 0Z" fill="#101010" fill-opacity="0.5"></path><path d="M11.667 6C12.2193 6 12.667 6.44772 12.667 7V8H17.667C18.2193 8 18.667 8.44772 18.667 9C18.667 9.55228 18.2193 10 17.667 10H12.667V14H18.0812L22.3741 18.2929C22.7646 18.6834 22.7646 19.3166 22.3741 19.7071C21.9836 20.0976 21.3504 20.0976 20.9599 19.7071L17.2528 16H11.667C11.1147 16 10.667 15.5523 10.667 15V7C10.667 6.44772 11.1147 6 11.667 6Z" fill="#101010" fill-opacity="0.5"></path><path d="M8.66699 8.58203C5.73516 9.76881 3.66699 12.6431 3.66699 16.0005C3.66699 20.4188 7.24871 24.0005 11.667 24.0005C14.6465 24.0005 17.2455 22.3717 18.6223 19.956L17.1367 18.4704C16.1952 20.5521 14.1002 22.0005 11.667 22.0005C8.35328 22.0005 5.66699 19.3142 5.66699 16.0005C5.66699 13.7797 6.87359 11.8406 8.66699 10.8032V8.58203Z" fill="#101010" fill-opacity="0.5"></path></g><defs><clipPath id="clip0_9058_37955"><rect width="24" height="24" fill="white" transform="translate(0.666992)"></rect></clipPath></defs></svg>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[arrow-on-primary-circle]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/?attachment_id=9212</link>
+					<pubDate>Wed, 25 Jan 2023 14:38:15 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/arrow-on-primary-circle.svg</guid>
+															<wp:post_id>9212</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-25 14:38:15]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-25 14:38:15]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-25 14:38:15]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-25 14:38:15]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[arrow-on-primary-circle]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>128</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2022/12/arrow-on-primary-circle.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2022/12/arrow-on-primary-circle.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="16" fill="#1C61E7"></rect><path d="M14.2813 9.21875C14.1354 9.07292 13.9583 9 13.75 9C13.5417 9 13.3646 9.07292 13.2188 9.21875C13.0729 9.36458 13 9.54167 13 9.75C13 9.95833 13.0729 10.1354 13.2188 10.2813L19.1875 16.25L13.2188 22.2188C13.0729 22.3646 13 22.5417 13 22.75C13 22.9583 13.0729 23.1354 13.2188 23.2813C13.3646 23.4271 13.5417 23.5 13.75 23.5C13.9583 23.5 14.1354 23.4271 14.2813 23.2813L20.7813 16.7813C20.9271 16.6354 21 16.4583 21 16.25C21 16.0417 20.9271 15.8646 20.7813 15.7188L14.2813 9.21875Z" fill="white"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[alameda-store-l-opt]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/alameda-store/alameda-store-l-opt/</link>
+					<pubDate>Thu, 26 Jan 2023 16:28:37 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/alameda-store-l-opt.jpg</guid>
+															<wp:post_id>9305</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-26 16:28:37]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-26 16:28:37]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-26 16:28:37]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-26 16:28:37]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[alameda-store-l-opt]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>116</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/alameda-store-l-opt.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/alameda-store-l-opt.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[broadway-store-l-opt]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/broadway-store/broadway-store-l-opt/</link>
+					<pubDate>Thu, 26 Jan 2023 16:33:55 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/broadway-store-l-opt.jpg</guid>
+															<wp:post_id>9333</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-26 16:33:55]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-26 16:33:55]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-26 16:33:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-26 16:33:55]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[broadway-store-l-opt]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>110</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/broadway-store-l-opt.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/broadway-store-l-opt.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[valencia-store-l-opt]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/valencia-store/valencia-store-l-opt/</link>
+					<pubDate>Thu, 26 Jan 2023 16:40:01 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/valencia-store-l-opt.jpg</guid>
+															<wp:post_id>9369</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-26 16:40:01]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-26 16:40:01]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-26 16:40:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-26 16:40:01]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[valencia-store-l-opt]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>112</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/valencia-store-l-opt.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/valencia-store-l-opt.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[emeryville-store-l-opt]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/mega-electronics-elementor/emeryville-store/emeryville-store-l-opt/</link>
+					<pubDate>Thu, 26 Jan 2023 17:04:17 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/emeryville-store-l-opt.jpg</guid>
+															<wp:post_id>9426</wp:post_id>
+					<wp:post_date><![CDATA[2023-01-26 17:04:17]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2023-01-26 17:04:17]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2023-01-26 17:04:17]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-01-26 17:04:17]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[emeryville-store-l-opt]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>114</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/mega-electronics-elementor/wp-content/uploads/sites/8/2023/01/emeryville-store-l-opt.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2023/01/emeryville-store-l-opt.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 				</channel>

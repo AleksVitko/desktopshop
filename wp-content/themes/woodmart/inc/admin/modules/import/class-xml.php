@@ -360,8 +360,8 @@ class XML {
 					$value['new'],
 					array(
 						'/"ids":"([^"]*)"/i',
-						'/"tagsIds"="([^"]*)"/i',
-						'/"categoriesIds"="([^"]*)"/i',
+						'/"tagsIds":"([^"]*)"/i',
+						'/"categoriesIds":"([^"]*)"/i',
 						'/"nav_menu":"([^"]*)"/i',
 					)
 				);
@@ -381,6 +381,27 @@ class XML {
 
 				$wd_post_content = str_replace( '{/{', '', $wd_post_content );
 				$wd_post_content = str_replace( '}/}', '', $wd_post_content );
+
+				$wd_post_content = preg_replace_callback(
+					'/<!-- wp:wd\/countdown-timer\s+({.*?"date":"[^"]+.*?})\s+-->(.*?)<!-- \/wp:wd\/countdown-timer -->/s',
+					function ( $matches ) {
+						$block_data = json_decode( $matches[1], true );
+						if ( isset( $block_data['date'] ) ) {
+							$block_data['date'] = ( gmdate( 'Y' ) + 1 ) . '/01/01';
+						}
+						$updated_json = wp_json_encode( $block_data, JSON_UNESCAPED_SLASHES );
+
+						$html_content         = $matches[2];
+						$updated_html_content = preg_replace(
+							'/data-end-date="[^"]+"/',
+							'data-end-date="' . ( gmdate( 'Y' ) + 1 ) . '/01/01"',
+							$html_content
+						);
+
+						return '<!-- wp:wd/countdown-timer ' . $updated_json . ' -->' . $updated_html_content . '<!-- /wp:wd/countdown-timer -->';
+					},
+					$wd_post_content
+				);
 
 				if ( str_contains( $wd_post_content, 'dummy.xtemos.com' ) ) {
 					$links = $this->helpers->links;
@@ -520,6 +541,8 @@ class XML {
 					$value['new'],
 					array(
 						'/ids="([^"]*)"/i',
+						'/taxonomies="([^"]*)"/i',
+						'/categories="([^"]*)"/i',
 					)
 				);
 
@@ -546,6 +569,14 @@ class XML {
 
 				$wd_post_content = str_replace( '{/{', '', $wd_post_content );
 				$wd_post_content = str_replace( '}/}', '', $wd_post_content );
+
+				$wd_post_content = preg_replace_callback(
+					'/\[(woodmart_countdown_timer|promo_banner)([^\]]*?)date="([^"]+)"([^\]]*?)\]/',
+					function ( $matches ) {
+						return '[' . $matches[1] . $matches[2] . 'date="' . ( gmdate( 'Y' ) + 1 ) . '/01/01"' . $matches[4] . ']';
+					},
+					$wd_post_content
+				);
 
 				wp_update_post(
 					array(
@@ -768,6 +799,10 @@ class XML {
 											$settings[ $key ]['id']  = '{/{' . $data['new'] . '}/}';
 										}
 									}
+								}
+
+								if ( 'date_time' === $control['type'] && 'date' === $control['name'] && $settings ) {
+									$settings = ( gmdate( 'Y' ) + 1 ) . '/01/01';
 								}
 
 								$element_data['settings'][ $control['name'] ] = $settings;

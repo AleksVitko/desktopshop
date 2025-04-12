@@ -118,7 +118,7 @@ class Vc_ParamGroup {
 	 * @since 4.4
 	 */
 	public function params_to_arr( $param_name, $arr ) {
-		$data = array();
+		$data = [];
 		foreach ( $arr as $param ) {
 			$data[ $param_name . '_' . $param['param_name'] ] = $param['type'];
 		}
@@ -279,7 +279,7 @@ add_filter( 'vc_map_get_param_defaults', 'vc_param_group_param_defaults', 10, 2 
 function vc_param_group_param_defaults( $value, $param ) {
 	if ( 'param_group' === $param['type'] && isset( $param['params'] ) && empty( $value ) ) {
 		$defaults = vc_map_get_params_defaults( $param['params'] );
-		$value = rawurlencode( wp_json_encode( array( $defaults ) ) );
+		$value = rawurlencode( wp_json_encode( [ $defaults ] ) );
 	}
 
 	return $value;

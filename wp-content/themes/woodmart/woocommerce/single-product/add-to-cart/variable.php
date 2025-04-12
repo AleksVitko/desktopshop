@@ -194,7 +194,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 					<td class="value cell<?php echo ! empty( $swatches ) ? esc_attr( ' with-swatches' ) : ''; ?>">
 						<?php // start Woodmart code. ?>
 						<?php if ( ! empty( $swatches ) ) : ?>
-							<div class="wd-swatches-product<?php echo esc_attr( $wrapper_class ); ?>" data-id="<?php echo esc_attr( sanitize_title( $attribute_name ) ); ?>">
+							<div class="wd-swatches-product<?php echo esc_attr( $wrapper_class ); ?>" data-id="<?php echo esc_attr( sanitize_title( $attribute_name ) ); ?>" role="radiogroup" aria-labelledby="<?php echo esc_attr( sanitize_title( $attribute_name ) ); ?>">
 								<?php
 								if ( is_array( $options ) ) {
 									$_i = 0;
@@ -299,7 +299,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 											}
 
 											?>
-												<div class="<?php echo esc_attr( $class ); ?>"<?php echo wp_kses( $title, true ); ?> data-value="<?php echo esc_attr( $term->slug ); ?>" data-title="<?php echo esc_attr( $term->name ); ?>" <?php echo selected( sanitize_title( $selected_value ), sanitize_title( $term->slug ), false ); ?>>
+												<div class="<?php echo esc_attr( $class ); ?>"<?php echo wp_kses( $title, true ); ?> data-value="<?php echo esc_attr( $term->slug ); ?>" data-title="<?php echo esc_attr( $term->name ); ?>" <?php echo selected( sanitize_title( $selected_value ), sanitize_title( $term->slug ), false ); ?> role="radio" aria-checked="false" tabindex="0">
 													<?php if ( $style || $image ) : ?>
 														<span class="wd-swatch-bg" style="<?php echo esc_attr( $style ); ?>">
 															<?php if ( $image ) : ?>

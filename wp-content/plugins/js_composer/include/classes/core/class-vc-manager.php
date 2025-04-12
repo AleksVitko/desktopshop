@@ -55,7 +55,7 @@ class Vc_Manager {
 	 * @since 4.2
 	 * @var array
 	 */
-	private $paths = array();
+	private $paths = [];
 
 	/**
 	 * Default post types where to activate WPBakery Page Builder meta box settings
@@ -63,7 +63,7 @@ class Vc_Manager {
 	 * @since 4.2
 	 * @var array
 	 */
-	private $editor_default_post_types = array( 'page' ); // TODO: move to Vc settings.
+	private $editor_default_post_types = [ 'page' ]; // TODO: move to Vc settings.
 
 	/**
 	 * Directory name in theme folder where composer should search for alternative templates of the shortcode.
@@ -87,7 +87,7 @@ class Vc_Manager {
 	 * @since 4.2
 	 * @var array
 	 */
-	private $factory = array();
+	private $factory = [];
 
 	/**
 	 * Plugin name
@@ -153,7 +153,7 @@ class Vc_Manager {
 		 * PARAMS_DIR      - complex params for shortcodes editor form.
 		 * UPDATERS_DIR    - automatic notifications and updating classes.
 		 */
-		$this->setPaths( array(
+		$this->setPaths( [
 			'APP_ROOT' => $dir,
 			'WP_ROOT' => preg_replace( '/$\//', '', ABSPATH ),
 			'APP_DIR' => basename( plugin_basename( $dir ) ),
@@ -172,7 +172,7 @@ class Vc_Manager {
 			'UPDATERS_DIR' => $dir . '/include/classes/updaters',
 			'VENDORS_DIR' => $dir . '/include/classes/vendors',
 			'DEPRECATED_DIR' => $dir . '/include/classes/deprecated',
-		) );
+		] );
 		// Load API.
 		require_once $this->path( 'HELPERS_DIR', 'helpers_factory.php' );
 		require_once $this->path( 'HELPERS_DIR', 'helpers.php' );
@@ -187,23 +187,27 @@ class Vc_Manager {
 		require_once $this->path( 'SHORTCODES_DIR', 'core/class-vc-shortcodes-manager.php' );
 		require_once $this->path( 'CORE_DIR', 'class-vc-modifications.php' );
 		// Add hooks.
-		add_action( 'plugins_loaded', array(
+		add_action( 'plugins_loaded', [
 			$this,
 			'pluginsLoaded',
-		), 9 );
-		add_action( 'init', array(
+		], 9 );
+		add_action( 'init', [
 			$this,
 			'init',
-		), 11 );
+		], 11 );
 		$this->setPluginName( $this->path( 'APP_DIR', 'js_composer.php' ) );
-		register_activation_hook( WPB_PLUGIN_FILE, array(
+		register_activation_hook( WPB_PLUGIN_FILE, [
 			$this,
 			'activationHook',
-		) );
-		add_action( 'init', array(
+		] );
+		add_action( 'init', [
 			$this,
 			'load_text_domain',
-		) );
+		] );
+		add_filter( 'plugin_row_meta', [
+			$this,
+			'addPluginMetaLinks',
+		], 10, 2 );
 	}
 
 	/**
@@ -390,10 +394,10 @@ class Vc_Manager {
 		 */
 		if ( is_admin() ) {
 			if ( 'vc_inline' === vc_action() ) {
-				vc_user_access()->wpAny( array(
+				vc_user_access()->wpAny( [
 					'edit_post',
 					(int) vc_request_param( 'post_id' ),
-				) )->validateDie()->part( 'frontend_editor' )->can()->validateDie();
+				] )->validateDie()->part( 'frontend_editor' )->can()->validateDie();
 				$this->mode = 'admin_frontend_editor';
 			} elseif ( ( vc_user_access()->wpAny( 'edit_posts', 'edit_pages' )->get() ) && ( 'vc_upgrade' === vc_action() || ( 'update-selected' === vc_get_param( 'action' ) && $this->pluginName() === vc_get_param( 'plugins' ) ) ) ) {
 				$this->mode = 'admin_updater';
@@ -403,10 +407,10 @@ class Vc_Manager {
 				$this->mode = 'admin_page';
 			}
 		} elseif ( 'true' === vc_get_param( 'vc_editable' ) ) {
-				vc_user_access()->checkAdminNonce()->validateDie()->wpAny(array(
+				vc_user_access()->checkAdminNonce()->validateDie()->wpAny([
 					'edit_post',
 					(int) vc_request_param( 'vc_post_id' ),
-				))->validateDie()->part( 'frontend_editor' )->can()->validateDie();
+				])->validateDie()->part( 'frontend_editor' )->can()->validateDie();
 				$this->mode = 'page_editable';
 		} elseif (
 				get_transient( 'vc_action' ) === 'vc_editable'
@@ -430,10 +434,10 @@ class Vc_Manager {
 	protected function setVersion() {
 		$version = get_option( 'vc_version' );
 		if ( ! is_string( $version ) || version_compare( $version, WPB_VC_VERSION ) !== 0 ) {
-			add_action( 'vc_after_init', array(
+			add_action( 'vc_after_init', [
 				vc_settings(),
 				'rebuild',
-			) );
+			] );
 			update_option( 'vc_version', WPB_VC_VERSION );
 		}
 	}
@@ -890,5 +894,39 @@ class Vc_Manager {
 	 */
 	public function assetUrl( $file ) {
 		return preg_replace( '/\s/', '%20', plugins_url( $this->path( 'ASSETS_DIR_NAME', $file ), WPB_PLUGIN_FILE ) );
+	}
+
+	/**
+	 * Add custom links to plugin meta in plugin page list.
+	 *
+	 * @param array  $links
+	 * @param string $plugin_file
+	 * @return array
+	 * @since 8.3
+	 */
+	public function addPluginMetaLinks( $links, $plugin_file ) {
+		if ( plugin_basename( WPB_PLUGIN_FILE ) !== $plugin_file ) {
+			return $links;
+		}
+
+		// Remove last on which can be "Visit plugin site" or "View details".
+		array_pop( $links );
+
+		// Add "View details" expicitly.
+		$links = array_merge( $links, [
+			sprintf(
+				'<a href="%s" class="thickbox open-plugin-details-modal">%s</a>',
+				esc_url( network_admin_url( 'plugin-install.php?tab=plugin-information&plugin=js_composer&TB_iframe=true&width=772&height=500' ) ),
+				esc_html__( 'View details', 'text-domain' )
+			),
+			sprintf(
+				'<a href="%s" target="%s">%s</a>',
+				esc_url( 'https://support.wpbakery.com/?utm_source=wpdashboard&utm_medium=wp-plugins&utm_campaign=info&utm_content=text' ),
+				esc_attr( '_blank' ),
+				esc_html__( 'Customer Center', 'text-domain' )
+			),
+		] );
+
+		return $links;
 	}
 }

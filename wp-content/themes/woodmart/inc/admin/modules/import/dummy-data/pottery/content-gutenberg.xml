@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-04 07:57" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-20 15:48" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Pottery gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 04 Nov 2024 07:57:34 +0000</pubDate>
+	<pubDate>Mon, 20 Jan 2025 15:48:41 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/pottery-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +50,7 @@
 					<title><![CDATA[Single product layout Pottery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/single-product-layout-pottery/</link>
 					<pubDate>Wed, 07 Aug 2024 11:03:14 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pottery-gutenberg/?post_type=woodmart_layout&#038;p=396</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"bcc11eeb-99d8-4a22-b6f2-cedcb5cfe429","columnsGap":40,"marginBottom":"80","columnsGapTablet":30,"marginTopTablet":"-25","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-bcc11eeb" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"0c22d5da-2085-4110-b0fd-ca83ef487a6c","adjacentCount":2,"sticky":true,"stickyOffset":"150","stickyTablet":true} -->
@@ -76,6 +75,8 @@
 
 <!-- wp:wd/sp-wishlist-btn {"blockId":"4e61cbba-f059-4e96-878e-718d31b5c5ed","style":"icon","marginBottom":"10"} /--></div>
 <!-- /wp:wd/container -->
+
+<!-- wp:wd/woo-hook {"blockId":"f50d088e-c279-4eca-8960-4b8bb6d22caa","hook":"woocommerce_single_product_summary","cleanActions":true} /-->
 
 <!-- wp:wd/sp-dynamic-discount {"blockId":"94c9f870-b5f8-439e-97c2-f38cb82cc772"} /-->
 
@@ -153,8 +154,8 @@
 															<wp:post_id>396</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:03:14]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-07 11:03:14]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-11-04 07:55:28]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-11-04 07:55:28]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 13:22:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 13:22:38]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[single-product-layout-pottery]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -174,7 +175,7 @@
 					<title><![CDATA[w-hmp-pottery-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/single-product-layout-pottery/w-hmp-pottery-1/</link>
 					<pubDate>Wed, 07 Aug 2024 11:10:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-gutenberg/wp-content/uploads/sites/36/2024/08/w-hmp-pottery-1.svg</guid>
 															<wp:post_id>400</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:10:54]]></wp:post_date>
@@ -197,7 +198,7 @@
 					<title><![CDATA[w-hmp-pottery-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/single-product-layout-pottery/w-hmp-pottery-2/</link>
 					<pubDate>Wed, 07 Aug 2024 11:12:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-gutenberg/wp-content/uploads/sites/36/2024/08/w-hmp-pottery-2.svg</guid>
 															<wp:post_id>401</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:12:01]]></wp:post_date>
@@ -220,7 +221,7 @@
 					<title><![CDATA[w-hmp-pottery-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/single-product-layout-pottery/w-hmp-pottery-3/</link>
 					<pubDate>Wed, 07 Aug 2024 11:12:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-gutenberg/wp-content/uploads/sites/36/2024/08/w-hmp-pottery-3.svg</guid>
 															<wp:post_id>402</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:12:25]]></wp:post_date>
@@ -243,7 +244,7 @@
 					<title><![CDATA[Product archive layout Pottery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/product-archive-layout-pottery/</link>
 					<pubDate>Wed, 07 Aug 2024 11:26:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pottery-gutenberg/?post_type=woodmart_layout&#038;p=408</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"95d2adee-37e5-4687-9af2-e7c306d86246","bgColorCode":"#f0f0f0","paddingTop":"20","paddingBottom":"20","marginTop":"-40","marginBottom":"0"} -->
 <div id="wd-95d2adee" class="wp-block-wd-section"><!-- wp:wd/container {"blockId":"0216375e-4b73-47c8-aada-36dbe646eea9","colGap":"5","rowGap":"5"} -->
@@ -314,7 +315,7 @@
 					<title><![CDATA[Cart layout Pottery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/cart-layout-pottery/</link>
 					<pubDate>Wed, 07 Aug 2024 11:40:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pottery-gutenberg/?post_type=woodmart_layout&#038;p=416</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"e10854f9-df65-4010-b121-01943a2808c2","stretch":true,"marginTop":"-40","marginBottom":"30"} /-->
 
@@ -324,6 +325,8 @@
 
 <!-- wp:wd/woo-shipping-progress-bar {"blockId":"2af2454e-cd12-4c20-86fa-cb4ed0b11bb6","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"dotted","borderColorCode":"#333333","borderWidth":"1","borderWidthTop":"1","borderWidthRight":"1","borderWidthBottom":"1","borderWidthLeft":"1","borderWidthLock":true} /-->
 
+<!-- wp:wd/woo-hook {"blockId":"911fe1ff-f6e4-42f5-9dcc-5096e41be43a","hook":"woocommerce_before_cart","cleanActions":true} /-->
+
 <!-- wp:wd/ct-table {"blockId":"48f04364-c0b7-4c70-8d0c-7b0ae6cfe0ce"} /--></div>
 <!-- /wp:wd/column -->
 
@@ -332,9 +335,13 @@
 <h2 id="wd-ebef2aae" class="wp-block-wd-title title">Cart totals</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/ct-totals {"blockId":"4696b134-8751-4b0f-a767-b923478cf56f","btnAlign":"stretch","paddingLock":true,"borderWidthLock":true} /--></div>
+<!-- wp:wd/ct-totals {"blockId":"4696b134-8751-4b0f-a767-b923478cf56f","btnAlign":"stretch","paddingLock":true,"borderWidthLock":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"0d22c401-867b-4bfa-8797-ed12218eca93","hook":"woocommerce_after_cart","cleanActions":true} /--></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
+
+<!-- wp:wd/woo-hook {"blockId":"fad54a0b-1b1d-4c0f-a1c0-7d35afa0f9ba","hook":"woocommerce_cart_collaterals","cleanActions":true} /-->
 
 <!-- wp:wd/products {"blockId":"497d1bd3-ca17-499d-a8ad-27fd55d091c0","show_title":true,"layout":"carousel","spacing":"","items_per_page":"5","marginTop":"40","marginBottom":"40","hide_pagination_control":true,"sync_parent_id":"wd_1bfa47c2","marginBottomTablet":"20","marginBottomMobile":"0","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
 <!-- wp:wd/title {"blockId":"4b2f8cdd-04b9-4877-ac82-3c7be0b33348","content":"You May Be Interested In…","tpFontSize":"24","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
@@ -344,8 +351,8 @@
 															<wp:post_id>416</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:40:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-07 11:40:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-07 16:24:18]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-07 16:24:18]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 13:22:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 13:22:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[cart-layout-pottery]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -365,16 +372,20 @@
 					<title><![CDATA[Checkout layout Pottery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-gutenberg/woodmart_layout/checkout-layout-pottery/</link>
 					<pubDate>Wed, 07 Aug 2024 11:47:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/pottery-gutenberg/?post_type=woodmart_layout&#038;p=418</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"e10854f9-df65-4010-b121-01943a2808c2","stretch":true,"marginTop":"-40","marginBottom":"30"} /-->
 
 <!-- wp:wd/woo-notices {"blockId":"91482c19-9a02-4004-8ab6-1c321e3be1b9"} /-->
 
 <!-- wp:wd/container {"blockId":"7f8952d7-15f6-4283-b60b-e5a9a8bbede8","marginBottom":"40"} -->
-<div id="wd-7f8952d7" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/ch-login-form {"blockId":"27b178d1-23ec-42ab-a597-014788abb9da","formWidth":"","formBorderType":"solid","formBorderColorCode":"#000000","formBorderWidth":"1","formBorderWidthTop":"1","formBorderWidthRight":"1","formBorderWidthBottom":"1","formBorderWidthLeft":"1","formBorderWidthLock":true,"formPaddingLock":true} /-->
+<div id="wd-7f8952d7" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/woo-hook {"blockId":"6de5ce8f-9457-4bea-940c-88a4a2f95d85","hook":"woocommerce_before_checkout_form"} /-->
 
-<!-- wp:wd/ch-coupon-form {"blockId":"763918f4-06a1-4ad9-88ac-d7f9fdf38ec5","formWidth":"","formBorderType":"solid","formBorderColorCode":"#000000","formBorderWidth":"1","formBorderWidthTop":"1","formBorderWidthRight":"1","formBorderWidthBottom":"1","formBorderWidthLeft":"1","formBorderWidthLock":true} /--></div>
+<!-- wp:wd/ch-login-form {"blockId":"27b178d1-23ec-42ab-a597-014788abb9da","formWidth":"","formBorderType":"solid","formBorderColorCode":"#000000","formBorderWidth":"1","formBorderWidthTop":"1","formBorderWidthRight":"1","formBorderWidthBottom":"1","formBorderWidthLeft":"1","formBorderWidthLock":true,"formPaddingLock":true} /-->
+
+<!-- wp:wd/ch-coupon-form {"blockId":"763918f4-06a1-4ad9-88ac-d7f9fdf38ec5","formWidth":"","formBorderType":"solid","formBorderColorCode":"#000000","formBorderWidth":"1","formBorderWidthTop":"1","formBorderWidthRight":"1","formBorderWidthBottom":"1","formBorderWidthLeft":"1","formBorderWidthLock":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"08fcf4cd-4da2-46ef-9af1-dd8360e6f25f","hook":"woocommerce_checkout_before_customer_details"} /--></div>
 <!-- /wp:wd/container -->
 
 <!-- wp:wd/ch-form {"blockId":"2716438b-a08a-496f-98c7-bc8478fc4d50","marginBottom":"40","marginBottomTablet":"20","marginBottomMobile":"0"} -->
@@ -386,11 +397,17 @@
 
 <!-- wp:wd/ch-billing-details {"blockId":"073c4c87-3913-4c1e-a52e-7d54317580ba"} /-->
 
+<!-- wp:wd/woo-hook {"blockId":"f92e53ee-00c8-4a38-bdfa-764fb8aae1c6","hook":"woocommerce_checkout_after_customer_details"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"f5a0495e-e210-4846-9db9-33a6b3079cfb","hook":"woocommerce_checkout_billing"} /-->
+
 <!-- wp:wd/title {"blockId":"ca156523-754f-4f07-9e62-55feb42f844a","content":"Additional information","tpFontSize":"24","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
 <h2 id="wd-ca156523" class="wp-block-wd-title title">Additional information</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/ch-shipping-details {"blockId":"5e6769f0-06a2-49bf-855c-6a9dd3ef6af5"} /--></div>
+<!-- wp:wd/ch-shipping-details {"blockId":"5e6769f0-06a2-49bf-855c-6a9dd3ef6af5"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"1523ee26-aa4b-4cf1-ae9c-0f920ddc7a3e","hook":"woocommerce_checkout_shipping"} /--></div>
 <!-- /wp:wd/column -->
 
 <!-- wp:wd/column {"blockId":"46ae2fd4-d903-4c5f-9faa-ddbc7ce67399","blocksGap":10,"positionType":"sticky","positionTop":"150","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"solid","borderColorCode":"#000000","borderWidth":"1","borderWidthTop":"1","borderWidthRight":"1","borderWidthBottom":"1","borderWidthLeft":"1","borderWidthLock":true,"alignSelf":"start","positionTypeMobile":"relative","positionTopMobile":"0"} -->
@@ -398,7 +415,13 @@
 <h2 id="wd-8d960f1b" class="wp-block-wd-title title">Your order</h2>
 <!-- /wp:wd/title -->
 
+<!-- wp:wd/woo-hook {"blockId":"26d4fe84-3a76-49ba-9e10-ec66bda4cb71","hook":"woocommerce_checkout_before_order_review_heading"} /-->
+
 <!-- wp:wd/ch-order-review {"blockId":"9e8a83f1-5657-4bcf-a24b-f6ccf8110d2a"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"c9f1fce8-c902-473e-8e58-bc429a9e3c7e","hook":"woocommerce_checkout_before_order_review"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"d6a44f80-053b-4090-b44c-d4543847e383","hook":"woocommerce_checkout_order_review"} /-->
 
 <!-- wp:wd/woo-shipping-progress-bar {"blockId":"d5de8e1e-6365-4107-be1a-01e4d303984b","marginBottom":"20"} /-->
 
@@ -410,15 +433,19 @@
 <h2 id="wd-0177fbdd" class="wp-block-wd-title title">Payment information</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/ch-payment-methods {"blockId":"8d98c310-1a24-4e62-8620-0df048eefc11","btnAlign":"stretch","descriptionBgColorCode":"#f8f8f8","termsConditionsColorCode":"#f8f8f8"} /--></div>
+<!-- wp:wd/ch-payment-methods {"blockId":"8d98c310-1a24-4e62-8620-0df048eefc11","btnAlign":"stretch","descriptionBgColorCode":"#f8f8f8","termsConditionsColorCode":"#f8f8f8"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"bc4ff4cc-200d-4fe2-baba-2a37ca5e6a63","hook":"woocommerce_checkout_after_order_review"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"6b7557f7-f373-4aa9-9157-33ad03d09f80","hook":"woocommerce_after_checkout_form"} /--></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
 <!-- /wp:wd/ch-form -->]]></content:encoded>
 															<wp:post_id>418</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:47:30]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-07 11:47:30]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-08 15:26:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-08 15:26:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-20 15:48:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-20 15:48:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[checkout-layout-pottery]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>

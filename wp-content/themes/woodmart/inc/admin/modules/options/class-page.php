@@ -227,11 +227,11 @@ class Page extends Singleton {
 		$text = false;
 
 		if ( 'save' === $message ) {
-			$text = esc_html__( 'Settings are successfully saved.', 'woodmart' );
+			$text = esc_html__( 'Settings have been saved successfully.', 'woodmart' );
 		} elseif ( 'import' === $message ) {
-			$text = esc_html__( 'New options are successfully imported.', 'woodmart' );
+			$text = esc_html__( 'New options have been successfully imported.', 'woodmart' );
 		} elseif ( 'reset' === $message ) {
-			$text = esc_html__( 'All options are set to default values.', 'woodmart' );
+			$text = esc_html__( 'All options have been set to default values.', 'woodmart' );
 		}
 
 		if ( $text ) {

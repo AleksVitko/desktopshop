@@ -269,12 +269,15 @@
     "prefooter_content_type": "html_block",
     "prefooter_html_block": "258",
     "footer_content_type": "widgets",
-    "products_columns": "2",
     "additional_tab_content_type": "html_block",
     "additional_tab_html_block": "242",
     "portfolio_page": "150",
     "icon_font": {
         "font": "1",
         "weight": "300"
-      }
+      },
+    "single_product_style": "5",
+    "thums_position": "without",
+    "single_product_gallery_column_desktop": "3",
+    "product_design": "alt"
 }

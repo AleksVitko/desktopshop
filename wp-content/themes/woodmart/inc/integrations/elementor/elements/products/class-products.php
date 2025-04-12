@@ -193,12 +193,12 @@ class Products extends Widget_Base {
 		$this->add_control(
 			'taxonomies',
 			[
-				'label'       => esc_html__( 'Categories or tags', 'woodmart' ),
-				'description' => esc_html__( 'List of product categories.', 'woodmart' ),
+				'label'       => esc_html__( 'Taxonomies', 'woodmart' ),
+				'description' => esc_html__( 'List of product categories, product tags, or product attributes terms.', 'woodmart' ),
 				'type'        => 'wd_autocomplete',
 				'search'      => 'woodmart_get_taxonomies_by_query',
 				'render'      => 'woodmart_get_taxonomies_title_by_id',
-				'taxonomy'    => array_merge( [ 'product_cat', 'product_tag' ], $this->get_product_attributes_array() ),
+				'taxonomy'    => array_merge( [ 'product_cat', 'product_tag', 'product_brand' ], $this->get_product_attributes_array() ),
 				'multiple'    => true,
 				'label_block' => true,
 				'condition'   => [

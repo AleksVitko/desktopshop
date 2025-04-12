@@ -96,7 +96,7 @@ do_action( 'woocommerce_before_mini_cart' ); ?>
 										</div>
 									<?php endif; ?>
 									<?php if ( woodmart_get_opt( 'estimate_delivery_enabled' ) && woodmart_get_opt( 'estimate_delivery_show_on_mini_cart' ) ) : ?>
-										<?php Estimate_Delivery_Frontend::get_instance()->render_delivery_detail_on_cart( $cart_item ); ?>
+										<?php Estimate_Delivery_Frontend::get_instance()->render_delivery_detail_on_cart( $cart_item, true ); ?>
 									<?php endif; ?>
 									<?php
 										echo wc_get_formatted_cart_item_data( $cart_item );

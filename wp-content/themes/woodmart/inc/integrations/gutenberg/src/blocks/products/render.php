@@ -16,6 +16,14 @@ if ( ! function_exists( 'wd_gutenberg_products' ) ) {
 			$block_attributes['taxonomies'] .= $block_attributes['taxonomies'] ? ',' : '';
 			$block_attributes['taxonomies'] .= $block_attributes['tagsIds'];
 		}
+		if ( ! empty( $block_attributes['productAttrs'] ) ) {
+			$block_attributes['taxonomies'] .= $block_attributes['taxonomies'] ? ',' : '';
+			$block_attributes['taxonomies'] .= $block_attributes['productAttrs'];
+		}
+		if ( ! empty( $block_attributes['productBrandIds'] ) ) {
+			$block_attributes['taxonomies'] .= $block_attributes['taxonomies'] ? ',' : '';
+			$block_attributes['taxonomies'] .= $block_attributes['productBrandIds'];
+		}
 
 		$block_attributes['columns_tablet'] = ! empty( $block_attributes['columnsTablet'] ) ? $block_attributes['columnsTablet'] : 'auto';
 		$block_attributes['columns_mobile'] = ! empty( $block_attributes['columnsMobile'] ) ? $block_attributes['columnsMobile'] : 'auto';

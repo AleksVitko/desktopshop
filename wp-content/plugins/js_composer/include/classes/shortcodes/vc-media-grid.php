@@ -22,10 +22,10 @@ class WPBakeryShortCode_Vc_Media_Grid extends WPBakeryShortCode_Vc_Basic_Grid {
 	 */
 	public function __construct( $settings ) {
 		parent::__construct( $settings );
-		add_filter( $this->shortcode . '_items_list', array(
+		add_filter( $this->shortcode . '_items_list', [
 			$this,
 			'setItemsIfEmpty',
-		) );
+		] );
 	}
 
 	/**
@@ -56,13 +56,13 @@ class WPBakeryShortCode_Vc_Media_Grid extends WPBakeryShortCode_Vc_Basic_Grid {
 		if ( empty( $atts['include'] ) ) {
 			$atts['include'] = - 1;
 		}
-		$settings = array(
+		$settings = [
 			'include' => $atts['include'],
 			'posts_per_page' => apply_filters( 'vc_basic_grid_max_items', self::$default_max_items ),
 			'offset' => 0,
 			'post_type' => 'attachment',
 			'orderby' => 'post__in',
-		);
+		];
 
 		return $settings;
 	}
@@ -99,7 +99,7 @@ class WPBakeryShortCode_Vc_Media_Grid extends WPBakeryShortCode_Vc_Basic_Grid {
 		$output = '';
 		// Compatibility fixes
 		// TODO: check $old_names & &new_names. Leftover from copypasting?
-		$old_names = array(
+		$old_names = [
 			'yellow_message',
 			'blue_message',
 			'green_message',
@@ -109,8 +109,8 @@ class WPBakeryShortCode_Vc_Media_Grid extends WPBakeryShortCode_Vc_Basic_Grid {
 			'button_blue',
 			'button_red',
 			'button_orange',
-		);
-		$new_names = array(
+		];
+		$new_names = [
 			'alert-block',
 			'alert-info',
 			'alert-success',
@@ -120,7 +120,7 @@ class WPBakeryShortCode_Vc_Media_Grid extends WPBakeryShortCode_Vc_Basic_Grid {
 			'btn-primary',
 			'btn-danger',
 			'btn-warning',
-		);
+		];
 		$value = str_ireplace( $old_names, $new_names, $value );
 		$param_name = isset( $param['param_name'] ) ? $param['param_name'] : '';
 		$type = isset( $param['type'] ) ? $param['type'] : '';
@@ -131,13 +131,13 @@ class WPBakeryShortCode_Vc_Media_Grid extends WPBakeryShortCode_Vc_Basic_Grid {
 		}
 
 		if ( 'include' === $param_name ) {
-			$images_ids = empty( $value ) ? array() : explode( ',', trim( $value ) );
+			$images_ids = empty( $value ) ? [] : explode( ',', trim( $value ) );
 			$output .= '<ul class="attachment-thumbnails' . ( empty( $images_ids ) ? ' image-exists' : '' ) . '" data-name="' . $param_name . '">';
 			foreach ( $images_ids as $image ) {
-				$img = wpb_getImageBySize( array(
+				$img = wpb_getImageBySize( [
 					'attach_id' => (int) $image,
 					'thumb_size' => 'thumbnail',
-				) );
+				] );
 				$output .= ( $img ? '<li>' . $img['thumbnail'] . '</li>' : '<li><img width="150" height="150" src="' . esc_url( vc_asset_url( 'vc/blank.gif' ) ) . '" class="attachment-thumbnail" alt="" title="" /></li>' );
 			}
 			$output .= '</ul>';

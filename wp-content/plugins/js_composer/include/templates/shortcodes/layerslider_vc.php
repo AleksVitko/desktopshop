@@ -30,10 +30,10 @@ $el_class = $this->getExtraClass( $el_class );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'wpb_layerslider_element wpb_content_element' . $el_class, $this->settings['base'], $atts );
 
 $output .= '<div class="' . esc_attr( $css_class ) . '">';
-$output .= wpb_widget_title( array(
+$output .= wpb_widget_title( [
 	'title' => $title,
 	'extraclass' => 'wpb_layerslider_heading',
-) );
+] );
 $output .= apply_filters( 'vc_layerslider_shortcode', do_shortcode( '[layerslider id="' . esc_attr( $id ) . '"]' ) );
 $output .= '</div>';
 

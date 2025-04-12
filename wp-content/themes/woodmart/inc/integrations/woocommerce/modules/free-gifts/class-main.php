@@ -45,7 +45,7 @@ class Main extends Singleton {
 
 		add_action( 'woocommerce_before_calculate_totals', array( $this, 'change_price' ) );
 
-		add_action( 'woocommerce_after_calculate_totals', array( $this, 'update_gifts_in_cart' ), 10, 2 );
+		add_action( 'woocommerce_after_calculate_totals', array( $this, 'update_gifts_in_cart' ) );
 
 		add_filter( 'woocommerce_before_mini_cart_contents', array( $this, 'cart_item_price_on_ajax' ) );
 
@@ -82,6 +82,7 @@ class Main extends Singleton {
 				'section'  => 'free_gifts_section',
 				'default'  => '5',
 				'priority' => 20,
+				'class'    => 'xts-preset-field-disabled',
 			)
 		);
 
@@ -89,7 +90,7 @@ class Main extends Singleton {
 			array(
 				'id'          => 'free_gifts_allow_multiple_identical_gifts',
 				'name'        => esc_html__( 'Allow adding multiple identical gifts', 'woodmart' ),
-				'description' => esc_html__( 'If enabled, the user can add the same product to the cart multiple times. It works if the “Manual Gifts” rule is selected for the gift.', 'woodmart' ),
+				'description' => esc_html__( 'If enabled, the user can add the same product to the cart multiple times. It works if the "Manual Gifts" rule is selected for the gift.', 'woodmart' ),
 				'type'        => 'switcher',
 				'section'     => 'free_gifts_section',
 				'default'     => '0',
@@ -125,10 +126,26 @@ class Main extends Singleton {
 
 		Options::add_field(
 			array(
+				'id'       => 'free_gift_on_cart',
+				'name'     => esc_html__( 'Cart', 'woodmart' ),
+				'group'    => esc_html__( 'Locations', 'woodmart' ),
+				'type'     => 'switcher',
+				'section'  => 'free_gifts_section',
+				'default'  => true,
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
+				'priority' => 40,
+				'class'    => 'xts-col-12',
+			)
+		);
+
+		Options::add_field(
+			array(
 				'id'          => 'free_gifts_table_location',
-				'name'        => esc_html__( 'Free gifts table location', 'woodmart' ),
+				'name'        => esc_html__( 'Cart free gifts table position', 'woodmart' ),
 				'description' => esc_html__( 'Select the placement of the free gifts table on the cart page, either before or after the listed products.', 'woodmart' ),
 				'type'        => 'buttons',
+				'group'       => esc_html__( 'Locations', 'woodmart' ),
 				'section'     => 'free_gifts_section',
 				'options'     => array(
 					'woocommerce_before_cart_table' => array(
@@ -141,7 +158,30 @@ class Main extends Singleton {
 					),
 				),
 				'default'     => 'woocommerce_after_cart_table',
-				'priority'    => 40,
+				'priority'    => 50,
+				'class'       => 'xts-col-12',
+				'requires'    => array(
+					array(
+						'key'     => 'free_gift_on_cart',
+						'compare' => 'equals',
+						'value'   => true,
+					),
+				),
+			)
+		);
+
+		Options::add_field(
+			array(
+				'id'       => 'free_gift_on_checkout',
+				'name'     => esc_html__( 'Checkout', 'woodmart' ),
+				'group'    => esc_html__( 'Locations', 'woodmart' ),
+				'type'     => 'switcher',
+				'section'  => 'free_gifts_section',
+				'default'  => false,
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
+				'priority' => 60,
+				'class'    => 'xts-col-12',
 			)
 		);
 	}
@@ -169,7 +209,8 @@ class Main extends Singleton {
 	 * @return void
 	 */
 	public function add_manual_gift_product() {
-		$product_id = ! empty( $_POST['product_id'] ) ? absint( $_POST['product_id'] ) : 0;
+		$product_id  = ! empty( $_POST['product_id'] ) ? absint( $_POST['product_id'] ) : 0;
+		$is_checkout = ! empty( $_POST['is_checkout'] ) ? boolval( $_POST['is_checkout'] ) : false;
 
 		check_ajax_referer( 'wd_free_gift_' . $product_id, 'security' );
 
@@ -203,7 +244,7 @@ class Main extends Singleton {
 			wp_send_json_error();
 		}
 
-		if ( ! wc_has_notice( $this->manager->get_notices( 'added_successfully' ) ) && wc_get_product( $product_id )->is_in_stock() ) {
+		if ( ! $is_checkout && ! wc_has_notice( $this->manager->get_notices( 'added_successfully' ) ) && wc_get_product( $product_id )->is_in_stock() ) {
 			wc_add_notice( $this->manager->get_notices( 'added_successfully' ) );
 		}
 
@@ -270,22 +311,20 @@ class Main extends Singleton {
 	/**
 	 * Update gifts in cart. Remove gifts that are no longer eligible to be in the cart. Add automatic gifts.
 	 *
-	 * @param WC_Cart $cart_object WC_Cart instance.
-	 *
 	 * @return void
 	 */
-	public function update_gifts_in_cart( $cart_object ) {
+	public function update_gifts_in_cart() {
 		if ( did_action( 'woocommerce_after_calculate_totals' ) > 1 ) {
 			return;
 		}
 
+		$cart_object     = WC()->cart;
 		$totals          = $cart_object->get_totals();
-		$total_price     = $totals['total'];
 		$gifts_rules     = $this->manager->get_rules();
 		$checked_gifts   = array();
 		$automatic_gifts = array();
 
-		if ( empty( $total_price ) || empty( $gifts_rules ) || ! woodmart_get_opt( 'free_gifts_enabled', 0 ) ) {
+		if ( empty( $totals['total'] ) || empty( $gifts_rules ) || ! woodmart_get_opt( 'free_gifts_enabled', 0 ) ) {
 			foreach ( $cart_object->get_cart() as $cart_item_key => $cart_item ) {
 				if ( ! isset( $cart_item['wd_is_free_gift'] ) ) {
 					continue;
@@ -311,14 +350,22 @@ class Main extends Singleton {
 
 		$gifts_rules = array_filter(
 			$gifts_rules,
-			function ( $rule ) use ( $total_price ) {
-				return ! empty( $rule['free_gifts'] ) && $this->manager->check_free_gifts_totals( $rule, $total_price );
+			function ( $rule ) use ( $totals ) {
+				$cart_price = $totals['subtotal'];
+
+				if ( isset( $rule['free_gifts_cart_price_type'] ) && in_array( $rule['free_gifts_cart_price_type'], array( 'subtotal', 'total' ), true ) ) {
+					$cart_price = $totals[ $rule['free_gifts_cart_price_type'] ];
+				}
+
+				return ! empty( $rule['free_gifts'] ) && $this->manager->check_free_gifts_totals( $rule, $cart_price );
 			}
 		);
 
 		$gifts_rules = array_map(
 			function ( $rule ) {
-				foreach( $rule['free_gifts'] as $gifts_id ) {
+				foreach ( $rule['free_gifts'] as $key => $gifts_id ) {
+					$rule['free_gifts'][ $key ] = intval( $gifts_id );
+
 					if ( ! ( wc_get_product( $gifts_id ) )->is_in_stock() ) {
 						unset( $rule['free_gifts'][ array_search( $gifts_id, $rule['free_gifts'], true ) ] );
 					}
@@ -367,7 +414,9 @@ class Main extends Singleton {
 			$gift_product    = $cart_item['data'];
 			$gift_product_id = $gift_product->get_id();
 
-			if ( $gift_count > woodmart_get_opt( 'free_gifts_limit', 5 ) || ! $gift_product->is_in_stock() ) {
+			$unique_gift_ids = array_unique( array_merge( ...array_column( $gifts_rules, 'free_gifts' ) ) );
+
+			if ( $gift_count > woodmart_get_opt( 'free_gifts_limit', 5 ) || ! $gift_product->is_in_stock() || empty( $gifts_rules ) || ! in_array( $gift_product_id, $unique_gift_ids, true ) ) {
 				unset( $cart_object->cart_contents[ $cart_item_key ] );
 				continue;
 			}

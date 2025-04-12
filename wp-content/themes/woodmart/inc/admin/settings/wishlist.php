@@ -50,6 +50,8 @@ Options::add_field(
 		'description' => esc_html__( 'Disable wishlist for guests customers.', 'woodmart' ),
 		'section'     => 'wishlist_section',
 		'default'     => '0',
+		'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+		'off-text'    => esc_html__( 'No', 'woodmart' ),
 		'priority'    => 30,
 	)
 );

@@ -408,6 +408,17 @@
 			  "widgetType": "wd_single_product_add_to_cart"
 			},
 			{
+			  "id": "6a779e2",
+			  "elType": "widget",
+			  "settings": {
+				"content_width": "full",
+				"hook": "woocommerce_single_product_summary",
+				"scroll_y": "-80"
+			  },
+			  "elements": [],
+			  "widgetType": "wd_wc_hook"
+			},
+			{
 			  "id": "f1401c6",
 			  "elType": "container",
 			  "settings": {

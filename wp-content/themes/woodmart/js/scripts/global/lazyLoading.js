@@ -30,10 +30,15 @@
 			return;
 		}
 
-		var pItem = document.querySelectorAll('[data-wood-src]'), pCount, timer;
+		var pItem = document.querySelectorAll('img[data-src], source[data-srcset]');
+		var bgItem = document.querySelectorAll('.wd-lazy-bg');
+		var pCount;
+		var bgCount;
+		var timer;
 
 		woodmartThemeModule.$document.on('wood-images-loaded added_to_cart updated_cart_totals updated_checkout wc_fragments_refreshed', function() {
-			pItem = document.querySelectorAll('[data-wood-src]');
+			pItem = document.querySelectorAll('img[data-src], source[data-srcset]');
+			bgItem = document.querySelectorAll('.wd-lazy-bg');
 
 			inView();
 		});
@@ -49,6 +54,10 @@
 
 		// WooCommerce tabs fix
 		$('.wc-tabs > li').on('click', function() {
+			woodmartThemeModule.$document.trigger('wood-images-loaded');
+		});
+
+		$('.wd-side-hidden').on('scroll', function () {
 			woodmartThemeModule.$document.trigger('wood-images-loaded');
 		});
 
@@ -85,24 +94,42 @@
 
 		// image in view?
 		function inView() {
-			if (pItem.length) {
+			if (pItem.length || bgItem.length) {
 				requestAnimationFrame(function() {
 					var offset = parseInt(woodmart_settings.lazy_loading_offset);
-					var wT = window.pageYOffset, wB = wT + window.innerHeight + offset, cRect, pT, pB, p = 0;
+					var wT = window.pageYOffset, wB = wT + window.innerHeight + offset, cRect, pT, pB, p = 0, b = 0;
 
-					while (p < pItem.length) {
-						cRect = pItem[p].getBoundingClientRect();
-						pT = wT + cRect.top;
-						pB = pT + cRect.height;
+					if (pItem.length) {
+						while (p < pItem.length) {
+							cRect = pItem[p].getBoundingClientRect();
+							pT = wT + cRect.top;
+							pB = pT + cRect.height;
 
-						if (wT < pB && wB > pT && !pItem[p].loaded) {
-							loadFullImage(pItem[p], p);
-						} else {
-							p++;
+							if (wT < pB && wB > pT && !pItem[p].loaded) {
+								loadFullImage(pItem[p], p);
+							} else {
+								p++;
+							}
 						}
+
+						pCount = pItem.length;
 					}
 
-					pCount = pItem.length;
+					if (bgItem.length) {
+						while (b < bgItem.length) {
+							cRect = bgItem[b].getBoundingClientRect();
+							pT = wT + cRect.top;
+							pB = pT + cRect.height;
+
+							if (wT < pB && wB > pT && bgItem[b].classList.contains('wd-lazy-bg')) {
+								bgItem[b].classList.remove('wd-lazy-bg');
+							} else {
+								b++;
+							}
+						}
+
+						bgCount = bgItem.length;
+					}
 				});
 			}
 		}
@@ -113,15 +140,18 @@
 
 			if (item.querySelector('img') !== null) {
 				item.querySelector('img').onload = addedImg;
-				item.querySelector('img').src = item.dataset.woodSrc;
-				item.querySelector('source').srcset = item.dataset.woodSrc;
+				item.querySelector('img').src = item.dataset.src;
+				item.querySelector('source').srcset = item.dataset.src;
 
 				if (typeof (item.dataset.srcset) != 'undefined') {
 					item.querySelector('img').srcset = item.dataset.srcset;
 				}
 			}
 
-			item.src = item.dataset.woodSrc;
+			if (typeof (item.dataset.src) != 'undefined') {
+				item.src = item.dataset.src;
+			}
+
 			if (typeof (item.dataset.srcset) != 'undefined') {
 				item.srcset = item.dataset.srcset;
 			}
@@ -133,6 +163,12 @@
 				requestAnimationFrame(function() {
 					if (item.classList.contains('wd-lazy-fade') || item.classList.contains('wd-lazy-blur')) {
 						item.classList.add('wd-loaded');
+					}
+
+					var picture = item.closest('picture')
+
+					if ( picture && (picture.classList.contains('wd-lazy-fade') || picture.classList.contains('wd-lazy-blur')) ) {
+						picture.classList.add('wd-loaded')
 					}
 
 					var $masonry = jQuery(item).parents('.grid-masonry, .wd-masonry');

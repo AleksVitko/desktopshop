@@ -346,7 +346,7 @@ class Users_Table extends WP_List_Table {
 						$wpdb->wd_waitlists.`created_date_gmt` as `created_date`
 					FROM $wpdb->wd_waitlists"
 					. $where_query_text .
-					' LIMIT 50;',
+					';',
 					ARRAY_A
 				)
 			);

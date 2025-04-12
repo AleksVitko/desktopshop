@@ -1,26 +1,24 @@
 {
     "default_header": "header_779847",
-    "text-font": [
+   "text-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Josefin Sans",
             "font-weight": "300",
             "font-style": "",
             "font-subset": "",
-            "font-size": "14",
+            "font-size": "16",
             "tablet": {
                 "font-size": ""
             },
             "mobile": {
                 "font-size": ""
             },
-            "color": "#767676"
+            "color": "rgb(118,118,118)"
         }
     ],
     "primary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Josefin Sans",
             "font-weight": "400",
@@ -32,7 +30,6 @@
     ],
     "post-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Josefin Sans",
             "font-weight": "400",
@@ -47,7 +44,6 @@
     ],
     "widget-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Josefin Sans",
             "font-weight": "400",
@@ -66,7 +62,6 @@
     ],
     "navigation-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Open Sans",
             "font-weight": "600",
@@ -80,6 +75,15 @@
             "mobile": {
                 "font-size": ""
             }
+        }
+    ],
+    "secondary-font": [
+        {
+            "google": "1",
+            "font-family": "Josefin Sans",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": ""
         }
     ],
     "page-title-size": "small",
@@ -120,16 +124,6 @@
     "form_fields_style": "underlined",
     "shop_layout": "full-width",
     "prefooter_content_type": "html_block",
-    "secondary-font": [
-        {
-            "custom": "",
-            "google": "1",
-            "font-family": "Josefin Sans",
-            "font-weight": "400",
-            "font-style": "",
-            "font-subset": ""
-        }
-    ],
     "advanced_typography": {
         "0": {
             "custom": "",

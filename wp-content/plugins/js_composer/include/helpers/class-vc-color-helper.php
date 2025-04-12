@@ -98,7 +98,7 @@ class Vc_Color_Helper {
 		$g = hexdec( $color[2] . $color[3] );
 		$b = hexdec( $color[4] . $color[5] );
 
-		$hsl = array();
+		$hsl = [];
 
 		$var_r = ( $r / 255.0 );
 		$var_g = ( $g / 255.0 );
@@ -150,17 +150,17 @@ class Vc_Color_Helper {
 	 * @return string HEX string
 	 * @throws Exception "Bad HSL Array".
 	 */
-	public static function hslToHex( $hsl = array() ) {
+	public static function hslToHex( $hsl = [] ) {
 		// Make sure it's HSL.
 		if ( empty( $hsl ) || ! isset( $hsl['H'] ) || ! isset( $hsl['S'] ) || ! isset( $hsl['L'] ) ) {
 			throw new Exception( 'Param was not an HSL array' );
 		}
 
-		list( $h, $s, $l ) = array(
+		list( $h, $s, $l ) = [
 			fmod( $hsl['H'], 360 ) / 360.0,
 			$hsl['S'],
 			$hsl['L'],
-		);
+		];
 
 		if ( ! $s ) {
 			$r = $l * 255.0;
@@ -224,7 +224,7 @@ class Vc_Color_Helper {
 	 * @return string RGB string
 	 * @throws Exception "Bad RGB Array".
 	 */
-	public static function rgbToHex( $rgb = array() ) {
+	public static function rgbToHex( $rgb = [] ) {
 		// Make sure it's RGB.
 		if ( empty( $rgb ) || ! isset( $rgb['R'] ) || ! isset( $rgb['G'] ) || ! isset( $rgb['B'] ) ) {
 			throw new Exception( 'Param was not an RGB array' );
@@ -319,10 +319,10 @@ class Vc_Color_Helper {
 		}
 
 		// Return our gradient array.
-		return array(
+		return [
 			'light' => $light_color,
 			'dark' => $dark_color,
-		);
+		];
 	}
 
 	/**
@@ -467,11 +467,11 @@ class Vc_Color_Helper {
 		$gmix = ( ( $rgb1['G'] * $r1 ) + ( $rgb2['G'] * $r2 ) ) / 2;
 		$bmix = ( ( $rgb1['B'] * $r1 ) + ( $rgb2['B'] * $r2 ) ) / 2;
 
-		return array(
+		return [
 			'R' => $rmix,
 			'G' => $gmix,
 			'B' => $bmix,
-		);
+		];
 	}
 
 	/**

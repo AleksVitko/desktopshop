@@ -20,9 +20,10 @@ if ( $languages ) {
 woodmart_enqueue_js_script( 'menu-setup' );
 
 $extra_class = ' wd-event-' . $params['mouse_event'];
+$classes     = ' whb-' . $id;
 ?>
 
-<div class="wd-header-nav wd-header-secondary-nav">
+<div class="wd-header-nav wd-header-secondary-nav<?php echo esc_attr( $classes ); ?>">
 	<ul class="menu wd-nav wd-nav-secondary wd-style-default">
 		<li class="menu-item<?php echo esc_attr( $languages || ! $flag_url ? ' menu-item-has-children' . $extra_class : '' ); ?>">
 			<a href="<?php echo esc_url( $current_url ); ?>" class="woodmart-nav-link">

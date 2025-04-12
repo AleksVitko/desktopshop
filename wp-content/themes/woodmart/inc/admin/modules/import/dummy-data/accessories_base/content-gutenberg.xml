@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-19 09:35" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:15" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,16 +29,13 @@
 	<title>Accessories gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg</link>
 	<description></description>
-	<pubDate>Tue, 19 Nov 2024 09:35:30 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:15:13 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/accessories-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[adad@adad.ad]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-
+	
 			<wp:category>
 			<wp:term_id>1</wp:term_id>
 			<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
@@ -453,21 +450,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>25</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[ecoflow]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Ecoflow]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-25-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:118:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-12.png";s:2:"id";s:3:"841";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>26</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_material]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[nylon]]></wp:term_slug>
@@ -505,21 +487,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>29</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[baseus]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Baseus]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-29-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-4.png";s:2:"id";s:3:"833";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>30</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_material]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[fabric]]></wp:term_slug>
@@ -550,21 +517,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>32</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[logitech]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Logitech]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-32-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-2.png";s:2:"id";s:3:"831";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>33</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[black]]></wp:term_slug>
@@ -581,21 +533,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[color]]></wp:meta_key>
 			<wp:meta_value><![CDATA[rgb(0,0,0)]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>34</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[belkin]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Belkin]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-34-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-9.png";s:2:"id";s:3:"838";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -652,21 +589,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[image]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:126:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/w-image-color-attribute-yellow.jpg";s:2:"id";s:3:"953";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>39</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[spigen]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Spigen]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-39-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-6.png";s:2:"id";s:3:"835";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -738,21 +660,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>44</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[anker]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Anker]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-44-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-7.png";s:2:"id";s:3:"836";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>45</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_compatibility]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[iphone-12-pro]]></wp:term_slug>
@@ -794,21 +701,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>48</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[samsung]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Samsung]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-48-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-3.png";s:2:"id";s:3:"832";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>49</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[black-white]]></wp:term_slug>
@@ -824,21 +716,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>50</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[xiaomi]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Xiaomi]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-50-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-5.png";s:2:"id";s:3:"834";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>51</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_compatibility]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[iphone-13-pro]]></wp:term_slug>
@@ -847,21 +724,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-51-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>52</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[energizer]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Energizer]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-52-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:118:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-11.png";s:2:"id";s:3:"840";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -917,36 +779,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-57-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>58</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[huawei]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Huawei]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-58-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:118:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-10.png";s:2:"id";s:3:"839";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>59</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[nillkin]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Nillkin]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-59-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-brand-8.png";s:2:"id";s:3:"837";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -1399,21 +1231,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>89</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[parasonic]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Parasonic]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/w-accessories-brand-1.png";s:2:"id";s:3:"937";}]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-89-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>90</wp:term_id>
 			<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[accessories]]></wp:term_slug>
@@ -1440,6 +1257,186 @@
 			<wp:meta_value><![CDATA[text]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
+			<wp:term>
+			<wp:term_id>92</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[anker]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Anker]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[836]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-92-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>93</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[baseus]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Baseus]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[833]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-93-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>94</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[belkin]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Belkin]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[838]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-94-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>95</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[ecoflow]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Ecoflow]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[841]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-95-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>96</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[energizer]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Energizer]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[840]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-96-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>97</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[huawei]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Huawei]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[839]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-97-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>98</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[logitech]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Logitech]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[831]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-98-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>99</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[nillkin]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Nillkin]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[837]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-99-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>100</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[parasonic]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Parasonic]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[830]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-100-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>101</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[samsung]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Samsung]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[832]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-101-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>102</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[spigen]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Spigen]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[835]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-102-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>103</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[xiaomi]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Xiaomi]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[834]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-103-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
 			<wp:term><wp:term_id>69</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-header-navigation]]></wp:term_slug><wp:term_name><![CDATA[Main header navigation]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>68</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-navigation]]></wp:term_slug><wp:term_name><![CDATA[Main navigation]]></wp:term_name>
@@ -1453,13 +1450,13 @@
 	<wp:term><wp:term_id>70</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[footer-menu-accessories]]></wp:term_slug><wp:term_name><![CDATA[Footer menu Accessories]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[About Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/about-us/</link>
 					<pubDate>Fri, 12 Jul 2024 11:21:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=162</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"04c40f58-420b-4012-a960-469f46f901a0","bgColorCode":"#f9f9f9","paddingTop":"120","paddingBottom":"80","marginTop":"-40","marginBottom":"80","paddingTopTablet":"90","paddingTopMobile":"40","paddingBottomMobile":"40","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-04c40f58" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"31cb736a-f9f9-4b23-b8c8-8bfae4051f92","columnsGap":20,"columnsGapMobile":30} -->
@@ -1746,7 +1743,7 @@
 					<title><![CDATA[Blog]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/blog/</link>
 					<pubDate>Fri, 12 Jul 2024 11:21:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=164</guid>
 															<wp:post_id>164</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:21:31]]></wp:post_date>
@@ -1776,7 +1773,7 @@
 					<title><![CDATA[Contact Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/contact-us/</link>
 					<pubDate>Fri, 12 Jul 2024 11:21:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=166</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"5002654d-1a75-40da-85df-60f1d5892694","paddingRight":"0","paddingLeft":"0","marginTop":"-40","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-5002654d" class="wp-block-wd-section"><!-- wp:wd/google-map {"blockId":"d2d60302-62f1-42fd-92bc-5ab4019d394f","borderRadius":"0","borderRadiusTop":"0","borderRadiusRight":"0","borderRadiusBottom":"0","borderRadiusLeft":"0","marker":{"id":621,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/map-point.svg"},"markerData":{"url":"https://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/map-point.svg","width":80,"height":80},"showContent":true,"styleJson":"[{\u0022featureType\u0022:\u0022landscape.man_made\u0022,\u0022elementType\u0022:\u0022all\u0022,\u0022stylers\u0022:[{\u0022color\u0022:\u0022#faf5ed\u0022},{\u0022lightness\u0022:\u00220\u0022},{\u0022gamma\u0022:\u00221\u0022}]},{\u0022featureType\u0022:\u0022poi.park\u0022,\u0022elementType\u0022:\u0022geometry.fill\u0022,\u0022stylers\u0022:[{\u0022color\u0022:\u0022#bae5a6\u0022}]},{\u0022featureType\u0022:\u0022road\u0022,\u0022elementType\u0022:\u0022all\u0022,\u0022stylers\u0022:[{\u0022weight\u0022:\u00221.00\u0022},{\u0022gamma\u0022:\u00221.8\u0022},{\u0022saturation\u0022:\u00220\u0022}]},{\u0022featureType\u0022:\u0022road\u0022,\u0022elementType\u0022:\u0022geometry.fill\u0022,\u0022stylers\u0022:[{\u0022hue\u0022:\u0022#ffb200\u0022}]},{\u0022featureType\u0022:\u0022road.arterial\u0022,\u0022elementType\u0022:\u0022geometry.fill\u0022,\u0022stylers\u0022:[{\u0022lightness\u0022:\u00220\u0022},{\u0022gamma\u0022:\u00221\u0022}]},{\u0022featureType\u0022:\u0022transit.station.airport\u0022,\u0022elementType\u0022:\u0022all\u0022,\u0022stylers\u0022:[{\u0022hue\u0022:\u0022#b000ff\u0022},{\u0022saturation\u0022:\u002223\u0022},{\u0022lightness\u0022:\u0022-4\u0022},{\u0022gamma\u0022:\u00220.80\u0022}]},{\u0022featureType\u0022:\u0022water\u0022,\u0022elementType\u0022:\u0022all\u0022,\u0022stylers\u0022:[{\u0022color\u0022:\u0022#a0daf2\u0022}]}]","height":"500","locations":[{"title":"","lat":"39.950557","lon":"-75.140658","description":"","image":{"url":"","id":""},"imageSize":"full"}],"contentAlignHorizontal":"start","contentAlignVertical":"center"} -->
@@ -1907,7 +1904,7 @@
 					<title><![CDATA[Compare]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/compare/</link>
 					<pubDate>Fri, 12 Jul 2024 11:22:23 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=168</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_compare]
@@ -1944,7 +1941,7 @@
 					<title><![CDATA[FAQs]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/faqs/</link>
 					<pubDate>Fri, 12 Jul 2024 11:22:51 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=170</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"bff5dbb9-296a-4d29-9d2b-ce2e1a5275d4","blockGap":10,"bgImage":{"id":639,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/faqs.jpg"},"bgPosition":"bottom center","bgRepeat":"no-repeat","bgColorCode":"#f2f2f2","paddingTop":"120","paddingBottom":"300","marginTop":"-40","marginBottom":"80","marginBottomMobile":"60"} -->
 <div id="wd-bff5dbb9" class="wp-block-wd-section"><!-- wp:wd/title {"blockId":"52c7110b-b3aa-48cf-b40c-b9f7d6f4ba8b","textAlign":"center","content":"Questions \u0026amp; Answers​","tpFontSize":"52","tpFontSizeTablet":"36"} -->
@@ -2345,7 +2342,7 @@
 					<title><![CDATA[Privacy Policy]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/privacy-policy/</link>
 					<pubDate>Fri, 12 Jul 2024 11:23:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=174</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"b60dea4b-2ee6-411d-a110-9e24d024cb1a","blockGap":10,"bgColorCode":"#f8f8f8","paddingTop":"80","paddingBottom":"80","marginTop":"-40","marginBottom":"80","paddingTopTablet":"60","paddingBottomTablet":"60","marginBottomTablet":"60"} -->
 <div id="wd-b60dea4b" class="wp-block-wd-section"><!-- wp:wd/icon {"blockId":"fc65fbe8-31fd-45e5-a8d2-ed3e8bb3845e","image":{"id":687,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/privacy-policy-xtemos-logo.svg"},"width":"80","alignSelf":"center"} -->
@@ -2558,7 +2555,7 @@
 					<title><![CDATA[Shipping]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/shipping/</link>
 					<pubDate>Fri, 12 Jul 2024 11:24:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=176</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"cbcfd86b-e758-4e2f-a5df-7f673760a0a6","bgImage":{"id":"","url":""},"bgPosition":"center right","bgRepeat":"no-repeat","bgDisplaySize":"custom","bgCustomDisplaySize":"50","bgColorCode":"#f3f3f3","marginTop":"-40","marginBottom":"70","bgCustomDisplaySizeUnits":"%"} -->
 <div id="wd-cbcfd86b" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"6a92b115-48c8-49ed-812c-d0a1fde33b8b"} -->
@@ -2570,7 +2567,7 @@
 
 <!-- wp:wd/column {"blockId":"6c0d7a58-c7c8-4bbb-8f99-db98e2fdf040","adjacentCount":2,"justifyContent":"center","paddingTop":"40","paddingTopMobile":"0"} -->
 <div id="wd-6c0d7a58" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"c5a0637f-39f0-4688-8444-2dfbcea31142","image":{"id":699,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/shipping-2.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/shipping-2.jpg","width":685,"height":368}} -->
-<div id="wd-c5a0637f" class="wp-block-wd-image wd-block-image"><img class="wp-image-699" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/shipping-2.jpg" /></div>
+<div id="wd-c5a0637f" class="wp-block-wd-image wd-block-image"><img class="wp-image-699" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/shipping-2.jpg" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row --></div>
@@ -2658,10 +2655,10 @@
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
 
-<!-- wp:wd/row {"blockId":"266706f8-0ad2-443a-993b-f9a5c7532a44","marginBottom":"30","marginBottomTablet":"50","marginBottomMobile":"0"} -->
+<!-- wp:wd/row {"blockId":"266706f8-0ad2-443a-993b-f9a5c7532a44","marginBottom":"30","marginBottomMobile":"0"} -->
 <div id="wd-266706f8" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"6d237ea0-d2ac-4508-8fa4-f54307f536f9","adjacentCount":2} -->
 <div id="wd-6d237ea0" class="wp-block-wd-column"><!-- wp:wd/video {"blockId":"6e94712d-e3d6-4ff3-82e1-8928078af9fc","videoType":"external","externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoImageOverlay":{"id":723,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/video-thumb.jpg"},"borderRadius":"8","borderRadiusTop":"8","borderRadiusRight":"8","borderRadiusBottom":"8","borderRadiusLeft":"8"} -->
-<div id="wd-6e94712d" class="wp-block-wd-video wd-el-video wd-action-overlay wd-video-external"><iframe allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="100%" height="100%" loading="lazy" data-lazy-load="https://www.youtube.com/embed/LXb3EKWsInQ?feature=oembed&amp;controls=1&amp;autoplay=1"></iframe><div class="wd-el-video-overlay wd-fill"><img src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/video-thumb.jpg" class="wp-image-723" /></div><div class="wd-el-video-control color-scheme-light wd-fill"><span class="wd-el-video-play-btn"></span></div><a href="https://www.youtube.com/embed/LXb3EKWsInQ?feature=oembed&amp;controls=1&amp;autoplay=1" class="wd-el-video-link wd-el-video-btn-overlay wd-fill"></a></div>
+<div id="wd-6e94712d" class="wp-block-wd-video wd-el-video wd-action-overlay wd-video-external"><iframe allowfullscreen allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="100%" height="100%" loading="lazy" data-lazy-load="https://www.youtube.com/embed/LXb3EKWsInQ?feature=oembed&amp;controls=1&amp;autoplay=1"></iframe><div class="wd-el-video-overlay wd-fill"><img src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/video-thumb.jpg" alt="" class="wp-image-723" /></div><div class="wd-el-video-control color-scheme-light wd-fill"><span class="wd-el-video-play-btn"></span></div><a href="https://www.youtube.com/embed/LXb3EKWsInQ?feature=oembed&amp;controls=1&amp;autoplay=1" class="wd-el-video-link wd-el-video-btn-overlay wd-fill"></a></div>
 <!-- /wp:wd/video --></div>
 <!-- /wp:wd/column -->
 
@@ -2732,8 +2729,8 @@
 															<wp:post_id>176</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:24:19]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:24:19]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-21 08:27:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-21 08:27:43]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-20 13:16:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-20 13:16:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[shipping]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2765,7 +2762,7 @@
 					<title><![CDATA[Track Order]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/track-order/</link>
 					<pubDate>Fri, 12 Jul 2024 11:24:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=178</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"a801eaa8-4fd9-4362-a294-f30c4d3c5fcf","blockGap":30,"bgImage":{"id":659,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/new-arrivals-banner.jpg"},"bgPosition":"center right","bgRepeat":"no-repeat","bgDisplaySize":"contain","bgColorCode":"#f8f8f8","paddingTop":"120","paddingBottom":"120","marginTop":"-40","marginBottom":"80","bgDisplaySizeTablet":"custom","bgCustomDisplaySizeTablet":"0","paddingTopTablet":"90","paddingTopMobile":"60","paddingBottomTablet":"90","paddingBottomMobile":"60","marginBottomTablet":"60","marginBottomMobile":"60"} -->
 <div id="wd-a801eaa8" class="wp-block-wd-section"><!-- wp:wd/title {"blockId":"b1fb4647-217a-4713-8218-d17ab596084e","textAlign":"center","content":"Order Tracking​","tpFontSize":"36","tpFontSizeTablet":"26"} -->
@@ -2785,7 +2782,7 @@
 <div id="wd-3db49970" class="wp-block-wd-carousel wd-carousel-container wd-align-s-center"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:3;--wd-col-md:3;--wd-col-sm:1;--wd-gap-lg:20px;--wd-gap-sm:10px" data-scroll_per_page="yes"><div class="wd-carousel-wrap"><!-- wp:wd/carousel-item {"blockId":"e6271727-f636-4816-ac02-630f8ecf7dff"} -->
 <div id="wd-e6271727" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/infobox {"blockId":"e6d04568-bf5a-4111-91d2-85901364a700","align":"center"} -->
 <div id="wd-e6d04568" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"639bcf66-9ed9-4402-83c2-4138b95f6b61","image":{"id":357,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-1.svg"},"width":"60"} -->
-<div id="wd-639bcf66" class="wp-block-wd-icon"><img class="wp-image-357" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-1.svg" /></div>
+<div id="wd-639bcf66" class="wp-block-wd-icon"><img class="wp-image-357" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-1.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"005c7e5e-54b2-4a9d-8cd0-a3efcbbdaefe","displayWidth":"custom","customWidth":"324","displayWidthTablet":"full-width","metadata":{"name":"Infobox content"}} -->
@@ -2803,7 +2800,7 @@
 <!-- wp:wd/carousel-item {"blockId":"8accd70b-5452-4e03-b945-a8c6293cc046"} -->
 <div id="wd-8accd70b" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/infobox {"blockId":"d146b8a3-85d5-40dc-9224-ee2de13a53bf","align":"center"} -->
 <div id="wd-d146b8a3" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"f2412407-49a8-4e4d-9609-45cf5de51435","image":{"id":358,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-2.svg"},"width":"60"} -->
-<div id="wd-f2412407" class="wp-block-wd-icon"><img class="wp-image-358" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-2.svg" /></div>
+<div id="wd-f2412407" class="wp-block-wd-icon"><img class="wp-image-358" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-2.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"6f3f5aad-e233-46d1-9954-4235e391d9fc","displayWidth":"custom","customWidth":"324","displayWidthTablet":"full-width","metadata":{"name":"Infobox content"}} -->
@@ -2821,7 +2818,7 @@
 <!-- wp:wd/carousel-item {"blockId":"7c28835f-d643-4b0e-9184-aab554ba60d1"} -->
 <div id="wd-7c28835f" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/infobox {"blockId":"c8aee331-c1ea-4cce-95f7-184fd4c51832","align":"center"} -->
 <div id="wd-c8aee331" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"6b3ff6a4-629b-48de-8bc9-afd5f86f3ce7","image":{"id":359,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-3.svg"},"width":"60"} -->
-<div id="wd-6b3ff6a4" class="wp-block-wd-icon"><img class="wp-image-359" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-3.svg" /></div>
+<div id="wd-6b3ff6a4" class="wp-block-wd-icon"><img class="wp-image-359" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-infobox-3.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"77da429b-d878-4dc2-9909-eaf5cfc6d443","displayWidth":"custom","customWidth":"324","displayWidthTablet":"full-width","metadata":{"name":"Infobox content"}} -->
@@ -2841,8 +2838,8 @@
 															<wp:post_id>178</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:24:47]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:24:47]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 12:24:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 12:24:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-25 12:51:08]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-25 12:51:08]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[track-order]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2874,7 +2871,7 @@
 					<title><![CDATA[Wishlist]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/wishlist/</link>
 					<pubDate>Fri, 12 Jul 2024 11:25:13 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=180</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_wishlist]
@@ -2911,7 +2908,7 @@
 					<title><![CDATA[Newsletter form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/mc4wp-form/newsletter-form/</link>
 					<pubDate>Wed, 02 Oct 2024 09:36:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/mc4wp-form/newsletter-form/</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-gap: 10px">
 <div class="wd-col"><input type="email" name="EMAIL" placeholder="Your email address" required /></div>
@@ -2981,7 +2978,7 @@
 					<title><![CDATA[The big design: Wall likes pictures]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/the-big-design-wall-likes-pictures-2/</link>
 					<pubDate>Mon, 15 Jul 2024 09:13:23 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=433</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"8f99a477-54cb-47cc-b9bf-9f05b033aed0"} -->
 <p id="wd-8f99a477" class="wp-block-wd-paragraph">A sed a risusat luctus esta anibh rhoncus hendrerit blandit nam rutrum sitmiad hac. Cras a vestibulum a varius adipiscing ut dignissim ullamcorper libero fermentum dis aliquet tellus mollis et tristique sodales. Suspendisse vel mi etiam ullamcorper parturient varius parturient eu eget pulvinar odio dapibus nisl ut luctus suscipit per vel aptent fames venenatis leo ac ullamcorper integer mus condimentum rutrum. Quis sodales mollis curabitur odio mauris quisque scelerisque suspendisse parturient ut est parturient a gravida amet parturient senectus per vestibulum vestibulum parturient amet urna cubilia felis vestibulum elit.</p>
@@ -3106,7 +3103,7 @@
 					<title><![CDATA[Sweet seat: functional seat for IT folks]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/sweet-seat-functional-seat-for-it-folks/</link>
 					<pubDate>Mon, 15 Jul 2024 09:13:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=435</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"5ed46447-4c3b-4c12-a0e2-9402ae1a3c33"} -->
 <p id="wd-5ed46447" class="wp-block-wd-paragraph">Parturient in potenti id rutrum duis torquent parturient sceler isque sit vestibulum a posuere scelerisque viverra urna.&nbsp;Egestas tristique vestibulum vestibulum ante vulputate penati bus a nibh dis parturient cum a adipiscing nam condimentum quisque enim fames risus eget. Consectetur duis tempus massa elit himenaeos duis iaculis parturient nam tempor neque nisl parturient vivamus primis sociosqu ac donec nisi a adipiscing senectus.</p>
@@ -3357,7 +3354,7 @@
 					<title><![CDATA[Reinterprets the classic bookshelf]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/reinterprets-the-classic-bookshelf/</link>
 					<pubDate>Mon, 15 Jul 2024 09:13:50 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=437</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"4beccc5c-b8db-484c-ba89-325d887f49a5"} -->
 <p id="wd-4beccc5c" class="wp-block-wd-paragraph">Ullamcorper condimentum erat pretium velit at ut a nunc id a adeu vestibulum nibh urna nam consequat erat molestie lacinia rhoncus.&nbsp;Nisi a diamida himenaeos condimentum laoreet pera neque habitant leo feugiat viverra nisl sagittis a curabitur parturient nisi adipiscing. A parturient dapibus pulvinar arcu a suspendisse sagittis mus mollis at a nec placerat sociosqu himenaeos litora fames habitant suscipit tempus scelerisque ridiculus mi ullamcorper per ridiculus proin condimentum. Nisi a diam id a himenaeos condimentum laoreet per a neque habitant leo feugiat viverra nisl sagittis a curabitur parturient nisi adipiscing. A parturient dapibus pulvinar arcu a suspendisse sagittis mus mollis at a nec placerat sociosqu himenaeos litora fames habitant suscipit tempus scelerisque ridiculus mi ullamcorper per ridiculus proin condimentum.</p>
@@ -3496,7 +3493,7 @@
 					<title><![CDATA[New home decor from John Doerson]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/new-home-decor-from-john-doerson/</link>
 					<pubDate>Mon, 15 Jul 2024 09:14:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=439</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"d098965e-11b3-4b13-88f4-31f05acf5754"} -->
 <p id="wd-d098965e" class="wp-block-wd-paragraph">A taciti cras scelerisque scelerisque gravida natoque nulla vestibulum turpis primis adipiscing faucibus scelerisque adipiscing aliquet pretium.&nbsp;Et iaculis mi velit tincidunt vestibulum a duis tempor non magna ultrices porta malesuada ullamcorper scelerisque parturient himenaeos iaculis sit.&nbsp;Scelerisque sociosqu ullamcorper urna nisl mollis vestibulum pretium commodo inceptos.</p>
@@ -3781,7 +3778,7 @@
 					<title><![CDATA[Creative water features and exterior]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/creative-water-features-and-exterior/</link>
 					<pubDate>Mon, 15 Jul 2024 09:14:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=441</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"ff8b659a-63fa-44bb-b291-3c31c7397b44"} -->
 <p id="wd-ff8b659a" class="wp-block-wd-paragraph">Ac haca ullamcorper donec ante habi tasse donec imperdiet eturpis varius per a augue magna hac. Nec hac et vestibulum duis a tincidunt per a aptent interdum purus feugiat a id aliquet erat himenaeos nunc torquent euismod adipiscing adipiscing dui gravida justo. Ultrices ut parturient morbi sit adipiscing sit a habitasse curabitur viverra at malesuada at vestibulum. Leo duis lacinia placerat parturient montes vulputate cubilia posuere parturient inceptos massa euismod curabitur dis dignissim vestibulum quam a urna.</p>
@@ -4018,7 +4015,7 @@
 					<title><![CDATA[Reinterprets the classic bookshelf]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/reinterprets-the-classic-bookshelf-2/</link>
 					<pubDate>Mon, 15 Jul 2024 09:14:24 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=443</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"3e208a5f-edd6-4797-baf7-b0e585296d84"} -->
 <p id="wd-3e208a5f" class="wp-block-wd-paragraph">Aliquet parturient scele risque scele risque nibh pretium parturient suspendisse platea sapien torquent feugiat parturient hac amet.&nbsp;Volutpat nullam montes mollis ad mauris in orci eleifend per eu pulvinar sociosqu primis hendrerit parturient volutpat a volutpat a at felis ridiculus.Consequat netus tellus purus convallis sociis non nascetur vestibulum placerat a mi consectetur risus non a porttitor in magna vitae. Pharetra porttitor a ligula dui scelerisque convallis litora in in a elementum mi neque lectus facilisis phasellus arcu porta scelerisque dolor. Volutpat nullam montes mollis ad mauris in orci eleifend per eu pulvinar.</p>
@@ -4130,7 +4127,7 @@
 					<title><![CDATA[Collar brings back coffee brewing ritual]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/collar-brings-back-coffee-brewing-ritual-2/</link>
 					<pubDate>Mon, 15 Jul 2024 09:14:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=445</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"652af54a-97ea-46a7-b214-e06e818be454"} -->
 <div id="wd-652af54a" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"e421f0c4-0525-4829-9f20-920c8e12b141","adjacentCount":2,"colWidth":10,"positionType":"sticky","positionTop":"150","hideOnTablet":true,"hideOnMobile":true,"alignSelf":"flex-start","adjacentCountTablet":1,"colWidthTablet":10} -->
@@ -4231,7 +4228,7 @@
 					<title><![CDATA[Green interior design inspiration]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/green-interior-design-inspiration-2/</link>
 					<pubDate>Mon, 15 Jul 2024 09:14:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=447</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7c170585-9978-4f14-9e29-fdfe62c868e8"} -->
 <p id="wd-7c170585" class="wp-block-wd-paragraph">A sed a risusat luctus esta anibh rhoncus hendrerit blandit nam rutrum sitmiad hac. Cras a vestibulum a varius adipiscing ut dignissim ullamcorper libero fermentum dis aliquet tellus mollis et tristique sodales. Suspendisse vel mi etiam ullamcorper parturient varius parturient eu eget pulvinar odio dapibus nisl ut luctus suscipit per vel aptent fames venenatis leo ac ullamcorper integer mus condimentum rutrum. Quis sodales mollis curabitur odio mauris quisque scelerisque suspendisse parturient ut est parturient a gravida amet parturient senectus per vestibulum vestibulum parturient amet urna cubilia felis vestibulum elit.</p>
@@ -4356,7 +4353,7 @@
 					<title><![CDATA[Exploring Atlanta’s modern homes]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/15/exploring-atlantas-modern-homes-2/</link>
 					<pubDate>Mon, 15 Jul 2024 09:14:56 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=449</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"e3014870-2425-4054-b531-1d624c41638c"} -->
 <p id="wd-e3014870" class="wp-block-wd-paragraph">Vivamus enim sagittis aptent hac mi dui a per aptent suspendisse cras odio bibendum augue rhoncus laoreet dui praesent sodales sodales. Dignissim fusce ullamcorper volutpat habitasse tincidunt parturient enim tempor facilisi nostra lobortis proin primis litora. Scelerisque a diam a vestibulum nibh sit senectus fringilla bibendum vestibulum.</p>
@@ -4419,7 +4416,7 @@
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/google-map {"blockId":"fff7c47e-0b7d-4ede-9fdb-7d55ee9acc7b","showContent":true,"zoom":13,"height":"270","locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","image":{"url":"","id":""},"imageSize":"full"}]} -->
-<div id="wd-fff7c47e" class="wp-block-wd-google-map wd-map-container google-map-container" data-map-args="{&quot;multiple_markers&quot;:&quot;yes&quot;,&quot;zoom&quot;:13,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;selector&quot;:&quot;wd-map-id-fff7c47e-0b7d-4ede-9fdb-7d55ee9acc7b&quot;,&quot;markers&quot;:[{&quot;marker_lat&quot;:&quot;51.50735&quot;,&quot;marker_lon&quot;:&quot;-0.12776&quot;,&quot;marker_icon&quot;:&quot;https://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/themes/woodmart/inc/admin/assets/images/google-icon.png&quot;,&quot;marker_icon_size&quot;:[40,40],&quot;marker_title&quot;:&quot;&quot;,&quot;marker_description&quot;:&quot;&quot;}]}"><div class="wd-google-map-wrapper wd-map-wrapper wd-fill"><div id="wd-map-id-fff7c47e-0b7d-4ede-9fdb-7d55ee9acc7b" class="wd-google-map wd-fill"></div></div><div class="wd-google-map-content-wrap wd-map-content-wrap"><!-- wp:wd/container {"blockId":"c0f075ca-8cbe-4817-a9be-111565a6c739","metadata":{"name":"Map content"}} -->
+<div id="wd-fff7c47e" class="wp-block-wd-google-map wd-map-container google-map-container" data-map-args="{&quot;multiple_markers&quot;:&quot;yes&quot;,&quot;zoom&quot;:13,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;selector&quot;:&quot;wd-map-id-fff7c47e-0b7d-4ede-9fdb-7d55ee9acc7b&quot;,&quot;markers&quot;:[{&quot;marker_lat&quot;:&quot;51.50735&quot;,&quot;marker_lon&quot;:&quot;-0.12776&quot;,&quot;marker_icon&quot;:&quot;https://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/themes/ woodmart/inc/admin/assets/images/google-icon.png&quot;,&quot;marker_icon_size&quot;:[40,40],&quot;marker_title&quot;:&quot;&quot;,&quot;marker_description&quot;:&quot;&quot;}]}"><div class="wd-google-map-wrapper wd-map-wrapper wd-fill"><div id="wd-map-id-fff7c47e-0b7d-4ede-9fdb-7d55ee9acc7b" class="wd-google-map wd-fill"></div></div><div class="wd-google-map-content-wrap wd-map-content-wrap"><!-- wp:wd/container {"blockId":"c0f075ca-8cbe-4817-a9be-111565a6c739","metadata":{"name":"Map content"}} -->
 <div id="wd-c0f075ca" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"b5dbd2ee-6a30-4564-b09a-e59735bd459e","colorCode":"#333333","tpFontVariant":"600","tpFontWeight":"600"} -->
 <p id="wd-b5dbd2ee" class="wp-block-wd-paragraph">Praesent Iaculis sit&nbsp;Vehicula<br>Lap. 4&nbsp;Tellus&nbsp;A17-B27</p>
 <!-- /wp:wd/paragraph --></div>
@@ -4465,7 +4462,7 @@
 					<title><![CDATA[Contact form Accessories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=wpcf7_contact_form&#038;p=610</link>
 					<pubDate>Mon, 15 Jul 2024 12:36:59 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=wpcf7_contact_form&#038;p=610</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <div class="wd-grid-f-stretch" style="--wd-gap-lg: 30px;--wd-gap-sm: 20px">
@@ -4481,7 +4478,7 @@
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [_site_admin_email]
 From: [your-name] [your-email]
 Subject: [your-subject]
@@ -4497,7 +4494,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [your-email]
 Message Body:
 [your-message]
@@ -4533,8 +4530,8 @@ Please enter a telephone number.]]></content:encoded>
 															<wp:post_id>610</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-15 12:36:59]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-15 12:36:59]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-08-21 11:47:28]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-08-21 11:47:28]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-24 13:55:16]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-24 13:55:16]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-accessories]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4558,7 +4555,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -4569,7 +4566,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -4587,12 +4584,16 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
 							<wp:meta_value><![CDATA[e5ea3de7b761cf898dfcba4797ea880eb262140c]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:31:"Invalid mailbox syntax is used.";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[iPhone 13 Case Luxe – Dusty Pink]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-13-case-luxe-dusty-pink/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=62</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"088f9c1c-9f3a-4c4b-801e-0840d92f0a41","contentHeight":"660"} -->
 <div id="wd-088f9c1c" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"4e7f6914-0647-4e20-ac23-3a89b4f0c0c3","metadata":{"name":"Content"}} -->
@@ -4727,8 +4728,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>62</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:53]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:53]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:57]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:57]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-13-case-luxe-dusty-pink]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4736,7 +4737,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="coral"><![CDATA[Coral]]></category>
-		<category domain="pa_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
+		<category domain="product_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
 		<category domain="product_cat" nicename="iphone-13"><![CDATA[IPhone 13]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
@@ -4755,7 +4756,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4834,7 +4835,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[iPhone 13 Case – Smokey Black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-13-case-smokey-black/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=63</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"b762b762-3d1e-46d7-8eb7-4fb8c00c02ba","contentHeight":"660"} -->
 <div id="wd-b762b762" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"6db06628-69c9-443c-ab69-b374c3e80745","metadata":{"name":"Content"}} -->
@@ -4969,15 +4970,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>63</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-13-case-smokey-black]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="baseus"><![CDATA[Baseus]]></category>
+												<category domain="product_brand" nicename="baseus"><![CDATA[Baseus]]></category>
 		<category domain="pa_material" nicename="fabric"><![CDATA[Fabric]]></category>
 		<category domain="pa_color" nicename="grey"><![CDATA[Grey]]></category>
 		<category domain="product_cat" nicename="iphone-13"><![CDATA[IPhone 13]]></category>
@@ -4997,7 +4998,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5076,7 +5077,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[iPhone 13 Case Max - Black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-13-case-max-black/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=64</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"7de93b38-7f53-45c0-adb7-4e57a18ec417","contentHeight":"660"} -->
 <div id="wd-7de93b38" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"06309bd5-d8b5-4613-a3f2-59d830487d4c","metadata":{"name":"Content"}} -->
@@ -5211,8 +5212,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>64</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:47]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:47]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:52]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:52]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-13-case-max-black]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5222,7 +5223,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 												<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="product_cat" nicename="iphone-13"><![CDATA[IPhone 13]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
-		<category domain="pa_brand" nicename="logitech"><![CDATA[Logitech]]></category>
+		<category domain="product_brand" nicename="logitech"><![CDATA[Logitech]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -5239,7 +5240,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5318,7 +5319,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[iPhone 13 Case With MagSafe – Red Rose]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-13-case-with-magsafe-red-rose/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=65</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"694d77f9-6634-4101-9650-070d4883caeb","contentHeight":"660"} -->
 <div id="wd-694d77f9" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"3bbd06bc-c377-4c74-b4f3-846c31ddcca6","metadata":{"name":"Content"}} -->
@@ -5453,15 +5454,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>65</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:52]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:33]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:33]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-13-case-with-magsafe-red-rose]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="belkin"><![CDATA[Belkin]]></category>
+												<category domain="product_brand" nicename="belkin"><![CDATA[Belkin]]></category>
 		<category domain="pa_material" nicename="hard-plastic"><![CDATA[Hard Plastic]]></category>
 		<category domain="product_cat" nicename="iphone-13"><![CDATA[IPhone 13]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
@@ -5481,7 +5482,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5560,7 +5561,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Epik Silicone Case Full - Lavender]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/epik-silicone-case-full-lavender/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=66</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"7699fede-3167-466e-bb99-dfe7ca8b94c7","contentHeight":"660"} -->
 <div id="wd-7699fede" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"ab2e960b-9974-422e-8781-0b7bb3cbc4af","metadata":{"name":"Content"}} -->
@@ -5695,8 +5696,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>66</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:56]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:56]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:36]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:36]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[epik-silicone-case-full-lavender]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5709,7 +5710,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_features" nicename="magsafe"><![CDATA[MagSafe]]></category>
 		<category domain="product_visibility" nicename="rated-5"><![CDATA[rated-5]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="spigen"><![CDATA[Spigen]]></category>
+		<category domain="product_brand" nicename="spigen"><![CDATA[Spigen]]></category>
 		<category domain="pa_color" nicename="yellow"><![CDATA[Yellow]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
@@ -5733,7 +5734,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5851,7 +5852,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Epik Silicone Case Full – Deep Navy]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/epik-silicone-case-full-deep-navy/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=67</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"b6cc4b91-a337-4a43-8a01-6da8a05641fc","contentHeight":"660"} -->
 <div id="wd-b6cc4b91" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"6592cebc-fabe-4ac7-accd-b8d9c3d51752","metadata":{"name":"Content"}} -->
@@ -5986,8 +5987,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>67</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:57:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:57:02]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:42]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:42]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[epik-silicone-case-full-deep-navy]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6000,7 +6001,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
 		<category domain="pa_features" nicename="magsafe"><![CDATA[MagSafe]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="spigen"><![CDATA[Spigen]]></category>
+		<category domain="product_brand" nicename="spigen"><![CDATA[Spigen]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
 							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
@@ -6015,7 +6016,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6094,7 +6095,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Epik Silicone Case Full – Pine Green]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/epik-silicone-case-full-pine-green/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=68</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"211f53bf-2aef-4078-9509-bcc88bd56fa9","contentHeight":"660"} -->
 <div id="wd-211f53bf" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"5fa3c93b-fd99-49cc-9d70-69505fa2098d","metadata":{"name":"Content"}} -->
@@ -6229,8 +6230,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>68</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:07]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:07]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:49]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:49]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[epik-silicone-case-full-pine-green]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6243,7 +6244,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
 		<category domain="pa_features" nicename="magsafe"><![CDATA[MagSafe]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="spigen"><![CDATA[Spigen]]></category>
+		<category domain="product_brand" nicename="spigen"><![CDATA[Spigen]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
 							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
@@ -6258,7 +6259,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6337,7 +6338,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Full Aquarelle iPhone XR]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/full-aquarelle-iphone-xr/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=69</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"22095883-b76c-4968-9204-049084ea05b3","contentHeight":"660"} -->
 <div id="wd-22095883" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"a4941c27-e414-4042-89f2-c4f94987e900","metadata":{"name":"Content"}} -->
@@ -6472,15 +6473,15 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>69</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:11]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:11]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:10:46]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:10:46]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[full-aquarelle-iphone-xr]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="anker"><![CDATA[Anker]]></category>
+												<category domain="product_brand" nicename="anker"><![CDATA[Anker]]></category>
 		<category domain="pa_color" nicename="cantaloupe"><![CDATA[Cantaloupe]]></category>
 		<category domain="product_cat" nicename="iphone-13"><![CDATA[IPhone 13]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
@@ -6501,7 +6502,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6580,7 +6581,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[iPhone 12 Pro Moment Case – Blue]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-12-pro-moment-case-blue/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=70</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"93e58c46-7339-44cb-912a-a333c223d30f","contentHeight":"660"} -->
 <div id="wd-93e58c46" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"ef2f75ea-7903-4bbb-a099-18230f619439","metadata":{"name":"Content"}} -->
@@ -6715,8 +6716,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>70</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:18]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:18]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:01]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-12-pro-moment-case-blue]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6724,7 +6725,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
-		<category domain="pa_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
+		<category domain="product_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
 		<category domain="pa_material" nicename="fabric"><![CDATA[Fabric]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
 		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
@@ -6743,7 +6744,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6826,7 +6827,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[iPhone 12 Pro Moment Case – Black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-12-pro-moment-case-black/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=71</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"adcbbc1d-d840-46e0-88f2-3612aeae9295","contentHeight":"660"} -->
 <div id="wd-adcbbc1d" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"5af00367-49fa-458f-af52-30ff343c0cea","metadata":{"name":"Content"}} -->
@@ -6961,8 +6962,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>71</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:25]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-12-pro-moment-case-black]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6970,7 +6971,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
-		<category domain="pa_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
+		<category domain="product_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
 		<category domain="pa_material" nicename="fabric"><![CDATA[Fabric]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
 		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
@@ -6989,7 +6990,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7072,7 +7073,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[iPhone 12 Pro Moment Case – Olive]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-12-pro-moment-case-olive/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=72</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"24f344ff-cb6c-420b-a588-80843178e6fb","contentHeight":"660"} -->
 <div id="wd-24f344ff" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"1270caa6-aed4-43d6-9c5c-9f0e071a084f","metadata":{"name":"Content"}} -->
@@ -7207,15 +7208,15 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>72</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:30]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:30]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:11]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:11]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-12-pro-moment-case-olive]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
+												<category domain="product_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
 		<category domain="pa_material" nicename="fabric"><![CDATA[Fabric]]></category>
 		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
@@ -7235,7 +7236,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7318,7 +7319,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[iPhone 12 Pro Moment Case – Yellow]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-12-pro-moment-case-yellow/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=73</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"7ab1b263-90c2-4d0f-8103-d5573e65c348","contentHeight":"660"} -->
 <div id="wd-7ab1b263" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"c810c645-0ded-46f9-a820-4e50522e0081","metadata":{"name":"Content"}} -->
@@ -7453,15 +7454,15 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>73</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:15]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:15]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-12-pro-moment-case-yellow]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
+												<category domain="product_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
 		<category domain="pa_material" nicename="fabric"><![CDATA[Fabric]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
 		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
@@ -7481,7 +7482,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7564,7 +7565,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Leather Case iPhone 12 Deep Violet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/leather-case-iphone-12-deep-violet/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=74</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"c971bbcc-a7f2-49c8-b865-ecba672602bf","contentHeight":"660"} -->
 <div id="wd-c971bbcc" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"38019f30-772f-42f0-b924-e46112ec81dc","metadata":{"name":"Content"}} -->
@@ -7699,8 +7700,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>74</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:41]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:41]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[leather-case-iphone-12-deep-violet]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7712,7 +7713,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
 		<category domain="pa_material" nicename="leather"><![CDATA[Leather]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="spigen"><![CDATA[Spigen]]></category>
+		<category domain="product_brand" nicename="spigen"><![CDATA[Spigen]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
 							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
@@ -7727,7 +7728,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7806,7 +7807,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Leather Case iPhone 11 Pro]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/leather-case-iphone-11-pro/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=75</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"690b1198-d66f-45c3-88f2-e5baad208464","contentHeight":"660"} -->
 <div id="wd-690b1198" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"0e2f2174-da12-4528-9ac8-dcf012ac76ed","metadata":{"name":"Content"}} -->
@@ -7941,8 +7942,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>75</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:56:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:56:48]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:13]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:13]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[leather-case-iphone-11-pro]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7951,9 +7952,9 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_material" nicename="clear-film"><![CDATA[Clear Film]]></category>
 		<category domain="pa_color" nicename="green"><![CDATA[Green]]></category>
-		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
-		<category domain="pa_brand" nicename="samsung"><![CDATA[Samsung]]></category>
+		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
+		<category domain="product_brand" nicename="samsung"><![CDATA[Samsung]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
@@ -7969,7 +7970,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8048,7 +8049,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[iPhone 12 Pro Max Silicone – Black/White]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-12-pro-max-silicone-black-white/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=76</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"b6d43c4f-3cd5-427c-8db9-c6a72cd0eda1","contentHeight":"660"} -->
 <div id="wd-b6d43c4f" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"609b1955-c590-4923-9aae-3fcdb3dcd768","metadata":{"name":"Content"}} -->
@@ -8183,15 +8184,15 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>76</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:32]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:32]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:18]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:18]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-12-pro-max-silicone-black-white]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="baseus"><![CDATA[Baseus]]></category>
+												<category domain="product_brand" nicename="baseus"><![CDATA[Baseus]]></category>
 		<category domain="pa_color" nicename="black-white"><![CDATA[Black/White]]></category>
 		<category domain="product_cat" nicename="iphone-12-pro"><![CDATA[IPhone 12 pro]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
@@ -8211,7 +8212,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8290,7 +8291,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[iPhone Leather Wallet Black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/iphone-leather-wallet-black/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=77</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"fde2ce8e-93a7-4f68-bbfc-4fd1b95ab5cb","contentHeight":"660"} -->
 <div id="wd-fde2ce8e" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"9f1783c1-087b-4715-8834-b5f03989b00c","metadata":{"name":"Content"}} -->
@@ -8425,8 +8426,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>77</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:24]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:14:00]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:14:00]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[iphone-leather-wallet-black]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -8441,7 +8442,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 		<category domain="pa_features" nicename="magsafe"><![CDATA[MagSafe]]></category>
 		<category domain="product_cat" nicename="magsafe"><![CDATA[MagSafe]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="xiaomi"><![CDATA[Xiaomi]]></category>
+		<category domain="product_brand" nicename="xiaomi"><![CDATA[Xiaomi]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
 							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
@@ -8456,7 +8457,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8535,7 +8536,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Everyday Leather Strap – Olive]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/everyday-leather-strap-olive/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=78</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"f871aadd-3453-4547-8e68-787f6370f404","contentHeight":"660"} -->
 <div id="wd-f871aadd" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"35a24364-90d5-4cc6-a512-5a62ff05ae98","metadata":{"name":"Content"}} -->
@@ -8670,15 +8671,15 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>78</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:17]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:17]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:29]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:29]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[everyday-leather-strap-olive]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="energizer"><![CDATA[Energizer]]></category>
+												<category domain="product_brand" nicename="energizer"><![CDATA[Energizer]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
 		<category domain="pa_color" nicename="olive"><![CDATA[Olive]]></category>
@@ -8698,7 +8699,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8777,7 +8778,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Case for AirPods – Blue]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/case-for-airpods-blue/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=79</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"c6f45678-2a31-491d-a2ea-aab85a21a53d","contentHeight":"660"} -->
 <div id="wd-c6f45678" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"999f105d-0c6b-4632-9893-1c43c2d7ff01","metadata":{"name":"Content"}} -->
@@ -8912,15 +8913,15 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>79</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 06:43:37]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 06:43:37]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:38]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[case-for-airpods-blue]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="belkin"><![CDATA[Belkin]]></category>
+												<category domain="product_brand" nicename="belkin"><![CDATA[Belkin]]></category>
 		<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
 		<category domain="product_cat" nicename="cases"><![CDATA[Cases]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
@@ -8940,7 +8941,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9019,7 +9020,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Lightning Cable USB-A]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/lightning-cable-usb-a/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=80</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"78d92e54-21b5-4b36-b880-32087724a784","contentHeight":"660"} -->
 <div id="wd-78d92e54" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"d58c8e01-140a-4c64-b931-c809af40a29e","metadata":{"name":"Content"}} -->
@@ -9154,8 +9155,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>80</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 06:44:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 06:44:05]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:18]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:18]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[lightning-cable-usb-a]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9168,7 +9169,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13-pro"><![CDATA[iPhone 13 Pro]]></category>
 		<category domain="pa_material" nicename="leather"><![CDATA[Leather]]></category>
-		<category domain="pa_brand" nicename="samsung"><![CDATA[Samsung]]></category>
+		<category domain="product_brand" nicename="samsung"><![CDATA[Samsung]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
@@ -9184,7 +9185,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9263,7 +9264,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Woven Nylon Apple]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/woven-nylon-apple/</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:03 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=160</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"09c7b57c-e2f5-41d3-be42-0ef67d64bd9d","contentHeight":"660"} -->
 <div id="wd-09c7b57c" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"d2c52248-1d6b-4aa1-ac19-f60679e35684","metadata":{"name":"Content"}} -->
@@ -9398,8 +9399,8 @@ If the copy becomes distracting in the design then you are doing something wrong
 										<wp:post_id>160</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:03]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:16:03]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:52:26]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:52:26]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:10]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:10]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[woven-nylon-apple]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9409,7 +9410,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 												<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
-		<category domain="pa_brand" nicename="baseus"><![CDATA[Baseus]]></category>
+		<category domain="product_brand" nicename="baseus"><![CDATA[Baseus]]></category>
 		<category domain="product_cat" nicename="canvas"><![CDATA[Canvas]]></category>
 		<category domain="pa_color" nicename="coral"><![CDATA[Coral]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
@@ -9428,7 +9429,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9503,7 +9504,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Shop]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/shop/</link>
 					<pubDate>Tue, 09 Jul 2024 08:57:22 +0000</pubDate>
-					<dc:creator><![CDATA[admin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/shop/</guid>
 															<wp:post_id>6</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-09 08:57:22]]></wp:post_date>
@@ -9521,7 +9522,7 @@ If the copy becomes distracting in the design then you are doing something wrong
 					<title><![CDATA[Contact form 1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=wpcf7_contact_form&#038;p=11</link>
 					<pubDate>Tue, 09 Jul 2024 08:57:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=wpcf7_contact_form&#038;p=11</guid>
 											<content:encoded><![CDATA[<label> Your name
     [text* your-name autocomplete:name] </label>
@@ -9639,7 +9640,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Fast Wireless Charger 3in1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/fast-wireless-charger-3in1/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=81</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"5287e4b8-2a4f-4e35-840e-2c074f698625","contentHeight":"660"} -->
 <div id="wd-5287e4b8" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"8711ccd7-0be2-4e9a-96f6-ea9820c210d9","metadata":{"name":"Content"}} -->
@@ -9774,8 +9775,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>81</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 06:44:19]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 06:44:19]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[fast-wireless-charger-3in1]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -9788,7 +9789,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="product_cat" nicename="charger"><![CDATA[Charger]]></category>
-		<category domain="pa_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
+		<category domain="product_brand" nicename="ecoflow"><![CDATA[Ecoflow]]></category>
 		<category domain="pa_compatibility" nicename="iphone-12-pro"><![CDATA[iPhone 12 Pro]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13"><![CDATA[iPhone 13]]></category>
 		<category domain="pa_compatibility" nicename="iphone-13-pro"><![CDATA[iPhone 13 Pro]]></category>
@@ -9812,7 +9813,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -9929,7 +9930,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Aubergine Modern Buckle]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/aubergine-modern-buckle/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=82</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"518d82cd-a47f-4d7d-8661-a1e97e5d2a42","contentHeight":"660"} -->
 <div id="wd-518d82cd" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"1d8e0232-f909-4cc8-a266-d75f69259d4c","metadata":{"name":"Content"}} -->
@@ -10064,8 +10065,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>82</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 06:44:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 06:44:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:43]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aubergine-modern-buckle]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10075,7 +10076,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 												<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
-		<category domain="pa_brand" nicename="belkin"><![CDATA[Belkin]]></category>
+		<category domain="product_brand" nicename="belkin"><![CDATA[Belkin]]></category>
 		<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
 		<category domain="pa_material" nicename="leather"><![CDATA[Leather]]></category>
 		<category domain="product_cat" nicename="silicone"><![CDATA[Silicone]]></category>
@@ -10094,7 +10095,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10181,7 +10182,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Modern Buckle Apple Watch]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/modern-buckle-apple-watch/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=83</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"11ad525f-9572-426d-b54d-2693bb73cee8","contentHeight":"660"} -->
 <div id="wd-11ad525f" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"d492e4f3-ced3-4f47-ae48-11c7126353a8","metadata":{"name":"Content"}} -->
@@ -10316,15 +10317,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>83</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:17]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:17]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:10:50]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:10:50]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[modern-buckle-apple-watch]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="anker"><![CDATA[Anker]]></category>
+												<category domain="product_brand" nicename="anker"><![CDATA[Anker]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
@@ -10346,7 +10347,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10421,7 +10422,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Blue Sport Band Regular]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/blue-sport-band-regular/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=84</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"2dd34ff8-9783-44b8-9310-0cb0de20a18f","contentHeight":"660"} -->
 <div id="wd-2dd34ff8" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"afcd4a8b-a37c-4006-a138-d8ee89339c45","metadata":{"name":"Content"}} -->
@@ -10556,8 +10557,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>84</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:24]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:33]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:33]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[blue-sport-band-regular]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10568,7 +10569,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
 		<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
-		<category domain="pa_brand" nicename="energizer"><![CDATA[Energizer]]></category>
+		<category domain="product_brand" nicename="energizer"><![CDATA[Energizer]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
 		<category domain="product_cat" nicename="silicone"><![CDATA[Silicone]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -10586,7 +10587,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10661,7 +10662,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Lime Green Sport Band]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/lime-green-sport-band/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=85</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"293f0ba0-b71c-4c0b-a716-7c7b26d8ab14","contentHeight":"660"} -->
 <div id="wd-293f0ba0" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"103d3e39-7453-4950-9a98-41a294d007db","metadata":{"name":"Content"}} -->
@@ -10796,8 +10797,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>85</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:29]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:29]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:12:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:12:43]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[lime-green-sport-band]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -10808,7 +10809,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
-		<category domain="pa_brand" nicename="huawei"><![CDATA[Huawei]]></category>
+		<category domain="product_brand" nicename="huawei"><![CDATA[Huawei]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
 		<category domain="product_cat" nicename="silicone"><![CDATA[Silicone]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -10826,7 +10827,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -10901,7 +10902,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apple Watch Series 6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/apple-watch-series-6/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=86</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"bc3eee7d-533e-436b-8946-f2affb78593e","contentHeight":"660"} -->
 <div id="wd-bc3eee7d" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"1597c3e9-6ed6-41eb-a3a6-34e8046e7177","metadata":{"name":"Content"}} -->
@@ -11036,15 +11037,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>86</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:10:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:10:55]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[apple-watch-series-6]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="anker"><![CDATA[Anker]]></category>
+												<category domain="product_brand" nicename="anker"><![CDATA[Anker]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
@@ -11066,7 +11067,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11141,7 +11142,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Nylon Apple Watch]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/nylon-apple-watch/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=87</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"23d6d30c-39f2-4495-be44-1c8f4f3367af","contentHeight":"660"} -->
 <div id="wd-23d6d30c" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"d09f2d00-9fd4-41c0-a9bc-015f61d8a59d","metadata":{"name":"Content"}} -->
@@ -11276,8 +11277,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>87</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:42]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:42]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:47]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:47]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[nylon-apple-watch]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -11287,7 +11288,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 												<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
-		<category domain="pa_brand" nicename="belkin"><![CDATA[Belkin]]></category>
+		<category domain="product_brand" nicename="belkin"><![CDATA[Belkin]]></category>
 		<category domain="pa_color" nicename="blue"><![CDATA[Blue]]></category>
 		<category domain="product_cat" nicename="canvas"><![CDATA[Canvas]]></category>
 		<category domain="pa_material" nicename="fabric"><![CDATA[Fabric]]></category>
@@ -11306,7 +11307,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11381,7 +11382,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Pearl Woven Nylon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/pearl-woven-nylon/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=88</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"aec97467-f22a-4f25-92d8-53e14a9b472a","contentHeight":"660"} -->
 <div id="wd-aec97467" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"9992b0ff-e152-44d6-808b-fdf6e5be149e","metadata":{"name":"Content"}} -->
@@ -11516,15 +11517,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>88</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:48]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:10:59]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:10:59]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[pearl-woven-nylon]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="anker"><![CDATA[Anker]]></category>
+												<category domain="product_brand" nicename="anker"><![CDATA[Anker]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
@@ -11546,7 +11547,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11621,7 +11622,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Sport Loop Original]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/sport-loop-original/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=89</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"b63edf3f-4cc5-43b0-8fcb-ec51d6cef7e4","contentHeight":"660"} -->
 <div id="wd-b63edf3f" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"b87142b2-9f25-44a7-83e7-ae60d324d2ce","metadata":{"name":"Content"}} -->
@@ -11756,8 +11757,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>89</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:54:59]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:54:59]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:11:23]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:11:23]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sport-loop-original]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -11767,7 +11768,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 												<category domain="pa_watch-compatibility" nicename="apple-watch-series-5"><![CDATA[Apple Watch Series 5]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
-		<category domain="pa_brand" nicename="baseus"><![CDATA[Baseus]]></category>
+		<category domain="product_brand" nicename="baseus"><![CDATA[Baseus]]></category>
 		<category domain="pa_color" nicename="black"><![CDATA[Black]]></category>
 		<category domain="product_cat" nicename="canvas"><![CDATA[Canvas]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
@@ -11786,7 +11787,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -11861,7 +11862,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Sport Loop Pink]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/sport-loop-pink/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=90</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"6c2c5581-c2c9-4b76-80fd-eca04d6266ed","contentHeight":"660"} -->
 <div id="wd-6c2c5581" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"a64c1fe0-b1c7-4761-9208-14a80a92db1d","metadata":{"name":"Content"}} -->
@@ -11996,8 +11997,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>90</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:04]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:04]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:13:02]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:13:02]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sport-loop-pink]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -12008,7 +12009,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-6"><![CDATA[Apple Watch Series 6]]></category>
 		<category domain="pa_watch-compatibility" nicename="apple-watch-series-7"><![CDATA[Apple Watch Series 7]]></category>
 		<category domain="product_cat" nicename="canvas"><![CDATA[Canvas]]></category>
-		<category domain="pa_brand" nicename="nillkin"><![CDATA[Nillkin]]></category>
+		<category domain="product_brand" nicename="nillkin"><![CDATA[Nillkin]]></category>
 		<category domain="pa_material" nicename="nylon"><![CDATA[Nylon]]></category>
 		<category domain="pa_color" nicename="red"><![CDATA[Red]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -12026,7 +12027,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -12101,7 +12102,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Sport Loop Vitamin C]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/product/sport-loop-vitamin-c/</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=product&#038;p=91</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/collapsible-content {"blockId":"dba7134a-2dde-4c8b-a655-17ebf5094011","contentHeight":"660"} -->
 <div id="wd-dba7134a" class="wp-block-wd-collapsible-content wd-effect-fade"><!-- wp:wd/container {"blockId":"9237ef96-1ccc-42b1-b4ad-99a78d62f52d","metadata":{"name":"Content"}} -->
@@ -12236,8 +12237,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 										<wp:post_id>91</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:48]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-12 11:15:48]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:55:12]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:55:12]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:14:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:14:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sport-loop-vitamin-c]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -12251,7 +12252,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="product_cat" nicename="canvas"><![CDATA[Canvas]]></category>
 		<category domain="pa_material" nicename="leather"><![CDATA[Leather]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="xiaomi"><![CDATA[Xiaomi]]></category>
+		<category domain="product_brand" nicename="xiaomi"><![CDATA[Xiaomi]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_manage_stock]]></wp:meta_key>
 							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
@@ -12266,7 +12267,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -12341,7 +12342,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home Accessories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/</link>
 					<pubDate>Fri, 12 Jul 2024 11:23:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?page_id=171</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"50871378-ff0d-497d-96d5-712eb79bba5e","effect":"parallax","autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"700","marginBottom":"80","heightTablet":"500","heightMobile":"420","marginBottomMobile":"60"} -->
 <div id="wd-50871378" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-parallax wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="parallax" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"fdf4cf2c-7457-4218-8e04-d925b7198b6f","blockGap":10,"align":"flex-start","effect":"parallax","bgImage":{"id":316,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-slider.jpg"},"bgRepeat":"no-repeat","bgColorCode":"#F3F3F3"} -->
@@ -12648,7 +12649,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Single product layout Accessories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/woodmart_layout/single-product-layout-accessories/</link>
 					<pubDate>Tue, 06 Aug 2024 13:32:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=woodmart_layout&#038;p=873</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"ecc98312-17da-4612-bd2f-8b7b92801140","direction":"row","justify":"space-between","wrap":"wrap","rowGap":"10","marginTop":"-30","marginTopTablet":"-20"} -->
 <div id="wd-ecc98312" class="wp-block-wd-container wd-dir-row"><!-- wp:wd/woo-breadcrumbs {"blockId":"bf8814d1-852d-4d3d-8ef3-c44eeb1c85cc"} /-->
@@ -12679,6 +12680,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- wp:wd/sp-linked-variations {"blockId":"fe35fa8a-c029-4769-b74f-9fec4abe17b0"} /-->
 
 <!-- wp:wd/sp-add-to-cart {"blockId":"1e069946-3713-4a00-a8e9-22ece41acece","buttonDesign":"full"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"a3c91946-54e5-4473-b594-cc271ba5e33b","hook":"woocommerce_single_product_summary","cleanActions":true} /-->
 
 <!-- wp:wd/container {"blockId":"3e7d81a6-c68b-489c-82a0-43e242644f7c","direction":"row","align":"center","wrap":"wrap"} -->
 <div id="wd-3e7d81a6" class="wp-block-wd-container wd-dir-row wd-align-is-lg-center"><!-- wp:wd/sp-compare-btn {"blockId":"aa7f5ac3-5bf6-4c93-84f9-82a5be978bdb"} /-->
@@ -12715,7 +12718,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/image {"blockId":"2cacc8da-2a35-42a4-a048-5421b1662788","image":{"id":874,"url":"http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/guaranteed-safe-checkout-bordered.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/guaranteed-safe-checkout-bordered.jpg","width":1000,"height":80},"borderRadius":"0","borderRadiusTop":"0","borderRadiusRight":"0","borderRadiusBottom":"0","borderRadiusLeft":"0"} -->
-<div id="wd-2cacc8da" class="wp-block-wd-image wd-block-image"><img class="wp-image-874" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/guaranteed-safe-checkout-bordered.jpg" /></div>
+<div id="wd-2cacc8da" class="wp-block-wd-image wd-block-image"><img class="wp-image-874" src="http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/guaranteed-safe-checkout-bordered.jpg" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
@@ -12754,8 +12757,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>873</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-06 13:32:47]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-06 13:32:47]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-14 12:09:21]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-14 12:09:21]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 12:09:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 12:09:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[single-product-layout-accessories]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -12775,7 +12778,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Product archive layout Cases]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/woodmart_layout/product-archive-layout-cases/</link>
 					<pubDate>Wed, 07 Aug 2024 08:24:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=woodmart_layout&#038;p=901</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"b9f93943-bba3-4585-9da1-e332a4d4a53c","stretch":true,"marginTop":"-40","marginBottom":"60","marginBottomTablet":"40"} /-->
 
@@ -12888,7 +12891,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Product archive layout Straps]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/woodmart_layout/product-archive-layout-straps/</link>
 					<pubDate>Wed, 07 Aug 2024 09:08:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=woodmart_layout&#038;p=917</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"cdac3748-9f56-4320-8930-c9e451a6be5b","stretch":true,"marginTop":"-40","marginBottom":"60","marginBottomTablet":"40"} /-->
 
@@ -12971,7 +12974,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Product archive layout Shop Accessories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/woodmart_layout/product-archive-layout-shop-accessories/</link>
 					<pubDate>Wed, 07 Aug 2024 11:05:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=woodmart_layout&#038;p=941</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/sa-archive-description {"blockId":"518bed56-f780-4bbf-b12a-9ab51db4c95f","textAlign":"center"} /-->
 
@@ -13101,7 +13104,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[wd_layout_conditions]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{i:0;a:3:{s:20:"condition_comparison";s:7:"include";s:14:"condition_type";s:9:"shop_page";s:15:"condition_query";s:0:"";}}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:2:{i:0;a:3:{s:20:"condition_comparison";s:7:"include";s:14:"condition_type";s:9:"shop_page";s:15:"condition_query";s:0:"";}i:1;a:3:{s:20:"condition_comparison";s:7:"exclude";s:14:"condition_type";s:14:"product_search";s:15:"condition_query";s:0:"";}}]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -13112,7 +13115,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Product archive layout attribute]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/woodmart_layout/product-archive-layout-attribute/</link>
 					<pubDate>Wed, 07 Aug 2024 11:07:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=woodmart_layout&#038;p=942</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/woo-page-title {"blockId":"99bf73d9-0633-48d7-844a-286c82a99917","stretch":true,"marginTop":"-40","marginBottom":"30","marginBottomTablet":"30"} /-->
 
@@ -13169,14 +13172,18 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Checkout layout Accessories]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/woodmart_layout/checkout-layout-accessories/</link>
 					<pubDate>Wed, 07 Aug 2024 11:58:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?post_type=woodmart_layout&#038;p=956</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"2ed364e8-0b28-4883-8f89-7306570e323d","rowGap":"","marginBottom":"30","displayWidth":"custom","customWidth":"650","marginBottomMobile":"0","alignSelfTablet":"center","displayWidthMobile":"custom","customWidthUnitsTablet":"%"} -->
 <div id="wd-2ed364e8" class="wp-block-wd-container wd-dir-col wd-custom-width wd-align-s-center-md"><!-- wp:wd/woo-notices {"blockId":"19acef32-4c1f-4377-ad02-c71e60afd66e"} /-->
 
+<!-- wp:wd/woo-hook {"blockId":"925b0da0-a098-469b-a020-80ebd96204f4","hook":"woocommerce_before_checkout_form","cleanActions":true} /-->
+
 <!-- wp:wd/ch-login-form {"blockId":"c880f418-6a81-4045-a94b-8e98bda3c3c4","align":"center","alignTablet":"center"} /-->
 
 <!-- wp:wd/ch-coupon-form {"blockId":"76217e4c-8737-46f6-ab3a-e62ba4c4e0c0","align":"center","marginBottom":"15"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"749fa0ff-9db8-4267-9b8b-634f1375e011","hook":"woocommerce_checkout_before_customer_details","cleanActions":true} /-->
 
 <!-- wp:wd/woo-shipping-progress-bar {"blockId":"8a2fb32e-cb90-4459-b5ff-f9b8d2cae7f9","bgColorCode":"#f7fafc","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"marginBottom":"20","borderType":"none","borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10","displayWidth":"","customWidth":"","textAlignTablet":"center"} /-->
 
@@ -13191,7 +13198,13 @@ This email is a receipt for your contact form submission on our website ([_site_
 
 <!-- wp:wd/ch-billing-details {"blockId":"bc89e229-1e66-488b-bb49-0d5d482e6fb3"} /-->
 
+<!-- wp:wd/woo-hook {"blockId":"49b22b8a-f96b-435f-8e00-62282cf694ce","hook":"woocommerce_checkout_after_customer_details","cleanActions":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"b7934e4b-410b-4a2b-8c16-44ff22e13313","hook":"woocommerce_checkout_billing","cleanActions":true} /-->
+
 <!-- wp:wd/ch-shipping-details {"blockId":"cf8cabf9-7092-49c8-9fd4-23b503c34c03","marginBottom":"20"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"11d35a29-e996-4516-aa71-51be8270cd9d","hook":"woocommerce_checkout_shipping","cleanActions":true} /-->
 
 <!-- wp:wd/paragraph {"blockId":"e0d72c52-719b-4b58-9f7a-a597ad5e0605","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontSize":"120","tpLineHeight":"1","tpFontVariant":"600","tpFontWeight":"600","tpFontSizeTablet":"80","tpFontSizeMobile":"40","tpLineHeightUnits":"em"} -->
 <p id="wd-e0d72c52" class="wp-block-wd-paragraph wd-align">2.</p>
@@ -13201,7 +13214,13 @@ This email is a receipt for your contact form submission on our website ([_site_
 <h2 id="wd-953c6d36" class="wp-block-wd-title title wd-align">Check Your Order</h2>
 <!-- /wp:wd/title -->
 
+<!-- wp:wd/woo-hook {"blockId":"f1c4d4e2-056d-4238-97e8-0b6cd61cce67","hook":"woocommerce_checkout_before_order_review_heading","cleanActions":true} /-->
+
 <!-- wp:wd/ch-order-review {"blockId":"30dc4a6c-2f91-4b58-a3cc-7b0802790bd3","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"marginBottom":"20","borderType":"solid","borderColorCode":"rgba(0,0,0,0.08)","borderWidth":"1","borderWidthTop":"1","borderWidthRight":"1","borderWidthBottom":"1","borderWidthLeft":"1","borderWidthLock":true,"borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10"} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"ef014017-f2fe-45a8-91f2-e92746cb038c","hook":"woocommerce_checkout_before_order_review","cleanActions":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"99e12081-a937-430e-8fab-4745822d715e","hook":"woocommerce_checkout_order_review","cleanActions":true} /-->
 
 <!-- wp:wd/paragraph {"blockId":"c1ca2fed-6fbe-4613-be38-7359641226c6","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontSize":"120","tpLineHeight":"1","tpFontVariant":"600","tpFontWeight":"600","tpFontSizeTablet":"80","tpFontSizeMobile":"40","tpLineHeightUnits":"em"} -->
 <p id="wd-c1ca2fed" class="wp-block-wd-paragraph wd-align">3.</p>
@@ -13212,13 +13231,17 @@ This email is a receipt for your contact form submission on our website ([_site_
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/ch-payment-methods {"blockId":"b839e5b8-93c0-4756-bbfb-41e8f824c874","btnAlign":"stretch","descriptionBgColorCode":"#f9f9f9","descriptionBoxShadowColorCode":"rgba(0,0,0,0)","descriptionBoxShadowBlur":0,"descriptionPaddingTop":"0","descriptionPaddingRight":"0","descriptionPaddingBottom":"0","descriptionPaddingLeft":"0","descriptionPaddingLock":true,"termsConditionsColorCode":"#f9f9f9","paddingTop":"30","paddingRight":"30","paddingBottom":"30","paddingLeft":"30","paddingLock":true,"borderType":"solid","borderColorCode":"rgba(46,107,197,0.32)","borderWidth":"5","borderWidthTop":"5","borderWidthRight":"5","borderWidthBottom":"5","borderWidthLeft":"5","borderWidthLock":true,"borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10","paddingTopTablet":"20","paddingRightTablet":"20","paddingBottomTablet":"20","paddingLeftTablet":"20","paddingLockTablet":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"be0f4095-d960-4630-ab75-d2e9b5ffd6eb","hook":"woocommerce_checkout_after_order_review","cleanActions":true} /-->
+
+<!-- wp:wd/woo-hook {"blockId":"47437054-555e-4b46-82be-67a52b770ddb","hook":"woocommerce_after_checkout_form","cleanActions":true} /-->
 <!-- /wp:wd/ch-form --></div>
 <!-- /wp:wd/container -->]]></content:encoded>
 															<wp:post_id>956</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 11:58:28]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-08-07 11:58:28]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-11-08 15:05:20]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-11-08 15:05:20]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 12:58:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 12:58:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[checkout-layout-accessories]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -13238,7 +13261,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/245/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=245</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>245</wp:post_id>
@@ -13290,7 +13313,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/246/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=246</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>246</wp:post_id>
@@ -13342,7 +13365,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/247/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=247</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>247</wp:post_id>
@@ -13398,7 +13421,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/248/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=248</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>248</wp:post_id>
@@ -13454,7 +13477,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/249/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=249</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>249</wp:post_id>
@@ -13510,7 +13533,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/250/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=250</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>250</wp:post_id>
@@ -13566,7 +13589,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/251/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=251</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>251</wp:post_id>
@@ -13622,7 +13645,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/252/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=252</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>252</wp:post_id>
@@ -13678,7 +13701,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/253/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=253</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>253</wp:post_id>
@@ -13734,7 +13757,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/254/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=254</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>254</wp:post_id>
@@ -13786,7 +13809,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/255/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=255</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>255</wp:post_id>
@@ -13838,7 +13861,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/256/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=256</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>256</wp:post_id>
@@ -13890,7 +13913,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/257/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=257</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>257</wp:post_id>
@@ -13942,7 +13965,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/258/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=258</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>258</wp:post_id>
@@ -13998,7 +14021,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/259/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=259</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>259</wp:post_id>
@@ -14054,7 +14077,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/260/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=260</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>260</wp:post_id>
@@ -14110,7 +14133,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/261/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=261</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>261</wp:post_id>
@@ -14166,7 +14189,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/262/</link>
 					<pubDate>Fri, 12 Jul 2024 12:23:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=262</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>262</wp:post_id>
@@ -14222,7 +14245,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/264/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=264</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>264</wp:post_id>
@@ -14278,7 +14301,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[More]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/more/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=265</guid>
 															<wp:post_id>265</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:25:59]]></wp:post_date>
@@ -14333,7 +14356,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/home/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=213</guid>
 															<wp:post_id>213</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:05:28]]></wp:post_date>
@@ -14384,7 +14407,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/214/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=214</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>214</wp:post_id>
@@ -14436,7 +14459,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/215/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=215</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>215</wp:post_id>
@@ -14488,7 +14511,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/216/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=216</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>216</wp:post_id>
@@ -14540,7 +14563,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/217/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=217</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>217</wp:post_id>
@@ -14592,7 +14615,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/218/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=218</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>218</wp:post_id>
@@ -14644,7 +14667,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/219/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=219</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>219</wp:post_id>
@@ -14696,7 +14719,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/220/</link>
 					<pubDate>Fri, 12 Jul 2024 12:03:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=220</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>220</wp:post_id>
@@ -14748,7 +14771,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Web Designer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/web-designer/</link>
 					<pubDate>Fri, 12 Jul 2024 12:09:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=227</guid>
 															<wp:post_id>227</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:09:46]]></wp:post_date>
@@ -14803,7 +14826,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Administrator]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/administrator/</link>
 					<pubDate>Fri, 12 Jul 2024 12:09:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=228</guid>
 															<wp:post_id>228</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:09:46]]></wp:post_date>
@@ -14858,7 +14881,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Store Manager]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/store-manager/</link>
 					<pubDate>Fri, 12 Jul 2024 12:09:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=229</guid>
 															<wp:post_id>229</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:09:46]]></wp:post_date>
@@ -14913,7 +14936,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[CEO]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/ceo/</link>
 					<pubDate>Fri, 12 Jul 2024 12:09:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=230</guid>
 															<wp:post_id>230</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:09:46]]></wp:post_date>
@@ -14968,7 +14991,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/home-2/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=231</guid>
 															<wp:post_id>231</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 12:15:57]]></wp:post_date>
@@ -15019,7 +15042,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/266/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=266</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>266</wp:post_id>
@@ -15075,7 +15098,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/267/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=267</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>267</wp:post_id>
@@ -15131,7 +15154,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/268/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=268</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>268</wp:post_id>
@@ -15187,7 +15210,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/269/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=269</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>269</wp:post_id>
@@ -15243,7 +15266,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/270/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=270</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>270</wp:post_id>
@@ -15299,7 +15322,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/271/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=271</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>271</wp:post_id>
@@ -15355,7 +15378,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/272/</link>
 					<pubDate>Fri, 12 Jul 2024 12:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=272</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>272</wp:post_id>
@@ -15411,7 +15434,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/221/</link>
 					<pubDate>Fri, 12 Jul 2024 12:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=221</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>221</wp:post_id>
@@ -15463,7 +15486,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/222/</link>
 					<pubDate>Fri, 12 Jul 2024 12:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=222</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>222</wp:post_id>
@@ -15515,7 +15538,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/223/</link>
 					<pubDate>Fri, 12 Jul 2024 12:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=223</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>223</wp:post_id>
@@ -15567,7 +15590,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/225/</link>
 					<pubDate>Fri, 12 Jul 2024 12:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=225</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>225</wp:post_id>
@@ -15619,7 +15642,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/226/</link>
 					<pubDate>Fri, 12 Jul 2024 12:08:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=226</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>226</wp:post_id>
@@ -15671,7 +15694,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/232/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=232</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>232</wp:post_id>
@@ -15723,7 +15746,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/233/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=233</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>233</wp:post_id>
@@ -15775,7 +15798,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/234/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=234</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>234</wp:post_id>
@@ -15827,7 +15850,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/235/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=235</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>235</wp:post_id>
@@ -15879,7 +15902,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/236/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=236</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>236</wp:post_id>
@@ -15931,7 +15954,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/237/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=237</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>237</wp:post_id>
@@ -15983,7 +16006,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/12/238/</link>
 					<pubDate>Fri, 12 Jul 2024 12:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=238</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>238</wp:post_id>
@@ -16035,7 +16058,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/16/844/</link>
 					<pubDate>Tue, 16 Jul 2024 11:51:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=844</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>844</wp:post_id>
@@ -16091,7 +16114,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/16/845/</link>
 					<pubDate>Tue, 16 Jul 2024 11:51:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=845</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>845</wp:post_id>
@@ -16147,7 +16170,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/16/847/</link>
 					<pubDate>Tue, 16 Jul 2024 11:51:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=847</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>847</wp:post_id>
@@ -16203,7 +16226,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/16/850/</link>
 					<pubDate>Tue, 16 Jul 2024 11:54:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=850</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>850</wp:post_id>
@@ -16259,7 +16282,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/16/851/</link>
 					<pubDate>Tue, 16 Jul 2024 11:54:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=851</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>851</wp:post_id>
@@ -16315,7 +16338,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/2024/07/16/852/</link>
 					<pubDate>Tue, 16 Jul 2024 11:54:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?p=852</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>852</wp:post_id>

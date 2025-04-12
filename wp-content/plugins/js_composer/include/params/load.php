@@ -37,7 +37,7 @@ require_once vc_path_dir( 'PARAMS_DIR', '/gutenberg/gutenberg.php' );
 require_once vc_path_dir( 'PARAMS_DIR', '/textarea_ace/textarea_ace.php' );
 
 global $vc_params_list;
-$vc_params_list = array(
+$vc_params_list = [
 	// Default.
 	'textfield',
 	'dropdown',
@@ -74,4 +74,4 @@ $vc_params_list = array(
 	'el_id',
 	'gutenberg',
 	'textarea_ace',
-);
+];

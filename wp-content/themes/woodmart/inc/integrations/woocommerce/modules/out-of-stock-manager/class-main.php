@@ -20,11 +20,6 @@ class Main extends Singleton {
 	 */
 	public function init() {
 		add_action( 'init', array( $this, 'add_options' ) );
-
-		if ( ! woodmart_get_opt( 'show_out_of_stock_at_the_end' ) ) {
-			return;
-		}
-
 		add_filter( 'posts_clauses', array( $this, 'change_main_products_loop_query' ), 2000, 2 );
 	}
 
@@ -36,10 +31,12 @@ class Main extends Singleton {
 			array(
 				'id'       => 'show_out_of_stock_at_the_end',
 				'name'     => esc_html__( 'Show "Out of stock" products at the end (experimental)', 'woodmart' ),
-				'hint' => '<video data-src="' . WOODMART_TOOLTIP_URL . 'show_out_of_stock_at_the_end.mp4" autoplay loop muted></video>',
+				'hint'     => '<video data-src="' . WOODMART_TOOLTIP_URL . 'show_out_of_stock_at_the_end.mp4" autoplay loop muted></video>',
 				'type'     => 'switcher',
 				'section'  => 'product_archive_section',
 				'default'  => '0',
+				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
+				'off-text' => esc_html__( 'No', 'woodmart' ),
 				'priority' => 50,
 			)
 		);
@@ -52,6 +49,10 @@ class Main extends Singleton {
 	 * @param WP_Query $query Current query.
 	 */
 	public function change_main_products_loop_query( $posts_clauses, $query ) {
+		if ( ! function_exists( 'is_woocommerce' ) || ! woodmart_get_opt( 'show_out_of_stock_at_the_end' ) ) {
+			return $posts_clauses;
+		}
+
 		global $wpdb;
 
 		if ( is_woocommerce() && 'product_query' === $query->get( 'wc_query' ) ) {

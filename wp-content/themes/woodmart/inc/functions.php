@@ -448,10 +448,8 @@ if ( ! function_exists( 'woodmart_get_the_ID' ) ) {
 			$page_id = $page_for_projects;
 		}
 
-		if ( woodmart_woocommerce_installed() && function_exists( 'is_shop' ) ) {
-			if ( is_shop() || is_product_category() || is_product_tag() || woodmart_is_product_attribute_archive() ) {
-				$page_id = $page_for_shop;
-			}
+		if ( woodmart_is_shop_archive() ) {
+			$page_id = $page_for_shop;
 		}
 
 		if ( is_404() && ( 'default' !== $custom_404_id || ! empty( $custom_404_id ) ) ) {
@@ -873,7 +871,7 @@ if ( ! function_exists( 'woodmart_get_col_sizes' ) ) {
 	 * @param integer $desktop_columns Desktop columns.
 	 * @return array
 	 */
-	function woodmart_get_col_sizes( $desktop_columns ) {
+	function woodmart_get_col_sizes( $desktop_columns, $post_type = '' ) {
 		$desktop_columns = (int) $desktop_columns;
 
 		$sizes = array(
@@ -939,6 +937,12 @@ if ( ! function_exists( 'woodmart_get_col_sizes' ) ) {
 			),
 		);
 
+		if ( 'product' === $post_type ) {
+			$sizes['2']['mobile'] = '2';
+			$sizes['3']['mobile'] = '2';
+			$sizes['4']['mobile'] = '2';
+		}
+
 		return isset( $sizes[ $desktop_columns ] ) ? $sizes[ $desktop_columns ] : $sizes['3'];
 	}
 }
@@ -954,6 +958,7 @@ if ( ! function_exists( 'woodmart_get_grid_attrs' ) ) {
 		$desktop_columns = isset( $settings['columns'] ) ? $settings['columns'] : '3';
 		$tablet_columns  = isset( $settings['columns_tablet'] ) ? $settings['columns_tablet'] : 'auto';
 		$mobile_columns  = isset( $settings['columns_mobile'] ) ? $settings['columns_mobile'] : 'auto';
+		$post_type       = isset( $settings['post_type'] ) ? $settings['post_type'] : '';
 
 		if ( isset( $tablet_columns['size'] ) ) {
 			$tablet_columns = $tablet_columns['size'];
@@ -962,7 +967,7 @@ if ( ! function_exists( 'woodmart_get_grid_attrs' ) ) {
 			$mobile_columns = $mobile_columns['size'];
 		}
 
-		$auto_columns = woodmart_get_col_sizes( $desktop_columns );
+		$auto_columns = woodmart_get_col_sizes( $desktop_columns, $post_type );
 		$style_attrs  = '';
 
 		if ( ! $tablet_columns || 'auto' === $tablet_columns ) {

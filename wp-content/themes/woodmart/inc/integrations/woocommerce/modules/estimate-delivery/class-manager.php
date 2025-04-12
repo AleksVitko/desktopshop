@@ -109,12 +109,80 @@ class Manager extends Singleton {
 		$current_meta_boxes = array();
 
 		foreach ( $meta_boxes_keys as $meta_box_id ) {
-			$current_meta_boxes[ $meta_box_id ] = maybe_unserialize( get_post_meta( $id, $meta_box_id, true ) );
+			$meta_box_value = maybe_unserialize( get_post_meta( $id, $meta_box_id, true ) );
+
+			if ( 'est_del_shipping_method' === $meta_box_id && is_array( $meta_box_value ) ) {
+				$meta_box_value = array_filter( $meta_box_value );
+			}
+
+			$current_meta_boxes[ $meta_box_id ] = $meta_box_value;
 		}
 
 		set_transient( $this->transient_est_del_rule . '_' . $id, $current_meta_boxes );
 
 		return $current_meta_boxes;
+	}
+
+	/**
+	 * Helper for check product stock status.
+	 *
+	 * @param WC_Product $product Instance of WC_Product class.
+	 *
+	 * @return bool
+	 */
+	public function check_product_in_stock_on_single_page( $product ) {
+		$product_in_stock = $product->is_in_stock();
+
+		if ( $product->is_type( 'variable' ) ) {
+			$variations_ids = $product->get_children();
+			$var_in_stock   = array_filter(
+				$variations_ids,
+				function ( $id ) {
+					$variation = wc_get_product( $id );
+
+					return $variation instanceof WC_Product && $variation->is_in_stock();
+				}
+			);
+
+			$product_in_stock = ! empty( $var_in_stock );
+		}
+
+		return $product_in_stock;
+	}
+
+	/**
+	 * Helper get rules.
+	 *
+	 * @return array A list of rules where those that are not empty est_del_shipping_method go first.
+	 */
+	public function group_rules_by_shipping_method() {
+		$rule_ids = $this->get_all_rule_posts_ids();
+
+		if ( empty( $rule_ids ) ) {
+			return array();
+		}
+
+		$rules_with_shipping_method    = array();
+		$rules_without_shipping_method = array();
+
+		foreach ( $rule_ids as $id ) {
+			$rule = $this->get_single_post_meta_boxes( $id );
+
+			if ( empty( $rule['est_del_priority'] ) ) {
+				$rule['est_del_priority'] = 1;
+			}
+
+			if ( ! empty( $rule['est_del_shipping_method'] ) ) {
+				$rules_with_shipping_method[ $id ] = $rule;
+			} else {
+				$rules_without_shipping_method[ $id ] = $rule;
+			}
+		}
+
+		uasort( $rules_with_shipping_method, array( $this, 'sort_by_priority' ) );
+		uasort( $rules_without_shipping_method, array( $this, 'sort_by_priority' ) );
+
+		return array_merge( $rules_with_shipping_method, $rules_without_shipping_method );
 	}
 
 	/**
@@ -130,80 +198,37 @@ class Manager extends Singleton {
 			return;
 		}
 
-		if ( is_single() ) {
-			$product_in_stock = $product->is_in_stock();
-
-			if ( $product->is_type( 'variable' ) ) {
-				$variations_ids = $product->get_children();
-				$var_in_stock   = array_filter(
-					$variations_ids,
-					function ( $id ) {
-						$variation = wc_get_product( $id );
-
-						return $variation instanceof WC_Product && $variation->is_in_stock();
-					}
-				);
-
-				$product_in_stock = ! empty( $var_in_stock );
-			}
-		} else {
-			$product_in_stock = true;
-		}
-
-		$ignore = ! $product->exists() || ! $product->is_purchasable() || ! $product_in_stock || $product->is_type( 'external' ) || $product->is_virtual();
+		$product_in_stock = is_single() || is_ajax() ? $this->check_product_in_stock_on_single_page( $product ) : true;
+		$ignore           = ! $product->exists() || ! $product->is_purchasable() || ! $product_in_stock || $product->is_type( 'external' ) || $product->is_virtual();
 
 		if ( apply_filters( 'woodmart_est_del_ignore', $ignore, $product ) ) {
 			return array();
 		}
 
-		$rule_ids = $this->get_all_rule_posts_ids();
-		$rules    = array();
-		$get_rule = array();
+		$user_method = $shipping_method_id ? $shipping_method_id : $this->get_selected_method();
+		$rules       = $this->group_rules_by_shipping_method();
 
-		if ( empty( $rule_ids ) ) {
+		if ( empty( $rules ) ) {
 			return array();
 		}
 
-		foreach ( $rule_ids as $id ) {
-			$rule         = $this->get_single_post_meta_boxes( $id );
-			$rules[ $id ] = $rule;
-
-			if ( empty( $rule['est_del_shipping_method'] ) ) {
-				$rules[ $id ]['condition_priority'] = 10;
-				continue;
-			}
-
-			$conditions = array_reverse( $rule['est_del_condition'] );
-			$condition  = array_pop( $conditions );
-
-			if ( 'all' === $condition['type'] ) {
-				$rules[ $id ]['condition_priority'] = 20;
-				continue;
-			} else {
-				$rules[ $id ]['condition_priority'] = 30;
-				continue;
-			}
-		}
-
-		uasort( $rules, array( $this, 'sort_by_priority' ) );
-
 		foreach ( $rules as $id => $rule ) {
-			$user_method = $shipping_method_id ? $shipping_method_id : $this->get_selected_method();
+			if ( ! is_array( $rule['est_del_shipping_method'] ) ) {
+				$rule['est_del_shipping_method'] = array( $rule['est_del_shipping_method'] );
+			}
 
-			if ( ( ! empty( $rule['est_del_shipping_method'] ) && ( ! $user_method || ( $user_method !== $rule['est_del_shipping_method'] ) ) ) || ( is_array( $rule['est_del_skipped_date'] ) && 7 === count( $rule['est_del_skipped_date'] ) ) ) {
+			if (
+				( ! empty( array_filter( $rule['est_del_shipping_method'] ) ) && ( ! $user_method || ( ! in_array( $user_method, $rule['est_del_shipping_method'], true ) ) ) )
+				|| ( is_array( $rule['est_del_skipped_date'] ) && 7 === count( $rule['est_del_skipped_date'] ) )
+				|| ! $this->check_condition( $rule, $product )
+			) {
 				continue;
 			}
 
-			if ( ! $this->check_condition( $rule, $product ) ) {
-				continue;
-			}
+			$rule['key'] = $id;
 
-			$get_rule        = $rule;
-			$get_rule['key'] = $id;
-			break;
+			return $rule;
 		}
-
-		return $get_rule;
 	}
 
 	/**
@@ -224,12 +249,16 @@ class Manager extends Singleton {
 		}
 
 		foreach ( $conditions as $id => $condition ) {
-			$conditions[ $id ]['condition_priority'] = $this->get_condition_priority( $condition['type'] );
+			$conditions[ $id ]['est_del_priority'] = $this->get_condition_priority( $condition['type'] );
 		}
 
 		uasort( $conditions, array( $this, 'sort_by_priority' ) );
 
 		foreach ( $conditions as $condition ) {
+			if ( isset( $condition['query'] ) ) {
+				$condition['query'] = apply_filters( 'wpml_object_id', $condition['query'], $condition['type'], true, apply_filters( 'wpml_current_language', null ) );
+			}
+
 			switch ( $condition['type'] ) {
 				case 'all':
 					$is_active = 'include' === $condition['comparison'];
@@ -265,6 +294,7 @@ class Manager extends Singleton {
 					break;
 				case 'product_cat':
 				case 'product_tag':
+				case 'product_brand':
 				case 'product_attr_term':
 					$terms = wp_get_post_terms( $product->get_id(), get_taxonomies(), array( 'fields' => 'ids' ) );
 
@@ -317,7 +347,7 @@ class Manager extends Singleton {
 	 * @return int
 	 */
 	public function sort_by_priority( $a, $b ) {
-		return $b['condition_priority'] <=> $a['condition_priority'];
+		return $b['est_del_priority'] <=> $a['est_del_priority'];
 	}
 
 	/**
@@ -340,6 +370,7 @@ class Manager extends Singleton {
 			case 'product_type':
 			case 'product_cat':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 				$priority = 30;
 				break;

@@ -65,7 +65,7 @@ if ( class_exists( 'WP_Importer' ) ) {
 		 *
 		 * @var array
 		 */
-		public $posts = array();
+		public $posts = [];
 
 		/**
 		 * Base url.
@@ -80,21 +80,21 @@ if ( class_exists( 'WP_Importer' ) ) {
 		 *
 		 * @var array
 		 */
-		public $processed_posts = array();
+		public $processed_posts = [];
 
 		/**
 		 * List of processed attachments.
 		 *
 		 * @var array
 		 */
-		public $processed_attachments = array();
+		public $processed_attachments = [];
 
 		/**
 		 * List of post orphans.
 		 *
 		 * @var array
 		 */
-		public $post_orphans = array();
+		public $post_orphans = [];
 
 		/**
 		 * Whether to fetch attachments.
@@ -108,14 +108,14 @@ if ( class_exists( 'WP_Importer' ) ) {
 		 *
 		 * @var array
 		 */
-		public $url_remap = array();
+		public $url_remap = [];
 
 		/**
 		 * Featured images.
 		 *
 		 * @var array
 		 */
-		public $featured_images = array();
+		public $featured_images = [];
 
 		/**
 		 * The main controller for the actual import stage.
@@ -123,14 +123,14 @@ if ( class_exists( 'WP_Importer' ) ) {
 		 * @param string $file Path to the WXR file for importing.
 		 */
 		public function import( $file ) {
-			add_filter( 'vc_import_post_meta_key', array(
+			add_filter( 'vc_import_post_meta_key', [
 				$this,
 				'is_valid_meta_key',
-			) );
-			add_filter( 'http_request_timeout', array(
+			] );
+			add_filter( 'http_request_timeout', [
 				$this,
 				'bump_request_timeout',
-			) );
+			] );
 
 			$this->import_start( $file );
 
@@ -248,18 +248,18 @@ if ( class_exists( 'WP_Importer' ) ) {
 		 * Note that new/updated terms, comments and meta are imported for the last of the above.
 		 */
 		public function process_posts() {
-			$status = array();
+			$status = [];
 			$this->posts = apply_filters( 'vc_import_posts', $this->posts );
 			if ( is_array( $this->posts ) && ! empty( $this->posts ) ) {
 				foreach ( $this->posts as $post ) {
 					$post = apply_filters( 'vc_import_post_data_raw', $post );
 
 					if ( ! post_type_exists( $post['post_type'] ) ) {
-						$status[] = array(
+						$status[] = [
 							'success' => false,
 							'code' => 'invalid_post_type',
 							'post' => $post,
-						);
+						];
 						do_action( 'vc_import_post_exists', $post );
 						continue;
 					}
@@ -287,7 +287,7 @@ if ( class_exists( 'WP_Importer' ) ) {
 					// map the post author.
 					$author = (int) get_current_user_id();
 
-					$postdata = array(
+					$postdata = [
 						'post_author' => $author,
 						'post_date' => $post['post_date'],
 						'post_date_gmt' => $post['post_date_gmt'],
@@ -303,7 +303,7 @@ if ( class_exists( 'WP_Importer' ) ) {
 						'menu_order' => $post['menu_order'],
 						'post_type' => $post['post_type'],
 						'post_password' => $post['post_password'],
-					);
+					];
 
 					$original_post_ID = $post['post_id'];
 					$postdata = apply_filters( 'vc_import_post_data_processed', $postdata, $post, $this );
@@ -336,11 +336,11 @@ if ( class_exists( 'WP_Importer' ) ) {
 					}
 
 					if ( is_wp_error( $post_id ) ) {
-						$status[] = array(
+						$status[] = [
 							'success' => false,
 							'code' => 'wp_error',
 							'post' => $post_id,
-						);
+						];
 						continue;
 					}
 
@@ -349,7 +349,7 @@ if ( class_exists( 'WP_Importer' ) ) {
 					}
 
 					if ( ! isset( $post['postmeta'] ) ) {
-						$post['postmeta'] = array();
+						$post['postmeta'] = [];
 					}
 
 					$post['postmeta'] = apply_filters( 'vc_import_post_meta', $post['postmeta'], $post_id, $post );
@@ -448,7 +448,7 @@ if ( class_exists( 'WP_Importer' ) ) {
 		private function wp_get_http( $url, $file_path = false ) {
 			set_time_limit( 60 );
 
-			$options = array();
+			$options = [];
 			$options['redirection'] = 5;
 
 			$options['method'] = 'GET';
@@ -587,10 +587,10 @@ if ( class_exists( 'WP_Importer' ) ) {
 		public function backfill_attachment_urls() {
 			global $wpdb;
 			// make sure we do the longest urls first, in case one is a substring of another.
-			uksort( $this->url_remap, array(
+			uksort( $this->url_remap, [
 				$this,
 				'cmpr_strlen',
-			) );
+			] );
 
 			foreach ( $this->url_remap as $from_url => $to_url ) {
 				// remap urls in post_content.
@@ -639,11 +639,11 @@ if ( class_exists( 'WP_Importer' ) ) {
 		public function is_valid_meta_key( $key ) {
 			// skip attachment metadata since we'll regenerate it from scratch.
 			// skip _edit_lock as not relevant for import.
-			if ( in_array( $key, array(
+			if ( in_array( $key, [
 				'_wp_attached_file',
 				'_wp_attachment_metadata',
 				'_edit_lock',
-			), true ) ) {
+			], true ) ) {
 				return false;
 			}
 

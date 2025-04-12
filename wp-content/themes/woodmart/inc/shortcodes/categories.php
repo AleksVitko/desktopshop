@@ -36,8 +36,8 @@ if ( ! function_exists( 'woodmart_shortcode_categories' ) ) {
 
 					// Layout.
 					'columns'                   => '4',
-					'columns_tablet'            => '',
-					'columns_mobile'            => '',
+					'columns_tablet'            => 'auto',
+					'columns_mobile'            => 'auto',
 					'hide_empty'                => 'yes',
 					'parent'                    => '',
 					'style'                     => 'default',
@@ -240,17 +240,9 @@ if ( ! function_exists( 'woodmart_shortcode_categories' ) ) {
 		woodmart_set_loop_prop( 'product_categories_shadow', $categories_with_shadow );
 		woodmart_set_loop_prop( 'product_categories_style', $style );
 
-		if ( isset( $columns_desktop ) ) {
-			woodmart_set_loop_prop( 'products_columns', $columns_desktop );
-		}
-
-		if ( ! empty( $columns_tablet ) ) {
-			woodmart_set_loop_prop( 'products_columns_tablet', $columns_tablet );
-		}
-
-		if ( ! empty( $columns_mobile ) ) {
-			woodmart_set_loop_prop( 'products_columns_mobile', $columns_mobile );
-		}
+		woodmart_set_loop_prop( 'products_columns', $columns_desktop );
+		woodmart_set_loop_prop( 'products_columns_tablet', $columns_tablet );
+		woodmart_set_loop_prop( 'products_columns_mobile', $columns_mobile );
 
 		if ( ! empty( $el_id ) ) {
 			$carousel_id = $el_id;
@@ -280,7 +272,7 @@ if ( ! function_exists( 'woodmart_shortcode_categories' ) ) {
 			}
 		}
 
-		if ( 'masonry' === $style || 'masonry-first' === $style || 'carousel' === $style ) {
+		if ( 'masonry' === $style || 'masonry-first' === $style ) {
 			woodmart_enqueue_inline_style( 'woo-categories-loop-layout-masonry' );
 		}
 
@@ -416,6 +408,7 @@ if ( ! function_exists( 'woodmart_shortcode_categories' ) ) {
 						'spacing'        => $parsed_atts['spacing'],
 						'spacing_tablet' => $parsed_atts['spacing_tablet'],
 						'spacing_mobile' => $parsed_atts['spacing_mobile'],
+						'post_type'      => 'product',
 					)
 				);
 

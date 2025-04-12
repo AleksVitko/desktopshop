@@ -12,11 +12,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_Vc_Single_image' );
 
-$atts = array();
+$atts = [];
 parse_str( $data, $atts );
 $el_class = $image = $img_size = $img_link = $img_link_target = $img_link_large = $title = $alignment = $css_animation = $css = '';
 $image_string = '';
-$img_class = new WPBakeryShortCode_Vc_Single_image( array( 'base' => 'vc_single_image' ) );
+$img_class = new WPBakeryShortCode_Vc_Single_image( [ 'base' => 'vc_single_image' ] );
 $atts = vc_map_get_attributes( $img_class->getShortcode(), $atts );
 
 extract( $atts );
@@ -24,11 +24,11 @@ $style = ( '' !== $style ) ? $style : '';
 $border_color = ( '' !== $border_color ) ? ' vc_box_border_' . $border_color : '';
 
 $img_id = has_post_thumbnail( $post->ID ) ? get_post_thumbnail_id( $post->ID ) : $post->ID;
-$img = wpb_getImageBySize( array(
+$img = wpb_getImageBySize( [
 	'attach_id' => $img_id,
 	'thumb_size' => $img_size,
 	'class' => 'vc_single_image-img',
-) );
+] );
 $img = apply_filters( 'vc_gitem_attribute_featured_image_img', $img );
 if ( null === $img || false === $img ) {
 	return '';

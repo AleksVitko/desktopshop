@@ -323,7 +323,7 @@ class Main extends Singleton {
 
 			foreach ( $zone->get_shipping_methods( true ) as $method ) {
 				if ( 'free_shipping' === $method->id ) {
-					$limit = $method->get_option( 'min_amount' );
+					$limit = wc_format_decimal( $method->get_option( 'min_amount' ) );
 				}
 			}
 		} elseif ( 'custom' === $calculation ) {
@@ -361,7 +361,7 @@ class Main extends Singleton {
 		?>
 		<div class="wd-progress-bar wd-free-progress-bar<?php echo esc_attr( $wrapper_classes ); ?>">
 			<div class="progress-msg">
-				<?php echo wp_kses( $message, 'post' ); ?>
+				<?php echo do_shortcode( $message ); ?>
 			</div>
 			<div class="progress-area">
 				<div class="progress-bar" style="width: <?php echo esc_attr( $percent ); ?>%"></div>

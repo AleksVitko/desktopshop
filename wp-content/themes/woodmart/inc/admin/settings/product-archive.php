@@ -156,6 +156,8 @@ Options::add_field(
 		'type'        => 'switcher',
 		'section'     => 'products_styles_section',
 		'default'     => false,
+		'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+		'off-text'    => esc_html__( 'No', 'woodmart' ),
 		'priority'    => 20,
 		'requires'    => array(
 			array(
@@ -2071,6 +2073,8 @@ Options::add_field(
 		'type'        => 'switcher',
 		'section'     => 'widgets_section',
 		'default'     => '1',
+		'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+		'off-text'    => esc_html__( 'No', 'woodmart' ),
 		'priority'    => 20,
 	)
 );

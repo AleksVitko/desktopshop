@@ -39,19 +39,20 @@ class Select_With_Table extends Field {
 						<span class="add-on">%</span>
 					</div>
 				</div>
-				<div class="xts-bundle-close">
+				<div class="xts-close">
 					<a href="#" class="xts-remove-item xts-bordered-btn xts-color-warning xts-style-icon xts-i-close"></a>
 				</div>
 			</div>
 		</div>
 		<div class="xts-controls-wrapper">
-			<div class="xts-table-controls xts-bundle">
+			<div class="xts-table-controls xts-bundle xts-table-heading">
 				<div class="xts-bundle-name">
 					<label><?php esc_html_e( 'Products', 'woodmart' ); ?></label>
 				</div>
 				<div class="xts-bundle-discount">
 				<label><?php esc_html_e( 'Discount', 'woodmart' ); ?></label>
 				</div>
+				<div class="xts-close"></div>
 			</div>
 			<?php if ( $value ) : ?>
 				<?php foreach ( $value as $id => $product ) : ?>
@@ -65,7 +66,7 @@ class Select_With_Table extends Field {
 								<span class="add-on">%</span>
 							</div>
 						</div>
-						<div class="xts-bundle-close">
+						<div class="xts-close">
 							<a href="#" class="xts-remove-item xts-bordered-btn xts-color-warning xts-style-icon xts-i-close"></a>
 						</div>
 					</div>

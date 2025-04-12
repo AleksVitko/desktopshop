@@ -60,9 +60,10 @@ Options::add_field(
 Options::add_field(
 	array(
 		'id'          => 'negative_gap',
-		'name'        => esc_html__( 'Elementor sections negative margin', 'woodmart' ),
+		'name'        => esc_html__( 'Align Elementor content with the site container', 'woodmart' ),
+		'hint'        => '<video data-src="' . WOODMART_TOOLTIP_URL . 'negative-gap.mp4" autoplay loop muted></video>',
 		'group'       => esc_html__( 'Page builder', 'woodmart' ),
-		'description' => esc_html__( 'Add a negative margin to each Elementor section to align the content with your website container.', 'woodmart' ),
+		'description' => esc_html__( 'Overrides the default Elementor options to align the content with the width of your site container. This option will also need to be disabled if you plan to use the "Elementor Full Width" page template.', 'woodmart' ),
 		'type'        => 'buttons',
 		'section'     => 'other_section',
 		'options'     => array(

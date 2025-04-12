@@ -2,6 +2,8 @@
 
 namespace XTS\Modules\Header_Builder;
 
+use WPBMap;
+
 /**
  * ------------------------------------------------------------------------------------------------
  * Handle backend AJAX actions. Creat, load, remove headers from the backend interface with AJAX.
@@ -29,6 +31,8 @@ class Manager {
 		add_action( 'wp_ajax_woodmart_load_header', array( $this, 'load_header' ) );
 		add_action( 'wp_ajax_woodmart_remove_header', array( $this, 'remove_header' ) );
 		add_action( 'wp_ajax_woodmart_set_default_header', array( $this, 'set_default_header' ) );
+		add_action( 'wp_ajax_woodmart_get_header_html', array( $this, 'get_header_html' ) );
+		add_action( 'wp_ajax_woodmart_get_pages_url', array( $this, 'get_pages_url_action' ) );
 	}
 
 	/**
@@ -241,5 +245,95 @@ class Manager {
 		}
 
 		return $id;
+	}
+
+	/**
+	 * Get header HTML.
+	 *
+	 * @return void
+	 */
+	public function get_header_html() {
+		check_ajax_referer( 'woodmart-builder-header-html-nonce', 'security' );
+
+		$structure = stripslashes( $_POST['structure'] );
+		$settings  = stripslashes( $_POST['settings'] );
+
+		$id = ( isset( $_POST['id'] ) ) ? sanitize_text_field( stripslashes( $_POST['id'] ) ) : $this->_generate_id();
+
+		$name   = sanitize_text_field( stripslashes( $_POST['name'] ) ); //phpcs:ignore
+		$header = $this->_factory->draft_header( $id, $name, json_decode( $structure, true ), json_decode( $settings, true ) );
+		$data   = $header->get_data();
+
+		$header_settings = $header->get_settings();
+
+		$frontend_instance               = Frontend::get_instance();
+		$frontend_instance->header       = $header;
+		$GLOBALS['woodmart_hb_frontend'] = $frontend_instance;
+
+		$data['list'] = $this->_list->get_all();
+
+		ob_start();
+
+		if ( 'wpb' === woodmart_get_current_page_builder() && class_exists( 'WPBMap' ) ) {
+			WPBMap::addAllMappedShortcodes();
+		}
+
+		$hb_frontend = Frontend::get_instance();
+
+		$styles = new Styles();
+		echo '<header ' . woodmart_get_header_classes( false, $header->get_options(), $id ) . '>';
+
+		echo '<style>' . $styles->get_all_css( $header->get_structure(), $header->get_options() ) . '</style>';
+
+		if ( ! empty( $header_settings['overlap'] ) && ! empty( $header_settings['boxed'] ) ) {
+			woodmart_enqueue_inline_style( 'header-boxed' );
+		}
+
+		$hb_frontend->render_element( $header->get_structure() );
+
+		do_action( 'whb_after_header' );
+
+		echo '</header>';
+
+		$data['header_html'] = ob_get_clean();
+
+		echo json_encode( $data );
+		wp_die();
+	}
+
+	/**
+	 * Get pages URL.
+	 *
+	 * @return void
+	 */
+	public function get_pages_url_action() {
+		check_ajax_referer( 'woodmart-builder-header-search-page-nonce', 'security' );
+
+		$name = isset( $_GET['name'] ) ? sanitize_text_field( $_GET['name'] ) : ''; // phpcs:ignore
+
+		$args = array(
+			's'              => $name,
+			'post_type'      => array( 'page', 'post', 'portfolio', 'product' ),
+			'posts_per_page' => apply_filters( 'woodmart_get_numberposts_by_query_autocomplete', 20 ),
+		);
+
+		$items = array();
+		$posts = get_posts( $args );
+
+		if ( count( $posts ) > 0 ) {
+			foreach ( $posts as $post ) {
+				$items[] = array(
+					'value' => $post->ID,
+					'url'   => get_permalink( $post->ID ),
+					'label' => $post->post_title . ' (ID:' . $post->ID . ')',
+				);
+			}
+		}
+
+		wp_send_json(
+			array(
+				'results' => $items,
+			)
+		);
 	}
 }

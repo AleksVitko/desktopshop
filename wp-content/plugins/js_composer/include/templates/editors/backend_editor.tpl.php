@@ -16,7 +16,7 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 	require_once vc_path_dir( 'AUTOLOAD_DIR', 'class-vc-settings-presets.php' );
 	$vc_all_presets = Vc_Settings_Preset::listAllPresets();
 } else {
-	$vc_all_presets = array();
+	$vc_all_presets = [];
 }
 // [/shortcodes presets data]
 global $wp_version;
@@ -32,8 +32,8 @@ if ( $is_gutenberg ) {
 		window.vc_post_id = <?php echo esc_js( get_the_ID() ); ?>;
 		window.wpbGutenbergEditorUrl = '<?php echo esc_js( set_url_scheme( admin_url( 'post-new.php?post_type=wpb_gutenberg_param' ) ) ); ?>';
 		window.wpbGutenbergEditorSwitchUrl = '<?php echo esc_js( set_url_scheme( admin_url( 'post.php?post=' . get_the_ID() . '&action=edit&vcv-gutenberg-editor' ) ) ); ?>';
-		window.wpbGutenbergEditorClassicSwitchUrl = '<?php echo esc_js( set_url_scheme( admin_url( rawurlencode( 'post.php?post=' . get_the_ID() . '&action=edit&classic-editor' ) ) ) ); ?>';
-		window.wpbGutenbergEditorBackendSwitchUrl = '<?php echo esc_js( set_url_scheme( admin_url( rawurlencode( 'post.php?post=' . get_the_ID() . '&action=edit&wpb-backend-editor' ) ) ) ); ?>';
+		window.wpbGutenbergEditorClassicSwitchUrl = '<?php echo esc_js( set_url_scheme( admin_url( 'post.php?post=' . get_the_ID() . '&action=edit&classic-editor' ) ) ); ?>';
+		window.wpbGutenbergEditorBackendSwitchUrl = '<?php echo esc_js( set_url_scheme( admin_url( 'post.php?post=' . get_the_ID() . '&action=edit&wpb-backend-editor' ) ) ); ?>';
 		window.wpbIsGutenberg = <?php echo $is_gutenberg ? 'true' : 'false'; ?>;
 		window.vc_auto_save = <?php echo wp_json_encode( get_option( 'wpb_js_auto_save' ) ); ?>;
 		window.vc_modules = <?php echo wp_json_encode( $modules ); ?>;

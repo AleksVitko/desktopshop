@@ -90,13 +90,13 @@
 			position: absolute;
 			top: -10px;
 			inset-inline-end: 10px;
-			z-index: -1;
 			overflow: hidden;
 			height: 95px;
 			color: var(--xts-primary-color);
 			font-size: 140px;
 			line-height: 40px;
 			opacity: .07;
+			z-index: 0;
 			pointer-events: none;
 
 			@include font-icon($xts-icon-search);
@@ -104,6 +104,10 @@
 
 		.xts-option-title {
 			border-bottom-color: rgba(var(--xts-primary-color--rgb), .15);
+		}
+
+		.xts-option-control {
+			position: relative;
 		}
 
 		&.xts-html-block-switch {
@@ -136,10 +140,12 @@
 		// right: -10px;
 		inset-inline: -10px;
 		bottom: -10px;
-		z-index: -1;
+		z-index: 0;
 		border-radius: var(--xts-brd-radius);
 		background-color: var(--xts-bg-color-active);
 		opacity: .08;
+		// z-index: 0;
+		pointer-events: none;
 	}
 
 	//**** OTHER ****//
@@ -183,7 +189,7 @@
 
 		li {
 			position: relative;
-			padding: 5px 10px 5px 50px;
+			padding: 5px 10px 5px 50px !important; // TO OVERRIDE THE STYLES OF THE "WOOCOMMERCE CART ABANDONMENT RECOVERY" PLUGIN THAT CONNECTS WITH THE "CARTFLOW" PLUGIN
 			white-space: normal;
 			line-height: 1.4;
 			transition: all .2s ease-in-out;
@@ -751,6 +757,54 @@
 		}
 	}
 
+	.xts-field[class*="bluesky"] {
+
+		.xts-option-title {
+
+			span {
+
+				&:before {
+					@include font-icon-content($xts-icon-logo-bluesky);
+				}
+			}
+		}
+	}
+
+	.xts-field[class*="threads"] {
+
+		.xts-option-title {
+
+			span {
+
+				&:before {
+					@include font-icon-content($xts-icon-logo-threads);
+				}
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// HIDE ELEMENTOR OPTIONS
+	// ------------------------------------------
+
+	// .xts-builder-wpb {
+
+	// 	.xts-negative_gap-field,
+	// 	[data-id="plugins_section"] .xts-fields-group:nth-child(4) + .xts-group-title,
+	// 	[data-id="plugins_section"] .xts-fields-group:nth-child(4) + .xts-group-title + .xts-fields-group,
+	// 	.xts-font_awesome_css-field .xts-status-deprecated,
+	// 	.nmi-icon .xts-status-deprecated {
+	// 		display: none;
+	// 	}
+	// }
+
+	body:not(.xts-builder-elementor) {
+
+		.xts-negative_gap-field {
+			display: none;
+		}
+	}
+
 	// ------------------------------------------------------------------------------------------------
 	// CUSTOM CSS
 	// ------------------------------------------------------------------------------------------------
@@ -886,7 +940,9 @@
 		}
 	}
 
-	[data-id="custom_css"] {
+	:is(
+	[data-id="custom_css"],
+	[data-id="custom_js"]) {
 
 		.xts-tabs-header {
 			position: sticky;
@@ -924,6 +980,10 @@
 				border-bottom: 0;
 				transition: .2s border-color ease-in-out;
 			}
+		}
+
+		.xts-field {
+			animation-fill-mode: both;
 		}
 
 		&:has(.CodeMirror-focused) {

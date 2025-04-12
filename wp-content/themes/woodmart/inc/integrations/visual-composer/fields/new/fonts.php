@@ -36,13 +36,13 @@ if ( ! function_exists( 'woodmart_get_fonts_param' ) ) {
 		$secondary_font = woodmart_get_opt( 'secondary-font' );
 		$primary_font   = woodmart_get_opt( 'primary-font' );
 
-		if ( isset( $secondary_font[0] ) ) {
+		if ( isset( $secondary_font[0] ) && ! empty( $secondary_font[0]['font-family'] ) ) {
 			$secondary_font_title = isset( $secondary_font[0]['font-family'] ) ? esc_html__( 'Secondary font', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Secondary font', 'woodmart' );
 
 			$settings['options_group'][ esc_html__( 'Theme fonts', 'woodmart' ) ][ $secondary_font_title ] = $secondary_font[0]['font-family'];
 		}
 
-		if ( isset( $primary_font[0] ) ) {
+		if ( isset( $primary_font[0] ) && ! empty( $primary_font[0]['font-family'] ) ) {
 			$primary_font_title = isset( $primary_font[0]['font-family'] ) ? esc_html__( 'Title font', 'woodmart' ) . ' (' . $primary_font[0]['font-family'] . ')' : esc_html__( 'Title', 'woodmart' );
 
 			$settings['options_group'][ esc_html__( 'Theme fonts', 'woodmart' ) ][ $primary_font_title ] = $primary_font[0]['font-family'];

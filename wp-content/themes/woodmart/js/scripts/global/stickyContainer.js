@@ -3,9 +3,9 @@ woodmartThemeModule.wdElementorAddAction('frontend/element_ready/container', fun
 	woodmartThemeModule.stickyContainer();
 });
 
-let windowWidth = woodmartThemeModule.windowWidth;
-
 woodmartThemeModule.stickyContainer = function () {
+	let windowWidth = woodmartThemeModule.windowWidth;
+
 	function isRtl() {
 		return document.querySelector('html').hasAttributes('dir') && 'rtl' === document.querySelector('html').getAttribute('dir');
 	}
@@ -213,13 +213,13 @@ woodmartThemeModule.stickyContainer = function () {
 
 	wipeSticky();
 	makeSticky();
-}
 
-window.addEventListener('resize',function() {
-	if ( 'undefined' !== typeof elementor ) {
-		windowWidth = !isNaN(parseInt(elementor.$preview.css('--e-editor-preview-width'))) ? parseInt(elementor.$preview.css('--e-editor-preview-width')) : 1025;
-	}
-});
+	window.addEventListener('resize',function() {
+		if ( 'undefined' !== typeof elementor ) {
+			windowWidth = !isNaN(parseInt(elementor.$preview.css('--e-editor-preview-width'))) ? parseInt(elementor.$preview.css('--e-editor-preview-width')) : 1025;
+		}
+	});
+}
 
 window.addEventListener('load',function() {
 	woodmartThemeModule.stickyContainer();

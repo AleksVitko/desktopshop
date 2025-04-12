@@ -29,23 +29,23 @@ class WPBMap {
 	 *
 	 * @var array
 	 */
-	protected static $sc = array();
+	protected static $sc = [];
 
 	/**
 	 * Scopes for shortcodes mapping.
 	 *
 	 * @var array
 	 */
-	protected static $scopes = array(
-		'default' => array(),
-	);
+	protected static $scopes = [
+		'default' => [],
+	];
 
 	/**
 	 * List of removed shortcode elements.
 	 *
 	 * @var array
 	 */
-	protected static $removedElements = array();
+	protected static $removedElements = [];
 
 	/**
 	 * Indicates whether shortcodes are sorted.
@@ -115,16 +115,16 @@ class WPBMap {
 	 *
 	 * @var array
 	 */
-	protected static $init_elements = array();
+	protected static $init_elements = [];
 
 	/**
 	 * Scoped initialized elements.
 	 *
 	 * @var array
 	 */
-	protected static $init_elements_scoped = array(
-		'default' => array(),
-	);
+	protected static $init_elements_scoped = [
+		'default' => [],
+	];
 
 	/**
 	 * Set init status for WPMap.
@@ -223,11 +223,11 @@ class WPBMap {
 			} elseif ( empty( $attributes['base'] ) ) {
 				throw new Exception( sprintf( esc_html__( 'Wrong base for shortcode:%s. Base required', 'js_composer' ), esc_html( $tag ) ) );
 			} else {
-				vc_mapper()->addActivity( 'mapper', 'map', array(
+				vc_mapper()->addActivity( 'mapper', 'map', [
 					'tag' => $tag,
 					'attributes' => $attributes,
 					'scope' => self::getScope(),
-				) );
+				] );
 
 				return true;
 			}
@@ -241,7 +241,7 @@ class WPBMap {
 		} else {
 			if ( self::getScope() !== 'default' ) {
 				if ( ! isset( self::$scopes[ self::getScope() ] ) ) {
-					self::$scopes[ self::getScope() ] = array();
+					self::$scopes[ self::getScope() ] = [];
 				}
 				self::$scopes[ self::getScope() ][ $tag ] = $attributes;
 			} else {
@@ -275,14 +275,14 @@ class WPBMap {
 	 * @return bool
 	 * @since 4.9
 	 */
-	public static function leanMap( $tag, $settings_function = null, $settings_file = null, $attributes = array() ) {
+	public static function leanMap( $tag, $settings_function = null, $settings_file = null, $attributes = [] ) {
 		if ( in_array( $tag, self::$removedElements, true ) ) {
 			return false;
 		}
 		$currentScope = self::getScope();
 		if ( 'default' !== $currentScope ) {
 			if ( ! isset( self::$scopes[ $currentScope ] ) ) {
-				self::$scopes[ $currentScope ] = array();
+				self::$scopes[ $currentScope ] = [];
 			}
 			self::$scopes[ $currentScope ][ $tag ] = $attributes;
 			self::$scopes[ $currentScope ][ $tag ]['base'] = $tag;
@@ -321,9 +321,9 @@ class WPBMap {
 			return;
 		}
 
-		self::$user_sc = array();
-		self::$user_categories = array();
-		self::$user_sorted_sc = array();
+		self::$user_sc = [];
+		self::$user_categories = [];
+		self::$user_sorted_sc = [];
 		$deprecated = 'deprecated';
 		$add_deprecated = false;
 		if ( is_array( self::$sc ) && ! empty( self::$sc ) ) {
@@ -336,7 +336,7 @@ class WPBMap {
 				if ( vc_user_access_check_shortcode_all( $name ) ) {
 					if ( ! isset( $values['content_element'] ) || true === $values['content_element'] ) {
 						$categories = isset( $values['category'] ) ? $values['category'] : '_other_category_';
-						$values['_category_ids'] = array();
+						$values['_category_ids'] = [];
 						if ( isset( $values['deprecated'] ) && false !== $values['deprecated'] ) {
 							$add_deprecated = true;
 							$values['_category_ids'][] = 'deprecated';
@@ -357,7 +357,7 @@ class WPBMap {
 
 					if ( ! empty( $values['params'] ) ) {
 						$params = $values['params'];
-						$values['params'] = array();
+						$values['params'] = [];
 						foreach ( $params as $attribute ) {
 							$attribute = apply_filters( 'vc_mapper_attribute', $attribute, $name );
 							$attribute = apply_filters( 'vc_mapper_attribute_' . $attribute['type'], $attribute, $name );
@@ -496,7 +496,7 @@ class WPBMap {
 			$shortcode = self::$user_sc[ $tag ];
 			if ( ! empty( $shortcode['params'] ) ) {
 				$params = $shortcode['params'];
-				$shortcode['params'] = array();
+				$shortcode['params'] = [];
 				foreach ( $params as $attribute ) {
 					$attribute = apply_filters( 'vc_mapper_attribute', $attribute, $tag );
 					$attribute = apply_filters( 'vc_mapper_attribute_' . $attribute['type'], $attribute, $tag );
@@ -561,10 +561,10 @@ class WPBMap {
 			return $res;
 		}
 		if ( ! isset( self::$init_elements[ $name ] ) ) {
-			vc_mapper()->addElementActivity( $name, 'drop_param', array(
+			vc_mapper()->addElementActivity( $name, 'drop_param', [
 				'name' => $name,
 				'attribute_name' => $attribute_name,
-			) );
+			] );
 
 			return true;
 		}
@@ -637,7 +637,7 @@ class WPBMap {
 	 *
 	 * @return bool - true if added, false if scheduled/rejected
 	 */
-	public static function addParam( $name, $attribute = array() ) {
+	public static function addParam( $name, $attribute = [] ) {
 		$currentScope = self::getScope();
 		if ( 'default' !== $currentScope ) {
 			self::setScope( 'default' );
@@ -647,10 +647,10 @@ class WPBMap {
 			return $res;
 		}
 		if ( ! isset( self::$init_elements[ $name ] ) ) {
-			vc_mapper()->addElementActivity( $name, 'add_param', array(
+			vc_mapper()->addElementActivity( $name, 'add_param', [
 				'name' => $name,
 				'attribute' => $attribute,
-			) );
+			] );
 
 			return false;
 		}
@@ -672,7 +672,7 @@ class WPBMap {
 					}
 				}
 			} else {
-				self::$sc[ $name ]['params'] = array();
+				self::$sc[ $name ]['params'] = [];
 			}
 			if ( false === $replaced ) {
 				self::$sc[ $name ]['params'][] = $attribute;
@@ -697,7 +697,7 @@ class WPBMap {
 	 *
 	 * @return bool
 	 */
-	public static function mutateParam( $name, $attribute = array() ) {
+	public static function mutateParam( $name, $attribute = [] ) {
 		$currentScope = self::getScope();
 		if ( 'default' !== $currentScope ) {
 			self::setScope( 'default' );
@@ -707,10 +707,10 @@ class WPBMap {
 			return $res;
 		}
 		if ( ! isset( self::$init_elements[ $name ] ) ) {
-			vc_mapper()->addElementActivity( $name, 'mutate_param', array(
+			vc_mapper()->addElementActivity( $name, 'mutate_param', [
 				'name' => $name,
 				'attribute' => $attribute,
-			) );
+			] );
 
 			return false;
 		}
@@ -761,9 +761,9 @@ class WPBMap {
 		}
 		self::$removedElements[] = $name;
 		if ( ! isset( self::$init_elements[ $name ] ) ) {
-			vc_mapper()->addElementActivity( $name, 'drop_shortcode', array(
+			vc_mapper()->addElementActivity( $name, 'drop_shortcode', [
 				'name' => $name,
-			) );
+			] );
 		}
 		unset( self::$sc[ $name ] );
 		wpbakery()->removeShortCode( $name );
@@ -786,14 +786,14 @@ class WPBMap {
 			return $res;
 		}
 		if ( ! self::$is_init ) {
-			vc_mapper()->addActivity( '*', 'drop_all_shortcodes', array() );
+			vc_mapper()->addActivity( '*', 'drop_all_shortcodes', [] );
 
 			return false;
 		}
 		foreach ( self::$sc as $name => $data ) {
 			wpbakery()->removeShortCode( $name );
 		}
-		self::$sc = array();
+		self::$sc = [];
 		self::$user_sc = false;
 		self::$user_categories = false;
 		self::$user_sorted_sc = false;
@@ -825,11 +825,11 @@ class WPBMap {
 			return $res;
 		}
 		if ( ! isset( self::$init_elements[ $name ] ) ) {
-			vc_mapper()->addElementActivity( $name, 'modify', array(
+			vc_mapper()->addElementActivity( $name, 'modify', [
 				'name' => $name,
 				'setting_name' => $setting_name,
 				'value' => $value,
-			) );
+			] );
 
 			return false;
 		}
@@ -901,12 +901,12 @@ class WPBMap {
 	 * @return array
 	 */
 	public static function collectCategories( &$shortcodes ) {
-		$categories_list = array();
+		$categories_list = [];
 		$deprecated = 'deprecated';
 		$add_deprecated = false;
 		if ( is_array( $shortcodes ) && ! empty( $shortcodes ) ) {
 			foreach ( $shortcodes as $name => $values ) {
-				$values['_category_ids'] = array();
+				$values['_category_ids'] = [];
 				if ( isset( $values['deprecated'] ) && false !== $values['deprecated'] ) {
 					$add_deprecated = true;
 					$values['_category_ids'][] = 'deprecated';
@@ -1016,8 +1016,8 @@ class WPBMap {
 	 */
 	public static function setScope( $scope = 'default' ) {
 		if ( ! isset( self::$scopes[ $scope ] ) ) {
-			self::$scopes[ $scope ] = array();
-			self::$init_elements_scoped[ $scope ] = array();
+			self::$scopes[ $scope ] = [];
+			self::$init_elements_scoped[ $scope ] = [];
 		}
 		self::$scope = $scope;
 	}

@@ -32,10 +32,10 @@ class Vc_Vendor_Layerslider {
 	 * @since 4.3
 	 */
 	public function load() {
-		add_action( 'vc_after_mapping', array(
+		add_action( 'vc_after_mapping', [
 			$this,
 			'buildShortcode',
-		) );
+		] );
 	}
 
 	/**
@@ -45,20 +45,20 @@ class Vc_Vendor_Layerslider {
 	 */
 	public function buildShortcode() {
 
-		vc_lean_map( 'layerslider_vc', array(
+		vc_lean_map( 'layerslider_vc', [
 			$this,
 			'addShortcodeSettings',
-		) );
+		] );
 
 		if ( vc_is_page_editable() ) {
-			add_filter( 'layerslider_slider_init', array(
+			add_filter( 'layerslider_slider_init', [
 				$this,
 				'setMarkupId',
-			), 10, 3 );
-			add_filter( 'layerslider_slider_markup', array(
+			], 10, 3 );
+			add_filter( 'layerslider_slider_markup', [
 				$this,
 				'setMarkupId',
-			), 10, 3 );
+			], 10, 3 );
 		}
 	}
 
@@ -129,7 +129,7 @@ class Vc_Vendor_Layerslider {
 				wp_cache_add( 'vc_vendor_layerslider_list', $ls );
 			}
 
-			$layer_sliders = array();
+			$layer_sliders = [];
 			if ( ! empty( $ls ) ) {
 				foreach ( $ls as $slider ) {
 					$layer_sliders[ $slider->name ] = $slider->id;
@@ -138,11 +138,11 @@ class Vc_Vendor_Layerslider {
 				$layer_sliders[ esc_html__( 'No sliders found', 'js_composer' ) ] = 0;
 			}
 		} else {
-			$ls = LS_Sliders::find( array(
+			$ls = LS_Sliders::find( [
 				'limit' => 999,
 				'order' => 'ASC',
-			) );
-			$layer_sliders = array();
+			] );
+			$layer_sliders = [];
 			if ( ! empty( $ls ) ) {
 				foreach ( $ls as $slider ) {
 					$layer_sliders[ $slider['name'] ] = $slider['id'];
@@ -152,20 +152,20 @@ class Vc_Vendor_Layerslider {
 			}
 		}
 
-		return array(
+		return [
 			'base' => $tag,
 			'name' => esc_html__( 'Layer Slider', 'js_composer' ),
 			'icon' => 'icon-wpb-layerslider',
 			'category' => esc_html__( 'Content', 'js_composer' ),
 			'description' => esc_html__( 'Place LayerSlider', 'js_composer' ),
-			'params' => array(
-				array(
+			'params' => [
+				[
 					'type' => 'textfield',
 					'heading' => esc_html__( 'Widget title', 'js_composer' ),
 					'param_name' => 'title',
 					'description' => esc_html__( 'Enter text used as widget title (Note: located above content element).', 'js_composer' ),
-				),
-				array(
+				],
+				[
 					'type' => 'dropdown',
 					'heading' => esc_html__( 'LayerSlider ID', 'js_composer' ),
 					'param_name' => 'id',
@@ -173,14 +173,14 @@ class Vc_Vendor_Layerslider {
 					'value' => $layer_sliders,
 					'save_always' => true,
 					'description' => esc_html__( 'Select your LayerSlider.', 'js_composer' ),
-				),
-				array(
+				],
+				[
 					'type' => 'textfield',
 					'heading' => esc_html__( 'Extra class name', 'js_composer' ),
 					'param_name' => 'el_class',
 					'description' => esc_html__( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
-				),
-			),
-		);
+				],
+			],
+		];
 	}
 }

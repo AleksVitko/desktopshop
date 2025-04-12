@@ -16,14 +16,14 @@
 				$footer.addClass('wd-widget-collapse');
 			} else {
 				$footer.removeClass('wd-widget-collapse');
-				$footer.find('> *:not(.widget-title)').show();
+				$footer.find('> *:not(.widget-title, style)').show();
 			}
 		}
 
 		$('.wd-widget-collapse .widget-title').off('click').on('click', function() {
 			var $title = $(this);
 			var $widget = $title.parent();
-			var $content = $widget.find('> *:not(.widget-title)');
+			var $content = $widget.find('> *:not(.widget-title, style)');
 
 			if ($widget.hasClass('wd-opened')) {
 				$widget.removeClass('wd-opened');

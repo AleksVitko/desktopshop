@@ -428,9 +428,9 @@ class Frontend extends Singleton {
 							</label>
 							<span class="price">
 								<?php if ( $variation ) : ?>
-									<?php echo wp_kses( $variation->get_price_html(), true ); ?>
+									<?php echo $variation->get_price_html(); // phpcs:ignore ?>
 								<?php else : ?>
-									<?php echo wp_kses( $current_product->get_price_html(), true ); ?>
+									<?php echo $current_product->get_price_html() // phpcs:ignore; ?>
 								<?php endif; ?>
 							</span>
 						</div>
@@ -461,11 +461,12 @@ class Frontend extends Singleton {
 					</div>
 				<?php endforeach; ?>
 			</div>
+
 			<div class="wd-fbt-purchase">
 				<div class="price">
 					<?php
 					if ( ! empty( $show_checkbox ) && 'uncheck' === $state_checkbox ) {
-						echo wp_kses( $product->get_price_html(), true );
+						echo $product->get_price_html(); // phpcs:ignore
 					} else {
 						echo wp_kses( $this->get_subtotal_bundle_price(), true );
 					}
@@ -479,9 +480,11 @@ class Frontend extends Singleton {
 					);
 					?>
 				</div>
-				<button class="wd-fbt-purchase-btn single_add_to_cart_button button<?php echo esc_attr( $button_classes ); ?>" type="submit">
-					<?php esc_html_e( 'Add to cart', 'woodmart' ); ?>
-				</button>
+				<?php if ( ! woodmart_get_opt( 'catalog_mode' ) || ! is_user_logged_in() && woodmart_get_opt( 'login_prices' ) ) : ?>
+					<button class="wd-fbt-purchase-btn single_add_to_cart_button button<?php echo esc_attr( $button_classes ); ?>" type="submit">
+						<?php esc_html_e( 'Add to cart', 'woodmart' ); ?>
+					</button>
+				<?php endif; ?>
 			</div>
 			<div class="wd-loader-overlay wd-fill"></div>
 		</form>
@@ -495,6 +498,10 @@ class Frontend extends Singleton {
 	 */
 	private function get_subtotal_bundle_price() {
 		global $product;
+
+		if ( ! is_user_logged_in() && woodmart_get_opt( 'login_prices' ) ) {
+			return woodmart_print_login_to_see();
+		}
 
 		if ( ! $product ) {
 			$product = wc_get_product( $this->main_product_id );
@@ -709,24 +716,31 @@ class Frontend extends Singleton {
 	 * @return false|mixed
 	 */
 	private function get_default_variation_product_id( $product ) {
-		if ( $product->get_default_attributes() ) {
-			$is_default_variation = false;
+		$default_attributes = $product->get_default_attributes();
 
-			foreach ( $product->get_available_variations() as $variation_values ) {
-				foreach ( $variation_values['attributes'] as $key => $attribute_value ) {
-					$attribute_name = str_replace( 'attribute_', '', $key );
-					$default_value  = $product->get_variation_default_attribute( $attribute_name );
+		if ( empty( $default_attributes ) ) {
+			return current( $product->get_visible_children() );
+		}
 
-					if ( $default_value === $attribute_value ) {
-						$is_default_variation = true;
-					} else {
-						$is_default_variation = false;
-					}
+		foreach ( $product->get_children() as $variation_id ) {
+			$variation = wc_get_product( $variation_id );
+
+			if ( ! $variation || ! $variation->exists() ) {
+				continue;
+			}
+
+			$variation_attributes = $variation->get_variation_attributes();
+
+			$is_default_variation = true;
+			foreach ( $default_attributes as $key => $default_value ) {
+				if ( isset( $variation_attributes[ "attribute_$key" ] ) && $variation_attributes[ "attribute_$key" ] !== $default_value ) {
+					$is_default_variation = false;
+					break;
 				}
+			}
 
-				if ( $is_default_variation ) {
-					return $variation_values['variation_id'];
-				}
+			if ( $is_default_variation ) {
+				return $variation_id;
 			}
 		}
 

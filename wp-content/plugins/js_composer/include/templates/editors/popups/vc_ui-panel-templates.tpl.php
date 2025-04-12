@@ -18,21 +18,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 		$categories = $box->getAllCategoriesNames( $categories_data );
 		?>
 		<?php
-		vc_include_template( 'editors/popups/vc_ui-header.tpl.php', array(
+		vc_include_template( 'editors/popups/vc_ui-header.tpl.php', [
 			'title' => esc_html__( 'Templates', 'js_composer' ),
-			'controls' => array(
+			'controls' => [
 				'minimize',
 				'close',
-			),
+			],
 			'header_css_class' => 'vc_ui-template-panel-header-container',
 			'header_tabs_template' => 'editors/partials/vc_ui-templates-tabs.tpl.php',
 			'search_template' => 'editors/partials/templates_search.tpl.php',
-			'header_tabs_template_variables' => array(
+			'header_tabs_template_variables' => [
 				'categories_data' => $categories_data,
 				'categories' => $categories,
-			),
+			],
 			'box' => $box,
-		) );
+		] );
 		?>
 		<!-- param window footer-->
 		<div class="vc_ui-panel-content-container">

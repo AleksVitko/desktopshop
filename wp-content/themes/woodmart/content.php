@@ -52,9 +52,11 @@ if ( 'gallery' === $post_format && $gallery_slider ) {
 					<div class="wd-meta-author">
 						<?php woodmart_post_meta_author( true, 'long' ); ?>
 					</div>
-					<div class="wd-meta-date">
-						<?php echo esc_html( _x( 'On', 'meta-date', 'woodmart' ) ) . ' ' . get_the_date(); ?>
-					</div>
+					<?php if ( woodmart_get_opt( 'blog_published_date', true ) ) : ?>
+						<div class="wd-meta-date">
+							<?php echo esc_html( _x( 'On', 'meta-date', 'woodmart' ) ) . ' ' . get_the_date(); ?>
+						</div>
+					<?php endif; ?>
 					<div class="wd-meta-reply">
 						<?php woodmart_post_meta_reply(); ?>
 					</div>

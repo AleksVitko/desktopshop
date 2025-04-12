@@ -26,6 +26,7 @@ if ( ! function_exists( 'woodmart_vc_register_maps' ) ) {
 			'woodmart_button'                    => 'woodmart_get_woodmart_button_shortcode_args',
 			'woodmart_compare_images'            => 'woodmart_get_vc_map_compare_images',
 			'woodmart_compare'                   => 'woodmart_get_vc_shortcode_compare',
+			'woodmart_contact_form_7'            => 'woodmart_get_vc_map_contact_form_7',
 			'woodmart_countdown_timer'           => 'woodmart_get_vc_map_countdown_timer',
 			'extra_menu'                         => 'woodmart_get_vc_map_extra_menu',
 			'extra_menu_list'                    => 'woodmart_get_vc_map_extra_menu_list',

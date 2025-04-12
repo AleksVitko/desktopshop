@@ -17,13 +17,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 				$is_license_activated = vc_license()->isActivated();
 			}
 
-			vc_include_template('editors/popups/vc_ui-header.tpl.php', array(
+			vc_include_template('editors/popups/vc_ui-header.tpl.php', [
 				'title' => esc_html__( 'WPBakery AI (Beta)', 'js_composer' ),
-				'controls' => array( 'close' ),
+				'controls' => [ 'close' ],
 				'header_css_class' => 'vc_ui-post-settings-header-container',
 				'header_tabs_template' => '',
 				'is_ai_token_usage' => $is_license_activated,
-			));
+			]);
 			?>
 			<div class="vc_ui-helper-modal-ai-placeholder vc_ui-helper-modal-ai-promo vc_ui-helper-popup-promo vc_ui-hidden">
 				<div class="vc_ui-helper-popup-promo--inner">
@@ -39,20 +39,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<!-- param window footer-->
 			<?php
-			vc_include_template('editors/popups/vc_ui-footer.tpl.php', array(
-				'controls' => array(
-					array(
+			vc_include_template('editors/popups/vc_ui-footer.tpl.php', [
+				'controls' => [
+					[
 						'name' => 'close',
 						'label' => esc_html__( 'Close', 'js_composer' ),
-					),
-					array(
+					],
+					[
 						'name' => 'save',
 						'label' => esc_html__( 'Insert', 'js_composer' ),
 						'css_classes' => 'vc_ui-button-fw',
 						'style' => 'action',
-					),
-				),
-			));
+					],
+				],
+			]);
 			?>
 		</div>
 	</div>

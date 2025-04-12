@@ -45,7 +45,7 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 *
 	 * @var array
 	 */
-	public $post_shortcodes = array();
+	public $post_shortcodes = [];
 
 	/**
 	 * Content of the template.
@@ -108,12 +108,12 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 *
 	 * @var array
 	 */
-	protected $settings = array(
+	protected $settings = [
 		'assets_dir' => 'assets',
 		'templates_dir' => 'templates',
 		'template_extension' => 'tpl.php',
 		'plugin_path' => 'js_composer/inline',
-	);
+	];
 
 	/**
 	 * ID for the content editor.
@@ -127,11 +127,11 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 *
 	 * @var array
 	 */
-	protected static $content_editor_settings = array(
+	protected static $content_editor_settings = [
 		'dfw' => true,
 		'tabfocus_elements' => 'insert-media-button',
 		'editor_height' => 360,
-	);
+	];
 
 	/**
 	 * URL for the WPBakery brand.
@@ -173,18 +173,18 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * Adds hooks for the frontend editor.
 	 */
 	public function addHooks() {
-		add_action( 'template_redirect', array(
+		add_action( 'template_redirect', [
 			$this,
 			'loadShortcodes',
-		) );
-		add_filter( 'page_row_actions', array(
+		] );
+		add_filter( 'page_row_actions', [
 			$this,
 			'renderRowAction',
-		) );
-		add_filter( 'post_row_actions', array(
+		] );
+		add_filter( 'post_row_actions', [
 			$this,
 			'renderRowAction',
-		) );
+		] );
 		add_shortcode( 'vc_container_anchor', 'vc_container_anchor' );
 	}
 
@@ -192,15 +192,16 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * Hooks into the edit mode.
 	 */
 	public function hookLoadEdit() {
-		add_action( 'current_screen', array(
+		add_action( 'current_screen', [
 			$this,
 			'adminInit',
-		) );
+		] );
 		do_action( 'vc_frontend_editor_hook_load_edit' );
-		add_action( 'admin_head', array(
+		add_action( 'admin_head', [
 			$this,
 			'disableBlockEditor',
-		) );
+		] );
+		add_filter( 'use_block_editor_for_post_type', '__return_false' );
 	}
 
 	/**
@@ -231,40 +232,40 @@ class Vc_Frontend_Editor extends Vc_Editor {
 			return;
 		}
 		wpbakery()->shared_templates->init();
-		add_filter( 'the_title', array(
+		add_filter( 'the_title', [
 			$this,
 			'setEmptyTitlePlaceholder',
-		) );
+		], 10, 2 );
 
-		add_action( 'the_post', array(
+		add_action( 'the_post', [
 			$this,
 			'parseEditableContent',
-		), 9999 ); // after all the_post actions ended.
+		], 9999 ); // after all the_post actions ended.
 
 		do_action( 'vc_inline_editor_page_view' );
-		add_filter( 'wp_enqueue_scripts', array(
+		add_filter( 'wp_enqueue_scripts', [
 			$this,
 			'loadIFrameJsCss',
-		) );
+		] );
 
-		add_action( 'wp_footer', array(
+		add_action( 'wp_footer', [
 			$this,
 			'printPostShortcodes',
-		) );
+		] );
 	}
 
 	/**
 	 * Builds page.
 	 */
 	public function buildPage() {
-		add_action( 'admin_bar_menu', array(
+		add_action( 'admin_bar_menu', [
 			$this,
 			'adminBarEditLink',
-		), 1000 );
-		add_filter( 'edit_post_link', array(
+		], 1000 );
+		add_filter( 'edit_post_link', [
 			$this,
 			'renderEditButton',
-		) );
+		] );
 	}
 
 	/**
@@ -324,17 +325,17 @@ class Vc_Frontend_Editor extends Vc_Editor {
 			$post_content .= ob_get_clean();
 
 			ob_start();
-			vc_include_template( 'editors/partials/post_shortcodes.tpl.php', array( 'editor' => $this ) );
+			vc_include_template( 'editors/partials/post_shortcodes.tpl.php', [ 'editor' => $this ] );
 			$post_shortcodes = ob_get_clean();
 			$custom_tag = 'script';
 			$this->vc_post_content = '<' . $custom_tag . ' type="template/html" id="vc_template-post-content" style="display:none">' . rawurlencode( apply_filters( 'the_content', $post_content ) ) . '</' . $custom_tag . '>' . $post_shortcodes;
 			// We already used the_content filter, we need to remove it to avoid double-using.
 			remove_all_filters( 'the_content' );
 			// Used for just returning $post->post_content.
-			add_filter( 'the_content', array(
+			add_filter( 'the_content', [
 				$this,
 				'editableContent',
-			) );
+			] );
 		}
 	}
 
@@ -459,10 +460,10 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		if ( $this->post_id ) {
 			$this->post = get_post( $this->post_id );
 		}
-		do_action_ref_array( 'the_post', array(
+		do_action_ref_array( 'the_post', [
 			$this->post,
 			$wp_query,
-		) );
+		] );
 		$post = $this->post;
 		$this->post_id = $this->post->ID;
 	}
@@ -498,10 +499,10 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		$this->current_user = $current_user;
 		$this->post_url = set_url_scheme( get_permalink( $this->post_id ) );
 
-		$array = array(
+		$array = [
 			'edit_post',
 			$this->post_id,
-		);
+		];
 		if ( ! self::inlineEnabled() || ! vc_user_access()->wpAny( $array )->get() ) {
 			header( 'Location: ' . $this->post_url );
 		}
@@ -510,31 +511,31 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		wpbakery()->registerAdminCss(); // bc.
 		wpbakery()->registerAdminJavascript(); // bc.
 		if ( $this->post && 'auto-draft' === $this->post->post_status ) {
-			$post_data = array(
+			$post_data = [
 				'ID' => $this->post_id,
 				'post_status' => 'draft',
 				'post_title' => '',
-			);
-			add_filter( 'wp_insert_post_empty_content', array(
+			];
+			add_filter( 'wp_insert_post_empty_content', [
 				$this,
 				'allowInsertEmptyPost',
-			) );
+			] );
 			wp_update_post( $post_data, true );
 			$this->post->post_status = 'draft';
 			$this->post->post_title = '';
 
 		}
-		add_filter( 'admin_body_class', array(
+		add_filter( 'admin_body_class', [
 			$this,
 			'filterAdminBodyClass',
-		) );
+		] );
 
 		$this->post_type = get_post_type_object( $this->post->post_type );
 		$this->url = $this->post_url . ( preg_match( '/\?/', $this->post_url ) ? '&' : '?' ) . 'vc_editable=true&vc_post_id=' . $this->post->ID . '&_vcnonce=' . vc_generate_nonce( 'vc-admin-nonce' );
 		$this->url = apply_filters( 'vc_frontend_editor_iframe_url', $this->url );
 		$this->enqueueAdmin();
 		$this->enqueueMappedShortcode();
-		wp_enqueue_media( array( 'post' => $this->post_id ) );
+		wp_enqueue_media( [ 'post' => $this->post_id ] );
 		remove_all_actions( 'admin_notices' );
 		remove_all_actions( 'network_admin_notices' );
 
@@ -550,10 +551,10 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		 */
 		do_action( 'vc_frontend_editor_render' );
 
-		add_filter( 'admin_title', array(
+		add_filter( 'admin_title', [
 			$this,
 			'setEditorTitle',
-		) );
+		] );
 		$this->render( 'editor' );
 		die();
 	}
@@ -571,11 +572,27 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * Sets a placeholder for empty titles.
 	 *
 	 * @param string $title
+	 * @param int $post_id
 	 *
 	 * @return string
 	 */
-	public function setEmptyTitlePlaceholder( $title ) {
-		return ! is_string( $title ) || strlen( $title ) === 0 ? esc_attr__( '(no title)', 'js_composer' ) : $title;
+	public function setEmptyTitlePlaceholder( $title, $post_id ) {
+		if ( wpb_is_hide_title( $post_id ) ) {
+			return '';
+		}
+
+		return $this->isTitleEmpty( $title ) ? esc_attr__( '(no title)', 'js_composer' ) : $title;
+	}
+
+	/**
+	 * Check if post title is empty.
+	 *
+	 * @since 8.2
+	 * @param string $title
+	 * @return bool
+	 */
+	public function isTitleEmpty( $title ) {
+		return ! is_string( $title ) || strlen( $title ) === 0;
 	}
 
 	/**
@@ -653,18 +670,18 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	public function showButton( $post_id = null ) {
 		$type = get_post_type();
 
-		$post_status = array(
+		$post_status = [
 			'private',
 			'trash',
-		);
-		$post_types = array(
+		];
+		$post_types = [
 			'templatera',
 			'vc_grid_item',
-		);
-		$cap_edit_post = array(
+		];
+		$cap_edit_post = [
 			'edit_post',
 			$post_id,
-		);
+		];
 		$result = self::inlineEnabled() && ! in_array( get_post_status(), $post_status, true ) && ! in_array( $type, $post_types, true ) && vc_user_access()->wpAny( $cap_edit_post )->get() && vc_check_post_type( $type );
 
 		return apply_filters( 'vc_show_button_fe', $result, $post_id, $type );
@@ -682,12 +699,12 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		}
 		if ( is_singular() ) {
 			if ( $this->showButton( get_the_ID() ) ) {
-				$wp_admin_bar->add_menu( array(
+				$wp_admin_bar->add_menu( [
 					'id' => 'vc_inline-admin-bar-link',
 					'title' => esc_html__( 'Edit with WPBakery Page Builder', 'js_composer' ),
 					'href' => self::getInlineUrl(),
-					'meta' => array( 'class' => 'vc_inline-link' ),
-				) );
+					'meta' => [ 'class' => 'vc_inline-link' ],
+				] );
 			}
 		}
 	}
@@ -742,15 +759,15 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		wp_enqueue_script( 'jquery-ui-autocomplete' );
 		wp_enqueue_script( 'wpb_composer_front_js' );
 		wp_enqueue_style( 'js_composer_front' );
-		wp_enqueue_style( 'vc_inline_css', vc_asset_url( 'css/js_composer_frontend_editor_iframe.min.css' ), array(), WPB_VC_VERSION );
+		wp_enqueue_style( 'vc_inline_css', vc_asset_url( 'css/js_composer_frontend_editor_iframe.min.css' ), [], WPB_VC_VERSION );
 		wp_enqueue_script( 'vc_waypoints' );
-		wp_enqueue_script( 'wpb_scrollTo_js', vc_asset_url( 'lib/vendor/node_modules/jquery.scrollto/jquery.scrollTo.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
+		wp_enqueue_script( 'wpb_scrollTo_js', vc_asset_url( 'lib/vendor/node_modules/jquery.scrollto/jquery.scrollTo.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
 
-		wp_enqueue_script( 'wpb_php_js', vc_asset_url( 'lib/vendor/php.default/php.default.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_enqueue_script( 'vc_inline_iframe_js', vc_asset_url( 'js/dist/page_editable.min.js' ), array(
+		wp_enqueue_script( 'wpb_php_js', vc_asset_url( 'lib/vendor/php.default/php.default.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_enqueue_script( 'vc_inline_iframe_js', vc_asset_url( 'js/dist/page_editable.min.js' ), [
 			'jquery-core',
 			'underscore',
-		), WPB_VC_VERSION, true );
+		], WPB_VC_VERSION, true );
 		do_action( 'vc_load_iframe_jscss' );
 	}
 
@@ -903,21 +920,23 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * Registers scripts for the frontend editor.
 	 */
 	public function registerJs() {
-		wp_register_script( 'vc_bootstrap_js', vc_asset_url( 'lib/vendor/node_modules/bootstrap3/dist/js/bootstrap.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_accordion_script', vc_asset_url( 'lib/vc/vc_accordion/vc-accordion.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'wpb_php_js', vc_asset_url( 'lib/vendor/php.default/php.default.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
+		wp_register_script( 'vc_bootstrap_js', vc_asset_url( 'lib/vendor/node_modules/bootstrap3/dist/js/bootstrap.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_accordion_script', vc_asset_url( 'lib/vc/vc_accordion/vc-accordion.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'wpb_php_js', vc_asset_url( 'lib/vendor/php.default/php.default.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
 		// used as polyfill for JSON.stringify and etc.
-		wp_register_script( 'wpb_json-js', vc_asset_url( 'lib/vendor/node_modules/json-js/json2.min.js' ), array(), WPB_VC_VERSION, true );
+		wp_register_script( 'wpb_json-js', vc_asset_url( 'lib/vendor/node_modules/json-js/json2.min.js' ), [], WPB_VC_VERSION, true );
 		// used in post settings editor.
-		wp_register_script( 'ace-editor', vc_asset_url( 'lib/vendor/node_modules/ace-builds/src-min-noconflict/ace.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'wpb-code-editor', vc_asset_url( 'js/dist/post-code-editor.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', array(), WPB_VC_VERSION, true ); // Google Web Font CDN.
-		wp_register_script( 'wpb_scrollTo_js', vc_asset_url( 'lib/vendor/node_modules/jquery.scrollto/jquery.scrollTo.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_accordion_script', vc_asset_url( 'lib/vc/vc_accordion/vc-accordion.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'wpb-popper', vc_asset_url( 'lib/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js' ), array(), WPB_VC_VERSION, true );
-		wp_register_script( 'vc-image-drop', vc_asset_url( 'js/dist/image-drop.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc-frontend-editor-min-js', vc_asset_url( 'js/dist/frontend-editor.min.js' ), array(), WPB_VC_VERSION, true );
-		wp_register_script( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/pickr.es5.min.js' ), array(), WPB_VC_VERSION, true );
+		wp_register_script( 'ace-editor', vc_asset_url( 'lib/vendor/node_modules/ace-builds/src-min-noconflict/ace.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'wpb-code-editor', vc_asset_url( 'js/dist/post-code-editor.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', [], WPB_VC_VERSION, true ); // Google Web Font CDN.
+		wp_register_script( 'wpb_scrollTo_js', vc_asset_url( 'lib/vendor/node_modules/jquery.scrollto/jquery.scrollTo.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_accordion_script', vc_asset_url( 'lib/vc/vc_accordion/vc-accordion.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'wpb-popper', vc_asset_url( 'lib/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js' ), [], WPB_VC_VERSION, true );
+		wp_register_script( 'vc-image-drop', vc_asset_url( 'js/dist/image-drop.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc-frontend-editor-min-js', vc_asset_url( 'js/dist/frontend-editor.min.js' ), [], WPB_VC_VERSION, true );
+		wp_register_script( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/pickr.es5.min.js' ), [], WPB_VC_VERSION, true );
+		wp_register_script( 'select2', vc_asset_url( 'lib/vendor/node_modules/select2/dist/js/select2.min.js' ), [], WPB_VC_VERSION, true );
+
 		vc_modules_manager()->register_modules_script();
 
 		wp_localize_script( 'vc-frontend-editor-min-js', 'i18nLocale', wpbakery()->getEditorsLocale() );
@@ -930,7 +949,7 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * Enqueues the required JS files.
 	 */
 	public function enqueueJs() {
-		$wp_dependencies = array(
+		$wp_dependencies = [
 			'jquery-core',
 			'underscore',
 			'backbone',
@@ -950,8 +969,9 @@ class Vc_Frontend_Editor extends Vc_Editor {
 			'wp-color-picker',
 			'farbtastic',
 			'pickr',
-		);
-		$dependencies = array(
+			'select2',
+		];
+		$dependencies = [
 			'vc_bootstrap_js',
 			'vc_accordion_script',
 			'wpb_php_js',
@@ -962,7 +982,7 @@ class Vc_Frontend_Editor extends Vc_Editor {
 			'vc-frontend-editor-min-js',
 			'wpb-modules-js',
 			'ace-editor',
-		);
+		];
 		// Enqueue image drop script only if it is allowed via Role Manager.
 		if (
 			vc_user_access()->part( 'shortcodes' )->getState() === true ||
@@ -985,12 +1005,13 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	public function registerCss() {
 		wp_register_style( 'ui-custom-theme', vc_asset_url( 'css/jquery-ui-less.custom.min.css' ), false, WPB_VC_VERSION );
 		wp_register_style( 'vc_animate-css', vc_asset_url( 'lib/vendor/node_modules/animate.css/animate.min.css' ), false, WPB_VC_VERSION, 'screen' );
-		wp_register_style( 'vc_font_awesome_5_shims', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'vc_font_awesome_5', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css' ), array( 'vc_font_awesome_5_shims' ), WPB_VC_VERSION );
-		wp_register_style( 'vc_inline_css', vc_asset_url( 'css/js_composer_frontend_editor.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'wpb_modules_css', vc_asset_url( 'css/modules.min.css' ), array(), WPB_VC_VERSION, false );
-		wp_register_style( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/themes/classic.min.css' ), array(), WPB_VC_VERSION, false );
-		wp_register_style( 'vc_google_fonts', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap', array(), WPB_VC_VERSION );
+		wp_register_style( 'vc_font_awesome_5_shims', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'vc_font_awesome_6', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css' ), [ 'vc_font_awesome_5_shims' ], WPB_VC_VERSION );
+		wp_register_style( 'vc_inline_css', vc_asset_url( 'css/js_composer_frontend_editor.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'wpb_modules_css', vc_asset_url( 'css/modules.min.css' ), [], WPB_VC_VERSION, false );
+		wp_register_style( 'pickr', vc_asset_url( 'lib/vendor/node_modules/@simonwep/pickr/dist/themes/classic.min.css' ), [], WPB_VC_VERSION, false );
+		wp_register_style( 'vc_google_fonts', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap', [], WPB_VC_VERSION );
+		wp_register_style( 'select2', vc_asset_url( 'lib/vendor/node_modules/select2/dist/css/select2.min.css' ), [], WPB_VC_VERSION, false );
 
 		do_action( 'wpb_after_register_frontend_editor_css', $this );
 	}
@@ -999,20 +1020,21 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * Enqueues the required CSS files.
 	 */
 	public function enqueueCss() {
-		$wp_dependencies = array(
+		$wp_dependencies = [
 			'wp-color-picker',
 			'farbtastic',
-		);
-		$dependencies = array(
+		];
+		$dependencies = [
 			'ui-custom-theme',
 			'vc_animate-css',
-			'vc_font_awesome_5',
+			'vc_font_awesome_6',
 			// 'wpb_jscomposer_autosuggest',
 			'vc_inline_css',
 			'wpb_modules_css',
 			'pickr',
 			'vc_google_fonts',
-		);
+			'select2',
+		];
 
 		$common = apply_filters( 'wpb_enqueue_frontend_editor_css', array_merge( $wp_dependencies, $dependencies ) );
 
@@ -1069,7 +1091,7 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * @param string $value
 	 */
 	public function enqueueMappedShortcodeJs( $value ) {
-		wp_enqueue_script( 'front_enqueue_js_' . md5( $value ), $value, array( 'vc-frontend-editor-min-js' ), WPB_VC_VERSION, true );
+		wp_enqueue_script( 'front_enqueue_js_' . md5( $value ), $value, [ 'vc-frontend-editor-min-js' ], WPB_VC_VERSION, true );
 	}
 
 	/**
@@ -1078,7 +1100,7 @@ class Vc_Frontend_Editor extends Vc_Editor {
 	 * @param string $value
 	 */
 	public function enqueueMappedShortcodeCss( $value ) {
-		wp_enqueue_style( 'front_enqueue_css_' . md5( $value ), $value, array( 'vc_inline_css' ), WPB_VC_VERSION );
+		wp_enqueue_style( 'front_enqueue_css_' . md5( $value ), $value, [ 'vc_inline_css' ], WPB_VC_VERSION );
 	}
 
 	/**
@@ -1098,10 +1120,10 @@ class Vc_Frontend_Editor extends Vc_Editor {
 		$not_shortcodes = preg_split( '/' . self::shortcodesRegexp() . '/', $content );
 
 		foreach ( $not_shortcodes as $string ) {
-			$temp = str_replace( array(
+			$temp = str_replace( [
 				'<p>',
 				'</p>',
-			), '', $string ); // just to avoid autop @todo maybe do it better like vc_wpnop in js.
+			], '', $string ); // just to avoid autop @todo maybe do it better like vc_wpnop in js.
 			if ( strlen( trim( $temp ) ) > 0 ) {
 				$content = preg_replace( '/(' . preg_quote( $string, '/' ) . '(?!\[\/))/', '[vc_row][vc_column width="1/1"][vc_column_text]$1[/vc_column_text][/vc_column][/vc_row]', $content );
 			}
@@ -1135,17 +1157,17 @@ class Vc_Frontend_Editor extends Vc_Editor {
 			$content = $found[5][ $index ];
 			$attrs = shortcode_parse_atts( $found[3][ $index ] );
 			if ( empty( $attrs ) ) {
-				$attrs = array();
+				$attrs = [];
 			} elseif ( ! is_array( $attrs ) ) {
 				$attrs = (array) $attrs;
 			}
-			$shortcode = array(
+			$shortcode = [
 				'tag' => $s,
 				'attrs_query' => $found[3][ $index ],
 				'attrs' => $attrs,
 				'id' => $id,
 				'parent_id' => $parent_id,
-			);
+			];
 			if ( false !== WPBMap::getParam( $s, 'content' ) ) {
 				$shortcode['attrs']['content'] = $content;
 			}

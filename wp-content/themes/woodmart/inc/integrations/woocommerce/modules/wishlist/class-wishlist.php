@@ -102,7 +102,9 @@ class Wishlist {
 
 		// Move products from cookies to database if you just logged in and clean cookie.
 		if ( ! $read_only ) {
-			add_action( 'wp_login', array( $this, 'move_products_if_needed' ), 10, 2 );
+			add_action( 'woocommerce_created_customer', array( $this, 'create_new_user' ), 10, 2 );
+			add_action( 'wp_login', array( $this, 'login_user' ), 10, 2 );
+			add_action( 'wp_logout', array( $this, 'set_count_product' ) );
 		}
 
 		if ( woodmart_get_opt( 'wishlist_page' ) && get_queried_object_id() === (int) woodmart_get_opt( 'wishlist_page' ) ) {
@@ -513,14 +515,18 @@ class Wishlist {
 	 *
 	 * @return void
 	 */
-	public function update_count_cookie() {
+	public function update_count_cookie( $count = 0 ) {
 		$cookie_name = 'woodmart_wishlist_count';
+
+		if ( ! $count ) {
+			$count = $this->get_count();
+		}
 
 		if ( is_multisite() ) {
 			$cookie_name .= '_' . get_current_blog_id();
 		}
 
-		woodmart_set_cookie( $cookie_name, $this->get_count() );
+		woodmart_set_cookie( $cookie_name, $count );
 	}
 
 	/**
@@ -540,6 +546,18 @@ class Wishlist {
 		return count( $all );
 	}
 
+	public function create_new_user( $user_id ) {
+		$this->user_id = $user_id;
+
+		$this->create();
+
+		$this->move_products_if_needed( $user_id );
+	}
+
+	public function login_user( $user_login, $user ) {
+		$this->move_products_if_needed( $user->ID );
+	}
+
 	/**
 	 * Move products from cookie to database if needed.
 	 *
@@ -547,9 +565,9 @@ class Wishlist {
 	 *
 	 * @return integer
 	 */
-	public function move_products_if_needed( $user_login, $user ) {
+	public function move_products_if_needed( $user_id ) {
 		$cookie_storage = new Cookies_Storage();
-		$db_storage     = new DB_Storage( $this->get_current_user_wishlist( $user->ID ), $user->ID );
+		$db_storage     = new DB_Storage( $this->get_current_user_wishlist( $user_id ), $user_id );
 
 		$cookie_products = $cookie_storage->get_all();
 		$db_products     = $db_storage->get_all();
@@ -565,20 +583,31 @@ class Wishlist {
 				$products[ $db_product['product_id'] ] = array( 'product_id' => $db_product['product_id'] );
 			}
 
-			$cookie_name_count = 'woodmart_wishlist_count';
-
-			if ( is_multisite() ) {
-				$cookie_name_count .= '_' . get_current_blog_id();
-			}
-
-			woodmart_set_cookie( $cookie_name_count, count( $products ) );
+			$this->update_count_cookie( count( $products ) );
 		} elseif ( $cookie_products ) {
 			foreach ( $cookie_products as $item ) {
 				$db_storage->add( $item['product_id'] );
 				$cookie_storage->remove( $item['product_id'] );
 			}
 
-			$this->update_count_cookie();
+			$this->update_count_cookie( count( $db_storage->get_all() ) );
+		}
+	}
+
+	public function set_count_product() {
+		$cookie_storage  = new Cookies_Storage();
+		$cookie_products = $cookie_storage->get_all();
+
+		$cookie_name_count = 'woodmart_wishlist_count';
+
+		if ( is_multisite() ) {
+			$cookie_name_count .= '_' . get_current_blog_id();
+		}
+
+		if ( empty( $cookie_products ) ) {
+			woodmart_set_cookie( $cookie_name_count, 0 );
+		} else {
+			woodmart_set_cookie( $cookie_name_count, count( $cookie_products ) );
 		}
 	}
 }

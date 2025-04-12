@@ -27,7 +27,7 @@ if ( ! function_exists( 'wd_get_single_product_block_linked_variations_attrs' ) 
 			)
 		);
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

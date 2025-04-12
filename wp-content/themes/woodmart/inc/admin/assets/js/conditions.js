@@ -1,4 +1,4 @@
-/* global woodmartConfig, wd_conditions_notice, woodmartAdminModule */
+/* global woodmartConfig, woodmartAdminModule */
 (function($) {
     // Condition query select2.
     function conditionQuerySelect2($field) {
@@ -69,7 +69,7 @@
 		let $conditionRows     = $conditions.find('.xts-controls-wrapper > .xts-table-controls:not(.xts-table-heading)');
 
 		if ( 0 === $conditionRows.length ) {
-            woodmartAdminModule.woodmartAdmin.addNotice($conditions, 'warning', wd_conditions_notice.no_discount_condition);
+            woodmartAdminModule.woodmartAdmin.addNotice($conditions, 'warning', woodmartConfig.no_discount_condition);
             isValid = false;
         }
 
@@ -98,4 +98,20 @@
 
             conditionQueryFieldInit( conditionType, $querySelect );
         });
+
+    $(document).on('xts_select_with_table_control_row_removed', function( e, $control ) {
+        var $conditionQueryFieldTitle = $control.find('.xts-controls-wrapper .xts-condition-query').first();
+
+        var showTitle = false;
+
+        $control.find('.xts-controls-wrapper select.xts-condition-type').each((key, type) => {
+            if ( 'all' !== $(type).val() ) {
+                showTitle = true;
+            }
+        });
+
+        if ( ! showTitle ) {
+            $conditionQueryFieldTitle.addClass('xts-hidden');
+        }
+    });
 })(jQuery)

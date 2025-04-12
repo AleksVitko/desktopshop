@@ -82,7 +82,7 @@ if( ! function_exists( 'woodmart_body_class' ) ) {
 			$classes[] = 'hide-larger-price';
 		}
 
-		if ( is_singular( 'product' ) && woodmart_get_opt( 'single_sticky_add_to_cart' ) ) {
+		if ( ! $catalog_mode && ( is_user_logged_in() || ! woodmart_get_opt( 'login_prices' ) ) && is_singular( 'product' ) && woodmart_get_opt( 'single_sticky_add_to_cart' ) ) {
 			$classes[] = 'wd-sticky-btn-on';
 
 			if ( woodmart_get_opt( 'mobile_single_sticky_add_to_cart' ) ) {

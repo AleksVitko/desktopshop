@@ -21,7 +21,7 @@ class Vc_Navbar_Grid_Item extends Vc_Navbar {
 	 *
 	 * @var array
 	 */
-	protected $controls = array(
+	protected $controls = [
 		'templates',
 		'save_backend',
 		'preview_template',
@@ -29,7 +29,7 @@ class Vc_Navbar_Grid_Item extends Vc_Navbar {
 		'animation_list',
 		'preview_item_width',
 		'edit',
-	);
+	];
 
 	/**
 	 * Get control templates html.

@@ -138,6 +138,81 @@ class Breadcrumb extends Widget_Base {
 			)
 		);
 
+		$this->start_controls_tabs( 'text_color_tabs' );
+
+		$this->start_controls_tab(
+			'text_color_tab',
+			array(
+				'label' => esc_html__( 'Idle', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'text_idle_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => '--wd-link-color: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->add_control(
+			'delimiter_color',
+			array(
+				'label'     => esc_html__( 'Delimiter color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => '--wd-bcrumb-delim-color: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->start_controls_tab(
+			'text_hover_color_tab',
+			array(
+				'label' => esc_html__( 'Hover', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'text_hover_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => '--wd-link-color-hover: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->start_controls_tab(
+			'text_active_color_tab',
+			array(
+				'label' => esc_html__( 'Active', 'woodmart' ),
+			)
+		);
+
+		$this->add_control(
+			'text_active_color',
+			array(
+				'label'     => esc_html__( 'Color', 'woodmart' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => array(
+					'{{WRAPPER}} :is(.wd-breadcrumbs,.yoast-breadcrumb)' => '--wd-bcrumb-color-active: {{VALUE}}',
+				),
+			)
+		);
+
+		$this->end_controls_tab();
+
+		$this->end_controls_tabs();
+
 		$this->end_controls_section();
 	}
 

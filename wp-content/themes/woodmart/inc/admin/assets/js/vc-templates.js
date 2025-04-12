@@ -93,7 +93,8 @@
 			$.ajax({
 				url        : woodmartConfig.demoAjaxUrl,
 				data       : {
-					action: 'woodmart_load_templates'
+					action: 'woodmart_load_templates',
+					builder: 'wpbakery'
 				},
 				dataType   : 'json',
 				crossDomain: true,

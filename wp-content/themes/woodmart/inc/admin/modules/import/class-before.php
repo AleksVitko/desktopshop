@@ -39,11 +39,6 @@ class Before extends Singleton {
 				'slug'         => 'color',
 				'has_archives' => false,
 			),
-			'brand' => array(
-				'name'         => 'Brand',
-				'slug'         => 'brand',
-				'has_archives' => false,
-			),
 			'size'  => array(
 				'name'         => 'Size',
 				'slug'         => 'size',

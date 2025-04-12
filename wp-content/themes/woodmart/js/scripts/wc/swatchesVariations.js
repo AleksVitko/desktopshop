@@ -112,8 +112,18 @@
 			}
 
 			$variation_form
-				.on('click touchstart', '.wd-swatches-single > .wd-swatch', function() {
+				.on('click touchstart keydown', '.wd-swatches-single > .wd-swatch', function(event) {
 					var $this = $(this);
+
+					if (event.type === 'keydown') {
+						if (event.key === 'Enter' || event.key === ' ') {
+							event.preventDefault();
+							$(this).trigger('click');
+						}
+
+						return;
+					}
+
 					var value = $this.data('value');
 					var id = $this.parent().data('id');
 					var title = $this.data('title');

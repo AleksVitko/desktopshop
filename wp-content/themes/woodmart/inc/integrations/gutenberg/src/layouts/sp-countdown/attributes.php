@@ -26,9 +26,9 @@ if ( ! function_exists( 'wd_get_single_product_block_countdown_attrs' ) ) {
 		);
 
 		$attr->add_attr( wd_get_color_control_attrs( 'bgTimerColor' ) );
-		$attr->add_attr( wd_get_box_shadow_control_attrs( 'timerBoxShadow' ) );
+		wd_get_box_shadow_control_attrs( $attr, 'timerBoxShadow' );
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

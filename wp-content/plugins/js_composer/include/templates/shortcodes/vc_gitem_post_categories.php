@@ -21,4 +21,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 
-return '{{ post_categories:' . http_build_query( array( 'atts' => $atts ) ) . ' }}';
+return '{{ post_categories:' . http_build_query( [ 'atts' => $atts ] ) . ' }}';

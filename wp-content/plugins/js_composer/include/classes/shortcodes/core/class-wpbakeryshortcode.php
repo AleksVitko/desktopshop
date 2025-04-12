@@ -35,12 +35,12 @@ abstract class WPBakeryShortCode {
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'edit',
 		'clone',
 		'copy',
 		'delete',
-	);
+	];
 
 	/**
 	 * Content of the shortcode.
@@ -82,14 +82,14 @@ abstract class WPBakeryShortCode {
 	 *
 	 * @var array
 	 */
-	protected static $js_scripts = array();
+	protected static $js_scripts = [];
 
 	/**
 	 * CSS scripts associated with the shortcode.
 	 *
 	 * @var array
 	 */
-	protected static $css_scripts = array();
+	protected static $css_scripts = [];
 
 	/**
 	 * Flag to check if default scripts have been enqueued.
@@ -150,10 +150,10 @@ abstract class WPBakeryShortCode {
 	 * @deprecated 6.0 use native WordPress actions
 	 */
 	public function addAction( $action, $method, $priority = 10 ) {
-		return add_action( $action, array(
+		return add_action( $action, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -167,10 +167,10 @@ abstract class WPBakeryShortCode {
 	 * @deprecated 6.0 use native WordPress actions
 	 */
 	public function removeAction( $action, $method, $priority = 10 ) {
-		return remove_action( $action, array(
+		return remove_action( $action, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -184,10 +184,10 @@ abstract class WPBakeryShortCode {
 	 * @deprecated 6.0 use native WordPress actions
 	 */
 	public function addFilter( $filter, $method, $priority = 10 ) {
-		return add_filter( $filter, array(
+		return add_filter( $filter, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -200,10 +200,10 @@ abstract class WPBakeryShortCode {
 	 * @deprecated 6.0 use native WordPress
 	 */
 	public function removeFilter( $filter, $method, $priority = 10 ) {
-		return remove_filter( $filter, array(
+		return remove_filter( $filter, [
 			$this,
 			$method,
-		), $priority );
+		], $priority );
 	}
 
 	/**
@@ -376,7 +376,7 @@ abstract class WPBakeryShortCode {
 		} elseif ( is_string( $param ) && ! empty( $param ) ) {
 			$name = 'admin_enqueue_js_' . md5( $param );
 			self::$js_scripts[] = $name;
-			wp_register_script( $name, $param, array( 'jquery-core' ), WPB_VC_VERSION, true );
+			wp_register_script( $name, $param, [ 'jquery-core' ], WPB_VC_VERSION, true );
 		}
 	}
 
@@ -393,7 +393,7 @@ abstract class WPBakeryShortCode {
 		} elseif ( is_string( $param ) && ! empty( $param ) ) {
 			$name = 'admin_enqueue_css_' . md5( $param );
 			self::$css_scripts[] = $name;
-			wp_register_style( $name, $param, array( 'js_composer' ), WPB_VC_VERSION );
+			wp_register_style( $name, $param, [ 'js_composer' ], WPB_VC_VERSION );
 		}
 	}
 
@@ -555,7 +555,7 @@ abstract class WPBakeryShortCode {
 		if ( null !== $content ) {
 			$content = wpautop( stripslashes( $content ) );
 		}
-		$shortcode_attributes = array( 'width' => '1/1' );
+		$shortcode_attributes = [ 'width' => '1/1' ];
 		$atts = vc_map_get_attributes( $this->getShortcode(), $atts ) + $shortcode_attributes;
 		$this->atts = $atts;
 		$elem = $this->getElementHolder( $width );
@@ -880,7 +880,7 @@ abstract class WPBakeryShortCode {
 
 				return $controls;
 			} else {
-				return in_array( 'add', $controls, true ) ? array( 'add' ) : array();
+				return in_array( 'add', $controls, true ) ? [ 'add' ] : [];
 			}
 		}
 	}
@@ -895,7 +895,7 @@ abstract class WPBakeryShortCode {
 	 */
 	public function getColumnControlsModular( $extended_css = '' ) {
 		ob_start();
-		vc_include_template( apply_filters( 'vc_wpbakery_shortcode_get_column_controls_modular_template', $this->controls_template_file ), array(
+		vc_include_template( apply_filters( 'vc_wpbakery_shortcode_get_column_controls_modular_template', $this->controls_template_file ), [
 			'shortcode' => $this->shortcode,
 			'position' => $this->controls_css_settings,
 			'extended_css' => $extended_css,
@@ -903,7 +903,7 @@ abstract class WPBakeryShortCode {
 			'controls' => $this->getControlsList(),
 			'name_css_class' => $this->getBackendEditorControlsElementCssClass(),
 			'add_allowed' => $this->getAddAllowed(),
-		) );
+		] );
 
 		return ob_get_clean();
 	}
@@ -957,7 +957,7 @@ abstract class WPBakeryShortCode {
 		$value = apply_filters( 'vc_wpbakeryshortcode_single_param_html_holder_value', $value, $param, $this->settings, $this->atts );
 		$output = '';
 		// Compatibility fixes.
-		$old_names = array(
+		$old_names = [
 			'yellow_message',
 			'blue_message',
 			'green_message',
@@ -967,8 +967,8 @@ abstract class WPBakeryShortCode {
 			'button_blue',
 			'button_red',
 			'button_orange',
-		);
-		$new_names = array(
+		];
+		$new_names = [
 			'alert-block',
 			'alert-info',
 			'alert-success',
@@ -978,7 +978,7 @@ abstract class WPBakeryShortCode {
 			'btn-primary',
 			'btn-danger',
 			'btn-warning',
-		);
+		];
 		$value = str_ireplace( $old_names, $new_names, $value );
 		$param_name = isset( $param['param_name'] ) ? $param['param_name'] : '';
 		$type = isset( $param['type'] ) ? $param['type'] : '';
@@ -986,10 +986,10 @@ abstract class WPBakeryShortCode {
 		if ( ! empty( $param['holder'] ) ) {
 			if ( 'input' === $param['holder'] ) {
 				$output .= '<' . $param['holder'] . ' readonly="true" class="wpb_vc_param_value ' . $param_name . ' ' . $type . ' ' . $class . '" name="' . $param_name . '" value="' . $value . '">';
-			} elseif ( in_array( $param['holder'], array(
+			} elseif ( in_array( $param['holder'], [
 				'img',
 				'iframe',
-			), true ) ) {
+			], true ) ) {
 				$output .= '<' . $param['holder'] . ' class="wpb_vc_param_value ' . $param_name . ' ' . $type . ' ' . $class . '" name="' . $param_name . '" src="' . esc_url( $value ) . '">';
 			} elseif ( 'hidden' !== $param['holder'] ) {
 				$output .= '<' . $param['holder'] . ' class="wpb_vc_param_value ' . $param_name . ' ' . $type . ' ' . $class . '" name="' . $param_name . '">' . $value . '</' . $param['holder'] . '>';
@@ -1034,10 +1034,10 @@ abstract class WPBakeryShortCode {
 		if ( filter_var( $icon, FILTER_VALIDATE_URL ) ) {
 			$icon = '';
 		}
-		$params = array(
+		$params = [
 			'icon' => $icon,
 			'is_container' => $this->settings( 'is_container' ),
-		);
+		];
 
 		return '<h4 class="wpb_element_title"> ' . $this->getIcon( $params ) . esc_attr( $title ) . '</h4>';
 	}
@@ -1063,18 +1063,18 @@ abstract class WPBakeryShortCode {
 	 * @return array
 	 */
 	protected function prepareAtts( $atts ) {
-		$returnAttributes = array();
+		$returnAttributes = [];
 		if ( is_array( $atts ) ) {
 			foreach ( $atts as $key => $val ) {
-				$returnAttributes[ $key ] = str_replace( array(
+				$returnAttributes[ $key ] = str_replace( [
 					'`{`',
 					'`}`',
 					'``',
-				), array(
+				], [
 					'[',
 					']',
 					'"',
-				), $val );
+				], $val );
 			}
 		}
 

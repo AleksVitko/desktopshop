@@ -616,7 +616,7 @@ if ( ! function_exists( 'woodmart_productBrandsAutocompleteSuggester' ) ) {
 		$cat_id = (int) $query;
 		$query  = trim( $query );
 
-		$attribute = woodmart_get_opt( 'brands_attribute' );
+		$attribute = woodmart_get_opt( 'brands_attribute' ) ? woodmart_get_opt( 'brands_attribute' ) : 'product_brand';
 
 		$post_meta_infos = $wpdb->get_results(
 			$wpdb->prepare(
@@ -656,7 +656,7 @@ if ( ! function_exists( 'woodmart_productBrandsRenderByIdExact' ) ) {
 		global $wpdb;
 		$query     = $query['value'];
 		$cat_id    = (int) $query;
-		$attribute = woodmart_get_opt( 'brands_attribute' );
+		$attribute = woodmart_get_opt( 'brands_attribute' ) ? woodmart_get_opt( 'brands_attribute' ) : 'product_brand';
 		$term      = get_term( $cat_id, $attribute );
 
 		return woodmart_productCategoryTermOutput( $term );

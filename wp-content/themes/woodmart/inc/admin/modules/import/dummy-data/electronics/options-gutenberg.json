@@ -159,6 +159,15 @@
             "color": "#242424"
         }
     ],
+    "secondary-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
     "post-titles-font": [
         {
             "google": "1",

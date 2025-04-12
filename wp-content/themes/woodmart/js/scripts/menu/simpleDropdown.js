@@ -29,8 +29,6 @@
 				} else {
 					showList();
 				}
-
-				return false;
 			});
 
 			list.on('click', 'a', function(e) {
@@ -92,4 +90,9 @@
 	$(document).ready(function() {
 		woodmartThemeModule.simpleDropdown();
 	});
+
+	window.addEventListener('wdUpdatedHeader',function() {
+		woodmartThemeModule.simpleDropdown();
+	});
+
 })(jQuery);

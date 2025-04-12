@@ -35,8 +35,8 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -53,7 +53,7 @@
 					<title><![CDATA[Home Real-estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-real-estate/</link>
 					<pubDate>Wed, 03 Jul 2024 08:38:51 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=22613</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"f2ee54e6-3e6c-4e25-a4f6-5361e9be1530","bgImage":{"id":22647,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-bg-top.svg"},"bgPosition":"top left","bgRepeat":"no-repeat","paddingTop":"230","marginBottom":"100","paddingTopTablet":"100","marginBottomTablet":"80","marginBottomMobile":"60"} -->
 <div id="wd-f2ee54e6" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"1e563bea-fddc-4ce9-bd7e-1cb26a42be8c","columnsGap":40} -->
@@ -564,7 +564,7 @@
 					<title><![CDATA[Footer Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-real-estate</link>
 					<pubDate>Wed, 03 Jul 2024 08:42:45 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=22624</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"03df66c8-95da-4088-949c-6328529d65e0","paddingTop":"50","paddingBottom":"40"} -->
 <div id="wd-03df66c8" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"db65ae63-87c3-4b28-ae4f-eee5f76f8be6","adjacentCount":3,"blocksGap":15} -->
@@ -627,7 +627,7 @@
 					<title><![CDATA[Prefooter Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=prefooter-real-estate</link>
 					<pubDate>Wed, 03 Jul 2024 08:43:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=22626</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"607b94b7-bc6a-4eba-adec-8bbc57b84fa7","paddingTop":"50","paddingBottom":"50","marginBottom":"-40"} -->
 <div id="wd-607b94b7" class="wp-block-wd-section"><!-- wp:wd/container {"blockId":"4fd72d2c-078a-4aed-bdfa-00eb8bbb7955","direction":"row","justify":"space-between","align":"center","wrap":"wrap","colGap":"30"} -->
@@ -706,7 +706,7 @@
 					<title><![CDATA[Popup Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=popup-real-estate</link>
 					<pubDate>Wed, 03 Jul 2024 08:43:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=22627</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"fd7503f6-30be-45ff-90d6-d22b90c70f4c","columnsGap":60} -->
 <div id="wd-fd7503f6" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"552ec21f-406d-4995-9fcf-9909f353ab51","adjacentCount":2,"colorScheme":"light"} -->
@@ -753,7 +753,7 @@
 					<title><![CDATA[Header popup Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=header-popup-real-estate</link>
 					<pubDate>Wed, 03 Jul 2024 08:43:45 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=22631</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/popup {"blockId":"f7d3a68b-8d3b-464d-8e1d-4b7e3cec84bb"} -->
 <div id="wd-f7d3a68b" class="wp-block-wd-popup"><!-- wp:wd/button {"blockId":"8e9864f7-6847-4b25-abe4-479b2248c14f","predefinedColor":"primary","shape":"semi-round"} -->
@@ -782,7 +782,7 @@
 					<title><![CDATA[real-estate-apartments]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-apartments/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-apartments.jpg</guid>
 															<wp:post_id>22645</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:18]]></wp:post_date>
@@ -805,7 +805,7 @@
 					<title><![CDATA[real-estate-autor]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-autor/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-autor.png</guid>
 															<wp:post_id>22646</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:18]]></wp:post_date>
@@ -828,7 +828,7 @@
 					<title><![CDATA[real-estate-bg-top]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-bg-top/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-bg-top.svg</guid>
 															<wp:post_id>22647</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:19]]></wp:post_date>
@@ -851,7 +851,7 @@
 					<title><![CDATA[real-estate-income]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-income/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:23 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-income.svg</guid>
 															<wp:post_id>22654</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:23]]></wp:post_date>
@@ -874,7 +874,7 @@
 					<title><![CDATA[real-estate-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-logo/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:24 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-logo.svg</guid>
 															<wp:post_id>22655</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:24]]></wp:post_date>
@@ -897,7 +897,7 @@
 					<title><![CDATA[real-estate-managment]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-managment/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:25 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-managment.svg</guid>
 															<wp:post_id>22656</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:25]]></wp:post_date>
@@ -920,7 +920,7 @@
 					<title><![CDATA[real-estate-pic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-pic/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-pic.png</guid>
 															<wp:post_id>22657</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:26]]></wp:post_date>
@@ -943,7 +943,7 @@
 					<title><![CDATA[w-investment-facebook]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-facebook/</link>
 					<pubDate>Wed, 03 Jul 2024 09:03:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-facebook.svg</guid>
 															<wp:post_id>22690</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:03:09]]></wp:post_date>
@@ -966,7 +966,7 @@
 					<title><![CDATA[w-investment-location]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-location/</link>
 					<pubDate>Wed, 03 Jul 2024 09:03:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-location.svg</guid>
 															<wp:post_id>22691</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:03:09]]></wp:post_date>
@@ -989,7 +989,7 @@
 					<title><![CDATA[w-investment-phone]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-phone/</link>
 					<pubDate>Wed, 03 Jul 2024 09:03:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-phone.svg</guid>
 															<wp:post_id>22692</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:03:10]]></wp:post_date>
@@ -1012,7 +1012,7 @@
 					<title><![CDATA[w-investment-twitter]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-twitter/</link>
 					<pubDate>Wed, 03 Jul 2024 09:03:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-twitter.svg</guid>
 															<wp:post_id>22693</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:03:10]]></wp:post_date>
@@ -1035,7 +1035,7 @@
 					<title><![CDATA[Contact form popup Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=wpcf7_contact_form&#038;p=22710</link>
 					<pubDate>Wed, 03 Jul 2024 09:36:52 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=wpcf7_contact_form&#038;p=22710</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <div class="wd-col">[text* First name placeholder ="First name"]</div>
@@ -1116,7 +1116,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -1127,7 +1127,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -1154,7 +1154,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Contact form Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=wpcf7_contact_form&#038;p=22799</link>
 					<pubDate>Wed, 03 Jul 2024 11:25:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=wpcf7_contact_form&#038;p=22799</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch">
 <div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
@@ -1231,7 +1231,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -1242,7 +1242,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -1269,7 +1269,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[w-investment-gallary-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-gallary-7/</link>
 					<pubDate>Wed, 03 Jul 2024 12:00:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-gallary-7.jpg</guid>
 															<wp:post_id>22886</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 12:00:37]]></wp:post_date>
@@ -1292,7 +1292,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-apartment-32]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-apartment-32/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-apartment-32.svg</guid>
 															<wp:post_id>22640</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:16]]></wp:post_date>
@@ -1315,7 +1315,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-apartment-52]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-apartment-52/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-apartment-52.svg</guid>
 															<wp:post_id>22641</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:17]]></wp:post_date>
@@ -1338,7 +1338,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-apartment-82]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-apartment-82/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-apartment-82.svg</guid>
 															<wp:post_id>22642</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:17]]></wp:post_date>
@@ -1361,7 +1361,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-apartment-120]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-apartment-120/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-apartment-120.svg</guid>
 															<wp:post_id>22643</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:17]]></wp:post_date>
@@ -1384,7 +1384,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-choose-appartment]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-choose-appartment/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-choose-appartment.png</guid>
 															<wp:post_id>22648</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:19]]></wp:post_date>
@@ -1407,7 +1407,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-gallary-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-gallary-1/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-gallary-1.jpg</guid>
 															<wp:post_id>22649</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:20]]></wp:post_date>
@@ -1430,7 +1430,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-gallary-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-gallary-2/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-gallary-2.jpg</guid>
 															<wp:post_id>22650</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:20]]></wp:post_date>
@@ -1453,7 +1453,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-gallary-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-gallary-4/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:21 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-gallary-4.jpg</guid>
 															<wp:post_id>22652</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:21]]></wp:post_date>
@@ -1476,7 +1476,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-gallary-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/real-estate-gallary-5/</link>
 					<pubDate>Wed, 03 Jul 2024 08:44:22 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-gallary-5.jpg</guid>
 															<wp:post_id>22653</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 08:44:22]]></wp:post_date>
@@ -1499,7 +1499,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/2024/07/03/home-14/</link>
 					<pubDate>Wed, 03 Jul 2024 08:59:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?p=22678</guid>
 															<wp:post_id>22678</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:00:04]]></wp:post_date>
@@ -1558,7 +1558,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Apartments]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/2024/07/03/apartments/</link>
 					<pubDate>Wed, 03 Jul 2024 08:59:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?p=22681</guid>
 															<wp:post_id>22681</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:00:04]]></wp:post_date>
@@ -1617,7 +1617,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/2024/07/03/services-6/</link>
 					<pubDate>Wed, 03 Jul 2024 08:59:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?p=22682</guid>
 															<wp:post_id>22682</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:00:04]]></wp:post_date>
@@ -1676,7 +1676,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Prices]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/2024/07/03/prices-2/</link>
 					<pubDate>Wed, 03 Jul 2024 08:59:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?p=22684</guid>
 															<wp:post_id>22684</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:00:04]]></wp:post_date>
@@ -1735,7 +1735,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[About Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/2024/07/03/about-us-6/</link>
 					<pubDate>Wed, 03 Jul 2024 08:59:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?p=22685</guid>
 															<wp:post_id>22685</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 09:00:04]]></wp:post_date>
@@ -1794,7 +1794,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[w-investment-gallary-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-gallary-6/</link>
 					<pubDate>Wed, 03 Jul 2024 12:00:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-gallary-6.jpg</guid>
 															<wp:post_id>22885</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 12:00:36]]></wp:post_date>
@@ -1817,7 +1817,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[w-investment-gallary-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-investment-gallary-8/</link>
 					<pubDate>Wed, 03 Jul 2024 12:00:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/w-investment-gallary-8.jpg</guid>
 															<wp:post_id>22887</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 12:00:38]]></wp:post_date>
@@ -1840,7 +1840,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[real-estate-gallary-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-real-estate/real-estate-gallary-3-2/</link>
 					<pubDate>Wed, 03 Jul 2024 12:02:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/real-estate-gallary-3-1.jpg</guid>
 															<wp:post_id>22894</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-03 12:02:26]]></wp:post_date>

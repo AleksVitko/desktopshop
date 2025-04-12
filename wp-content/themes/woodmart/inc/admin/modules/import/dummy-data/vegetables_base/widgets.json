@@ -80,7 +80,7 @@
             },
             "woodmart-woocommerce-layered-nav-2": {
                 "title": "Filter by Brand",
-                "attribute": "brand",
+                "attribute": "product_brand",
                 "category": [
                     "all"
                 ],

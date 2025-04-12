@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-require_once vc_path_dir( 'SHORTCODES_DIR', 'vc-custom-heading.php' );
+require_once vc_path_dir( 'SHORTCODES_DIR', 'vc-gitem-post-data.php' );
 
 /**
  * Class WPBakeryShortCode_Vc_Gitem_Image

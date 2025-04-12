@@ -90,7 +90,9 @@
             <key name="reviews_rating_summary_criteria_6_slug"/>
             <key name="fb_link"/>
             <key name="twitter_link"/>
+            <key name="bluesky_link"/>
             <key name="isntagram_link"/>
+            <key name="threads_link"/>
             <key name="pinterest_link"/>
             <key name="youtube_link"/>
             <key name="tumblr_link"/>
@@ -102,13 +104,19 @@
             <key name="behance_link"/>
             <key name="soundcloud_link"/>
             <key name="spotify_link"/>
+            <key name="skype_link"/>
             <key name="ok_link"/>
             <key name="vk_link"/>
             <key name="whatsapp_link"/>
             <key name="snapchat_link"/>
             <key name="tg_link"/>
             <key name="tiktok_link"/>
+            <key name="discord_link"/>
+            <key name="yelp_link"/>
             <key name="viber_link"/>
+            <key name="sticky_navigation_menu"/>
+            <key name="waitlist_privacy_checkbox_text"/>
+            <key name="recover_guest_cart_privacy_checkbox_text"/>
         </key>
     </admin-texts>
     <custom-fields>
@@ -373,14 +381,14 @@
         <shortcode>
             <tag>woodmart_list</tag>
             <attributes>
-                <attribute type="area" encoding ="urlencoded_json">list</attribute>
+                <attribute type="area" encoding="urlencoded_json">list</attribute>
             </attributes>
         </shortcode>
 
         <shortcode>
             <tag>woodmart_marquee</tag>
             <attributes>
-                <attribute type="area" encoding ="urlencoded_json">marquee_contents</attribute>
+                <attribute type="area" encoding="urlencoded_json">marquee_contents</attribute>
             </attributes>
         </shortcode>
 

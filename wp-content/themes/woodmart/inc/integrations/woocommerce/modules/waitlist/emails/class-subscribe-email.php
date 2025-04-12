@@ -5,18 +5,14 @@
  * @package XTS
  */
 
-namespace XTS\Modules\Waitlist\Emails;
-
 use XTS\Modules\Waitlist\DB_Storage;
-use WP_User;
-use WC_Product;
 
-if ( ! class_exists( 'XTS\Modules\Waitlist\Emails\Subscribe_Email' ) ) :
+if ( ! class_exists( 'XTS_Email_Waitlist_Subscribe' ) ) :
 
 	/**
 	 * Send a letter that the product has been successfully added to Waitlist.
 	 */
-	class Subscribe_Email extends Waitlist_Email {
+	class XTS_Email_Waitlist_Subscribe extends Waitlist_Email {
 		/**
 		 * Email content html.
 		 *
@@ -43,7 +39,7 @@ if ( ! class_exists( 'XTS\Modules\Waitlist\Emails\Subscribe_Email' ) ) :
 		 */
 		public function __construct() {
 			$this->id          = 'woodmart_waitlist_subscribe_email';
-			$this->title       = esc_html__( 'Waitlist - Subscription confirmed', 'woodmart' );
+			$this->title       = esc_html__( 'Waitlist: subscription confirmed', 'woodmart' );
 			$this->description = esc_html__( 'Configure the email that confirms a customer\'s subscription to the waitlist, assuring them that they will receive updates when the requested item is back in stock.', 'woodmart' );
 
 			$this->customer_email = true;
@@ -66,13 +62,16 @@ if ( ! class_exists( 'XTS\Modules\Waitlist\Emails\Subscribe_Email' ) ) :
 		 *
 		 * @return void
 		 */
-		public function trigger( $user_email, $product ) {
-			$this->object    = $product;
-			$this->recipient = $user_email;
+		public function trigger( $user_email, $product, $email_language = '' ) {
+			$this->object         = $product;
+			$this->recipient      = $user_email;
+			$this->email_language = $email_language;
 
 			if ( ! $this->is_enabled() || ! $this->get_recipient() || ! $this->object ) {
 				return;
 			}
+
+			parent::set_email_args();
 
 			$this->send(
 				$this->get_recipient(),
@@ -82,66 +81,8 @@ if ( ! class_exists( 'XTS\Modules\Waitlist\Emails\Subscribe_Email' ) ) :
 				$this->get_attachments()
 			);
 		}
-
-		/**
-		 * Returns default email content.
-		 *
-		 * @param string $email_type Email type.
-		 *
-		 * @return string Default content.
-		 */
-		public function get_default_content( $email_type ) {
-			if ( 'plain' === $email_type ) {
-				$content  = __( "Hi {user_name}\n", 'woodmart' );
-				$content .= __( "We confirm that you have been added to the waitlist for the following item:\n", 'woodmart' );
-				$content .= "{product_title} {product_price} {product_link}\n";
-				$content .= __( "Stay tuned because we'll notify you when the product is available.\n", 'woodmart' );
-				$content .= "\n";
-				$content .= __( "Best regards,\n", 'woodmart' );
-				$content .= "{site_title}\n";
-
-				return trim( $content );
-			} else {
-				ob_start();
-				?>
-				<p><?php esc_html_e( 'Hi {user_name}', 'woodmart' ); ?></p>
-				<p><?php esc_html_e( 'We confirm that you have been added to the waitlist for the following item:', 'woodmart' ); ?></p>
-				<table class="td xts-prod-table" cellspacing="0" cellpadding="6" border="1">
-					<thead>
-						<tr>
-							<th class="td" scope="col"></th>
-							<th class="td xts-align-start" scope="col"><?php esc_html_e( 'Product', 'woodmart' ); ?></th>
-							<th class="td xts-align-end" scope="col"><?php esc_html_e( 'Price', 'woodmart' ); ?></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="td xts-tbody-td xts-img-col xts-align-start">
-								<a href="{product_link}">
-									{product_image}
-								</a>
-							</td>
-							<td class="td xts-tbody-td xts-align-start">
-								{product_title_with_link}
-							</td>
-							<td class="td xts-tbody-td xts-align-end">
-								{product_price}
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<p><?php _e( 'Stay tuned because we\'ll notify you when the product is available.', 'woodmart' ); // phpcs:ignore. ?></p>
-				<p><?php esc_html_e( 'Best regards,', 'woodmart' ); ?></p>
-				<p>{site_title}</p>
-				<?php
-				$content = ob_get_clean();
-				$content = trim( preg_replace( '/^\t{4}/m', '', $content ) );
-
-				return $content;
-			}
-		}
 	}
 
 endif;
 
-return new Subscribe_Email();
+return new XTS_Email_Waitlist_Subscribe();

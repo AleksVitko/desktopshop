@@ -54,7 +54,7 @@ if ( $attachment_ids && $product->get_image_id() ) {
 		<div class="<?php echo esc_attr( $classes ); ?>">
 			<figure data-thumb="<?php echo esc_url( isset( $thumbnail[0] ) ? $thumbnail[0] : '' ); ?>" class="woocommerce-product-gallery__image">
 				<a data-elementor-open-lightbox="no" href="<?php echo esc_url( isset( $full_size_image[0] ) ? $full_size_image[0] : '' ); ?>">
-					<?php echo wp_get_attachment_image( $attachment_id, 'woocommerce_single', false, $attributes ); ?>
+					<?php echo apply_filters( 'woodmart_get_single_product_thumbnails', wp_get_attachment_image( $attachment_id, 'woocommerce_single', false, $attributes ), $attachment_id, $attributes ); // phpcs:ignore ?>
 				</a>
 			</figure>
 		</div>

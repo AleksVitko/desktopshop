@@ -227,8 +227,9 @@ if ( ! function_exists( 'woodmart_get_vc_map_list' ) ) {
 					'value'            => array(
 						esc_html__( 'With icon', 'woodmart' ) => 'icon',
 						esc_html__( 'With image', 'woodmart' ) => 'image',
-						esc_html__( 'Ordered', 'woodmart' ) => 'ordered',
-						esc_html__( 'Unordered', 'woodmart' ) => 'unordered',
+						esc_html__( 'With numbers', 'woodmart' ) => 'ordered',
+						esc_html__( 'With arrows', 'woodmart' ) => 'unordered',
+						esc_html__( 'With bullets', 'woodmart' ) => 'unordered-2',
 						esc_html__( 'Without icon', 'woodmart' ) => 'without',
 					),
 					'param_name'       => 'list_type',
@@ -246,7 +247,7 @@ if ( ! function_exists( 'woodmart_get_vc_map_list' ) ) {
 					'param_name'       => 'list_style',
 					'dependency'       => array(
 						'element' => 'list_type',
-						'value'   => array( 'icon', 'ordered', 'unordered', 'image' ),
+						'value'   => array( 'icon', 'ordered', 'unordered', 'unordered-2', 'image' ),
 					),
 					'edit_field_class' => 'vc_col-sm-6 vc_column',
 				),
@@ -418,7 +419,7 @@ if ( ! function_exists( 'woodmart_get_vc_map_list' ) ) {
 					),
 					'dependency'       => array(
 						'element' => 'list_type',
-						'value'   => array( 'icon', 'ordered', 'unordered', 'image' ),
+						'value'   => array( 'icon', 'ordered', 'unordered', 'unordered-2', 'image' ),
 					),
 					'edit_field_class' => 'vc_col-sm-6 vc_column',
 				),
@@ -434,7 +435,7 @@ if ( ! function_exists( 'woodmart_get_vc_map_list' ) ) {
 					),
 					'dependency'       => array(
 						'element' => 'list_type',
-						'value'   => array( 'icon', 'ordered', 'unordered', 'image' ),
+						'value'   => array( 'icon', 'ordered', 'unordered', 'unordered-2', 'image' ),
 					),
 					'edit_field_class' => 'vc_col-sm-6 vc_column',
 				),

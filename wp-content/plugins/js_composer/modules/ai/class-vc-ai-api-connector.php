@@ -38,7 +38,7 @@ class Vc_Ai_Api_Connector {
 	 * @return array
 	 */
 	public function get_ai_type_response_route_lib() {
-		return [
+		return apply_filters( 'wpb_module_ai_type_response_route_lib', [
 			'textarea_html' => [
 				'path' => vc_path_dir( 'MODULES_DIR', 'ai/class-vc-ai-content-generator.php' ),
 				'class' => 'Vc_Ai_Content_Generator',
@@ -155,7 +155,7 @@ class Vc_Ai_Api_Connector {
 				'method' => 'generate',
 				'endpoint' => 'generate-js',
 			],
-		];
+		] );
 	}
 
 	/**
@@ -462,7 +462,7 @@ class Vc_Ai_Api_Connector {
 		}
 
 		if ( isset( $response['message'] ) ) {
-			return $this->get_message_from_data( $response );
+			return $this->get_message_from_data();
 		}
 
 		return $response;

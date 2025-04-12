@@ -23,6 +23,7 @@ class Vc_Post_Custom_Layout_Module {
 	 * @var string
 	 */
 	const CUSTOM_CSS_META_KEY = '_wpb_post_custom_layout';
+
 	/**
 	 * Init module implementation.
 	 *
@@ -34,6 +35,8 @@ class Vc_Post_Custom_Layout_Module {
 		add_filter( 'wpb_set_post_custom_meta', [ $this, 'set_post_custom_meta' ] );
 
 		add_action( 'template_include', [ $this, 'switch_post_custom_layout' ], 11 );
+
+		add_filter( 'wpb_is_post_custom_layout_blank', [ $this, 'is_layout_blank' ] );
 	}
 
 	/**
@@ -197,7 +200,9 @@ class Vc_Post_Custom_Layout_Module {
 	 * @return mixed
 	 */
 	public function get_layout_from_meta() {
-		return get_post_meta( get_the_ID(), self::CUSTOM_CSS_META_KEY, true );
+		$post_id = wpb_update_id_with_preview_id( get_the_ID() );
+
+		return get_post_meta( $post_id, self::CUSTOM_CSS_META_KEY, true );
 	}
 
 	/**
@@ -258,5 +263,18 @@ class Vc_Post_Custom_Layout_Module {
 		}
 
 		return false;
+	}
+
+	/**
+	 * Checks if the layout is 'blank'.
+	 *
+	 * @since 8.2
+	 *
+	 * @return bool
+	 */
+	public function is_layout_blank() {
+		$layout_name = $this->get_custom_layout_name();
+
+		return 'blank' === $layout_name;
 	}
 }

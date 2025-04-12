@@ -125,32 +125,6 @@ if ( ! function_exists( 'woodmart_is_pjax' ) ) {
 	}
 }
 
-/**
- * ------------------------------------------------------------------------------------------------
- * Force WOODMART Swatche layered nav and price widget to work
- * ------------------------------------------------------------------------------------------------
- */
-
-
-add_filter( 'woocommerce_is_layered_nav_active', 'woodmart_is_layered_nav_active' );
-if ( ! function_exists( 'woodmart_is_layered_nav_active' ) ) {
-	function woodmart_is_layered_nav_active() {
-		return is_active_widget( false, false, 'woodmart-woocommerce-layered-nav', true );
-	}
-}
-
-add_filter( 'woocommerce_is_price_filter_active', 'woodmart_is_layered_price_active' );
-
-if ( ! function_exists( 'woodmart_is_layered_price_active' ) ) {
-	function woodmart_is_layered_price_active() {
-		$result = is_active_widget( false, false, 'woodmart-price-filter', true );
-		if ( ! $result ) {
-			$result = apply_filters( 'woodmart_use_custom_price_widget', true );
-		}
-		return $result;
-	}
-}
-
 if ( ! function_exists( 'woodmart_get_current_term_id' ) ) {
 	/**
 	 * FIX CMB2 bug
@@ -256,5 +230,22 @@ if ( ! function_exists( 'woodmart_is_shop_archive' ) ) {
 	 */
 	function woodmart_is_shop_archive() {
 		return woodmart_woocommerce_installed() && ( is_shop() || is_product_category() || is_product_tag() || is_tax( 'product_brand' ) || woodmart_is_product_attribute_archive() );
+	}
+}
+
+if ( ! function_exists( 'woodmart_is_email_preview_request' ) ) {
+	/**
+	 * Check if the current request is an email preview request.
+	 */
+	function woodmart_is_email_preview_request() {
+		$is_email_preview_request = false;
+
+		if ( wc()->is_rest_api_request() ) {
+			$nonce = isset( $_REQUEST['nonce'] ) ? $_REQUEST['nonce'] : false; // phpcs:ignore.
+
+			$is_email_preview_request = wp_verify_nonce( $nonce, 'email-preview-nonce' );
+		}
+
+		return Automattic\WooCommerce\Utilities\FeaturesUtil::feature_is_enabled( 'email_improvements' ) && ( isset( $_GET['preview_woocommerce_mail'] ) || $is_email_preview_request );
 	}
 }

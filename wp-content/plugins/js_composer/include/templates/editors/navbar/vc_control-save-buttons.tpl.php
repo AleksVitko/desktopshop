@@ -16,11 +16,11 @@ $can_publish = current_user_can( $post_type->cap->publish_posts );
 ?>
 <li class="vc_pull-right vc_save-buttons vc_hide-desktop-more <?php echo $is_mobile ? 'vc_hide-desktop' : 'vc_hide-mobile'; ?>">
 <?php
-if ( ! in_array( $post->post_status, array(
+if ( ! in_array( $post->post_status, [
 	'publish',
 	'future',
 	'private',
-), true ) ) :
+], true ) ) :
 	?>
 	<?php if ( 'draft' === $post->post_status ) : ?>
 	<a href="javascript:;"

@@ -6,62 +6,72 @@ jQuery.each([
 	});
 });
 
-// Update gist table only if turned on layout builder.
-if (document.querySelector('.wd-content-layout').classList.contains('wd-builder-on')) {
-	jQuery( document.body ).on( 'wc_fragment_refresh updated_wc_div', function(e) {
-		var giftsWrapper = document.querySelector('.wd-fg');
+// Update gifts table only if turned on layout builder.
+function updateGiftsTable() {
+	var giftsWrapper = document.querySelector('.wd-fg');
 
-		if ( ! giftsWrapper ) {
-			return;
-		}
+	if ( ! giftsWrapper ) {
+		return;
+	}
 
-		var loaderOverlay = giftsWrapper.querySelector('.wd-loader-overlay');
+	var settings      = giftsWrapper.dataset.hasOwnProperty('settings') ? JSON.parse( giftsWrapper.dataset.settings ) : false;
+	var loaderOverlay = giftsWrapper.querySelector('.wd-loader-overlay');
 
-		if ( loaderOverlay ) {
-			loaderOverlay.classList.add('wd-loading');
-		}
-	
-		jQuery.ajax({
-			url     : woodmart_settings.ajaxurl,
-			data    : {
-				action: 'woodmart_update_gifts_table',
-			},
-			method  : 'POST',
-			success : function(response) {
-				if (!response) {
-					return;
-				}
+	if ( loaderOverlay ) {
+		loaderOverlay.classList.add('wd-loading');
+	}
 
-				if (giftsWrapper && response.hasOwnProperty('html')) {
-					let tempDiv       = document.createElement('div');
-					tempDiv.innerHTML = response.html;
-
-					childNodes = tempDiv.querySelector('.wd-fg').childNodes;
-
-					if (0 === childNodes.length) {
-						giftsWrapper.classList.add('wd-hide');
-					} else {
-						giftsWrapper.classList.remove('wd-hide');
-					}
-
-					giftsWrapper.replaceChildren(...childNodes);
-				}
-			},
-			error   : function() {
-				console.log('ajax update gifts table error');
-			},
-			complete: function() {
-				if ( loaderOverlay ) {
-					loaderOverlay.classList.remove('wd-loading');
-				}
+	jQuery.ajax({
+		url     : woodmart_settings.ajaxurl,
+		data    : {
+			action: 'woodmart_update_gifts_table',
+		},
+		method  : 'POST',
+		success : function(response) {
+			if (!response) {
+				return;
 			}
-		});
+
+			if (giftsWrapper && response.hasOwnProperty('html')) {
+				let tempDiv       = document.createElement('div');
+				tempDiv.innerHTML = response.html;
+
+				if ( settings && 'no' === settings.show_title) {
+					var titleNode = tempDiv.querySelector('.wd-el-title');
+
+					if (titleNode) {
+						titleNode.remove();
+					}
+				}
+
+				childNodes = tempDiv.childNodes;
+
+				if (0 === childNodes.length) {
+					giftsWrapper.classList.add('wd-hide');
+				} else {
+					giftsWrapper.classList.remove('wd-hide');
+				}
+
+				giftsWrapper.replaceChildren(...childNodes);
+			}
+		},
+		error   : function() {
+			console.log('ajax update gifts table error');
+		},
+		complete: function() {
+			if ( loaderOverlay ) {
+				loaderOverlay.classList.remove('wd-loading');
+			}
+		}
 	});
 }
 
+jQuery( document.body ).on( 'updated_cart_totals', updateGiftsTable);
+jQuery( document.body ).on( 'updated_checkout', updateGiftsTable);
+
 woodmartThemeModule.addGiftProduct = function() {
-	var isBuilder = document.querySelector('.wd-content-layout').classList.contains('wd-builder-on');
-	var listenerArea  = isBuilder ? document.querySelector('.site-content .woocommerce') : document.querySelector('.cart-content-wrapper');
+	var isCheckout   = !! document.querySelector('.woocommerce-checkout');
+	var listenerArea = document.querySelector('.site-content .woocommerce');
 
 	if ( ! listenerArea ) {
 		return;
@@ -89,6 +99,7 @@ woodmartThemeModule.addGiftProduct = function() {
 					action: 'woodmart_add_gift_product',
 					product_id: productId,
 					security: addGiftButton.dataset.security,
+					is_checkout: isCheckout ? '1' : '0',
 				},
 				method  : 'POST',
 				success : function(response) {
@@ -96,7 +107,9 @@ woodmartThemeModule.addGiftProduct = function() {
 						return;
 					}
 
-					jQuery(document.body).trigger( 'wc_update_cart' );
+					triggerEvent = isCheckout ? 'update_checkout' : 'wc_update_cart';
+
+					jQuery(document.body).trigger(triggerEvent);
 				},
 				error   : function() {
 					console.log('ajax adding gift to cart error');

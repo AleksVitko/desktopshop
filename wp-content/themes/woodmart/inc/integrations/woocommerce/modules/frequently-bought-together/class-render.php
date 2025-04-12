@@ -19,6 +19,7 @@ class Render extends Singleton {
 	 */
 	public function init() {
 		add_action( 'woocommerce_before_mini_cart_contents', array( $this, 'enqueue_style' ) );
+		add_action( 'woocommerce_order_details_before_order_table_items', array( $this, 'enqueue_order_style' ) );
 
 		add_action( 'wp_ajax_woodmart_purchasable_fbt_products', array( $this, 'purchasable_fbt_products' ) );
 		add_action( 'wp_ajax_nopriv_woodmart_purchasable_fbt_products', array( $this, 'purchasable_fbt_products' ) );
@@ -43,7 +44,11 @@ class Render extends Singleton {
 		add_action( 'woocommerce_cart_item_removed', array( $this, 'cart_item_removed' ), 10, 2 );
 		add_action( 'woocommerce_cart_item_restored', array( $this, 'restore_cart_items' ), 10, 2 );
 
+		add_action( 'woocommerce_order_item_class', array( $this, 'order_cart_item_class' ), 10, 3 );
+
 		add_filter( 'woocommerce_get_cart_item_from_session', array( $this, 'get_cart_item_from_session' ), 10, 2 );
+
+		add_action( 'woocommerce_checkout_create_order_line_item', array( $this, 'add_custom_cart_meta_to_order_items' ), 10, 4 );
 	}
 
 	/**
@@ -62,6 +67,27 @@ class Render extends Singleton {
 				woodmart_enqueue_inline_style( 'woo-mod-cart-labels' );
 
 				return;
+			}
+		}
+	}
+
+	/**
+	 * Enqueue order style.
+	 *
+	 * @param object $order Order data.
+	 * @return void
+	 */
+	public function enqueue_order_style( $order ) {
+		if ( $order instanceof \WC_Order ) {
+			$items = $order->get_items();
+
+			foreach ( $items as $item ) {
+				if ( $item->get_meta( '_wd_fbt_bundle_id' ) ) {
+					woodmart_enqueue_inline_style( 'woo-opt-fbt-cart' );
+					woodmart_enqueue_inline_style( 'woo-mod-cart-labels' );
+
+					return;
+				}
 			}
 		}
 	}
@@ -490,6 +516,36 @@ class Render extends Singleton {
 	}
 
 	/**
+	 * Update item class order cart for frequently bought together product.
+	 *
+	 * @param string $classes Item classes.
+	 * @param object $item Order item.
+	 * @param object $order Order data.
+	 *
+	 * @return string
+	 */
+	public function order_cart_item_class( $classes, $item, $order ) {
+		if ( ! $item instanceof \WC_Order_Item_Product ) {
+			return $classes;
+		}
+
+		$parent_keys = $item->get_meta( '_wd_fbt_parent_keys' );
+		$fbt_keys    = $item->get_meta( '_wd_fbt_keys' );
+
+		if ( $parent_keys ) {
+			if ( $item->get_meta( '_wd_fbt_last_item' ) ) {
+				$classes .= ' wd-fbt-item-last';
+			} else {
+				$classes .= ' wd-fbt-item';
+			}
+		} elseif ( $fbt_keys ) {
+			$classes .= ' wd-fbt-item-first';
+		}
+
+		return $classes;
+	}
+
+	/**
 	 * Update title in cart for frequently bought together product.
 	 *
 	 * @codeCoverageIgnore
@@ -598,6 +654,33 @@ class Render extends Singleton {
 		}
 
 		return $cart_item;
+	}
+
+	/**
+	 * Add custom cart meta to order items.
+	 *
+	 * @param object $item Order item.
+	 * @param string $cart_item_key Cart item key.
+	 * @param array  $values Cart item values.
+	 * @param object $order Order data.
+	 * @return void
+	 */
+	public function add_custom_cart_meta_to_order_items( $item, $cart_item_key, $values, $order ) {
+		$keys = array( 'wd_fbt_parent_id', 'wd_fbt_discount', 'wd_fbt_bundle_id', 'wd_fbt_parent_keys', 'wd_fbt_keys' );
+
+		foreach ( $keys as $key ) {
+			if ( isset( $values[ $key ] ) ) {
+				$item->update_meta_data( '_' . $key, $values[ $key ], true );
+			}
+		}
+
+		if ( ! empty( $values['wd_fbt_parent_keys'] ) ) {
+			$parent_product = WC()->cart->cart_contents[ $values['wd_fbt_parent_keys'] ];
+
+			if ( ! empty( $parent_product['wd_fbt_keys'] ) && count( $parent_product['wd_fbt_keys'] ) === array_search( $cart_item_key, $parent_product['wd_fbt_keys'], true ) + 1 ) {
+				$item->update_meta_data( '_wd_fbt_last_item', true );
+			}
+		}
 	}
 }
 

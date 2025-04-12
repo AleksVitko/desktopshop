@@ -1,4 +1,4 @@
-<?php 
+<?php
 global $product;
 
 $action_classes  = '';
@@ -7,12 +7,12 @@ $add_btn_classes = 'wd-add-btn-replace';
 woodmart_enqueue_js_script( 'btns-tooltips' );
 woodmart_enqueue_js_library( 'tooltips' );
 
-if ( 'carousel' === woodmart_loop_prop('products_view') ) {
-	$action_classes  .= ' wd-buttons wd-pos-r-t';
-	$action_classes  .= woodmart_get_old_classes( ' woodmart-buttons' );
-	$add_btn_classes  = 'wd-action-btn wd-style-icon wd-add-cart-icon' . woodmart_get_old_classes( ' wd-add-cart-btn' );
+if ( 'carousel' === woodmart_loop_prop( 'products_view' ) ) {
+	$action_classes .= ' wd-buttons wd-pos-r-t';
+	$action_classes .= woodmart_get_old_classes( ' woodmart-buttons' );
+	$add_btn_classes = 'wd-action-btn wd-style-icon wd-add-cart-icon' . woodmart_get_old_classes( ' wd-add-cart-btn' );
 } else {
-	$action_classes  .= ' wd-bottom-actions';
+	$action_classes .= ' wd-bottom-actions';
 }
 
 $add_btn_classes .= woodmart_get_old_classes( ' woodmart-add-btn' );
@@ -41,8 +41,7 @@ do_action( 'woocommerce_before_shop_loop_item' ); ?>
 		}
 		?>
 
-		<div class="wrapp-swatches"><?php echo woodmart_get_thumbnails_gallery_pagin(); ?><?php echo woodmart_swatches_list();?><?php woodmart_add_to_compare_loop_btn(); ?></div>
-
+		<div class="wrapp-swatches"><?php echo woodmart_get_thumbnails_gallery_pagin(); ?><?php echo woodmart_swatches_list(); ?><?php woodmart_add_to_compare_loop_btn(); ?></div>
 	</div>
 
 	<div class="product-element-bottom product-information">
@@ -52,7 +51,7 @@ do_action( 'woocommerce_before_shop_loop_item' ); ?>
 			 *
 			 * @hooked woocommerce_template_loop_product_title - 10
 			 */
-			
+
 			do_action( 'woocommerce_shop_loop_item_title' );
 		?>
 		<?php
@@ -75,15 +74,18 @@ do_action( 'woocommerce_before_shop_loop_item' ); ?>
 				<?php echo wp_kses_post( woodmart_get_product_rating() ); ?>
 			</div>
 		</div>
+		<?php if ( 'carousel' === woodmart_loop_prop( 'products_view' ) ) : ?>
+			<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+		<?php endif; ?>
 		<div class="fade-in-block wd-scroll">
 			<div class="hover-content wd-more-desc<?php echo woodmart_get_old_classes( ' woodmart-more-desc' ); ?>">
 				<div class="hover-content-inner wd-more-desc-inner<?php echo woodmart_get_old_classes( ' woodmart-more-desc-inner' ); ?>">
-					<?php 
-						if ( woodmart_get_opt( 'base_hover_content' ) == 'excerpt' ) {
-							echo do_shortcode( get_the_excerpt() );
-						}else if ( woodmart_get_opt( 'base_hover_content' ) == 'additional_info' ){
-							wc_display_product_attributes( $product );
-						}
+					<?php
+					if ( woodmart_get_opt( 'base_hover_content' ) == 'excerpt' ) {
+						echo do_shortcode( get_the_excerpt() );
+					} elseif ( woodmart_get_opt( 'base_hover_content' ) == 'additional_info' ) {
+						wc_display_product_attributes( $product );
+					}
 					?>
 				</div>
 				<a href="#" rel="nofollow" class="wd-more-desc-btn<?php echo woodmart_get_old_classes( ' woodmart-more-desc-btn' ); ?>" aria-label="<?php esc_attr_e( 'Read more description', 'woodmart' ); ?>"></a>
@@ -92,17 +94,18 @@ do_action( 'woocommerce_before_shop_loop_item' ); ?>
 				<div class="wrap-wishlist-button"><?php do_action( 'woodmart_product_action_buttons' ); ?></div>
 				<div class="wd-add-btn <?php echo esc_attr( $add_btn_classes ); ?>">
 					<?php do_action( 'woodmart_add_loop_btn' ); ?>
-					<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+					<?php if ( 'carousel' !== woodmart_loop_prop( 'products_view' ) ) : ?>
+						<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+					<?php endif; ?>
 				</div>
 				<div class="wrap-quickview-button"><?php woodmart_quick_view_btn( get_the_ID() ); ?></div>
 			</div>
 
-
-			<?php if ( woodmart_loop_prop( 'progress_bar' ) ): ?>
+			<?php if ( woodmart_loop_prop( 'progress_bar' ) ) : ?>
 				<?php woodmart_stock_progress_bar(); ?>
 			<?php endif ?>
 			
-			<?php if ( woodmart_loop_prop( 'timer' ) ): ?>
+			<?php if ( woodmart_loop_prop( 'timer' ) ) : ?>
 				<?php woodmart_product_sale_countdown(); ?>
 			<?php endif ?>
 		</div>

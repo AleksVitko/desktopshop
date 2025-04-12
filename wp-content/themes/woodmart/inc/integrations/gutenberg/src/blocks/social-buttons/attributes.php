@@ -49,9 +49,16 @@ if ( ! function_exists( 'wd_get_block_social_buttons_attrs' ) ) {
 					'type'    => 'string',
 					'default' => '#',
 				),
+				'bluesky_link'        => array(
+					'type'    => 'string',
+					'default' => '',
+				),
 				'isntagram_link'      => array(
 					'type'    => 'string',
 					'default' => '#',
+				),
+				'threads_link'        => array(
+					'type' => 'string',
 				),
 				'pinterest_link'      => array(
 					'type'    => 'string',
@@ -121,7 +128,7 @@ if ( ! function_exists( 'wd_get_block_social_buttons_attrs' ) ) {
 			)
 		);
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-$source = $text = $link = $google_fonts = $font_container = $el_id = $el_class = $css = $css_animation = $font_container_data = $google_fonts_data = array();
+$source = $text = $link = $google_fonts = $font_container = $el_id = $el_class = $css = $css_animation = $font_container_data = $google_fonts_data = [];
 // This is needed to extract $font_container_data and $google_fonts_data.
 extract( $this->getAttributes( $atts ) );
 
@@ -54,7 +54,7 @@ if ( ! empty( $link ) ) {
 	$link = vc_build_link( $link );
 	$text = '<a href="' . esc_url( $link['url'] ) . '"' . ( $link['target'] ? ' target="' . esc_attr( $link['target'] ) . '"' : '' ) . ( $link['rel'] ? ' rel="' . esc_attr( $link['rel'] ) . '"' : '' ) . ( $link['title'] ? ' title="' . esc_attr( $link['title'] ) . '"' : '' ) . '>' . $text . '</a>';
 }
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }

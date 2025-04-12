@@ -51,11 +51,7 @@ if( ! class_exists( 'WOODMART_Widget_Price_Filter' ) ) {
 		function widget( $args, $instance )	{
 			global $wp, $wp_the_query;
 
-			if ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) ) {
-				return;
-			}
-
-			if ( ! $wp_the_query->post_count ) {
+			if ( ! $this->is_widget_preview() && ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) || ! $wp_the_query->post_count ) ) {
 				return;
 			}
 

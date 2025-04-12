@@ -22,11 +22,11 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 $css = $animation = $animation_attr = '';
 
-extract( shortcode_atts( array(
+extract( shortcode_atts( [
 	'css' => '',
 	// unmapped.
 	'animation' => '',
-), $atts ) );
+], $atts ) );
 
 $css_style = '';
 $css_class = 'vc_gitem-animated-block ' . vc_shortcode_custom_css_class( $css, ' ' );

@@ -20,7 +20,7 @@ class Vc_Column_Offset {
 	 *
 	 * @var array
 	 */
-	protected $settings = array();
+	protected $settings = [];
 
 	/**
 	 * The value associated with the column offset.
@@ -34,26 +34,26 @@ class Vc_Column_Offset {
 	 *
 	 * @var array
 	 */
-	protected $size_types = array(
+	protected $size_types = [
 		'lg' => 'Large',
 		'md' => 'Medium',
 		'sm' => 'Small',
 		'xs' => 'Extra small',
-	);
+	];
 
 	/**
 	 * A list of possible column widths.
 	 *
 	 * @var array
 	 */
-	protected $column_width_list = array();
+	protected $column_width_list = [];
 
 	/**
 	 * Parsed data from the $value attribute.
 	 *
 	 * @var array|mixed
 	 */
-	protected $data = array();
+	protected $data = [];
 
 	/**
 	 * Vc_Column_Offset constructor.
@@ -65,7 +65,7 @@ class Vc_Column_Offset {
 		$this->settings = $settings;
 		$this->value = $value;
 
-		$this->column_width_list = array(
+		$this->column_width_list = [
 			esc_html__( '1/12 - 1 column', 'js_composer' ) => '1',
 			esc_html__( '1/6 - 2 columns', 'js_composer' ) => '2',
 			esc_html__( '1/4 - 3 columns', 'js_composer' ) => '3',
@@ -82,7 +82,7 @@ class Vc_Column_Offset {
 			esc_html__( '2/5 - 40%', 'js_composer' ) => '2/5',
 			esc_html__( '3/5 - 60%', 'js_composer' ) => '3/5',
 			esc_html__( '4/5 - 80%', 'js_composer' ) => '4/5',
-		);
+		];
 	}
 
 	/**
@@ -92,13 +92,13 @@ class Vc_Column_Offset {
 	 */
 	public function render() {
 		ob_start();
-		vc_include_template( 'params/column_offset/template.tpl.php', array(
+		vc_include_template( 'params/column_offset/template.tpl.php', [
 			'settings' => $this->settings,
 			'value' => $this->value,
 			'data' => $this->valueData(),
 			'sizes' => $this->size_types,
 			'param' => $this,
-		) );
+		] );
 
 		return ob_get_clean();
 	}

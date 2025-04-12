@@ -176,7 +176,7 @@ class Parts_Css_Files extends Singleton {
 				'id'   => $queried_object->term_id,
 			);
 		}
-		if ( woodmart_woocommerce_installed() && $queried_object && ( is_product_tag() || is_product_category() || woodmart_is_product_attribute_archive() ) ) {
+		if ( woodmart_woocommerce_installed() && $queried_object && ( is_product_tag() || is_product_category() || is_tax( 'product_brand' ) || woodmart_is_product_attribute_archive() ) ) {
 			$data = array(
 				'type' => 'taxonomy',
 				'id'   => $queried_object->term_id,

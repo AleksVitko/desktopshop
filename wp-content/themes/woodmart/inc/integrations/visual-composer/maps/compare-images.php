@@ -42,7 +42,7 @@ if ( ! function_exists( 'woodmart_get_vc_map_compare_images' ) ) {
 				array(
 					'type'       => 'woodmart_title_divider',
 					'holder'     => 'div',
-					'title'      => esc_html__( 'Image before', 'woodmart' ),
+					'title'      => esc_html__( 'Before image', 'woodmart' ),
 					'param_name' => 'extra_divider',
 				),
 				array(
@@ -62,7 +62,7 @@ if ( ! function_exists( 'woodmart_get_vc_map_compare_images' ) ) {
 				array(
 					'type'       => 'woodmart_title_divider',
 					'holder'     => 'div',
-					'title'      => esc_html__( 'Image after', 'woodmart' ),
+					'title'      => esc_html__( 'After image', 'woodmart' ),
 					'param_name' => 'extra_divider',
 				),
 				array(

@@ -9,10 +9,7 @@
 		var loginFormSide = $('.login-form-side');
 		var closeSide = $('.wd-close-side');
 
-
-		$('.login-side-opener')
-			.off('click')
-			.on('click', function(e) {
+		woodmartThemeModule.$document.on('click', '.login-side-opener', function(e) {
 				if (!loginFormSide.length) {
 					return
 				}

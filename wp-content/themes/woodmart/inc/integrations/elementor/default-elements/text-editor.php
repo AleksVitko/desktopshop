@@ -111,7 +111,7 @@ if ( ! function_exists( 'woodmart_add_content_width_to_text_element' ) ) {
 					],
 				],
 				'selectors'      => [
-					'{{WRAPPER}} .elementor-widget-container' => 'max-width: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} > *' => 'max-width: {{SIZE}}{{UNIT}};',
 				],
 			]
 		);

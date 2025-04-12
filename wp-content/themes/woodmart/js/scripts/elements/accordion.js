@@ -107,7 +107,7 @@
 				if ($this.parents('.tabs-layout-accordion').length) {
 					setTimeout(function() {
 						if (woodmartThemeModule.$window.width() < 1024 && currentIndex > oldIndex) {
-							var $header = $('.sticky-header');
+							var $header = $('.whb-sticky-header');
 							var headerHeight = $header.length > 0 ? $header.outerHeight() : 0;
 							$('html, body').animate({
 								scrollTop: $this.offset().top - $this.outerHeight() - headerHeight - 50

@@ -6,6 +6,7 @@
 
 	$.each([
 		'frontend/element_ready/wd_products.default',
+		'frontend/element_ready/wd_product_categories.default',
 		'frontend/element_ready/wd_products_tabs.default',
 		'frontend/element_ready/wd_products_brands.default'
 	], function(index, value) {

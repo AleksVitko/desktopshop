@@ -1,5 +1,56 @@
 *** WPBakery Page Builder changelog ***
 
+2025-03-18 - version 8.3.1
+  - Fix: WordPress preview now works properly
+
+2025-03-12 - version 8.3
+  - New: API for AI integration
+  - New: Access page title settings directly from the title
+  - New: Font Awesome 6 for icon element
+  - New: New Google Maps element
+  - New: Preview button for the Settings panel
+  - Update: Improved accessibility for tab element
+  - Update: Implement code-coverage for existing PHPUnit pipeline check
+  - Update: Improved accessibility for pagination dots for elements such as Pageable Container
+  - Update: "value_includes" dependency rule for elements
+  - Update: Placeholder option for input and textarea params
+  - Fix: Optimized admin-ajax.php calls
+  - Fix: ACF element fields displayed properly
+  - Fix: Scroll to element functionality when adding a template to a page
+  - Fix: Undo works properly if template added
+  - Fix: Add element window active tabs displayed properly
+  - Fix: Element save title field displayed properly
+  - Fix: Page settings panel displayed properly in case all modules disabled
+  - Fix: Page settings panel displayed properly on mobile devices
+  - Fix: Tour and Pageable container elements work properly
+  - Fix: Page title displayed properly after template added
+  - Fix: Beta version notifications displayed properly
+  - Fix: Font Awesome doesn't show duplicates
+
+2025-02-03 - version 8.2
+  - New: Permalink option in frontend editor settings
+  - New: Template dropdown in frontend editor settings
+  - New: Page status dropdown in frontend editor settings
+  - New: Manage menus option in frontend editor settings
+  - New: Categories option in frontend settings
+  - New: Tags option in frontend settings
+  - New: Featured image option in frontend editor settings
+  - New: Excerpt field in frontend editor settings
+  - New: Author field in frontend editor settings
+  - New: Option to allow/disallow comments and pingbacks
+  - Update: Option to hide the page/post title
+  - Update: Styling updated for consistency in the frontend editor
+  - Fix: AI window fields are now responsive on mobile devices
+  - Fix: Resolved console warnings with WooCommerce
+  - Fix: Addressed deprecated warnings with PHP 8.2
+  - Fix: Resolved warning when adding icon element to editor
+  - Fix: Fixed issue preventing posts from being moved to trash
+  - Fix: Switching between editors no longer causes page reload
+  - Fix: Default templates for post types now work correctly
+  - Fix: Corrected element controls height 
+  - Fix: Replaced custom image caption function with native WordPress function
+  - Fix: Resolved warning with empty icon element
+
 2024-12-10 - version 8.1
   - Update: Raw HTML text area is being improved for accessibility and usability
   - Update: Settings window updated for consistency and better UX

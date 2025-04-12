@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:34" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:39" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:34:12 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:39:06 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[xmas-footer-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-footer-img/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-footer-img.jpg</guid>
 															<wp:post_id>17150</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:41]]></wp:post_date>
@@ -73,7 +73,7 @@
 					<title><![CDATA[xmas-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-logo/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-logo.svg</guid>
 															<wp:post_id>17151</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:42]]></wp:post_date>
@@ -96,7 +96,7 @@
 					<title><![CDATA[xmas-wood-logo-black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-wood-logo-black/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-wood-logo-black.svg</guid>
 															<wp:post_id>17161</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:47]]></wp:post_date>
@@ -119,7 +119,7 @@
 					<title><![CDATA[christmas-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-1/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-1.jpg</guid>
 															<wp:post_id>17162</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:15]]></wp:post_date>
@@ -142,7 +142,7 @@
 					<title><![CDATA[christmas-blog-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-2/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-2.jpg</guid>
 															<wp:post_id>17163</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:15]]></wp:post_date>
@@ -165,7 +165,7 @@
 					<title><![CDATA[christmas-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-3/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-3.jpg</guid>
 															<wp:post_id>17164</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:16]]></wp:post_date>
@@ -188,7 +188,7 @@
 					<title><![CDATA[christmas-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-4/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-4.jpg</guid>
 															<wp:post_id>17165</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:16]]></wp:post_date>
@@ -211,7 +211,7 @@
 					<title><![CDATA[christmas-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-5/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-5.jpg</guid>
 															<wp:post_id>17166</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:17]]></wp:post_date>
@@ -234,7 +234,7 @@
 					<title><![CDATA[christmas-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-1/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-1.jpg</guid>
 															<wp:post_id>17170</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:27]]></wp:post_date>
@@ -257,7 +257,7 @@
 					<title><![CDATA[christmas-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-2/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-2.jpg</guid>
 															<wp:post_id>17171</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:28]]></wp:post_date>
@@ -280,7 +280,7 @@
 					<title><![CDATA[christmas-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-3/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-3.jpg</guid>
 															<wp:post_id>17172</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:28]]></wp:post_date>
@@ -303,7 +303,7 @@
 					<title><![CDATA[christmas-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-4/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:29 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-4.jpg</guid>
 															<wp:post_id>17173</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:29]]></wp:post_date>
@@ -326,7 +326,7 @@
 					<title><![CDATA[christmas-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-5/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:29 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-5.jpg</guid>
 															<wp:post_id>17174</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:29]]></wp:post_date>
@@ -349,7 +349,7 @@
 					<title><![CDATA[christmas-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-6/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-6.jpg</guid>
 															<wp:post_id>17175</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:30]]></wp:post_date>
@@ -372,7 +372,7 @@
 					<title><![CDATA[christmas-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-7/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-7.jpg</guid>
 															<wp:post_id>17176</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:30]]></wp:post_date>
@@ -395,7 +395,7 @@
 					<title><![CDATA[christmas-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-8/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-8.jpg</guid>
 															<wp:post_id>17177</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:31]]></wp:post_date>
@@ -418,7 +418,7 @@
 					<title><![CDATA[christmas-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-9/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-9.jpg</guid>
 															<wp:post_id>17178</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:31]]></wp:post_date>
@@ -441,7 +441,7 @@
 					<title><![CDATA[christmas-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-10/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-10.jpg</guid>
 															<wp:post_id>17179</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:32]]></wp:post_date>
@@ -464,7 +464,7 @@
 					<title><![CDATA[christmas-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-11/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-11.jpg</guid>
 															<wp:post_id>17180</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:32]]></wp:post_date>
@@ -487,7 +487,7 @@
 					<title><![CDATA[christmas-product-12-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-product-12-1/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-product-12-1.jpg</guid>
 															<wp:post_id>17181</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:32]]></wp:post_date>
@@ -510,20 +510,20 @@
 					<title><![CDATA[Home Christmas]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-christmas/</link>
 					<pubDate>Tue, 18 Jun 2024 11:58:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=17112</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"6c5b8ca0-9d73-4bed-acc7-987f08ec4ef3","blockGap":0,"colorScheme":"light","bgImage":{"id":17155,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-slide-opt.jpg"},"bgPosition":"top center","bgDisplaySize":"cover","paddingTop":"265","paddingBottom":"230","marginBottom":"45","shapeDividerBottomIcon":"curved-line-bottom","shapeDividerBottomColorCode":"#ecf2f7","shapeDividerBottomHeight":80,"paddingTopMobile":"161","paddingBottomMobile":"126","marginBottomMobile":"35"} -->
-<div id="wd-6c5b8ca0" class="wp-block-wd-section color-scheme-light wd-bg-parent"><div class="wd-shape-divider wd-pos-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" height="50" preserveAspectRatio="none" size="24"><path d="M100 100V.8C77.8 21.4 71.3 70.5 38.6 70.5c-18.8 0-29.1-16.2-38.6-34V100h100z"></path></svg></div><!-- wp:wd/container {"blockId":"6c7d60c3-64f8-4e0c-b72c-26339c03b44a","direction":"row","justify":"center","align":"end","colGap":"30","animation":"slide-from-top","animationDelay":"300"} -->
-<div id="wd-6c7d60c3" class="wp-block-wd-container wd-dir-row wd-align-is-lg-end wd-animation wd-transform wd-animation-slide-from-top wd_delay_300"><!-- wp:wd/icon {"blockId":"dbdd89d1-0600-4a72-916d-963ee5a30f31","image":{"id":17159,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg"},"width":"56","marginBottom":"10","animationDelay":"","hideOnMobile":true} -->
-<div id="wd-dbdd89d1" class="wp-block-wd-icon wd-hide-sm"><img class="wp-image-17159" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg" /></div>
+<div id="wd-6c5b8ca0" class="wp-block-wd-section color-scheme-light wd-bg-parent"><div class="wd-shape-divider wd-pos-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" height="50" preserveAspectRatio="none" size="24"><path d="M100 100V.8C77.8 21.4 71.3 70.5 38.6 70.5c-18.8 0-29.1-16.2-38.6-34V100h100z"></path></svg></div><!-- wp:wd/container {"blockId":"6c7d60c3-64f8-4e0c-b72c-26339c03b44a","direction":"row","align":"end","textAlign":"center","colGap":"30","animation":"slide-from-top","animationDelay":"300"} -->
+<div id="wd-6c7d60c3" class="wp-block-wd-container wd-dir-row wd-align-is-lg-end wd-align wd-animation wd-transform wd-animation-slide-from-top wd_delay_300"><!-- wp:wd/icon {"blockId":"dbdd89d1-0600-4a72-916d-963ee5a30f31","image":{"id":17159,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg"},"width":"56","marginBottom":"10","animationDelay":"","hideOnMobile":true} -->
+<div id="wd-dbdd89d1" class="wp-block-wd-icon wd-hide-sm"><img class="wp-image-17159" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
-<!-- wp:wd/title {"blockId":"7610a78a-8820-41f9-af19-0bd6ab31ead3","textAlign":"center","content":"Merry","tpFontFamily":"Bungee Inline","tpFontSize":"76","tpLineHeight":"1","tpFontVariant":"400","tpFontWeight":"400","tpGoogle":true,"colorCode":"#ffffff","animationDelay":"","tpFontSizeTablet":"62","tpFontSizeMobile":"46","tpLineHeightUnits":"em"} -->
-<h2 id="wd-7610a78a" class="wp-block-wd-title title wd-align">Merry</h2>
+<!-- wp:wd/title {"blockId":"7610a78a-8820-41f9-af19-0bd6ab31ead3","content":"Merry","tpFontFamily":"Bungee Inline","tpFontSize":"76","tpLineHeight":"1","tpFontVariant":"400","tpFontWeight":"400","tpGoogle":true,"colorCode":"#ffffff","animationDelay":"","tpFontSizeTablet":"62","tpFontSizeMobile":"46","tpLineHeightUnits":"em"} -->
+<h2 id="wd-7610a78a" class="wp-block-wd-title title">Merry</h2>
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/icon {"blockId":"75853f95-b8ed-4caf-8a9c-3a13b7a35ed2","image":{"id":17159,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg"},"width":"56","marginBottom":"10","animationDelay":"","hideOnMobile":true} -->
-<div id="wd-75853f95" class="wp-block-wd-icon wd-hide-sm"><img class="wp-image-17159" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg" /></div>
+<div id="wd-75853f95" class="wp-block-wd-icon wd-hide-sm"><img class="wp-image-17159" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg" alt="" /></div>
 <!-- /wp:wd/icon --></div>
 <!-- /wp:wd/container -->
 
@@ -552,12 +552,12 @@
 
 <!-- wp:wd/title {"blockId":"223b4920-8597-4c8c-b7d4-a4d6d7c44729","design":"with-image","content":"Happy Winter Holidays​","tpFontSize":"36","marginBottom":"15","tpFontSizeTablet":"30","tpFontSizeMobile":"28"} -->
 <h2 id="wd-223b4920" class="wp-block-wd-title title wd-design-with-image wd-icon-bottom"><span>Happy Winter Holidays​</span><!-- wp:wd/icon {"blockId":"f69d4c8e-9b6b-4d11-b062-6e93218a10c1","svg":"\u003csvg width=\u00221092\u0022 height=\u0022129\u0022 viewBox=\u00220 0 1092 129\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M546.913 101.325C546.494 101.744 545.925 101.979 545.332 101.979C544.74 101.979 544.171 101.744 543.752 101.325L508.545 66.1065C508.126 65.6873 507.89 65.1187 507.89 64.5259C507.89 63.933 508.126 63.3645 508.545 62.9453L543.752 27.7271C544.171 27.3079 544.74 27.0724 545.332 27.0725C545.925 27.0725 546.494 27.308 546.913 27.7272L582.115 62.9454C582.988 63.8183 582.988 65.2335 582.115 66.1064L546.913 101.325ZM545.332 32.469L513.285 64.5259L545.332 96.5828L577.375 64.5259L545.332 32.469Z\u0022 /\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M543.752 127.871C544.625 128.744 546.04 128.744 546.912 127.871L608.004 66.7612H996.236L1030.61 101.145C1031.48 102.017 1032.9 102.017 1033.77 101.145L1056.34 78.5704L1065.64 87.8731C1066.06 88.2923 1066.63 88.5277 1067.22 88.5277C1067.81 88.5276 1068.38 88.2921 1068.8 87.8729L1090.55 66.1063C1091.43 65.2334 1091.43 63.8183 1090.55 62.9454L1068.8 41.1789C1068.38 40.7597 1067.81 40.5241 1067.22 40.5241C1066.63 40.524 1066.06 40.7595 1065.64 41.1787L1056.34 50.4809L1033.77 27.9049C1032.9 27.0319 1031.48 27.0319 1030.61 27.9049L996.236 62.2906H608.004L546.912 1.18056C546.04 0.307639 544.625 0.307658 543.752 1.18058L482.663 62.2906H95.1794L60.809 27.905C60.3899 27.4857 59.8215 27.2502 59.2289 27.2502C58.6362 27.2502 58.0678 27.4857 57.6488 27.9049L35.0806 50.4815L25.7816 41.1788C25.3625 40.7596 24.7941 40.5241 24.2015 40.5241C23.6088 40.5241 23.0404 40.7596 22.6214 41.1788L0.863422 62.9453C-0.00916143 63.8183 -0.00916143 65.2335 0.863422 66.1064L22.6214 87.8729C23.0404 88.2922 23.6088 88.5277 24.2015 88.5277C24.7941 88.5277 25.3625 88.2922 25.7816 87.8729L35.081 78.5698L57.6488 101.144C58.0679 101.564 58.6362 101.799 59.2289 101.799C59.8215 101.799 60.3899 101.564 60.8089 101.144L95.1794 66.7612H482.663L543.752 127.871ZM1067.22 83.1312L1059.5 75.4093L1068.8 66.1065C1069.22 65.6873 1069.45 65.1188 1069.45 64.5259C1069.45 63.9331 1069.22 63.3645 1068.8 62.9453L1059.5 53.6421L1067.22 45.9206L1085.81 64.5259L1067.22 83.1312ZM1064.06 64.5258L1056.34 56.8031L1048.62 64.5259L1056.34 72.2483L1064.06 64.5258ZM1043.88 62.9452L1053.18 53.6419L1032.19 32.6467L1000.32 64.5258L1032.19 96.4028L1053.18 75.4094L1043.88 66.1066C1043.46 65.6874 1043.22 65.1188 1043.22 64.5259C1043.22 63.933 1043.46 63.3644 1043.88 62.9452ZM38.241 75.4086L59.2288 96.4027L91.0938 64.5258L59.2288 32.6468L38.2406 53.6427L47.5395 62.9453C48.4121 63.8183 48.4121 65.2335 47.5395 66.1064L38.241 75.4086ZM35.0805 56.804L42.7994 64.5259L35.0809 72.2474L27.3616 64.5258L35.0805 56.804ZM31.9205 53.6427L22.6214 62.9453C22.2023 63.3645 21.9669 63.9331 21.9669 64.5259C21.9669 65.1188 22.2024 65.6873 22.6214 66.1065L31.9208 75.4087L24.2015 83.1311L5.60355 64.5259L24.2015 45.9206L31.9205 53.6427ZM545.332 123.129L486.749 64.5259L545.332 5.92232L603.919 64.5259L545.332 123.129Z\u0022 /\u003e\u003c/svg\u003e","image":{"id":17154,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg"},"width":"150"} -->
-<div id="wd-f69d4c8e" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" /></div>
+<div id="wd-f69d4c8e" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" alt="" /></div>
 <!-- /wp:wd/icon --></h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"8be86e0b-136f-467c-8262-f9256942dfa5","marginBottom":"25","alignSelf":"center","displayWidth":"custom","customWidth":"465"} -->
-<p id="wd-8be86e0b" class="wp-block-wd-paragraph wd-custom-width wd-align-s-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+<!-- wp:wd/paragraph {"blockId":"8be86e0b-136f-467c-8262-f9256942dfa5","marginBottom":"25","displayWidth":"custom","customWidth":"465"} -->
+<p id="wd-8be86e0b" class="wp-block-wd-paragraph wd-custom-width">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/container {"blockId":"3232aa67-a2df-4fc4-907a-ba6bb8ef834e","direction":"row"} -->
@@ -573,7 +573,7 @@
 
 <!-- wp:wd/column {"blockId":"70c9dd9b-311f-457d-9476-708146f6c725","adjacentCount":2,"justifyContent":"center"} -->
 <div id="wd-70c9dd9b" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"b8fc50f6-933a-4215-8eea-ea18a36942b6","image":{"id":17160,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-welcome-img.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-welcome-img.png","width":507,"height":384}} -->
-<div id="wd-b8fc50f6" class="wp-block-wd-image wd-block-image"><img class="wp-image-17160" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-welcome-img.png" /></div>
+<div id="wd-b8fc50f6" class="wp-block-wd-image wd-block-image"><img class="wp-image-17160" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-welcome-img.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
@@ -584,7 +584,7 @@
 
 <!-- wp:wd/title {"blockId":"b9e89cbc-5d81-4200-970f-c05fcf1fd9e9","textAlign":"center","design":"with-image","content":"Products Categories​","tpFontSize":"36","marginBottom":"30","tpFontSizeTablet":"30","tpFontSizeMobile":"28"} -->
 <h2 id="wd-b9e89cbc" class="wp-block-wd-title title wd-align wd-design-with-image wd-icon-bottom"><span>Products Categories​</span><!-- wp:wd/icon {"blockId":"86e60684-fb16-4f1b-b085-6fd4f38a9428","svg":"\u003csvg width=\u00221092\u0022 height=\u0022129\u0022 viewBox=\u00220 0 1092 129\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M546.913 101.325C546.494 101.744 545.925 101.979 545.332 101.979C544.74 101.979 544.171 101.744 543.752 101.325L508.545 66.1065C508.126 65.6873 507.89 65.1187 507.89 64.5259C507.89 63.933 508.126 63.3645 508.545 62.9453L543.752 27.7271C544.171 27.3079 544.74 27.0724 545.332 27.0725C545.925 27.0725 546.494 27.308 546.913 27.7272L582.115 62.9454C582.988 63.8183 582.988 65.2335 582.115 66.1064L546.913 101.325ZM545.332 32.469L513.285 64.5259L545.332 96.5828L577.375 64.5259L545.332 32.469Z\u0022 /\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M543.752 127.871C544.625 128.744 546.04 128.744 546.912 127.871L608.004 66.7612H996.236L1030.61 101.145C1031.48 102.017 1032.9 102.017 1033.77 101.145L1056.34 78.5704L1065.64 87.8731C1066.06 88.2923 1066.63 88.5277 1067.22 88.5277C1067.81 88.5276 1068.38 88.2921 1068.8 87.8729L1090.55 66.1063C1091.43 65.2334 1091.43 63.8183 1090.55 62.9454L1068.8 41.1789C1068.38 40.7597 1067.81 40.5241 1067.22 40.5241C1066.63 40.524 1066.06 40.7595 1065.64 41.1787L1056.34 50.4809L1033.77 27.9049C1032.9 27.0319 1031.48 27.0319 1030.61 27.9049L996.236 62.2906H608.004L546.912 1.18056C546.04 0.307639 544.625 0.307658 543.752 1.18058L482.663 62.2906H95.1794L60.809 27.905C60.3899 27.4857 59.8215 27.2502 59.2289 27.2502C58.6362 27.2502 58.0678 27.4857 57.6488 27.9049L35.0806 50.4815L25.7816 41.1788C25.3625 40.7596 24.7941 40.5241 24.2015 40.5241C23.6088 40.5241 23.0404 40.7596 22.6214 41.1788L0.863422 62.9453C-0.00916143 63.8183 -0.00916143 65.2335 0.863422 66.1064L22.6214 87.8729C23.0404 88.2922 23.6088 88.5277 24.2015 88.5277C24.7941 88.5277 25.3625 88.2922 25.7816 87.8729L35.081 78.5698L57.6488 101.144C58.0679 101.564 58.6362 101.799 59.2289 101.799C59.8215 101.799 60.3899 101.564 60.8089 101.144L95.1794 66.7612H482.663L543.752 127.871ZM1067.22 83.1312L1059.5 75.4093L1068.8 66.1065C1069.22 65.6873 1069.45 65.1188 1069.45 64.5259C1069.45 63.9331 1069.22 63.3645 1068.8 62.9453L1059.5 53.6421L1067.22 45.9206L1085.81 64.5259L1067.22 83.1312ZM1064.06 64.5258L1056.34 56.8031L1048.62 64.5259L1056.34 72.2483L1064.06 64.5258ZM1043.88 62.9452L1053.18 53.6419L1032.19 32.6467L1000.32 64.5258L1032.19 96.4028L1053.18 75.4094L1043.88 66.1066C1043.46 65.6874 1043.22 65.1188 1043.22 64.5259C1043.22 63.933 1043.46 63.3644 1043.88 62.9452ZM38.241 75.4086L59.2288 96.4027L91.0938 64.5258L59.2288 32.6468L38.2406 53.6427L47.5395 62.9453C48.4121 63.8183 48.4121 65.2335 47.5395 66.1064L38.241 75.4086ZM35.0805 56.804L42.7994 64.5259L35.0809 72.2474L27.3616 64.5258L35.0805 56.804ZM31.9205 53.6427L22.6214 62.9453C22.2023 63.3645 21.9669 63.9331 21.9669 64.5259C21.9669 65.1188 22.2024 65.6873 22.6214 66.1065L31.9208 75.4087L24.2015 83.1311L5.60355 64.5259L24.2015 45.9206L31.9205 53.6427ZM545.332 123.129L486.749 64.5259L545.332 5.92232L603.919 64.5259L545.332 123.129Z\u0022 /\u003e\u003c/svg\u003e","image":{"id":17154,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg"},"width":"150"} -->
-<div id="wd-86e60684" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" /></div>
+<div id="wd-86e60684" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" alt="" /></div>
 <!-- /wp:wd/icon --></h2>
 <!-- /wp:wd/title -->
 
@@ -668,7 +668,7 @@
 
 <!-- wp:wd/title {"blockId":"fba87bf6-b6c6-4fee-8eaf-301beb6655f2","textAlign":"center","design":"with-image","content":"Featured Products","tpFontSize":"36","marginBottom":"30","tpFontSizeTablet":"30","tpFontSizeMobile":"28"} -->
 <h2 id="wd-fba87bf6" class="wp-block-wd-title title wd-align wd-design-with-image wd-icon-bottom"><span>Featured Products</span><!-- wp:wd/icon {"blockId":"365e5ce0-ee51-4a91-85aa-c49486235984","svg":"\u003csvg width=\u00221092\u0022 height=\u0022129\u0022 viewBox=\u00220 0 1092 129\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M546.913 101.325C546.494 101.744 545.925 101.979 545.332 101.979C544.74 101.979 544.171 101.744 543.752 101.325L508.545 66.1065C508.126 65.6873 507.89 65.1187 507.89 64.5259C507.89 63.933 508.126 63.3645 508.545 62.9453L543.752 27.7271C544.171 27.3079 544.74 27.0724 545.332 27.0725C545.925 27.0725 546.494 27.308 546.913 27.7272L582.115 62.9454C582.988 63.8183 582.988 65.2335 582.115 66.1064L546.913 101.325ZM545.332 32.469L513.285 64.5259L545.332 96.5828L577.375 64.5259L545.332 32.469Z\u0022 /\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M543.752 127.871C544.625 128.744 546.04 128.744 546.912 127.871L608.004 66.7612H996.236L1030.61 101.145C1031.48 102.017 1032.9 102.017 1033.77 101.145L1056.34 78.5704L1065.64 87.8731C1066.06 88.2923 1066.63 88.5277 1067.22 88.5277C1067.81 88.5276 1068.38 88.2921 1068.8 87.8729L1090.55 66.1063C1091.43 65.2334 1091.43 63.8183 1090.55 62.9454L1068.8 41.1789C1068.38 40.7597 1067.81 40.5241 1067.22 40.5241C1066.63 40.524 1066.06 40.7595 1065.64 41.1787L1056.34 50.4809L1033.77 27.9049C1032.9 27.0319 1031.48 27.0319 1030.61 27.9049L996.236 62.2906H608.004L546.912 1.18056C546.04 0.307639 544.625 0.307658 543.752 1.18058L482.663 62.2906H95.1794L60.809 27.905C60.3899 27.4857 59.8215 27.2502 59.2289 27.2502C58.6362 27.2502 58.0678 27.4857 57.6488 27.9049L35.0806 50.4815L25.7816 41.1788C25.3625 40.7596 24.7941 40.5241 24.2015 40.5241C23.6088 40.5241 23.0404 40.7596 22.6214 41.1788L0.863422 62.9453C-0.00916143 63.8183 -0.00916143 65.2335 0.863422 66.1064L22.6214 87.8729C23.0404 88.2922 23.6088 88.5277 24.2015 88.5277C24.7941 88.5277 25.3625 88.2922 25.7816 87.8729L35.081 78.5698L57.6488 101.144C58.0679 101.564 58.6362 101.799 59.2289 101.799C59.8215 101.799 60.3899 101.564 60.8089 101.144L95.1794 66.7612H482.663L543.752 127.871ZM1067.22 83.1312L1059.5 75.4093L1068.8 66.1065C1069.22 65.6873 1069.45 65.1188 1069.45 64.5259C1069.45 63.9331 1069.22 63.3645 1068.8 62.9453L1059.5 53.6421L1067.22 45.9206L1085.81 64.5259L1067.22 83.1312ZM1064.06 64.5258L1056.34 56.8031L1048.62 64.5259L1056.34 72.2483L1064.06 64.5258ZM1043.88 62.9452L1053.18 53.6419L1032.19 32.6467L1000.32 64.5258L1032.19 96.4028L1053.18 75.4094L1043.88 66.1066C1043.46 65.6874 1043.22 65.1188 1043.22 64.5259C1043.22 63.933 1043.46 63.3644 1043.88 62.9452ZM38.241 75.4086L59.2288 96.4027L91.0938 64.5258L59.2288 32.6468L38.2406 53.6427L47.5395 62.9453C48.4121 63.8183 48.4121 65.2335 47.5395 66.1064L38.241 75.4086ZM35.0805 56.804L42.7994 64.5259L35.0809 72.2474L27.3616 64.5258L35.0805 56.804ZM31.9205 53.6427L22.6214 62.9453C22.2023 63.3645 21.9669 63.9331 21.9669 64.5259C21.9669 65.1188 22.2024 65.6873 22.6214 66.1065L31.9208 75.4087L24.2015 83.1311L5.60355 64.5259L24.2015 45.9206L31.9205 53.6427ZM545.332 123.129L486.749 64.5259L545.332 5.92232L603.919 64.5259L545.332 123.129Z\u0022 /\u003e\u003c/svg\u003e","image":{"id":17154,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg"},"width":"150"} -->
-<div id="wd-365e5ce0" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" /></div>
+<div id="wd-365e5ce0" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" alt="" /></div>
 <!-- /wp:wd/icon --></h2>
 <!-- /wp:wd/title -->
 
@@ -681,8 +681,8 @@
 <p id="wd-8e1abe20" class="wp-block-wd-paragraph">Special discount offers​</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"5c1495d5-0ffd-4905-a81d-77c46e1fcd28","content":"Christmas Giveaway Event reader will be distracted.​","tpFontSize":"36","marginBottom":"15","alignSelf":"center","displayWidth":"custom","customWidth":"465","tpFontSizeTablet":"28","tpFontSizeMobile":"26"} -->
-<h2 id="wd-5c1495d5" class="wp-block-wd-title title wd-custom-width wd-align-s-center">Christmas Giveaway Event reader will be distracted.​</h2>
+<!-- wp:wd/title {"blockId":"5c1495d5-0ffd-4905-a81d-77c46e1fcd28","content":"Christmas Giveaway Event reader will be distracted.​","tpFontSize":"36","marginBottom":"15","displayWidth":"custom","customWidth":"465","tpFontSizeTablet":"28","tpFontSizeMobile":"26"} -->
+<h2 id="wd-5c1495d5" class="wp-block-wd-title title wd-custom-width">Christmas Giveaway Event reader will be distracted.​</h2>
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/countdown-timer {"blockId":"79ec545e-1da8-44b0-a072-956cd2ce9221","date":"2025-01-01T16:59:00","size":"large","bgTimerColorCode":"rgba(0,0,0,0.2)","marginBottom":"20","alignTablet":"center"} -->
@@ -702,7 +702,7 @@
 
 <!-- wp:wd/column {"blockId":"b80a6c1b-5d07-4297-955c-1ff4ae5ee0b5","adjacentCount":2,"justifyContent":"center"} -->
 <div id="wd-b80a6c1b" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"d893d53d-f943-4b41-ac35-f59bd9cb82d5","image":{"id":17153,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-santa-img.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-santa-img.png","width":537,"height":279}} -->
-<div id="wd-d893d53d" class="wp-block-wd-image wd-block-image"><img class="wp-image-17153" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-santa-img.png" /></div>
+<div id="wd-d893d53d" class="wp-block-wd-image wd-block-image"><img class="wp-image-17153" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-santa-img.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row --></div>
@@ -714,7 +714,7 @@
 
 <!-- wp:wd/title {"blockId":"a9585a7f-a704-432b-b984-815344a0e582","textAlign":"center","design":"with-image","content":"How Is Magic Works​","tpFontSize":"36","marginBottom":"30","tpFontSizeTablet":"30","tpFontSizeMobile":"28"} -->
 <h2 id="wd-a9585a7f" class="wp-block-wd-title title wd-align wd-design-with-image wd-icon-bottom"><span>How Is Magic Works​</span><!-- wp:wd/icon {"blockId":"7547933a-c943-48ab-b118-775d06fe29b5","svg":"\u003csvg width=\u00221092\u0022 height=\u0022129\u0022 viewBox=\u00220 0 1092 129\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M546.913 101.325C546.494 101.744 545.925 101.979 545.332 101.979C544.74 101.979 544.171 101.744 543.752 101.325L508.545 66.1065C508.126 65.6873 507.89 65.1187 507.89 64.5259C507.89 63.933 508.126 63.3645 508.545 62.9453L543.752 27.7271C544.171 27.3079 544.74 27.0724 545.332 27.0725C545.925 27.0725 546.494 27.308 546.913 27.7272L582.115 62.9454C582.988 63.8183 582.988 65.2335 582.115 66.1064L546.913 101.325ZM545.332 32.469L513.285 64.5259L545.332 96.5828L577.375 64.5259L545.332 32.469Z\u0022 /\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M543.752 127.871C544.625 128.744 546.04 128.744 546.912 127.871L608.004 66.7612H996.236L1030.61 101.145C1031.48 102.017 1032.9 102.017 1033.77 101.145L1056.34 78.5704L1065.64 87.8731C1066.06 88.2923 1066.63 88.5277 1067.22 88.5277C1067.81 88.5276 1068.38 88.2921 1068.8 87.8729L1090.55 66.1063C1091.43 65.2334 1091.43 63.8183 1090.55 62.9454L1068.8 41.1789C1068.38 40.7597 1067.81 40.5241 1067.22 40.5241C1066.63 40.524 1066.06 40.7595 1065.64 41.1787L1056.34 50.4809L1033.77 27.9049C1032.9 27.0319 1031.48 27.0319 1030.61 27.9049L996.236 62.2906H608.004L546.912 1.18056C546.04 0.307639 544.625 0.307658 543.752 1.18058L482.663 62.2906H95.1794L60.809 27.905C60.3899 27.4857 59.8215 27.2502 59.2289 27.2502C58.6362 27.2502 58.0678 27.4857 57.6488 27.9049L35.0806 50.4815L25.7816 41.1788C25.3625 40.7596 24.7941 40.5241 24.2015 40.5241C23.6088 40.5241 23.0404 40.7596 22.6214 41.1788L0.863422 62.9453C-0.00916143 63.8183 -0.00916143 65.2335 0.863422 66.1064L22.6214 87.8729C23.0404 88.2922 23.6088 88.5277 24.2015 88.5277C24.7941 88.5277 25.3625 88.2922 25.7816 87.8729L35.081 78.5698L57.6488 101.144C58.0679 101.564 58.6362 101.799 59.2289 101.799C59.8215 101.799 60.3899 101.564 60.8089 101.144L95.1794 66.7612H482.663L543.752 127.871ZM1067.22 83.1312L1059.5 75.4093L1068.8 66.1065C1069.22 65.6873 1069.45 65.1188 1069.45 64.5259C1069.45 63.9331 1069.22 63.3645 1068.8 62.9453L1059.5 53.6421L1067.22 45.9206L1085.81 64.5259L1067.22 83.1312ZM1064.06 64.5258L1056.34 56.8031L1048.62 64.5259L1056.34 72.2483L1064.06 64.5258ZM1043.88 62.9452L1053.18 53.6419L1032.19 32.6467L1000.32 64.5258L1032.19 96.4028L1053.18 75.4094L1043.88 66.1066C1043.46 65.6874 1043.22 65.1188 1043.22 64.5259C1043.22 63.933 1043.46 63.3644 1043.88 62.9452ZM38.241 75.4086L59.2288 96.4027L91.0938 64.5258L59.2288 32.6468L38.2406 53.6427L47.5395 62.9453C48.4121 63.8183 48.4121 65.2335 47.5395 66.1064L38.241 75.4086ZM35.0805 56.804L42.7994 64.5259L35.0809 72.2474L27.3616 64.5258L35.0805 56.804ZM31.9205 53.6427L22.6214 62.9453C22.2023 63.3645 21.9669 63.9331 21.9669 64.5259C21.9669 65.1188 22.2024 65.6873 22.6214 66.1065L31.9208 75.4087L24.2015 83.1311L5.60355 64.5259L24.2015 45.9206L31.9205 53.6427ZM545.332 123.129L486.749 64.5259L545.332 5.92232L603.919 64.5259L545.332 123.129Z\u0022 /\u003e\u003c/svg\u003e","image":{"id":17154,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg"},"width":"150"} -->
-<div id="wd-7547933a" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" /></div>
+<div id="wd-7547933a" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" alt="" /></div>
 <!-- /wp:wd/icon --></h2>
 <!-- /wp:wd/title -->
 
@@ -746,7 +746,7 @@
 
 <!-- wp:wd/container {"blockId":"5e3962fb-fbbf-4ef4-92fe-93b5a196c82f","bgColorCode":"#ecf2f7","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"paddingBottomMobile":"20","flexOrderMobile":"1"} -->
 <div id="wd-5e3962fb" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/image {"blockId":"024adca7-6eaa-44fe-b830-87f7ff0cf3dc","image":{"id":17156,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-1.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-1.png","width":484,"height":302}} -->
-<div id="wd-024adca7" class="wp-block-wd-image wd-block-image"><img class="wp-image-17156" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-1.png" /></div>
+<div id="wd-024adca7" class="wp-block-wd-image wd-block-image"><img class="wp-image-17156" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-1.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/timeline-item -->
@@ -760,7 +760,7 @@
 <!-- wp:wd/timeline-item {"blockId":"bad3388d-4208-45ef-8c79-14bb28437a09","layout":"col-2"} -->
 <div id="wd-bad3388d" class="wp-block-wd-timeline-item wd-timeline-item wd-layout-col-2"><div class="wd-timeline-dot"></div><!-- wp:wd/container {"blockId":"bef7682d-63b6-4505-9edc-3cc68501f834","colGap":"","rowGap":"0","bgColorCode":"#ecf2f7","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true,"flexOrderMobile":"1"} -->
 <div id="wd-bef7682d" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/image {"blockId":"5b9db708-28f0-4274-b0a8-6492cdf000a7","image":{"id":17157,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-2.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-2.png","width":485,"height":328}} -->
-<div id="wd-5b9db708" class="wp-block-wd-image wd-block-image"><img class="wp-image-17157" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-2.png" /></div>
+<div id="wd-5b9db708" class="wp-block-wd-image wd-block-image"><img class="wp-image-17157" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-2.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/container -->
 
@@ -810,7 +810,7 @@
 
 <!-- wp:wd/container {"blockId":"d4a03515-fa06-480b-9763-3c1c43bc7dfd","bgColorCode":"#ecf2f7","paddingTop":"20","paddingRight":"20","paddingBottom":"20","paddingLeft":"20","paddingLock":true} -->
 <div id="wd-d4a03515" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/image {"blockId":"bd02f0fc-c718-4031-a094-cb7f1ab0edb4","image":{"id":17158,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-3.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-3.png","width":485,"height":284}} -->
-<div id="wd-bd02f0fc" class="wp-block-wd-image wd-block-image"><img class="wp-image-17158" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-3.png" /></div>
+<div id="wd-bd02f0fc" class="wp-block-wd-image wd-block-image"><img class="wp-image-17158" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-3.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/timeline-item --></div>
@@ -830,7 +830,7 @@
 
 <!-- wp:wd/title {"blockId":"f9e0b83b-b88a-43da-9684-842dbc0f6dd2","textAlign":"center","design":"with-image","content":"Christmas Stories​","tpFontSize":"36","marginBottom":"30","tpFontSizeTablet":"30","tpFontSizeMobile":"28"} -->
 <h2 id="wd-f9e0b83b" class="wp-block-wd-title title wd-align wd-design-with-image wd-icon-bottom"><span>Christmas Stories​</span><!-- wp:wd/icon {"blockId":"491705a6-1817-404a-a941-0fee17191770","svg":"\u003csvg width=\u00221092\u0022 height=\u0022129\u0022 viewBox=\u00220 0 1092 129\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M546.913 101.325C546.494 101.744 545.925 101.979 545.332 101.979C544.74 101.979 544.171 101.744 543.752 101.325L508.545 66.1065C508.126 65.6873 507.89 65.1187 507.89 64.5259C507.89 63.933 508.126 63.3645 508.545 62.9453L543.752 27.7271C544.171 27.3079 544.74 27.0724 545.332 27.0725C545.925 27.0725 546.494 27.308 546.913 27.7272L582.115 62.9454C582.988 63.8183 582.988 65.2335 582.115 66.1064L546.913 101.325ZM545.332 32.469L513.285 64.5259L545.332 96.5828L577.375 64.5259L545.332 32.469Z\u0022 /\u003e\u003cpath fill-rule=\u0022evenodd\u0022 d=\u0022M543.752 127.871C544.625 128.744 546.04 128.744 546.912 127.871L608.004 66.7612H996.236L1030.61 101.145C1031.48 102.017 1032.9 102.017 1033.77 101.145L1056.34 78.5704L1065.64 87.8731C1066.06 88.2923 1066.63 88.5277 1067.22 88.5277C1067.81 88.5276 1068.38 88.2921 1068.8 87.8729L1090.55 66.1063C1091.43 65.2334 1091.43 63.8183 1090.55 62.9454L1068.8 41.1789C1068.38 40.7597 1067.81 40.5241 1067.22 40.5241C1066.63 40.524 1066.06 40.7595 1065.64 41.1787L1056.34 50.4809L1033.77 27.9049C1032.9 27.0319 1031.48 27.0319 1030.61 27.9049L996.236 62.2906H608.004L546.912 1.18056C546.04 0.307639 544.625 0.307658 543.752 1.18058L482.663 62.2906H95.1794L60.809 27.905C60.3899 27.4857 59.8215 27.2502 59.2289 27.2502C58.6362 27.2502 58.0678 27.4857 57.6488 27.9049L35.0806 50.4815L25.7816 41.1788C25.3625 40.7596 24.7941 40.5241 24.2015 40.5241C23.6088 40.5241 23.0404 40.7596 22.6214 41.1788L0.863422 62.9453C-0.00916143 63.8183 -0.00916143 65.2335 0.863422 66.1064L22.6214 87.8729C23.0404 88.2922 23.6088 88.5277 24.2015 88.5277C24.7941 88.5277 25.3625 88.2922 25.7816 87.8729L35.081 78.5698L57.6488 101.144C58.0679 101.564 58.6362 101.799 59.2289 101.799C59.8215 101.799 60.3899 101.564 60.8089 101.144L95.1794 66.7612H482.663L543.752 127.871ZM1067.22 83.1312L1059.5 75.4093L1068.8 66.1065C1069.22 65.6873 1069.45 65.1188 1069.45 64.5259C1069.45 63.9331 1069.22 63.3645 1068.8 62.9453L1059.5 53.6421L1067.22 45.9206L1085.81 64.5259L1067.22 83.1312ZM1064.06 64.5258L1056.34 56.8031L1048.62 64.5259L1056.34 72.2483L1064.06 64.5258ZM1043.88 62.9452L1053.18 53.6419L1032.19 32.6467L1000.32 64.5258L1032.19 96.4028L1053.18 75.4094L1043.88 66.1066C1043.46 65.6874 1043.22 65.1188 1043.22 64.5259C1043.22 63.933 1043.46 63.3644 1043.88 62.9452ZM38.241 75.4086L59.2288 96.4027L91.0938 64.5258L59.2288 32.6468L38.2406 53.6427L47.5395 62.9453C48.4121 63.8183 48.4121 65.2335 47.5395 66.1064L38.241 75.4086ZM35.0805 56.804L42.7994 64.5259L35.0809 72.2474L27.3616 64.5258L35.0805 56.804ZM31.9205 53.6427L22.6214 62.9453C22.2023 63.3645 21.9669 63.9331 21.9669 64.5259C21.9669 65.1188 22.2024 65.6873 22.6214 66.1065L31.9208 75.4087L24.2015 83.1311L5.60355 64.5259L24.2015 45.9206L31.9205 53.6427ZM545.332 123.129L486.749 64.5259L545.332 5.92232L603.919 64.5259L545.332 123.129Z\u0022 /\u003e\u003c/svg\u003e","image":{"id":17154,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg"},"width":"150"} -->
-<div id="wd-491705a6" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" /></div>
+<div id="wd-491705a6" class="wp-block-wd-icon"><img class="wp-image-17154" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg" alt="" /></div>
 <!-- /wp:wd/icon --></h2>
 <!-- /wp:wd/title -->
 
@@ -838,8 +838,8 @@
 															<wp:post_id>17112</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 11:58:32]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-06-18 11:58:32]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 11:18:30]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 11:18:30]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-20 16:12:19]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-20 16:12:19]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-christmas]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -875,7 +875,7 @@
 					<title><![CDATA[xmas-baner-img-1-]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-baner-img-1/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-baner-img-1-.jpg</guid>
 															<wp:post_id>17144</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:40]]></wp:post_date>
@@ -898,7 +898,7 @@
 					<title><![CDATA[xmas-baner-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-baner-img-2/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-baner-img-2.jpg</guid>
 															<wp:post_id>17145</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:40]]></wp:post_date>
@@ -921,7 +921,7 @@
 					<title><![CDATA[xmas-baner-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-baner-img-3/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-baner-img-3.jpg</guid>
 															<wp:post_id>17146</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:40]]></wp:post_date>
@@ -944,7 +944,7 @@
 					<title><![CDATA[xmas-baner-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-baner-img-4/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-baner-img-4.jpg</guid>
 															<wp:post_id>17147</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:41]]></wp:post_date>
@@ -967,7 +967,7 @@
 					<title><![CDATA[xmas-footer-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-footer-img/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-footer-img.jpg</guid>
 															<wp:post_id>17150</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:41]]></wp:post_date>
@@ -990,7 +990,7 @@
 					<title><![CDATA[xmas-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-logo/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-logo.svg</guid>
 															<wp:post_id>17151</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:42]]></wp:post_date>
@@ -1013,7 +1013,7 @@
 					<title><![CDATA[xmas-row-bg-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-row-bg-1/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-row-bg-1.jpg</guid>
 															<wp:post_id>17152</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:42]]></wp:post_date>
@@ -1036,7 +1036,7 @@
 					<title><![CDATA[xmas-santa-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-santa-img/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-santa-img.png</guid>
 															<wp:post_id>17153</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:43]]></wp:post_date>
@@ -1059,7 +1059,7 @@
 					<title><![CDATA[xmas-separator]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-separator/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-separator.svg</guid>
 															<wp:post_id>17154</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:43]]></wp:post_date>
@@ -1082,7 +1082,7 @@
 					<title><![CDATA[xmas-slide-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-slide-opt/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:44 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-slide-opt.jpg</guid>
 															<wp:post_id>17155</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:44]]></wp:post_date>
@@ -1105,7 +1105,7 @@
 					<title><![CDATA[xmas-tree]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-tree/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-tree.svg</guid>
 															<wp:post_id>17159</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:46]]></wp:post_date>
@@ -1128,7 +1128,7 @@
 					<title><![CDATA[xmas-welcome-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-welcome-img/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:46 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-welcome-img.png</guid>
 															<wp:post_id>17160</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:46]]></wp:post_date>
@@ -1151,7 +1151,7 @@
 					<title><![CDATA[christmas-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-3/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-3.jpg</guid>
 															<wp:post_id>17164</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:16]]></wp:post_date>
@@ -1174,7 +1174,7 @@
 					<title><![CDATA[christmas-blog-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-6/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-6.jpg</guid>
 															<wp:post_id>17167</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:17]]></wp:post_date>
@@ -1197,7 +1197,7 @@
 					<title><![CDATA[christmas-blog-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-7/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-7.jpg</guid>
 															<wp:post_id>17168</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:17]]></wp:post_date>
@@ -1220,7 +1220,7 @@
 					<title><![CDATA[christmas-blog-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/christmas-blog-9/</link>
 					<pubDate>Tue, 18 Jun 2024 12:14:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/christmas-blog-9.jpg</guid>
 															<wp:post_id>17169</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:14:18]]></wp:post_date>
@@ -1243,7 +1243,7 @@
 					<title><![CDATA[Footer Christmas]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-christmas</link>
 					<pubDate>Tue, 18 Jun 2024 12:19:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=17183</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"43dc974f-8ea4-4251-817b-9e622ac2c709","bgImage":{"id":17150,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-footer-img.jpg"},"bgPosition":"center center","bgRepeat":"no-repeat","bgDisplaySize":"cover","paddingTop":"115","paddingBottom":"90","shapeDividerTopIcon":"curved-line-top","shapeDividerTopColorCode":"#ecf2f7","shapeDividerTopHeight":80,"paddingBottomMobile":"50"} -->
 <div id="wd-43dc974f" class="wp-block-wd-section wd-bg-parent"><div class="wd-shape-divider wd-pos-top"><svg xmlns="http://www.w3.org/2000/svg" class="curved-line-top_svg__wd-divider" viewBox="0 0 100 100" height="50" preserveAspectRatio="none" size="24"><path class="curved-line-top_svg__elementor-shape-fill" d="M0 0v99c22-20.6 28.7-69.7 61.4-69.7 18.8 0 29.1 16.2 38.6 34V0H0z"></path></svg></div><!-- wp:wd/image {"blockId":"79ca43d2-5442-404b-9fd0-10e2005a2400","image":{"id":17151,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-logo.svg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-logo.svg","width":386,"height":80},"alignSelf":"center","displayWidth":"custom","customWidth":"260"} -->
@@ -1261,7 +1261,7 @@
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/paragraph {"blockId":"eb22e5a4-91e6-4836-9a40-ff94647fb1ef","textAlign":"center","colorScheme":"light","tpFontSize":"11","markColorCode":"#ff0000"} -->
-<p id="wd-eb22e5a4" class="wp-block-wd-paragraph wd-align color-scheme-light"><a href="https://woodmart.xtemos.com/">WOODMART </a>© 2024 CREATED BY <a href="https://xtemos.com/"><span class="wd-highlight">X</span>-TEMOS STUDIO</a>.</p>
+<p id="wd-eb22e5a4" class="wp-block-wd-paragraph wd-align color-scheme-light"><a href="#">WOODMART </a>© 2024 CREATED BY <a href="#"><span class="wd-highlight">X</span>-TEMOS STUDIO</a>.</p>
 <!-- /wp:wd/paragraph --></div>
 <!-- /wp:wd/section -->]]></content:encoded>
 															<wp:post_id>17183</wp:post_id>
@@ -1280,7 +1280,7 @@
 					<title><![CDATA[xmas-dots]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-christmas/xmas-dots/</link>
 					<pubDate>Fri, 30 Aug 2024 07:21:50 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/08/xmas-dots.svg</guid>
 															<wp:post_id>29707</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-30 07:21:50]]></wp:post_date>
@@ -1303,7 +1303,7 @@
 					<title><![CDATA[xmas-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-bg/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-bg.jpg</guid>
 															<wp:post_id>17148</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:41]]></wp:post_date>
@@ -1326,7 +1326,7 @@
 					<title><![CDATA[xmas-timeline-santa-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-timeline-santa-img-1/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:44 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-1.png</guid>
 															<wp:post_id>17156</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:44]]></wp:post_date>
@@ -1349,7 +1349,7 @@
 					<title><![CDATA[xmas-timeline-santa-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-timeline-santa-img-2/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:45 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-2.png</guid>
 															<wp:post_id>17157</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:45]]></wp:post_date>
@@ -1372,7 +1372,7 @@
 					<title><![CDATA[xmas-timeline-santa-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/xmas-timeline-santa-img-3/</link>
 					<pubDate>Tue, 18 Jun 2024 12:13:45 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/xmas-timeline-santa-img-3.png</guid>
 															<wp:post_id>17158</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-18 12:13:45]]></wp:post_date>

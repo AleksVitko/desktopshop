@@ -22,7 +22,7 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 		 *
 		 * @var array
 		 */
-		protected $settings = array();
+		protected $settings = [];
 		/**
 		 * Stores the current value for the CSS editor.
 		 *
@@ -35,19 +35,19 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 		 *
 		 * @var array
 		 */
-		protected $positions = array(
+		protected $positions = [
 			'top',
 			'right',
 			'bottom',
 			'left',
-		);
+		];
 
 		/**
 		 * Stores the parameters passed to the CSS editor.
 		 *
 		 * @var array
 		 */
-		public $params = array();
+		public $params = [];
 
 		/**
 		 * Setters/Getters
@@ -142,7 +142,7 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 		 * @return string
 		 */
 		public function getBorderRadiusOptions() {
-			$radiuses = apply_filters( 'vc_css_editor_border_radius_options_data', array(
+			$radiuses = apply_filters( 'vc_css_editor_border_radius_options_data', [
 				'' => esc_html__( 'None', 'js_composer' ),
 				'1px' => '1px',
 				'2px' => '2px',
@@ -155,7 +155,7 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 				'25px' => '25px',
 				'30px' => '30px',
 				'35px' => '35px',
-			) );
+			] );
 
 			$output = '';
 			foreach ( $radiuses as $radius => $title ) {
@@ -172,7 +172,7 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 		 */
 		public function getBorderStyleOptions() {
 			$output = '<option value="">' . esc_html__( 'Theme defaults', 'js_composer' ) . '</option>';
-			$styles = apply_filters( 'vc_css_editor_border_style_options_data', array(
+			$styles = apply_filters( 'vc_css_editor_border_style_options_data', [
 				esc_html__( 'solid', 'js_composer' ),
 				esc_html__( 'dotted', 'js_composer' ),
 				esc_html__( 'dashed', 'js_composer' ),
@@ -185,7 +185,7 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 				esc_html__( 'outset', 'js_composer' ),
 				esc_html__( 'initial', 'js_composer' ),
 				esc_html__( 'inherit', 'js_composer' ),
-			) );
+			] );
 			foreach ( $styles as $style ) {
 				$output .= '<option value="' . $style . '">' . ucfirst( $style ) . '</option>';
 			}
@@ -200,12 +200,12 @@ if ( ! class_exists( 'WPBakeryCssEditor' ) ) {
 		 */
 		public function getBackgroundStyleOptions() {
 			$output = '<option value="">' . esc_html__( 'Theme defaults', 'js_composer' ) . '</option>';
-			$styles = apply_filters( 'vc_css_editor_background_style_options_data', array(
+			$styles = apply_filters( 'vc_css_editor_background_style_options_data', [
 				esc_html__( 'Cover', 'js_composer' ) => 'cover',
 				esc_html__( 'Contain', 'js_composer' ) => 'contain',
 				esc_html__( 'No Repeat', 'js_composer' ) => 'no-repeat',
 				esc_html__( 'Repeat', 'js_composer' ) => 'repeat',
-			) );
+			] );
 			foreach ( $styles as $name => $style ) {
 				$output .= '<option value="' . $style . '">' . $name . '</option>';
 			}

@@ -24,9 +24,25 @@
         "attachment": "",
         "position": "center center"
     },
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Cabin",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
     "primary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Cabin",
             "font-weight": "600",
@@ -36,12 +52,20 @@
             "color": "#242424"
         }
     ],
+    "secondary-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
     "post-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Cabin",
-            "font-weight": "600",
+            "font-weight": "500",
             "font-style": "",
             "font-subset": "",
             "text-transform": "",
@@ -53,7 +77,6 @@
     ],
     "widget-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Cabin",
             "font-weight": "600",
@@ -70,22 +93,21 @@
             "color": "#333"
         }
     ],
-    "text-font": [
+    "navigation-font": [
         {
-            "custom": "",
             "google": "1",
-            "font-family": "Cabin",
-            "font-weight": "400",
+            "font-family": "Lato",
+            "font-weight": "700",
             "font-style": "",
             "font-subset": "",
-            "font-size": "14",
+            "text-transform": "uppercase",
+            "font-size": "13",
             "tablet": {
                 "font-size": ""
             },
             "mobile": {
                 "font-size": ""
-            },
-            "color": "#767676"
+            }
         }
     ],
     "products_hover": "icons",

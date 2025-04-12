@@ -7,6 +7,40 @@ if ( ! defined( 'WOODMART_THEME_DIR' ) ) {
 	exit( 'No direct script access allowed' );
 }
 
+if ( ! function_exists( 'woodmart_output_sku_in_cart' ) ) {
+	/**
+	 * Show SKU in cart.
+	 *
+	 * @param array   $cart_item Product item.
+	 * @param integer $cart_item_key Cart item key.
+	 * @return void
+	 */
+	function woodmart_output_sku_in_cart( $cart_item, $cart_item_key ) {
+		if ( ! woodmart_get_opt( 'show_sku_in_cart' ) ) {
+			return;
+		}
+
+		$_product = apply_filters( 'woocommerce_cart_item_product', $cart_item['data'], $cart_item, $cart_item_key );
+
+		if ( ! $_product || ! $_product->get_sku() ) {
+			return;
+		}
+
+		?>
+		<div class="wd-product-detail wd-product-sku">
+			<span class="wd-label">
+				<?php echo esc_html__( 'SKU:', 'woodmart' ); ?>
+			</span>
+			<span>
+				<?php echo esc_html( $_product->get_sku() ); ?>
+			</span>
+		</div>
+		<?php
+	}
+
+	add_action( 'woocommerce_after_cart_item_name', 'woodmart_output_sku_in_cart', 5, 2 );
+}
+
 if ( ! function_exists( 'woodmart_woo_set_gutenberg_editor_for_product' ) ) {
 	/**
 	 * Set Gutenberg editor for product.
@@ -74,15 +108,11 @@ if ( ! function_exists( 'woodmart_woo_add_gutenberg_button_action' ) ) {
 		}
 
 		if ( 'yes' === $mode ) {
-			add_filter(
-				'wp_editor_settings',
-				function( $settings ) {
-					$settings['tinymce'] = false;
+			global $_wp_post_type_features;
 
-					return $settings;
-				},
-				10,
-			);
+			if ( isset( $_wp_post_type_features['product'] ) && isset( $_wp_post_type_features['product']['editor'] ) ) {
+				unset( $_wp_post_type_features['product']['editor'] );
+			}
 		}
 
 		?>
@@ -230,12 +260,19 @@ if ( ! function_exists( 'woodmart_clear_shop_per_page_cookie' ) ) {
 	 * Clear shop per page cookie on settings save.
 	 */
 	function woodmart_clear_shop_per_page_cookie() {
-		if ( ! isset( $_COOKIE['shop_per_page'] ) || ! woodmart_woocommerce_installed() ) {
+		if ( ! woodmart_woocommerce_installed() ) {
 			return;
 		}
 
-		unset( $_COOKIE['shop_per_page'] );
-		setcookie( 'shop_per_page', '', -1, '/' );
+		if ( isset( $_COOKIE['shop_per_page'] ) ) {
+			unset( $_COOKIE['shop_per_page'] );
+			setcookie( 'shop_per_page', '', -1, '/' );
+		}
+
+		if ( isset( $_COOKIE['shop_per_row'] ) ) {
+			unset( $_COOKIE['shop_per_row'] );
+			setcookie( 'shop_per_row', '', -1, '/' );
+		}
 	}
 
 	add_action( 'xts_theme_settings_save', 'woodmart_clear_shop_per_page_cookie', 10 );
@@ -2322,6 +2359,7 @@ if ( ! function_exists( 'woodmart_setup_loop' ) ) {
 			'parts_meta'                           => true,
 			'parts_text'                           => true,
 			'parts_btn'                            => true,
+			'parts_published_date'                 => woodmart_get_opt( 'parts_published_date', true ),
 
 			'blog_design'                          => woodmart_get_opt( 'blog_design' ),
 			'blog_type'                            => false,
@@ -2800,3 +2838,104 @@ if ( ! function_exists( 'woodmart_settings_css' ) ) {
 	add_action( 'wp_head', 'woodmart_settings_css', 200 );
 }
 
+if ( ! function_exists( 'woodmart_exclude_post_meta_from_woocommerce_app' ) ) {
+	/**
+	 * Exclude post meta from WooCommerce app.
+	 *
+	 * @param object $response The response object.
+	 * @param object $product The product object.
+	 * @param object $request The request object.
+	 * @return object
+	 */
+	function woodmart_exclude_post_meta_from_woocommerce_app( $response, $product, $request ) {
+		$excluded_meta_keys = array(
+			'wd_page_css_files',
+			'wd_page_css_files_mobile',
+		);
+
+		if ( isset( $response->data['meta_data'] ) && is_array( $response->data['meta_data'] ) ) {
+			foreach ( $response->data['meta_data'] as $index => $meta ) {
+				if ( is_object( $meta ) && isset( $meta->key ) && in_array( $meta->key, $excluded_meta_keys, true ) ) {
+					unset( $response->data['meta_data'][ $index ] );
+				} elseif ( is_array( $meta ) && isset( $meta['key'] ) && in_array( $meta['key'], $excluded_meta_keys, true ) ) {
+					unset( $response->data['meta_data'][ $index ] );
+				}
+			}
+
+			$response->data['meta_data'] = array_values( $response->data['meta_data'] );
+		}
+
+		return $response;
+	}
+
+	add_filter( 'woocommerce_rest_prepare_product_object', 'woodmart_exclude_post_meta_from_woocommerce_app', 10, 3 );
+}
+
+if ( ! function_exists( 'woodmart_change_product_image_with_active_filter' ) ) {
+	/**
+	 * Change product image with active filter attribute.
+	 *
+	 * @param string $image_html Image HTML.
+	 * @param object $product Product object.
+	 * @param string $size Image size.
+	 * @param int    $attach_id Attachment ID.
+	 * @return string
+	 */
+	function woodmart_change_product_image_with_active_filter( $image_html, $product, $size, $attach_id ) {
+		if ( woodmart_get_opt( 'show_filtered_variation_image' ) && $product && $product->is_type( 'variable' ) && $product->get_image_id() === $attach_id ) {
+			$chosen_attributes = WC_Query::get_layered_nav_chosen_attributes();
+
+			if ( ! $chosen_attributes ) {
+				return $image_html;
+			}
+
+			$product_attributes = $product->get_attributes();
+			$valid_attributes   = false;
+
+			foreach ( $chosen_attributes as $attribute => $data ) {
+				if ( ! empty( $product_attributes[ $attribute ] ) ) {
+					$valid_attributes = true;
+					break;
+				}
+			}
+
+			if ( ! $valid_attributes ) {
+				return $image_html;
+			}
+
+			$variation_ids = $product->get_children();
+
+			foreach ( $variation_ids as $variation_id ) {
+				$variation = wc_get_product( $variation_id );
+
+				if ( $variation ) {
+					$attributes = $variation->get_variation_attributes();
+					foreach ( $chosen_attributes as $attribute => $data ) {
+						if ( isset( $attributes[ 'attribute_' . $attribute ] ) && in_array( $attributes[ 'attribute_' . $attribute ], $data['terms'], true ) ) {
+							if ( $variation->get_image_id() ) {
+								return wp_get_attachment_image( $variation->get_image_id(), $size );
+							}
+						}
+					}
+				}
+			}
+		}
+
+		return $image_html;
+	}
+
+	add_filter( 'woodmart_get_product_thumbnail', 'woodmart_change_product_image_with_active_filter', 10, 4 );
+}
+
+if ( ! function_exists( 'woodmart_enqueue_track_order_style' ) ) {
+	/**
+	 * Enqueue track order style.
+	 *
+	 * @return void
+	 */
+	function woodmart_enqueue_track_order_style() {
+		woodmart_enqueue_inline_style( 'woo-el-track-order' );
+	}
+
+	add_action( 'woocommerce_order_tracking_form_start', 'woodmart_enqueue_track_order_style' );
+}

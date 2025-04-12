@@ -535,13 +535,13 @@ Options::add_field(
 		'type'        => 'buttons',
 		'section'     => 'variable_products_section',
 		'options'     => array(
-			'old' => array(
-				'name'  => esc_html__( 'Parent product meta', 'woodmart' ),
-				'value' => 'old',
-			),
 			'new' => array(
 				'name'  => esc_html__( 'Variations products meta', 'woodmart' ),
 				'value' => 'new',
+			),
+			'old' => array(
+				'name'  => esc_html__( 'Parent product meta (deprecated)', 'woodmart' ),
+				'value' => 'old',
 			),
 		),
 		'requires'    => array(
@@ -551,7 +551,7 @@ Options::add_field(
 				'value'   => '1',
 			),
 		),
-		'default'     => 'old',
+		'default'     => 'new',
 		'priority'    => 110,
 	)
 );
@@ -577,6 +577,22 @@ Options::add_field(
 		'step'        => 1,
 		'priority'    => 120,
 		'unit'        => 'var',
+	)
+);
+
+Options::add_field(
+	array(
+		'id'          => 'show_filtered_variation_image',
+		'name'        => esc_html__( 'Show variation image based on filter selection', 'woodmart' ),
+		'hint'        => '<video data-src="' . WOODMART_TOOLTIP_URL . 'show-filtered-variation-image.mp4" autoplay loop muted></video>',
+		'group'       => esc_html__( 'Variations images', 'woodmart' ),
+		'description' => esc_html__( 'Displays the selected variation image based on the chosen filter instead of the default product image.', 'woodmart' ),
+		'type'        => 'switcher',
+		'section'     => 'variable_products_section',
+		'default'     => false,
+		'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+		'off-text'    => esc_html__( 'No', 'woodmart' ),
+		'priority'    => 125,
 	)
 );
 
@@ -844,15 +860,16 @@ Options::add_field(
  */
 Options::add_field(
 	array(
-		'id'           => 'brands_attribute',
-		'name'         => esc_html__( 'Brand attribute', 'woodmart' ),
-		'description'  => wp_kses( __( 'If you want to show brand image on your product page select desired attribute here. Read more information in our <a href="https://xtemos.com/docs-topic/product-brands/" target="_blank">documentation</a>.', 'woodmart' ), true ),
-		'type'         => 'select',
-		'section'      => 'brands_section',
-		'callback'     => 'woodmart_product_attributes_array',
-		'priority'     => 10,
-		'default'      => 'pa_brand',
-		'empty_option' => true,
+		'id'            => 'brands_attribute',
+		'name'          => esc_html__( 'Brand attribute', 'woodmart' ),
+		'description'   => wp_kses( __( 'If you want to show brand image on your product page select desired attribute here. Read more information in our <a href="https://xtemos.com/docs-topic/product-brands/" target="_blank">documentation</a>.', 'woodmart' ), true ),
+		'type'          => 'select',
+		'section'       => 'brands_section',
+		'callback'      => 'woodmart_product_attributes_array',
+		'priority'      => 10,
+		'default'       => '',
+		'default_label' => esc_html__( 'Product brand', 'woodmart' ),
+		'empty_option'  => true,
 	)
 );
 
@@ -1185,6 +1202,8 @@ Options::add_field(
 		'type'        => 'switcher',
 		'section'     => 'cart_section',
 		'default'     => false,
+		'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+		'off-text'    => esc_html__( 'No', 'woodmart' ),
 		'priority'    => 20,
 	)
 );

@@ -68,6 +68,12 @@ class Ajax_Actions extends Singleton {
 		}
 
 		update_option( 'xts_checkout_fields_manager_options', $change_options, false );
+
+		wp_send_json(
+			array(
+				'show_reset_btn' => ! empty( $change_options ),
+			)
+		);
 	}
 
 	/**
@@ -133,7 +139,8 @@ class Ajax_Actions extends Singleton {
 
 		wp_send_json(
 			array(
-				'new_html' => $new_html,
+				'new_html'       => $new_html,
+				'show_reset_btn' => ! empty( $change_options ),
 			)
 		);
 	}
@@ -178,7 +185,8 @@ class Ajax_Actions extends Singleton {
 
 		wp_send_json(
 			array(
-				'new_html' => $new_html,
+				'new_html'       => $new_html,
+				'show_reset_btn' => ! empty( $change_options ),
 			)
 		);
 	}
@@ -250,7 +258,8 @@ class Ajax_Actions extends Singleton {
 
 		wp_send_json(
 			array(
-				'new_html' => $new_html,
+				'new_html'       => $new_html,
+				'show_reset_btn' => ! empty( $change_options ),
 			)
 		);
 	}

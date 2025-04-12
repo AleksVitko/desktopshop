@@ -16,7 +16,9 @@
  * @version 7.0.1
  */
 
-woodmart_search_form( array(
-    'ajax' => true,
-    'post_type' => 'product'
-) );
+woodmart_search_form(
+	array(
+		'ajax'      => true,
+		'post_type' => 'product',
+	)
+);

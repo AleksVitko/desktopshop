@@ -17,9 +17,25 @@
     "btns_accent_bg_hover": {
         "idle": "#d24649"
     },
+    "text-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "400",
+            "font-style": "",
+            "font-subset": "",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "rgb(118,118,118)"
+        }
+    ],
     "primary-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Roboto Slab",
             "font-weight": "600",
@@ -29,20 +45,8 @@
             "color": "#242424"
         }
     ],
-    "secondary-font": [
-        {
-            "custom": "",
-            "google": "1",
-            "font-family": "Dancing Script",
-            "font-weight": "700",
-            "font-style": "",
-            "font-subset": ""
-        }
-    ],
-    "products_hover": "icons",
     "post-titles-font": [
         {
-            "custom": "",
             "google": "1",
             "font-family": "Roboto Slab",
             "font-weight": "600",
@@ -55,6 +59,51 @@
             }
         }
     ],
+    "secondary-font": [
+        {
+            "google": "1",
+            "font-family": "Dancing Script",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": ""
+        }
+    ],
+    "widget-titles-font": [
+        {
+            "google": "1",
+            "font-family": "Poppins",
+            "font-weight": "600",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "16",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            },
+            "color": "#333"
+        }
+    ],
+    "navigation-font": [
+        {
+            "google": "1",
+            "font-family": "Lato",
+            "font-weight": "700",
+            "font-style": "",
+            "font-subset": "",
+            "text-transform": "uppercase",
+            "font-size": "13",
+            "tablet": {
+                "font-size": ""
+            },
+            "mobile": {
+                "font-size": ""
+            }
+        }
+    ],
+    "products_hover": "icons",
     "page-title-size": "large",
     "pages-background": {
         "color": "rgb(236,242,247)",

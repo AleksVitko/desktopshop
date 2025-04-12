@@ -37,9 +37,9 @@ class WPBakeryShortCode_Vc_Images_Carousel extends WPBakeryShortCode_Vc_Gallery 
 	 * Register element specific assets.
 	 */
 	public function jsCssScripts() {
-		wp_register_script( 'vc_transition_bootstrap_js', vc_asset_url( 'lib/vc/vc_carousel/js/transition.min.js' ), array(), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_carousel_js', vc_asset_url( 'lib/vc/vc_carousel/js/vc_carousel.min.js' ), array( 'vc_transition_bootstrap_js' ), WPB_VC_VERSION, true );
-		wp_register_style( 'vc_carousel_css', vc_asset_url( 'lib/vc/vc_carousel/css/vc_carousel.min.css' ), array(), WPB_VC_VERSION );
+		wp_register_script( 'vc_transition_bootstrap_js', vc_asset_url( 'lib/vc/vc_carousel/js/transition.min.js' ), [], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_carousel_js', vc_asset_url( 'lib/vc/vc_carousel/js/vc_carousel.min.js' ), [ 'vc_transition_bootstrap_js' ], WPB_VC_VERSION, true );
+		wp_register_style( 'vc_carousel_css', vc_asset_url( 'lib/vc/vc_carousel/css/vc_carousel.min.css' ), [], WPB_VC_VERSION );
 	}
 
 	/**
@@ -61,11 +61,11 @@ class WPBakeryShortCode_Vc_Images_Carousel extends WPBakeryShortCode_Vc_Gallery 
 		global $_wp_additional_image_sizes;
 		$width = '100%';
 		if ( in_array( $size, get_intermediate_image_sizes(), true ) ) {
-			if ( in_array( $size, array(
+			if ( in_array( $size, [
 				'thumbnail',
 				'medium',
 				'large',
-			), true ) ) {
+			], true ) ) {
 				$width = get_option( $size . '_size_w' ) . 'px';
 			} elseif ( isset( $_wp_additional_image_sizes ) && isset( $_wp_additional_image_sizes[ $size ] ) ) {
 				$width = $_wp_additional_image_sizes[ $size ]['width'] . 'px';

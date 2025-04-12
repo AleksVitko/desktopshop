@@ -43,9 +43,9 @@ class Vc_Shortcodes_Manager {
 	 *
 	 * @var array
 	 */
-	private $shortcode_classes = array(
-		'default' => array(),
-	);
+	private $shortcode_classes = [
+		'default' => [],
+	];
 	/**
 	 * Tag.
 	 *
@@ -106,7 +106,7 @@ class Vc_Shortcodes_Manager {
 			return $this->shortcode_classes[ $currentScope ][ $tag ];
 		}
 		if ( ! isset( $this->shortcode_classes[ $currentScope ] ) ) {
-			$this->shortcode_classes[ $currentScope ] = array();
+			$this->shortcode_classes[ $currentScope ] = [];
 		}
 		$settings = WPBMap::getShortCode( $tag );
 		if ( empty( $settings ) ) {
@@ -154,7 +154,7 @@ class Vc_Shortcodes_Manager {
 	 * @throws \Exception
 	 */
 	public function template( $content = '' ) {
-		return $this->getElementClass( $this->tag )->contentAdmin( array(), $content );
+		return $this->getElementClass( $this->tag )->contentAdmin( [], $content );
 	}
 
 	/**

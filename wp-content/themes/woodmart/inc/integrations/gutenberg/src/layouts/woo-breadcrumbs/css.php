@@ -14,6 +14,44 @@ $block_css->add_css_rules(
 );
 
 $block_css->add_css_rules(
+	$block_selector . ' :is(.wd-breadcrumbs,.yoast-breadcrumb)',
+	array(
+		array(
+			'attr_name' => 'textColorCode',
+			'template'  => '--wd-link-color: {{value}};',
+		),
+		array(
+			'attr_name' => 'textColorVariable',
+			'template'  => '--wd-link-color: var({{value}});',
+		),
+		array(
+			'attr_name' => 'textHoverColorCode',
+			'template'  => '--wd-link-color-hover: {{value}};',
+		),
+		array(
+			'attr_name' => 'textHoverColorVariable',
+			'template'  => '--wd-link-color-hover: var({{value}});',
+		),
+		array(
+			'attr_name' => 'textActiveColorCode',
+			'template'  => '--wd-bcrumb-color-active: {{value}};',
+		),
+		array(
+			'attr_name' => 'textActiveColorVariable',
+			'template'  => '--wd-bcrumb-color-active: var({{value}});',
+		),
+		array(
+			'attr_name' => 'delimiterColorCode',
+			'template'  => '--wd-bcrumb-delim-color: {{value}};',
+		),
+		array(
+			'attr_name' => 'delimiterColorVariable',
+			'template'  => '--wd-bcrumb-delim-color: var({{value}});',
+		),
+	)
+);
+
+$block_css->add_css_rules(
 	$block_selector,
 	array(
 		array(

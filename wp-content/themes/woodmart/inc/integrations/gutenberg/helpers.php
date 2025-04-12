@@ -5,6 +5,8 @@
  * @package Woodmart
  */
 
+use XTS\Gutenberg\Block_Attributes;
+
 if ( ! function_exists( 'xts_parse_blocks_from_content' ) ) {
 	/**
 	 * Parse blocks from content.
@@ -47,7 +49,13 @@ if ( ! function_exists( 'wd_get_gutenberg_element_classes' ) ) {
 			return '';
 		}
 
-		$transform_attrs = array_merge( wd_get_transform_control_attrs( 'transform' ), wd_get_transform_control_attrs( 'transformHover' ), wd_get_transform_control_attrs( 'transformParentHover' ) );
+		$transform_attrs_raw = new Block_Attributes();
+
+		$transform_attrs_raw->add_attr( wd_get_transform_control_attrs( $transform_attrs_raw, 'transform' ) );
+		$transform_attrs_raw->add_attr( wd_get_transform_control_attrs( $transform_attrs_raw, 'transformHover' ) );
+		$transform_attrs_raw->add_attr( wd_get_transform_control_attrs( $transform_attrs_raw, 'transformParentHover' ) );
+
+		$transform_attrs = $transform_attrs_raw->get_attr();
 
 		if ( isset( $transform_attrs['blockId'] ) ) {
 			unset( $transform_attrs['blockId'] );
@@ -108,6 +116,10 @@ if ( ! function_exists( 'wd_get_gutenberg_element_classes' ) ) {
 			$classes .= ' wd_scroll_y_' . $attributes['parallaxScrollY'];
 			$classes .= ' wd_scroll_z_' . $attributes['parallaxScrollZ'];
 			$classes .= ' wd_scroll_smoothness_' . $attributes['parallaxSmoothness'];
+		}
+
+		if ( ! empty( $attributes['className'] ) ) {
+			$classes .= ' ' . $attributes['className'];
 		}
 
 		return $classes;

@@ -157,7 +157,7 @@
 			padding: 0;
 			border: none;
 			border-radius: 0;
-			background-color: transparent;
+			background-color: transparent !important;
 
 			--xts-input-height: auto;
 
@@ -166,7 +166,7 @@
 			// }
 		}
 
-		.vc-button-set-item {
+		.wd-buttons-item.vc-button-set-item {
 			padding: 0;
 			background-color: transparent !important;
 
@@ -184,6 +184,21 @@
 
 		.vc_column {
 			animation: wd-fadeInTooltip .5s ease;
+		}
+
+		// ROW REVERSE OPTION ICON FIX
+
+		&[data-vc-shortcode-param-name="responsive_tabs_advanced"] {
+
+			.wd-buttons-item.vc-button-set-item {
+
+				&[data-value="tablet"] {
+
+					&:before {
+						transform: none;
+					}
+				}
+			}
 		}
 	}
 

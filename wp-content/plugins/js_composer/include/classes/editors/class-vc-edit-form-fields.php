@@ -28,14 +28,14 @@ class Vc_Edit_Form_Fields {
 	 * @since 4.4
 	 * @var array
 	 */
-	protected $atts = array();
+	protected $atts = [];
 	/**
 	 * Configuration settings for the shortcode.
 	 *
 	 * @since 4.4
 	 * @var array
 	 */
-	protected $settings = array();
+	protected $settings = [];
 	/**
 	 * Post ID.
 	 *
@@ -206,20 +206,20 @@ class Vc_Edit_Form_Fields {
 	public function render() {
 		$this->loadDefaultParams();
 		$output = $el_position = '';
-		$groups_content = $groups = array();
+		$groups_content = $groups = [];
 		$params = $this->setting( 'params' );
-		$editor_css_classes = apply_filters( 'vc_edit_form_class', array(
+		$editor_css_classes = apply_filters( 'vc_edit_form_class', [
 			'wpb_edit_form_elements',
 			'vc_edit_form_elements',
-		), $this->atts, $params );
+		], $this->atts, $params );
 		$deprecated = $this->setting( 'deprecated' );
 		require_once vc_path_dir( 'AUTOLOAD_DIR', 'class-vc-settings-presets.php' );
 		$show_settings = false;
 
-		$save_as_template_elements = apply_filters( 'vc_popup_save_as_template_elements', array(
+		$save_as_template_elements = apply_filters( 'vc_popup_save_as_template_elements', [
 			'vc_row',
 			'vc_section',
-		) );
+		] );
 
 		$show_presets = ! in_array( $this->tag, $save_as_template_elements, true ) && vc_user_access()->part( 'presets' )->checkStateAny( true, null )->get();
 
@@ -300,12 +300,12 @@ class Vc_Edit_Form_Fields {
 	 * @return string
 	 */
 	public function renderField( $param, $value ) {
-		$param['vc_single_param_edit_holder_class'] = array(
+		$param['vc_single_param_edit_holder_class'] = [
 			'wpb_el_type_' . $param['type'],
 			'vc_wrapper-param-type-' . $param['type'],
 			'vc_shortcode-param',
 			'vc_column',
-		);
+		];
 
 		if ( ! empty( $param['param_holder_class'] ) ) {
 			$param['vc_single_param_edit_holder_class'][] = $param['param_holder_class'];

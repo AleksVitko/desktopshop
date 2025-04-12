@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.4" created="2024-02-13 12:35" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 12:40" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Elementor 2.0 WoodMart dummy</title>
 	<link>https://dummy.xtemos.com/woodmart2/elementor</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Tue, 13 Feb 2024 12:35:39 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 12:40:58 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>144</wp:term_id>
@@ -212,14 +212,6 @@
 			<wp:meta_value><![CDATA[25000]]></wp:meta_value>
 		</wp:termmeta>
 		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-144-credentials]]></wp:meta_key>
-			<wp:meta_value><![CDATA[requested]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-144-file-data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:3:{s:4:"path";s:36:"/2024/02/xts-term-144-1707827033.css";s:13:"theme_version";s:5:"7.4.0";s:8:"site_url";s:32:"4f146f679d9b7d2ba7fe3593044e8d2b";}]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-144-css-data]]></wp:meta_key>
 			<wp:meta_value><![CDATA[#slider-144 .wd-slide {
 	min-height: 960px;
@@ -240,21 +232,29 @@
 		</wp:termmeta>
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-144-version]]></wp:meta_key>
-			<wp:meta_value><![CDATA[7.4.0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[8.0.6]]></wp:meta_value>
 		</wp:termmeta>
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-144-site-url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[4f146f679d9b7d2ba7fe3593044e8d2b]]></wp:meta_value>
 		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-144-credentials]]></wp:meta_key>
+			<wp:meta_value><![CDATA[requested]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-144-file-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:3:{s:4:"path";s:36:"/2025/01/xts-term-144-1737463029.css";s:13:"theme_version";s:5:"8.0.6";s:8:"site_url";s:32:"4f146f679d9b7d2ba7fe3593044e8d2b";}]]></wp:meta_value>
+		</wp:termmeta>
 		</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.2.4</generator>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
 
 					<item>
 					<title><![CDATA[food-video-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 14:58:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-opt.jpg</guid>
 															<wp:post_id>1956</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 14:58:29]]></wp:post_date>
@@ -277,7 +277,7 @@
 					<title><![CDATA[food-image-bg-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-bg-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-bg-opt.jpg</guid>
 															<wp:post_id>1998</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:07]]></wp:post_date>
@@ -300,7 +300,7 @@
 					<title><![CDATA[food-video-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-1-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-1-opt.jpg</guid>
 															<wp:post_id>1999</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:21]]></wp:post_date>
@@ -323,7 +323,7 @@
 					<title><![CDATA[food-video-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-2-opt.jpg</guid>
 															<wp:post_id>2000</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:31]]></wp:post_date>
@@ -346,7 +346,7 @@
 					<title><![CDATA[food-video-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-3-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-3-opt.jpg</guid>
 															<wp:post_id>2001</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:41]]></wp:post_date>
@@ -369,7 +369,7 @@
 					<title><![CDATA[food-image-bg-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-bg-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:37:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-bg-2-opt.jpg</guid>
 															<wp:post_id>2012</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:37:46]]></wp:post_date>
@@ -392,7 +392,7 @@
 					<title><![CDATA[food-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-page-title/</link>
 					<pubDate>Tue, 19 Oct 2021 10:44:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-page-title.jpg</guid>
 															<wp:post_id>4860</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 10:44:30]]></wp:post_date>
@@ -415,7 +415,7 @@
 					<title><![CDATA[food-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-1/</link>
 					<pubDate>Tue, 19 Oct 2021 11:17:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-1.jpg</guid>
 															<wp:post_id>4892</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:17:58]]></wp:post_date>
@@ -438,7 +438,7 @@
 					<title><![CDATA[food-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-2/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-2.jpg</guid>
 															<wp:post_id>4893</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:00]]></wp:post_date>
@@ -461,7 +461,7 @@
 					<title><![CDATA[food-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-3/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-3.jpg</guid>
 															<wp:post_id>4894</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:01]]></wp:post_date>
@@ -484,7 +484,7 @@
 					<title><![CDATA[food-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-4/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-4.jpg</guid>
 															<wp:post_id>4895</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:03]]></wp:post_date>
@@ -507,7 +507,7 @@
 					<title><![CDATA[food-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-5/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-5.jpg</guid>
 															<wp:post_id>4896</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:05]]></wp:post_date>
@@ -530,7 +530,7 @@
 					<title><![CDATA[food-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-6/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-6.jpg</guid>
 															<wp:post_id>4897</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:07]]></wp:post_date>
@@ -553,7 +553,7 @@
 					<title><![CDATA[food-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-7/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-7.jpg</guid>
 															<wp:post_id>4898</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:09]]></wp:post_date>
@@ -576,7 +576,7 @@
 					<title><![CDATA[food-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-8/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-8.jpg</guid>
 															<wp:post_id>4899</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:10]]></wp:post_date>
@@ -599,7 +599,7 @@
 					<title><![CDATA[food-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-9/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-9.jpg</guid>
 															<wp:post_id>4900</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:12]]></wp:post_date>
@@ -622,7 +622,7 @@
 					<title><![CDATA[food-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-10/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-10.jpg</guid>
 															<wp:post_id>4901</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:13]]></wp:post_date>
@@ -645,7 +645,7 @@
 					<title><![CDATA[food-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-12/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-12.jpg</guid>
 															<wp:post_id>4903</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:17]]></wp:post_date>
@@ -668,7 +668,7 @@
 					<title><![CDATA[slider-food-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/food-slide-1/slider-food-1/</link>
 					<pubDate>Tue, 13 Feb 2024 12:23:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2024/02/slider-food-1.jpeg</guid>
 															<wp:post_id>27380</wp:post_id>
 					<wp:post_date><![CDATA[2024-02-13 12:23:26]]></wp:post_date>
@@ -691,7 +691,7 @@
 					<title><![CDATA[slider-food-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/food-slide-1-2/slider-food-2/</link>
 					<pubDate>Tue, 13 Feb 2024 12:30:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2024/02/slider-food-2.jpeg</guid>
 															<wp:post_id>27398</wp:post_id>
 					<wp:post_date><![CDATA[2024-02-13 12:30:30]]></wp:post_date>
@@ -714,7 +714,7 @@
 					<title><![CDATA[cars-testimon-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-cars/cars-testimon-1/</link>
 					<pubDate>Wed, 01 Sep 2021 16:34:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/cars-testimon-1.jpg</guid>
 															<wp:post_id>1292</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-01 16:34:43]]></wp:post_date>
@@ -737,7 +737,7 @@
 					<title><![CDATA[Home Food]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/</link>
 					<pubDate>Mon, 06 Sep 2021 14:00:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=1931</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-swiper-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-swiper.min.css?ver=7.4.0" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-slider-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-slider.min.css?ver=7.4.0" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-slider-anim-distortion-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-slider-anim-distortion.min.css?ver=7.4.0" type="text/css" media="all" /> 						<link rel="stylesheet" id="xts-style-term-144-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2024/02/xts-term-144-1707827033.css?ver=7.4.0" type="text/css" media="all">  			<style>							#slide-27379 .wd-slide-container {
 										--wd-align-items: center;
@@ -1408,7 +1408,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-rosemary-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-rosemary-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 14:56:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-rosemary-opt.png</guid>
 															<wp:post_id>1949</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 14:56:25]]></wp:post_date>
@@ -1431,7 +1431,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-video-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 14:58:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-opt.jpg</guid>
 															<wp:post_id>1956</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 14:58:29]]></wp:post_date>
@@ -1454,7 +1454,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-signature-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-signature-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:00:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-signature-opt.png</guid>
 															<wp:post_id>1958</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:00:10]]></wp:post_date>
@@ -1477,7 +1477,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-banner-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-banner-1-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:00:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-banner-1-opt.jpg</guid>
 															<wp:post_id>1962</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:00:51]]></wp:post_date>
@@ -1500,7 +1500,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-1-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:09:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-1-opt.jpg</guid>
 															<wp:post_id>1966</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:09:38]]></wp:post_date>
@@ -1523,7 +1523,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-banner-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-banner-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:21:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-banner-2-opt.jpg</guid>
 															<wp:post_id>1983</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:21:31]]></wp:post_date>
@@ -1546,7 +1546,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-banner-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-banner-3-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:21:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-banner-3-opt.jpg</guid>
 															<wp:post_id>1984</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:21:51]]></wp:post_date>
@@ -1569,7 +1569,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-banner-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-banner-4-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:22:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-banner-4-opt.jpg</guid>
 															<wp:post_id>1985</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:22:05]]></wp:post_date>
@@ -1592,7 +1592,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-bg-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-bg-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-bg-opt.jpg</guid>
 															<wp:post_id>1998</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:07]]></wp:post_date>
@@ -1615,7 +1615,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-video-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-1-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-1-opt.jpg</guid>
 															<wp:post_id>1999</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:21]]></wp:post_date>
@@ -1638,7 +1638,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-video-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-2-opt.jpg</guid>
 															<wp:post_id>2000</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:31]]></wp:post_date>
@@ -1661,7 +1661,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-video-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-video-3-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:29:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-video-3-opt.jpg</guid>
 															<wp:post_id>2001</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:29:41]]></wp:post_date>
@@ -1684,7 +1684,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-3-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:31:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-3-opt.jpg</guid>
 															<wp:post_id>2005</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:31:15]]></wp:post_date>
@@ -1707,7 +1707,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-4-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:31:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-4-opt.jpg</guid>
 															<wp:post_id>2006</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:31:43]]></wp:post_date>
@@ -1730,7 +1730,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-5-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:34:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-5-opt.jpg</guid>
 															<wp:post_id>2007</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:34:58]]></wp:post_date>
@@ -1753,7 +1753,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-6-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:35:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-6-opt.jpg</guid>
 															<wp:post_id>2008</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:35:19]]></wp:post_date>
@@ -1776,7 +1776,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/food-product-11/</link>
 					<pubDate>Tue, 19 Oct 2021 11:18:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/food-product-11.jpg</guid>
 															<wp:post_id>4902</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-19 11:18:15]]></wp:post_date>
@@ -1799,7 +1799,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-2/</link>
 					<pubDate>Thu, 02 Nov 2023 13:29:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/11/food-image-2.jpg</guid>
 															<wp:post_id>20606</wp:post_id>
 					<wp:post_date><![CDATA[2023-11-02 13:29:57]]></wp:post_date>
@@ -1822,7 +1822,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[wood-logo-white-reserve]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wood-logo-white-reserve/</link>
 					<pubDate>Thu, 26 Aug 2021 12:45:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/wood-logo-white-reserve.svg</guid>
 															<wp:post_id>114</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-26 12:45:06]]></wp:post_date>
@@ -1840,12 +1840,16 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/08/wood-logo-white-reserve.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369 53" width="369px" height="53px"><path fill="#FFFFFF" d="M95.1,11.2h8.1L93,44.4h-9l-5.7-22.3l-5.8,22.3h-9L53.3,11.2h8.5L68,36.4l6.1-25.3H83l6,25.2L95.1,11.2z"></path><path fill="#FFFFFF" d="M108.2,40.1c-3.2-3.2-4.9-7.3-4.9-12.4c0-5.1,1.6-9.2,4.9-12.4c3.3-3.1,7.4-4.7,12.2-4.7s8.9,1.6,12.2,4.7 c3.3,3.1,4.9,7.2,4.9,12.4c0,5.1-1.6,9.3-5,12.4c-3.3,3.2-7.4,4.7-12.3,4.7C115.5,44.9,111.5,43.3,108.2,40.1z M120.4,37.7 c2.4,0,4.4-0.9,6.1-2.6c1.7-1.7,2.5-4.2,2.5-7.4s-0.8-5.6-2.5-7.3c-1.7-1.7-3.7-2.6-6.1-2.6c-2.4,0-4.4,0.9-6,2.6 c-1.6,1.7-2.5,4.2-2.5,7.4c0,3.2,0.8,5.7,2.5,7.4C116,36.9,118,37.7,120.4,37.7z"></path><path fill="#FFFFFF" d="M143.5,40.1c-3.2-3.2-4.9-7.3-4.9-12.4c0-5.1,1.6-9.2,4.9-12.4c3.3-3.1,7.4-4.7,12.2-4.7s8.9,1.6,12.2,4.7 c3.3,3.1,4.9,7.2,4.9,12.4c0,5.1-1.6,9.3-5,12.4c-3.3,3.2-7.4,4.7-12.3,4.7C150.8,44.9,146.7,43.3,143.5,40.1z M155.7,37.7 c2.4,0,4.4-0.9,6.1-2.6c1.7-1.7,2.5-4.2,2.5-7.4s-0.8-5.6-2.5-7.3c-1.7-1.7-3.7-2.6-6.1-2.6c-2.4,0-4.4,0.9-6,2.6 c-1.6,1.7-2.5,4.2-2.5,7.4c0,3.2,0.8,5.7,2.5,7.4C151.3,36.9,153.3,37.7,155.7,37.7z"></path><path fill="#FFFFFF" d="M179.4,40.1c-3-3.2-4.5-7.3-4.5-12.3c0-5,1.5-9.1,4.4-12.3c3-3.2,6.7-4.8,11.3-4.8c4.6,0,8,1.9,10.4,5.6V0 h8.4v44.4H201v-5.6c-2.5,4-6,6.1-10.5,6.1S182.3,43.3,179.4,40.1z M198.4,34.9c1.8-1.7,2.6-4.1,2.6-7.2c0-3-0.9-5.4-2.6-7.2 c-1.8-1.7-3.8-2.6-6.2-2.6c-2.4,0-4.4,0.9-6.2,2.6c-1.7,1.7-2.6,4.1-2.6,7.1c0,3,0.9,5.4,2.6,7.2c1.8,1.8,3.8,2.6,6.1,2.6 C194.6,37.6,196.6,36.7,198.4,34.9z"></path><path fill="#FFFFFF" d="M222.5,11.2v5c2.1-3.6,5.6-5.5,10.3-5.5c2.5,0,4.8,0.6,6.8,1.7c2,1.2,3.5,2.8,4.6,5c1.2-2.1,2.8-3.7,4.8-4.9 c2-1.2,4.3-1.8,6.8-1.8c4,0,7.2,1.2,9.6,3.7c2.4,2.5,3.6,6,3.6,10.4v19.6h-8.4V26c0-2.6-0.7-4.6-2-6s-3.1-2.1-5.4-2.1 c-2.3,0-4.1,0.7-5.4,2.1s-2,3.4-2,6v18.4h-8.4V26c0-2.6-0.7-4.6-2-6c-1.3-1.4-3.1-2.1-5.4-2.1c-2.3,0-4.1,0.7-5.4,2.1s-2,3.4-2,6 v18.4H214V11.2H222.5z"></path><path fill="#FFFFFF" d="M277.4,40.1c-3-3.2-4.5-7.3-4.5-12.3c0-5,1.5-9.1,4.4-12.3c3-3.2,6.7-4.8,11.3-4.8c4.6,0,8,1.9,10.4,5.6 v-5.2h8.4v33.2h-8.4v-5.6c-2.5,4-6,6.1-10.5,6.1C284.1,44.9,280.4,43.3,277.4,40.1z M296.4,34.9c1.8-1.7,2.6-4.1,2.6-7.2 c0-3-0.9-5.4-2.6-7.2c-1.8-1.7-3.8-2.6-6.2-2.6c-2.4,0-4.4,0.9-6.2,2.6c-1.7,1.7-2.6,4.1-2.6,7.1c0,3,0.9,5.4,2.6,7.2 c1.8,1.8,3.8,2.6,6.2,2.6S294.7,36.7,296.4,34.9z"></path><path fill="#FFFFFF" d="M321.5,11.2V17c2.2-4.2,5.5-6.4,9.7-6.4v8.6h-2.1c-2.5,0-4.4,0.6-5.7,1.9c-1.3,1.3-1.9,3.4-1.9,6.5v16.7 h-8.5V11.2H321.5z"></path><path fill="#FFFFFF" d="M350.7,37.3h4v7.1h-5.3c-3.4,0-6-0.8-7.9-2.3c-1.8-1.6-2.8-4.1-2.8-7.7V18.1h-3.5v-6.9h3.5V2.9h8.5v8.2h7.4 v6.9h-7.4v16.3c0,1.1,0.3,1.9,0.8,2.3C348.6,37.1,349.5,37.3,350.7,37.3z"></path><circle fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="24.2" cy="28.5" r="22.7"></circle><polyline fill="#FFFFFF" points="10,39.8 23.9,11.1 39,39.8 "></polyline><rect x="22.5" y="39.6" fill="#FFFFFF" width="2.9" height="6.3"></rect><g><path fill="#FFFFFF" d="M368.2,39.6c0,1.4-0.5,2.5-1.4,3.4c-0.9,0.9-2.1,1.4-3.4,1.4s-2.5-0.5-3.4-1.4c-0.9-0.9-1.4-2.1-1.4-3.4 c0-1.4,0.5-2.5,1.4-3.4c0.9-0.9,2-1.4,3.4-1.4s2.5,0.5,3.4,1.4C367.7,37.1,368.2,38.3,368.2,39.6z"></path></g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[fashion-testimon-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-fashion/fashion-testimon-2/</link>
 					<pubDate>Wed, 01 Sep 2021 12:08:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/fashion-testimon-2.jpg</guid>
 															<wp:post_id>1018</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-01 12:08:53]]></wp:post_date>
@@ -1868,7 +1872,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[fashion-testimon-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-fashion/fashion-testimon-3/</link>
 					<pubDate>Wed, 01 Sep 2021 12:08:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/fashion-testimon-3.jpg</guid>
 															<wp:post_id>1019</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-01 12:08:54]]></wp:post_date>
@@ -1891,7 +1895,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[Footer 1 column Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-1-column-light</link>
 					<pubDate>Wed, 01 Sep 2021 13:44:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=1033</guid>
 											<content:encoded><![CDATA[<a  href="#">
 								<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/wood-logo-white-reserve.svg" title="wood-logo-white-reserve" width="220" height="30">							</a>
@@ -1956,7 +1960,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[cars-testimon-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-cars/cars-testimon-3/</link>
 					<pubDate>Wed, 01 Sep 2021 16:35:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/cars-testimon-3.jpg</guid>
 															<wp:post_id>1293</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-01 16:35:10]]></wp:post_date>
@@ -1979,7 +1983,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-1-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:24:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-1-opt.jpg</guid>
 															<wp:post_id>1987</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:24:46]]></wp:post_date>
@@ -2002,7 +2006,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:24:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-2-opt.jpg</guid>
 															<wp:post_id>1988</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:24:53]]></wp:post_date>
@@ -2025,7 +2029,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-3-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-3-opt.jpg</guid>
 															<wp:post_id>1989</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:02]]></wp:post_date>
@@ -2048,7 +2052,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-4-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-4-opt.jpg</guid>
 															<wp:post_id>1990</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:12]]></wp:post_date>
@@ -2071,7 +2075,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-5-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-5-opt.jpg</guid>
 															<wp:post_id>1991</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:21]]></wp:post_date>
@@ -2094,7 +2098,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-6-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-6-opt.jpg</guid>
 															<wp:post_id>1992</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:29]]></wp:post_date>
@@ -2117,7 +2121,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-7-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-7-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-7-opt.jpg</guid>
 															<wp:post_id>1993</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:36]]></wp:post_date>
@@ -2140,7 +2144,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-menu-8-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-8-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-8-opt.jpg</guid>
 															<wp:post_id>1994</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:43]]></wp:post_date>
@@ -2163,7 +2167,7 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[food-image-bg-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-image-bg-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:37:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-image-bg-2-opt.jpg</guid>
 															<wp:post_id>2012</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:37:46]]></wp:post_date>
@@ -2186,45 +2190,39 @@ with <em><strong>dijon &amp; capers.</strong></em></h4>
 					<title><![CDATA[Contact form Food]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=2016</link>
 					<pubDate>Mon, 06 Sep 2021 15:39:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=2016</guid>
-											<content:encoded><![CDATA[<div class="row">
-    <div class="col-md-4">            
-        <p><input type="date" value="2021-08-20"></p>             
-    </div>
-    <div class="col-md-4">            
-        <p><select class="form-control" id="1 Prson">
-            <option>1 Prson</option>
-            <option>2 Prson</option>
-            <option>3 Prson</option>
-            <option>4 Prson</option>
-            <option>5 Prson</option>
-            <option>6 Prson</option>
-            <option>7 Prson</option>
-            <option>8 Prson</option>
-        </select></p>            
-    </div>
-    <div class="col-md-4">            
-        <p><select class="form-control">
-            <option>7:00</option>
-            <option>8:00</option>
-            <option>9:00</option>
-            <option>10:00</option>
-            <option>11:00</option>
-            <option>12:00</option>
-            <option>13:00</option>
-            <option>14:00</option>
-        </select></p>           
-    </div>
-    <div class="col-md-12 text-center"  style="margin-top: 10px;">           
-        [submit class:btn class:btn-color-primary "FIND A TABLE"]          
-    </div>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col"></div>
+<div class="wd-col">
+1 Prson
+2 Prson
+3 Prson
+4 Prson
+5 Prson
+6 Prson
+7 Prson
+8 Prson
+</div> 
+<div class="wd-col">
+7:00
+8:00
+9:00
+10:00
+11:00
+12:00
+13:00
+14:00
+</div>
+</div>
+<div class="wd-col text-center">[submit class:btn class:btn-color-primary "FIND A TABLE"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -2238,7 +2236,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -2274,8 +2272,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>2016</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:39:06]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-06 15:39:06]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-06 15:39:06]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-06 15:39:06]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:34:21]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:34:21]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-food]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2284,42 +2282,36 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-    <div class="col-md-4">            
-        <p><input type="date" value="2021-08-20"></p>             
-    </div>
-    <div class="col-md-4">            
-        <p><select class="form-control" id="1 Prson">
-            <option>1 Prson</option>
-            <option>2 Prson</option>
-            <option>3 Prson</option>
-            <option>4 Prson</option>
-            <option>5 Prson</option>
-            <option>6 Prson</option>
-            <option>7 Prson</option>
-            <option>8 Prson</option>
-        </select></p>            
-    </div>
-    <div class="col-md-4">            
-        <p><select class="form-control">
-            <option>7:00</option>
-            <option>8:00</option>
-            <option>9:00</option>
-            <option>10:00</option>
-            <option>11:00</option>
-            <option>12:00</option>
-            <option>13:00</option>
-            <option>14:00</option>
-        </select></p>           
-    </div>
-    <div class="col-md-12 text-center"  style="margin-top: 10px;">           
-        [submit class:btn class:btn-color-primary "FIND A TABLE"]          
-    </div>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col"><input type="date" value="2025-08-20"></div>
+<div class="wd-col"><select class="form-control" id="1 Prson">
+<option>1 Prson</option>
+<option>2 Prson</option>
+<option>3 Prson</option>
+<option>4 Prson</option>
+<option>5 Prson</option>
+<option>6 Prson</option>
+<option>7 Prson</option>
+<option>8 Prson</option>
+</select></div> 
+<div class="wd-col"><select class="form-control">
+<option>7:00</option>
+<option>8:00</option>
+<option>9:00</option>
+<option>10:00</option>
+<option>11:00</option>
+<option>12:00</option>
+<option>13:00</option>
+<option>14:00</option>
+</select></div>
+</div>
+<div class="wd-col text-center">[submit class:btn class:btn-color-primary "FIND A TABLE"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -2330,7 +2322,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -2348,12 +2340,16 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
 							<wp:meta_value><![CDATA[9a45c49765afe1683116641f4b8f6bd5e26e2177]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[wd-cursor-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-cursor-light/</link>
 					<pubDate>Mon, 06 Sep 2021 15:58:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-cursor-light.svg</guid>
 															<wp:post_id>2035</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:58:17]]></wp:post_date>
@@ -2371,12 +2367,16 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/09/wd-cursor-light.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="14" height="14" x="0" y="0" viewBox="0 0 477.883 477.883" style="enable-background:new 0 0 14 14" xml:space="preserve" class=""><g> <g xmlns="http://www.w3.org/2000/svg"> <g> <path d="M468.456,1.808c-4.811-2.411-10.478-2.411-15.289,0l0,0L9.433,223.675c-8.429,4.219-11.842,14.471-7.624,22.9 c2.401,4.798,6.919,8.188,12.197,9.151l176.111,32.034l32.034,176.111c1.311,7.219,7.091,12.793,14.353,13.841 c0.803,0.116,1.613,0.173,2.423,0.171c6.469,0.003,12.383-3.651,15.275-9.438L476.07,24.711 C480.292,16.284,476.883,6.03,468.456,1.808z" fill="#ffffffcc" data-original="#000000" style="" class=""></path> </g> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> </g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[wd-envelope-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-envelope-light/</link>
 					<pubDate>Mon, 06 Sep 2021 15:58:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-envelope-light.svg</guid>
 															<wp:post_id>2036</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:58:18]]></wp:post_date>
@@ -2394,12 +2394,16 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/09/wd-envelope-light.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="14" height="14" x="0" y="0" viewBox="0 0 479.058 479.058" style="enable-background:new 0 0 14 14" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z" fill="#ffffffcc" data-original="#000000" style="" class=""></path></g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[wd-phone-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-phone-light/</link>
 					<pubDate>Mon, 06 Sep 2021 15:58:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-phone-light.svg</guid>
 															<wp:post_id>2037</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:58:19]]></wp:post_date>
@@ -2417,12 +2421,16 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/09/wd-phone-light.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="14" height="14" x="0" y="0" viewBox="0 0 27.442 27.442" style="enable-background:new 0 0 14 14" xml:space="preserve" class=""><g> <g xmlns="http://www.w3.org/2000/svg"> <path d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546 c1.103,0,1.997-0.895,1.997-1.997V1.999C21.491,0.896,20.597,0,19.494,0z M10.872,1.214h5.7c0.144,0,0.261,0.215,0.261,0.481 s-0.117,0.482-0.261,0.482h-5.7c-0.145,0-0.26-0.216-0.26-0.482C10.612,1.429,10.727,1.214,10.872,1.214z M13.722,25.469 c-0.703,0-1.275-0.572-1.275-1.276s0.572-1.274,1.275-1.274c0.701,0,1.273,0.57,1.273,1.274S14.423,25.469,13.722,25.469z M19.995,21.1H7.448V3.373h12.547V21.1z" fill="#ffffffcc" data-original="#000000" style=""></path> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> </g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Food featured menu]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=food-featured-menu</link>
 					<pubDate>Tue, 19 Oct 2021 10:48:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=4861</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-menu-price-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-menu-price.min.css?ver=7.3.0" type="text/css" media="all" /> 					
 					<img width="128" height="128" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-1-opt.jpg" alt="" decoding="async" loading="lazy" />				
@@ -2517,7 +2525,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Food side menu]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=food-side-menu</link>
 					<pubDate>Tue, 19 Oct 2021 10:48:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=4864</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-menu-price-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-menu-price.min.css?ver=7.3.0" type="text/css" media="all" /> 					
 					<img width="128" height="128" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-4-opt.jpg" alt="" decoding="async" loading="lazy" />				
@@ -2612,7 +2620,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-1-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:24:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-1-opt.jpg</guid>
 															<wp:post_id>1987</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:24:46]]></wp:post_date>
@@ -2635,7 +2643,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-2-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:24:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-2-opt.jpg</guid>
 															<wp:post_id>1988</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:24:53]]></wp:post_date>
@@ -2658,7 +2666,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-3-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-3-opt.jpg</guid>
 															<wp:post_id>1989</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:02]]></wp:post_date>
@@ -2681,7 +2689,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-4-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-4-opt.jpg</guid>
 															<wp:post_id>1990</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:12]]></wp:post_date>
@@ -2704,7 +2712,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-5-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-5-opt.jpg</guid>
 															<wp:post_id>1991</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:21]]></wp:post_date>
@@ -2727,7 +2735,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-6-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-6-opt.jpg</guid>
 															<wp:post_id>1992</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:29]]></wp:post_date>
@@ -2750,7 +2758,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-7-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-7-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-7-opt.jpg</guid>
 															<wp:post_id>1993</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:36]]></wp:post_date>
@@ -2773,7 +2781,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[food-menu-8-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-food/food-menu-8-opt/</link>
 					<pubDate>Mon, 06 Sep 2021 15:25:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/food-menu-8-opt.jpg</guid>
 															<wp:post_id>1994</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:25:43]]></wp:post_date>
@@ -2796,7 +2804,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Food slide 1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/food-slide-1/</link>
 					<pubDate>Tue, 13 Feb 2024 12:23:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/elementor/?post_type=woodmart_slide&#038;p=27379</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.4.0" type="text/css" media="all" /> 					
 			<p>ARTWORK IS A LANDSCAPE OF IDEAS</p>
@@ -2895,7 +2903,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Food slide 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/food-slide-1-2/</link>
 					<pubDate>Tue, 13 Feb 2024 12:30:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/elementor/?post_type=woodmart_slide&#038;p=27397</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.4.0" type="text/css" media="all" /> 					
 			<p>ARTWORK IS A LANDSCAPE OF IDEAS</p>

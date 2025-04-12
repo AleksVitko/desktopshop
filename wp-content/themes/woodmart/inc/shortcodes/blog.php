@@ -22,6 +22,7 @@ if( ! function_exists( 'woodmart_shortcode_blog' ) ) {
 					'parts_meta'  => true,
 					'parts_text'  => true,
 					'parts_btn'   => true,
+					'parts_published_date' => true,
 					'items_per_page'  => 12,
 					'offset'  => '',
 					'orderby'  => 'date',
@@ -114,8 +115,9 @@ if( ! function_exists( 'woodmart_shortcode_blog' ) ) {
 		if( ! empty( $taxonomies ) ) {
 			$taxonomy_names = get_object_taxonomies( 'post' );
 			$terms = get_terms( $taxonomy_names, array(
-				'orderby' => 'name',
-				'include' => $taxonomies
+				'orderby'    => 'name',
+				'include'    => $taxonomies,
+				'hide_empty' => apply_filters( 'woodmart_blog_shortcode_hide_empty_terms', true )
 			) );
 
 			if( ! is_wp_error( $terms ) && ! empty( $terms ) ) {
@@ -160,22 +162,18 @@ if( ! function_exists( 'woodmart_shortcode_blog' ) ) {
 		woodmart_set_loop_prop( 'blog_design', $blog_design );
 		woodmart_set_loop_prop( 'img_size', $img_size );
 		woodmart_set_loop_prop( 'blog_columns', $blog_columns );
+		woodmart_set_loop_prop( 'blog_columns_tablet', $blog_columns_tablet );
+		woodmart_set_loop_prop( 'blog_columns_mobile', $blog_columns_mobile );
 		woodmart_set_loop_prop( 'woodmart_loop', 0 );
 		woodmart_set_loop_prop( 'parts_title', $parts_title );
 		woodmart_set_loop_prop( 'parts_meta', $parts_meta );
 		woodmart_set_loop_prop( 'parts_text', $parts_text );
 		woodmart_set_loop_prop( 'parts_btn', $parts_btn );
+		woodmart_set_loop_prop( 'parts_published_date', $parts_published_date );
 		woodmart_set_loop_prop( 'parts_media', $parts_media );
 
 		if ( 'custom' === $img_size && ! empty( $img_size_custom ) ) {
 			woodmart_set_loop_prop( 'img_size_custom', $img_size_custom );
-		}
-
-		if ( 'auto' !== $blog_columns_tablet ) {
-			woodmart_set_loop_prop( 'blog_columns_tablet', $blog_columns_tablet );
-		}
-		if ( 'auto' !== $blog_columns_mobile ) {
-			woodmart_set_loop_prop( 'blog_columns_mobile', $blog_columns_mobile );
 		}
 
 		$parsed_atts['custom_sizes'] = apply_filters( 'woodmart_blog_shortcode_custom_sizes', false );

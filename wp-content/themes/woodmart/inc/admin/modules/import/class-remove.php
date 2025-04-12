@@ -153,6 +153,7 @@ class Remove extends Singleton {
 				$imported_data = $this->delete_terms(
 					array(
 						'product_cat',
+						'product_brand',
 						'pa_brand',
 						'pa_color',
 						'pa_size',

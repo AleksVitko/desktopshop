@@ -103,20 +103,6 @@ if ( !window.vc ) {
 			}
 		},
 		/**
-		 * Slugify a string
-		 *
-		 * @param {string} text The text string to slugify.
-		 * @returns {tring} Slugified string.
-		 */
-		slugify: function ( text ) {
-			return text.toString().toLowerCase()
-				.replace( /\s+/g, '-' ) // Replace spaces with -
-				.replace( /[^\w\-]+/g, '' ) // Remove all non-word characters
-				.replace( /\-\-+/g, '-' ) // Replace multiple - with single -
-				.replace( /^-+/, '' ) // Trim - from start of text
-				.replace( /-+$/, '' ); // Trim - from end of text
-		},
-		/**
 		 * Finds a keyphrase in a provided url slug string
 		 *
 		 * @param {string} slug The url slug string.
@@ -125,8 +111,8 @@ if ( !window.vc ) {
 		 */
 		findKeyphraseInSlug: function ( slug, keyphrase ) {
 			// Slugify the keyphrase and slug (users can use spaces in slug)
-			var slugifiedKeyphrase = this.slugify( keyphrase );
-			var slugifiedSlug = this.slugify( slug );
+			var slugifiedKeyphrase = window.vc.utils.slugify( keyphrase );
+			var slugifiedSlug = window.vc.utils.slugify( slug );
 
 			// Escape special characters in the slugified keyphrase and slug
 			var escapedKeyphrase = slugifiedKeyphrase.replace( /[.*+?^${}()|[\]\\]/g, '\\$&' );

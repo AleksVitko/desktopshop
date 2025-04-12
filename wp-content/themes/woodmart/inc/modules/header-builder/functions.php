@@ -9,7 +9,11 @@ if ( ! function_exists( 'whb_get_header' ) ) {
 	 * @return mixed|null
 	 */
 	function whb_get_header() {
-		return Frontend::get_instance()->header;
+		if ( ! isset( $GLOBALS['woodmart_hb_frontend'] ) ) {
+			return null;
+		}
+
+		return $GLOBALS['woodmart_hb_frontend']->header;
 	}
 }
 
@@ -33,7 +37,7 @@ if ( ! function_exists( 'whb_get_builder' ) ) {
 	 * @return object
 	 */
 	function whb_get_builder() {
-		return Frontend::get_instance()->builder;
+		return $GLOBALS['woodmart_hb_frontend']->builder;
 	}
 }
 
@@ -212,12 +216,18 @@ if ( ! function_exists( 'woodmart_get_header_classes' ) ) {
 	 *
 	 * @return void
 	 */
-	function woodmart_get_header_classes() {
-		$settings              = whb_get_settings();
+	function woodmart_get_header_classes( $echo = true, $settings = array(), $id = '' ) {
 		$custom_product_header = woodmart_get_opt( 'single_product_header' );
 
+		if ( ! $settings ) {
+			$settings = whb_get_settings();
+		}
+		if ( ! $id ) {
+			$id = Frontend::get_instance()->get_current_id();
+		}
+
 		$header_class  = 'whb-header';
-		$header_class .= ' whb-' . Frontend::get_instance()->get_current_id();
+		$header_class .= ' whb-' . $id;
 		$header_class .= ( $settings['overlap'] ) ? ' whb-overcontent' : '';
 		$header_class .= ( $settings['overlap'] && $settings['boxed'] ) ? ' whb-boxed' : '';
 		$header_class .= ( $settings['full_width'] ) ? ' whb-full-width' : '';
@@ -232,7 +242,11 @@ if ( ! function_exists( 'woodmart_get_header_classes' ) ) {
 			$header_class .= ' whb-custom-header';
 		}
 
-		echo 'class="' . esc_attr( $header_class ) . '"';
+		if ( ! $echo ) {
+			return 'class="' . $header_class . '"';
+		} else {
+			echo 'class="' . esc_attr( $header_class ) . '"';
+		}
 	}
 }
 
@@ -277,5 +291,16 @@ if ( ! function_exists( 'woodmart_get_header_body_classes' ) ) {
 		}
 
 		return $classes;
+	}
+}
+
+if ( ! function_exists( 'woodmart_is_header_frontend_editor' ) ) {
+	/**
+	 * Check if header is edited in frontend editor.
+	 *
+	 * @return bool
+	 */
+	function woodmart_is_header_frontend_editor() {
+		return ! empty( $_GET['whb-header-frontend'] ) || ( ! empty( $_GET['action'] ) && 'woodmart_get_header_html' === $_GET['action'] ); // phpcs:ignore
 	}
 }

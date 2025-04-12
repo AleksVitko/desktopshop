@@ -33,6 +33,7 @@ class Frontend extends Singleton {
 		add_filter( 'woocommerce_get_country_locale_default', array( $this, 'change_locale_fields' ) );
 		add_filter( 'woocommerce_get_country_locale_base', array( $this, 'change_locale_fields' ) );
 		add_filter( 'woocommerce_get_country_locale', array( $this, 'change_country_locale_country' ), 20, 1 );
+		add_filter( 'woocommerce_format_postcode', array( $this, 'normalize_postcode' ) );
 	}
 
 	/**
@@ -49,6 +50,19 @@ class Frontend extends Singleton {
 
 		wp_enqueue_script( 'checkout-fields', WOODMART_THEME_DIR . '/js/scripts/wc/checkoutFields' . $minified . '.js', array( 'jquery' ), WOODMART_VERSION, true );
 		wp_localize_script( 'checkout-fields', 'woodmart_checkout_fields', $this->add_localized_settings() );
+	}
+
+	/**
+	 * Normalize postcode.
+	 *
+	 * @param string $postcode Postcode.
+	 */
+	public function normalize_postcode( $postcode ) {
+		if ( '-' === $postcode ) {
+			return '';
+		}
+
+		return $postcode;
 	}
 
 	/**

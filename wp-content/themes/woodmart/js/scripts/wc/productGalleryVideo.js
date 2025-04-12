@@ -342,7 +342,7 @@
 })(jQuery);
 
 window.addEventListener('load',function() {
-	if ( document.querySelector('#www-widgetapi-script') && document.querySelector('.woocommerce-product-gallery .wd-carousel-item.wd-with-video') ) {
+	if ( (document.querySelector("script[src*='googletagmanager.com']") || document.querySelector('#www-widgetapi-script') ) && document.querySelector('.woocommerce-product-gallery .wd-carousel-item.wd-with-video') ) {
 		const tag = document.createElement( 'script' );
 		tag.src = '//www.youtube.com/iframe_api';
 

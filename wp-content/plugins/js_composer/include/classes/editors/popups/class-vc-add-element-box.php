@@ -95,8 +95,8 @@ class Vc_Add_Element_Box {
 	 * @throws \Exception
 	 */
 	public function getMostUsedElements( $shortcodes ) {
-		$usage_count = get_option( 'wpb_usage_count', array() );
-		$most_used_elements = array();
+		$usage_count = get_option( 'wpb_usage_count', [] );
+		$most_used_elements = [];
 		if ( ! empty( $usage_count ) ) {
 			arsort( $usage_count );
 			$most_used_elements = array_slice( $usage_count, 0, 6 );
@@ -180,12 +180,12 @@ class Vc_Add_Element_Box {
 	 * Renders the add element panel template.
 	 */
 	public function render() {
-		vc_include_template( 'editors/popups/vc_ui-panel-add-element.tpl.php', array(
+		vc_include_template( 'editors/popups/vc_ui-panel-add-element.tpl.php', [
 			'box' => $this,
-			'header_tabs_template_variables' => array(
+			'header_tabs_template_variables' => [
 				'categories' => $this->getCategories(),
-			),
-		) );
+			],
+		] );
 	}
 
 	/**
@@ -240,11 +240,11 @@ class Vc_Add_Element_Box {
 
 		foreach ( $categories as $key => $name ) {
 			if ( '_other_category_' === $name ) {
-				$other_tab = array(
+				$other_tab = [
 					'name' => esc_html__( 'Other', 'js_composer' ),
 					'filter' => '.js-category-' . $key,
 					'active' => false,
-				);
+				];
 				continue;
 			}
 
@@ -258,11 +258,11 @@ class Vc_Add_Element_Box {
 				$filter = '.js-category-' . md5( $name );
 			}
 
-			$tabs[] = array(
+			$tabs[] = [
 				'name' => $name,
 				'filter' => $filter,
 				'active' => false,
-			);
+			];
 		}
 
 		if ( $other_tab ) {

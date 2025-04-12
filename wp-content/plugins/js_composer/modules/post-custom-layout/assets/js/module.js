@@ -4,7 +4,7 @@ jQuery( document ).ready( function ( $ ) {
 	$( '#vc_ui-panel-post-settings .vc_post-custom-layout' )
 		.on( 'click', setLayoutToPageSettingsStorage )
 		.on( 'click', setSettingsLayout );
-	$( document ).on( 'wpbPageSettingRoleBack', function ( event ) {
+	$( document ).on( 'wpbPageSettingRollBack', function ( event ) {
 		if ( event.detail.custom_layout ) {
 			switchLayout( event.detail.custom_layout.currentValue );
 		}
@@ -14,6 +14,8 @@ jQuery( document ).ready( function ( $ ) {
 		var selectedLayout = $( e.currentTarget );
 		var layoutName = selectedLayout.attr( 'data-post-custom-layout' );
 		var editorWrapper = $( '#wpb_wpbakery' );
+
+		$( '#vc_settings-post_template' ).toggle( layoutName !== 'blank' );
 
 		// add class that help us to hide some elements on a page that should not
 		// be visible when layout is selected
@@ -62,12 +64,12 @@ jQuery( document ).ready( function ( $ ) {
 		var currentValue = selectedLayout.attr( 'data-post-custom-layout' );
 		var previousValue = currentValue === 'default' ? 'blank' : 'default';
 		var id = 'custom_layout';
-		var payload = window.vc.page_settings_editor || {};
+		var payload = window.vc.pagesettingseditor || {};
 		payload[ id ] = {
 			currentValue: currentValue,
 			previousValue: previousValue
 		};
 
-		window.vc.page_settings_editor = payload;
+		window.vc.pagesettingseditor = payload;
 	}
 });

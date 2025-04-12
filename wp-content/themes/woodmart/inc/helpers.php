@@ -559,7 +559,7 @@ if ( ! function_exists( 'woodmart_vc_parse_multi_attribute' ) ) {
 			'rel'    => '',
 		);
 
-		if ( $value && strpos( $value, 'url:' ) === false && strpos( $value, 'title:' ) === false && strpos( $value, 'target:' ) === false && strpos( $value, 'rel:' ) === false ) { // Fix for widget Banner.
+		if ( $value && ! is_array( $value ) && strpos( $value, 'url:' ) === false && strpos( $value, 'title:' ) === false && strpos( $value, 'target:' ) === false && strpos( $value, 'rel:' ) === false ) { // Fix for widget Banner.
 			$result['url'] = $value;
 
 			return $result;
@@ -664,7 +664,7 @@ if ( ! function_exists( 'woodmart_is_blog_archive' ) ) {
 	 * @return bool
 	 */
 	function woodmart_is_blog_archive() {
-		return ( is_home() || is_search() || is_tag() || is_category() || is_date() || is_author() );
+		return ( is_home() || ( is_search() && ( ! isset( $_GET['post_type'] ) || 'product' !== $_GET['post_type'] ) ) || is_tag() || is_category() || is_date() || is_author() ); // phpcs:ignore
 	}
 }
 
@@ -778,7 +778,7 @@ if ( ! function_exists( 'woodmart_is_social_link_enable' ) ) {
 			$result = true;
 		}
 
-		if ( 'follow' === $type && ( woodmart_get_opt( 'fb_link' ) || woodmart_get_opt( 'twitter_link' ) || woodmart_get_opt( 'google_link' ) || woodmart_get_opt( 'isntagram_link' ) || woodmart_get_opt( 'pinterest_link' ) || woodmart_get_opt( 'youtube_link' ) || woodmart_get_opt( 'tumblr_link' ) || woodmart_get_opt( 'linkedin_link' ) || woodmart_get_opt( 'vimeo_link' ) || woodmart_get_opt( 'flickr_link' ) || woodmart_get_opt( 'github_link' ) || woodmart_get_opt( 'dribbble_link' ) || woodmart_get_opt( 'behance_link' ) || woodmart_get_opt( 'soundcloud_link' ) || woodmart_get_opt( 'spotify_link' ) || woodmart_get_opt( 'ok_link' ) || woodmart_get_opt( 'whatsapp_link' ) || woodmart_get_opt( 'vk_link' ) || woodmart_get_opt( 'snapchat_link' ) || woodmart_get_opt( 'tg_link' ) || woodmart_get_opt( 'tiktok_link' ) || woodmart_get_opt( 'discord_link' ) || woodmart_get_opt( 'yelp_link' ) || woodmart_get_opt( 'social_email_links' ) ) ) {
+		if ( 'follow' === $type && ( woodmart_get_opt( 'fb_link' ) || woodmart_get_opt( 'twitter_link' ) || woodmart_get_opt( 'bluesky_link' ) || woodmart_get_opt( 'google_link' ) || woodmart_get_opt( 'isntagram_link' ) || woodmart_get_opt( 'threads_link' ) || woodmart_get_opt( 'pinterest_link' ) || woodmart_get_opt( 'youtube_link' ) || woodmart_get_opt( 'tumblr_link' ) || woodmart_get_opt( 'linkedin_link' ) || woodmart_get_opt( 'vimeo_link' ) || woodmart_get_opt( 'flickr_link' ) || woodmart_get_opt( 'github_link' ) || woodmart_get_opt( 'dribbble_link' ) || woodmart_get_opt( 'behance_link' ) || woodmart_get_opt( 'soundcloud_link' ) || woodmart_get_opt( 'spotify_link' ) || woodmart_get_opt( 'ok_link' ) || woodmart_get_opt( 'whatsapp_link' ) || woodmart_get_opt( 'vk_link' ) || woodmart_get_opt( 'snapchat_link' ) || woodmart_get_opt( 'tg_link' ) || woodmart_get_opt( 'tiktok_link' ) || woodmart_get_opt( 'discord_link' ) || woodmart_get_opt( 'yelp_link' ) || woodmart_get_opt( 'social_email_links' ) ) ) {
 			$result = true;
 		}
 

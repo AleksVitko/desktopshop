@@ -70,13 +70,8 @@ if( ! class_exists( 'WOODMART_Widget_Search' ) ) {
 			// create widget
 			$this->create_widget( $args );
 		}
-		
 
 		function widget( $args, $instance )	{
-			if ( $this->is_widget_preview() ) {
-				return;
-			}
-
 			extract($args);
 
 			echo wp_kses_post( $before_widget );
@@ -85,26 +80,27 @@ if( ! class_exists( 'WOODMART_Widget_Search' ) ) {
 			$thumbnail = empty( $instance['thumbnail'] ) ? 0 : absint( $instance['thumbnail'] );
 			$price = empty( $instance['price'] ) ? 0 : absint( $instance['price'] );
 			$post_type = empty( $instance['post_type'] ) ? 'product' : $instance['post_type'];
-			
+
 			$categories = true;
-			
+
 			if ( isset( $instance['categories'] ) ) {
 				$categories = empty( $instance['categories'] ) ? 0 : absint( $instance['price'] );
 			}
-			
+
 			if ( $title = apply_filters( 'widget_title', empty( $instance['title'] ) ? '' : $instance['title'], $instance ) ) {
 				echo wp_kses_post( $before_title ) . $title . wp_kses_post( $after_title );
 			}
 
-			woodmart_search_form( array(
-				'ajax' => true,
-				'count' => $number,
-				'thumbnail' => $thumbnail,
-				'show_categories' => $categories,
-				'post_type' => $post_type,
-				'price' => $price,
-			) );
-
+			woodmart_search_form(
+				array(
+					'ajax'            => true,
+					'count'           => $number,
+					'thumbnail'       => $thumbnail,
+					'show_categories' => $categories,
+					'post_type'       => $post_type,
+					'price'           => $price,
+				)
+			);
 
 			echo wp_kses_post( $after_widget );
 		}

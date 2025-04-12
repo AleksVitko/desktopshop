@@ -25,6 +25,8 @@ Options::add_field(
 		'type'        => 'switcher',
 		'section'     => 'performance_other',
 		'default'     => true,
+		'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+		'off-text'    => esc_html__( 'No', 'woodmart' ),
 		'priority'    => 20,
 	)
 );
@@ -188,7 +190,7 @@ foreach ( $config_libraries as $key => $libraries ) {
 						'value'   => true,
 					),
 				),
-				'default'  => 'required',
+				'default'  => isset( $library['default'] ) ? $library['default'] : 'required',
 				'priority' => 60,
 				'class'    => 'xts-col-6',
 			)
@@ -279,6 +281,18 @@ Options::add_field(
 		'section'     => 'performance_lazy_loading',
 		'default'     => false,
 		'priority'    => 10,
+	)
+);
+
+Options::add_field(
+	array(
+		'id'          => 'lazy_loading_bg_images',
+		'name'        => esc_html__( 'Lazy loading for background images', 'woodmart' ),
+		'description' => esc_html__( 'Enables lazy loading for background images in Gutenberg blocks, improving performance by loading images only when they enter the viewport.', 'woodmart' ),
+		'type'        => 'switcher',
+		'section'     => 'performance_lazy_loading',
+		'default'     => false,
+		'priority'    => 15,
 	)
 );
 
@@ -384,6 +398,8 @@ Options::add_field(
 		'name'     => esc_html__( 'Load Elementor animations CSS file', 'woodmart' ),
 		'group'    => esc_html__( 'Elementor', 'woodmart' ),
 		'default'  => '1',
+		'on-text'  => esc_html__( 'Yes', 'woodmart' ),
+		'off-text' => esc_html__( 'No', 'woodmart' ),
 		'priority' => 30,
 	)
 );
@@ -395,8 +411,9 @@ Options::add_field(
 		'section'  => 'plugins_section',
 		'name'     => esc_html__( 'Load Elementor icons CSS file', 'woodmart' ),
 		'group'    => esc_html__( 'Elementor', 'woodmart' ),
-		'woodmart',
 		'default'  => '1',
+		'on-text'  => esc_html__( 'Yes', 'woodmart' ),
+		'off-text' => esc_html__( 'No', 'woodmart' ),
 		'priority' => 40,
 	)
 );

@@ -8,7 +8,7 @@
 		--wd-row-gap: 0px; // NOTE FIX CONFLICT WITH GUTENBERG TABS
 		flex-grow: 1;
 		flex-basis: 100%;
-		animation: wd-fadeIn .6s ease both;
+		animation: wd-fadeIn .6s ease backwards;
 		align-items: flex-start; // NOTE FIX CONFLICT WITH GUTENBERG TABS
 
 		.wd-nav-tabs {

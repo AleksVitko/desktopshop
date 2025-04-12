@@ -1081,6 +1081,8 @@ Options::add_field(
 		'type'     => 'switcher',
 		'section'  => 'general_search',
 		'default'  => '1',
+		'on-text'  => esc_html__( 'Yes', 'woodmart' ),
+		'off-text' => esc_html__( 'No', 'woodmart' ),
 		'priority' => 30,
 	)
 );

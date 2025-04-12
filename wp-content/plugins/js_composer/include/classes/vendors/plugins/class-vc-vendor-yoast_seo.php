@@ -30,14 +30,14 @@ class Vc_Vendor_YoastSeo {
 	 * Vc_Vendor_YoastSeo constructor.
 	 */
 	public function __construct() {
-		add_action( 'vc_backend_editor_render', array(
+		add_action( 'vc_backend_editor_render', [
 			$this,
 			'enqueueJs',
-		) );
-		add_filter( 'wpseo_sitemap_urlimages', array(
+		] );
+		add_filter( 'wpseo_sitemap_urlimages', [
 			$this,
 			'filterSitemapUrlImages',
-		), 10, 2 );
+		], 10, 2 );
 	}
 
 	/**
@@ -47,10 +47,10 @@ class Vc_Vendor_YoastSeo {
 	 */
 	public function load() {
 		if ( class_exists( 'WPSEO_Metabox' ) && ( 'admin_page' === vc_mode() || 'admin_frontend_editor' === vc_mode() ) ) {
-			add_filter( 'wpseo_pre_analysis_post_content', array(
+			add_filter( 'wpseo_pre_analysis_post_content', [
 				$this,
 				'filterResults',
-			) );
+			] );
 		}
 	}
 
@@ -92,9 +92,9 @@ class Vc_Vendor_YoastSeo {
 		}
 		wp_enqueue_script( 'yoast-seo-post-scraper' );
 		wp_enqueue_script( 'yoast-seo-admin-global-script' );
-		wp_enqueue_script( 'vc_vendor_seo_js', vc_asset_url( 'js/vendors/seo.js' ), array(
+		wp_enqueue_script( 'vc_vendor_seo_js', vc_asset_url( 'js/vendors/seo.js' ), [
 			'underscore',
-		), WPB_VC_VERSION, true );
+		], WPB_VC_VERSION, true );
 	}
 
 	/**
@@ -102,47 +102,47 @@ class Vc_Vendor_YoastSeo {
 	 */
 	public function frontendEditorBuild() {
 		$vc_yoast_meta_box = $GLOBALS['wpseo_metabox'];
-		remove_action( 'admin_init', array(
+		remove_action( 'admin_init', [
 			$GLOBALS['wpseo_meta_columns'],
 			'setup_hooks',
-		) );
+		] );
 		apply_filters( 'wpseo_use_page_analysis', false );
-		remove_action( 'add_meta_boxes', array(
+		remove_action( 'add_meta_boxes', [
 			$vc_yoast_meta_box,
 			'add_meta_box',
-		) );
-		remove_action( 'admin_enqueue_scripts', array(
+		] );
+		remove_action( 'admin_enqueue_scripts', [
 			$vc_yoast_meta_box,
 			'enqueue',
-		) );
-		remove_action( 'wp_insert_post', array(
+		] );
+		remove_action( 'wp_insert_post', [
 			$vc_yoast_meta_box,
 			'save_postdata',
-		) );
-		remove_action( 'edit_attachment', array(
+		] );
+		remove_action( 'edit_attachment', [
 			$vc_yoast_meta_box,
 			'save_postdata',
-		) );
-		remove_action( 'add_attachment', array(
+		] );
+		remove_action( 'add_attachment', [
 			$vc_yoast_meta_box,
 			'save_postdata',
-		) );
-		remove_action( 'post_submitbox_start', array(
+		] );
+		remove_action( 'post_submitbox_start', [
 			$vc_yoast_meta_box,
 			'publish_box',
-		) );
-		remove_action( 'admin_init', array(
+		] );
+		remove_action( 'admin_init', [
 			$vc_yoast_meta_box,
 			'setup_page_analysis',
-		) );
-		remove_action( 'admin_init', array(
+		] );
+		remove_action( 'admin_init', [
 			$vc_yoast_meta_box,
 			'translate_meta_boxes',
-		) );
-		remove_action( 'admin_footer', array(
+		] );
+		remove_action( 'admin_footer', [
 			$vc_yoast_meta_box,
 			'template_keyword_tab',
-		) );
+		] );
 	}
 
 	/**
@@ -161,10 +161,10 @@ class Vc_Vendor_YoastSeo {
 					$ids = explode( ',', $m );
 					foreach ( $ids as $id ) {
 						if ( (int) $id ) {
-							$images[] = array(
+							$images[] = [
 								'src' => wp_get_attachment_url( $id ),
 								'title' => get_the_title( $id ),
-							);
+							];
 						}
 					}
 				}

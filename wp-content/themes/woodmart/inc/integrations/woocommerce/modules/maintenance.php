@@ -34,7 +34,7 @@ if ( ! function_exists( 'woodmart_is_maintenance_active' ) ) {
 		$maintenance_access_key = woodmart_get_opt( 'maintenance_access_key' );
 		$is_access_key          = ! empty( $maintenance_access_key ) && isset( $_GET[ $maintenance_access_key ] ); //phpcs:ignore;
 
-		if ( ! $maintenance_mode || is_user_logged_in() || $is_access_key ) {
+		if ( ! $maintenance_mode || is_user_logged_in() || $is_access_key || ! woodmart_pages_ids_from_template( 'maintenance' ) ) {
 			return false;
 		}
 

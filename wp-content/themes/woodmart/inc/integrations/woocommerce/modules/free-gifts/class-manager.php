@@ -265,6 +265,7 @@ class Manager extends Singleton {
 					break;
 				case 'product_cat':
 				case 'product_tag':
+				case 'product_brand':
 				case 'product_attr_term':
 					$terms = wp_get_post_terms( $product->get_id(), get_taxonomies(), array( 'fields' => 'ids' ) );
 
@@ -312,20 +313,27 @@ class Manager extends Singleton {
 	 * Renurn true if the price in the cart within the rules.
 	 *
 	 * @param array     $gift_rule List of meta box arguments.
-	 * @param int|false $total_price Total cart price.
+	 * @param int|false $cart_price Total or subtotal cart price.
 	 *
 	 * @return bool
 	 */
-	public function check_free_gifts_totals( $gift_rule, $total_price = false ) {
-		if ( false === $total_price ) {
-			$totals      = WC()->cart->get_totals();
-			$total_price = $totals['total'];
+	public function check_free_gifts_totals( $gift_rule, $cart_price = false ) {
+		if ( false === $cart_price ) {
+			$totals     = WC()->cart->get_totals();
+			$cart_price = $totals['subtotal'];
+
+			if ( isset( $gift_rule['free_gifts_cart_price_type'] ) && in_array( $gift_rule['free_gifts_cart_price_type'], array( 'subtotal', 'total' ), true ) ) {
+				$cart_price = $totals[ $gift_rule['free_gifts_cart_price_type'] ];
+			}
 		}
 
-		$condition = $total_price >= $gift_rule['free_gifts_cart_total_min'];
+		$min_price = $gift_rule['free_gifts_cart_total_min'];
+		$max_price = $gift_rule['free_gifts_cart_total_max'];
 
-		if ( ! empty( $gift_rule['free_gifts_cart_total_max'] ) ) {
-			$condition = $condition && $total_price <= $gift_rule['free_gifts_cart_total_max'];
+		$condition = $cart_price >= $min_price;
+
+		if ( ! empty( $max_price ) ) {
+			$condition = $condition && $cart_price <= $max_price;
 		}
 
 		return $condition;
@@ -351,6 +359,7 @@ class Manager extends Singleton {
 			case 'product_type':
 			case 'product_cat':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 				$priority = 30;
 				break;

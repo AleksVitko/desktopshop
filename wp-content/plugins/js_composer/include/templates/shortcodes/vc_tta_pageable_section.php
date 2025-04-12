@@ -27,7 +27,7 @@ WPBakeryShortCode_Vc_Tta_Section::$section_info[] = $atts;
 $is_page_editable = vc_is_page_editable();
 
 $output = '';
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $atts['el_id'] ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $atts['el_id'] ) . '"';
 }

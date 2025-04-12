@@ -38,10 +38,10 @@ class Vc_Updater {
 	 * Vc_Updater initialization.
 	 */
 	public function init() {
-		add_filter( 'upgrader_pre_download', array(
+		add_filter( 'upgrader_pre_download', [
 			$this,
 			'preUpgradeFilter',
-		), 10, 4 );
+		], 10, 4 );
 	}
 
 	/**
@@ -89,7 +89,7 @@ class Vc_Updater {
 		if ( $filter_add ) {
 			add_filter( 'https_ssl_verify', '__return_false' );
 		}
-		$response = wp_remote_get( $url, array( 'timeout' => 30 ) );
+		$response = wp_remote_get( $url, [ 'timeout' => 30 ] );
 
 		if ( $filter_add ) {
 			remove_filter( 'https_ssl_verify', '__return_false' );
@@ -103,7 +103,7 @@ class Vc_Updater {
 	}
 
 	/**
-	 * Get download utl.
+	 * Get download url.
 	 *
 	 * @return string
 	 */
@@ -112,6 +112,10 @@ class Vc_Updater {
 		$key = rawurlencode( vc_license()->getLicenseKey() );
 
 		$url = $this->download_link_url . '?product=vc&url=' . $host . '&key=' . $key . '&version=' . WPB_VC_VERSION;
+
+		if ( $this->isBetaEnabled() ) {
+			$url .= '&beta=1';
+		}
 
 		return $url;
 	}
@@ -123,6 +127,15 @@ class Vc_Updater {
 	 */
 	public static function getUpdaterUrl() {
 		return vc_is_network_plugin() ? network_admin_url( 'admin.php?page=vc-updater' ) : admin_url( 'admin.php?page=vc-updater' );
+	}
+
+	/**
+	 * Check if beta version is enabled.
+	 *
+	 * @return bool
+	 */
+	public function isBetaEnabled() {
+		return (bool) get_option( 'wpb_js_beta_version', false );
 	}
 
 	/**
@@ -142,7 +155,7 @@ class Vc_Updater {
 			return $reply;
 		}
 
-		$res = $updater->fs_connect( array( WP_CONTENT_DIR ) );
+		$res = $updater->fs_connect( [ WP_CONTENT_DIR ] );
 		if ( ! $res ) {
 			return new WP_Error( 'no_credentials', esc_html__( "Error! Can't connect to filesystem", 'js_composer' ) );
 		}

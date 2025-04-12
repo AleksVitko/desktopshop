@@ -23,7 +23,7 @@ class Vc_Mapper {
 	 * @since 4.2
 	 * @var array
 	 */
-	protected $init_activity = array();
+	protected $init_activity = [];
 	/**
 	 * Stores element-specific activities.
 	 *
@@ -31,14 +31,14 @@ class Vc_Mapper {
 	 *
 	 * @var array
 	 */
-	protected $element_activities = array();
+	protected $element_activities = [];
 
 	/**
 	 * Caches access rights for shortcodes.
 	 *
 	 * @var array
 	 */
-	protected $hasAccess = array();
+	protected $hasAccess = [];
 
 	/**
 	 * Check access rights for shortcodes.
@@ -81,12 +81,12 @@ class Vc_Mapper {
 	 *
 	 * @see WPBMAP
 	 */
-	public function addActivity( $object, $method, $params = array() ) { // phpcs:ignore:Universal.NamingConventions.NoReservedKeywordParameterNames.objectFound
-		$this->init_activity[] = array(
+	public function addActivity( $object, $method, $params = [] ) { // phpcs:ignore:Universal.NamingConventions.NoReservedKeywordParameterNames.objectFound
+		$this->init_activity[] = [
 			$object,
 			$method,
 			$params,
-		);
+		];
 	}
 
 	/**
@@ -100,14 +100,14 @@ class Vc_Mapper {
 	 *
 	 * @see WPBMAP
 	 */
-	public function addElementActivity( $tag, $method, $params = array() ) {
+	public function addElementActivity( $tag, $method, $params = [] ) {
 		if ( ! isset( $this->element_activities[ $tag ] ) ) {
-			$this->element_activities[ $tag ] = array();
+			$this->element_activities[ $tag ] = [];
 		}
-		$this->element_activities[ $tag ][] = array(
+		$this->element_activities[ $tag ][] = [
 			$method,
 			$params,
-		);
+		];
 	}
 
 	/**

@@ -36,6 +36,8 @@ class Conditions extends Field {
 
 		// Select2 values for Discount Condition options.
 		add_action( 'wp_ajax_wd_conditions_query', array( $this, 'conditions_query' ) );
+
+		add_filter( 'woodmart_admin_localized_string_array', array( $this, 'add_localized_settings' ) );
 	}
 
 	/**
@@ -83,6 +85,10 @@ class Conditions extends Field {
 				),
 			),
 		);
+
+		if ( taxonomy_exists( 'product_brand' ) ) {
+			$this->args['inner_fields']['type']['options']['product_brand'] = esc_html__( 'Product brand', 'woodmart' );
+		}
 	}
 
 	/**
@@ -100,6 +106,7 @@ class Conditions extends Field {
 			case 'product_cat':
 			case 'product_cat_children':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 				$taxonomy = array();
 
@@ -113,6 +120,9 @@ class Conditions extends Field {
 					foreach ( wc_get_attribute_taxonomies() as $attribute ) {
 						$taxonomy[] = 'pa_' . $attribute->attribute_name;
 					}
+				}
+				if ( 'product_brand' === $query_type && taxonomy_exists( 'product_brand' ) ) {
+					$taxonomy[] = 'product_brand';
 				}
 
 				$terms = get_terms(
@@ -188,15 +198,18 @@ class Conditions extends Field {
 			case 'product_cat':
 			case 'product_cat_children':
 			case 'product_tag':
+			case 'product_brand':
 			case 'product_attr_term':
 				$taxonomy = '';
 
 				if ( 'product_cat' === $query_type || 'product_cat_children' === $query_type ) {
 					$taxonomy = 'product_cat';
 				}
-
 				if ( 'product_tag' === $query_type ) {
 					$taxonomy = 'product_tag';
+				}
+				if ( 'product_brand' === $query_type ) {
+					$taxonomy = 'product_brand';
 				}
 
 				if ( 'product_attr_term' === $query_type ) {
@@ -293,7 +306,7 @@ class Conditions extends Field {
 					</select>
 				</div>
 
-				<div class="xts-condition-close">
+				<div class="xts-close">
 					<a href="#" class="xts-remove-item xts-bordered-btn xts-color-warning xts-style-icon xts-i-close"></a>
 				</div>
 			</div>
@@ -310,7 +323,7 @@ class Conditions extends Field {
 				<div class="xts-condition-query <?php echo empty( $selected_condition_query ) ? 'xts-hidden' : ''; ?>">
 					<label><?php esc_html_e( 'Condition query', 'woodmart' ); ?></label>
 				</div>
-				<div class="xts-condition-remove"></div>
+				<div class="xts-close"></div>
 			</div>
 			<?php foreach ( $conditions as $id => $condition_args ) : //phpcs:ignore. ?>
 				<?php
@@ -381,18 +394,18 @@ class Conditions extends Field {
 		wp_enqueue_script( 'select2', WOODMART_ASSETS . '/js/libs/select2.full.min.js', array(), woodmart_get_theme_info( 'Version' ), true );
 		wp_enqueue_script( 'woodmart-admin-options', WOODMART_ASSETS . '/js/options.js', array(), WOODMART_VERSION, true );
 		wp_enqueue_script( 'wd-conditions', WOODMART_ASSETS . '/js/conditions.js', array(), woodmart_get_theme_info( 'Version' ), true );
-
-		wp_localize_script( 'wd-conditions', 'wd_conditions_notice', $this->add_localized_settings() );
 	}
 
 	/**
 	 * Add localized settings.
 	 *
+	 * @param array $localize_data List of localized dates.
+	 *
 	 * @return array
 	 */
-	public function add_localized_settings() {
-		return array(
-			'no_discount_condition' => esc_html__( 'At least one condition is required.', 'woodmart' ),
-		);
+	public function add_localized_settings( $localize_data ) {
+		$localize_data['no_discount_condition'] = esc_html__( 'At least one condition is required.', 'woodmart' );
+
+		return $localize_data;
 	}
 }

@@ -81,10 +81,19 @@ if ( ! class_exists( 'WOODMART_Stock_Status' ) ) {
 
 				$query->set( 'meta_query', array_merge( WC()->query->get_meta_query(), $meta_query ) );
 			}
+
+			if ( in_array( 'onsale', $current_stock_status, true ) ) {
+				$product_ids_on_sale = wc_get_product_ids_on_sale();
+
+				if ( empty( $product_ids_on_sale ) ) {
+					$query->set( 'post__in', array( 0 ) );
+				}
+			}
 		}
 
 		public function show_on_sale_products( $ids ) {
 			$current_stock_status = isset( $_GET['stock_status'] ) ? explode( ',', $_GET['stock_status'] ) : array();
+
 			if ( in_array( 'onsale', $current_stock_status ) ) {
 				$ids = array_merge( $ids, wc_get_product_ids_on_sale() );
 			}
@@ -118,10 +127,6 @@ if ( ! class_exists( 'WOODMART_Stock_Status' ) ) {
 		}
 
 		function widget( $args, $instance ) {
-			if ( $this->is_widget_preview() ) {
-				return;
-			}
-
 			extract( $args );
 
 			echo wp_kses_post( $before_widget );

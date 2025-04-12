@@ -408,7 +408,6 @@ return array(
 			'title' => esc_html__( 'Widget recent post or comments', 'woodmart' ),
 			'name'  => 'widget-recent-post-comments',
 			'file'  => '/css/parts/widget-recent-post-comments',
-			'rtl'   => true,
 		),
 	),
 	'widget-wd-recent-posts'                                    => array(
@@ -465,7 +464,6 @@ return array(
 			'title' => esc_html__( 'Widget products', 'woodmart' ),
 			'name'  => 'widget-product-list',
 			'file'  => '/css/parts/woo-widget-product-list',
-			'rtl'   => true,
 		),
 	),
 	'widget-product-upsells'                                    => array(
@@ -480,7 +478,6 @@ return array(
 			'title' => esc_html__( 'Widget shopping cart', 'woodmart' ),
 			'name'  => 'widget-shopping-cart',
 			'file'  => '/css/parts/woo-widget-shopping-cart',
-			'rtl'   => true,
 		),
 	),
 	'widget-slider-price-filter'                                => array(
@@ -495,6 +492,13 @@ return array(
 			'title' => esc_html__( 'Widget user panel', 'woodmart' ),
 			'name'  => 'widget-user-panel',
 			'file'  => '/css/parts/woo-widget-user-panel',
+		),
+	),
+	'widget-brand-thumbnails'                                         => array(
+		array(
+			'title' => esc_html__( 'Widget brand thumbnails', 'woodmart' ),
+			'name'  => 'widget-brand-thumbnails',
+			'file'  => '/css/parts/woo-widget-brand-thumbnails',
 		),
 	),
 	'widget-woo-other'                                          => array(
@@ -645,7 +649,6 @@ return array(
 			'title' => esc_html__( 'Footer base', 'woodmart' ),
 			'name'  => 'footer-base',
 			'file'  => '/css/parts/footer-base',
-			'rtl'   => true,
 		),
 	),
 	// Header.
@@ -766,7 +769,6 @@ return array(
 			'title' => esc_html__( 'Header search fullscreen', 'woodmart' ),
 			'name'  => 'header-search-fullscreen',
 			'file'  => '/css/parts/header-el-search-fullscreen-general',
-			'rtl'   => true,
 		),
 	),
 	'header-search-fullscreen-1'                                => array(
@@ -774,7 +776,6 @@ return array(
 			'title' => esc_html__( 'Header search fullscreen 1', 'woodmart' ),
 			'name'  => 'header-search-fullscreen-1',
 			'file'  => '/css/parts/header-el-search-fullscreen-1',
-			'rtl'   => true,
 		),
 	),
 	'header-search-fullscreen-2'                                => array(
@@ -782,7 +783,6 @@ return array(
 			'title' => esc_html__( 'Header search fullscreen 2', 'woodmart' ),
 			'name'  => 'header-search-fullscreen-2',
 			'file'  => '/css/parts/header-el-search-fullscreen-2',
-			'rtl'   => true,
 		),
 	),
 	'wd-search-form'                                            => array(
@@ -790,7 +790,6 @@ return array(
 			'title' => esc_html__( 'Woodmart search form', 'woodmart' ),
 			'name'  => 'wd-search-form',
 			'file'  => '/css/parts/wd-search-form',
-			'rtl'   => true,
 		),
 	),
 	'wd-search-cat'                                             => array(
@@ -1113,6 +1112,13 @@ return array(
 			'title' => esc_html__( 'Cart totals layout 2', 'woodmart' ),
 			'name'  => 'woo-page-cart-el-cart-totals-layout-2',
 			'file'  => '/css/parts/woo-page-cart-el-cart-totals-layout-2',
+		),
+	),
+	'wp-blocks-cart-checkout'                                     => array(
+		array(
+			'title' => esc_html__( 'Cart & Checkout blocks', 'woodmart' ),
+			'name'  => 'wp-blocks-cart-checkout',
+			'file'  => '/css/parts/wp-blocks-cart-checkout',
 		),
 	),
 	'page-checkout'                                             => array(
@@ -1931,7 +1937,6 @@ return array(
 			'title' => esc_html__( 'Dokan integration', 'woodmart' ),
 			'name'  => 'woo-dokan-vend',
 			'file'  => '/css/parts/int-woo-dokan-vend',
-			'rtl'   => true,
 		),
 	),
 	'woo-extra-prod-opt'                                        => array(
@@ -1984,6 +1989,13 @@ return array(
 			'file'  => '/css/parts/int-woo-klarna',
 		),
 	),
+	'woo-cartflows-checkout'                                                => array(
+		array(
+			'title' => esc_html__( 'WooCommerce Checkout & Funnel Builder by CartFlows integration', 'woodmart' ),
+			'name'  => 'woo-cartflows-checkout',
+			'file'  => '/css/parts/int-woo-cartflows-checkout',
+		),
+	),
 	'woo-payments'                                              => array(
 		array(
 			'title' => esc_html__( 'WooCommerce Payments integration', 'woodmart' ),
@@ -1997,6 +2009,20 @@ return array(
 			'title' => esc_html__( 'Paypal Payments integration', 'woodmart' ),
 			'name'  => 'woo-paypal-payments',
 			'file'  => '/css/parts/int-woo-paypal-payments',
+		),
+	),
+	'woo-payment-plugin-stripe'                                                => array(
+		array(
+			'title' => esc_html__( 'Payment plugins for stripe integration', 'woodmart' ),
+			'name'  => 'woo-payment-plugin-stripe',
+			'file'  => '/css/parts/int-woo-payment-plugin-stripe',
+		),
+	),
+	'woo-payment-plugin-paypal'                                                => array(
+		array(
+			'title' => esc_html__( 'Payment plugins for paypal integration', 'woodmart' ),
+			'name'  => 'woo-payment-plugin-paypal',
+			'file'  => '/css/parts/int-woo-payment-plugin-paypal',
 		),
 	),
 	'woo-wcfm-fm'                                               => array(
@@ -2028,6 +2054,13 @@ return array(
 			'rtl'   => true,
 		),
 	),
+	'int-wordfence'                                                      => array(
+		array(
+			'title' => esc_html__( 'Wordfence integration', 'woodmart' ),
+			'name'  => 'int-wordfence',
+			'file'  => '/css/parts/int-wordfence',
+		),
+	),
 	'woo-yith-compare'                                          => array(
 		array(
 			'title' => esc_html__( 'YITH Compare integration', 'woodmart' ),
@@ -2047,7 +2080,6 @@ return array(
 			'title' => esc_html__( 'YITH Request Quote integration', 'woodmart' ),
 			'name'  => 'woo-yith-req-quote',
 			'file'  => '/css/parts/int-woo-yith-request-quote',
-			'rtl'   => true,
 		),
 	),
 	'woo-yith-wishlist'                                         => array(
@@ -2055,6 +2087,13 @@ return array(
 			'title' => esc_html__( 'YITH Wishlist integration', 'woodmart' ),
 			'name'  => 'woo-yith-wishlist',
 			'file'  => '/css/parts/int-woo-yith-wishlist',
+		),
+	),
+	'int-woo-cartflows-checkout'                                => array(
+		array(
+			'title' => esc_html__( 'Cartflows integration', 'woodmart' ),
+			'name'  => 'int-woo-cartflows-checkout',
+			'file'  => '/css/parts/int-woo-cartflows-checkout',
 		),
 	),
 	// Elements options.
@@ -2093,6 +2132,13 @@ return array(
 			'title' => esc_html__( 'Element option off canvas column (Elementor)', 'woodmart' ),
 			'name'  => 'int-elem-opt-off-canvas-column',
 			'file'  => '/css/parts/int-elem-opt-off-canvas-column',
+		),
+	),
+	'int-elem-opt-sticky-column'                                              => array(
+		array(
+			'title' => esc_html__( 'Element option sticky column (Elementor)', 'woodmart' ),
+			'name'  => 'int-elem-opt-sticky-column',
+			'file'  => '/css/parts/int-elem-opt-sticky-column',
 		),
 	),
 	'int-wpb-opt-off-canvas-column'                             => array(

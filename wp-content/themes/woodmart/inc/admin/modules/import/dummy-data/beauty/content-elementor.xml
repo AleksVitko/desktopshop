@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-28 17:40" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 12:11" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Elementor 2.0 WoodMart dummy</title>
 	<link>https://dummy.xtemos.com/woodmart2/elementor</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Mon, 28 Oct 2024 17:40:51 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 12:11:13 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term><wp:term_id>97</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-menu-beauty]]></wp:term_slug><wp:term_name><![CDATA[Main menu Beauty]]></wp:term_name>
 </wp:term>
@@ -43,83 +43,10 @@
 	<generator>https://wordpress.org/?v=6.5.5</generator>
 
 					<item>
-					<title><![CDATA[woocommerce-placeholder]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/woocommerce-placeholder/</link>
-					<pubDate>Wed, 25 Aug 2021 13:20:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/woocommerce-placeholder.png</guid>
-															<wp:post_id>7</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-25 13:20:31]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-25 13:20:31]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-08-25 13:20:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-08-25 13:20:31]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[woocommerce-placeholder]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/woocommerce-placeholder.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[woocommerce-placeholder.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[cat-clock]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/cat-clock/</link>
-					<pubDate>Thu, 26 Aug 2021 12:44:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-clock.svg</guid>
-															<wp:post_id>95</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 12:44:49]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 12:44:49]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2022-06-20 13:59:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2022-06-20 13:59:05]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[cat-clock]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-clock.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/cat-clock.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px"> <g transform="translate(1 1)"> <g> <g> <path d="M255-1C114.2-1-1,114.2-1,255s115.2,256,256,256s256-115.2,256-256S395.8-1,255-1z M255,493.933 c-131.413,0-238.933-107.52-238.933-238.933S123.587,16.067,255,16.067S493.933,123.587,493.933,255S386.413,493.933,255,493.933 z" fill="#FFFFFF"></path> <path d="M127,92.867c1.707,0,3.413-0.853,4.267-2.56c26.453-19.627,58.027-33.28,90.453-38.4c4.267,0,7.68-5.12,6.827-9.387 c0-4.267-5.12-7.68-9.387-6.827c-34.987,5.973-68.267,20.48-97.28,41.813c-3.413,2.56-4.267,8.533-1.707,11.947 C121.88,92.013,124.44,92.867,127,92.867z" fill="#FFFFFF"></path> <path d="M89.453,121.027c-3.413-2.56-9.387-1.707-11.947,1.707c-22.187,28.16-35.84,62.293-41.813,97.28 c-0.853,4.267,2.56,8.533,6.827,9.387c0.853,0,0.853,0,1.707,0c4.267,0,7.68-2.56,8.533-6.827 c5.12-32.427,18.773-63.147,38.4-89.6C93.72,129.56,92.867,123.587,89.453,121.027z" fill="#FFFFFF"></path> <path d="M51.907,288.28c0-4.267-5.12-7.68-9.387-6.827c-4.267,0-7.68,5.12-6.827,9.387c5.973,34.987,20.48,68.267,41.813,97.28 c1.707,2.56,4.267,3.413,6.827,3.413c1.707,0,3.413-0.853,4.267-0.853c3.413-2.56,4.267-8.533,1.707-11.947 C70.68,352.28,57.027,320.707,51.907,288.28z" fill="#FFFFFF"></path> <path d="M221.72,457.24c-32.427-5.12-63.147-18.773-89.6-38.4c-3.413-2.56-9.387-1.707-11.947,1.707 c-2.56,3.413-1.707,9.387,1.707,11.947c28.16,22.187,62.293,35.84,97.28,41.813c0.853,0,0.853,0,1.707,0 c4.267,0,7.68-3.413,7.68-7.68C229.4,462.36,225.987,458.093,221.72,457.24z" fill="#FFFFFF"></path> <path d="M377.027,419.693c-26.453,19.627-57.173,33.28-89.6,38.4c-4.267,0-7.68,5.12-6.827,9.387 c0.853,4.267,4.267,6.827,8.533,6.827c0.853,0,0.853,0,0.853,0.853c34.987-5.973,68.267-20.48,97.28-41.813 c3.413-2.56,4.267-8.533,1.707-11.947C386.413,417.987,380.44,417.133,377.027,419.693z" fill="#FFFFFF"></path> <path d="M466.627,281.453c-4.267-0.853-8.533,2.56-9.387,6.827c-5.12,32.427-18.773,63.147-38.4,89.6 c-2.56,3.413-1.707,9.387,1.707,11.947c1.707,0.853,3.413,1.707,5.12,1.707c2.56,0,5.12-1.707,5.973-3.413 c22.187-28.16,35.84-62.293,41.813-97.28C474.307,286.573,470.893,282.307,466.627,281.453z" fill="#FFFFFF"></path> <path d="M457.24,222.573c0.853,4.267,4.267,6.827,8.533,6.827c0,0,0.853,0,1.707-0.853c4.267,0,7.68-5.12,6.827-9.387 c-5.973-34.987-20.48-68.267-41.813-97.28c-2.56-3.413-8.533-4.267-11.947-1.707s-4.267,8.533-1.707,11.947 C438.467,158.573,452.12,190.147,457.24,222.573z" fill="#FFFFFF"></path> <path d="M287.427,52.76c32.427,5.12,64,18.773,90.453,38.4c1.707,0.853,3.413,1.707,5.12,1.707c2.56,0,5.12-0.853,5.973-2.56 c2.56-3.413,1.707-9.387-1.707-11.947c-28.16-21.333-62.293-35.84-97.28-41.813c-4.267-0.853-8.533,2.56-9.387,6.827 S283.16,51.907,287.427,52.76z" fill="#FFFFFF"></path> <path d="M255,84.333c5.12,0,8.533-4.267,8.533-8.533V41.667c0-5.12-3.413-8.533-8.533-8.533s-8.533,3.413-8.533,8.533V75.8 C246.467,80.92,249.88,84.333,255,84.333z" fill="#FFFFFF"></path> <path d="M255,425.667c-5.12,0-8.533,3.413-8.533,8.533v34.133c0,5.12,3.413,8.533,8.533,8.533s8.533-3.413,8.533-8.533V434.2 C263.533,429.08,260.12,425.667,255,425.667z" fill="#FFFFFF"></path> <path d="M468.333,246.467H434.2c-5.12,0-8.533,3.413-8.533,8.533s3.413,8.533,8.533,8.533h34.133c5.12,0,8.533-3.413,8.533-8.533 S473.453,246.467,468.333,246.467z" fill="#FFFFFF"></path> <path d="M75.8,263.533c4.267,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533H41.667c-5.12,0-8.533,3.413-8.533,8.533 s3.413,8.533,8.533,8.533H75.8z" fill="#FFFFFF"></path> <path d="M400.067,97.987l-23.893,23.893c-3.413,3.413-3.413,8.533,0,11.947c1.707,1.707,3.413,2.56,5.973,2.56 c1.707,0,4.267-0.853,5.973-2.56l23.893-23.893c3.413-3.413,3.413-8.533,0-11.947S403.48,94.573,400.067,97.987z" fill="#FFFFFF"></path> <path d="M133.827,376.173c-3.413-3.413-8.533-3.413-11.947,0l-23.893,23.893c-3.413,3.413-3.413,8.533,0,11.947 c1.707,1.707,3.413,2.56,5.973,2.56s4.267-0.853,5.973-2.56l23.893-23.893C137.24,384.707,137.24,379.587,133.827,376.173z" fill="#FFFFFF"></path> <path d="M388.12,376.173c-3.413-3.413-8.533-3.413-11.947,0c-3.413,3.413-3.413,8.533,0,11.947l23.893,23.893 c1.707,1.707,3.413,2.56,5.973,2.56c1.707,0,4.267-0.853,5.973-2.56c3.413-3.413,3.413-8.533,0-11.947L388.12,376.173z" fill="#FFFFFF"></path> <path d="M121.88,133.827c1.707,1.707,3.413,2.56,5.973,2.56s5.12-0.853,5.973-2.56c3.413-3.413,3.413-8.533,0-11.947 l-23.893-23.893c-3.413-3.413-8.533-3.413-11.947,0s-3.413,8.533,0,11.947L121.88,133.827z" fill="#FFFFFF"></path> <path d="M348.867,263.533c5.12,0,8.533-3.413,8.533-8.533s-3.413-8.533-8.533-8.533h-60.821 c-3.105-11.949-12.563-21.408-24.512-24.512V127c0-5.12-3.413-8.533-8.533-8.533s-8.533,3.413-8.533,8.533v94.954 c-14.679,3.814-25.6,17.216-25.6,33.046c0,18.773,15.36,34.133,34.133,34.133c15.83,0,29.232-10.921,33.046-25.6H348.867z M255,272.067c-9.387,0-17.067-7.68-17.067-17.067s7.68-17.067,17.067-17.067s17.067,7.68,17.067,17.067 S264.387,272.067,255,272.067z" fill="#FFFFFF"></path> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[post-1-gallery-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/08/26/minimalist-japanese-inspired-furniture/post-1-gallery-2/</link>
-					<pubDate>Thu, 26 Aug 2021 14:05:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/post-1-gallery-2.jpg</guid>
-															<wp:post_id>203</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 14:05:13]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 14:05:13]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2022-06-20 13:59:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2022-06-20 13:59:05]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[post-1-gallery-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>188</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/post-1-gallery-2.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/post-1-gallery-2.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[Home Beauty]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-beauty/</link>
 					<pubDate>Sun, 24 Oct 2021 12:54:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=7535</guid>
 											<content:encoded><![CDATA[ 					
 				<h4>Find Your Next Hair and Beauty Experience</h4> 
@@ -442,7 +369,7 @@
 					<title><![CDATA[beauty-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=7546</link>
 					<pubDate>Sun, 24 Oct 2021 12:56:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg</guid>
 															<wp:post_id>7546</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:56:29]]></wp:post_date>
@@ -465,7 +392,7 @@
 					<title><![CDATA[beauty-cellphone]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-cellphone/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-cellphone.svg</guid>
 															<wp:post_id>7551</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:49]]></wp:post_date>
@@ -492,7 +419,7 @@
 					<title><![CDATA[beauty-header-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-header-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-header-logo.svg</guid>
 															<wp:post_id>7553</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:51]]></wp:post_date>
@@ -519,7 +446,7 @@
 					<title><![CDATA[beauty-mascara]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-mascara/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-mascara.svg</guid>
 															<wp:post_id>7554</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:52]]></wp:post_date>
@@ -546,7 +473,7 @@
 					<title><![CDATA[beauty-nail]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-nail/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-nail.svg</guid>
 															<wp:post_id>7555</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:53]]></wp:post_date>
@@ -570,10 +497,64 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[beauty-offer-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-1/</link>
+					<pubDate>Sun, 24 Oct 2021 12:58:54 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-1.svg</guid>
+															<wp:post_id>7556</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 12:58:54]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 12:58:54]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 12:58:54]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 12:58:54]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[beauty-offer-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-1.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/beauty-offer-1.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#272726"><path d="M13.2956 18.4743C13.0516 18.2303 12.6559 18.2303 12.4118 18.4743C11.7596 19.1266 10.6984 19.1265 10.0461 18.4743C9.80201 18.2303 9.40639 18.2303 9.1622 18.4743C8.91814 18.7183 8.91814 19.1141 9.1622 19.3582C9.73201 19.9279 10.4805 20.2129 11.2289 20.2129C11.9774 20.2129 12.7258 19.9279 13.2956 19.3582C13.5397 19.1141 13.5397 18.7184 13.2956 18.4743Z"></path><path d="M22.8376 18.4743C22.5936 18.2303 22.1979 18.2303 21.9538 18.4743C21.3016 19.1264 20.2404 19.1266 19.5881 18.4743C19.344 18.2303 18.9484 18.2303 18.7042 18.4743C18.4601 18.7183 18.4601 19.1141 18.7042 19.3582C19.274 19.9279 20.0225 20.2129 20.7709 20.2129C21.5194 20.2129 22.2678 19.9279 22.8376 19.3582C23.0817 19.1141 23.0817 18.7184 22.8376 18.4743Z"></path><path d="M29.313 17.9166C29.3105 16.5207 28.2433 15.369 26.8828 15.2313V14.2499C26.8828 10.5991 25.0744 7.36285 22.3065 5.38948C21.8285 2.29749 19.1694 0 16.0079 0C12.8465 0 10.1874 2.29749 9.70919 5.38948C6.94126 7.36285 5.13295 10.5991 5.13295 14.2499V15.23C3.76496 15.3604 2.68946 16.5153 2.6869 17.9166L2.68403 19.4997C2.68271 20.2229 2.9634 20.9031 3.47434 21.415C3.98533 21.9268 4.66502 22.2087 5.3882 22.2087H5.69101C7.06388 26.9522 10.8618 30.7376 15.8495 31.9813C15.8992 31.9937 15.9499 31.9999 16.0007 31.9999C16.0513 31.9999 16.102 31.9937 16.1514 31.9814L16.1618 31.9788C17.3054 31.694 18.4091 31.2681 19.4422 30.7126C19.7462 30.5493 19.8602 30.1703 19.6967 29.8662C19.5333 29.5622 19.1545 29.4483 18.8503 29.6117C17.9512 30.095 16.9932 30.4709 16.001 30.7299C10.3301 29.2438 6.38289 24.1402 6.38289 18.2643V17.4664L6.65264 17.4054C10.2109 16.6001 13.6377 15.1461 16.7029 13.155C18.8098 15.9004 22.0764 17.5225 25.5609 17.5225H25.6328V18.2607C25.6328 20.3813 25.1039 22.4873 24.1033 24.3514C23.9401 24.6555 24.0543 25.0345 24.3584 25.1977C24.4524 25.2482 24.5536 25.2721 24.6534 25.2721C24.8763 25.2721 25.0919 25.1527 25.2046 24.9426C25.6714 24.073 26.0436 23.1551 26.3185 22.2088H26.6117C27.3349 22.2088 28.0146 21.9269 28.5255 21.415C29.0365 20.9032 29.3171 20.223 29.3159 19.4997L29.313 17.9166ZM5.3882 20.9587C4.99927 20.9587 4.63383 20.8071 4.35902 20.5319C4.08427 20.2567 3.93327 19.8909 3.93402 19.502L3.9369 17.9189C3.93821 17.2066 4.45514 16.613 5.13295 16.4908V18.2643C5.13295 19.1827 5.22095 20.0838 5.38964 20.9587H5.3882V20.9587ZM16.0079 1.25C18.1547 1.25 20.0125 2.56774 20.7697 4.47448C19.3307 3.77074 17.7148 3.37499 16.0079 3.37499C14.301 3.37499 12.685 3.77074 11.2461 4.47455C12.0034 2.56774 13.8612 1.25 16.0079 1.25ZM25.6329 15.9999V16.2724H25.561C22.4909 16.2724 19.611 14.8551 17.7387 12.452C18.1713 12.1452 18.5963 11.8278 19.0119 11.4992C19.2826 11.2851 19.3286 10.892 19.1146 10.6213C18.9005 10.3506 18.5074 10.3046 18.2367 10.5186C14.7799 13.2518 10.6811 15.211 6.38301 16.1847V15.9999V14.2499C6.38295 8.94271 10.7007 4.62498 16.0079 4.62498C21.3151 4.62498 25.6329 8.94271 25.6329 14.2499V15.9999ZM27.6409 20.5319C27.3683 20.8049 27.0064 20.9561 26.6209 20.9584C26.7936 20.0713 26.8829 19.1672 26.8829 18.2606V16.4936C27.5529 16.6221 28.0617 17.2121 28.0631 17.9189L28.0659 19.5019C28.0667 19.8909 27.9157 20.2566 27.6409 20.5319Z"></path><path d="M20.7756 9.16001C20.5456 8.90264 20.1505 8.88032 19.8931 9.11039L19.8845 9.11807C19.6271 9.34814 19.6048 9.7432 19.8348 10.0006C19.9583 10.1388 20.1293 10.2091 20.3012 10.2091C20.4493 10.2091 20.5982 10.1567 20.7173 10.0502L20.726 10.0425C20.9833 9.81245 21.0056 9.41739 20.7756 9.16001Z"></path><path d="M27.2168 29.3248L23.7639 25.8721L22.4361 22.4006C22.2311 21.8647 21.673 21.5503 21.108 21.6536C18.7516 22.0839 16.8793 23.9561 16.4495 26.3106L16.4468 26.3252C16.3465 26.8742 16.648 27.4277 17.1636 27.6413L20.5707 29.0527L23.3349 31.817C23.457 31.939 23.6169 32 23.7769 32C23.9368 32 24.0968 31.939 24.2188 31.817C24.4629 31.5729 24.4629 31.1772 24.2188 30.933L21.8087 28.5229L23.2279 27.1037L26.3329 30.2087C26.577 30.4527 26.9726 30.4527 27.2168 30.2087C27.4609 29.9647 27.4609 29.5689 27.2168 29.3248ZM20.7781 27.7856L17.6848 26.5042C18.0307 24.6872 19.4707 23.2433 21.2858 22.8919L22.4993 26.0645L20.7781 27.7856Z"></path><path d="M28.825 30.9331C28.7087 30.8168 28.5475 30.75 28.3831 30.75C28.2187 30.75 28.0575 30.8168 27.9406 30.9331C27.8243 31.0494 27.7581 31.2106 27.7581 31.375C27.7581 31.5394 27.8243 31.7006 27.9406 31.8168C28.0575 31.9331 28.2187 32 28.3831 32C28.5475 32 28.7087 31.9331 28.825 31.8168C28.9411 31.7006 29.0081 31.5394 29.0081 31.375C29.0081 31.2106 28.9412 31.0494 28.825 30.9331Z"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[beauty-offer-2]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-2/</link>
+					<pubDate>Sun, 24 Oct 2021 12:58:55 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-2.svg</guid>
+															<wp:post_id>7557</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 12:58:55]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 12:58:55]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 12:58:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 12:58:55]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[beauty-offer-2]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-2.svg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/beauty-offer-2.svg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#272726"><path d="M24.8507 25.9338C24.5341 25.9793 24.3072 26.2652 24.3072 26.585V31.3851C24.3072 32.2045 25.5835 32.2057 25.5835 31.3851V26.5651C25.5835 26.1817 25.2451 25.8771 24.8507 25.9338Z"></path><path d="M23.1522 7.41781C23.2111 6.25472 22.8017 5.14932 21.9992 4.30524C21.1969 3.46116 20.1136 2.99634 18.949 2.99634H14.8915C13.7269 2.99634 12.6436 3.46116 11.8413 4.30524C10.7073 5.498 10.6636 6.92905 10.7414 8.46495C8.9486 10.1332 7.92438 12.4774 7.92438 14.9306V31.3851C7.92438 32.2045 9.20067 32.2057 9.20067 31.3851V14.9305C9.20067 13.2186 9.78413 11.569 10.8315 10.2444L11.1054 15.6512C11.1142 18.85 13.7193 21.4495 16.9203 21.4495C20.1212 21.4495 22.7263 18.85 22.7352 15.6512L22.9879 10.6625C23.8455 11.9092 24.3072 13.3834 24.3072 14.9305V21.3454C24.3072 22.1648 25.5835 22.166 25.5835 21.3454V14.9305C25.5835 12.6115 24.6966 10.4324 23.0835 8.77508L23.1522 7.41781ZM21.8775 7.35323L21.4597 15.6022C21.4592 15.613 21.4589 15.6238 21.4589 15.6345C21.4589 18.1372 19.4228 20.1732 16.9202 20.1732C14.4175 20.1732 12.3815 18.1372 12.3815 15.6345C12.3815 15.6238 12.3813 15.613 12.3807 15.6022L11.9629 7.35323C11.9205 6.51464 12.2274 5.71906 12.8256 5.1238C13.3846 4.56759 14.1523 4.27263 14.9408 4.27263H18.8994C19.6879 4.27263 20.4557 4.56759 21.0146 5.1238C21.613 5.71906 21.9199 6.51464 21.8775 7.35323V7.35323Z"></path><path d="M31.5606 6.3112L29.8939 5.39961L28.9823 3.73283C28.7476 3.30367 28.0992 3.30023 27.8625 3.73283L26.9509 5.39961L25.2842 6.3112C24.855 6.54591 24.8516 7.19433 25.2842 7.43096L26.9509 8.34255L27.8625 10.0093C28.0972 10.4384 28.7457 10.4419 28.9823 10.0093L29.8939 8.34255L31.5606 7.43096C31.9897 7.19625 31.9932 6.54776 31.5606 6.3112V6.3112ZM29.9245 6.87105L28.9535 7.40211L28.4224 8.37312L27.8914 7.40211L26.9204 6.87098L27.8914 6.33992L28.4224 5.36891L28.9536 6.33992L29.9245 6.87105Z"></path><path d="M2.59232 3.77171L4.09778 4.59511L4.92112 6.10057C5.15583 6.52972 5.80425 6.53317 6.04087 6.10057L6.86428 4.59511L8.36973 3.77171C8.79889 3.537 8.80233 2.88858 8.36973 2.65195L6.86428 1.82861L6.04087 0.323159C5.80616 -0.105995 5.15774 -0.109441 4.92112 0.323159L4.09778 1.82861L2.59232 2.65202C2.16317 2.88666 2.15972 3.53515 2.59232 3.77171V3.77171ZM4.22847 3.21186L5.03822 2.76899L5.48109 1.95924L5.92397 2.76899L6.73371 3.2118L5.92397 3.65468L5.48109 4.46442L5.03828 3.65468L4.22847 3.21186Z"></path><path d="M6.54026 18.0411L4.93022 17.1605L4.04964 15.5505C3.81492 15.1213 3.1665 15.1179 2.92988 15.5505L2.0493 17.1605L0.439248 18.0411C0.0100938 18.2759 0.00664776 18.9243 0.439248 19.1609L2.0493 20.0415L2.92988 21.6515C3.16452 22.0806 3.81307 22.0841 4.04964 21.6515L4.93022 20.0415L6.54026 19.1609C6.96935 18.9263 6.97286 18.2778 6.54026 18.0411ZM3.98978 19.1011L3.48966 20.0154L2.98967 19.1012L2.07533 18.6011L2.98973 18.1009L3.48972 17.1867L3.98978 18.101L4.90412 18.6011L3.98978 19.1011Z"></path><path d="M24.3561 24.1841C24.5708 24.6991 25.3262 24.7015 25.5377 24.1764C25.6043 24.0111 25.5981 23.8216 25.5196 23.6616C25.3503 23.3166 24.9367 23.2131 24.631 23.3851C24.3543 23.5408 24.2341 23.891 24.3561 24.1841V24.1841Z"></path><path d="M18.6667 26.0871C19.4861 26.0871 19.4873 24.8108 18.6667 24.8108H15.1116C14.2922 24.8108 14.291 26.0871 15.1116 26.0871H18.6667Z"></path><path d="M19.6646 27.4155H14.1759C13.3565 27.4155 13.3553 28.6918 14.1759 28.6918H19.6646C20.4839 28.6918 20.4851 27.4155 19.6646 27.4155Z"></path></svg>]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[beauty-salon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-salon/</link>
 					<pubDate>Sun, 24 Oct 2021 12:59:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-salon.svg</guid>
 															<wp:post_id>7564</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:59:02]]></wp:post_date>
@@ -600,7 +581,7 @@
 					<title><![CDATA[beauty-pic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-beauty/beauty-pic/</link>
 					<pubDate>Sun, 24 Oct 2021 13:06:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-pic.png</guid>
 															<wp:post_id>7576</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:06:43]]></wp:post_date>
@@ -620,10 +601,33 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[beauty-img-1]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/home-beauty/beauty-img-1/</link>
+					<pubDate>Sun, 24 Oct 2021 13:08:46 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-img-1.png</guid>
+															<wp:post_id>7577</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 13:08:46]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 13:08:46]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 13:08:46]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 13:08:46]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[beauty-img-1]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>7535</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-img-1.png]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/beauty-img-1.png]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[beauty-portfolio-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-2/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-2.jpg</guid>
 															<wp:post_id>7586</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:09]]></wp:post_date>
@@ -646,7 +650,7 @@
 					<title><![CDATA[beauty-portfolio-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-3/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-3.jpg</guid>
 															<wp:post_id>7587</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:12]]></wp:post_date>
@@ -669,7 +673,7 @@
 					<title><![CDATA[beauty-portfolio-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-4/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-4.jpg</guid>
 															<wp:post_id>7588</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:13]]></wp:post_date>
@@ -692,7 +696,7 @@
 					<title><![CDATA[beauty-portfolio-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-5/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-5.jpg</guid>
 															<wp:post_id>7589</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:16]]></wp:post_date>
@@ -715,7 +719,7 @@
 					<title><![CDATA[beauty-portfolio-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-6/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-6.jpg</guid>
 															<wp:post_id>7590</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:18]]></wp:post_date>
@@ -738,7 +742,7 @@
 					<title><![CDATA[beauty-portfolio-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-7/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-7.jpg</guid>
 															<wp:post_id>7591</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:20]]></wp:post_date>
@@ -761,7 +765,7 @@
 					<title><![CDATA[beauty-portfolio-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-8/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-8.jpg</guid>
 															<wp:post_id>7592</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:21]]></wp:post_date>
@@ -784,7 +788,7 @@
 					<title><![CDATA[beauty-portfolio-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-portfolio-9/</link>
 					<pubDate>Sun, 24 Oct 2021 13:15:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-portfolio-9.jpg</guid>
 															<wp:post_id>7593</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:15:24]]></wp:post_date>
@@ -804,141 +808,505 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[woocommerce-placeholder]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/woocommerce-placeholder/</link>
-					<pubDate>Wed, 25 Aug 2021 13:20:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/woocommerce-placeholder.png</guid>
-															<wp:post_id>7</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-25 13:20:31]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-25 13:20:31]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-08-25 13:20:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-08-25 13:20:31]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[woocommerce-placeholder]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
+					<title><![CDATA[Home]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/home-7/</link>
+					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4350</guid>
+															<wp:post_id>4350</wp:post_id>
+					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[home-7]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/woocommerce-placeholder.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[woocommerce-placeholder.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[cat-lighting]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/cat-lighting/</link>
-					<pubDate>Thu, 26 Aug 2021 12:48:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-lighting.jpg</guid>
-															<wp:post_id>120</wp:post_id>
-					<wp:post_date><![CDATA[2021-08-26 12:48:50]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-08-26 12:48:50]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2022-06-20 13:59:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2022-06-20 13:59:05]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[cat-lighting]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/cat-lighting.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/08/cat-lighting.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[cosmetics-cream]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/cosmetics-cream/</link>
-					<pubDate>Wed, 08 Sep 2021 15:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/cosmetics-cream.svg</guid>
-															<wp:post_id>2671</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-08 15:17:49]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-08 15:17:49]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-08 15:17:49]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-08 15:17:49]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[cosmetics-cream]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/cosmetics-cream.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/09/cosmetics-cream.svg]]></wp:meta_value>
+					<wp:menu_order>1</wp:menu_order>
+					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Capa_1" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" fill="#9BCBE3" xml:space="preserve"> <g> <g> <path d="M453.276,204.123H348.233c-4.143,0-7.5,3.357-7.5,7.5c0,4.143,3.357,7.5,7.5,7.5h105.043c4.143,0,7.5-3.357,7.5-7.5 C460.776,207.48,457.419,204.123,453.276,204.123z"></path> </g> </g> <g> <g> <path d="M113.956,198.917c-13.385,0-24.274,10.888-24.274,24.274c0,13.385,10.889,24.274,24.274,24.274 s24.274-10.889,24.274-24.274S127.34,198.917,113.956,198.917z M113.957,232.464c-5.113,0-9.273-4.16-9.273-9.273 s4.16-9.273,9.273-9.273s9.273,4.159,9.273,9.273C123.23,228.304,119.07,232.464,113.957,232.464z"></path> </g> </g> <g> <g> <path d="M222.07,166.005c-15.906,0-28.845,12.94-28.845,28.845c0,15.905,12.94,28.845,28.845,28.845 c15.906,0,28.845-12.94,28.845-28.845S237.975,166.005,222.07,166.005z M222.069,208.694c-7.634,0-13.845-6.21-13.845-13.845 s6.21-13.845,13.845-13.845s13.845,6.21,13.845,13.845S229.703,208.694,222.069,208.694z"></path> </g> </g> <g> <g> <circle cx="153.024" cy="139.055" r="10.645"></circle> </g> </g> <g> <g> <path d="M437.201,376.433h-72.894c-4.143,0-7.5,3.357-7.5,7.5c0,4.143,3.357,7.5,7.5,7.5h72.894c4.143,0,7.5-3.357,7.5-7.5 C444.702,379.79,441.343,376.433,437.201,376.433z"></path> </g> </g> <g> <g> <path d="M426.071,309.47l-15.129-21.146c-2.346-3.28-6.154-5.239-10.188-5.239c-4.034,0-7.842,1.959-10.188,5.239l-15.128,21.146 c-10.129,14.159-7.289,34.087,6.332,44.427c5.577,4.232,12.243,6.362,18.246,6.471c0.188,0.005,0.414,0.015,0.702,0.015 c0.188,0,0.318,0,0.66-0.011c0.1-0.003,0.25-0.007,0.297-0.009C427.363,359.382,440.818,330.085,426.071,309.47z M410.668,341.948 c-0.001,0-0.001,0-0.001,0.001c-14.972,11.361-34.474-7.749-23.029-23.75l13.116-18.334L413.87,318.2 C419.321,325.819,417.885,336.472,410.668,341.948z"></path> </g> </g> <g> <g> <path d="M437.201,404.006h-72.894c-4.143,0-7.5,3.357-7.5,7.5c0,4.143,3.357,7.5,7.5,7.5h72.894c4.143,0,7.5-3.357,7.5-7.5 C444.702,407.363,441.343,404.006,437.201,404.006z"></path> </g> </g> <g> <g> <path d="M458.778,155.569c4.288-13.538-5.886-27.328-20.022-27.328h-5.5v-27.972c0-9.92-4.472-18.811-11.5-24.777v-33.49h23.085 c11.579,0,21.001-9.421,21.001-21.001C465.841,9.421,456.42,0,444.841,0h-66.529c-36.51,0-50.297,29.832-56.845,35.847 c-7.271,9.045-5.835,22.254,3.215,29.524c6.269,5.039,13.248,4.648,13.148,4.631c6.4-0.001,12.369-2.86,16.377-7.846l11.241-13.99 c3.147-3.918,7.836-6.165,12.862-6.165h1.442v33.49c-7.028,5.966-11.5,14.857-11.5,24.777v27.972h-5.5 c-11.579,0-21.001,9.421-21.001,21.001c0,2.205,0.346,4.329,0.979,6.327c-29.837,3.12-53.174,28.418-53.174,59.068v12.807 c0,4.143,3.357,7.5,7.5,7.5c4.143,0,7.5-3.357,7.5-7.5v-12.807c0-24.48,19.916-44.396,44.396-44.396c10.901,0,90.04,0,103.605,0 c24.48,0,44.396,19.916,44.396,44.396v237.955c0,24.48-19.916,44.396-44.396,44.396H348.953c-11.821,0-22.976-4.713-31.227-12.927 c8.565-4.453,15.45-11.019,20.254-18.613c0.835,0.039,82.581,0.021,124.752,0.025c9.388,0,17.026-7.638,17.026-17.026v-19.441 c0-4.143-3.357-7.5-7.5-7.5c-4.143,0-7.5,3.357-7.5,7.5v19.44c0,1.117-0.908,2.025-2.025,2.025H344.526 c4.096-15.353,0.846-31.462-7.773-43.923V249.491c0-1.117,0.908-2.026,2.025-2.026h123.954c1.117,0,2.025,0.909,2.025,2.026 v144.515c0,4.143,3.357,7.5,7.5,7.5c4.143,0,7.5-3.357,7.5-7.5V249.491c0-9.389-7.638-17.027-17.026-17.027H338.777 c-9.388,0-17.026,7.638-17.026,17.027v142.602c-5.254-3.357-11.075-5.767-17.194-7.106V262.445c0-4.143-3.357-7.5-7.5-7.5 c-4.143,0-7.5,3.357-7.5,7.5v89.839c-8.117-22.792-30.058-36.688-53.228-35.229c4.908-35.771-23.948-63.888-57.657-78.346 c-4.978-2.135-10.608-1.554-15.061,1.559c-4.404,3.078-6.859,8.101-6.569,13.439c0.827,15.15-15.355,14.536-31.939,36.032 c-6.942,8.999-10.36,18.326-10.23,27.854c-37.207-5.84-69.539,28.677-59.486,66.238c-22.108-0.954-43.173,12.029-51.684,33.566 c-11.07,28.016,4.033,59.242,31.34,69.532c15.277,5.756,31.164,10.613,47.221,14.437c4.027,0.962,8.073-1.529,9.033-5.559 s-1.529-8.074-5.559-9.033c-15.442-3.677-30.719-8.347-45.406-13.882c-9.698-3.653-17.694-11.242-21.938-20.82 c-13.461-30.384,15.72-61.741,46.855-51.292c2.978,1.001,6.266,0.038,8.234-2.412s2.2-5.868,0.581-8.562 c-18.476-30.731,11.816-67.148,45.051-55.761c0.923,0.315,1.849,0.619,2.777,0.919c5.862,1.893,11.365-3.707,9.417-9.519 c-6.534-19.514,10.724-33.836,27.432-45.741c9.283-6.615,13.877-15.888,13.281-26.813c-0.005-0.085-0.011-0.191,0.184-0.327 c0.272-0.189,0.477-0.102,0.555-0.068c31.286,13.422,57.591,39.93,46.523,71.445c-2.027,5.771,3.366,11.436,9.239,9.667 c33.442-10.079,61.537,26.452,43.658,56.198c-3.581,5.96,2.216,13.193,8.817,10.974c31.286-10.514,61.22,21.65,46.435,52.805 c-4.264,8.808-11.604,15.548-20.793,19.031c-1.069,0.405-2.145,0.783-3.217,1.178l-0.421,0.153 c-0.007,0.002-0.012,0.006-0.019,0.008c-41.586,15.279-85.249,23.045-129.861,23.045c-17.878,0-35.932-1.284-53.663-3.817 c-4.088-0.575-7.899,2.264-8.485,6.364c-0.586,4.1,2.264,7.899,6.364,8.485c18.432,2.633,37.199,3.968,55.784,3.968 c44.495,0,88.092-7.418,129.746-22.049c11.263,13.897,28.088,22.037,46.085,22.037h103.605 c32.749,0.002,59.394-26.643,59.394-59.394V214.637C511.953,183.987,488.616,158.689,458.778,155.569z M378.311,27.001 c-9.595,0-18.546,4.289-24.557,11.769c-10.62,12.232-11.088,16.232-15.927,16.232c-0.001,0-0.002,0-0.003,0 c-5.895-0.567-7.422-6.331-4.665-9.758l11.241-13.99c8.3-10.329,20.66-16.254,33.91-16.254h66.529c3.309,0,6,2.691,6,6 c0,3.309-2.691,6-6,6h-30.585C402.592,27.001,388.698,27.001,378.311,27.001z M406.184,83.641 c0.566,0.185,1.148,0.413,1.528,0.578c6.196,2.697,10.542,8.872,10.542,16.05v27.972h-35.001v-27.972 C383.253,88.453,394.852,79.937,406.184,83.641z M394.754,68.323V42.002h12v26.321C402.854,67.59,398.655,67.59,394.754,68.323z M438.755,155.241h-76.003c-3.309,0-6-2.691-6-6s2.691-6,6-6c17.594,0,59.401,0,76.003,0c3.309,0,6,2.691,6,6 S442.064,155.241,438.755,155.241z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[4350]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#Home]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
+							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[electronics-2-popup]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/electronics-2-popup/</link>
-					<pubDate>Fri, 10 Sep 2021 14:25:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/electronics-2-popup.jpg</guid>
-															<wp:post_id>3628</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-10 14:25:16]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-10 14:25:16]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-10 14:25:16]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-10 14:25:16]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[electronics-2-popup]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
+					<title><![CDATA[Prices]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/prices/</link>
+					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4351</guid>
+															<wp:post_id>4351</wp:post_id>
+					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[prices]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>2</wp:menu_order>
+					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[4351]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#Prices]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
+							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[About Us]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/about-us-2/</link>
+					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4352</guid>
+															<wp:post_id>4352</wp:post_id>
+					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[about-us-2]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>3</wp:menu_order>
+					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[4352]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#About_Us]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
+							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[Services]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/services-2/</link>
+					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4353</guid>
+															<wp:post_id>4353</wp:post_id>
+					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[services-2]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>4</wp:menu_order>
+					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
+											<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[4353]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#Services]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[default]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
+							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[Contact form Beauty]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4379</link>
+					<pubDate>Wed, 29 Sep 2021 14:04:24 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4379</guid>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Yor name placeholder ="Your name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">
+Express make-up
+Manicure
+High-end Cosmetics
+Evening make-up
+Hair styling
+Lamination of eyebrows
+Eyelash extensions
+</div>
+<div class="wd-col-auto">[submit class:btn class:btn-color-primary"Online booking"]</div>
+</div>
+1
+[_site_title] "[your-subject]"
+[_site_title] 
+[_site_admin_email]
+From: [your-name] 
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])
+Reply-To: [your-email]
+
+
+
+
+[_site_title] "[your-subject]"
+[_site_title] 
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])
+Reply-To: [_site_admin_email]
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+															<wp:post_id>4379</wp:post_id>
+					<wp:post_date><![CDATA[2021-09-29 14:04:24]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-09-29 14:04:24]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:30:10]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:30:10]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[contact-form-beauty]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/electronics-2-popup.jpg]]></wp:attachment_url>
+					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/09/electronics-2-popup.jpg]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Yor name placeholder ="Your name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col"><select class="form-control" id="Select service">
+<option>Express make-up</option>
+<option>Manicure</option>
+<option>High-end Cosmetics</option>
+<option>Evening make-up</option>
+<option>Hair styling</option>
+<option>Lamination of eyebrows</option>
+<option>Eyelash extensions</option>
+</select></div>
+<div class="wd-col-auto">[submit class:btn class:btn-color-primary"Online booking"]</div>
+</div>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:22:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[442b229c59be6264c2d6628dd42c862e48a3f7fb]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[Contact form popup Beauty]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4385</link>
+					<pubDate>Wed, 29 Sep 2021 14:06:31 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4385</guid>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* Yor name placeholder ="Your name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">
+Express make-up
+Manicure
+High-end Cosmetics
+Evening make-up
+Hair styling
+Lamination of eyebrows
+Eyelash extensions
+</div>
+<div class="wd-col">[submit class:btn class:btn-color-primary"Online booking"]</div>
+</div>
+1
+[_site_title] "[your-subject]"
+[_site_title] 
+[_site_admin_email]
+From: [your-name] 
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])
+Reply-To: [your-email]
+
+
+
+
+[_site_title] "[your-subject]"
+[_site_title] 
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])
+Reply-To: [_site_admin_email]
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+															<wp:post_id>4385</wp:post_id>
+					<wp:post_date><![CDATA[2021-09-29 14:06:31]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-09-29 14:06:31]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:22:36]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:22:36]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+					<wp:post_name><![CDATA[contact-form-popup-beauty]]></wp:post_name>
+					<wp:status><![CDATA[publish]]></wp:status>
+					<wp:post_parent>0</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* Yor name placeholder ="Your name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col"><select class="form-control" id="Select service">
+<option>Express make-up</option>
+<option>Manicure</option>
+<option>High-end Cosmetics</option>
+<option>Evening make-up</option>
+<option>Hair styling</option>
+<option>Lamination of eyebrows</option>
+<option>Eyelash extensions</option>
+</select></div>
+<div class="wd-col">[submit class:btn class:btn-color-primary"Online booking"]</div>
+</div>]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:22:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[eaaaf3b95bd0e891a82c285c2f62869e86b8efdd]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Popup Beauty]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-beauty</link>
 					<pubDate>Sun, 24 Oct 2021 12:55:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7542</guid>
-											<content:encoded><![CDATA[<img width="540" height="360" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg" alt="" decoding="async" loading="lazy" srcset="https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg 540w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup-400x267.jpg 400w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup-430x287.jpg 430w, https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup-130x87.jpg 130w" sizes="(max-width: 540px) 100vw, 540px" />					
-						<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.0" type="text/css" media="all" /> 					
+											<content:encoded><![CDATA[<img width="540" height="360" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg" alt="" />					
+						 					
 				<h4>Subscribe Now and Get Discount 10%</h4> 
 					<p>Be the first to learn about our latest trends</p>				
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/woodmart2/elementor/wp-admin/admin-ajax.php#wpcf7-f4385-o1" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<input type="hidden" name="_wpcf7" value="4385" />
-<input type="hidden" name="_wpcf7_version" value="5.7.7" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4385-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Yor name" value="" type="text" name="Yor" />
-	</p>
-		<p><select id="Select service">
- <option>Express make-up</option>
- <option>Manicure</option>
- <option>High-end Cosmetics</option>
- <option>Evening make-up</option>
- <option>Hair styling</option>
- <option>Lamination of eyebrows</option>
- <option>Eyelash extensions</option>
- </select>
+<p role="status" aria-live="polite"></p> <ul></ul>
+
+
+
+
+
+
+
+		<p>
 		</p>
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Your phone number" value="" type="text" name="Your" />
-	</p>
-	<p><input type="submit" value="Online booking" />
-	</p>
-</form>]]></content:encoded>
+		<p>
+		</p>
+		<p>
+Express make-up
+Manicure
+High-end Cosmetics
+Evening make-up
+Hair styling
+Lamination of eyebrows
+Eyelash extensions
+
+		</p>
+		<p>
+		</p>
+]]></content:encoded>
 															<wp:post_id>7542</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:55:12]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-10-24 12:55:12]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-12-08 12:40:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-12-08 12:40:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-21 12:09:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-21 12:09:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[popup-beauty]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -959,11 +1327,11 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.16.6]]></wp:meta_value>
+							<wp:meta_value><![CDATA[3.24.7]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"1aca278","elType":"container","settings":{"flex_gap":{"size":0,"column":"0","row":"0","unit":"px"},"background_background":"classic","background_color":"#EFE6E3","flex_direction":"column","flex_align_items":"stretch","boxed_width":{"unit":"px","size":540,"sizes":[]},"scroll_y":-80,"content_width":"full","width":{"unit":"px","size":"","sizes":[]},"width_tablet":{"unit":"custom","size":"","sizes":[]},"width_mobile":{"unit":"custom","size":"","sizes":[]},"container_sticky_offset":50},"elements":[{"id":"7c60235","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/beauty-popup.jpg","id":7546,"alt":"","source":"library"},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"998f065","elType":"container","settings":{"padding":{"unit":"px","top":"20","right":"40","bottom":"10","left":"40","isLinked":""},"flex_direction":"column","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"content_width":"full","scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"2ebd42c","elType":"widget","settings":{"subtitle":"","title":"Subscribe Now and Get Discount 10%","after_title":"<p>Be the first to learn about our latest trends<\/p>","size":"large","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"03630ff","elType":"widget","settings":{"scroll_y":"-80","form_id":"4385"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"1aca278","elType":"container","settings":{"flex_gap":{"size":"0","column":"0","row":"0","unit":"px"},"background_background":"classic","background_color":"#EFE6E3","flex_direction":"column","flex_align_items":"stretch","boxed_width":{"unit":"px","size":"540","sizes":[]},"scroll_y":"-80","content_width":"full","width":{"unit":"px","size":"","sizes":[]},"width_tablet":{"unit":"custom","size":"","sizes":[]},"width_mobile":{"unit":"custom","size":"","sizes":[]},"container_sticky_offset":"50"},"elements":[{"id":"7c60235","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/beauty-popup.jpg","id":"7546","alt":"","source":"library"},"scroll_y":"-80"},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"998f065","elType":"container","settings":{"padding":{"unit":"px","top":"20","right":"40","bottom":"40","left":"40","isLinked":""},"flex_direction":"column","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"content_width":"full","scroll_y":"-80","container_sticky_offset":"50"},"elements":[{"id":"2ebd42c","elType":"widget","settings":{"subtitle":"","title":"Subscribe Now and Get Discount 10%","after_title":"<p>Be the first to learn about our latest trends<\/p>","size":"large","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"03630ff","elType":"widget","settings":{"scroll_y":"-80","form_id":"4385"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":"1"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -975,10 +1343,33 @@
 						</wp:postmeta>
 										</item>
 								<item>
+					<title><![CDATA[beauty-popup]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=7546</link>
+					<pubDate>Sun, 24 Oct 2021 12:56:29 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg</guid>
+															<wp:post_id>7546</wp:post_id>
+					<wp:post_date><![CDATA[2021-10-24 12:56:29]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2021-10-24 12:56:29]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2021-10-24 12:56:29]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2021-10-24 12:56:29]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[beauty-popup]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>7542</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2021/10/beauty-popup.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
 					<title><![CDATA[Header popup Beauty]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=header-popup-beauty</link>
 					<pubDate>Sun, 24 Oct 2021 12:57:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7548</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-mfp-popup-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-magnific-popup.min.css?ver=7.3.0" type="text/css" media="all" /> 							
 			<a  href="#popup-6175583280314">
@@ -1058,7 +1449,7 @@
 					<title><![CDATA[beauty-check]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-check/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-check.svg</guid>
 															<wp:post_id>7552</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:50]]></wp:post_date>
@@ -1085,7 +1476,7 @@
 					<title><![CDATA[beauty-header-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-header-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-header-logo.svg</guid>
 															<wp:post_id>7553</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:51]]></wp:post_date>
@@ -1109,64 +1500,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[beauty-offer-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-1/</link>
-					<pubDate>Sun, 24 Oct 2021 12:58:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-1.svg</guid>
-															<wp:post_id>7556</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 12:58:54]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 12:58:54]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 12:58:54]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 12:58:54]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[beauty-offer-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-1.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/beauty-offer-1.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#272726"><path d="M13.2956 18.4743C13.0516 18.2303 12.6559 18.2303 12.4118 18.4743C11.7596 19.1266 10.6984 19.1265 10.0461 18.4743C9.80201 18.2303 9.40639 18.2303 9.1622 18.4743C8.91814 18.7183 8.91814 19.1141 9.1622 19.3582C9.73201 19.9279 10.4805 20.2129 11.2289 20.2129C11.9774 20.2129 12.7258 19.9279 13.2956 19.3582C13.5397 19.1141 13.5397 18.7184 13.2956 18.4743Z"></path><path d="M22.8376 18.4743C22.5936 18.2303 22.1979 18.2303 21.9538 18.4743C21.3016 19.1264 20.2404 19.1266 19.5881 18.4743C19.344 18.2303 18.9484 18.2303 18.7042 18.4743C18.4601 18.7183 18.4601 19.1141 18.7042 19.3582C19.274 19.9279 20.0225 20.2129 20.7709 20.2129C21.5194 20.2129 22.2678 19.9279 22.8376 19.3582C23.0817 19.1141 23.0817 18.7184 22.8376 18.4743Z"></path><path d="M29.313 17.9166C29.3105 16.5207 28.2433 15.369 26.8828 15.2313V14.2499C26.8828 10.5991 25.0744 7.36285 22.3065 5.38948C21.8285 2.29749 19.1694 0 16.0079 0C12.8465 0 10.1874 2.29749 9.70919 5.38948C6.94126 7.36285 5.13295 10.5991 5.13295 14.2499V15.23C3.76496 15.3604 2.68946 16.5153 2.6869 17.9166L2.68403 19.4997C2.68271 20.2229 2.9634 20.9031 3.47434 21.415C3.98533 21.9268 4.66502 22.2087 5.3882 22.2087H5.69101C7.06388 26.9522 10.8618 30.7376 15.8495 31.9813C15.8992 31.9937 15.9499 31.9999 16.0007 31.9999C16.0513 31.9999 16.102 31.9937 16.1514 31.9814L16.1618 31.9788C17.3054 31.694 18.4091 31.2681 19.4422 30.7126C19.7462 30.5493 19.8602 30.1703 19.6967 29.8662C19.5333 29.5622 19.1545 29.4483 18.8503 29.6117C17.9512 30.095 16.9932 30.4709 16.001 30.7299C10.3301 29.2438 6.38289 24.1402 6.38289 18.2643V17.4664L6.65264 17.4054C10.2109 16.6001 13.6377 15.1461 16.7029 13.155C18.8098 15.9004 22.0764 17.5225 25.5609 17.5225H25.6328V18.2607C25.6328 20.3813 25.1039 22.4873 24.1033 24.3514C23.9401 24.6555 24.0543 25.0345 24.3584 25.1977C24.4524 25.2482 24.5536 25.2721 24.6534 25.2721C24.8763 25.2721 25.0919 25.1527 25.2046 24.9426C25.6714 24.073 26.0436 23.1551 26.3185 22.2088H26.6117C27.3349 22.2088 28.0146 21.9269 28.5255 21.415C29.0365 20.9032 29.3171 20.223 29.3159 19.4997L29.313 17.9166ZM5.3882 20.9587C4.99927 20.9587 4.63383 20.8071 4.35902 20.5319C4.08427 20.2567 3.93327 19.8909 3.93402 19.502L3.9369 17.9189C3.93821 17.2066 4.45514 16.613 5.13295 16.4908V18.2643C5.13295 19.1827 5.22095 20.0838 5.38964 20.9587H5.3882V20.9587ZM16.0079 1.25C18.1547 1.25 20.0125 2.56774 20.7697 4.47448C19.3307 3.77074 17.7148 3.37499 16.0079 3.37499C14.301 3.37499 12.685 3.77074 11.2461 4.47455C12.0034 2.56774 13.8612 1.25 16.0079 1.25ZM25.6329 15.9999V16.2724H25.561C22.4909 16.2724 19.611 14.8551 17.7387 12.452C18.1713 12.1452 18.5963 11.8278 19.0119 11.4992C19.2826 11.2851 19.3286 10.892 19.1146 10.6213C18.9005 10.3506 18.5074 10.3046 18.2367 10.5186C14.7799 13.2518 10.6811 15.211 6.38301 16.1847V15.9999V14.2499C6.38295 8.94271 10.7007 4.62498 16.0079 4.62498C21.3151 4.62498 25.6329 8.94271 25.6329 14.2499V15.9999ZM27.6409 20.5319C27.3683 20.8049 27.0064 20.9561 26.6209 20.9584C26.7936 20.0713 26.8829 19.1672 26.8829 18.2606V16.4936C27.5529 16.6221 28.0617 17.2121 28.0631 17.9189L28.0659 19.5019C28.0667 19.8909 27.9157 20.2566 27.6409 20.5319Z"></path><path d="M20.7756 9.16001C20.5456 8.90264 20.1505 8.88032 19.8931 9.11039L19.8845 9.11807C19.6271 9.34814 19.6048 9.7432 19.8348 10.0006C19.9583 10.1388 20.1293 10.2091 20.3012 10.2091C20.4493 10.2091 20.5982 10.1567 20.7173 10.0502L20.726 10.0425C20.9833 9.81245 21.0056 9.41739 20.7756 9.16001Z"></path><path d="M27.2168 29.3248L23.7639 25.8721L22.4361 22.4006C22.2311 21.8647 21.673 21.5503 21.108 21.6536C18.7516 22.0839 16.8793 23.9561 16.4495 26.3106L16.4468 26.3252C16.3465 26.8742 16.648 27.4277 17.1636 27.6413L20.5707 29.0527L23.3349 31.817C23.457 31.939 23.6169 32 23.7769 32C23.9368 32 24.0968 31.939 24.2188 31.817C24.4629 31.5729 24.4629 31.1772 24.2188 30.933L21.8087 28.5229L23.2279 27.1037L26.3329 30.2087C26.577 30.4527 26.9726 30.4527 27.2168 30.2087C27.4609 29.9647 27.4609 29.5689 27.2168 29.3248ZM20.7781 27.7856L17.6848 26.5042C18.0307 24.6872 19.4707 23.2433 21.2858 22.8919L22.4993 26.0645L20.7781 27.7856Z"></path><path d="M28.825 30.9331C28.7087 30.8168 28.5475 30.75 28.3831 30.75C28.2187 30.75 28.0575 30.8168 27.9406 30.9331C27.8243 31.0494 27.7581 31.2106 27.7581 31.375C27.7581 31.5394 27.8243 31.7006 27.9406 31.8168C28.0575 31.9331 28.2187 32 28.3831 32C28.5475 32 28.7087 31.9331 28.825 31.8168C28.9411 31.7006 29.0081 31.5394 29.0081 31.375C29.0081 31.2106 28.9412 31.0494 28.825 30.9331Z"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[beauty-offer-2]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-2/</link>
-					<pubDate>Sun, 24 Oct 2021 12:58:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-2.svg</guid>
-															<wp:post_id>7557</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 12:58:55]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 12:58:55]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 12:58:55]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 12:58:55]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[beauty-offer-2]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-2.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/beauty-offer-2.svg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#272726"><path d="M24.8507 25.9338C24.5341 25.9793 24.3072 26.2652 24.3072 26.585V31.3851C24.3072 32.2045 25.5835 32.2057 25.5835 31.3851V26.5651C25.5835 26.1817 25.2451 25.8771 24.8507 25.9338Z"></path><path d="M23.1522 7.41781C23.2111 6.25472 22.8017 5.14932 21.9992 4.30524C21.1969 3.46116 20.1136 2.99634 18.949 2.99634H14.8915C13.7269 2.99634 12.6436 3.46116 11.8413 4.30524C10.7073 5.498 10.6636 6.92905 10.7414 8.46495C8.9486 10.1332 7.92438 12.4774 7.92438 14.9306V31.3851C7.92438 32.2045 9.20067 32.2057 9.20067 31.3851V14.9305C9.20067 13.2186 9.78413 11.569 10.8315 10.2444L11.1054 15.6512C11.1142 18.85 13.7193 21.4495 16.9203 21.4495C20.1212 21.4495 22.7263 18.85 22.7352 15.6512L22.9879 10.6625C23.8455 11.9092 24.3072 13.3834 24.3072 14.9305V21.3454C24.3072 22.1648 25.5835 22.166 25.5835 21.3454V14.9305C25.5835 12.6115 24.6966 10.4324 23.0835 8.77508L23.1522 7.41781ZM21.8775 7.35323L21.4597 15.6022C21.4592 15.613 21.4589 15.6238 21.4589 15.6345C21.4589 18.1372 19.4228 20.1732 16.9202 20.1732C14.4175 20.1732 12.3815 18.1372 12.3815 15.6345C12.3815 15.6238 12.3813 15.613 12.3807 15.6022L11.9629 7.35323C11.9205 6.51464 12.2274 5.71906 12.8256 5.1238C13.3846 4.56759 14.1523 4.27263 14.9408 4.27263H18.8994C19.6879 4.27263 20.4557 4.56759 21.0146 5.1238C21.613 5.71906 21.9199 6.51464 21.8775 7.35323V7.35323Z"></path><path d="M31.5606 6.3112L29.8939 5.39961L28.9823 3.73283C28.7476 3.30367 28.0992 3.30023 27.8625 3.73283L26.9509 5.39961L25.2842 6.3112C24.855 6.54591 24.8516 7.19433 25.2842 7.43096L26.9509 8.34255L27.8625 10.0093C28.0972 10.4384 28.7457 10.4419 28.9823 10.0093L29.8939 8.34255L31.5606 7.43096C31.9897 7.19625 31.9932 6.54776 31.5606 6.3112V6.3112ZM29.9245 6.87105L28.9535 7.40211L28.4224 8.37312L27.8914 7.40211L26.9204 6.87098L27.8914 6.33992L28.4224 5.36891L28.9536 6.33992L29.9245 6.87105Z"></path><path d="M2.59232 3.77171L4.09778 4.59511L4.92112 6.10057C5.15583 6.52972 5.80425 6.53317 6.04087 6.10057L6.86428 4.59511L8.36973 3.77171C8.79889 3.537 8.80233 2.88858 8.36973 2.65195L6.86428 1.82861L6.04087 0.323159C5.80616 -0.105995 5.15774 -0.109441 4.92112 0.323159L4.09778 1.82861L2.59232 2.65202C2.16317 2.88666 2.15972 3.53515 2.59232 3.77171V3.77171ZM4.22847 3.21186L5.03822 2.76899L5.48109 1.95924L5.92397 2.76899L6.73371 3.2118L5.92397 3.65468L5.48109 4.46442L5.03828 3.65468L4.22847 3.21186Z"></path><path d="M6.54026 18.0411L4.93022 17.1605L4.04964 15.5505C3.81492 15.1213 3.1665 15.1179 2.92988 15.5505L2.0493 17.1605L0.439248 18.0411C0.0100938 18.2759 0.00664776 18.9243 0.439248 19.1609L2.0493 20.0415L2.92988 21.6515C3.16452 22.0806 3.81307 22.0841 4.04964 21.6515L4.93022 20.0415L6.54026 19.1609C6.96935 18.9263 6.97286 18.2778 6.54026 18.0411ZM3.98978 19.1011L3.48966 20.0154L2.98967 19.1012L2.07533 18.6011L2.98973 18.1009L3.48972 17.1867L3.98978 18.101L4.90412 18.6011L3.98978 19.1011Z"></path><path d="M24.3561 24.1841C24.5708 24.6991 25.3262 24.7015 25.5377 24.1764C25.6043 24.0111 25.5981 23.8216 25.5196 23.6616C25.3503 23.3166 24.9367 23.2131 24.631 23.3851C24.3543 23.5408 24.2341 23.891 24.3561 24.1841V24.1841Z"></path><path d="M18.6667 26.0871C19.4861 26.0871 19.4873 24.8108 18.6667 24.8108H15.1116C14.2922 24.8108 14.291 26.0871 15.1116 26.0871H18.6667Z"></path><path d="M19.6646 27.4155H14.1759C13.3565 27.4155 13.3553 28.6918 14.1759 28.6918H19.6646C20.4839 28.6918 20.4851 27.4155 19.6646 27.4155Z"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[beauty-offer-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-3/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-3.svg</guid>
 															<wp:post_id>7558</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:56]]></wp:post_date>
@@ -1193,7 +1530,7 @@
 					<title><![CDATA[beauty-offer-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-4/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-4.svg</guid>
 															<wp:post_id>7559</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:57]]></wp:post_date>
@@ -1220,7 +1557,7 @@
 					<title><![CDATA[beauty-offer-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-5/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-5.svg</guid>
 															<wp:post_id>7560</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:58]]></wp:post_date>
@@ -1247,7 +1584,7 @@
 					<title><![CDATA[beauty-offer-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-6/</link>
 					<pubDate>Sun, 24 Oct 2021 12:58:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-6.svg</guid>
 															<wp:post_id>7561</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:58:59]]></wp:post_date>
@@ -1274,7 +1611,7 @@
 					<title><![CDATA[beauty-offer-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-7/</link>
 					<pubDate>Sun, 24 Oct 2021 12:59:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-7.svg</guid>
 															<wp:post_id>7562</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:59:00]]></wp:post_date>
@@ -1301,7 +1638,7 @@
 					<title><![CDATA[beauty-offer-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/beauty-offer-8/</link>
 					<pubDate>Sun, 24 Oct 2021 12:59:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-8.svg</guid>
 															<wp:post_id>7563</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 12:59:01]]></wp:post_date>
@@ -1328,7 +1665,7 @@
 					<title><![CDATA[Footer Beauty]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-beauty</link>
 					<pubDate>Sun, 24 Oct 2021 13:02:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7566</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.4.0" type="text/css" media="all" /> 					
 				<h4>We are waiting in our studio</h4> 
@@ -1401,7 +1738,7 @@
 					<title><![CDATA[Prefooter Beauty]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=prefooter-beauty</link>
 					<pubDate>Sun, 24 Oct 2021 13:05:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7571</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.2" type="text/css" media="all" /> 					
 				<h4>Need a perfect makeup and hairstyling?</h4> 
@@ -1472,33 +1809,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[beauty-img-1]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/home-beauty/beauty-img-1/</link>
-					<pubDate>Sun, 24 Oct 2021 13:08:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-img-1.png</guid>
-															<wp:post_id>7577</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 13:08:46]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 13:08:46]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 13:08:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 13:08:46]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[beauty-img-1]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>7535</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-img-1.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/beauty-img-1.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[beauty-offer-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-beauty/beauty-offer-2-2/</link>
 					<pubDate>Sun, 24 Oct 2021 13:10:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-offer-2.png</guid>
 															<wp:post_id>7578</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:10:02]]></wp:post_date>
@@ -1518,198 +1832,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Home]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/home-7/</link>
-					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4350</guid>
-															<wp:post_id>4350</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[home-7]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>1</wp:menu_order>
-					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
-											<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-							<wp:meta_value><![CDATA[4350]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#Home]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
-							<wp:meta_value><![CDATA[default]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
-							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Prices]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/prices/</link>
-					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4351</guid>
-															<wp:post_id>4351</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[prices]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>2</wp:menu_order>
-					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
-											<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-							<wp:meta_value><![CDATA[4351]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#Prices]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
-							<wp:meta_value><![CDATA[default]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
-							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[About Us]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/about-us-2/</link>
-					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4352</guid>
-															<wp:post_id>4352</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[about-us-2]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>3</wp:menu_order>
-					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
-											<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-							<wp:meta_value><![CDATA[4352]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#About_Us]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
-							<wp:meta_value><![CDATA[default]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
-							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Services]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/services-2/</link>
-					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4353</guid>
-															<wp:post_id>4353</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-29 13:49:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 13:50:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 13:50:43]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[services-2]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>4</wp:menu_order>
-					<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-												<category domain="nav_menu" nicename="main-menu-beauty"><![CDATA[Main menu Beauty]]></category>
-											<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-							<wp:meta_value><![CDATA[4353]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-							<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/#Services]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_design]]></wp:meta_key>
-							<wp:meta_value><![CDATA[default]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
-							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[Portfolio]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/portfolio/</link>
 					<pubDate>Wed, 29 Sep 2021 13:49:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4354</guid>
 															<wp:post_id>4354</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:50:43]]></wp:post_date>
@@ -1750,303 +1876,6 @@
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_menu_item_opanchor]]></wp:meta_key>
 							<wp:meta_value><![CDATA[enable]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Contact form Beauty]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4379</link>
-					<pubDate>Wed, 29 Sep 2021 14:04:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4379</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-lg-3">[text* Yor name placeholder ="Yor name"]</p>
-<p class="col-lg-3">[text* Your phone number placeholder ="Your phone number"]</p>
-<div class="col-lg-3"">  
-<p><select class="form-control" id="Select service">
-            <option>Express make-up</option>
-            <option>Manicure</option>
-            <option>High-end Cosmetics</option>
-            <option>Evening make-up</option>
-            <option>Hair styling</option>
-            <option>Lamination of eyebrows</option>
-            <option>Eyelash extensions</option>
-        </select>
-</p>
-</div>          
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary"Online booking"]</p>
-</div>
-1
-[_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
-[_site_admin_email]
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])
-Reply-To: [your-email]
-
-
-
-
-[_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])
-Reply-To: [_site_admin_email]
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-															<wp:post_id>4379</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-29 14:04:24]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-29 14:04:24]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:04:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:04:24]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[contact-form-beauty]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-lg-3">[text* Yor name placeholder ="Yor name"]</p>
-<p class="col-lg-3">[text* Your phone number placeholder ="Your phone number"]</p>
-<div class="col-lg-3"">  
-<p><select class="form-control" id="Select service">
-            <option>Express make-up</option>
-            <option>Manicure</option>
-            <option>High-end Cosmetics</option>
-            <option>Evening make-up</option>
-            <option>Hair styling</option>
-            <option>Lamination of eyebrows</option>
-            <option>Eyelash extensions</option>
-        </select>
-</p>
-</div>          
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary"Online booking"]</p>
-</div>]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:22:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
-							<wp:meta_value><![CDATA[442b229c59be6264c2d6628dd42c862e48a3f7fb]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[Contact form popup Beauty]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4385</link>
-					<pubDate>Wed, 29 Sep 2021 14:06:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4385</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-lg-12">[text* Yor name placeholder ="Yor name"]</p>
-<div class="col-lg-12"">  
-<p><select class="form-control" id="Select service">
-            <option>Express make-up</option>
-            <option>Manicure</option>
-            <option>High-end Cosmetics</option>
-            <option>Evening make-up</option>
-            <option>Hair styling</option>
-            <option>Lamination of eyebrows</option>
-            <option>Eyelash extensions</option>
-        </select>
-</p>
-</div>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>          
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary"Online booking"]</p>
-</div>
-1
-[_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
-[_site_admin_email]
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])
-Reply-To: [your-email]
-
-
-
-
-[_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])
-Reply-To: [_site_admin_email]
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-															<wp:post_id>4385</wp:post_id>
-					<wp:post_date><![CDATA[2021-09-29 14:06:31]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-09-29 14:06:31]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:06:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:06:31]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-					<wp:post_name><![CDATA[contact-form-popup-beauty]]></wp:post_name>
-					<wp:status><![CDATA[publish]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-lg-12">[text* Yor name placeholder ="Yor name"]</p>
-<div class="col-lg-12"">  
-<p><select class="form-control" id="Select service">
-            <option>Express make-up</option>
-            <option>Manicure</option>
-            <option>High-end Cosmetics</option>
-            <option>Evening make-up</option>
-            <option>Hair styling</option>
-            <option>Lamination of eyebrows</option>
-            <option>Eyelash extensions</option>
-        </select>
-</p>
-</div>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>          
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary"Online booking"]</p>
-</div>]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:22:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
-							<wp:meta_value><![CDATA[eaaaf3b95bd0e891a82c285c2f62869e86b8efdd]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[beauty-popup]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=7546</link>
-					<pubDate>Sun, 24 Oct 2021 12:56:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg</guid>
-															<wp:post_id>7546</wp:post_id>
-					<wp:post_date><![CDATA[2021-10-24 12:56:29]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2021-10-24 12:56:29]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-10-24 12:56:29]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-10-24 12:56:29]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[beauty-popup]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>7542</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/beauty-popup.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2021/10/beauty-popup.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 				</channel>

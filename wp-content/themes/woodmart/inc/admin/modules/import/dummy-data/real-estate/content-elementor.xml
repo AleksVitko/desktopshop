@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.3" created="2023-12-26 16:36" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 13:12" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Elementor 2.0 WoodMart dummy</title>
 	<link>https://dummy.xtemos.com/woodmart2/elementor</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Tue, 26 Dec 2023 16:36:47 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 13:12:41 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term><wp:term_id>100</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-menu-real-estate]]></wp:term_slug><wp:term_name><![CDATA[Main menu Real Estate]]></wp:term_name>
 </wp:term>
@@ -44,13 +44,13 @@
 	<wp:term><wp:term_id>103</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top-bar-right-real-estate]]></wp:term_slug><wp:term_name><![CDATA[Top bar right Real Estate]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.2.3</generator>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
 
 					<item>
 					<title><![CDATA[Home Real-estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/</link>
 					<pubDate>Sun, 24 Oct 2021 13:23:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=7594</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.4" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-mod-highlighted-text-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/mod-highlighted-text.min.css?ver=7.3.4" type="text/css" media="all" /> 					
 				<h4>Real <u>Estate</u> Investments</h4> 
@@ -279,7 +279,7 @@
 					<title><![CDATA[real-estate-bg-top]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-bg-top/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-bg-top.svg</guid>
 															<wp:post_id>7620</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:07]]></wp:post_date>
@@ -306,7 +306,7 @@
 					<title><![CDATA[real-estate-income]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-income/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-income.svg</guid>
 															<wp:post_id>7621</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:08]]></wp:post_date>
@@ -333,7 +333,7 @@
 					<title><![CDATA[real-estate-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-logo/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-logo.svg</guid>
 															<wp:post_id>7622</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:09]]></wp:post_date>
@@ -360,7 +360,7 @@
 					<title><![CDATA[real-estate-managment]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-managment/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-managment.svg</guid>
 															<wp:post_id>7623</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:09]]></wp:post_date>
@@ -387,7 +387,7 @@
 					<title><![CDATA[real-estate-pic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-pic/</link>
 					<pubDate>Sun, 24 Oct 2021 13:37:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-pic.png</guid>
 															<wp:post_id>7637</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:37:34]]></wp:post_date>
@@ -410,7 +410,7 @@
 					<title><![CDATA[real-estate-apartments]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-apartments/</link>
 					<pubDate>Sun, 24 Oct 2021 13:38:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-apartments.jpg</guid>
 															<wp:post_id>7638</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:38:01]]></wp:post_date>
@@ -433,7 +433,7 @@
 					<title><![CDATA[real-estate-gallary-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-gallary-1/</link>
 					<pubDate>Sun, 24 Oct 2021 13:40:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-gallary-1.jpg</guid>
 															<wp:post_id>7639</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:40:23]]></wp:post_date>
@@ -456,7 +456,7 @@
 					<title><![CDATA[real-estate-gallary-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-gallary-2/</link>
 					<pubDate>Sun, 24 Oct 2021 13:40:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-gallary-2.jpg</guid>
 															<wp:post_id>7640</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:40:25]]></wp:post_date>
@@ -479,7 +479,7 @@
 					<title><![CDATA[real-estate-gallary-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-gallary-3/</link>
 					<pubDate>Sun, 24 Oct 2021 13:40:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-gallary-3.jpg</guid>
 															<wp:post_id>7641</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:40:27]]></wp:post_date>
@@ -502,7 +502,7 @@
 					<title><![CDATA[real-estate-gallary-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-gallary-4/</link>
 					<pubDate>Sun, 24 Oct 2021 13:40:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-gallary-4.jpg</guid>
 															<wp:post_id>7642</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:40:29]]></wp:post_date>
@@ -525,7 +525,7 @@
 					<title><![CDATA[real-estate-gallary-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-gallary-5/</link>
 					<pubDate>Sun, 24 Oct 2021 13:40:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-gallary-5.jpg</guid>
 															<wp:post_id>7643</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:40:30]]></wp:post_date>
@@ -548,7 +548,7 @@
 					<title><![CDATA[w-investment-gallary-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/w-investment-gallary-6/</link>
 					<pubDate>Wed, 06 Dec 2023 14:46:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/12/w-investment-gallary-6.jpg</guid>
 															<wp:post_id>23767</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-06 14:46:09]]></wp:post_date>
@@ -571,7 +571,7 @@
 					<title><![CDATA[w-investment-gallary-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/w-investment-gallary-7/</link>
 					<pubDate>Wed, 06 Dec 2023 14:46:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/12/w-investment-gallary-7.jpg</guid>
 															<wp:post_id>23768</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-06 14:46:09]]></wp:post_date>
@@ -594,7 +594,7 @@
 					<title><![CDATA[w-investment-gallary-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/w-investment-gallary-8/</link>
 					<pubDate>Wed, 06 Dec 2023 14:46:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2023/12/w-investment-gallary-8.jpg</guid>
 															<wp:post_id>23769</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-06 14:46:10]]></wp:post_date>
@@ -617,7 +617,7 @@
 					<title><![CDATA[w-investment-facebook]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=24797</link>
 					<pubDate>Thu, 21 Dec 2023 15:00:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/w-investment-facebook.svg</guid>
 															<wp:post_id>24797</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:00:09]]></wp:post_date>
@@ -644,7 +644,7 @@
 					<title><![CDATA[w-investment-location]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=24798</link>
 					<pubDate>Thu, 21 Dec 2023 15:00:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/w-investment-location.svg</guid>
 															<wp:post_id>24798</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:00:10]]></wp:post_date>
@@ -671,7 +671,7 @@
 					<title><![CDATA[w-investment-phone]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=24799</link>
 					<pubDate>Thu, 21 Dec 2023 15:00:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/w-investment-phone.svg</guid>
 															<wp:post_id>24799</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:00:10]]></wp:post_date>
@@ -698,7 +698,7 @@
 					<title><![CDATA[w-investment-twitter]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=24800</link>
 					<pubDate>Thu, 21 Dec 2023 15:00:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/w-investment-twitter.svg</guid>
 															<wp:post_id>24800</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:00:11]]></wp:post_date>
@@ -725,7 +725,7 @@
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/home-10/</link>
 					<pubDate>Wed, 29 Sep 2021 13:57:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4365</guid>
 															<wp:post_id>4365</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:57:54]]></wp:post_date>
@@ -772,19 +772,19 @@
 					<title><![CDATA[Contact form popup Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4386</link>
 					<pubDate>Wed, 29 Sep 2021 14:06:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4386</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-lg-12">[text* First name placeholder ="First name"]</p>
-<p class="col-lg-12">[text* Last name placeholder ="Last name"]</p>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-white class:btn-style-semi-round "Get Consult"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* First name placeholder ="First name"]</div>
+<div class="wd-col">[text* Last name placeholder ="Last name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">[submit class:btn class:btn-color-white"Get Consult"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -798,7 +798,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -834,8 +834,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4386</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:06:52]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:06:52]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-11-16 15:11:45]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-11-16 15:11:45]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:20:16]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:20:16]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-popup-real-estate]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -844,16 +844,16 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-lg-12">[text* First name placeholder ="First name"]</p>
-<p class="col-lg-12">[text* Last name placeholder ="Last name"]</p>
-<p class="col-lg-12">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-white class:btn-style-semi-round "Get Consult"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-g">
+<div class="wd-col">[text* First name placeholder ="First name"]</div>
+<div class="wd-col">[text* Last name placeholder ="Last name"]</div>
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col">[submit class:btn class:btn-color-white"Get Consult"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -864,7 +864,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -879,25 +879,29 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[b6a58a184250e9debfed80c238a1d5f099217fa6]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Contact form Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4387</link>
 					<pubDate>Wed, 29 Sep 2021 14:07:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4387</guid>
-											<content:encoded><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-6">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary class:btn-style-semi-round "Call me back"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col-auto">[submit class:btn class:btn-color-primary class:btn-style-semi-round "Call me back"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -911,7 +915,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -947,8 +951,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4387</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:07:09]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:07:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-11-16 15:12:01]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-11-16 15:12:01]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:18:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:18:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-real-estate]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -957,14 +961,14 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row wd-spacing-20">
-<p class="col-lg-6">[text* Your phone number placeholder ="Your phone number"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary class:btn-style-semi-round "Call me back"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-f-stretch">
+<div class="wd-col">[text* Your phone number placeholder ="Your phone number"]</div>
+<div class="wd-col-auto">[submit class:btn class:btn-color-primary class:btn-style-semi-round "Call me back"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -975,7 +979,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -990,15 +994,19 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[d1a05ce19d786d8a6326141fbc82750d0fd57de9]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Header popup Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=header-popup-real-estate</link>
 					<pubDate>Sun, 24 Oct 2021 13:24:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7601</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-mfp-popup-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/lib-magnific-popup.min.css?ver=7.3.0" type="text/css" media="all" /> 							
 			<a  href="#popup-61755eac78c2a">
@@ -1085,49 +1093,49 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Popup Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate</link>
 					<pubDate>Sun, 24 Oct 2021 13:26:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7604</guid>
-											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.2" type="text/css" media="all" /> 					
+											<content:encoded><![CDATA[ 					
 				<h4>If You Have Questions Please, Contact Us</h4> 
-<p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul>
-<form action="/woodmart2/elementor/wp-admin/admin-ajax.php#wpcf7-f4386-o1" method="post" aria-label="Contact form" novalidate="novalidate" data-status="init">
-<input type="hidden" name="_wpcf7" value="4386" />
-<input type="hidden" name="_wpcf7_version" value="5.7.7" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4386-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="First name" value="" type="text" name="First" />
-	</p>
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Last name" value="" type="text" name="Last" />
-	</p>
-	<p><input size="40" aria-required="true" aria-invalid="false" placeholder="Your phone number" value="" type="text" name="Your" />
-	</p>
-	<p><input type="submit" value="Get Consult" />
-	</p>
-</form>
-						<link rel="stylesheet" id="wd-info-box-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-info-box.min.css?ver=7.3.2" type="text/css" media="all" /> 					
-															<img width="90" height="90" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-autor-90x90.png" alt="" decoding="async" loading="lazy" />													
-											<h4						class="info-box-title title box-title-style-default wd-fontsize-xxl" data-elementor-setting-key="title">
+<p role="status" aria-live="polite"></p> <ul></ul>
+
+
+
+
+
+
+
+		<p>
+		</p>
+		<p>
+		</p>
+		<p>
+		</p>
+		<p>
+		</p>
+
+						 					
+															<img width="90" height="90" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-autor-90x90.png" alt="" />													
+											<h4 class="info-box-title title box-title-style-default wd-fontsize-xxl" data-elementor-setting-key="title">
 								Choose Your Apartment						</h4>
-						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.3.2" type="text/css" media="all" /> 					
+						 					
 			<p>Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially</p>
-						<link rel="stylesheet" id="wd-social-icons-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-social-icons.min.css?ver=7.3.2" type="text/css" media="all" /> 			
+						 						 						
 									<a rel="noopener noreferrer nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate" target="_blank" aria-label="Facebook social link">
 											</a>
-									<a rel="noopener noreferrer nofollow" href="https://twitter.com/share?url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate" target="_blank" aria-label="Twitter social link">
+									<a rel="noopener noreferrer nofollow" href="https://x.com/share?url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate" target="_blank" aria-label="X social link">
 											</a>
-									<a rel="noopener noreferrer nofollow" href="https://pinterest.com/pin/create/button/?url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate&media=https://dummy.xtemos.com/woodmart2/elementor/wp-includes/images/media/default.png&description=Popup+Real+Estate" target="_blank" aria-label="Pinterest social link">
+									<a rel="noopener noreferrer nofollow" href="https://pinterest.com/pin/create/button/?url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate&amp;media=https://dummy.xtemos.com/woodmart2/elementor/wp-includes/images/media/default.svg&amp;description=Popup+Real+Estate" target="_blank" aria-label="Pinterest social link">
 											</a>
-									<a rel="noopener noreferrer nofollow" href="https://www.linkedin.com/shareArticle?mini=true&url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate" target="_blank" aria-label="Linkedin social link">
+									<a rel="noopener noreferrer nofollow" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate" target="_blank" aria-label="Linkedin social link">
 											</a>
 									<a rel="noopener noreferrer nofollow" href="https://telegram.me/share/url?url=https://dummy.xtemos.com/woodmart2/elementor/?cms_block=popup-real-estate" target="_blank" aria-label="Telegram social link">
 											</a>]]></content:encoded>
 															<wp:post_id>7604</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:26:00]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-10-24 13:26:00]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-11-16 14:51:06]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-11-16 14:51:06]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-21 13:05:00]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-21 13:05:00]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[popup-real-estate]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1148,11 +1156,11 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.16.6]]></wp:meta_value>
+							<wp:meta_value><![CDATA[3.24.7]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"123a694","elType":"container","settings":{"content_position":"middle","structure":"20","background_background":"classic","background_color":"#106CD8","background_image":{"id":7620,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/real-estate-bg-top.svg","alt":"","source":"library"},"background_position":"top left","background_repeat":"no-repeat","background_size":"cover","margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":true},"flex_gap":{"size":40,"column":"40","row":"40","unit":"px"},"padding_mobile":{"unit":"%","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"flex_direction":"row","flex_align_items":"center","flex_direction_mobile":"column","scroll_y":-80},"elements":[{"id":"701ae8d","elType":"container","settings":{"_column_size":"50","wd_color_scheme":"light","border_width":{"unit":"px","top":"0","right":"1","bottom":"0","left":"0","isLinked":""},"border_color":"rgba(255, 255, 255, 0.2)","column_sticky_offset":"50","scroll_y":"-80","border_width_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":"1"},"content_width":"full","width":{"unit":"%","size":50,"sizes":[]}},"elements":[{"id":"4609bc4","elType":"widget","settings":{"subtitle":"","title":"If You Have Questions Please, Contact Us","after_title":"","size":"large","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"adc30d3","elType":"widget","settings":{"form_id":"4386","_margin":{"unit":"px","top":"0","right":"0","bottom":"-20","left":"0","isLinked":""},"scroll_y":"-80","style":"wd-style-with-bg"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":true},{"id":"68f9c70","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":50,"sizes":[]}},"elements":[{"id":"b83afcf","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":7608,"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/real-estate-autor.png","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"subtitle":"","title":"Choose Your Apartment","content":"","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_size":"extra-large","scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"},{"id":"432fb72","elType":"widget","settings":{"text":"<p>Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially<\/p>","text_color_scheme":"light","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"37c3a19","elType":"widget","settings":{"color":"light","align":"left","style":"bordered","scroll_y":"-80","label_text":"Share: ","fb_link":"#","twitter_link":"#","isntagram_link":"#","pinterest_link":"#","youtube_link":"#","_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"-4","isLinked":false}},"elements":[],"widgetType":"wd_social_buttons"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"123a694","elType":"container","settings":{"content_position":"middle","structure":"20","background_background":"classic","background_color":"#106CD8","background_image":{"id":"7620","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/real-estate-bg-top.svg","alt":"","source":"library"},"background_position":"top left","background_repeat":"no-repeat","background_size":"cover","margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"flex_gap":{"size":"40","column":"40","row":"40","unit":"px"},"padding_mobile":{"unit":"%","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"flex_direction":"row","flex_align_items":"center","flex_direction_mobile":"column","scroll_y":"-80"},"elements":[{"id":"701ae8d","elType":"container","settings":{"_column_size":"50","wd_color_scheme":"light","border_width":{"unit":"px","top":"0","right":"1","bottom":"0","left":"0","isLinked":""},"border_color":"rgba(255, 255, 255, 0.2)","column_sticky_offset":"50","scroll_y":"-80","border_width_mobile":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":"1"},"content_width":"full","width":{"unit":"%","size":"50","sizes":[]}},"elements":[{"id":"4609bc4","elType":"widget","settings":{"subtitle":"","title":"If You Have Questions Please, Contact Us","after_title":"","size":"large","align":"left","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"adc30d3","elType":"widget","settings":{"form_id":"4386","scroll_y":"-80","style":"wd-style-with-bg"},"elements":[],"widgetType":"wd_contact_form_7"}],"isInner":"1"},{"id":"68f9c70","elType":"container","settings":{"_column_size":"50","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":"50","sizes":[]}},"elements":[{"id":"b83afcf","elType":"widget","settings":{"icon_type":"icon","icon_text":"53","image":{"id":"7608","url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/10\/real-estate-autor.png","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"90","height":"90"},"subtitle":"","title":"Choose Your Apartment","content":"","btn_text":"","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""},"woodmart_color_scheme":"light","alignment":"left","image_alignment":"left","title_size":"extra-large","scroll_y":"-80"},"elements":[],"widgetType":"wd_infobox"},{"id":"432fb72","elType":"widget","settings":{"text":"<p>Using dummy content or fake information in the Web design process can result in products with unrealistic assumptions and potentially<\/p>","text_color_scheme":"light","scroll_y":"-80"},"elements":[],"widgetType":"wd_text_block"},{"id":"37c3a19","elType":"widget","settings":{"color":"light","align":"left","style":"bordered","scroll_y":"-80","label_text":"Share: ","fb_link":"#","twitter_link":"#","isntagram_link":"#","pinterest_link":"#","youtube_link":"#","_margin":{"unit":"px","top":"0","right":"0","bottom":"0","left":"-4","isLinked":""}},"elements":[],"widgetType":"wd_social_buttons"}],"isInner":"1"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -1167,7 +1175,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-autor]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?attachment_id=7608</link>
 					<pubDate>Sun, 24 Oct 2021 13:26:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-autor.png</guid>
 															<wp:post_id>7608</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:26:54]]></wp:post_date>
@@ -1190,7 +1198,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-advantage-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-advantage-1/</link>
 					<pubDate>Sun, 24 Oct 2021 13:27:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-advantage-1.svg</guid>
 															<wp:post_id>7610</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:27:58]]></wp:post_date>
@@ -1217,7 +1225,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-advantage-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-advantage-2/</link>
 					<pubDate>Sun, 24 Oct 2021 13:27:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-advantage-2.svg</guid>
 															<wp:post_id>7611</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:27:59]]></wp:post_date>
@@ -1244,7 +1252,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-advantage-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-advantage-3/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-advantage-3.svg</guid>
 															<wp:post_id>7612</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:00]]></wp:post_date>
@@ -1271,7 +1279,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-advantage-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-advantage-4/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-advantage-4.svg</guid>
 															<wp:post_id>7613</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:01]]></wp:post_date>
@@ -1298,7 +1306,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-advantage-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-advantage-5/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-advantage-5.svg</guid>
 															<wp:post_id>7614</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:02]]></wp:post_date>
@@ -1325,7 +1333,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-advantage-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-advantage-6/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-advantage-6.svg</guid>
 															<wp:post_id>7615</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:03]]></wp:post_date>
@@ -1352,7 +1360,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-apartment-32]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-apartment-32/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-apartment-32.svg</guid>
 															<wp:post_id>7616</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:04]]></wp:post_date>
@@ -1379,7 +1387,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-apartment-52]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-apartment-52/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-apartment-52.svg</guid>
 															<wp:post_id>7617</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:04]]></wp:post_date>
@@ -1406,7 +1414,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-apartment-82]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-apartment-82/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-apartment-82.svg</guid>
 															<wp:post_id>7618</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:05]]></wp:post_date>
@@ -1433,7 +1441,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-apartment-120]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-apartment-120/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-apartment-120.svg</guid>
 															<wp:post_id>7619</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:06]]></wp:post_date>
@@ -1460,7 +1468,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-bg-top]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/real-estate-bg-top/</link>
 					<pubDate>Sun, 24 Oct 2021 13:28:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-bg-top.svg</guid>
 															<wp:post_id>7620</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:28:07]]></wp:post_date>
@@ -1487,7 +1495,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Prefooter Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=prefooter-real-estate</link>
 					<pubDate>Sun, 24 Oct 2021 13:30:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7626</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.0" type="text/css" media="all" /> 					
 				<h4>Have a Question?</h4> 
@@ -1578,11 +1586,11 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Footer Real Estate]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-real-estate</link>
 					<pubDate>Sun, 24 Oct 2021 13:31:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=7631</guid>
-											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.3.2" type="text/css" media="all" /> 					
+											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-section-title-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-section-title.min.css?ver=7.4.0" type="text/css" media="all" /> 					
 				<h4>Investment Department</h4> 
-						<link rel="stylesheet" id="wd-list-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-list.min.css?ver=7.3.2" type="text/css" media="all" /> 					<ul>
+						<link rel="stylesheet" id="wd-list-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-list.min.css?ver=7.4.0" type="text/css" media="all" /> 					<ul>
 											<li>
 						6391 Elgin St. Celina, Delaware					
 									</li>
@@ -1613,8 +1621,8 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 															<wp:post_id>7631</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:31:05]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-10-24 13:31:05]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-11-16 16:20:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-11-16 16:20:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-03-01 15:49:02]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-03-01 15:49:02]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[footer-real-estate]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1631,7 +1639,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.16.6]]></wp:meta_value>
+							<wp:meta_value><![CDATA[3.19.4]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
@@ -1639,7 +1647,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"7089e52","elType":"container","settings":{"wd_section_stretch":"stretch","structure":"30","background_background":"classic","padding":{"unit":"px","top":"50","right":"15","bottom":"50","left":"15","isLinked":""},"flex_direction":"row","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"scroll_y":-80},"elements":[{"id":"bbdcf6c","elType":"container","settings":{"_column_size":"33","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":33.3,"sizes":[]},"flex_align_items":"center"},"elements":[{"id":"47c64d1","elType":"widget","settings":{"subtitle":"","title":"Investment Department","after_title":"","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"6463f13","elType":"widget","settings":{"list_items":[{"list_content":"6391 Elgin St. Celina, Delaware","_id":"5a880d2","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"without","size":"large","scroll_y":"-80","align":"center"},"elements":[],"widgetType":"wd_list"}],"isInner":true},{"id":"425ca4c","elType":"container","settings":{"_column_size":"33","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":33.3,"sizes":[]},"flex_align_items":"center"},"elements":[{"id":"7a7910b","elType":"widget","settings":{"subtitle":"","title":"Contact With us","after_title":"","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"5c0748c","elType":"widget","settings":{"list_items":[{"list_content":"xtemos@gmail.com","_id":"5a880d2","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"(480) 555-0103","_id":"31ffa55","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"without","size":"large","scroll_y":"-80","align":"center"},"elements":[],"widgetType":"wd_list"}],"isInner":true},{"id":"66ca028","elType":"container","settings":{"_column_size":"33","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":33.3,"sizes":[]},"flex_align_items":"center"},"elements":[{"id":"fc32b38","elType":"widget","settings":{"subtitle":"","title":"Social Links","after_title":"","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"c848d4a","elType":"widget","settings":{"list_items":[{"list_content":"Facebook","_id":"5a880d2","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Instagram","_id":"31ffa55","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"without","size":"large","scroll_y":"-80","align":"center"},"elements":[],"widgetType":"wd_list"}],"isInner":true}],"isInner":false},{"id":"3335220","elType":"container","settings":{"wd_section_stretch":"stretch","background_background":"classic","border_border":"solid","border_width":{"unit":"px","top":"1","right":"0","bottom":"0","left":"0","isLinked":""},"border_color":"rgba(255, 255, 255, 0.1)","padding":{"unit":"px","top":"20","right":"15","bottom":"20","left":"15","isLinked":""},"flex_direction":"row","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"scroll_y":-80},"elements":[{"id":"887e1ee","elType":"container","settings":{"_column_size":"100","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full"},"elements":[{"id":"6f0ab3a","elType":"widget","settings":{"editor":"<p><a href=\"https:\/\/woodmart.xtemos.com\/\"><strong>WOODMART<\/strong><\/a> Created By <a href=\"http:\/\/xtemos.com\"><strong><span style=\"color: #cd3e3e;\">X<\/span>TEMOS STUDIO<\/strong><\/a>\u00a0Copyright <i class=\"fa fa-copyright\"><\/i> 2023<\/p>","align":"center","typography_typography":"custom","typography_font_size":{"unit":"px","size":"14","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"text-editor"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"7089e52","elType":"container","settings":{"wd_section_stretch":"stretch","structure":"30","background_background":"classic","padding":{"unit":"px","top":"50","right":"15","bottom":"50","left":"15","isLinked":""},"flex_direction":"row","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"bbdcf6c","elType":"container","settings":{"_column_size":"33","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":33.3,"sizes":[]},"flex_align_items":"center","container_sticky_offset":50},"elements":[{"id":"47c64d1","elType":"widget","settings":{"subtitle":"","title":"Investment Department","after_title":"","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"6463f13","elType":"widget","settings":{"list_items":[{"list_content":"6391 Elgin St. Celina, Delaware","_id":"5a880d2","link":{"url":"","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"without","size":"large","scroll_y":"-80","align":"center"},"elements":[],"widgetType":"wd_list"}],"isInner":true},{"id":"425ca4c","elType":"container","settings":{"_column_size":"33","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":33.3,"sizes":[]},"flex_align_items":"center","container_sticky_offset":50},"elements":[{"id":"7a7910b","elType":"widget","settings":{"subtitle":"","title":"Contact With us","after_title":"","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"5c0748c","elType":"widget","settings":{"list_items":[{"list_content":"xtemos@gmail.com","_id":"5a880d2","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"(480) 555-0103","_id":"31ffa55","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"without","size":"large","scroll_y":"-80","align":"center"},"elements":[],"widgetType":"wd_list"}],"isInner":true},{"id":"66ca028","elType":"container","settings":{"_column_size":"33","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","width":{"unit":"%","size":33.3,"sizes":[]},"flex_align_items":"center","container_sticky_offset":50},"elements":[{"id":"fc32b38","elType":"widget","settings":{"subtitle":"","title":"Social Links","after_title":"","scroll_y":"-80"},"elements":[],"widgetType":"wd_title"},{"id":"c848d4a","elType":"widget","settings":{"list_items":[{"list_content":"Facebook","_id":"5a880d2","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}},{"list_content":"Instagram","_id":"31ffa55","link":{"url":"#","is_external":"","nofollow":"","custom_attributes":""}}],"list_type":"without","size":"large","scroll_y":"-80","align":"center"},"elements":[],"widgetType":"wd_list"}],"isInner":true}],"isInner":false},{"id":"3335220","elType":"container","settings":{"wd_section_stretch":"stretch","background_background":"classic","border_border":"solid","border_width":{"unit":"px","top":"1","right":"0","bottom":"0","left":"0","isLinked":""},"border_color":"rgba(255, 255, 255, 0.1)","padding":{"unit":"px","top":"20","right":"15","bottom":"20","left":"15","isLinked":""},"flex_direction":"row","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"887e1ee","elType":"container","settings":{"_column_size":"100","wd_color_scheme":"light","column_sticky_offset":"50","scroll_y":"-80","content_width":"full","container_sticky_offset":50},"elements":[{"id":"6f0ab3a","elType":"widget","settings":{"editor":"<p><a href=\"#\"><strong>WOODMART<\/strong><\/a> Created By <a href=\"#\"><strong><span style=\"color: #cd3e3e;\">X<\/span>TEMOS STUDIO<\/strong><\/a>\u00a0Copyright <i class=\"fa fa-copyright\"><\/i> 2023<\/p>","align":"center","typography_typography":"custom","typography_font_size":{"unit":"px","size":"14","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"text-editor"}],"isInner":true}],"isInner":false}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -1654,7 +1662,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[real-estate-choose-appartment]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-real-estate/real-estate-choose-appartment/</link>
 					<pubDate>Sun, 24 Oct 2021 13:41:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/real-estate-choose-appartment.png</guid>
 															<wp:post_id>7644</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 13:41:31]]></wp:post_date>
@@ -1677,7 +1685,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Apartments]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/apartments/</link>
 					<pubDate>Wed, 29 Sep 2021 13:57:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4366</guid>
 															<wp:post_id>4366</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:57:54]]></wp:post_date>
@@ -1724,7 +1732,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Services]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/services-5/</link>
 					<pubDate>Wed, 29 Sep 2021 13:57:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4367</guid>
 															<wp:post_id>4367</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:57:54]]></wp:post_date>
@@ -1771,7 +1779,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Prices]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/prices-2/</link>
 					<pubDate>Wed, 29 Sep 2021 13:57:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4368</guid>
 															<wp:post_id>4368</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:57:54]]></wp:post_date>
@@ -1818,7 +1826,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[About Us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2021/09/29/about-us-5/</link>
 					<pubDate>Wed, 29 Sep 2021 13:57:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4369</guid>
 															<wp:post_id>4369</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 13:57:54]]></wp:post_date>
@@ -1865,7 +1873,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Facebook]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2023/12/21/facebook/</link>
 					<pubDate>Wed, 29 Sep 2021 14:01:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4375</guid>
 															<wp:post_id>4375</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:02:02]]></wp:post_date>
@@ -1932,7 +1940,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Instagram]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2023/12/21/twitter/</link>
 					<pubDate>Wed, 29 Sep 2021 14:01:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4376</guid>
 															<wp:post_id>4376</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:02:02]]></wp:post_date>
@@ -1999,7 +2007,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[6391 Elgin St. Celina, Delaware]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2023/12/21/6391-elgin-st-celina-delaware/</link>
 					<pubDate>Wed, 29 Sep 2021 14:02:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4377</guid>
 															<wp:post_id>4377</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:01:12]]></wp:post_date>
@@ -2062,7 +2070,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[(480) 555-0103]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/2023/12/21/480-555-0103/</link>
 					<pubDate>Wed, 29 Sep 2021 14:02:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?p=4378</guid>
 															<wp:post_id>4378</wp:post_id>
 					<wp:post_date><![CDATA[2023-12-21 15:01:12]]></wp:post_date>

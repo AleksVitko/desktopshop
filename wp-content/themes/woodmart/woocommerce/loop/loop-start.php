@@ -28,7 +28,7 @@ if ( $is_slider ) {
 
 if ( $is_shortcode ) {
 	$current_view = woodmart_loop_prop( 'products_view' );
-} elseif ( 'list' === $current_view && 'subcategories' === get_option( 'woocommerce_shop_page_display' ) && is_shop() && ! is_product_category() ) {
+} elseif ( 'list' === $current_view && 'subcategories' === woocommerce_get_loop_display_mode() && ! is_search() ) {
 	$current_view = 'grid';
 }
 

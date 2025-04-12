@@ -24,10 +24,10 @@ class Vc_Gutenberg_Param {
 	 * Vc_Gutenberg_Param constructor.
 	 */
 	public function __construct() {
-		add_action( 'init', array(
+		add_action( 'init', [
 			$this,
 			'initialize',
-		) );
+		] );
 	}
 
 	/**
@@ -37,11 +37,12 @@ class Vc_Gutenberg_Param {
 		global $pagenow, $wp_version;
 		if ( version_compare( $wp_version, '4.9.8', '>' ) && 'post-new.php' === $pagenow && vc_user_access()->wpAll( 'edit_posts' )->get() && vc_request_param( 'post_type' ) === $this->postTypeSlug ) {
 			$this->registerGutenbergAttributeType();
+			add_filter( 'use_block_editor_for_post_type', '__return_true', 11, 2 );
 			// @see Vc_Gutenberg_Param::removeAdminUi
-			add_action( 'admin_enqueue_scripts', array(
+			add_action( 'admin_enqueue_scripts', [
 				$this,
 				'removeAdminUI',
-			) );
+			] );
 		}
 	}
 
@@ -89,7 +90,7 @@ class Vc_Gutenberg_Param {
 	 * Registers the custom post type for Gutenberg attributes.
 	 */
 	protected function registerGutenbergAttributeType() {
-		$labels = array(
+		$labels = [
 			'name' => _x( 'Gutenberg attrs', 'Post type general name', 'js_composer' ),
 			'singular_name' => _x( 'Gutenberg attr', 'Post type singular name', 'js_composer' ),
 			'menu_name' => _x( 'Gutenberg attrs', 'Admin Menu text', 'js_composer' ),
@@ -114,8 +115,8 @@ class Vc_Gutenberg_Param {
 			'filter_items_list' => _x( 'Filter Gutenberg attrs list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'js_composer' ),
 			'items_list_navigation' => _x( 'Gutenberg attrs list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'js_composer' ),
 			'items_list' => _x( 'Gutenberg attrs list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'js_composer' ),
-		);
-		$args = array(
+		];
+		$args = [
 			'labels' => $labels,
 			'public' => true,
 			'publicly_queryable' => true,
@@ -127,8 +128,8 @@ class Vc_Gutenberg_Param {
 			'hierarchical' => false,
 			'menu_position' => null,
 			'show_in_rest' => true,
-			'supports' => array( 'editor' ),
-		);
+			'supports' => [ 'editor' ],
+		];
 		register_post_type( $this->postTypeSlug, $args );
 	}
 }

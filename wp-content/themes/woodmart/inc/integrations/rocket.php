@@ -59,7 +59,6 @@ if ( ! function_exists( 'woodmart_delay_js_exclusions' ) ) {
 				'mobileNavigation',
 				'loginSidebar',
 				'menuSetUp',
-				'cart-fragments',
 				'productImages',
 				'cookie.min',
 				'imagesLoaded',
@@ -69,6 +68,7 @@ if ( ! function_exists( 'woodmart_delay_js_exclusions' ) ) {
 				'swiper',
 				'swiperInit',
 				'trackProductViewed',
+				'lazyLoading',
 			)
 		);
 	}

@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-29 14:39" -->
+	<!-- generator="WordPress/6.7.1" created="2025-01-31 15:36" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Makup</title>
 	<link>https://dummy.xtemos.com/woodmart2/makeup</link>
 	<description></description>
-	<pubDate>Tue, 29 Oct 2024 14:39:04 +0000</pubDate>
+	<pubDate>Fri, 31 Jan 2025 15:36:18 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/makeup</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[yt-sbs]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/yt-sbs/</link>
 					<pubDate>Wed, 23 Oct 2024 15:52:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/yt-sbs.svg</guid>
 															<wp:post_id>626</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 15:52:23]]></wp:post_date>
@@ -73,7 +72,7 @@
 					<title><![CDATA[c2-sld-af]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/home-makup/c2-sld-af/</link>
 					<pubDate>Thu, 24 Oct 2024 09:14:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-sld-af.jpg</guid>
 															<wp:post_id>659</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 09:14:44]]></wp:post_date>
@@ -96,7 +95,7 @@
 					<title><![CDATA[c2-sld-bf]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/home-makup/c2-sld-bf/</link>
 					<pubDate>Thu, 24 Oct 2024 09:15:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-sld-bf.jpg</guid>
 															<wp:post_id>660</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 09:15:03]]></wp:post_date>
@@ -119,7 +118,7 @@
 					<title><![CDATA[c2-prd-bnr-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/home-makup/c2-prd-bnr-1-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 09:44:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-prd-bnr-1-opt.jpg</guid>
 															<wp:post_id>690</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 09:44:49]]></wp:post_date>
@@ -142,7 +141,7 @@
 					<title><![CDATA[c2-prd-bnr-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/home-makup/c2-prd-bnr-2-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 09:48:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-prd-bnr-2-opt.jpg</guid>
 															<wp:post_id>694</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 09:48:58]]></wp:post_date>
@@ -165,7 +164,7 @@
 					<title><![CDATA[c2-prd-bnr-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/home-makup/c2-prd-bnr-3-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 09:49:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-prd-bnr-3-opt.jpg</guid>
 															<wp:post_id>695</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 09:49:56]]></wp:post_date>
@@ -188,7 +187,7 @@
 					<title><![CDATA[c2-glry-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-glry-1-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:40:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-glry-1-opt.jpg</guid>
 															<wp:post_id>763</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:40:15]]></wp:post_date>
@@ -211,7 +210,7 @@
 					<title><![CDATA[c2-glry-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-glry-2-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:40:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-glry-2-opt.jpg</guid>
 															<wp:post_id>764</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:40:19]]></wp:post_date>
@@ -234,7 +233,7 @@
 					<title><![CDATA[c2-glry-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-glry-3-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:40:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-glry-3-opt.jpg</guid>
 															<wp:post_id>765</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:40:22]]></wp:post_date>
@@ -257,7 +256,7 @@
 					<title><![CDATA[c2-glry-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-glry-4-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:40:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-glry-4-opt.jpg</guid>
 															<wp:post_id>766</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:40:24]]></wp:post_date>
@@ -280,7 +279,7 @@
 					<title><![CDATA[c2-glry-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-glry-5-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:40:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-glry-5-opt.jpg</guid>
 															<wp:post_id>767</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:40:25]]></wp:post_date>
@@ -303,7 +302,7 @@
 					<title><![CDATA[c2-blg-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/08/29/exploring-the-ingredients-behind-your-favorite-cosmetics/c2-blg-5-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:32:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-5-opt.jpg</guid>
 															<wp:post_id>820</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:32:44]]></wp:post_date>
@@ -326,7 +325,7 @@
 					<title><![CDATA[c2-blg-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/09/10/a-journey-through-the-history-and-trends-of-cosmetic-products/c2-blg-4-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:33:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-4-opt.jpg</guid>
 															<wp:post_id>823</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:33:29]]></wp:post_date>
@@ -349,7 +348,7 @@
 					<title><![CDATA[c2-blg-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/09/22/beauty-tips-and-trends-unveiled/c2-blg-3-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:34:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-3-opt.jpg</guid>
 															<wp:post_id>826</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:34:36]]></wp:post_date>
@@ -372,7 +371,7 @@
 					<title><![CDATA[c2-blg-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/10/01/insider-secrets-and-expert-advice/c2-blg-2-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:35:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-2-opt.jpg</guid>
 															<wp:post_id>829</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:35:13]]></wp:post_date>
@@ -395,7 +394,7 @@
 					<title><![CDATA[c2-blg-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/10/16/exploring-the-world-of-cosmetics-and-skincare/c2-blg-1-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:35:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-1-opt.jpg</guid>
 															<wp:post_id>832</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:35:48]]></wp:post_date>
@@ -418,7 +417,7 @@
 					<title><![CDATA[c2-blg-img-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/10/16/exploring-the-world-of-cosmetics-and-skincare/c2-blg-img-2-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:36:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-img-2-opt.jpg</guid>
 															<wp:post_id>834</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:36:55]]></wp:post_date>
@@ -441,7 +440,7 @@
 					<title><![CDATA[c2-blg-img-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/10/16/exploring-the-world-of-cosmetics-and-skincare/c2-blg-img-3-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:36:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-img-3-opt.jpg</guid>
 															<wp:post_id>835</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:36:57]]></wp:post_date>
@@ -464,7 +463,7 @@
 					<title><![CDATA[c2-blg-img-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/10/16/exploring-the-world-of-cosmetics-and-skincare/c2-blg-img-4-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:45:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-img-4-opt.jpg</guid>
 															<wp:post_id>840</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:45:28]]></wp:post_date>
@@ -487,7 +486,7 @@
 					<title><![CDATA[post-blg-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/10/16/exploring-the-world-of-cosmetics-and-skincare/post-blg-img-4/</link>
 					<pubDate>Thu, 24 Oct 2024 13:45:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/post-blg-img-4.jpg</guid>
 															<wp:post_id>841</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:45:28]]></wp:post_date>
@@ -510,7 +509,7 @@
 					<title><![CDATA[c2-prd-tp-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-prd-tp-2-opt/</link>
 					<pubDate>Wed, 23 Oct 2024 16:16:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-prd-tp-2-opt.jpg</guid>
 															<wp:post_id>643</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 16:16:44]]></wp:post_date>
@@ -533,7 +532,7 @@
 					<title><![CDATA[c2-prd-tp-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-prd-tp-3-opt/</link>
 					<pubDate>Wed, 23 Oct 2024 16:17:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-prd-tp-3-opt.jpg</guid>
 															<wp:post_id>644</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 16:17:06]]></wp:post_date>
@@ -556,7 +555,7 @@
 					<title><![CDATA[c2-prd-tp-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-prd-tp-5-opt/</link>
 					<pubDate>Wed, 23 Oct 2024 16:17:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-prd-tp-5-opt.jpg</guid>
 															<wp:post_id>645</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 16:17:30]]></wp:post_date>
@@ -579,7 +578,7 @@
 					<title><![CDATA[c2-prd-tp-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-prd-tp-1-opt/</link>
 					<pubDate>Wed, 23 Oct 2024 16:17:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-prd-tp-1-opt.jpg</guid>
 															<wp:post_id>646</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 16:17:56]]></wp:post_date>
@@ -602,7 +601,7 @@
 					<title><![CDATA[c2-prd-tp-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-prd-tp-4-opt/</link>
 					<pubDate>Wed, 23 Oct 2024 16:18:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-prd-tp-4-opt.jpg</guid>
 															<wp:post_id>647</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 16:18:15]]></wp:post_date>
@@ -625,7 +624,7 @@
 					<title><![CDATA[c2-blg-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/2024/08/02/exploring-the-latest-innovations-in-cosmetic-technology/c2-blg-6-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 13:31:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-6-opt.jpg</guid>
 															<wp:post_id>816</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 13:31:09]]></wp:post_date>

@@ -61,7 +61,7 @@ class Vc_Base {
 	 * @since  4.2
 	 * @var array WPBakeryShortCodeFishBones
 	 */
-	protected $shortcodes = array();
+	protected $shortcodes = [];
 
 	/**
 	 * List of shared templates.
@@ -78,18 +78,18 @@ class Vc_Base {
 	public function init() {
 		do_action( 'vc_before_init_base' );
 		$this->postAdmin()->init();
-		add_filter( 'body_class', array(
+		add_filter( 'body_class', [
 			$this,
 			'bodyClass',
-		) );
-		add_filter( 'the_excerpt', array(
+		] );
+		add_filter( 'the_excerpt', [
 			$this,
 			'excerptFilter',
-		) );
-		add_action( 'wp_head', array(
+		] );
+		add_action( 'wp_head', [
 			$this,
 			'addMetaData',
-		) );
+		] );
 		if ( is_admin() ) {
 			$this->initAdmin();
 		} else {
@@ -120,30 +120,30 @@ class Vc_Base {
 	 */
 	public function initPage() {
 		do_action( 'vc_build_page' );
-		add_action( 'template_redirect', array(
+		add_action( 'template_redirect', [
 			$this,
 			'frontCss',
-		) );
-		add_action( 'template_redirect', array(
+		] );
+		add_action( 'template_redirect', [
 			'WPBMap',
 			'addAllMappedShortcodes',
-		) );
-		add_action( 'wp_head', array(
+		] );
+		add_action( 'wp_head', [
 			$this,
 			'addShortcodesCss',
-		), 1000 );
-		add_action( 'wp_head', array(
+		], 1000 );
+		add_action( 'wp_head', [
 			$this,
 			'addNoScript',
-		), 1000 );
-		add_action( 'template_redirect', array(
+		], 1000 );
+		add_action( 'template_redirect', [
 			$this,
 			'frontJsRegister',
-		) );
-		add_filter( 'the_content', array(
+		] );
+		add_filter( 'the_content', [
 			$this,
 			'fixPContent',
-		), 11 );
+		], 11 );
 	}
 
 	/**
@@ -159,10 +159,10 @@ class Vc_Base {
 		$this->shared_templates->init();
 
 		// plugins list page actions links.
-		add_filter( 'plugin_action_links', array(
+		add_filter( 'plugin_action_links', [
 			$this,
 			'pluginActionLinks',
-		), 10, 2 );
+		], 10, 2 );
 	}
 
 	/**
@@ -605,23 +605,23 @@ class Vc_Base {
 	 * @since  3.1
 	 */
 	public function frontCss() {
-		wp_register_style( 'wpb_flexslider', vc_asset_url( 'lib/vendor/node_modules/flexslider/flexslider.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'nivo-slider-css', vc_asset_url( 'lib/vendor/node_modules/nivo-slider/nivo-slider.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'nivo-slider-theme', vc_asset_url( 'lib/vendor/node_modules/nivo-slider/themes/default/default.min.css' ), array( 'nivo-slider-css' ), WPB_VC_VERSION );
-		wp_register_style( 'prettyphoto', vc_asset_url( 'lib/vendor/prettyphoto/css/prettyPhoto.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'isotope-css', vc_asset_url( 'css/lib/isotope/isotope.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'vc_font_awesome_5_shims', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'vc_font_awesome_5', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css' ), array( 'vc_font_awesome_5_shims' ), WPB_VC_VERSION );
-		wp_register_style( 'vc_animate-css', vc_asset_url( 'lib/vendor/node_modules/animate.css/animate.min.css' ), array(), WPB_VC_VERSION );
-		wp_register_style( 'lightbox2', vc_asset_url( 'lib/vendor/node_modules/lightbox2/dist/css/lightbox.min.css' ), array(), WPB_VC_VERSION );
+		wp_register_style( 'wpb_flexslider', vc_asset_url( 'lib/vendor/node_modules/flexslider/flexslider.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'nivo-slider-css', vc_asset_url( 'lib/vendor/node_modules/nivo-slider/nivo-slider.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'nivo-slider-theme', vc_asset_url( 'lib/vendor/node_modules/nivo-slider/themes/default/default.min.css' ), [ 'nivo-slider-css' ], WPB_VC_VERSION );
+		wp_register_style( 'prettyphoto', vc_asset_url( 'lib/vendor/prettyphoto/css/prettyPhoto.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'isotope-css', vc_asset_url( 'css/lib/isotope/isotope.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'vc_font_awesome_5_shims', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'vc_font_awesome_6', vc_asset_url( 'lib/vendor/node_modules/@fortawesome/fontawesome-free/css/all.min.css' ), [ 'vc_font_awesome_5_shims' ], WPB_VC_VERSION );
+		wp_register_style( 'vc_animate-css', vc_asset_url( 'lib/vendor/node_modules/animate.css/animate.min.css' ), [], WPB_VC_VERSION );
+		wp_register_style( 'lightbox2', vc_asset_url( 'lib/vendor/node_modules/lightbox2/dist/css/lightbox.min.css' ), [], WPB_VC_VERSION );
 		$front_css_file = vc_asset_url( 'css/js_composer.min.css' );
 
-		wp_register_style( 'js_composer_front', $front_css_file, array(), WPB_VC_VERSION );
+		wp_register_style( 'js_composer_front', $front_css_file, [], WPB_VC_VERSION );
 
-		add_action( 'wp_enqueue_scripts', array(
+		add_action( 'wp_enqueue_scripts', [
 			$this,
 			'enqueueStyle',
-		) );
+		] );
 
 		/**
 		 * Vc_action: vc_base_register_front_css.
@@ -649,23 +649,23 @@ class Vc_Base {
 	 * @since  3.1
 	 */
 	public function frontJsRegister() {
-		wp_register_script( 'prettyphoto', vc_asset_url( 'lib/vendor/prettyphoto/js/jquery.prettyPhoto.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'lightbox2', vc_asset_url( 'lib/vendor/node_modules/lightbox2/dist/js/lightbox.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'vc_waypoints', vc_asset_url( 'lib/vc/vc_waypoints/vc-waypoints.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
+		wp_register_script( 'prettyphoto', vc_asset_url( 'lib/vendor/prettyphoto/js/jquery.prettyPhoto.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'lightbox2', vc_asset_url( 'lib/vendor/node_modules/lightbox2/dist/js/lightbox.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'vc_waypoints', vc_asset_url( 'lib/vc/vc_waypoints/vc-waypoints.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
 
 		// @deprecated used in old tabs.
-		wp_register_script( 'jquery_ui_tabs_rotate', vc_asset_url( 'lib/vendor/jquery-ui-tabs-rotate/jquery-ui-tabs-rotate.min.js' ), array(
+		wp_register_script( 'jquery_ui_tabs_rotate', vc_asset_url( 'lib/vendor/jquery-ui-tabs-rotate/jquery-ui-tabs-rotate.min.js' ), [
 			'jquery-core',
 			'jquery-ui-tabs',
-		), WPB_VC_VERSION, true );
+		], WPB_VC_VERSION, true );
 
 		// used in vc_gallery, old grid.
-		wp_register_script( 'isotope', vc_asset_url( 'lib/vendor/node_modules/isotope-layout/dist/isotope.pkgd.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
+		wp_register_script( 'isotope', vc_asset_url( 'lib/vendor/node_modules/isotope-layout/dist/isotope.pkgd.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
 
-		wp_register_script( 'twbs-pagination', vc_asset_url( 'lib/vendor/node_modules/twbs-pagination/jquery.twbsPagination.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'nivo-slider', vc_asset_url( 'lib/vendor/node_modules/nivo-slider/jquery.nivo.slider.pack.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'wpb_flexslider', vc_asset_url( 'lib/vendor/node_modules/flexslider/jquery.flexslider-min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
-		wp_register_script( 'wpb_composer_front_js', vc_asset_url( 'js/dist/js_composer_front.min.js' ), array( 'jquery-core' ), WPB_VC_VERSION, true );
+		wp_register_script( 'twbs-pagination', vc_asset_url( 'lib/vendor/node_modules/twbs-pagination/jquery.twbsPagination.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'nivo-slider', vc_asset_url( 'lib/vendor/node_modules/nivo-slider/jquery.nivo.slider.pack.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'wpb_flexslider', vc_asset_url( 'lib/vendor/node_modules/flexslider/jquery.flexslider-min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
+		wp_register_script( 'wpb_composer_front_js', vc_asset_url( 'js/dist/js_composer_front.min.js' ), [ 'jquery-core' ], WPB_VC_VERSION, true );
 
 		/**
 		 * Vc_action: vc_base_register_front_js.
@@ -746,7 +746,7 @@ class Vc_Base {
 			$page = 'vc-welcome';
 		}
 
-		return add_query_arg( array( 'page' => $page ), admin_url( 'admin.php' ) );
+		return add_query_arg( [ 'page' => $page ], admin_url( 'admin.php' ) );
 	}
 
 	/**
@@ -810,18 +810,18 @@ class Vc_Base {
 	 */
 	public function fixPContent( $content = null ) {
 		if ( $content ) {
-			$s = array(
+			$s = [
 				'/' . preg_quote( '</div>', '/' ) . '[\s\n\f]*' . preg_quote( '</p>', '/' ) . '/i',
 				'/' . preg_quote( '<p>', '/' ) . '[\s\n\f]*' . preg_quote( '<div ', '/' ) . '/i',
 				'/' . preg_quote( '<p>', '/' ) . '[\s\n\f]*' . preg_quote( '<section ', '/' ) . '/i',
 				'/' . preg_quote( '</section>', '/' ) . '[\s\n\f]*' . preg_quote( '</p>', '/' ) . '/i',
-			);
-			$r = array(
+			];
+			$r = [
 				'</div>',
 				'<div ',
 				'<section ',
 				'</section>',
-			);
+			];
 			$content = preg_replace( $s, $r, $content );
 
 			// if content contains vc_row for a page view or
@@ -848,7 +848,7 @@ class Vc_Base {
 		 * @since 7.8
 		 * return array
 		 */
-		return apply_filters( 'vc_get_editor_locale', array(
+		return apply_filters( 'vc_get_editor_locale', [
 			'add_remove_picture' => esc_html__( 'Add/remove picture', 'js_composer' ),
 			'finish_adding_text' => esc_html__( 'Finish Adding Images', 'js_composer' ),
 			'add_image' => esc_html__( 'Add Image', 'js_composer' ),
@@ -983,8 +983,11 @@ class Vc_Base {
 			'previouslyUsedKeyphraseSuccess' => esc_html__( 'You\'ve not used this keyphrase before, very good.', 'js_composer' ),
 			'previouslyUsedKeyphraseWarn' => esc_html__( 'You\'ve used this keyphrase before', 'js_composer' ),
 			'copied' => esc_html__( 'Copied', 'js_composer' ),
-			'page_settings_confirm' => esc_html__( 'Changes you made may not be saved.', 'js_composer' ),
-		));
+			'page_settings_confirm' => esc_html__( 'Are you sure you want to close the window without saving your changes?', 'js_composer' ),
+			'post_title' => esc_html__( '%s title', 'js_composer' ),
+			'edit' => esc_html__( 'Edit', 'js_composer' ),
+			'preview_error' => esc_html__( 'An error occurred while generating the preview. ', 'js_composer' ),
+		]);
 	}
 
 	/**

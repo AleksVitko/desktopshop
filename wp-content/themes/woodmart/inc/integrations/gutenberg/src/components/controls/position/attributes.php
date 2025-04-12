@@ -1,11 +1,7 @@
 <?php
 
-use XTS\Gutenberg\Block_Attributes;
-
 if ( ! function_exists( 'wd_get_position_control_attrs' ) ) {
-	function wd_get_position_control_attrs( $attrs_prefix = '' ) {
-		$attr = new Block_Attributes();
-
+	function wd_get_position_control_attrs( $attr, $attrs_prefix = '' ) {
 		$attr->add_attr(
 			array(
 				'type'   => array(
@@ -46,7 +42,5 @@ if ( ! function_exists( 'wd_get_position_control_attrs' ) ) {
 			),
 			$attrs_prefix
 		);
-
-		return $attr->get_attr();
 	}
 }

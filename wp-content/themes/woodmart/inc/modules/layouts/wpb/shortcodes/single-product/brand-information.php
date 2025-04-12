@@ -34,17 +34,17 @@ if ( ! function_exists( 'woodmart_shortcode_single_product_brand_information' ) 
 
 		Main::setup_preview();
 
-		$attr = woodmart_get_opt( 'brands_attribute' );
+		if ( woodmart_get_opt( 'brands_attribute' ) ) {
+			global $product;
 
-		if ( ! $attr ) {
-			return '';
-		}
+			$attr = woodmart_get_opt( 'brands_attribute' );
 
-		global $product;
+			$attributes = $product->get_attributes();
 
-		$attributes = $product->get_attributes();
-
-		if ( ! isset( $attributes[ $attr ] ) || empty( $attributes[ $attr ] ) || empty( wc_get_product_terms( $product->get_id(), $attr, array( 'fields' => 'slugs' ) ) ) ) {
+			if ( empty( $attributes[ $attr ] ) ) {
+				return '';
+			}
+		} elseif ( ! taxonomy_exists( 'product_brand' ) ) {
 			return '';
 		}
 

@@ -51,9 +51,13 @@
 				data['wrapperClasses'] = 'whb-hide-on-scroll';
 			}
 
+			if ($('.whb-clone').length) {
+				$('.whb-clone').remove();
+			}
+
 			cloneHTML = woodmart_settings.whb_header_clone;
 
-			cloneHTML = cloneHTML.replace(/<%([^%>]+)?%>/g, function(replacement) {
+			cloneHTML = cloneHTML.replace(/<%([^%>]+)?%>|{{([^{}]+)}}/g, function(replacement) {
 				var selector = replacement.slice(2, -2);
 
 				return $header.find(selector).length
@@ -71,6 +75,8 @@
 			$header = $header.parent().find('.whb-clone');
 
 			$header.find('.whb-row').removeClass('whb-flex-equal-sides').addClass('whb-flex-flex-middle');
+
+			window.dispatchEvent(new CustomEvent('wdHeaderBuilderCloneCreated'));
 		}
 
 		$window.on('scroll', function() {
@@ -151,7 +157,9 @@
 		woodmartThemeModule.$document.trigger('wdHeaderBuilderInited');
 	};
 
-	window.addEventListener('wdEventStarted', function () {
-		woodmartThemeModule.headerBuilder();
+	['wdEventStarted', 'wdUpdatedHeader'].forEach((eventName) => {
+		window.addEventListener(eventName, function () {
+			woodmartThemeModule.headerBuilder();
+		});
 	});
 })(jQuery);

@@ -148,6 +148,29 @@ class Sanitize {
 				array_walk_recursive( $val, 'sanitize_text_field' );
 
 				break;
+			case 'timetable':
+				foreach ( $val as $key => $dates ) {
+					foreach ( $dates as $meta_key => $meta_value ) {
+						switch ( $meta_key ) {
+							case 'date_type':
+							case 'iteration':
+								$val[ $key ][ $meta_key ] = sanitize_text_field( $meta_value );
+								break;
+							case 'single_day':
+							case 'first_day':
+							case 'last_day':
+								$pattern = '/^\d{4}-\d{2}-\d{2}$/';
+
+								$val[ $key ][ $meta_key ] = preg_match( $pattern, $meta_value ) ? sanitize_text_field( $meta_value ) : '';
+								break;
+							default:
+								$val[ $key ][ $meta_key ] = '';
+								break;
+						}
+					}
+				}
+
+				break;
 			default:
 				$val = is_array( $val ) ? array_map( 'sanitize_text_field', $val ) : sanitize_text_field( $val );
 				break;

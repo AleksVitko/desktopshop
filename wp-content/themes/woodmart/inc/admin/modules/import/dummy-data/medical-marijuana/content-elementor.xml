@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.2.3" created="2023-11-21 16:00" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-21 13:03" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Elementor 2.0 WoodMart dummy</title>
 	<link>https://dummy.xtemos.com/woodmart2/elementor</link>
 	<description>Just another WoodMart Dummy 2.0 Sites site</description>
-	<pubDate>Tue, 21 Nov 2023 16:00:28 +0000</pubDate>
+	<pubDate>Tue, 21 Jan 2025 13:03:20 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>110</wp:term_id>
@@ -79,15 +79,54 @@
 			<wp:meta_key><![CDATA[stretch_slider]]></wp:meta_key>
 			<wp:meta_value><![CDATA[on]]></wp:meta_value>
 		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-110-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[valid]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-110-css-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[#slider-110 .wd-slide {
+	min-height: 920px;
+}
+
+@media (max-width: 1024px) {
+	#slider-110 .wd-slide {
+		min-height: 760px;
+	}
+}
+
+@media (max-width: 767px) {
+	#slider-110 .wd-slide {
+		min-height: 720px;
+	}
+}
+]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-110-version]]></wp:meta_key>
+			<wp:meta_value><![CDATA[8.0.6]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-110-site-url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4f146f679d9b7d2ba7fe3593044e8d2b]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-110-credentials]]></wp:meta_key>
+			<wp:meta_value><![CDATA[requested]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-110-file-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:3:{s:4:"path";s:36:"/2025/01/xts-term-110-1737464499.css";s:13:"theme_version";s:5:"8.0.6";s:8:"site_url";s:32:"4f146f679d9b7d2ba7fe3593044e8d2b";}]]></wp:meta_value>
+		</wp:termmeta>
 		</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.2.3</generator>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
 
 					<item>
 					<title><![CDATA[medical-marijuana-slide-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1/medical-marijuana-slide-1/</link>
 					<pubDate>Sun, 24 Oct 2021 06:41:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slide-1.jpg</guid>
 															<wp:post_id>6757</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:41:44]]></wp:post_date>
@@ -110,7 +149,7 @@
 					<title><![CDATA[medical-marijuana-slide-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1-2/medical-marijuana-slide-2/</link>
 					<pubDate>Sun, 24 Oct 2021 06:49:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slide-2.jpg</guid>
 															<wp:post_id>6787</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:49:29]]></wp:post_date>
@@ -133,7 +172,7 @@
 					<title><![CDATA[medical-marijuana-slide-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1-3/medical-marijuana-slide-3/</link>
 					<pubDate>Sun, 24 Oct 2021 06:54:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slide-3.jpg</guid>
 															<wp:post_id>6796</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:54:45]]></wp:post_date>
@@ -156,7 +195,7 @@
 					<title><![CDATA[medical-marijuana-popup-18]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-popup-18/</link>
 					<pubDate>Sun, 24 Oct 2021 06:57:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-popup-18.jpg</guid>
 															<wp:post_id>6801</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:57:09]]></wp:post_date>
@@ -179,7 +218,7 @@
 					<title><![CDATA[medical-marijuana-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-page-title/</link>
 					<pubDate>Sun, 24 Oct 2021 06:57:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-page-title.jpg</guid>
 															<wp:post_id>6802</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:57:29]]></wp:post_date>
@@ -202,7 +241,7 @@
 					<title><![CDATA[medical-marijuana-second-row-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-second-row-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 06:57:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-second-row-bg.jpg</guid>
 															<wp:post_id>6803</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:57:49]]></wp:post_date>
@@ -225,7 +264,7 @@
 					<title><![CDATA[medical-marijuana-video]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-video/</link>
 					<pubDate>Sun, 24 Oct 2021 07:09:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-video.jpg</guid>
 															<wp:post_id>6851</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:09:22]]></wp:post_date>
@@ -248,7 +287,7 @@
 					<title><![CDATA[medical-marijuana-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-testimonials-1/</link>
 					<pubDate>Sun, 24 Oct 2021 07:12:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-testimonials-1.png</guid>
 															<wp:post_id>6860</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:12:12]]></wp:post_date>
@@ -271,7 +310,7 @@
 					<title><![CDATA[medical-marijuana-testimonials-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-testimonials-2/</link>
 					<pubDate>Sun, 24 Oct 2021 07:12:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-testimonials-2.png</guid>
 															<wp:post_id>6861</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:12:13]]></wp:post_date>
@@ -294,7 +333,7 @@
 					<title><![CDATA[medical-marijuana-testimonials-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-testimonials-3/</link>
 					<pubDate>Sun, 24 Oct 2021 07:12:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-testimonials-3.png</guid>
 															<wp:post_id>6862</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:12:14]]></wp:post_date>
@@ -317,7 +356,7 @@
 					<title><![CDATA[medical-marijuana-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-1/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-1.jpg</guid>
 															<wp:post_id>6885</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:36]]></wp:post_date>
@@ -340,7 +379,7 @@
 					<title><![CDATA[medical-marijuana-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-4/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-4.jpg</guid>
 															<wp:post_id>6888</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:41]]></wp:post_date>
@@ -363,7 +402,7 @@
 					<title><![CDATA[medical-marijuana-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-5/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-5.jpg</guid>
 															<wp:post_id>6889</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:43]]></wp:post_date>
@@ -386,7 +425,7 @@
 					<title><![CDATA[medical-marijuana-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-6/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-6.jpg</guid>
 															<wp:post_id>6890</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:46]]></wp:post_date>
@@ -409,7 +448,7 @@
 					<title><![CDATA[medical-marijuana-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-7/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-7.jpg</guid>
 															<wp:post_id>6891</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:47]]></wp:post_date>
@@ -432,7 +471,7 @@
 					<title><![CDATA[medical-marijuana-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-8/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-8.jpg</guid>
 															<wp:post_id>6892</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:49]]></wp:post_date>
@@ -455,7 +494,7 @@
 					<title><![CDATA[medical-marijuana-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-9/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-9.jpg</guid>
 															<wp:post_id>6893</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:51]]></wp:post_date>
@@ -478,7 +517,7 @@
 					<title><![CDATA[medical-marijuana-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-10/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-10.jpg</guid>
 															<wp:post_id>6894</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:52]]></wp:post_date>
@@ -501,7 +540,7 @@
 					<title><![CDATA[medical-marijuana-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-11/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-11.jpg</guid>
 															<wp:post_id>6895</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:53]]></wp:post_date>
@@ -524,7 +563,7 @@
 					<title><![CDATA[medical-marijuana-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-12/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-12.jpg</guid>
 															<wp:post_id>6896</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:54]]></wp:post_date>
@@ -547,7 +586,7 @@
 					<title><![CDATA[Home Medical-marijuana]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/</link>
 					<pubDate>Sun, 24 Oct 2021 06:37:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=6749</guid>
 											<content:encoded><![CDATA[<link rel="stylesheet" id="wd-slider-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-slider.min.css?ver=7.3.2" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-slider-anim-distortion-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-slider-anim-distortion.min.css?ver=7.3.2" type="text/css" media="all" /> 						<link rel="stylesheet" id="wd-slider-arrows-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-slider-arrows.min.css?ver=7.3.2" type="text/css" media="all" /> 						<style>			#slider-110 .wd-slide {
 				min-height: 920px;
@@ -1409,7 +1448,7 @@
 					<title><![CDATA[medical-marijuana-customer-service]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-customer-service/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-customer-service.svg</guid>
 															<wp:post_id>6762</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:42:52]]></wp:post_date>
@@ -1436,7 +1475,7 @@
 					<title><![CDATA[medical-marijuana-payment-security]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-payment-security/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-payment-security.svg</guid>
 															<wp:post_id>6763</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:42:53]]></wp:post_date>
@@ -1463,7 +1502,7 @@
 					<title><![CDATA[medical-marijuana-refund]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-refund/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-refund.svg</guid>
 															<wp:post_id>6764</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:42:54]]></wp:post_date>
@@ -1490,7 +1529,7 @@
 					<title><![CDATA[medical-marijuana-shipped]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-shipped/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-shipped.svg</guid>
 															<wp:post_id>6766</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:42:55]]></wp:post_date>
@@ -1517,7 +1556,7 @@
 					<title><![CDATA[medical-marijuana-second-row-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-second-row-bg/</link>
 					<pubDate>Sun, 24 Oct 2021 06:57:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-second-row-bg.jpg</guid>
 															<wp:post_id>6803</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:57:49]]></wp:post_date>
@@ -1540,7 +1579,7 @@
 					<title><![CDATA[medical-marijuana-img-hemp-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-img-hemp-1/</link>
 					<pubDate>Sun, 24 Oct 2021 07:04:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-img-hemp-1.jpg</guid>
 															<wp:post_id>6846</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:04:23]]></wp:post_date>
@@ -1563,7 +1602,7 @@
 					<title><![CDATA[medical-marijuana-img-hemp-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-img-hemp-2/</link>
 					<pubDate>Sun, 24 Oct 2021 07:04:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-img-hemp-2.jpg</guid>
 															<wp:post_id>6847</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:04:34]]></wp:post_date>
@@ -1586,7 +1625,7 @@
 					<title><![CDATA[medical-marijuana-video]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-video/</link>
 					<pubDate>Sun, 24 Oct 2021 07:09:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-video.jpg</guid>
 															<wp:post_id>6851</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:09:22]]></wp:post_date>
@@ -1609,7 +1648,7 @@
 					<title><![CDATA[medical-marijuana-img-ricardo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-img-ricardo/</link>
 					<pubDate>Sun, 24 Oct 2021 07:11:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-img-ricardo.png</guid>
 															<wp:post_id>6859</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:11:27]]></wp:post_date>
@@ -1632,7 +1671,7 @@
 					<title><![CDATA[medical-marijuana-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-2/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-2.jpg</guid>
 															<wp:post_id>6886</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:37]]></wp:post_date>
@@ -1655,7 +1694,7 @@
 					<title><![CDATA[medical-marijuana-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-product-3/</link>
 					<pubDate>Sun, 24 Oct 2021 07:20:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-product-3.jpg</guid>
 															<wp:post_id>6887</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:20:39]]></wp:post_date>
@@ -1678,7 +1717,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-1/</link>
 					<pubDate>Sun, 24 Oct 2021 07:21:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-1.jpg</guid>
 															<wp:post_id>6897</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:21:59]]></wp:post_date>
@@ -1701,7 +1740,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-3/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-3.jpg</guid>
 															<wp:post_id>6899</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:01]]></wp:post_date>
@@ -1724,7 +1763,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-4/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-4.jpg</guid>
 															<wp:post_id>6900</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:03]]></wp:post_date>
@@ -1747,7 +1786,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-5/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-5.jpg</guid>
 															<wp:post_id>6901</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:06]]></wp:post_date>
@@ -1770,7 +1809,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-6/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-6.jpg</guid>
 															<wp:post_id>6902</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:07]]></wp:post_date>
@@ -1793,7 +1832,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-7/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-7.jpg</guid>
 															<wp:post_id>6903</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:09]]></wp:post_date>
@@ -1816,7 +1855,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-8/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-8.jpg</guid>
 															<wp:post_id>6904</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:10]]></wp:post_date>
@@ -1839,7 +1878,7 @@
 					<title><![CDATA[medical-marijuana-blog-img-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-blog-img-9/</link>
 					<pubDate>Sun, 24 Oct 2021 07:22:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-blog-img-9.jpg</guid>
 															<wp:post_id>6905</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:22:12]]></wp:post_date>
@@ -1862,7 +1901,7 @@
 					<title><![CDATA[wood-logo-white-reserve]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wood-logo-white-reserve/</link>
 					<pubDate>Thu, 26 Aug 2021 12:45:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/wood-logo-white-reserve.svg</guid>
 															<wp:post_id>114</wp:post_id>
 					<wp:post_date><![CDATA[2021-08-26 12:45:06]]></wp:post_date>
@@ -1889,7 +1928,7 @@
 					<title><![CDATA[fashion-testimon-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-fashion/fashion-testimon-2/</link>
 					<pubDate>Wed, 01 Sep 2021 12:08:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/fashion-testimon-2.jpg</guid>
 															<wp:post_id>1018</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-01 12:08:53]]></wp:post_date>
@@ -1912,13 +1951,13 @@
 					<title><![CDATA[Footer 1 column Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?cms_block=footer-1-column-light</link>
 					<pubDate>Wed, 01 Sep 2021 13:44:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=1033</guid>
 											<content:encoded><![CDATA[<a  href="#">
 								<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/08/wood-logo-white-reserve.svg" title="wood-logo-white-reserve" width="220" height="30">							</a>
-						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.3.2" type="text/css" media="all" /> 					
+						<link rel="stylesheet" id="wd-text-block-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.3.0" type="text/css" media="all" /> 					
 			Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.
-						<link rel="stylesheet" id="wd-list-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-list.min.css?ver=7.3.2" type="text/css" media="all" /> 					<ul>
+						<link rel="stylesheet" id="wd-list-css" href="https://dummy.xtemos.com/woodmart2/elementor/wp-content/themes/woodmart/css/parts/el-list.min.css?ver=7.3.0" type="text/css" media="all" /> 					<ul>
 											<li>
 											<img  src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-cursor-light.svg" title="wd-cursor-light" width="14" height="14">					
 						451 Wall Street, UK, London					
@@ -1936,8 +1975,8 @@
 															<wp:post_id>1033</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-01 13:44:29]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-01 13:44:29]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2023-10-06 12:29:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2023-10-06 12:29:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2023-12-07 15:02:15]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2023-12-07 15:02:15]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[footer-1-column-light]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1958,11 +1997,11 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[3.16.4]]></wp:meta_value>
+							<wp:meta_value><![CDATA[3.16.6]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"ef7a8d8","elType":"container","settings":{"flex_direction":"column","flex_align_items":"stretch","flex_gap":{"size":20,"column":"20","row":"20","unit":"px"},"scroll_y":-80},"elements":[{"id":"7341eac","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/08\/wood-logo-white-reserve.svg","id":114,"alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"220","height":"30"},"on_click_action":"link","link":{"url":"#","is_external":false,"nofollow":false,"custom_attributes":""},"scroll_y":-80},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"0259971","elType":"widget","settings":{"text":"Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"},{"id":"25adf6a","elType":"widget","settings":{"list_items":[{"list_content":"451 Wall Street, UK, London","_id":"80be36b","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/wd-cursor-light.svg","id":2035,"alt":"","source":"library"},"item_type":"image","image_size":"custom","image_custom_dimension":{"width":"14","height":"14"}},{"list_content":"Phone: (064) 332-1233","link":{"url":"tel: (064) 332-1233","is_external":false,"nofollow":false,"custom_attributes":""},"_id":"c383cf6","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/wd-phone-light.svg","id":2037,"alt":"","source":"library"},"item_type":"image","image_size":"custom","image_custom_dimension":{"width":"14","height":"14"}},{"list_content":"Fax: (099) 453-1357","_id":"a511145","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/wd-envelope-light.svg","id":2036,"alt":"","source":"library"},"item_type":"image","image_size":"custom","image_custom_dimension":{"width":"14","height":"14"}}],"list_type":"image","scroll_y":-80,"image_size":"custom","image_custom_dimension":{"width":"14","height":"14"},"list_items_gap":{"unit":"px","size":7,"sizes":[]}},"elements":[],"widgetType":"wd_list"}],"isInner":false}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"ef7a8d8","elType":"container","settings":{"flex_direction":"column","flex_gap":{"size":null,"column":"","row":"","unit":"px","isLinked":true},"scroll_y":-80,"container_sticky_offset":50},"elements":[{"id":"7341eac","elType":"widget","settings":{"image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/08\/wood-logo-white-reserve.svg","id":114,"alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"220","height":"30"},"on_click_action":"link","link":{"url":"#","is_external":false,"nofollow":false,"custom_attributes":""},"scroll_y":-80},"elements":[],"widgetType":"wd_image_or_svg"},{"id":"0259971","elType":"widget","settings":{"text":"Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.","scroll_y":-80},"elements":[],"widgetType":"wd_text_block"},{"id":"25adf6a","elType":"widget","settings":{"list_items":[{"list_content":"451 Wall Street, UK, London","_id":"80be36b","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/wd-cursor-light.svg","id":2035,"alt":"","source":"library"},"item_type":"image","image_size":"custom","image_custom_dimension":{"width":"14","height":"14"}},{"list_content":"Phone: (064) 332-1233","link":{"url":"tel: (064) 332-1233","is_external":false,"nofollow":false,"custom_attributes":""},"_id":"c383cf6","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/wd-phone-light.svg","id":2037,"alt":"","source":"library"},"item_type":"image","image_size":"custom","image_custom_dimension":{"width":"14","height":"14"}},{"list_content":"Fax: (099) 453-1357","_id":"a511145","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/elementor\/wp-content\/uploads\/sites\/2\/2021\/09\/wd-envelope-light.svg","id":2036,"alt":"","source":"library"},"item_type":"image","image_size":"custom","image_custom_dimension":{"width":"14","height":"14"}}],"list_type":"image","scroll_y":-80,"image_size":"custom","image_custom_dimension":{"width":"14","height":"14"},"list_items_gap":{"unit":"px","size":7,"sizes":[]}},"elements":[],"widgetType":"wd_list"}],"isInner":false}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -1977,7 +2016,7 @@
 					<title><![CDATA[wd-cursor-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-cursor-light/</link>
 					<pubDate>Mon, 06 Sep 2021 15:58:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-cursor-light.svg</guid>
 															<wp:post_id>2035</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:58:17]]></wp:post_date>
@@ -1995,12 +2034,16 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/09/wd-cursor-light.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="14" height="14" x="0" y="0" viewBox="0 0 477.883 477.883" style="enable-background:new 0 0 14 14" xml:space="preserve" class=""><g> <g xmlns="http://www.w3.org/2000/svg"> <g> <path d="M468.456,1.808c-4.811-2.411-10.478-2.411-15.289,0l0,0L9.433,223.675c-8.429,4.219-11.842,14.471-7.624,22.9 c2.401,4.798,6.919,8.188,12.197,9.151l176.111,32.034l32.034,176.111c1.311,7.219,7.091,12.793,14.353,13.841 c0.803,0.116,1.613,0.173,2.423,0.171c6.469,0.003,12.383-3.651,15.275-9.438L476.07,24.711 C480.292,16.284,476.883,6.03,468.456,1.808z" fill="#ffffffcc" data-original="#000000" style="" class=""></path> </g> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> </g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[wd-envelope-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-envelope-light/</link>
 					<pubDate>Mon, 06 Sep 2021 15:58:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-envelope-light.svg</guid>
 															<wp:post_id>2036</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:58:18]]></wp:post_date>
@@ -2018,12 +2061,16 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/09/wd-envelope-light.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="14" height="14" x="0" y="0" viewBox="0 0 479.058 479.058" style="enable-background:new 0 0 14 14" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z" fill="#ffffffcc" data-original="#000000" style="" class=""></path></g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[wd-phone-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/wd-phone-light/</link>
 					<pubDate>Mon, 06 Sep 2021 15:58:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/09/wd-phone-light.svg</guid>
 															<wp:post_id>2037</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-06 15:58:19]]></wp:post_date>
@@ -2041,24 +2088,28 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2021/09/wd-phone-light.svg]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
+							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="14" height="14" x="0" y="0" viewBox="0 0 27.442 27.442" style="enable-background:new 0 0 14 14" xml:space="preserve" class=""><g> <g xmlns="http://www.w3.org/2000/svg"> <path d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546 c1.103,0,1.997-0.895,1.997-1.997V1.999C21.491,0.896,20.597,0,19.494,0z M10.872,1.214h5.7c0.144,0,0.261,0.215,0.261,0.481 s-0.117,0.482-0.261,0.482h-5.7c-0.145,0-0.26-0.216-0.26-0.482C10.612,1.429,10.727,1.214,10.872,1.214z M13.722,25.469 c-0.703,0-1.275-0.572-1.275-1.276s0.572-1.274,1.275-1.274c0.701,0,1.273,0.57,1.273,1.274S14.423,25.469,13.722,25.469z M19.995,21.1H7.448V3.373h12.547V21.1z" fill="#ffffffcc" data-original="#000000" style=""></path> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> <g xmlns="http://www.w3.org/2000/svg"> </g> </g></svg>]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Contact form Medical-marijuana]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4384</link>
 					<pubDate>Wed, 29 Sep 2021 14:06:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=wpcf7_contact_form&#038;p=4384</guid>
-											<content:encoded><![CDATA[<div class="row">
-<p class="col-lg">[text* Full Name placeholder ="Full Name"]</p>
-<p class="col-lg">[text* Your Age placeholder ="Your Age"]</p>
-<p class="col-lg">[email* Your E-mail placeholder ="Your E-mail"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary "Get Consult"]</p>
+											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-f-basis: 180px">
+<div class="wd-col">[text* Full Name placeholder ="Full Name"]</div>
+<div class="wd-col">[text* Your Age placeholder ="Your Age"]</div>
+<div class="wd-col">[email* Your E-mail placeholder ="Your E-mail"]</div>
+<div class="wd-col-auto">[submit class:btn class:btn-color-primary "Get Consult"]</div>
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [_site_admin_email]
-From: [your-name] <[your-email]>
+From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -2072,7 +2123,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] <wordpress@dummy.xtemos.com>
+[_site_title] 
 [your-email]
 Message Body:
 [your-message]
@@ -2108,8 +2159,8 @@ The telephone number is invalid.]]></content:encoded>
 															<wp:post_id>4384</wp:post_id>
 					<wp:post_date><![CDATA[2021-09-29 14:06:05]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2021-09-29 14:06:05]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2021-09-29 14:06:12]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2021-09-29 14:06:12]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-17 09:24:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-17 09:24:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-medical-marijuana]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2118,16 +2169,16 @@ The telephone number is invalid.]]></content:encoded>
 					<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<div class="row">
-<p class="col-lg">[text* Full Name placeholder ="Full Name"]</p>
-<p class="col-lg">[text* Your Age placeholder ="Your Age"]</p>
-<p class="col-lg">[email* Your E-mail placeholder ="Your E-mail"]</p>
-<p class="col-lg-auto">[submit class:btn class:btn-color-primary "Get Consult"]</p>
+							<wp:meta_value><![CDATA[<div class="wd-grid-f-stretch" style="--wd-f-basis: 180px">
+<div class="wd-col">[text* Full Name placeholder ="Full Name"]</div>
+<div class="wd-col">[text* Your Age placeholder ="Your Age"]</div>
+<div class="wd-col">[email* Your E-mail placeholder ="Your E-mail"]</div>
+<div class="wd-col-auto">[submit class:btn class:btn-color-primary "Get Consult"]</div>
 </div>]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:163:"From: [your-name] <[your-email]>
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -2138,7 +2189,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -2153,15 +2204,19 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 							<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
+							<wp:meta_value><![CDATA[c9aceb4ce0360546ee2abb75848701a8d0547576]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Medical-marijuana slide 1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=woodmart_slide&#038;p=6756</guid>
 											<content:encoded><![CDATA[<style>/*! elementor - v3.16.0 - 17-10-2023 */
 .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="80" height="81" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slider-icon.svg" alt="" loading="lazy" />															
@@ -2265,7 +2320,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-ricardo-autograph]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-ricardo-autograph/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-ricardo-autograph.svg</guid>
 															<wp:post_id>6765</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:42:54]]></wp:post_date>
@@ -2292,7 +2347,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-slider-icon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/medical-marijuana-slider-icon/</link>
 					<pubDate>Sun, 24 Oct 2021 06:42:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slider-icon.svg</guid>
 															<wp:post_id>6767</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:42:56]]></wp:post_date>
@@ -2319,7 +2374,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Medical-marijuana slide 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1-2/</link>
 					<pubDate>Sun, 24 Oct 2021 06:49:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=woodmart_slide&#038;p=6786</guid>
 											<content:encoded><![CDATA[<style>/*! elementor - v3.16.0 - 17-10-2023 */
 .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="80" height="81" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slider-icon.svg" alt="" loading="lazy" />															
@@ -2427,7 +2482,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-slide-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1-2/medical-marijuana-slide-2/</link>
 					<pubDate>Sun, 24 Oct 2021 06:49:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slide-2.jpg</guid>
 															<wp:post_id>6787</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:49:29]]></wp:post_date>
@@ -2450,7 +2505,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[Medical-marijuana slide 3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1-3/</link>
 					<pubDate>Sun, 24 Oct 2021 06:54:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=woodmart_slide&#038;p=6795</guid>
 											<content:encoded><![CDATA[<style>/*! elementor - v3.16.0 - 17-10-2023 */
 .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="80" height="81" src="http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slider-icon.svg" alt="" loading="lazy" />															
@@ -2558,7 +2613,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-slide-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1-3/medical-marijuana-slide-3/</link>
 					<pubDate>Sun, 24 Oct 2021 06:54:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slide-3.jpg</guid>
 															<wp:post_id>6796</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:54:45]]></wp:post_date>
@@ -2581,7 +2636,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-img-ricardo-product]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-img-ricardo-product/</link>
 					<pubDate>Sun, 24 Oct 2021 07:10:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-img-ricardo-product.png</guid>
 															<wp:post_id>6858</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:10:39]]></wp:post_date>
@@ -2604,7 +2659,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-testimonials-1/</link>
 					<pubDate>Sun, 24 Oct 2021 07:12:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-testimonials-1.png</guid>
 															<wp:post_id>6860</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:12:12]]></wp:post_date>
@@ -2627,7 +2682,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-testimonials-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-testimonials-2/</link>
 					<pubDate>Sun, 24 Oct 2021 07:12:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-testimonials-2.png</guid>
 															<wp:post_id>6861</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:12:13]]></wp:post_date>
@@ -2650,7 +2705,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-testimonials-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/home-medical-marijuana/medical-marijuana-testimonials-3/</link>
 					<pubDate>Sun, 24 Oct 2021 07:12:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-testimonials-3.png</guid>
 															<wp:post_id>6862</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 07:12:14]]></wp:post_date>
@@ -2673,7 +2728,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[medical-marijuana-slide-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/elementor/woodmart_slide/medical-marijuana-slide-1/medical-marijuana-slide-1/</link>
 					<pubDate>Sun, 24 Oct 2021 06:41:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/2021/10/medical-marijuana-slide-1.jpg</guid>
 															<wp:post_id>6757</wp:post_id>
 					<wp:post_date><![CDATA[2021-10-24 06:41:44]]></wp:post_date>

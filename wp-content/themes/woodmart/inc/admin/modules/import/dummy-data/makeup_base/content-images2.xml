@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-29 14:39" -->
+	<!-- generator="WordPress/6.7.1" created="2025-01-31 15:36" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Makup</title>
 	<link>https://dummy.xtemos.com/woodmart2/makeup</link>
 	<description></description>
-	<pubDate>Tue, 29 Oct 2024 14:39:00 +0000</pubDate>
+	<pubDate>Fri, 31 Jan 2025 15:36:14 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/makeup</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,40 +43,121 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
-					<title><![CDATA[c-hir-cdtnr-product-8.jpg]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=485</link>
-					<pubDate>Wed, 23 Oct 2024 13:47:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-cdtnr-product-8.jpg</guid>
-															<wp:post_id>485</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-23 13:47:20]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:20]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:47:20]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:20]]></wp:post_modified_gmt>
+					<title><![CDATA[c-mkp-fc-product-1-2.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=320</link>
+					<pubDate>Wed, 23 Oct 2024 13:46:14 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1-2.jpg</guid>
+															<wp:post_id>320</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:46:14]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:46:14]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:46:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:46:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c-hir-cdtnr-product-8-jpg]]></wp:post_name>
+					<wp:post_name><![CDATA[c-mkp-fc-product-1-2-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>455</wp:post_parent>
+					<wp:post_parent>291</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-cdtnr-product-8.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1-2.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c-hir-cdtnr-product-8.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-1-2.jpg]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-hir-cdtnr-product-8.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1-2.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-mkp-fc-product-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=321</link>
+					<pubDate>Wed, 23 Oct 2024 13:46:15 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1.jpg</guid>
+															<wp:post_id>321</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:46:15]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:46:15]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:46:15]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:46:15]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-mkp-fc-product-1-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>292</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-mkp-fc-product-3-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=323</link>
+					<pubDate>Wed, 23 Oct 2024 13:46:16 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-3-1.jpg</guid>
+															<wp:post_id>323</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:46:16]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:46:16]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:46:16]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:46:16]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-mkp-fc-product-3-1-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>294</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-3-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-3-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-3-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-mkp-fc-product-11-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=338</link>
+					<pubDate>Wed, 23 Oct 2024 13:46:25 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-11-1.jpg</guid>
+															<wp:post_id>338</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:46:25]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:46:25]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:46:25]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:46:25]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-mkp-fc-product-11-1-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>312</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-11-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-11-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-11-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-snscrn-fcesnscrn-product-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=528</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-fcesnscrn-product-2.jpg</guid>
 															<wp:post_id>528</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:43]]></wp:post_date>
@@ -97,14 +177,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-fcesnscrn-product-2.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-fcesnscrn-product-2.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-snscrn-fcesnscrn-product-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=530</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-fcesnscrn-product-4.jpg</guid>
 															<wp:post_id>530</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:44]]></wp:post_date>
@@ -124,68 +204,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-fcesnscrn-product-4.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[c-snscrn-bdysnscrn-product-1.jpg]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=535</link>
-					<pubDate>Wed, 23 Oct 2024 13:47:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-1.jpg</guid>
-															<wp:post_id>535</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-23 13:47:46]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:46]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:47:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:46]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c-snscrn-bdysnscrn-product-1-jpg]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>505</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-1.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c-snscrn-bdysnscrn-product-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-bdysnscrn-product-1.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[c-snscrn-bdysnscrn-product-5.jpg]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=539</link>
-					<pubDate>Wed, 23 Oct 2024 13:47:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-5.jpg</guid>
-															<wp:post_id>539</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-23 13:47:49]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:49]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:47:49]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:49]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c-snscrn-bdysnscrn-product-5-jpg]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>509</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-5.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c-snscrn-bdysnscrn-product-5.jpg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-bdysnscrn-product-5.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-fcesnscrn-product-4.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-snscrn-hrsnscrn-product-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=546</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-hrsnscrn-product-4.jpg</guid>
 															<wp:post_id>546</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:53]]></wp:post_date>
@@ -205,14 +231,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-hrsnscrn-product-4.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-hrsnscrn-product-4.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-snscrn-hrsnscrn-product-6.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=548</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-hrsnscrn-product-6.jpg</guid>
 															<wp:post_id>548</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:53]]></wp:post_date>
@@ -232,14 +258,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-hrsnscrn-product-6.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-hrsnscrn-product-6.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-snscrn-aftrsn-product-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=558</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-aftrsn-product-1.jpg</guid>
 															<wp:post_id>558</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:57]]></wp:post_date>
@@ -259,14 +285,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-aftrsn-product-1.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-aftrsn-product-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-snscrn-aftrsn-product-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=559</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-aftrsn-product-2.jpg</guid>
 															<wp:post_id>559</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:58]]></wp:post_date>
@@ -286,14 +312,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-snscrn-aftrsn-product-2.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-aftrsn-product-2.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c2-blg-irritation]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-blg-irritation/</link>
 					<pubDate>Wed, 23 Oct 2024 14:33:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-blg-irritation.svg</guid>
 															<wp:post_id>597</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 14:33:37]]></wp:post_date>
@@ -316,7 +342,7 @@
 					<title><![CDATA[c2-blg-moisturizes]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/c2-blg-moisturizes/</link>
 					<pubDate>Wed, 23 Oct 2024 14:33:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c2-blg-moisturizes.svg</guid>
 															<wp:post_id>598</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 14:33:37]]></wp:post_date>
@@ -339,7 +365,7 @@
 					<title><![CDATA[pm-mtds]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=760</link>
 					<pubDate>Thu, 24 Oct 2024 11:54:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/pm-mtds.png</guid>
 															<wp:post_id>760</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 11:54:43]]></wp:post_date>
@@ -359,33 +385,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[c2-tm-p-4-opt]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-tm-p-4-opt/</link>
-					<pubDate>Thu, 24 Oct 2024 12:44:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-4-opt.png</guid>
-															<wp:post_id>775</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-24 12:44:55]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-24 12:44:55]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 12:44:55]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 12:44:55]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c2-tm-p-4-opt]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>62</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-4-opt.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c2-tm-p-4-opt.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[c2-tm-p-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-tm-p-5-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:45:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-5-opt.png</guid>
 															<wp:post_id>776</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:45:06]]></wp:post_date>
@@ -408,7 +411,7 @@
 					<title><![CDATA[c2-tm-p-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-tm-p-6-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:45:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-6-opt.png</guid>
 															<wp:post_id>777</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:45:19]]></wp:post_date>
@@ -431,7 +434,7 @@
 					<title><![CDATA[c2-tm-p-7-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-tm-p-7-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:45:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-7-opt.png</guid>
 															<wp:post_id>778</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:45:32]]></wp:post_date>
@@ -454,7 +457,7 @@
 					<title><![CDATA[c2-tm-p-8-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-tm-p-8-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:45:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-8-opt.png</guid>
 															<wp:post_id>779</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:45:40]]></wp:post_date>
@@ -477,7 +480,7 @@
 					<title><![CDATA[c2-tm-p-9-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/about-us/c2-tm-p-9-opt/</link>
 					<pubDate>Thu, 24 Oct 2024 12:45:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-tm-p-9-opt.png</guid>
 															<wp:post_id>780</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 12:45:51]]></wp:post_date>
@@ -500,7 +503,7 @@
 					<title><![CDATA[c2-blg-img-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=870</link>
 					<pubDate>Thu, 24 Oct 2024 15:24:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-blg-img-5-opt.jpg</guid>
 															<wp:post_id>870</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-24 15:24:25]]></wp:post_date>
@@ -523,7 +526,7 @@
 					<title><![CDATA[c2-ftr-rating-stars]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=889</link>
 					<pubDate>Fri, 25 Oct 2024 14:27:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c2-ftr-rating-stars.png</guid>
 															<wp:post_id>889</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 14:27:37]]></wp:post_date>
@@ -546,7 +549,7 @@
 					<title><![CDATA[c-mkp-lps-product-12.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=434</link>
 					<pubDate>Wed, 23 Oct 2024 13:46:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-mkp-lps-product-12.jpg</guid>
 															<wp:post_id>434</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:46:54]]></wp:post_date>
@@ -566,68 +569,41 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-mkp-lps-product-12.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-lps-product-12.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[c-hir-smpoo-product-4.jpg]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=442</link>
-					<pubDate>Wed, 23 Oct 2024 13:47:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-smpoo-product-4.jpg</guid>
-															<wp:post_id>442</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-23 13:47:02]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:02]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:47:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:02]]></wp:post_modified_gmt>
+					<title><![CDATA[c-hir-cdtnr-product-8.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=485</link>
+					<pubDate>Wed, 23 Oct 2024 13:47:20 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-cdtnr-product-8.jpg</guid>
+															<wp:post_id>485</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:47:20]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:20]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:47:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c-hir-smpoo-product-4-jpg]]></wp:post_name>
+					<wp:post_name><![CDATA[c-hir-cdtnr-product-8-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>412</wp:post_parent>
+					<wp:post_parent>455</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-smpoo-product-4.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-cdtnr-product-8.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c-hir-smpoo-product-4.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-hir-cdtnr-product-8.jpg]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-hir-smpoo-product-4.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[c-hir-smpoo-product-6.jpg]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=444</link>
-					<pubDate>Wed, 23 Oct 2024 13:47:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-smpoo-product-6.jpg</guid>
-															<wp:post_id>444</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-23 13:47:04]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:04]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 13:47:04]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:04]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c-hir-smpoo-product-6-jpg]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>414</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-smpoo-product-6.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c-hir-smpoo-product-6.jpg]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-hir-smpoo-product-6.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-cdtnr-product-8.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-hir-stlng-product-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=488</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-stlng-product-3.jpg</guid>
 															<wp:post_id>488</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:22]]></wp:post_date>
@@ -647,14 +623,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-hir-stlng-product-3.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-stlng-product-3.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-hir-sclpcr-product-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=496</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-sclpcr-product-3.jpg</guid>
 															<wp:post_id>496</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:29]]></wp:post_date>
@@ -674,14 +650,14 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-hir-sclpcr-product-3.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-sclpcr-product-3.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c-hir-sclpcr-product-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=522</link>
 					<pubDate>Wed, 23 Oct 2024 13:47:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-hir-sclpcr-product-4.jpg</guid>
 															<wp:post_id>522</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-23 13:47:36]]></wp:post_date>
@@ -701,7 +677,61 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
-							<wp:meta_value><![CDATA[https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/c-hir-sclpcr-product-4.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-hir-sclpcr-product-4.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-snscrn-bdysnscrn-product-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=535</link>
+					<pubDate>Wed, 23 Oct 2024 13:47:46 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-1.jpg</guid>
+															<wp:post_id>535</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:47:46]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:46]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:47:46]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:46]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-snscrn-bdysnscrn-product-1-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>505</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-snscrn-bdysnscrn-product-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-snscrn-bdysnscrn-product-5.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup/?attachment_id=539</link>
+					<pubDate>Wed, 23 Oct 2024 13:47:49 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-5.jpg</guid>
+															<wp:post_id>539</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-23 13:47:49]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-23 13:47:49]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-23 13:47:49]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-23 13:47:49]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-snscrn-bdysnscrn-product-5-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>509</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-5.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-snscrn-bdysnscrn-product-5.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[https://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-snscrn-bdysnscrn-product-5.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 				</channel>

@@ -25,14 +25,14 @@ class Vc_Gitem_Acf_Shortcode extends WPBakeryShortCode {
 	 */
 	protected function content( $atts, $content = null ) {
 		$field_key = $label = '';
-		extract( shortcode_atts( array(
+		extract( shortcode_atts( [
 			'el_class' => '', // string $el_class.
 			'field_group' => '', // string $show_label.
 			'show_label' => '', // string $align.
 			'align' => '', // string $field_group.
-		), $atts ) );
+		], $atts ) );
 		if ( 0 === strlen( $field_group ) ) {
-			$groups = function_exists( 'acf_get_field_groups' ) ? acf_get_field_groups() : apply_filters( 'acf/get_field_groups', array() );
+			$groups = function_exists( 'acf_get_field_groups' ) ? acf_get_field_groups() : apply_filters( 'acf/get_field_groups', [] );
 			if ( is_array( $groups ) && isset( $groups[0] ) ) {
 				$key = isset( $groups[0]['id'] ) ? 'id' : ( isset( $groups[0]['ID'] ) ? 'ID' : 'id' );
 				$field_group = $groups[0][ $key ];

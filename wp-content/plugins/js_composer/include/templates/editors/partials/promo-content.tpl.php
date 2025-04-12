@@ -9,12 +9,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 ?>
-<img class="vc-featured-img" src="<?php echo esc_url( vc_asset_url( 'vc/wpb-8-0-about.png' ) ); ?>"/>
+<img class="vc-featured-img" src="<?php echo esc_url( vc_asset_url( 'vc/wpb-8-3-about.png' ) ); ?>"/>
 
 <div class="vc-feature-text">
-	<h3><?php esc_html_e( 'Introducing New Features in 8.1 Release', 'js_composer' ); ?></h3>
+	<h3><?php esc_html_e( 'What\'s new in WPBakery 8.3?', 'js_composer' ); ?></h3>
 
-	<p><?php esc_html_e( "The final update of 2024 is designed to deliver a smoother, more reliable building experience, for a more streamlined workflow. We've fine-tuned the page builder to ensure it continues to meet your expectations, empowering you to create stunning websites with ease. Thank you for being part of our journey this year. As we look ahead, we're committed to bringing you even more innovation and functionality in the coming updates. Here's to an incredible year of creativity and growth together!", 'js_composer' ); ?></p>
+	<p><?php esc_html_e( 'This update introduces improvements to help you work faster and with more flexibility. You can now add AI fields to custom elements, insert maps without embed codes, and use the latest icons directly in the editor.', 'js_composer' ); ?></p>
+	<ul>
+		<li><?php esc_html_e( 'Add maps easily with the new Google Maps element', 'js_composer' ); ?></li>
+		<li><?php esc_html_e( 'Use the latest Font Awesome 6 icons directly in the editor', 'js_composer' ); ?></li>
+		<li><?php esc_html_e( 'Use WPBakery AI API to add AI fields to your custom elements', 'js_composer' ); ?></li>
+	</ul>
 	<?php
 	$tabs = vc_settings()->getTabs();
 	$is_license_tab_access = isset( $tabs['vc-updater'] ) && vc_user_access()->part( 'settings' )->can( 'vc-updater-tab' )->get();

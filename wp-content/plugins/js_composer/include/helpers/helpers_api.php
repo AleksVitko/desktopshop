@@ -117,7 +117,7 @@ function vc_map_update( $name = '', $setting = '', $value = '' ) {
  * @throws \Exception
  * @since 4.2
  */
-function vc_update_shortcode_param( $name, $attribute = array() ) {
+function vc_update_shortcode_param( $name, $attribute = [] ) {
 	return WPBMap::mutateParam( $name, $attribute );
 }
 
@@ -307,7 +307,7 @@ if ( ! function_exists( 'vc_add_default_templates' ) ) {
  * @param string $field_prefix
  * @param string $group_prefix
  * @param null|array $change_fields
- * @param null $dependency
+ * @param null|array $dependency
  * @return array
  * @throws \Exception
  */
@@ -353,10 +353,10 @@ function vc_map_integrate_shortcode( $shortcode, $field_prefix = '', $group_pref
 			}
 		}
 
-		return is_array( $params ) ? array_filter( $params ) : array();
+		return is_array( $params ) ? array_filter( $params ) : [];
 	}
 
-	return array();
+	return [];
 }
 
 /**
@@ -465,7 +465,7 @@ function vc_map_integrate_add_dependency( $param, $dependency ) {
  */
 function vc_map_integrate_get_params( $base_shortcode, $integrated_shortcode, $field_prefix = '' ) {
 	$shortcode_data = WPBMap::getShortCode( $base_shortcode );
-	$params = array();
+	$params = [];
 	if ( is_array( $shortcode_data ) && is_array( $shortcode_data['params'] ) && ! empty( $shortcode_data['params'] ) ) {
 		foreach ( $shortcode_data['params'] as $param ) {
 			if ( is_array( $param ) && isset( $param['integrated_shortcode'] ) && $integrated_shortcode === $param['integrated_shortcode'] ) {
@@ -498,7 +498,7 @@ function vc_map_integrate_get_params( $base_shortcode, $integrated_shortcode, $f
  */
 function vc_map_integrate_get_atts( $base_shortcode, $integrated_shortcode, $field_prefix = '' ) {
 	$params = vc_map_integrate_get_params( $base_shortcode, $integrated_shortcode, $field_prefix );
-	$atts = array();
+	$atts = [];
 	if ( is_array( $params ) && ! empty( $params ) ) {
 		foreach ( $params as $param ) {
 			$value = '';
@@ -535,7 +535,7 @@ function vc_map_integrate_get_atts( $base_shortcode, $integrated_shortcode, $fie
  */
 function vc_map_integrate_parse_atts( $base_shortcode, $integrated_shortcode, $atts, $field_prefix = '' ) {
 	$params = vc_map_integrate_get_params( $base_shortcode, $integrated_shortcode, $field_prefix );
-	$data = array();
+	$data = [];
 	if ( is_array( $params ) && ! empty( $params ) ) {
 		foreach ( $params as $param ) {
 			$value = '';
@@ -562,29 +562,29 @@ function vc_map_integrate_parse_atts( $base_shortcode, $integrated_shortcode, $a
  * @return mixed|void
  */
 function vc_map_add_css_animation( $label = true ) {
-	$data = array(
+	$data = [
 		'type' => 'animation_style',
 		'heading' => esc_html__( 'CSS Animation', 'js_composer' ),
 		'param_name' => 'css_animation',
 		'admin_label' => $label,
 		'value' => '',
-		'settings' => array(
+		'settings' => [
 			'type' => 'in',
-			'custom' => array(
-				array(
+			'custom' => [
+				[
 					'label' => esc_html__( 'Default', 'js_composer' ),
-					'values' => array(
+					'values' => [
 						esc_html__( 'Top to bottom', 'js_composer' ) => 'top-to-bottom',
 						esc_html__( 'Bottom to top', 'js_composer' ) => 'bottom-to-top',
 						esc_html__( 'Left to right', 'js_composer' ) => 'left-to-right',
 						esc_html__( 'Right to left', 'js_composer' ) => 'right-to-left',
 						esc_html__( 'Appear from center', 'js_composer' ) => 'appear',
-					),
-				),
-			),
-		),
+					],
+				],
+			],
+		],
 		'description' => esc_html__( 'Select type of animation for element to be animated when it "enters" the browsers viewport (Note: works only in modern browsers).', 'js_composer' ),
-	);
+	];
 
 	return apply_filters( 'vc_map_add_css_animation', $data, $label );
 }
@@ -621,7 +621,7 @@ function vc_remove_all_elements() {
  */
 function vc_map_get_defaults( $tag ) {
 	$shortcode = vc_get_shortcode( $tag );
-	$params = array();
+	$params = [];
 	if ( is_array( $shortcode ) && isset( $shortcode['params'] ) && ! empty( $shortcode['params'] ) ) {
 		$params = vc_map_get_params_defaults( $shortcode['params'] );
 	}
@@ -638,7 +638,7 @@ function vc_map_get_defaults( $tag ) {
  * @since 4.12
  */
 function vc_map_get_params_defaults( $params ) {
-	$result_params = array();
+	$result_params = [];
 	foreach ( $params as $param ) {
 		if ( isset( $param['param_name'] ) && 'content' !== $param['param_name'] ) {
 			$value = '';
@@ -677,7 +677,7 @@ function vc_map_get_params_defaults( $params ) {
  *     'a'=>1,'b'=>2 + 'b'=>3,'c'=>4 --> 'a'=>1,
  *     'b'=>3, 'c'=>4 )
  */
-function vc_map_get_attributes( $tag, $atts = array() ) {
+function vc_map_get_attributes( $tag, $atts = [] ) {
 	$atts = shortcode_atts( vc_map_get_defaults( $tag ), $atts, $tag );
 
 	return apply_filters( 'vc_map_get_attributes', $atts, $tag );
@@ -690,7 +690,7 @@ function vc_map_get_attributes( $tag, $atts = array() ) {
  * @return mixed|string
  */
 function vc_convert_vc_color( $name ) {
-	$colors = array(
+	$colors = [
 		'blue' => '#5472d2',
 		'turquoise' => '#00c1cf',
 		'pink' => '#fe6c61',
@@ -708,7 +708,7 @@ function vc_convert_vc_color( $name ) {
 		'black' => '#2a2a2a',
 		'grey' => '#ebebeb',
 		'white' => '#ffffff',
-	);
+	];
 	$name = str_replace( '_', '-', $name );
 	if ( isset( $colors[ $name ] ) ) {
 		return $colors[ $name ];
@@ -730,10 +730,10 @@ function vc_extract_dimensions( $dimensions ) {
 	$matches = null;
 
 	if ( preg_match( '/(\d+)x(\d+)/', $dimensions, $matches ) ) {
-		return array(
+		return [
 			$matches[1],
 			$matches[2],
-		);
+		];
 	}
 
 	return false;
@@ -797,10 +797,10 @@ function vc_get_shared( $asset = '' ) { // phpcs:ignore:Generic.Metrics.Cyclomat
 			break;
 
 		case 'single image external styles':
-			$asset = VcSharedLibrary::getBoxStyles( array(
+			$asset = VcSharedLibrary::getBoxStyles( [
 				'default',
 				'round',
-			) );
+			] );
 			break;
 
 		case 'toggle styles':

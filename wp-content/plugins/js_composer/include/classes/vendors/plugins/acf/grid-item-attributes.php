@@ -22,14 +22,14 @@ require_once vc_path_dir( 'VENDORS_DIR', 'plugins/acf/class-wpb-acf-provider.php
  * @return string
  */
 function vc_gitem_template_attribute_acf( $value, $data ) {
-	extract( array_merge( array(
+	extract( array_merge( [
 		'post' => null,
 		'data' => '',
-	), $data ) );
+	], $data ) );
 
 	if ( strstr( $data, 'field_from_group_' ) ) {
 		$group_id = preg_replace( '/(^field_from_group_|_labeled$)/', '', $data );
-		$fields = function_exists( 'acf_get_fields' ) ? acf_get_fields( $group_id ) : apply_filters( 'acf/field_group/get_fields', array(), $group_id );
+		$fields = function_exists( 'acf_get_fields' ) ? acf_get_fields( $group_id ) : apply_filters( 'acf/field_group/get_fields', [], $group_id );
 		$field = is_array( $fields ) && isset( $fields[0] ) ? $fields[0] : false;
 		if ( is_array( $field ) && isset( $field['key'] ) ) {
 			$data = $field['key'] . ( strstr( $data, '_labeled' ) ? '_labeled' : '' );

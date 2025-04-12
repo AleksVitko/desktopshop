@@ -35,8 +35,8 @@
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[promo-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/promo-popup-2/</link>
 					<pubDate>Mon, 19 Jul 2021 11:35:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2021/07/promo-popup.jpg</guid>
 															<wp:post_id>936</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-19 11:35:48]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[page-title-shop]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/page-title-shop/</link>
 					<pubDate>Fri, 23 Jul 2021 06:08:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2021/07/page-title-shop.jpg</guid>
 															<wp:post_id>1177</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-23 06:08:22]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[Home Infinite-scrolling]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-infinite-scrolling/</link>
 					<pubDate>Thu, 27 Jun 2024 08:48:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=20057</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"ced8c9ce-60df-46ef-9be9-9689dc9c296d","paginationStyle":"2","autoplay":true,"autoplaySpeed":"25000","height":"550","marginTop":"-40","marginBottom":"80","heightTablet":"400","heightMobile":"280","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-ced8c9ce" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-slide"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="slide" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"def8e1fc-4db0-4cad-ad47-c36d26d1156a","blockGap":10,"align":"flex-start","bgImage":{"id":20127,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/infinite-scrolling-slide-1.jpg"},"bgColorCode":"#f9f9f9","paddingRight":"5","paddingLeft":"5","paddingUnits":"%","displayWidth":"","customWidth":"","bgPositionMobile":"center left"} -->
@@ -210,7 +210,7 @@
 					<title><![CDATA[infinite-scrolling-slide-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-infinite-scrolling/infinite-scrolling-slide-1/</link>
 					<pubDate>Thu, 27 Jun 2024 11:10:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/infinite-scrolling-slide-1.jpg</guid>
 															<wp:post_id>20127</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-27 11:10:34]]></wp:post_date>
@@ -233,7 +233,7 @@
 					<title><![CDATA[infinite-scrolling-slide-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-infinite-scrolling/infinite-scrolling-slide-2/</link>
 					<pubDate>Thu, 27 Jun 2024 11:10:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/infinite-scrolling-slide-2.jpg</guid>
 															<wp:post_id>20128</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-27 11:10:34]]></wp:post_date>

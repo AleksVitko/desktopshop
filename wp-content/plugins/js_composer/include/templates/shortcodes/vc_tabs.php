@@ -37,7 +37,7 @@ if ( 'vc_tour' === $this->shortcode ) {
 
 // Extract tab titles.
 preg_match_all( '/vc_tab([^\]]+)/i', $content, $matches, PREG_OFFSET_CAPTURE );
-$tab_titles = array();
+$tab_titles = [];
 // vc_tabs.
 if ( isset( $matches[1] ) ) {
 	$tab_titles = $matches[1];
@@ -63,10 +63,10 @@ if ( 'vc_tour' === $this->shortcode ) {
 $output = '
 	<div class="' . esc_attr( $css_class ) . '" data-interval="' . esc_attr( $interval ) . '">
 		<div class="wpb_wrapper wpb_tour_tabs_wrapper ui-tabs vc_clearfix">
-			' . wpb_widget_title( array(
+			' . wpb_widget_title( [
 	'title' => $title,
 	'extraclass' => $element . '_heading',
-) )
+] )
 	. $tabs_nav
 	. wpb_js_remove_wpautop( $content )
 	. $next_prev_nav . '

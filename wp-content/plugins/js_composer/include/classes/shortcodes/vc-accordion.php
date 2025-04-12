@@ -32,7 +32,7 @@ class WPBakeryShortCode_Vc_Accordion extends WPBakeryShortCode {
 	 */
 	public function contentAdmin( $atts, $content = null ) {
 		$width = $custom_markup = '';
-		$shortcode_attributes = array( 'width' => '1/1' );
+		$shortcode_attributes = [ 'width' => '1/1' ];
 		foreach ( $this->settings['params'] as $param ) {
 			if ( 'content' !== $param['param_name'] ) {
 				$shortcode_attributes[ $param['param_name'] ] = isset( $param['value'] ) ? $param['value'] : null;

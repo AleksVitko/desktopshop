@@ -207,7 +207,10 @@
 				width: 100% !important;
 			}
 		}
-		
+	}
+
+	.nmi-item-custom-fields {
+
 		&.wd-design-full-width .nmi-height,
 		&.wd-design-full-height .nmi-width,
 		&.wd-design-aside .nmi-height {
@@ -219,20 +222,26 @@
 	// DESIGNS
 	// ------------------------------------------
 
-	.menu-item {
+	.nmi-item-custom-fields {
 
-		&.wd-design-default {
+		// &.wd-design-default {
 
-			&.menu-item-depth-0 {
+		// 	&.menu-item-depth-0 {
+
+		// 		.nmi-dropdown-ajax {
+		// 			display: none !important;
+		// 		}
+		// 	}
+		// }
+
+		.menu-item-depth-0 & {
+
+			&.wd-design-default {
 
 				.nmi-dropdown-ajax {
 					display: none !important;
 				}
 			}
-
-			// .nmi-padding {
-			// 	display: none;
-			// }
 		}
 
 		// ------------------------------------------
@@ -307,6 +316,9 @@
 				display: block !important;
 			}
 		}
+	}
+
+	.menu-item {
 
 		&:not(.menu-item-depth-0) {
 				

@@ -13,7 +13,13 @@
 		textarea,
 		input[type="text"],
 		input[type="url"],
-		input[type="number"] {
+		input[type="number"],
+		input[type="date"] {
+			@extend %input-style;
+			@extend %input-width-style;
+		}
+
+		input[type="time"] {
 			@extend %input-style;
 		}
 
@@ -188,8 +194,6 @@
 %input-style {
 	margin: 0;
 	padding: 5px 8px;
-	max-width: var(--xts-input-width);
-	width: 100%;
 	height: var(--xts-input-height);
 	outline: none;
 	border-color: var(--xts-option-border-color);
@@ -213,6 +217,13 @@
 	&:disabled {
 		pointer-events: none;
 	}
+}
+
+// @extend %input-width-style;
+
+%input-width-style {
+	max-width: var(--xts-input-width);
+	width: 100%;
 }
 
 // @extend %textarea-style;

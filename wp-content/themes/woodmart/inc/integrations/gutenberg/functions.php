@@ -140,6 +140,8 @@ if ( ! function_exists( 'woodmart_gutenberg_custom_scripts' ) ) {
 
 		add_filter( 'woodmart_localized_string_array', 'woodmart_gutenberg_update_localized' );
 
+		wp_enqueue_script( 'jquery' );
+
 		woodmart_register_libraries_scripts();
 		woodmart_register_scripts();
 		woodmart_enqueue_base_scripts();

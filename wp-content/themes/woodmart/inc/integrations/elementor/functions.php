@@ -33,16 +33,17 @@ if ( ! function_exists( 'woodmart_elementor_maybe_init_cart' ) ) {
 
 if ( ! function_exists( 'woodmart_elementor_enqueue_scripts' ) ) {
 	/**
-	 * Ini woo cart in elementor.
+	 * Enqueue script for editor Elementor.
 	 */
 	function woodmart_elementor_enqueue_scripts() {
-		wp_enqueue_script( 'wd-nested-carousel', WOODMART_THEME_DIR . '/js/scripts/elements/wdNestedCarousel.js', array( 'nested-elements' ), woodmart_get_theme_info( 'Version' ), true );
+		wp_enqueue_script( 'wd-nested-elements', WOODMART_THEME_DIR . '/inc/integrations/elementor/assets/js/nestedElements.js', array(), woodmart_get_theme_info( 'Version' ), true );
 
 		if ( Main::is_layout_type( 'single_product' ) ) {
 			wp_enqueue_script( 'wd-single-gallery-fix', WOODMART_THEME_DIR . '/inc/integrations/elementor/assets/js/singleGalleryFix.js', array(), woodmart_get_theme_info( 'Version' ), true );
 		}
 	}
 
+	add_action( 'elementor/preview/enqueue_scripts', 'woodmart_elementor_enqueue_scripts' );
 	add_action( 'elementor/editor/before_enqueue_scripts', 'woodmart_elementor_enqueue_scripts' );
 }
 

@@ -96,7 +96,9 @@
 		}
 	};
 
-	$(document).ready(function() {
-		woodmartThemeModule.menuStickyOffsets();
+	window.addEventListener('wdEventStarted', function () {
+		setTimeout(function () {
+			woodmartThemeModule.menuStickyOffsets();
+		}, 100);
 	});
 })(jQuery);

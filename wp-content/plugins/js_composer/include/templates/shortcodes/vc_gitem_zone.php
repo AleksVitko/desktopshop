@@ -2,7 +2,7 @@
 /**
  * The template for displaying [vc_gitem_zone] shortcode output.
  *
- * This template can be overridden by copying it to yourtheme/vc_templates/vc_btn.php.
+ * This template can be overridden by copying it to yourtheme/vc_templates/vc_gitem_zone.php.
  *
  * @see https://kb.wpbakery.com/docs/developers-how-tos/change-shortcodes-html-output
  */
@@ -67,21 +67,21 @@ if ( 'custom' === $height_mode ) {
 if ( 'yes' === $featured_image ) {
 	$css_style .= '{{ post_image_background_image_css:' . $img_size . ' }}';
 
-	$attributes = array(
+	$attributes = [
 		'class' => 'vc_gitem-zone-img',
 		'src' => '{{ post_image_url' . ( false !== $background_image_css_editor ? ':' . rawurlencode( $background_image_css_editor ) . '' : ':' ) . ':' . $img_size . ' }}',
 		'alt' => '{{ post_image_alt }}',
-	);
+	];
 	$attributes = vc_add_lazy_loading_attribute( $attributes );
 
 	$image = '<img ' . vc_stringify_attributes( $attributes ) . '>';
 
 } elseif ( false !== $background_image_css_editor ) {
-	$attributes = array(
+	$attributes = [
 		'class' => 'vc_gitem-zone-img',
 		'src' => esc_url( $background_image_css_editor ),
 		'alt' => '{{ post_image_alt }}',
-	);
+	];
 
 	$attributes = vc_add_lazy_loading_attribute( $attributes );
 

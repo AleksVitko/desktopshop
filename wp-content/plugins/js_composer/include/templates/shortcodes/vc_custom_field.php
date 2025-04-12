@@ -18,11 +18,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $field_key = $custom_field_key = $el_class = '';
 
-extract( shortcode_atts( array(
+extract( shortcode_atts( [
 	'field_key' => '',
 	'custom_field_key' => '',
 	'el_class' => '',
-), $atts ) );
+], $atts ) );
 
 $key = strlen( $custom_field_key ) > 0 ? $custom_field_key : $field_key;
 

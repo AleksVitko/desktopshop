@@ -21,7 +21,7 @@ class WPBakeryShortCode_Vc_Pricing_Table extends WPBakeryShortCode {
 	 * @var array
 	 * @since 7.0
 	 */
-	protected $template_vars = array();
+	protected $template_vars = [];
 
 	/**
 	 * Build templates where we are keeping element optionality
@@ -33,10 +33,10 @@ class WPBakeryShortCode_Vc_Pricing_Table extends WPBakeryShortCode {
 	 * @throws Exception
 	 */
 	public function buildTemplate( $atts, $content ) {
-		$output = array();
-		$inline_css = array();
+		$output = [];
+		$inline_css = [];
 
-		$main_wrapper_classes = array( 'wpb-pricing-table' );
+		$main_wrapper_classes = [ 'wpb-pricing-table' ];
 
 		if ( ! empty( $atts['el_class'] ) ) {
 			$main_wrapper_classes[] = $atts['el_class'];
@@ -93,10 +93,10 @@ class WPBakeryShortCode_Vc_Pricing_Table extends WPBakeryShortCode {
 		if ( isset( $atts[ $tag ] ) && '' !== trim( $atts[ $tag ] ) ) {
 			$custom_heading = wpbakery()->getShortCode( 'vc_custom_heading' );
 			$data = vc_map_integrate_parse_atts( $this->shortcode, 'vc_custom_heading', $atts, $tag . '_' );
-			$data['font_container'] = implode( '|', array_filter( array(
+			$data['font_container'] = implode( '|', array_filter( [
 				'tag:' . $tag,
 				$data['font_container'],
-			) ) );
+			] ) );
 			$data['text'] = $atts[ $tag ]; // provide text to shortcode.
 
 			return $custom_heading->render( array_filter( $data ) );

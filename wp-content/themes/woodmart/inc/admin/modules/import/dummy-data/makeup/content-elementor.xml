@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-29 15:42" -->
+	<!-- generator="WordPress/6.5.5" created="2025-01-20 15:57" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>makup-elementor</title>
 	<link>https://dummy.xtemos.com/woodmart2/makeup-elementor</link>
 	<description></description>
-	<pubDate>Tue, 29 Oct 2024 15:42:50 +0000</pubDate>
+	<pubDate>Mon, 20 Jan 2025 15:57:40 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/makeup-elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -47,33 +47,10 @@
 	<generator>https://wordpress.org/?v=6.5.5</generator>
 
 					<item>
-					<title><![CDATA[pm-mtds]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/pm-mtds/</link>
-					<pubDate>Thu, 24 Oct 2024 16:12:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup-elementor/wp-content/uploads/sites/39/2024/10/pm-mtds.png</guid>
-															<wp:post_id>5</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-24 16:12:33]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-24 16:12:33]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 16:12:33]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 16:12:33]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[pm-mtds]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/pm-mtds.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/pm-mtds.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[chevron-down-black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/chevron-down-black/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/chevron-down-black.svg</guid>
 															<wp:post_id>72</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:13]]></wp:post_date>
@@ -91,16 +68,12 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024/10/chevron-down-black.svg]]></wp:meta_value>
 						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M23.0054 7.92187C23.2241 7.70312 23.3335 7.4375 23.3335 7.125C23.3335 6.8125 23.2241 6.54687 23.0054 6.32812C22.7866 6.10937 22.521 6 22.2085 6C21.896 6 21.6304 6.10937 21.4116 6.32812L12.4585 15.2812L3.50537 6.32812C3.28662 6.10937 3.021 6 2.7085 6C2.396 6 2.13037 6.10937 1.91162 6.32812C1.69287 6.54687 1.5835 6.8125 1.5835 7.125C1.5835 7.4375 1.69287 7.70312 1.91162 7.92187L11.6616 17.6719C11.8804 17.8906 12.146 18 12.4585 18C12.771 18 13.0366 17.8906 13.2554 17.6719L23.0054 7.92187Z" fill="#101010" fill-opacity="0.8"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c2-glry-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-glry-1-opt/</link>
 					<pubDate>Fri, 25 Oct 2024 14:53:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-1-opt.jpg</guid>
 															<wp:post_id>398</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 14:53:03]]></wp:post_date>
@@ -123,7 +96,7 @@
 					<title><![CDATA[c2-glry-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-glry-2-opt/</link>
 					<pubDate>Fri, 25 Oct 2024 14:53:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-2-opt.jpg</guid>
 															<wp:post_id>399</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 14:53:04]]></wp:post_date>
@@ -146,7 +119,7 @@
 					<title><![CDATA[c2-glry-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-glry-3-opt/</link>
 					<pubDate>Fri, 25 Oct 2024 14:53:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-3-opt.jpg</guid>
 															<wp:post_id>400</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 14:53:05]]></wp:post_date>
@@ -169,7 +142,7 @@
 					<title><![CDATA[c2-glry-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-glry-4-opt/</link>
 					<pubDate>Fri, 25 Oct 2024 14:53:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-4-opt.jpg</guid>
 															<wp:post_id>401</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 14:53:05]]></wp:post_date>
@@ -192,7 +165,7 @@
 					<title><![CDATA[c2-glry-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-glry-5-opt/</link>
 					<pubDate>Fri, 25 Oct 2024 14:53:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-5-opt.jpg</guid>
 															<wp:post_id>402</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 14:53:06]]></wp:post_date>
@@ -215,7 +188,7 @@
 					<title><![CDATA[Product archive layout Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/woodmart_layout/product-archive-layout/</link>
 					<pubDate>Mon, 28 Oct 2024 12:02:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-elementor/?post_type=woodmart_layout&#038;p=465</guid>
 											<content:encoded><![CDATA[Shop		
 			<nav aria-label="Breadcrumb">				
@@ -490,19 +463,19 @@
 							<wp:meta_value><![CDATA[default]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:6:"styles";a:1:{i:0;s:14:"widget-divider";}}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
 							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:6:"styles";a:1:{i:0;s:14:"widget-divider";}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Single product layout Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/woodmart_layout/single-product-layout-makeup/</link>
 					<pubDate>Mon, 28 Oct 2024 12:27:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-elementor/?post_type=woodmart_layout&#038;p=486</guid>
 											<content:encoded><![CDATA[ 			<nav aria-label="Breadcrumb">				
 					Home				
@@ -510,19 +483,19 @@
 						 			
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/power-full-5-lip-care/" aria-label="Previous product"></a>
 				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/power-full-5-lip-care/">
-					<img width="480" height="549" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-2-600x686.jpg" alt="" />				</a>
+					<img width="600" height="686" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-2-600x686.jpg" alt="" />				</a>
 					<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/power-full-5-lip-care/">
 						Power Full 5 Lip Care					</a>
 						&#036;4.39					
-	<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/shop/">
+	<a href="">
 			Back to products		
 	</a>
-			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/prebiotic-face-mask-scrub-100ml/" aria-label="Next product"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/prebiotic-face-mask-scrub-100ml/">
-					<img width="480" height="549" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-sk-crms-product-5-600x686.jpg" alt="" />				</a>
-					<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/prebiotic-face-mask-scrub-100ml/">
-						Prebiotic Face Mask &amp; Scrub 100ml					</a>
-						&#036;34.90					
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/peptides-spring-hydra-gel-eye-patches/" aria-label="Next product"></a>
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/peptides-spring-hydra-gel-eye-patches/">
+					<img width="600" height="686" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-sk-eycr-product-8-600x686.jpg" alt="" />				</a>
+					<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/peptides-spring-hydra-gel-eye-patches/">
+						Peptides Spring Hydra-Gel Eye Patches					</a>
+						&#036;5.03					
 						 						 						 			
 		<figure style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1">
 			<figure data-thumb="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-12-150x171.jpg"><a data-elementor-open-lightbox="no" href="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-12.jpg"><img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-12.jpg" alt="" title="c-mkp-lps-product-12.jpg" data-caption="" data-src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-12.jpg" data-large_image="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-lps-product-12.jpg" data-large_image_width="700" data-large_image_height="800" /></a></figure>
@@ -535,43 +508,63 @@
 				<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-3.svg" title="Mizon" alt="Mizon">			</a>
 			<p>&#036;11.84</p>
 						 						 						 						 						
+					Description				
+						Description					
+					<a href="#" rel="nofollow">Close</a>
+<style>.elementor-133 .elementor-element.elementor-element-a7f8e2e{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--background-transition:0.3s;}</style>		
+						 					
+			<p>Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p><h4 id="wd-e071d9da" style="margin-bottom: var(--wd-tags-mb, 20px);font-style: normal;font-weight: var(--wd-title-font-weight);font-family: Satoshi, Arial, Helvetica, sans-serif;font-size: 18px;text-transform: none;--wd-trans-main: all .25s ease">Features of Rilastil Aqua Detergente Viso:</h4>
+						 						 					<ul>
+											<li>
+						The stem cells from northern dragonhead successfully fight solar damage, inhibiting the spread of free radicals. Additionally, they contribute to minimizing pigmentation, in turn boosting collagen formation.					
+									</li>
+											<li>
+						Raspberry seed oil eases symptoms of inflammatory skin conditions and helps shield the skin from external threats. Besides containing Vitamin E, this oil concentrates high levels of phytosterols that can help reduce water loss. Therefore, it keeps your complexion hydrated.					
+									</li>
+											<li>
+						Zinc Oxide reflects solar rays like a mirror. Without penetrating your complexion, it gives effortless broad-spectrum UVA/UVB protection and has solid safety evidence.					
+									</li>
+											<li>
+						Last but not least, Glycerin moisturizes deeply, being a natural source of endless benefits. From improving skin's resiliency to enabling the penetration of other ingredients and reducing irritation, it takes center stage as an indispensable element in skincare.					
+									</li>
+					</ul>
 					Additional information				
 						Additional information					
 					<a href="#" rel="nofollow">Close</a>
-<table>
+<table aria-label="Product Details">
 		<tr>
-			<th>
+			<th scope="row">
 						Brand					
 			</th>
 			<td>
-					<p>Mizon</p>
-												</td>
+				<p>Mizon</p>
+										</td>
 		</tr>
 		<tr>
-			<th>
+			<th scope="row">
 						Age					
 			</th>
 			<td>
-					<p>12+</p>
-									, 
-					<p>18+</p>
-									, 
-					<p>25+</p>
-									, 
-					<p>30+</p>
-									, 
-					<p>40+</p>
-												</td>
+				<p>12+</p>
+							, 
+				<p>18+</p>
+							, 
+				<p>25+</p>
+							, 
+				<p>30+</p>
+							, 
+				<p>40+</p>
+										</td>
 		</tr>
 	</table>
 	
 			
-	<label for="quantity_671f8b4a5f6fe">Ink Airy Velvet quantity</label>
+	<label for="quantity_678529d419611">Ink Airy Velvet quantity</label>
 	
 			
 		<button type="submit" name="add-to-cart" value="133">Add to cart</button>
 			
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="133" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/ink-airy-velvet/" data-key="feb95f3cb4" data-product-id="133" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
 						 						 						
@@ -587,146 +580,194 @@
 									<a rel="noopener noreferrer nofollow" href="https://telegram.me/share/url?url=https://dummy.xtemos.com/woodmart2/makeup-elementor/product/ink-airy-velvet/" target="_blank" aria-label="Telegram social link">
 											</a>
 						 					
-						<img>
-						<img>
-						<img>
-						<img>
-						<img>
+						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-3-opt.jpg" alt="c2-glry-3-opt">
+						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-4-opt.jpg" alt="c2-glry-4-opt">
+						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-5-opt.jpg" alt="c2-glry-5-opt">
+						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-1-opt.jpg" alt="c2-glry-1-opt">
+						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-2-opt.jpg" alt="c2-glry-2-opt">
 						 					
-						 						 						 						 						 						 						
+						 						 						 						 						 						
 									<h4>Related Products</h4>				
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/">
 						 						 			-6%Hot<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-snscrn-aftrsn-product-2.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/" data-id="149" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/">After Sun Tan Intensifying Moisturizing Lotion</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/after-sun/" rel="tag">After Sun</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/hand-care/" rel="tag">Hand Care</a>		
 	<del aria-hidden="true">&#036;22.34</del> Original price was: &#036;22.34.<ins aria-hidden="true">&#036;21.00</ins>Current price is: &#036;21.00.
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="149" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/" data-key="feb95f3cb4" data-product-id="149" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=149" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_149" data-quantity="1" data-product_id="149" data-product_sku="SN-33036" aria-label="Add to cart: &ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo;" rel="nofollow" data-success_message="&ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=149" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_149" data-quantity="1" data-product_id="149" data-product_sku="SN-33036" aria-label="Add to cart: &ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo;" rel="nofollow" data-success_message="&ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/" class="open-quick-view quick-view-button" rel="nofollow" data-id="149">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/">
 			-18%<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-snscrn-bdysnscrn-product-1.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/" data-id="144" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/">Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/body-sunscreen/" rel="tag">Body Sunscreen</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/foot-care/" rel="tag">Foot Care</a>		
 	<del aria-hidden="true">&#036;43.00</del> Original price was: &#036;43.00.<ins aria-hidden="true">&#036;35.26</ins>Current price is: &#036;35.26.
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="144" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/" data-key="feb95f3cb4" data-product-id="144" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=144" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_144" data-quantity="1" data-product_id="144" data-product_sku="SN-33019" aria-label="Add to cart: &ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=144" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_144" data-quantity="1" data-product_id="144" data-product_sku="SN-33019" aria-label="Add to cart: &ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="144">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-sk-srms-product-2.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/" data-id="78" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/">Bariederm-CICA Daily Serum 30ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/after-sun/" rel="tag">After Sun</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/skincare/serums/" rel="tag">Serums</a>		
 	&#036;40.40
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="78" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/" data-key="feb95f3cb4" data-product-id="78" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=78" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_78" data-quantity="1" data-product_id="78" data-product_sku="SC-11218" aria-label="Add to cart: &ldquo;Bariederm-CICA Daily Serum 30ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Bariederm-CICA Daily Serum 30ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=78" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_78" data-quantity="1" data-product_id="78" data-product_sku="SC-11218" aria-label="Add to cart: &ldquo;Bariederm-CICA Daily Serum 30ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Bariederm-CICA Daily Serum 30ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="78">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-hrmsk-product-3.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/" data-id="136" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/">Beauty Curly Locks Hair Mask 35ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/hair-masks/" rel="tag">Hair Masks</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/makeup/lips/" rel="tag">Lips</a>		
 	&#036;19.76
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="136" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/" data-key="feb95f3cb4" data-product-id="136" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=136" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_136" data-quantity="1" data-product_id="136" data-product_sku="HR-42969" aria-label="Add to cart: &ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=136" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_136" data-quantity="1" data-product_id="136" data-product_sku="HR-42969" aria-label="Add to cart: &ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="136">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-bd-scrb-product-4.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/" data-id="85" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/">Body Energizing Talasso-Scrub 700g</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/conditioners/" rel="tag">Conditioners</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/scrubs/" rel="tag">Scrubs</a>		
 	&#036;64.34
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="85" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/" data-key="feb95f3cb4" data-product-id="85" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=85" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_85" data-quantity="1" data-product_id="85" data-product_sku="BY-34849" aria-label="Add to cart: &ldquo;Body Energizing Talasso-Scrub 700g&rdquo;" rel="nofollow" data-success_message="&ldquo;Body Energizing Talasso-Scrub 700g&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=85" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_85" data-quantity="1" data-product_id="85" data-product_sku="BY-34849" aria-label="Add to cart: &ldquo;Body Energizing Talasso-Scrub 700g&rdquo;" rel="nofollow" data-success_message="&ldquo;Body Energizing Talasso-Scrub 700g&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/" class="open-quick-view quick-view-button" rel="nofollow" data-id="85">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-snscrn-hrsnscrn-product-4.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/" data-id="146" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/">Care Body &amp; Hair Oil Mist SPF30 150ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/hair-sunscreen/" rel="tag">Hair Sunscreen</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/perfumes/" rel="tag">Perfumes</a>		
 	&#036;41.79
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="146" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/" data-key="feb95f3cb4" data-product-id="146" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=146" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_146" data-quantity="1" data-product_id="146" data-product_sku="SN-33030" aria-label="Add to cart: &ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=146" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_146" data-quantity="1" data-product_id="146" data-product_sku="SN-33030" aria-label="Add to cart: &ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="146">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/clay-hair-wax/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-stlng-product-3.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/clay-hair-wax/" data-id="139" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/clay-hair-wax/">Clay Hair Wax</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/makeup/face/" rel="tag">Face</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/styling/" rel="tag">Styling</a>		
 	&#036;6.58
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="139" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/clay-hair-wax/" data-key="feb95f3cb4" data-product-id="139" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=139" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_139" data-quantity="1" data-product_id="139" data-product_sku="HR-42985" aria-label="Add to cart: &ldquo;Clay Hair Wax&rdquo;" rel="nofollow" data-success_message="&ldquo;Clay Hair Wax&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=139" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_139" data-quantity="1" data-product_id="139" data-product_sku="HR-42985" aria-label="Add to cart: &ldquo;Clay Hair Wax&rdquo;" rel="nofollow" data-success_message="&ldquo;Clay Hair Wax&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/clay-hair-wax/" class="open-quick-view quick-view-button" rel="nofollow" data-id="139">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/cleansing-foam-face-eyes-200ml/">
 			Hot<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-sk-clnsr-product-6.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/cleansing-foam-face-eyes-200ml/" data-id="77" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/cleansing-foam-face-eyes-200ml/">Cleansing Foam Face &amp; Eyes 200ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/skincare/cleansers/" rel="tag">Cleansers</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/hair-sunscreen/" rel="tag">Hair Sunscreen</a>		
 	&#036;19.40
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="77" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/cleansing-foam-face-eyes-200ml/" data-key="feb95f3cb4" data-product-id="77" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=77" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_77" data-quantity="1" data-product_id="77" data-product_sku="SC-11206" aria-label="Add to cart: &ldquo;Cleansing Foam Face &amp; Eyes 200ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Cleansing Foam Face &amp; Eyes 200ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=77" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_77" data-quantity="1" data-product_id="77" data-product_sku="SC-11206" aria-label="Add to cart: &ldquo;Cleansing Foam Face &amp; Eyes 200ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Cleansing Foam Face &amp; Eyes 200ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/cleansing-foam-face-eyes-200ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="77">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coils-curls-co-wash-100ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-cdtnr-product-8.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coils-curls-co-wash-100ml/" data-id="138" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coils-curls-co-wash-100ml/">Coils &amp; Curls Co-Wash 100ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/conditioners/" rel="tag">Conditioners</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/makeup/eyes/" rel="tag">Eyes</a>		
 	&#036;21.25
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="138" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coils-curls-co-wash-100ml/" data-key="feb95f3cb4" data-product-id="138" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=138" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_138" data-quantity="1" data-product_id="138" data-product_sku="HR-42982" aria-label="Add to cart: &ldquo;Coils &amp; Curls Co-Wash 100ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Coils &amp; Curls Co-Wash 100ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=138" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_138" data-quantity="1" data-product_id="138" data-product_sku="HR-42982" aria-label="Add to cart: &ldquo;Coils &amp; Curls Co-Wash 100ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Coils &amp; Curls Co-Wash 100ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coils-curls-co-wash-100ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="138">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-11.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/" data-id="99" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/">Coverstick</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/skincare/eye-care/" rel="tag">Eye Care</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/makeup/face/" rel="tag">Face</a>		
 	&#036;26.53
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="99" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/" data-key="feb95f3cb4" data-product-id="99" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_99" data-quantity="1" data-product_id="99" data-product_sku="MP-31960" aria-label="Select options for &ldquo;Coverstick&rdquo;" rel="nofollow">Select options</a>
-	This product has multiple variants. The options may be chosen on the product page
+					<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_99" data-quantity="1" data-product_id="99" data-product_sku="MP-31960" aria-label="Select options for &ldquo;Coverstick&rdquo;" rel="nofollow">Select options</a>	
+		This product has multiple variants. The options may be chosen on the product page	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/coverstick/" class="open-quick-view quick-view-button" rel="nofollow" data-id="99">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dercos-mineral-soft-fortifying-shampoo-400ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-smpoo-product-6.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dercos-mineral-soft-fortifying-shampoo-400ml/" data-id="135" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dercos-mineral-soft-fortifying-shampoo-400ml/">Dercos Mineral Soft Fortifying Shampoo 400ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/makeup/face/" rel="tag">Face</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/shampoos/" rel="tag">Shampoos</a>		
 	&#036;20.21
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="135" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dercos-mineral-soft-fortifying-shampoo-400ml/" data-key="feb95f3cb4" data-product-id="135" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=135" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_135" data-quantity="1" data-product_id="135" data-product_sku="HR-42964" aria-label="Add to cart: &ldquo;Dercos Mineral Soft Fortifying Shampoo 400ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Dercos Mineral Soft Fortifying Shampoo 400ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=135" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_135" data-quantity="1" data-product_id="135" data-product_sku="HR-42964" aria-label="Add to cart: &ldquo;Dercos Mineral Soft Fortifying Shampoo 400ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Dercos Mineral Soft Fortifying Shampoo 400ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dercos-mineral-soft-fortifying-shampoo-400ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="135">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dermato-clean-hyaluron-cleansing-gel-200ml/">
 			-30%<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-sk-clnsr-product-3.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dermato-clean-hyaluron-cleansing-gel-200ml/" data-id="76" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dermato-clean-hyaluron-cleansing-gel-200ml/">Dermato Clean Hyaluron Cleansing Gel 200ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/skincare/cleansers/" rel="tag">Cleansers</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/face-sunscreen/" rel="tag">Face Sunscreen</a>		
 	<del aria-hidden="true">&#036;18.80</del> Original price was: &#036;18.80.<ins aria-hidden="true">&#036;13.15</ins>Current price is: &#036;13.15.
+					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="76" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dermato-clean-hyaluron-cleansing-gel-200ml/" data-key="feb95f3cb4" data-product-id="76" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=76" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_76" data-quantity="1" data-product_id="76" data-product_sku="SC-11203" aria-label="Add to cart: &ldquo;Dermato Clean Hyaluron Cleansing Gel 200ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Dermato Clean Hyaluron Cleansing Gel 200ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=76" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_76" data-quantity="1" data-product_id="76" data-product_sku="SC-11203" aria-label="Add to cart: &ldquo;Dermato Clean Hyaluron Cleansing Gel 200ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Dermato Clean Hyaluron Cleansing Gel 200ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/dermato-clean-hyaluron-cleansing-gel-200ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="76">Quick view</a>
 						 						
 									<h4>Recently Viewed</h4>				
@@ -760,18 +801,17 @@
 	&#036;6.58
 						 					
 				<h4>Makeup for special events: shine uniquely!</h4> 
-						 					
 			<p>A special day requires a special look, and bright makeup will be its highlight. Regardless of whether it is a wedding, a corporate event, or a romantic dinner, the right makeup will help you feel confident and unforgettable. An effective skincare routine starts with an effective <em>cleansing</em> routine. Far from being the overly aggressive detergents of yesteryear, today’s cleansers often have gentle, mild formulas that work well with the specific needs of different skin types, removing impurities and make-up residue without stripping the skin of its natural oils.</p><h3>Make-up should harmonize with your outfit, hairstyle and accessories.</h3><p>If you’ve been following Care to Beauty for a while, you that our specialty is French pharmacy skincare. These were the first brands we worked with and we continue to identify with their ethos–for us, there’s nothing better than gentle skincare products that focus on resolving skin concerns without disrupting the skin barrier.</p><p>If you’re looking to replenish your skincare stash with French pharmacy products at discounted prices, we have offers of up to 50%–time to stock up on iconic moisturizers like Avenge Tolerance Control Soothing Skin Recovery Cream, or rich lip balms like NUKE Rave de Miel Honey Lip Balm Ultra Nourishing and Repairing.</p><p>Here at Care to Beauty, we’re sunscreen evangelists: if you use nothing else in your daily skincare routine, use sunscreen. Sunscreen has multiple benefits, ranging from the cosmetic (it helps prevent photoaging and some forms of dark spots and hyperpigmentation) to the health-related (it’s our first line of defense against skin cancer). Between mineral and chemical sunscreens, tinted or untinted, in milky or creamy textures, or even gel-like consistencies, there’s a world of sunscreen options out there, so we know there’s one for you.</p>
 						 					
 			<a href="#">
 					Read more				
-						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/chevron-down-black.svg" title="chevron-down-black" width="15" height="15">					
+						<img src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/chevron-down-black.svg" title="chevron-down-black" loading="lazy" width="15" height="15">					
 							</a>]]></content:encoded>
 															<wp:post_id>486</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 12:27:59]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 12:27:59]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 13:02:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 13:02:02]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 14:57:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 14:57:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[single-product-layout-makeup]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -804,7 +844,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"ec938d3","elType":"container","settings":{"flex_direction":"row","flex_justify_content":"space-between","flex_align_items":"center","flex_wrap":"wrap","margin":{"unit":"px","top":"-20","right":"0","bottom":"20","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"f7cd05a","elType":"widget","settings":{"content_width":"full","nowrap_md":"md","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_breadcrumb"},{"id":"efe667e","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_nav"}],"isInner":""},{"id":"cd3749a","elType":"container","settings":{"flex_direction":"row","flex_gap":{"unit":"px","size":"30","column":"30","row":"30","isLinked":"1"},"flex_direction_mobile":"column","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"b374152","elType":"container","settings":{"flex_direction":"column","content_width":"full","width":{"unit":"%","size":"60"},"width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_justify_content":"center","flex_align_items":"center","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"d70015e","elType":"widget","settings":{"content_width":"full","_element_width":"initial","_element_custom_width":{"unit":"px","size":"500","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_gallery"}],"isInner":"1"},{"id":"958b8dd","elType":"container","settings":{"flex_direction":"column","content_width":"full","width":{"unit":"%","size":"40"},"width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_gap":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"flex_gap_tablet":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"flex_gap_mobile":{"column":"20","row":"20","isLinked":"1","unit":"px","size":"20"},"background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"7d4719f","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"7d0f3cf","elType":"container","settings":{"content_width":"full","flex_direction":"row","flex_direction_tablet":"column","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"fd502fb","elType":"container","settings":{"content_width":"full","flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"c5bfff9","elType":"widget","settings":{"content_width":"full","typography_typography":"custom","typography_font_size":{"unit":"px","size":"32","sizes":[]},"typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_title"},{"id":"1437d64","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_rating"}],"isInner":"1"},{"id":"6d27dca","elType":"widget","settings":{"content_width":"full","label_text":"Brands:","style":"shadow","max_width":{"unit":"px","size":"80","sizes":[]},"max_width_tablet":{"unit":"px","size":"60","sizes":[]},"_flex_size":"none","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_brands"}],"isInner":"1"},{"id":"9bd8409","elType":"container","settings":{"content_width":"full","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"a457d20","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_price"},{"id":"0b56564","elType":"widget","settings":{"content_width":"full","timer_style":"transparent","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_countdown"}],"isInner":"1"},{"id":"495f8f9","elType":"widget","settings":{"content_width":"full","layout":"side-hidden","enable_reviews":"","side_hidden_title_typography_typography":"custom","side_hidden_title_typography_font_size":{"unit":"px","size":"18","sizes":[]},"side_hidden_content_width":{"unit":"px","size":"600","sizes":[]},"additional_info_layout":"inline","additional_info_style":"default","additional_info_vertical_gap":{"unit":"px","size":"20","sizes":[]},"attr_name_column_width":{"unit":"px","size":"165","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_tabs"},{"id":"9c78785","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_stock_progress_bar"},{"id":"0caaeee","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_linked_variations"},{"id":"05610f2","elType":"container","settings":{"content_width":"full","flex_direction":"row","flex_align_items":"flex-end","flex_wrap":"wrap","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"f6f333f","elType":"widget","settings":{"content_width":"full","button_design":"full","_flex_size":"grow","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_add_to_cart"},{"id":"78bb7af","elType":"widget","settings":{"content_width":"full","style":"icon","_padding":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#0000000D","_border_radius":{"unit":"%","top":"50","right":"50","bottom":"50","left":"50","isLinked":"1"},"_border_radius_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"_border_radius_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_wishlist_button"}],"isInner":"1"},{"id":"63911cf","elType":"widget","settings":{"content_width":"full","show_label":"yes","label_text":"Share: ","fb_link":"#","twitter_link":"#","isntagram_link":"#","pinterest_link":"#","youtube_link":"#","layout":"inline","align":"left","style":"bordered","size":"small","scroll_y":"-80"},"elements":[],"widgetType":"wd_social_buttons"}],"isInner":"1"}],"isInner":""},{"id":"2062088","elType":"container","settings":{"flex_gap":{"column":"80","row":"80","isLinked":"1","unit":"px","size":"80"},"flex_gap_tablet":{"column":"60","row":"60","isLinked":"1","unit":"px","size":"60"},"flex_gap_mobile":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"0942832","elType":"widget","settings":{"content_width":"full","ids":[{"id":"400","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-3-opt.jpg"},{"id":"401","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-4-opt.jpg"},{"id":"402","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-5-opt.jpg"},{"id":"398","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-1-opt.jpg"},{"id":"399","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-2-opt.jpg"}],"ids_size":"full","on_click":"none","view":"carousel","spacing":"20","slides_per_view":{"unit":"px","size":"4","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"1","sizes":[]},"disable_overflow_carousel":"","hide_pagination_control":"yes","sync_parent_id":"wd_671bafc4c2524","scroll_y":"-80"},"elements":[],"widgetType":"wd_images_gallery"},{"id":"5a1176a","elType":"widget","settings":{"content_width":"full","title":"Frequently Bought Together","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"_padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"_padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_fbt_products"}],"isInner":""},{"id":"8293cdd","elType":"container","settings":{"flex_direction":"column","flex_gap":{"column":"80","row":"80","isLinked":"1","unit":"px","size":"80"},"flex_gap_tablet":{"column":"60","row":"60","isLinked":"1","unit":"px","size":"60"},"flex_gap_mobile":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"b51ee8d","elType":"widget","settings":{"content_width":"full","layout":"two-column","reviews_columns":"2","_padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"_padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_reviews"},{"id":"51dbcda","elType":"widget","settings":{"content_width":"full","element_title":"Related Products","layout":"carousel","slides_per_view":{"unit":"px","size":"5","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"hide_pagination_control":"yes","sync_parent_id":"wd_671f8351d522d","products_with_background":"1","products_background":"#FFFFFF","scroll_y":"-80"},"elements":[],"widgetType":"wd_products"},{"id":"b6c7ff9","elType":"widget","settings":{"content_width":"full","element_title":"Recently Viewed","layout":"carousel","items_per_page":"7","slides_per_view":{"unit":"px","size":"6","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"autoheight":"","hide_pagination_control":"yes","sync_parent_id":"wd_671b8c0b62cbf","product_hover":"small","img_size":"custom","img_size_custom":{"width":"65","height":"74"},"products_with_background":"1","products_background":"#FFFFFF","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"scroll_y":"-80","_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_products"}],"isInner":""},{"id":"4c135ce","elType":"container","settings":{"flex_direction":"column","container_sticky_offset":"50","scroll_y":"-80","wd_collapsible_content_switcher":"collapsible-content","wd_collapsible_content_height":{"unit":"px","size":"358","sizes":[]},"wd_collapsible_content_fade_out_color":"#F5F7F8"},"elements":[{"id":"de5dbb8","elType":"widget","settings":{"content_width":"full","subtitle":"","title":"Makeup for special events: shine uniquely!","after_title":"","align":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"scroll_y":"-80","color_gradient_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"color_gradient_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"color_gradient_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"color_gradient_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"color_gradient_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"color_gradient_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"d324f28","elType":"widget","settings":{"content_width":"full","text":"<p>A special day requires a special look, and bright makeup will be its highlight. Regardless of whether it is a wedding, a corporate event, or a romantic dinner, the right makeup will help you feel confident and unforgettable. An effective skincare routine starts with an effective\u00a0<em>cleansing<\/em>\u00a0routine. Far from being the overly aggressive detergents of yesteryear, today\u2019s cleansers often have gentle, mild formulas that work well with the specific needs of different skin types, removing impurities and make-up residue without stripping the skin of its natural oils.<\/p><h3>Make-up should harmonize with your outfit, hairstyle and accessories.<\/h3><p>If you\u2019ve been following\u00a0Care to Beauty\u00a0for a while, you that our specialty is French pharmacy skincare. These were the first brands we worked with and we continue to identify with their ethos\u2013for us, there\u2019s nothing better than gentle skincare products that focus on resolving skin concerns without disrupting the skin barrier.<\/p><p>If you\u2019re looking to replenish your skincare stash with French pharmacy products at discounted prices, we have offers of up to 50%\u2013time to stock up on iconic moisturizers like\u00a0Avenge Tolerance Control Soothing Skin Recovery Cream, or rich lip balms like\u00a0NUKE Rave de Miel Honey Lip Balm Ultra Nourishing and Repairing.<\/p><p>Here at\u00a0Care to Beauty, we\u2019re sunscreen evangelists: if you use nothing else in your daily skincare routine, use sunscreen. Sunscreen has multiple benefits, ranging from the cosmetic (it helps prevent photoaging and some forms of dark spots and hyperpigmentation) to the health-related (it\u2019s our first line of defense against skin cancer). Between mineral and chemical sunscreens, tinted or untinted, in milky or creamy textures, or even gel-like consistencies, there\u2019s a world of sunscreen options out there, so we know there\u2019s one for you.<\/p>","scroll_y":"-80","_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_text_block"},{"id":"6c11f0c","elType":"widget","settings":{"content_width":"full","text":"Read more","button_collapsible_content":"yes","color":"white","shape":"round","align":"left","icon_type":"image","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/chevron-down-black.svg","id":"72","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"15","height":"15"},"scroll_y":"-80","_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_button"}],"isInner":""}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"ec938d3","elType":"container","settings":{"flex_direction":"row","flex_justify_content":"space-between","flex_align_items":"center","flex_wrap":"wrap","margin":{"unit":"px","top":"-20","right":"0","bottom":"20","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"f7cd05a","elType":"widget","settings":{"content_width":"full","nowrap_md":"md","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_breadcrumb"},{"id":"efe667e","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_nav"}],"isInner":""},{"id":"cd3749a","elType":"container","settings":{"flex_direction":"row","flex_gap":{"unit":"px","size":"30","column":"30","row":"30","isLinked":"1"},"flex_direction_mobile":"column","margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"b374152","elType":"container","settings":{"flex_direction":"column","content_width":"full","width":{"unit":"%","size":"60"},"width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_justify_content":"center","flex_align_items":"center","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"d70015e","elType":"widget","settings":{"content_width":"full","_element_width":"initial","_element_custom_width":{"unit":"px","size":"500","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_gallery"}],"isInner":"1"},{"id":"958b8dd","elType":"container","settings":{"flex_direction":"column","content_width":"full","width":{"unit":"%","size":"40"},"width_tablet":{"unit":"%","size":"50","sizes":[]},"width_mobile":{"unit":"%","size":"","sizes":[]},"flex_gap":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"flex_gap_tablet":{"column":"30","row":"30","isLinked":"1","unit":"px","size":"30"},"flex_gap_mobile":{"column":"20","row":"20","isLinked":"1","unit":"px","size":"20"},"background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"7d4719f","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"7d0f3cf","elType":"container","settings":{"content_width":"full","flex_direction":"row","flex_direction_tablet":"column","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"fd502fb","elType":"container","settings":{"content_width":"full","flex_gap":{"column":"10","row":"10","isLinked":"1","unit":"px","size":"10"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"c5bfff9","elType":"widget","settings":{"content_width":"full","typography_typography":"custom","typography_font_size":{"unit":"px","size":"32","sizes":[]},"typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_title"},{"id":"1437d64","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_rating"}],"isInner":"1"},{"id":"6d27dca","elType":"widget","settings":{"content_width":"full","label_text":"Brands:","style":"shadow","max_width":{"unit":"px","size":"80","sizes":[]},"max_width_tablet":{"unit":"px","size":"60","sizes":[]},"_flex_size":"none","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_brands"}],"isInner":"1"},{"id":"9bd8409","elType":"container","settings":{"content_width":"full","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"a457d20","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_price"},{"id":"0b56564","elType":"widget","settings":{"content_width":"full","timer_style":"transparent","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_countdown"}],"isInner":"1"},{"id":"495f8f9","elType":"widget","settings":{"content_width":"full","layout":"side-hidden","enable_reviews":"","side_hidden_title_typography_typography":"custom","side_hidden_title_typography_font_size":{"unit":"px","size":"18","sizes":[]},"side_hidden_content_width":{"unit":"px","size":"600","sizes":[]},"additional_info_layout":"inline","additional_info_style":"default","additional_info_vertical_gap":{"unit":"px","size":"20","sizes":[]},"attr_name_column_width":{"unit":"px","size":"165","sizes":[]},"scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_tabs"},{"id":"9c78785","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_stock_progress_bar"},{"id":"0caaeee","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_linked_variations"},{"id":"05610f2","elType":"container","settings":{"content_width":"full","flex_direction":"row","flex_align_items":"flex-end","flex_wrap":"wrap","container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"f6f333f","elType":"widget","settings":{"content_width":"full","button_design":"full","_flex_size":"grow","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_add_to_cart"},{"id":"78bb7af","elType":"widget","settings":{"content_width":"full","style":"icon","_padding":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#0000000D","_border_radius":{"unit":"%","top":"50","right":"50","bottom":"50","left":"50","isLinked":"1"},"_border_radius_tablet":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"},"_border_radius_mobile":{"unit":"%","top":"","right":"","bottom":"","left":"","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_wishlist_button"}],"isInner":"1"},{"id":"46ec7e1","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_single_product_summary","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"63911cf","elType":"widget","settings":{"content_width":"full","show_label":"yes","label_text":"Share: ","fb_link":"#","twitter_link":"#","isntagram_link":"#","pinterest_link":"#","youtube_link":"#","layout":"inline","align":"left","style":"bordered","size":"small","scroll_y":"-80"},"elements":[],"widgetType":"wd_social_buttons"}],"isInner":"1"}],"isInner":""},{"id":"2062088","elType":"container","settings":{"flex_gap":{"column":"80","row":"80","isLinked":"1","unit":"px","size":"80"},"flex_gap_tablet":{"column":"60","row":"60","isLinked":"1","unit":"px","size":"60"},"flex_gap_mobile":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"0942832","elType":"widget","settings":{"content_width":"full","ids":[{"id":"400","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-3-opt.jpg"},{"id":"401","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-4-opt.jpg"},{"id":"402","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-5-opt.jpg"},{"id":"398","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-1-opt.jpg"},{"id":"399","url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/c2-glry-2-opt.jpg"}],"ids_size":"full","on_click":"none","view":"carousel","spacing":"20","slides_per_view":{"unit":"px","size":"4","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"slides_per_view_mobile":{"unit":"px","size":"1","sizes":[]},"disable_overflow_carousel":"","hide_pagination_control":"yes","sync_parent_id":"wd_671bafc4c2524","scroll_y":"-80"},"elements":[],"widgetType":"wd_images_gallery"},{"id":"5a1176a","elType":"widget","settings":{"content_width":"full","title":"Frequently Bought Together","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"_padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"_padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_fbt_products"}],"isInner":""},{"id":"8293cdd","elType":"container","settings":{"flex_direction":"column","flex_gap":{"column":"80","row":"80","isLinked":"1","unit":"px","size":"80"},"flex_gap_tablet":{"column":"60","row":"60","isLinked":"1","unit":"px","size":"60"},"flex_gap_mobile":{"column":"40","row":"40","isLinked":"1","unit":"px","size":"40"},"margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"b51ee8d","elType":"widget","settings":{"content_width":"full","layout":"two-column","reviews_columns":"2","_padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"_padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"}},"elements":[],"widgetType":"wd_single_product_reviews"},{"id":"51dbcda","elType":"widget","settings":{"content_width":"full","element_title":"Related Products","layout":"carousel","slides_per_view":{"unit":"px","size":"5","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"hide_pagination_control":"yes","sync_parent_id":"wd_671f8351d522d","products_with_background":"1","products_background":"#FFFFFF","scroll_y":"-80"},"elements":[],"widgetType":"wd_products"},{"id":"b6c7ff9","elType":"widget","settings":{"content_width":"full","element_title":"Recently Viewed","layout":"carousel","items_per_page":"7","slides_per_view":{"unit":"px","size":"6","sizes":[]},"slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"autoheight":"","hide_pagination_control":"yes","sync_parent_id":"wd_671b8c0b62cbf","product_hover":"small","img_size":"custom","img_size_custom":{"width":"65","height":"74"},"products_with_background":"1","products_background":"#FFFFFF","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"scroll_y":"-80","_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_products"}],"isInner":""},{"id":"4c135ce","elType":"container","settings":{"flex_direction":"column","container_sticky_offset":"50","scroll_y":"-80","wd_collapsible_content_switcher":"collapsible-content","wd_collapsible_content_height":{"unit":"px","size":"358","sizes":[]},"wd_collapsible_content_fade_out_color":"#F5F7F8"},"elements":[{"id":"de5dbb8","elType":"widget","settings":{"content_width":"full","subtitle":"","title":"Makeup for special events: shine uniquely!","after_title":"","align":"left","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"scroll_y":"-80","color_gradient_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"color_gradient_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"color_gradient_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"color_gradient_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"color_gradient_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"color_gradient_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_title"},{"id":"d324f28","elType":"widget","settings":{"content_width":"full","text":"<p>A special day requires a special look, and bright makeup will be its highlight. Regardless of whether it is a wedding, a corporate event, or a romantic dinner, the right makeup will help you feel confident and unforgettable. An effective skincare routine starts with an effective\u00a0<em>cleansing<\/em>\u00a0routine. Far from being the overly aggressive detergents of yesteryear, today\u2019s cleansers often have gentle, mild formulas that work well with the specific needs of different skin types, removing impurities and make-up residue without stripping the skin of its natural oils.<\/p><h3>Make-up should harmonize with your outfit, hairstyle and accessories.<\/h3><p>If you\u2019ve been following\u00a0Care to Beauty\u00a0for a while, you that our specialty is French pharmacy skincare. These were the first brands we worked with and we continue to identify with their ethos\u2013for us, there\u2019s nothing better than gentle skincare products that focus on resolving skin concerns without disrupting the skin barrier.<\/p><p>If you\u2019re looking to replenish your skincare stash with French pharmacy products at discounted prices, we have offers of up to 50%\u2013time to stock up on iconic moisturizers like\u00a0Avenge Tolerance Control Soothing Skin Recovery Cream, or rich lip balms like\u00a0NUKE Rave de Miel Honey Lip Balm Ultra Nourishing and Repairing.<\/p><p>Here at\u00a0Care to Beauty, we\u2019re sunscreen evangelists: if you use nothing else in your daily skincare routine, use sunscreen. Sunscreen has multiple benefits, ranging from the cosmetic (it helps prevent photoaging and some forms of dark spots and hyperpigmentation) to the health-related (it\u2019s our first line of defense against skin cancer). Between mineral and chemical sunscreens, tinted or untinted, in milky or creamy textures, or even gel-like consistencies, there\u2019s a world of sunscreen options out there, so we know there\u2019s one for you.<\/p>","scroll_y":"-80","_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_text_block"},{"id":"6c11f0c","elType":"widget","settings":{"content_width":"full","text":"Read more","button_collapsible_content":"yes","color":"white","shape":"round","align":"left","icon_type":"image","image":{"url":"http:\/\/dummy.xtemos.com\/woodmart2\/makeup-elementor\/wp-content\/uploads\/sites\/39\/2024\/10\/chevron-down-black.svg","id":"72","size":"","alt":"","source":"library"},"image_size":"custom","image_custom_dimension":{"width":"15","height":"15"},"scroll_y":"-80","_background_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]},"_background_hover_color_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_tablet":{"unit":"%","size":"","sizes":[]},"_background_hover_color_b_stop_mobile":{"unit":"%","size":"","sizes":[]},"_background_hover_gradient_angle_tablet":{"unit":"deg","size":"","sizes":[]},"_background_hover_gradient_angle_mobile":{"unit":"deg","size":"","sizes":[]}},"elements":[],"widgetType":"wd_button"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
@@ -815,7 +855,7 @@
 					<title><![CDATA[Cart layout Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/woodmart_layout/cart-layout-makeup/</link>
 					<pubDate>Mon, 28 Oct 2024 13:21:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-elementor/?post_type=woodmart_layout&#038;p=634</guid>
 											<content:encoded><![CDATA[ 						<ul>
 				<li>
@@ -839,7 +879,7 @@
 						<th>&nbsp;</th>
 						<th>&nbsp;</th>
 						<th>Product</th>
-												<th>Price</th>
+						<th>Price</th>
 						<th>Quantity</th>
 						<th>Subtotal</th>
 					</tr>
@@ -847,16 +887,16 @@
 					<tbody>
 						<tr>
 							<td>
-								<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/cart/?remove_item=42a0e188f5033bc65bf8d78622277c4e&#038;_wpnonce=866aabe136" aria-label="Remove Beauty Curly Locks Hair Mask 35ml from cart" data-product_id="136" data-product_sku="HR-42969">&times;</a>							</td>
+								<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/cart/?remove_item=42a0e188f5033bc65bf8d78622277c4e&#038;_wpnonce=863fed1997" aria-label="Remove Beauty Curly Locks Hair Mask 35ml from cart" data-product_id="136" data-product_sku="HR-42969">&times;</a>							</td>
 							<td>
-								<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/"><img width="480" height="549" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-hrmsk-product-3-600x686.jpg" alt="" /></a>							</td>
+								<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/"><img width="600" height="686" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-hrmsk-product-3-600x686.jpg" alt="" /></a>							</td>
 							<td data-title="Product">
 								<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/">Beauty Curly Locks Hair Mask 35ml</a>								</td>
 								<td data-title="Price">
 									&#036;19.76								</td>
 								<td data-title="Quantity">
 			
-	<label for="quantity_671f90e339387">Beauty Curly Locks Hair Mask 35ml quantity</label>
+	<label for="quantity_678238c4ace9f">Beauty Curly Locks Hair Mask 35ml quantity</label>
 	
 			
 								</td>
@@ -900,87 +940,105 @@
 	</table>
 <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/checkout/">
 	Proceed to checkout</a>
-						 						 						 						 						 						 						 						
+						 						 						 						 						 						 						
 									<h4>You May Be Interested In…</h4>				
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/">
 						 						 			-6%Hot<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-snscrn-aftrsn-product-2.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/" data-id="149" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/">After Sun Tan Intensifying Moisturizing Lotion</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/after-sun/" rel="tag">After Sun</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/hand-care/" rel="tag">Hand Care</a>		
 	<del aria-hidden="true">&#036;22.34</del> Original price was: &#036;22.34.<ins aria-hidden="true">&#036;21.00</ins>Current price is: &#036;21.00.
 					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="149" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/" data-key="718ed454ee" data-product-id="149" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=149" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_149" data-quantity="1" data-product_id="149" data-product_sku="SN-33036" aria-label="Add to cart: &ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo;" rel="nofollow" data-success_message="&ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=149" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_149" data-quantity="1" data-product_id="149" data-product_sku="SN-33036" aria-label="Add to cart: &ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo;" rel="nofollow" data-success_message="&ldquo;After Sun Tan Intensifying Moisturizing Lotion&rdquo; has been added to your cart">Add to cart</a>	
 							 					
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/after-sun-tan-intensifying-moisturizing-lotion/" class="open-quick-view quick-view-button" rel="nofollow" data-id="149">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/">
 			-18%<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-snscrn-bdysnscrn-product-1.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/" data-id="144" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/">Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/body-sunscreen/" rel="tag">Body Sunscreen</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/foot-care/" rel="tag">Foot Care</a>		
 	<del aria-hidden="true">&#036;43.00</del> Original price was: &#036;43.00.<ins aria-hidden="true">&#036;35.26</ins>Current price is: &#036;35.26.
 					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="144" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/" data-key="718ed454ee" data-product-id="144" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=144" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_144" data-quantity="1" data-product_id="144" data-product_sku="SN-33019" aria-label="Add to cart: &ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=144" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_144" data-quantity="1" data-product_id="144" data-product_sku="SN-33019" aria-label="Add to cart: &ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="144">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-sk-srms-product-2.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/" data-id="78" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/">Bariederm-CICA Daily Serum 30ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/after-sun/" rel="tag">After Sun</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/skincare/serums/" rel="tag">Serums</a>		
 	&#036;40.40
 					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="78" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/" data-key="718ed454ee" data-product-id="78" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=78" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_78" data-quantity="1" data-product_id="78" data-product_sku="SC-11218" aria-label="Add to cart: &ldquo;Bariederm-CICA Daily Serum 30ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Bariederm-CICA Daily Serum 30ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=78" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_78" data-quantity="1" data-product_id="78" data-product_sku="SC-11218" aria-label="Add to cart: &ldquo;Bariederm-CICA Daily Serum 30ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Bariederm-CICA Daily Serum 30ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/bariederm-cica-daily-serum-30ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="78">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-hir-hrmsk-product-3.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/" data-id="136" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/">Beauty Curly Locks Hair Mask 35ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/hair-masks/" rel="tag">Hair Masks</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/makeup/lips/" rel="tag">Lips</a>		
 	&#036;19.76
 					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="136" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/" data-key="718ed454ee" data-product-id="136" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=136" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_136" data-quantity="1" data-product_id="136" data-product_sku="HR-42969" aria-label="Add to cart: &ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=136" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_136" data-quantity="1" data-product_id="136" data-product_sku="HR-42969" aria-label="Add to cart: &ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Beauty Curly Locks Hair Mask 35ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/beauty-curly-locks-hair-mask-35ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="136">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-bd-scrb-product-4.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/" data-id="85" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/">Body Energizing Talasso-Scrub 700g</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/hair/conditioners/" rel="tag">Conditioners</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/scrubs/" rel="tag">Scrubs</a>		
 	&#036;64.34
 					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="85" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/" data-key="718ed454ee" data-product-id="85" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=85" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_85" data-quantity="1" data-product_id="85" data-product_sku="BY-34849" aria-label="Add to cart: &ldquo;Body Energizing Talasso-Scrub 700g&rdquo;" rel="nofollow" data-success_message="&ldquo;Body Energizing Talasso-Scrub 700g&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=85" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_85" data-quantity="1" data-product_id="85" data-product_sku="BY-34849" aria-label="Add to cart: &ldquo;Body Energizing Talasso-Scrub 700g&rdquo;" rel="nofollow" data-success_message="&ldquo;Body Energizing Talasso-Scrub 700g&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/body-energizing-talasso-scrub-700g/" class="open-quick-view quick-view-button" rel="nofollow" data-id="85">Quick view</a>
 		<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/">
 			<img width="700" height="800" src="http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-snscrn-hrsnscrn-product-4.jpg" alt="" />		</a>
+			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/" data-id="146" rel="nofollow" data-added-text="Compare products">
+				Compare
+			</a>
 		<h3><a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/">Care Body &amp; Hair Oil Mist SPF30 150ml</a></h3>				
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/sunscreen/hair-sunscreen/" rel="tag">Hair Sunscreen</a>, <a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product-category/body/perfumes/" rel="tag">Perfumes</a>		
 	&#036;41.79
 					Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara&#8217;s values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet&#8217;s well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly. Features of Rilastil Aqua Detergente Viso: The stem cells from northern				
 				<a href="#" rel="nofollow" aria-label="Read more description"></a>
-				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/wishlist/" data-key="ddeae1b8c7" data-product-id="146" rel="nofollow" data-added-text="Browse Wishlist">
+				<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/" data-key="718ed454ee" data-product-id="146" rel="nofollow" data-added-text="Browse Wishlist">
 					Add to wishlist
 				</a>
-					<a href="?add-to-cart=146" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_146" data-quantity="1" data-product_id="146" data-product_sku="SN-33030" aria-label="Add to cart: &ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo; has been added to your cart">Add to cart</a>
+					<a href="?add-to-cart=146" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_146" data-quantity="1" data-product_id="146" data-product_sku="SN-33030" aria-label="Add to cart: &ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo;" rel="nofollow" data-success_message="&ldquo;Care Body &amp; Hair Oil Mist SPF30 150ml&rdquo; has been added to your cart">Add to cart</a>	
 			<a href="https://dummy.xtemos.com/woodmart2/makeup-elementor/product/care-body-hair-oil-mist-spf30-150ml/" class="open-quick-view quick-view-button" rel="nofollow" data-id="146">Quick view</a>
 					]]></content:encoded>
 															<wp:post_id>634</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 13:21:13]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 13:21:13]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 13:25:55]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 13:25:55]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-11 09:24:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-11 09:24:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[cart-layout-makeup]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -997,7 +1055,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"ba52365","elType":"container","settings":{"flex_direction":"column","margin":{"unit":"px","top":"-20","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"3403183","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_checkout_steps"}],"isInner":""},{"id":"6c56c57a","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"22","margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_direction_tablet":"column","container_sticky_offset":"50","scroll_y":"-80","margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""}},"elements":[{"id":"430f4c1","elType":"container","settings":{"_column_size":"66","width":{"size":"66.6","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"}},"elements":[{"id":"6917fcca","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"db1ae31","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_shipping_progress_bar"},{"id":"349d5ff8","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_cart_table"}],"isInner":"1"},{"id":"19874b26","elType":"container","settings":{"_column_size":"33","width":{"size":"33.4","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"_flex_align_self":"flex-start"},"elements":[{"id":"4cebe9a2","elType":"widget","settings":{"button_alignment":"full-width","scroll_y":"-80","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"title_typography_text_transform":"capitalize","content_width":"full"},"elements":[],"widgetType":"wd_cart_totals"}],"isInner":"1"}],"isInner":""},{"id":"72aea968","elType":"container","settings":{"reverse_order_mobile":"reverse-mobile","reverse_order_tablet":"reverse-tablet","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"7861938","elType":"widget","settings":{"layout":"carousel","columns":{"unit":"px","size":"3","sizes":[]},"items_per_page":"6","hide_pagination_control":"yes","scroll_y":"-80","img_size":"medium_large","slides_per_view":{"unit":"px","size":"5","sizes":[]},"sync_parent_id":"wd_65982f4604762","slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"element_title":"You May Be Interested In\u2026","products_with_background":"1","products_background":"#FFFFFF","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"content_width":"full"},"elements":[],"widgetType":"wd_products"}],"isInner":""}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"ba52365","elType":"container","settings":{"flex_direction":"column","margin":{"unit":"px","top":"-20","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"3403183","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_checkout_steps"}],"isInner":""},{"id":"6c56c57a","elType":"container","settings":{"margin":{"unit":"px","top":"0","right":"0","bottom":"80","left":"0","isLinked":""},"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"22","margin_tablet":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":""},"flex_direction":"row","flex_direction_tablet":"column","container_sticky_offset":"50","scroll_y":"-80","margin_mobile":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""}},"elements":[{"id":"430f4c1","elType":"container","settings":{"_column_size":"66","width":{"size":"66.6","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"}},"elements":[{"id":"6917fcca","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"db1ae31","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_single_product_shipping_progress_bar"},{"id":"2c6ef4e","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_before_cart","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"349d5ff8","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_cart_table"}],"isInner":"1"},{"id":"19874b26","elType":"container","settings":{"_column_size":"33","width":{"size":"33.4","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"_flex_align_self":"flex-start"},"elements":[{"id":"4cebe9a2","elType":"widget","settings":{"button_alignment":"full-width","scroll_y":"-80","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"title_typography_text_transform":"capitalize","content_width":"full"},"elements":[],"widgetType":"wd_cart_totals"},{"id":"b226c84","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_after_cart","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"}],"isInner":"1"}],"isInner":""},{"id":"72aea968","elType":"container","settings":{"reverse_order_mobile":"reverse-mobile","reverse_order_tablet":"reverse-tablet","flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"e78cffa","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_cart_collaterals","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"7861938","elType":"widget","settings":{"layout":"carousel","columns":{"unit":"px","size":"3","sizes":[]},"items_per_page":"6","hide_pagination_control":"yes","scroll_y":"-80","img_size":"medium_large","slides_per_view":{"unit":"px","size":"5","sizes":[]},"sync_parent_id":"wd_65982f4604762","slides_per_view_tablet":{"unit":"px","size":"3","sizes":[]},"element_title":"You May Be Interested In\u2026","products_with_background":"1","products_background":"#FFFFFF","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"content_width":"full"},"elements":[],"widgetType":"wd_products"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
@@ -1016,19 +1074,19 @@
 							<wp:meta_value><![CDATA[default]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:7:"scripts";a:1:{i:0;s:7:"wc-cart";}}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
 							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:7:"scripts";a:1:{i:0;s:7:"wc-cart";}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Checkout top content Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/woodmart_layout/checkout-top-content-makeup/</link>
 					<pubDate>Mon, 28 Oct 2024 13:27:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-elementor/?post_type=woodmart_layout&#038;p=639</guid>
 											<content:encoded><![CDATA[ 						<ul>
 				<li>
@@ -1059,8 +1117,8 @@
 															<wp:post_id>639</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 13:27:24]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 13:27:24]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 13:28:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 13:28:31]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-13 14:57:53]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-13 14:57:53]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[checkout-top-content-makeup]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1077,7 +1135,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"f614f66","elType":"container","settings":{"flex_direction":"column","margin":{"unit":"px","top":"-20","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"30e1b1c","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_checkout_steps"}],"isInner":""},{"id":"17c904c","elType":"container","settings":{"flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"2be1b77a","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"6f5032ac","elType":"widget","settings":{"scroll_y":"-80","form_bg_color":"#FFFFFF","form_border_border":"none"},"elements":[],"widgetType":"wd_checkout_login_form"},{"id":"60206f08","elType":"widget","settings":{"scroll_y":"-80","form_bg_color":"#FFFFFF","form_border_border":"none"},"elements":[],"widgetType":"wd_checkout_coupon_form"}],"isInner":""}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"f614f66","elType":"container","settings":{"flex_direction":"column","margin":{"unit":"px","top":"-20","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"30e1b1c","elType":"widget","settings":{"content_width":"full","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_checkout_steps"}],"isInner":""},{"id":"17c904c","elType":"container","settings":{"flex_gap":{"size":"","column":"","row":"","unit":"px","isLinked":"1"},"margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"2be1b77a","elType":"widget","settings":{"scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_notices"},{"id":"cf70db8","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_before_checkout_form","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"6f5032ac","elType":"widget","settings":{"scroll_y":"-80","form_bg_color":"#FFFFFF","form_border_border":"none"},"elements":[],"widgetType":"wd_checkout_login_form"},{"id":"60206f08","elType":"widget","settings":{"scroll_y":"-80","form_bg_color":"#FFFFFF","form_border_border":"none"},"elements":[],"widgetType":"wd_checkout_coupon_form"},{"id":"b2c3a42","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_before_customer_details","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
@@ -1096,19 +1154,19 @@
 							<wp:meta_value><![CDATA[default]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:7:"scripts";a:1:{i:0;s:11:"wc-checkout";}}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
 							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:7:"scripts";a:1:{i:0;s:11:"wc-checkout";}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Checkout layout form Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/woodmart_layout/checkout-layout-form-makeup/</link>
 					<pubDate>Mon, 28 Oct 2024 13:29:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-elementor/?post_type=woodmart_layout&#038;p=643</guid>
 											<content:encoded><![CDATA[<h3>Billing details</h3>
 		<p id="billing_first_name_field" data-priority="10"><label for="billing_first_name">First name&nbsp;<abbr title="required">*</abbr></label></p><p id="billing_last_name_field" data-priority="20"><label for="billing_last_name">Last name&nbsp;<abbr title="required">*</abbr></label></p><p id="billing_company_field" data-priority="30"><label for="billing_company">Company name&nbsp;(optional)</label></p><p id="billing_country_field" data-priority="40"><label for="billing_country">Country / Region&nbsp;<abbr title="required">*</abbr></label>Select a country / region&hellip;AfghanistanÅland IslandsAlbaniaAlgeriaAmerican SamoaAndorraAngolaAnguillaAntarcticaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelauBelgiumBelizeBeninBermudaBhutanBoliviaBonaire, Saint Eustatius and SabaBosnia and HerzegovinaBotswanaBouvet IslandBrazilBritish Indian Ocean TerritoryBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCayman IslandsCentral African RepublicChadChileChinaChristmas IslandCocos (Keeling) IslandsColombiaComorosCongo (Brazzaville)Congo (Kinshasa)Cook IslandsCosta RicaCroatiaCubaCura&ccedil;aoCyprusCzech RepublicDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEswatiniEthiopiaFalkland IslandsFaroe IslandsFijiFinlandFranceFrench GuianaFrench PolynesiaFrench Southern TerritoriesGabonGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea-BissauGuyanaHaitiHeard Island and McDonald IslandsHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyIvory CoastJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacaoMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMartiniqueMauritaniaMauritiusMayotteMexicoMicronesiaMoldovaMonacoMongoliaMontenegroMontserratMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNew CaledoniaNew ZealandNicaraguaNigerNigeriaNiueNorfolk IslandNorth KoreaNorth MacedoniaNorthern Mariana IslandsNorwayOmanPakistanPalestinian TerritoryPanamaPapua New GuineaParaguayPeruPhilippinesPitcairnPolandPortugalPuerto RicoQatarReunionRomaniaRussiaRwandaS&atilde;o Tom&eacute; and Pr&iacute;ncipeSaint Barth&eacute;lemySaint HelenaSaint Kitts and NevisSaint LuciaSaint Martin (Dutch part)Saint Martin (French part)Saint Pierre and MiquelonSaint Vincent and the GrenadinesSamoaSan MarinoSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth Georgia/Sandwich IslandsSouth KoreaSouth SudanSpainSri LankaSudanSurinameSvalbard and Jan MayenSwedenSwitzerlandSyriaTaiwanTajikistanTanzaniaThailandTimor-LesteTogoTokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTurks and Caicos IslandsTuvaluUgandaUkraineUnited Arab EmiratesUnited Kingdom (UK)United States (US)United States (US) Minor Outlying IslandsUruguayUzbekistanVanuatuVaticanVenezuelaVietnamVirgin Islands (British)Virgin Islands (US)Wallis and FutunaWestern SaharaYemenZambiaZimbabwe<button type="submit" name="woocommerce_checkout_update_totals" value="Update country / region">Update country / region</button></p><p id="billing_address_1_field" data-priority="50"><label for="billing_address_1">Street address&nbsp;<abbr title="required">*</abbr></label></p><p id="billing_address_2_field" data-priority="60"><label for="billing_address_2">Apartment, suite, unit, etc.&nbsp;(optional)</label></p><p id="billing_city_field" data-priority="70"><label for="billing_city">Town / City&nbsp;<abbr title="required">*</abbr></label></p><p id="billing_state_field" data-priority="80"><label for="billing_state">State&nbsp;<abbr title="required">*</abbr></label>
@@ -1164,8 +1222,8 @@
 															<wp:post_id>643</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 13:29:04]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 13:29:04]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-29 14:59:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-29 14:59:58]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-20 15:57:30]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-20 15:57:30]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[checkout-layout-form-makeup]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1182,7 +1240,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_data]]></wp:meta_key>
-							<wp:meta_value><![CDATA[[{"id":"43e64f02","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","flex_direction":"row","flex_direction_mobile":"column","flex_gap_tablet":{"column":"","row":"","isLinked":"1","unit":"px","size":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"2f48ae0a","elType":"container","settings":{"_column_size":"50","width":{"size":"50","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"}},"elements":[{"id":"7f452cbe","elType":"widget","settings":{"scroll_y":"-80","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"title_typography_text_transform":"capitalize"},"elements":[],"widgetType":"wd_checkout_billing_details_form"},{"id":"1afc5eb","elType":"widget","settings":{"subtitle":"","title":"Additional Information","after_title":"","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"scroll_y":"-80","align":"left","title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"content_width":"full"},"elements":[],"widgetType":"wd_title"},{"id":"4fc1d282","elType":"widget","settings":{"scroll_y":"-80","title":""},"elements":[],"widgetType":"wd_checkout_shipping_details_from"}],"isInner":"1"},{"id":"27470d2d","elType":"container","settings":{"_column_size":"50","width":{"size":"50","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"background_background":"classic","content_width":"full","container_sticky_offset":"50","flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"_flex_align_self":"flex-start"},"elements":[{"id":"3a13a83f","elType":"widget","settings":{"subtitle":"","title":"Your Order","after_title":"","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"scroll_y":"-80","align":"left","title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"5","left":"0","isLinked":""},"content_width":"full"},"elements":[],"widgetType":"wd_title"},{"id":"d2d451f","elType":"widget","settings":{"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":""},"content_width":"full"},"elements":[],"widgetType":"wd_checkout_order_review"},{"id":"6f2e5068","elType":"widget","settings":{"scroll_y":"-80","style":"default","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"content_width":"full"},"elements":[],"widgetType":"wd_single_product_shipping_progress_bar"},{"id":"efa4a2","elType":"widget","settings":{"scroll_y":"-80","button_alignment":"full-width","payment_description_padding":{"unit":"px","top":"15","right":"15","bottom":"15","left":"15","isLinked":"1"},"payment_description_background-color":"#F9F9F9","terms_conditions_padding":{"unit":"px","top":"15","right":"15","bottom":"15","left":"15","isLinked":"1"},"terms_conditions_background_color":"#F9F9F9","content_width":"full"},"elements":[],"widgetType":"wd_checkout_payment_methods"}],"isInner":"1"}],"isInner":""}]]]></wp:meta_value>
+							<wp:meta_value><![CDATA[[{"id":"43e64f02","elType":"container","settings":{"flex_gap":{"size":"30","column":"30","row":"30","unit":"px","isLinked":"1"},"structure":"20","flex_direction":"row","flex_direction_mobile":"column","flex_gap_tablet":{"column":"","row":"","isLinked":"1","unit":"px","size":""},"container_sticky_offset":"50","scroll_y":"-80"},"elements":[{"id":"2f48ae0a","elType":"container","settings":{"_column_size":"50","width":{"size":"50","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"content_width":"full","container_sticky_offset":"50","background_background":"classic","background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"}},"elements":[{"id":"7f452cbe","elType":"widget","settings":{"scroll_y":"-80","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"title_typography_text_transform":"capitalize"},"elements":[],"widgetType":"wd_checkout_billing_details_form"},{"id":"7c262af","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_after_customer_details","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"0232cfa","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_billing","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"1afc5eb","elType":"widget","settings":{"subtitle":"","title":"Additional Information","after_title":"","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"scroll_y":"-80","align":"left","title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"content_width":"full"},"elements":[],"widgetType":"wd_title"},{"id":"4fc1d282","elType":"widget","settings":{"scroll_y":"-80","title":"","content_width":"full"},"elements":[],"widgetType":"wd_checkout_shipping_details_from"},{"id":"90ad037","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_shipping","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"}],"isInner":"1"},{"id":"27470d2d","elType":"container","settings":{"_column_size":"50","width":{"size":"50","unit":"%"},"column_sticky_offset":"50","scroll_y":"-80","width_tablet":{"size":"100","unit":"%"},"background_background":"classic","content_width":"full","container_sticky_offset":"50","flex_gap":{"column":"0","row":"0","isLinked":"1","unit":"px","size":"0"},"background_color":"#FFFFFF","border_radius":{"unit":"px","top":"10","right":"10","bottom":"10","left":"10","isLinked":"1"},"padding":{"unit":"px","top":"40","right":"40","bottom":"40","left":"40","isLinked":"1"},"padding_mobile":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":"1"},"_flex_align_self":"flex-start"},"elements":[{"id":"3a13a83f","elType":"widget","settings":{"subtitle":"","title":"Your Order","after_title":"","title_typography_typography":"custom","title_typography_font_size":{"unit":"px","size":"28","sizes":[]},"scroll_y":"-80","align":"left","title_typography_font_size_tablet":{"unit":"px","size":"24","sizes":[]},"title_typography_font_size_mobile":{"unit":"px","size":"22","sizes":[]},"_margin":{"unit":"px","top":"0","right":"0","bottom":"5","left":"0","isLinked":""},"content_width":"full"},"elements":[],"widgetType":"wd_title"},{"id":"31cb49d","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_before_order_review_heading","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"d2d451f","elType":"widget","settings":{"scroll_y":"-80","_background_background":"classic","_background_color":"#FFFFFF","_margin":{"unit":"px","top":"0","right":"0","bottom":"10","left":"0","isLinked":""},"content_width":"full"},"elements":[],"widgetType":"wd_checkout_order_review"},{"id":"454c9db","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_before_order_review","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"e00e7e3","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_order_review","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"6f2e5068","elType":"widget","settings":{"scroll_y":"-80","style":"default","_margin":{"unit":"px","top":"0","right":"0","bottom":"20","left":"0","isLinked":""},"content_width":"full"},"elements":[],"widgetType":"wd_single_product_shipping_progress_bar"},{"id":"efa4a2","elType":"widget","settings":{"scroll_y":"-80","button_alignment":"full-width","payment_description_padding":{"unit":"px","top":"15","right":"15","bottom":"15","left":"15","isLinked":"1"},"payment_description_background-color":"#F9F9F9","terms_conditions_padding":{"unit":"px","top":"15","right":"15","bottom":"15","left":"15","isLinked":"1"},"terms_conditions_background_color":"#F9F9F9","content_width":"full"},"elements":[],"widgetType":"wd_checkout_payment_methods"},{"id":"e9bf07d","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_checkout_after_order_review","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"},{"id":"a58c348","elType":"widget","settings":{"content_width":"full","hook":"woocommerce_after_checkout_form","scroll_y":"-80"},"elements":[],"widgetType":"wd_wc_hook"}],"isInner":"1"}],"isInner":""}]]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
@@ -1201,12 +1259,12 @@
 							<wp:meta_value><![CDATA[default]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:7:"scripts";a:2:{i:0;s:11:"wc-checkout";i:1;s:21:"wc-add-payment-method";}}]]></wp:meta_value>
-						</wp:postmeta>
-												<wp:postmeta>
 							<wp:meta_key><![CDATA[_elementor_template_type]]></wp:meta_key>
 							<wp:meta_value><![CDATA[wp-post]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_elementor_page_assets]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{s:7:"scripts";a:2:{i:0;s:11:"wc-checkout";i:1;s:21:"wc-add-payment-method";}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 				</channel>

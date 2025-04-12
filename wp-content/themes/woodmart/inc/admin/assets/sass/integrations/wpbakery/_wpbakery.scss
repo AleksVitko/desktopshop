@@ -132,6 +132,7 @@
 		input[type="text"] {
 			--xts-input-width: 100%;
 			@extend %input-style;
+			@extend %input-width-style;
 		}
 
 		.vc_ui-prompt-title {
@@ -594,21 +595,6 @@
 			}
 		}
 	}
-
-	// ------------------------------------------
-	// ELEMENTOR RELATED OPTIONS HIDDEN IN WPB
-	// ------------------------------------------
-
-	// .xts-builder-wpb {
-
-	// 	.xts-negative_gap-field,
-	// 	[data-id="plugins_section"] .xts-fields-group:nth-child(4) + .xts-group-title,
-	// 	[data-id="plugins_section"] .xts-fields-group:nth-child(4) + .xts-group-title + .xts-fields-group,
-	// 	.xts-font_awesome_css-field .xts-status-deprecated,
-	// 	.nmi-icon .xts-status-deprecated {
-	// 		display: none;
-	// 	}
-	// }
 
 } // END IF
 

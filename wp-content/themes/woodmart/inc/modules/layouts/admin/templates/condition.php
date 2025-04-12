@@ -33,11 +33,16 @@
 			<option value="product_tags">
 				<?php esc_html_e( 'Product tags', 'woodmart' ); ?>
 			</option>
+			<?php if ( taxonomy_exists( 'product_brand' ) ) : ?>
+				<option value="product_brands">
+					<?php esc_html_e( 'Product brand', 'woodmart' ); ?>
+				</option>
+			<?php endif; ?>
 			<option value="product_attr">
 				<?php esc_html_e( 'Product attribute', 'woodmart' ); ?>
 			</option>
 			<option value="product_term">
-				<?php esc_html_e( 'Product term (category, tag, attribute)', 'woodmart' ); ?>
+				<?php esc_html_e( 'Product term (category, tag, brand, attribute)', 'woodmart' ); ?>
 			</option>
 			<option value="product_cat_children">
 				<?php esc_html_e( 'Child product categories', 'woodmart' ); ?>
@@ -72,6 +77,11 @@
 			<option value="product_tag">
 				<?php esc_html_e( 'Product tag', 'woodmart' ); ?>
 			</option>
+			<?php if ( taxonomy_exists( 'product_brand' ) ) : ?>
+				<option value="product_brand">
+					<?php esc_html_e( 'Product brand', 'woodmart' ); ?>
+				</option>
+			<?php endif; ?>
 			<option value="product_attr_term">
 				<?php esc_html_e( 'Product attribute', 'woodmart' ); ?>
 			</option>

@@ -3,7 +3,8 @@ use XTS\Modules\Mega_Menu_Walker;
 
 $menu_style = ( $params['menu_style'] ) ? $params['menu_style'] : 'default';
 $location   = 'main-menu';
-$classes    = 'text-' . $params['menu_align'];
+$classes    = 'whb-' . $id;
+$classes   .= ' text-' . $params['menu_align'];
 
 if ( 'bordered' === $params['menu_style'] ) {
 	$classes .= ' wd-full-height';

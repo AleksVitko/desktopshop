@@ -393,35 +393,33 @@ if( ! function_exists( 'woodmart_register_required_plugins' ) ) {
 	        ),
 	    );
 
-		if ( get_option( 'wd_import_theme_version' ) ) {
-			$external_builder = 'wpb' === woodmart_get_current_page_builder() ? 'wpb' : 'elementor';
-			$builder          = 'native' === woodmart_get_opt( 'current_builder' ) ? 'gutenberg' : $external_builder;
+		$external_builder = 'wpb' === woodmart_get_current_page_builder() ? 'wpb' : 'elementor';
+		$builder          = 'native' === woodmart_get_opt( 'current_builder' ) ? 'gutenberg' : $external_builder;
 
-			if ( ! empty( $_GET['wd_builder'] ) ) { // phpcs:ignore
-				$builder = wp_unslash( $_GET['wd_builder'] ); // phpcs:ignore
-			}
-
-			if ( ! empty( $_POST['xts_builder'] ) ) { // phpcs:ignore
-				$builder = wp_unslash( $_POST['xts_builder'] ); // phpcs:ignore
-			}
-
-			if ( isset( $_GET['page'], $_GET['plugin'] ) && 'tgmpa-install-plugins' === $_GET['page'] && in_array( $_GET['plugin'], array( 'js_composer', 'elementor' ) ) ) { // phpcs:ignore
-				$builder = 'js_composer' === $_GET['plugin'] ? 'wpb' : 'gutenberg'; // phpcs:ignore
-			}
-
-			$plugins = array_filter(
-				$plugins,
-				function( $plugin ) use ( $builder ) {
-					if ( 'gutenberg' === $builder ) {
-						return in_array( $plugin['slug'], array( 'elementor', 'js_composer' ), true ) ? '' : $plugin;
-					} elseif ( 'wpb' === $builder ) {
-						return 'elementor' === $plugin['slug'] ? '' : $plugin;
-					} else {
-						return 'js_composer' === $plugin['slug'] ? '' : $plugin;
-					}
-				}
-			);
+		if ( ! empty( $_GET['wd_builder'] ) ) { // phpcs:ignore
+			$builder = wp_unslash( $_GET['wd_builder'] ); // phpcs:ignore
 		}
+
+		if ( ! empty( $_POST['xts_builder'] ) ) { // phpcs:ignore
+			$builder = wp_unslash( $_POST['xts_builder'] ); // phpcs:ignore
+		}
+
+		if ( isset( $_REQUEST['page'], $_REQUEST['plugin'] ) && 'tgmpa-install-plugins' === $_REQUEST['page'] && in_array( $_REQUEST['plugin'], array( 'js_composer', 'elementor' ) ) ) { // phpcs:ignore
+			$builder = 'js_composer' === $_REQUEST['plugin'] ? 'wpb' : 'elementor'; // phpcs:ignore
+		}
+
+		$plugins = array_filter(
+			$plugins,
+			function( $plugin ) use ( $builder ) {
+				if ( 'gutenberg' === $builder ) {
+					return in_array( $plugin['slug'], array( 'elementor', 'js_composer' ), true ) ? '' : $plugin;
+				} elseif ( 'wpb' === $builder ) {
+					return 'elementor' === $plugin['slug'] ? '' : $plugin;
+				} else {
+					return 'js_composer' === $plugin['slug'] ? '' : $plugin;
+				}
+			}
+		);
 
 		if ( ( ( ! isset( $_GET['page'] ) || ! in_array( $_GET['page'], array( 'tgmpa-install-plugins', 'xts_plugins' ), true ) ) && ( ! isset( $_POST['action'] ) || ! in_array( $_POST['action'], array( 'woodmart_deactivate_plugin', 'woodmart_check_plugins' ), true ) ) ) && ! class_exists( 'RevSliderSlider' ) ) {
 			$plugins = array_filter(

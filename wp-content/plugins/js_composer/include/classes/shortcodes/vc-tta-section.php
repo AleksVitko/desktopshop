@@ -27,14 +27,14 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'add',
 		'edit',
 		'clone',
 		'copy',
 		'paste',
 		'delete',
-	);
+	];
 
 	/**
 	 * Determines whether to prepend controls in the backend editor.
@@ -62,7 +62,7 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 	 *
 	 * @var array
 	 */
-	public static $section_info = array();
+	public static $section_info = [];
 
 
 	/**
@@ -93,7 +93,7 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 	 * @return string
 	 */
 	public function getElementClasses() {
-		$classes = array();
+		$classes = [];
 		$classes[] = 'vc_tta-panel';
 		$isActive = ! vc_is_page_editable() && $this->getTemplateVariable( 'section-is-active' );
 
@@ -277,10 +277,10 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 	public function getParamHeading( $atts, $content ) {
 		$isPageEditable = vc_is_page_editable();
 
-		$headingAttributes = array();
-		$headingClasses = array(
+		$headingAttributes = [];
+		$headingClasses = [
 			'vc_tta-panel-title',
-		);
+		];
 		if ( $isPageEditable ) {
 			$headingAttributes[] = 'data-vc-tta-controls-icon-position=""';
 		} else {
@@ -335,20 +335,20 @@ class WPBakeryShortCode_Vc_Tta_Section extends WPBakeryShortCode_Vc_Tta_Accordio
 		$isPageEditable = vc_is_page_editable();
 
 		if ( $isPageEditable ) {
-			$attributes = array(
+			$attributes = [
 				'href' => 'javascript:;',
 				'data-vc-container' => '.vc_tta-container',
 				'data-vc-accordion' => '',
 				'data-vc-target' => '',
 				'data-vc-tta-controls-icon-wrapper' => '',
 				'data-vc-use-cache' => 'false',
-			);
+			];
 		} else {
-			$attributes = array(
+			$attributes = [
 				'data-vc-container' => '.vc_tta-container',
 				'data-vc-accordion' => '',
 				'data-vc-target' => esc_attr( '#' . $this->getTemplateVariable( 'tab_id' ) ),
-			);
+			];
 		}
 
 		$output = '

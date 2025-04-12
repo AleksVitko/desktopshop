@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 09:22" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:44" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,15 +29,13 @@
 	<title>Games gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/games-gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 09:22:53 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:44:08 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/games-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -45,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[w-vgs-action-redfall.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=93</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-redfall.jpg</guid>
 															<wp:post_id>93</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:22]]></wp:post_date>
@@ -78,7 +76,7 @@
 					<title><![CDATA[w-vgs-action-stalker-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=94</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-stalker-2.jpg</guid>
 															<wp:post_id>94</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:22]]></wp:post_date>
@@ -105,7 +103,7 @@
 					<title><![CDATA[w-vgs-action-metroid.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=95</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-metroid.jpg</guid>
 															<wp:post_id>95</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:22]]></wp:post_date>
@@ -132,7 +130,7 @@
 					<title><![CDATA[w-vgs-action-returnal.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=96</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-returnal.jpg</guid>
 															<wp:post_id>96</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:23]]></wp:post_date>
@@ -159,7 +157,7 @@
 					<title><![CDATA[w-vgs-action-hitman-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=97</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-hitman-3.jpg</guid>
 															<wp:post_id>97</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:23]]></wp:post_date>
@@ -186,7 +184,7 @@
 					<title><![CDATA[w-vgs-action-forspoken.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=98</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-forspoken.jpg</guid>
 															<wp:post_id>98</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:24]]></wp:post_date>
@@ -213,7 +211,7 @@
 					<title><![CDATA[w-vgs-action-crime-boss.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=99</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-action-crime-boss.jpg</guid>
 															<wp:post_id>99</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:24]]></wp:post_date>
@@ -240,7 +238,7 @@
 					<title><![CDATA[w-vgs-adventure-star-wars-jedi-survivor.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=100</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-star-wars-jedi-survivor.jpg</guid>
 															<wp:post_id>100</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:24]]></wp:post_date>
@@ -267,7 +265,7 @@
 					<title><![CDATA[w-vgs-adventure-resident-evil-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=101</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-resident-evil-4.jpg</guid>
 															<wp:post_id>101</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:25]]></wp:post_date>
@@ -294,7 +292,7 @@
 					<title><![CDATA[w-vgs-adventure-hogwarts-legacy.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=102</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-hogwarts-legacy.jpg</guid>
 															<wp:post_id>102</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:25]]></wp:post_date>
@@ -321,7 +319,7 @@
 					<title><![CDATA[w-vgs-adventure-tloz-totk.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=103</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-tloz-totk.jpg</guid>
 															<wp:post_id>103</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:26]]></wp:post_date>
@@ -348,7 +346,7 @@
 					<title><![CDATA[w-vgs-adventure-sherlock-holmes-the-awakened.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=104</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-sherlock-holmes-the-awakened.jpg</guid>
 															<wp:post_id>104</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:26]]></wp:post_date>
@@ -375,7 +373,7 @@
 					<title><![CDATA[w-vgs-adventure-ac-mirage.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=105</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-ac-mirage.jpg</guid>
 															<wp:post_id>105</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:27]]></wp:post_date>
@@ -402,7 +400,7 @@
 					<title><![CDATA[w-vgs-adventure-the-last-of-us-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=106</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-the-last-of-us-2.jpg</guid>
 															<wp:post_id>106</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:27]]></wp:post_date>
@@ -429,7 +427,7 @@
 					<title><![CDATA[w-vgs-adventure-clash-artifacts-of-chaos.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=107</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-clash-artifacts-of-chaos.jpg</guid>
 															<wp:post_id>107</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:27]]></wp:post_date>
@@ -456,7 +454,7 @@
 					<title><![CDATA[w-vgs-adventure-red-dead-redemption-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=108</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-red-dead-redemption-2.jpg</guid>
 															<wp:post_id>108</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:28]]></wp:post_date>
@@ -483,7 +481,7 @@
 					<title><![CDATA[w-vgs-adventure-the-wolw-amoung-us-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=109</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-the-wolw-amoung-us-2.jpg</guid>
 															<wp:post_id>109</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:28]]></wp:post_date>
@@ -510,7 +508,7 @@
 					<title><![CDATA[w-vgs-adventure-god-of-war-ragnarok.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=110</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-god-of-war-ragnarok.jpg</guid>
 															<wp:post_id>110</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:29]]></wp:post_date>
@@ -537,7 +535,7 @@
 					<title><![CDATA[w-vgs-adventure-a-plague-tale-requiem.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=111</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-adventure-a-plague-tale-requiem.jpg</guid>
 															<wp:post_id>111</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:29]]></wp:post_date>
@@ -564,7 +562,7 @@
 					<title><![CDATA[w-vgs-casual-homestead-arcana.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=112</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-casual-homestead-arcana.jpg</guid>
 															<wp:post_id>112</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:29]]></wp:post_date>
@@ -591,7 +589,7 @@
 					<title><![CDATA[w-vgs-casual-everdream-valley.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=113</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-casual-everdream-valley.jpg</guid>
 															<wp:post_id>113</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:30]]></wp:post_date>
@@ -618,7 +616,7 @@
 					<title><![CDATA[w-vgs-casual-park-beyond.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=114</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-casual-park-beyond.jpg</guid>
 															<wp:post_id>114</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:30]]></wp:post_date>
@@ -645,7 +643,7 @@
 					<title><![CDATA[w-vgs-casual-desta-the-memories-between.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=115</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-casual-desta-the-memories-between.jpg</guid>
 															<wp:post_id>115</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:31]]></wp:post_date>
@@ -672,7 +670,7 @@
 					<title><![CDATA[w-vgs-casual-crab-champions.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=116</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-casual-crab-champions.jpg</guid>
 															<wp:post_id>116</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:31]]></wp:post_date>
@@ -699,7 +697,7 @@
 					<title><![CDATA[w-vgs-casual-fabledom.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=117</link>
 					<pubDate>Wed, 24 Jul 2024 15:58:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/w-vgs-casual-fabledom.jpg</guid>
 															<wp:post_id>117</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-24 15:58:31]]></wp:post_date>
@@ -726,7 +724,7 @@
 					<title><![CDATA[guaranteed-safe-checkout-filled]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=583</link>
 					<pubDate>Fri, 26 Jul 2024 11:05:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/guaranteed-safe-checkout-filled.png</guid>
 															<wp:post_id>583</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-26 11:05:11]]></wp:post_date>
@@ -749,7 +747,7 @@
 					<title><![CDATA[wd-vgs-contact-us-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/contact-us/wd-vgs-contact-us-opt/</link>
 					<pubDate>Fri, 26 Jul 2024 13:51:00 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/wd-vgs-contact-us-opt.png</guid>
 															<wp:post_id>678</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-26 13:51:00]]></wp:post_date>
@@ -772,7 +770,7 @@
 					<title><![CDATA[636e0a6ca814282eca7172c6_icon_clyde_white_RGB]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/contact-us/636e0a6ca814282eca7172c6_icon_clyde_white_rgb/</link>
 					<pubDate>Fri, 26 Jul 2024 13:54:51 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg</guid>
 															<wp:post_id>684</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-26 13:54:51]]></wp:post_date>
@@ -795,7 +793,7 @@
 					<title><![CDATA[wd-games-mega-menu-home-dark]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=885</link>
 					<pubDate>Mon, 29 Jul 2024 09:20:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/wd-games-mega-menu-home-dark.jpg</guid>
 															<wp:post_id>885</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-29 09:20:33]]></wp:post_date>
@@ -818,7 +816,7 @@
 					<title><![CDATA[wd-games-mega-menu-home-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/games-gutenberg/?attachment_id=886</link>
 					<pubDate>Mon, 29 Jul 2024 09:20:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/games-gutenberg/wp-content/uploads/sites/31/2024/07/wd-games-mega-menu-home-light.jpg</guid>
 															<wp:post_id>886</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-29 09:20:35]]></wp:post_date>

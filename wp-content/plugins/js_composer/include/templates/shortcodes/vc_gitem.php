@@ -28,7 +28,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 $el_class = $width = $is_end = $css = $c_zone_position = $bgimage = $height = '';
 
-extract( shortcode_atts( array(
+extract( shortcode_atts( [
 	'el_class' => '',
 	'width' => '12',
 	'is_end' => '',
@@ -36,7 +36,7 @@ extract( shortcode_atts( array(
 	'c_zone_position' => '',
 	'bgimage' => '',
 	'height' => '',
-), $atts ) );
+], $atts ) );
 
 $css_class = 'vc_grid-item vc_clearfix' . ( 'true' === $is_end ? ' vc_grid-last-item' : '' ) . ( strlen( $el_class ) ? ' ' . $el_class : '' ) . ' vc_col-sm-' . $width . ( ! empty( $c_zone_position ) ? ' vc_grid-item-zone-c-' . $c_zone_position : '' );
 $css_class_mini = 'vc_grid-item-mini vc_clearfix ' . vc_shortcode_custom_css_class( $css, ' ' );

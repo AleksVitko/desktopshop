@@ -61,21 +61,21 @@ class Vc_Updating_Manager {
 		$this->slug = str_replace( '.php', '', $t[1] );
 
 		// define the alternative API for updating checking.
-		add_filter( 'pre_set_site_transient_update_plugins', array(
+		add_filter( 'pre_set_site_transient_update_plugins', [
 			$this,
 			'check_update',
-		) );
+		] );
 
 		// Define the alternative response for information checking.
-		add_filter( 'plugins_api', array(
+		add_filter( 'plugins_api', [
 			$this,
 			'check_info',
-		), 10, 3 );
+		], 10, 3 );
 
-		add_action( 'in_plugin_update_message-' . vc_plugin_name(), array(
+		add_action( 'in_plugin_update_message-' . vc_plugin_name(), [
 			$this,
 			'addUpgradeMessageLink',
-		) );
+		] );
 	}
 
 	/**
@@ -120,16 +120,20 @@ class Vc_Updating_Manager {
 	public function check_info( $false_value, $action, $arg ) {
 		if ( isset( $arg->slug ) && $arg->slug === $this->slug ) {
 			$information = $this->getRemote_information();
-			$array_pattern = array(
+			if ( empty( $information->sections ) ) {
+				return $false_value;
+			}
+
+			$array_pattern = [
 				'/^([\*\s])*(\d\d\.\d\d\.\d\d\d\d[^\n]*)/m',
 				'/^\n+|^[\t\s]*\n+/m',
 				'/\n/',
-			);
-			$array_replace = array(
+			];
+			$array_replace = [
 				'<h4>$2</h4>',
 				'</div><div>',
 				'</div><div>',
-			);
+			];
 			$information->name = 'WPBakery Page Builder';
 			$information->sections = (array) $information->sections;
 			$information->sections['changelog'] = '<div>' . preg_replace( $array_pattern, $array_replace, $information->sections['changelog'] ) . '</div>';
@@ -157,7 +161,8 @@ class Vc_Updating_Manager {
 		if ( $filter_add ) {
 			add_filter( 'https_ssl_verify', '__return_false' );
 		}
-		$request = wp_remote_get( $this->update_path, array( 'timeout' => 30 ) );
+		$index_file = vc_updater()->isBetaEnabled() ? 'index-beta.html' : '';
+		$request = wp_remote_get( $this->update_path . $index_file, [ 'timeout' => 30 ] );
 
 		if ( $filter_add ) {
 			remove_filter( 'https_ssl_verify', '__return_false' );
@@ -172,7 +177,7 @@ class Vc_Updating_Manager {
 	/**
 	 * Get information about the remote version
 	 *
-	 * @return bool|object
+	 * @return bool|object|null
 	 */
 	public function getRemote_information() {
 		// FIX SSL SNI.
@@ -186,7 +191,8 @@ class Vc_Updating_Manager {
 		if ( $filter_add ) {
 			add_filter( 'https_ssl_verify', '__return_false' );
 		}
-		$request = wp_remote_get( $this->update_path . 'information.json', array( 'timeout' => 30 ) );
+		$information_file = vc_updater()->isBetaEnabled() ? 'information-beta.json' : 'information.json';
+		$request = wp_remote_get( $this->update_path . $information_file, [ 'timeout' => 30 ] );
 
 		if ( $filter_add ) {
 			remove_filter( 'https_ssl_verify', '__return_false' );

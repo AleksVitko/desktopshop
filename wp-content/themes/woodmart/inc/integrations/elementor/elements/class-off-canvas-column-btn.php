@@ -105,10 +105,37 @@ class Off_Canvas_Column_Btn extends Widget_Base {
 			$sticky_key,
 			array(
 				'label'        => esc_html__( 'Sticky', 'woodmart' ),
-				'description'  => esc_html__( 'Make the off canvas sidebar button sticky.', 'woodmart' ),
+				'description'  => esc_html__( 'Add an additional sticky button.', 'woodmart' ),
 				'type'         => Controls_Manager::SWITCHER,
 				'default'      => 'no',
 				'return_value' => 'yes',
+			)
+		);
+
+		$this->add_control(
+			'only_sticky_button',
+			array(
+				'label'        => esc_html__( 'Only sticky button', 'woodmart' ),
+				'description'  => esc_html__( 'Hide the static button and show only the sticky one.', 'woodmart' ),
+				'type'         => Controls_Manager::SWITCHER,
+				'default'      => 'no',
+				'return_value' => 'yes',
+				'condition'    => array(
+					$sticky_key => 'yes',
+				),
+			)
+		);
+
+		$this->add_control(
+			'css_classes',
+			array(
+				'type'         => 'wd_css_class',
+				'default'      => 'wd-action-hide-btn',
+				'prefix_class' => '',
+				'condition'    => array(
+					$sticky_key          => 'yes',
+					'only_sticky_button' => array( 'yes' ),
+				),
 			)
 		);
 

@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:37" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:34" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:37:59 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:34:18 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[lingerie-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-popup/</link>
 					<pubDate>Mon, 03 Jun 2024 09:38:31 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-popup.jpg</guid>
 															<wp:post_id>13920</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 09:38:31]]></wp:post_date>
@@ -73,7 +73,7 @@
 					<title><![CDATA[lingerie-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-page-title/</link>
 					<pubDate>Mon, 03 Jun 2024 09:38:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-page-title.jpg</guid>
 															<wp:post_id>13921</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 09:38:59]]></wp:post_date>
@@ -96,7 +96,7 @@
 					<title><![CDATA[lingerie-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-1/</link>
 					<pubDate>Mon, 03 Jun 2024 12:52:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-1.jpg</guid>
 															<wp:post_id>14058</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:52:51]]></wp:post_date>
@@ -119,7 +119,7 @@
 					<title><![CDATA[lingerie-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-2.jpg</guid>
 															<wp:post_id>14059</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:05]]></wp:post_date>
@@ -142,7 +142,7 @@
 					<title><![CDATA[lingerie-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-3/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-3.jpg</guid>
 															<wp:post_id>14060</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:06]]></wp:post_date>
@@ -165,7 +165,7 @@
 					<title><![CDATA[lingerie-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-4/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-4.jpg</guid>
 															<wp:post_id>14061</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:06]]></wp:post_date>
@@ -188,7 +188,7 @@
 					<title><![CDATA[lingerie-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-5/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-5.jpg</guid>
 															<wp:post_id>14062</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:07]]></wp:post_date>
@@ -211,7 +211,7 @@
 					<title><![CDATA[lingerie-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-6/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-6.jpg</guid>
 															<wp:post_id>14063</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:08]]></wp:post_date>
@@ -234,7 +234,7 @@
 					<title><![CDATA[lingerie-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-7/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-7.jpg</guid>
 															<wp:post_id>14064</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:08]]></wp:post_date>
@@ -257,7 +257,7 @@
 					<title><![CDATA[lingerie-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-8/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-8.jpg</guid>
 															<wp:post_id>14065</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:09]]></wp:post_date>
@@ -280,7 +280,7 @@
 					<title><![CDATA[lingerie-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-9/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-9.jpg</guid>
 															<wp:post_id>14066</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:10]]></wp:post_date>
@@ -303,7 +303,7 @@
 					<title><![CDATA[lingerie-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-10/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-10.jpg</guid>
 															<wp:post_id>14067</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:10]]></wp:post_date>
@@ -326,7 +326,7 @@
 					<title><![CDATA[lingerie-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-11/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-11.jpg</guid>
 															<wp:post_id>14068</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:11]]></wp:post_date>
@@ -349,7 +349,7 @@
 					<title><![CDATA[lingerie-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-product-12/</link>
 					<pubDate>Mon, 03 Jun 2024 12:53:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-product-12.jpg</guid>
 															<wp:post_id>14069</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:53:12]]></wp:post_date>
@@ -372,7 +372,7 @@
 					<title><![CDATA[lingerie-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-1/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-1.jpg</guid>
 															<wp:post_id>14070</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:15]]></wp:post_date>
@@ -395,7 +395,7 @@
 					<title><![CDATA[lingerie-blog-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-2.jpg</guid>
 															<wp:post_id>14071</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:15]]></wp:post_date>
@@ -418,7 +418,7 @@
 					<title><![CDATA[lingerie-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-3/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:16 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-3.jpg</guid>
 															<wp:post_id>14072</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:16]]></wp:post_date>
@@ -441,7 +441,7 @@
 					<title><![CDATA[lingerie-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-4/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-4.jpg</guid>
 															<wp:post_id>14073</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:17]]></wp:post_date>
@@ -464,7 +464,7 @@
 					<title><![CDATA[lingerie-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-5/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:17 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-5.jpg</guid>
 															<wp:post_id>14074</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:17]]></wp:post_date>
@@ -487,7 +487,7 @@
 					<title><![CDATA[lingerie-blog-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-6/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-6.jpg</guid>
 															<wp:post_id>14075</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:18]]></wp:post_date>
@@ -510,20 +510,20 @@
 					<title><![CDATA[Home Lingerie]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/</link>
 					<pubDate>Mon, 03 Jun 2024 09:34:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=13918</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"2884ef69-b948-4cf2-bc02-9705fd8db7f9","effect":"fade","arrowsColorScheme":"light","paginationColorScheme":"light","autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"695","marginTop":"-40","marginBottom":"80","heightTablet":"700","heightMobile":"600","marginBottomMobile":"45"} -->
 <div id="wd-2884ef69" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-fade wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="fade" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"4f5c488f-a895-46a6-8a09-1afb77706a66","effect":"fade","bgImage":{"id":13926,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-slider-3.jpg"},"bgColorCode":"#daeaea","overlayColorCode":"#ffffff","overlay":true,"overlayOpacity":0,"bgPositionTablet":"center right","bgPositionMobile":"custom","bgCustomPositionXMobile":"-800","bgCustomPositionYMobile":"0","overlayOpacityMobile":0.6} -->
-<div id="wd-4f5c488f" class="wp-block-wd-slider-item wd-slide wd-carousel-item wd-bg-parent"><div class="wd-bg-overlay"></div><div class="wd-slide-container"><!-- wp:wd/container {"blockId":"b42c6c1f-93ae-49f3-9d28-bcc131933ccd","colGap":"","rowGap":"10"} -->
-<div id="wd-b42c6c1f" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"4dacddc9-9c20-409c-8b10-fb05bc98deb6","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"35","animation":"slide-from-left","animationDelay":"200","alignSelf":"center","tpFontSizeTablet":"25","tpFontSizeMobile":"16"} -->
-<p id="wd-4dacddc9" class="wp-block-wd-paragraph wd-align wd-animation wd-transform wd-animation-slide-from-left wd_delay_200 wd-align-s-center">Premium lingerie and nightwear</p>
+<div id="wd-4f5c488f" class="wp-block-wd-slider-item wd-slide wd-carousel-item wd-bg-parent"><div class="wd-bg-overlay"></div><div class="wd-slide-container"><!-- wp:wd/container {"blockId":"b42c6c1f-93ae-49f3-9d28-bcc131933ccd","textAlign":"center","colGap":"","rowGap":"10"} -->
+<div id="wd-b42c6c1f" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"4dacddc9-9c20-409c-8b10-fb05bc98deb6","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"35","animation":"slide-from-left","animationDelay":"200","alignSelf":"center","tpFontSizeTablet":"25","tpFontSizeMobile":"16"} -->
+<p id="wd-4dacddc9" class="wp-block-wd-paragraph wd-animation wd-transform wd-animation-slide-from-left wd_delay_200 wd-align-s-center">Premium lingerie and nightwear</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"0b2af14a-5837-4543-bfdc-ced513f02101","textAlign":"center","content":"Explore Our Unique Nightwear Pieces","tpFontSize":"65","animation":"slide-from-left","animationDelay":"300","alignSelf":"center","displayWidth":"custom","customWidth":"630","tpFontSizeTablet":"45","tpFontSizeMobile":"32","displayWidthTablet":"custom","customWidthTablet":"606"} -->
-<h2 id="wd-0b2af14a" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-left wd_delay_300 wd-custom-width wd-align-s-center">Explore Our Unique Nightwear Pieces</h2>
+<!-- wp:wd/title {"blockId":"0b2af14a-5837-4543-bfdc-ced513f02101","content":"Explore Our Unique Nightwear Pieces","tpFontSize":"65","animation":"slide-from-left","animationDelay":"300","displayWidth":"custom","customWidth":"630","tpFontSizeTablet":"45","tpFontSizeMobile":"32","displayWidthTablet":"custom","customWidthTablet":"606"} -->
+<h2 id="wd-0b2af14a" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-left wd_delay_300 wd-custom-width">Explore Our Unique Nightwear Pieces</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/container {"blockId":"fbdc00cc-b84a-466d-bcf3-fda7c0587a65","direction":"row","justify":"center","marginTop":"20","animation":"slide-from-left","animationDelay":"500","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
+<!-- wp:wd/container {"blockId":"fbdc00cc-b84a-466d-bcf3-fda7c0587a65","direction":"row","marginTop":"20","animation":"slide-from-left","animationDelay":"500","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
 <div id="wd-fbdc00cc" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-dir-row-sm wd-animation wd-transform wd-animation-slide-from-left wd_delay_500"><!-- wp:wd/button {"blockId":"d40b6c6e-aef5-4241-be6e-b952955aa5ff","predefinedColor":"primary","size":"large"} -->
 <a id="wd-d40b6c6e" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-large btn-shape-rectangle" href="#"><span>Shop now</span></a>
 <!-- /wp:wd/button -->
@@ -536,16 +536,16 @@
 <!-- /wp:wd/slider-item -->
 
 <!-- wp:wd/slider-item {"blockId":"dacaf8bc-0392-4156-9be9-4ae1948357e1","effect":"fade","bgImage":{"id":13942,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-slider-1.jpg"},"bgColorCode":"#daeaea","overlayColorCode":"#ffffff","overlay":true,"overlayOpacity":0,"bgPositionMobile":"custom","bgCustomPositionXMobile":"-800","bgCustomPositionYMobile":"0","overlayOpacityMobile":0.6} -->
-<div id="wd-dacaf8bc" class="wp-block-wd-slider-item wd-slide wd-carousel-item wd-bg-parent"><div class="wd-bg-overlay"></div><div class="wd-slide-container"><!-- wp:wd/container {"blockId":"0b6e35c7-038f-43b2-8ed7-efcd8e00d3fd","colGap":"","rowGap":"10","paddingRight":"42","paddingUnits":"%","paddingRightTablet":"0"} -->
-<div id="wd-0b6e35c7" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"efa8c244-6dce-4cb7-ad8e-435a5000ef69","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"35","animation":"slide-from-left","animationDelay":"200","alignSelf":"center","tpFontSizeTablet":"25","tpFontSizeMobile":"16"} -->
-<p id="wd-efa8c244" class="wp-block-wd-paragraph wd-align wd-animation wd-transform wd-animation-slide-from-left wd_delay_200 wd-align-s-center">Premium nightwear</p>
+<div id="wd-dacaf8bc" class="wp-block-wd-slider-item wd-slide wd-carousel-item wd-bg-parent"><div class="wd-bg-overlay"></div><div class="wd-slide-container"><!-- wp:wd/container {"blockId":"0b6e35c7-038f-43b2-8ed7-efcd8e00d3fd","textAlign":"center","colGap":"","rowGap":"10","paddingRight":"42","paddingUnits":"%","paddingRightTablet":"0"} -->
+<div id="wd-0b6e35c7" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"efa8c244-6dce-4cb7-ad8e-435a5000ef69","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"35","animation":"slide-from-left","animationDelay":"200","alignSelf":"center","tpFontSizeTablet":"25","tpFontSizeMobile":"16"} -->
+<p id="wd-efa8c244" class="wp-block-wd-paragraph wd-animation wd-transform wd-animation-slide-from-left wd_delay_200 wd-align-s-center">Premium nightwear</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"03b3fdcd-e1e7-440b-95fb-43fcfeca211a","textAlign":"center","content":"Latest Design Premium Lingerie","tpFontSize":"65","animation":"slide-from-left","animationDelay":"300","alignSelf":"center","displayWidth":"custom","customWidth":"565","tpFontSizeTablet":"45","tpFontSizeMobile":"32","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"460","customWidthMobile":"326"} -->
-<h2 id="wd-03b3fdcd" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-left wd_delay_300 wd-custom-width wd-align-s-center">Latest Design Premium Lingerie</h2>
+<!-- wp:wd/title {"blockId":"03b3fdcd-e1e7-440b-95fb-43fcfeca211a","content":"Latest Design Premium Lingerie","tpFontSize":"65","animation":"slide-from-left","animationDelay":"300","displayWidth":"custom","customWidth":"565","tpFontSizeTablet":"45","tpFontSizeMobile":"32","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"460","customWidthMobile":"326"} -->
+<h2 id="wd-03b3fdcd" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-left wd_delay_300 wd-custom-width">Latest Design Premium Lingerie</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/container {"blockId":"8ddadc20-eddb-401f-9507-d8a49f5644e3","direction":"row","justify":"center","marginTop":"20","animation":"slide-from-left","animationDelay":"500","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
+<!-- wp:wd/container {"blockId":"8ddadc20-eddb-401f-9507-d8a49f5644e3","direction":"row","marginTop":"20","animation":"slide-from-left","animationDelay":"500","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
 <div id="wd-8ddadc20" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-dir-row-sm wd-animation wd-transform wd-animation-slide-from-left wd_delay_500"><!-- wp:wd/button {"blockId":"af5cb15a-d9de-46ac-8b8a-7e1ef15013f9","predefinedColor":"primary","size":"large"} -->
 <a id="wd-af5cb15a" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-large btn-shape-rectangle" href="#"><span>Shop now</span></a>
 <!-- /wp:wd/button -->
@@ -558,16 +558,16 @@
 <!-- /wp:wd/slider-item -->
 
 <!-- wp:wd/slider-item {"blockId":"bc3d8f7c-fbb9-4c52-81c0-1090529ad5e9","effect":"fade","bgImage":{"id":13952,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-slider-2.jpg"},"bgColorCode":"#daeaea","overlayColorCode":"#ffffff","overlay":true,"overlayOpacity":0,"bgPositionTablet":"center left","bgPositionMobile":"custom","bgCustomPositionXMobile":"-180","bgCustomPositionYMobile":"0","overlayOpacityMobile":0.6} -->
-<div id="wd-bc3d8f7c" class="wp-block-wd-slider-item wd-slide wd-carousel-item wd-bg-parent"><div class="wd-bg-overlay"></div><div class="wd-slide-container"><!-- wp:wd/container {"blockId":"92795658-22d1-4f88-a421-a843031de8c9","colGap":"","rowGap":"10","paddingLeft":"42","paddingUnits":"%","paddingLeftTablet":"0"} -->
-<div id="wd-92795658" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"e1c24c03-0d38-40be-953c-fda4bccf3579","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"35","animation":"slide-from-left","animationDelay":"200","alignSelf":"center","tpFontSizeTablet":"25","tpFontSizeMobile":"16"} -->
-<p id="wd-e1c24c03" class="wp-block-wd-paragraph wd-align wd-animation wd-transform wd-animation-slide-from-left wd_delay_200 wd-align-s-center">Premium lingerie</p>
+<div id="wd-bc3d8f7c" class="wp-block-wd-slider-item wd-slide wd-carousel-item wd-bg-parent"><div class="wd-bg-overlay"></div><div class="wd-slide-container"><!-- wp:wd/container {"blockId":"92795658-22d1-4f88-a421-a843031de8c9","textAlign":"center","colGap":"","rowGap":"10","paddingLeft":"42","paddingUnits":"%","paddingLeftTablet":"0"} -->
+<div id="wd-92795658" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"e1c24c03-0d38-40be-953c-fda4bccf3579","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"35","animation":"slide-from-left","animationDelay":"200","alignSelf":"center","tpFontSizeTablet":"25","tpFontSizeMobile":"16"} -->
+<p id="wd-e1c24c03" class="wp-block-wd-paragraph wd-animation wd-transform wd-animation-slide-from-left wd_delay_200 wd-align-s-center">Premium lingerie</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"4aac4790-7663-465f-ba61-6d106fc13049","textAlign":"center","content":"High-Quality Luxury Lingerie","tpFontSize":"65","animation":"slide-from-left","animationDelay":"300","alignSelf":"center","displayWidth":"custom","customWidth":"565","tpFontSizeTablet":"45","tpFontSizeMobile":"32","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"460","customWidthMobile":"326"} -->
-<h2 id="wd-4aac4790" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-left wd_delay_300 wd-custom-width wd-align-s-center">High-Quality Luxury Lingerie</h2>
+<!-- wp:wd/title {"blockId":"4aac4790-7663-465f-ba61-6d106fc13049","content":"High-Quality Luxury Lingerie","tpFontSize":"65","animation":"slide-from-left","animationDelay":"300","displayWidth":"custom","customWidth":"565","tpFontSizeTablet":"45","tpFontSizeMobile":"32","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"460","customWidthMobile":"326"} -->
+<h2 id="wd-4aac4790" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-left wd_delay_300 wd-custom-width">High-Quality Luxury Lingerie</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/container {"blockId":"c9716664-a36f-41c6-98b6-bd6c2f0d234d","direction":"row","justify":"center","marginTop":"20","animation":"slide-from-left","animationDelay":"500","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
+<!-- wp:wd/container {"blockId":"c9716664-a36f-41c6-98b6-bd6c2f0d234d","direction":"row","marginTop":"20","animation":"slide-from-left","animationDelay":"500","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
 <div id="wd-c9716664" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-dir-row-sm wd-animation wd-transform wd-animation-slide-from-left wd_delay_500"><!-- wp:wd/button {"blockId":"98b9099c-d077-4965-ab47-17a9b9e6a4a4","predefinedColor":"primary","size":"large"} -->
 <a id="wd-98b9099c" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-large btn-shape-rectangle" href="#"><span>Shop now</span></a>
 <!-- /wp:wd/button -->
@@ -632,8 +632,8 @@
 
 <!-- wp:wd/products-tabs {"blockId":"b61449c9-2663-4da4-9047-82f075e11bfc","marginBottom":"70"} -->
 <div id="wd-b61449c9" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-default wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"06243bd5-bff7-41c4-aec1-0a9b7cede5db","hasTitle":false,"titleStyle":"underline","alignment":"center"} -->
-<div id="wd-06243bd5" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"992100d8-6352-4d07-b7a9-6f86fb44b76d","title":"Bustiers","layout":"carousel","items_per_page":"5","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_4745cfec","slides_per_viewTablet":"3","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
-<li id="wd-992100d8" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;layout&quot;:&quot;carousel&quot;,&quot;items_per_page&quot;:&quot;5&quot;,&quot;slides_per_view&quot;:&quot;4&quot;,&quot;hide_pagination_control&quot;:&quot;yes&quot;,&quot;el_id&quot;:&quot;wd-992100d8&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">Bustiers</span></a></li>
+<div id="wd-06243bd5" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"61f7056c-fe32-49ae-90f6-91149d5cc039","title":"Bustiers","layout":"carousel","items_per_page":"5","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_4745cfec","slides_per_viewTablet":"3","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
+<li id="wd-61f7056c" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;layout&quot;:&quot;carousel&quot;,&quot;items_per_page&quot;:&quot;5&quot;,&quot;slides_per_view&quot;:&quot;4&quot;,&quot;hide_pagination_control&quot;:&quot;yes&quot;,&quot;el_id&quot;:&quot;wd-61f7056c&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">Bustiers</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"9b30a8d3-61be-450e-a4e4-6d46e9ff4c25","title":"Teddies","order":"DESC","layout":"carousel","items_per_page":"5","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_e2b8526d","slides_per_viewTablet":"3","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
@@ -649,14 +649,14 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"0fb39b16-45bc-49f8-971d-3df3c4899296","title":"Bustiers","layout":"carousel","items_per_page":"5","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_4745cfec","slides_per_viewTablet":"3","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"992100d8-6352-4d07-b7a9-6f86fb44b76d","title":"Bustiers","layout":"carousel","items_per_page":"5","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_4745cfec","slides_per_viewTablet":"3","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /--></div>
 <!-- /wp:wd/products-tabs -->
 
 <!-- wp:wd/section {"blockId":"93a94e51-d94e-47e8-815c-27a5f2759c31","bgImage":{"id":13979,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-txt-3-1.jpg"},"bgPosition":"bottom right","bgRepeat":"no-repeat","paddingBottom":"55","marginBottom":"15","overlayImage":{"id":13981,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-4.png"},"overlayPosition":"bottom center","overlayRepeat":"no-repeat","overlay":true,"bgDisplaySizeMobile":"custom","bgCustomDisplaySizeMobile":"0","marginBottomMobile":"0","overlayDisplaySizeMobile":"custom","overlayCustomDisplaySizeMobile":"0"} -->
 <div id="wd-93a94e51" class="wp-block-wd-section wd-bg-parent"><div class="wd-bg-overlay"></div><!-- wp:wd/row {"blockId":"f6baf2ff-dae4-4845-94a0-81428f377aaa"} -->
 <div id="wd-f6baf2ff" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"e9aaa4c9-c1b9-44db-a53d-b1a49e8464fe","adjacentCount":2} -->
 <div id="wd-e9aaa4c9" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"ab5ae92a-79fc-4749-92ee-df9e4ae62f4b","image":{"id":13978,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-Img-1.jpg"}} -->
-<div id="wd-ab5ae92a" class="wp-block-wd-image wd-block-image"><img class="wp-image-13978" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-Img-1.jpg" /></div>
+<div id="wd-ab5ae92a" class="wp-block-wd-image wd-block-image"><img class="wp-image-13978" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-Img-1.jpg" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column -->
 
@@ -690,20 +690,20 @@
 <!-- /wp:wd/row --></div>
 <!-- /wp:wd/section -->
 
-<!-- wp:wd/container {"blockId":"296c980f-77d0-4c1b-9af1-68ec1d9e7637","rowGap":"10","bgImage":{"id":13999,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-container.jpg"},"bgPosition":"center center","bgRepeat":"no-repeat","bgDisplaySize":"cover","paddingTop":"60","paddingRight":"30","paddingBottom":"60","paddingLeft":"30","marginBottom":"90","marginBottomMobile":"70"} -->
-<div id="wd-296c980f" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"d6f1fabe-0c17-4b11-b58f-9b027a22aaa6","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"22","tpFontSizeTablet":"18","tpFontSizeMobile":"16"} -->
-<p id="wd-d6f1fabe" class="wp-block-wd-paragraph wd-align">Get a Little Closer</p>
+<!-- wp:wd/container {"blockId":"296c980f-77d0-4c1b-9af1-68ec1d9e7637","textAlign":"center","rowGap":"10","bgImage":{"id":13999,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-container.jpg"},"bgPosition":"center center","bgRepeat":"no-repeat","bgDisplaySize":"cover","paddingTop":"60","paddingRight":"30","paddingBottom":"60","paddingLeft":"30","marginBottom":"90","marginBottomMobile":"70"} -->
+<div id="wd-296c980f" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"d6f1fabe-0c17-4b11-b58f-9b027a22aaa6","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"22","tpFontSizeTablet":"18","tpFontSizeMobile":"16"} -->
+<p id="wd-d6f1fabe" class="wp-block-wd-paragraph">Get a Little Closer</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"97bf32e2-38f3-4407-99dd-bde90968e64a","textAlign":"center","content":"Join Our Newsletter Now","tpFontSize":"36","tpFontSizeTablet":"32","tpFontSizeMobile":"28"} -->
-<h2 id="wd-97bf32e2" class="wp-block-wd-title title wd-align">Join Our Newsletter Now</h2>
+<!-- wp:wd/title {"blockId":"97bf32e2-38f3-4407-99dd-bde90968e64a","content":"Join Our Newsletter Now","tpFontSize":"36","tpFontSizeTablet":"32","tpFontSizeMobile":"28"} -->
+<h2 id="wd-97bf32e2" class="wp-block-wd-title title">Join Our Newsletter Now</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"88f124dd-a0ea-4f33-a0ba-84e5332fcf30","textAlign":"center"} -->
-<p id="wd-88f124dd" class="wp-block-wd-paragraph wd-align">Vivamus scelerisque nunc non sem laoreet, id cursus ante mollis.</p>
+<!-- wp:wd/paragraph {"blockId":"88f124dd-a0ea-4f33-a0ba-84e5332fcf30"} -->
+<p id="wd-88f124dd" class="wp-block-wd-paragraph">Vivamus scelerisque nunc non sem laoreet, id cursus ante mollis.</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/mailchimp {"blockId":"45bd7669-a132-446d-b236-9c3d7db35c53","form_id":"74","marginTop":"20","alignSelf":"center","displayWidth":"custom","customWidth":"460"} /--></div>
+<!-- wp:wd/mailchimp {"blockId":"45bd7669-a132-446d-b236-9c3d7db35c53","form_id":"74","marginTop":"20","displayWidth":"custom","customWidth":"460"} /--></div>
 <!-- /wp:wd/container -->
 
 <!-- wp:wd/section {"blockId":"b81b3247-c608-48d8-bb9e-f0db5e5d61f8","bgImage":{"id":14008,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-txt-5.jpg"},"bgPosition":"bottom left","bgRepeat":"no-repeat","paddingBottom":"55","marginBottom":"15","overlayImage":{"id":"","url":""},"overlayPosition":"bottom center","overlayRepeat":"no-repeat","overlay":false,"bgDisplaySizeMobile":"custom","bgCustomDisplaySizeMobile":"0","marginBottomMobile":"0","overlayDisplaySizeMobile":"custom","overlayCustomDisplaySizeMobile":"0"} -->
@@ -734,7 +734,7 @@
 
 <!-- wp:wd/column {"blockId":"6ba6bf82-209c-46f2-8a1f-2ec8653540ad","adjacentCount":2,"flexOrderMobile":"1"} -->
 <div id="wd-6ba6bf82" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"b5b60c4e-2e83-4db2-bfa5-90c7ecb542c3","image":{"id":14007,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-girl-collage.png"}} -->
-<div id="wd-b5b60c4e" class="wp-block-wd-image wd-block-image"><img class="wp-image-14007" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-girl-collage.png" /></div>
+<div id="wd-b5b60c4e" class="wp-block-wd-image wd-block-image"><img class="wp-image-14007" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-girl-collage.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row --></div>
@@ -768,27 +768,27 @@
 
 <!-- wp:wd/gallery {"blockId":"5cd0643f-d329-4515-8a89-ef928d431843","columns":3,"spacing":"6","masonry":true,"marginBottom":"80","columnsMobile":2,"marginBottomMobile":"70"} -->
 <div id="wd-5cd0643f" class="wp-block-wd-gallery wd-grid-f-col wd-masonry wd-caption-mask" style="--wd-col-lg:3;--wd-col-md:3;--wd-col-sm:2;--wd-gap-lg:6px"><!-- wp:wd/gallery-item {"blockId":"8f04ecaf-69ba-4dd1-a4a6-eb2f6d4a0bea","image":{"id":14018,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-1.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-1.jpg"}} -->
-<div id="wd-8f04ecaf" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14018" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-1.jpg" /></div></div>
+<div id="wd-8f04ecaf" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14018" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-1.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"2b474c0b-cf91-410c-8fa9-f50f9116e892","image":{"id":14019,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-3.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-3.jpg"}} -->
-<div id="wd-2b474c0b" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14019" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-3.jpg" /></div></div>
+<div id="wd-2b474c0b" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14019" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-3.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"d12b7ed1-01d3-44ca-b16e-2da79fd86572","image":{"id":14020,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-5.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-5.jpg"}} -->
-<div id="wd-d12b7ed1" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14020" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-5.jpg" /></div></div>
+<div id="wd-d12b7ed1" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14020" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-5.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"f69a59e8-6ee9-4ae0-9b78-fc7770d3992b","image":{"id":14021,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-2.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-2.jpg"}} -->
-<div id="wd-f69a59e8" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14021" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-2.jpg" /></div></div>
+<div id="wd-f69a59e8" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14021" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-2.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"19686883-9ea6-448a-818a-7d8500094933","image":{"id":14022,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-6.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-6.jpg"}} -->
-<div id="wd-19686883" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14022" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-6.jpg" /></div></div>
+<div id="wd-19686883" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14022" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-6.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"9083251f-e15e-47a3-a1b1-da47aaf75f1b","image":{"id":14023,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-4.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-4.jpg"}} -->
-<div id="wd-9083251f" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14023" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-4.jpg" /></div></div>
+<div id="wd-9083251f" class="wp-block-wd-gallery-item wd-col"><div class="wd-block-image"><img class="wp-image-14023" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-4.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item --></div>
 <!-- /wp:wd/gallery -->
 
@@ -806,13 +806,13 @@
 
 <!-- wp:wd/blog {"blockId":"166d35fa-3ad6-4fc3-b201-e49043d3c39d","items_per_page":"4","layout":"carousel","blog_carousel_design":"small-images","img_size":"custom","imgSizeCustomWidth":"353","imgSizeCustomHeight":"400","marginBottom":"70","slides_per_view":"2","hide_pagination_control":true,"sync_parent_id":"wd_eccebd62","slides_per_viewTablet":"1","slides_per_viewMobile":"1","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /-->
 
-<!-- wp:wd/container {"blockId":"f330ce84-c7ec-40bb-93f0-281ffab28c69","align":"center","rowGap":"15","bgImage":{"id":13999,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-container.jpg"},"bgPosition":"center center","bgRepeat":"no-repeat","bgDisplaySize":"cover","paddingTop":"60","paddingRight":"30","paddingBottom":"60","paddingLeft":"30","marginBottom":"90","marginBottomMobile":"70"} -->
-<div id="wd-f330ce84" class="wp-block-wd-container wd-dir-col wd-align-is-lg-center"><!-- wp:wd/paragraph {"blockId":"ea3dd126-aad4-450e-9545-fcf8582dd488","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"22","tpFontSizeTablet":"18","tpFontSizeMobile":"16"} -->
-<p id="wd-ea3dd126" class="wp-block-wd-paragraph wd-align">Shop the Latest</p>
+<!-- wp:wd/container {"blockId":"f330ce84-c7ec-40bb-93f0-281ffab28c69","align":"center","textAlign":"center","rowGap":"15","bgImage":{"id":13999,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-container.jpg"},"bgPosition":"center center","bgRepeat":"no-repeat","bgDisplaySize":"cover","paddingTop":"60","paddingRight":"30","paddingBottom":"60","paddingLeft":"30","marginBottom":"90","marginBottomMobile":"70"} -->
+<div id="wd-f330ce84" class="wp-block-wd-container wd-dir-col wd-align-is-lg-center wd-align"><!-- wp:wd/paragraph {"blockId":"ea3dd126-aad4-450e-9545-fcf8582dd488","colorVariable":"\u002d\u002dwd-primary-color","tpFontFamily":"var(\u002d\u002dwd-alternative-font)","tpFontSize":"22","tpFontSizeTablet":"18","tpFontSizeMobile":"16"} -->
+<p id="wd-ea3dd126" class="wp-block-wd-paragraph">Shop the Latest</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"081d90fa-d464-4afb-9d64-b5be86a2b1d7","textAlign":"center","content":"Clients Reviews","tpFontSize":"36","tpFontSizeTablet":"32","tpFontSizeMobile":"28"} -->
-<h2 id="wd-081d90fa" class="wp-block-wd-title title wd-align">Clients Reviews</h2>
+<!-- wp:wd/title {"blockId":"081d90fa-d464-4afb-9d64-b5be86a2b1d7","content":"Clients Reviews","tpFontSize":"36","tpFontSizeTablet":"32","tpFontSizeMobile":"28"} -->
+<h2 id="wd-081d90fa" class="wp-block-wd-title title">Clients Reviews</h2>
 <!-- /wp:wd/title -->
 
 <!-- wp:wd/carousel {"blockId":"ffcf7b94-ec74-4c38-bdb4-14c23892f5cd","currentSlide":2,"slidesPerView":"1","paginationControl":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_ffcf7b94","displayWidth":"custom","customWidth":"768"} -->
@@ -820,7 +820,7 @@
 <div id="wd-7e5bc84b" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"b82699f5-4b9b-487d-9834-f041fc2ce952","design":"2","alignment":"center"} -->
 <div id="wd-b82699f5" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"786acc88-d43d-4ee1-9563-1faa619a7890","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-786acc88" class="wp-block-wd-container wd-dir-col wd-testimonial-heading"><!-- wp:wd/image {"blockId":"3a701bbb-a1cd-4258-85bf-09d91b851f13","image":{"id":14031,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wood-testimon-2.jpg"}} -->
-<div id="wd-3a701bbb" class="wp-block-wd-image wd-block-image"><img class="wp-image-14031" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wood-testimon-2.jpg" /></div>
+<div id="wd-3a701bbb" class="wp-block-wd-image wd-block-image"><img class="wp-image-14031" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wood-testimon-2.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"b7417c0c-a163-4bd0-b109-4e2c320fc969"} -->
@@ -840,7 +840,7 @@
 <div id="wd-2fdd983b" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"6bee6460-5677-4f5f-8a00-a18b5d923fef","design":"2","alignment":"center"} -->
 <div id="wd-6bee6460" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"5ff7dd9f-0860-4833-9065-bc0a8dd67895","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-5ff7dd9f" class="wp-block-wd-container wd-dir-col wd-testimonial-heading"><!-- wp:wd/image {"blockId":"caf943e2-5492-4fa4-af98-8cb8421647e4","image":{"id":11067,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-3.jpg"}} -->
-<div id="wd-caf943e2" class="wp-block-wd-image wd-block-image"><img class="wp-image-11067" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-3.jpg" /></div>
+<div id="wd-caf943e2" class="wp-block-wd-image wd-block-image"><img class="wp-image-11067" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-3.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"76127324-7a97-412e-bf04-720056c7aeb4"} -->
@@ -860,7 +860,7 @@
 <div id="wd-fa27153b" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"a9dd0015-67a5-4095-8ad4-c099cfec5fba","design":"2","alignment":"center"} -->
 <div id="wd-a9dd0015" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"94304ffa-8c09-487e-a9c4-94931a6a5dd5","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-94304ffa" class="wp-block-wd-container wd-dir-col wd-testimonial-heading"><!-- wp:wd/image {"blockId":"45436cd7-893a-4d82-a63c-521b1924d1d3","image":{"id":11065,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-2.jpg"}} -->
-<div id="wd-45436cd7" class="wp-block-wd-image wd-block-image"><img class="wp-image-11065" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-2.jpg" /></div>
+<div id="wd-45436cd7" class="wp-block-wd-image wd-block-image"><img class="wp-image-11065" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-2.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/container {"blockId":"cde87660-9c6f-4282-95a2-f249219b018a"} -->
@@ -894,8 +894,8 @@
 															<wp:post_id>13918</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 09:34:01]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-06-03 09:34:01]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 09:38:19]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 09:38:19]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-21 14:17:16]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-21 14:17:16]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-lingerie]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -927,7 +927,7 @@
 					<title><![CDATA[lingerie-slider-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-slider-3/</link>
 					<pubDate>Mon, 03 Jun 2024 09:50:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-slider-3.jpg</guid>
 															<wp:post_id>13926</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 09:50:36]]></wp:post_date>
@@ -950,7 +950,7 @@
 					<title><![CDATA[lingerie-slider-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-slider-1/</link>
 					<pubDate>Mon, 03 Jun 2024 11:07:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-slider-1.jpg</guid>
 															<wp:post_id>13942</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:07:51]]></wp:post_date>
@@ -973,7 +973,7 @@
 					<title><![CDATA[lingerie-slider-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-slider-2/</link>
 					<pubDate>Mon, 03 Jun 2024 11:13:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-slider-2.jpg</guid>
 															<wp:post_id>13952</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:13:07]]></wp:post_date>
@@ -996,7 +996,7 @@
 					<title><![CDATA[lingerie-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-banner-1/</link>
 					<pubDate>Mon, 03 Jun 2024 11:18:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-banner-1.jpg</guid>
 															<wp:post_id>13958</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:18:13]]></wp:post_date>
@@ -1019,7 +1019,7 @@
 					<title><![CDATA[lingerie-banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-banner-2/</link>
 					<pubDate>Mon, 03 Jun 2024 11:22:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-banner-2.jpg</guid>
 															<wp:post_id>13961</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:22:15]]></wp:post_date>
@@ -1042,7 +1042,7 @@
 					<title><![CDATA[lingerie-Img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-img-1/</link>
 					<pubDate>Mon, 03 Jun 2024 11:34:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-Img-1.jpg</guid>
 															<wp:post_id>13978</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:34:41]]></wp:post_date>
@@ -1065,7 +1065,7 @@
 					<title><![CDATA[lingerie-bg-txt-3-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-bg-txt-3-1/</link>
 					<pubDate>Mon, 03 Jun 2024 11:36:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-txt-3-1.jpg</guid>
 															<wp:post_id>13979</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:36:03]]></wp:post_date>
@@ -1088,7 +1088,7 @@
 					<title><![CDATA[lingerie-bg-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-bg-4/</link>
 					<pubDate>Mon, 03 Jun 2024 11:36:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-4.png</guid>
 															<wp:post_id>13981</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 11:36:52]]></wp:post_date>
@@ -1111,7 +1111,7 @@
 					<title><![CDATA[lingerie-bg-container]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-bg-container/</link>
 					<pubDate>Mon, 03 Jun 2024 12:20:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-container.jpg</guid>
 															<wp:post_id>13999</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:20:23]]></wp:post_date>
@@ -1134,7 +1134,7 @@
 					<title><![CDATA[lingerie-girl-collage]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-girl-collage/</link>
 					<pubDate>Mon, 03 Jun 2024 12:23:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-girl-collage.png</guid>
 															<wp:post_id>14007</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:23:55]]></wp:post_date>
@@ -1157,7 +1157,7 @@
 					<title><![CDATA[lingerie-bg-txt-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-bg-txt-5/</link>
 					<pubDate>Mon, 03 Jun 2024 12:24:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-bg-txt-5.jpg</guid>
 															<wp:post_id>14008</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:24:21]]></wp:post_date>
@@ -1180,7 +1180,7 @@
 					<title><![CDATA[lingerie-gallary-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-gallary-img-1/</link>
 					<pubDate>Mon, 03 Jun 2024 12:30:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-1.jpg</guid>
 															<wp:post_id>14018</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:30:48]]></wp:post_date>
@@ -1203,7 +1203,7 @@
 					<title><![CDATA[lingerie-gallary-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-gallary-img-3/</link>
 					<pubDate>Mon, 03 Jun 2024 12:30:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-3.jpg</guid>
 															<wp:post_id>14019</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:30:49]]></wp:post_date>
@@ -1226,7 +1226,7 @@
 					<title><![CDATA[lingerie-gallary-img-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-gallary-img-5/</link>
 					<pubDate>Mon, 03 Jun 2024 12:30:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-5.jpg</guid>
 															<wp:post_id>14020</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:30:49]]></wp:post_date>
@@ -1249,7 +1249,7 @@
 					<title><![CDATA[lingerie-gallary-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-gallary-img-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:30:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-2.jpg</guid>
 															<wp:post_id>14021</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:30:50]]></wp:post_date>
@@ -1272,7 +1272,7 @@
 					<title><![CDATA[lingerie-gallary-img-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-gallary-img-6/</link>
 					<pubDate>Mon, 03 Jun 2024 12:30:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-6.jpg</guid>
 															<wp:post_id>14022</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:30:50]]></wp:post_date>
@@ -1295,7 +1295,7 @@
 					<title><![CDATA[lingerie-blog-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-7/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-7.jpg</guid>
 															<wp:post_id>14076</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:19]]></wp:post_date>
@@ -1318,7 +1318,7 @@
 					<title><![CDATA[lingerie-blog-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-8/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-8.jpg</guid>
 															<wp:post_id>14077</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:19]]></wp:post_date>
@@ -1341,7 +1341,7 @@
 					<title><![CDATA[lingerie-blog-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-blog-9/</link>
 					<pubDate>Mon, 03 Jun 2024 12:54:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-blog-9.jpg</guid>
 															<wp:post_id>14078</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:54:20]]></wp:post_date>
@@ -1364,7 +1364,7 @@
 					<title><![CDATA[jewellery-testimonial-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-2/</link>
 					<pubDate>Mon, 13 May 2024 12:34:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-2.jpg</guid>
 															<wp:post_id>11065</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:34:32]]></wp:post_date>
@@ -1387,7 +1387,7 @@
 					<title><![CDATA[jewellery-testimonial-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-3/</link>
 					<pubDate>Mon, 13 May 2024 12:35:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-3.jpg</guid>
 															<wp:post_id>11067</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:35:14]]></wp:post_date>
@@ -1410,7 +1410,7 @@
 					<title><![CDATA[lingerie-gallary-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/lingerie-gallary-img-4/</link>
 					<pubDate>Mon, 03 Jun 2024 12:30:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-gallary-img-4.jpg</guid>
 															<wp:post_id>14023</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:30:51]]></wp:post_date>
@@ -1433,7 +1433,7 @@
 					<title><![CDATA[wood-testimon-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/wood-testimon-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:40:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wood-testimon-2.jpg</guid>
 															<wp:post_id>14031</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:40:04]]></wp:post_date>
@@ -1456,7 +1456,7 @@
 					<title><![CDATA[lingerie-inst-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-1/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-1.jpg</guid>
 															<wp:post_id>14048</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:06]]></wp:post_date>
@@ -1479,7 +1479,7 @@
 					<title><![CDATA[lingerie-inst-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-2.jpg</guid>
 															<wp:post_id>14049</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:06]]></wp:post_date>
@@ -1502,7 +1502,7 @@
 					<title><![CDATA[lingerie-inst-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-3/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-3.jpg</guid>
 															<wp:post_id>14050</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:07]]></wp:post_date>
@@ -1525,7 +1525,7 @@
 					<title><![CDATA[lingerie-inst-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-4/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-4.jpg</guid>
 															<wp:post_id>14051</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:07]]></wp:post_date>
@@ -1548,7 +1548,7 @@
 					<title><![CDATA[lingerie-inst-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-5/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-5.jpg</guid>
 															<wp:post_id>14052</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:08]]></wp:post_date>
@@ -1571,7 +1571,7 @@
 					<title><![CDATA[lingerie-inst-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-6/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-6.jpg</guid>
 															<wp:post_id>14053</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:08]]></wp:post_date>
@@ -1594,7 +1594,7 @@
 					<title><![CDATA[lingerie-inst-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-7/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-7.jpg</guid>
 															<wp:post_id>14054</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:09]]></wp:post_date>
@@ -1617,7 +1617,7 @@
 					<title><![CDATA[lingerie-inst-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-8/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-8.jpg</guid>
 															<wp:post_id>14055</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:09]]></wp:post_date>
@@ -1640,7 +1640,7 @@
 					<title><![CDATA[lingerie-inst-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/lingerie-inst-9/</link>
 					<pubDate>Mon, 03 Jun 2024 12:51:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/lingerie-inst-9.jpg</guid>
 															<wp:post_id>14056</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:51:10]]></wp:post_date>
@@ -1663,7 +1663,7 @@
 					<title><![CDATA[Lingerie header banner]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=lingerie-header-banner</link>
 					<pubDate>Thu, 12 Sep 2024 12:41:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=32021</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"5a8fbf43-a8a1-49af-ae33-bfcbd9ccc36f","textAlign":"center","colorCode":"#ffffff","tpFontFamily":"var(\u002d\u002dwd-alternative-font)"} -->
 <p id="wd-5a8fbf43" class="wp-block-wd-paragraph wd-align">Lingerie spring sale for all bras Discount 30%</p>

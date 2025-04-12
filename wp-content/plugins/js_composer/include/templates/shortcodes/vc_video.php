@@ -43,7 +43,7 @@ if ( is_object( $wp_embed ) ) {
 	$embed = $wp_embed->run_shortcode( '[embed width="' . $video_w . '" height="' . $video_h . '"]' . $link . '[/embed]' );
 }
 $element_class = empty( $this->settings['element_default_class'] ) ? '' : $this->settings['element_default_class'];
-$el_classes = array(
+$el_classes = [
 	'wpb_video_widget',
 	$element_class,
 	'vc_clearfix',
@@ -52,20 +52,20 @@ $el_classes = array(
 	'vc_video-aspect-ratio-' . esc_attr( $el_aspect ),
 	'vc_video-el-width-' . esc_attr( $el_width ),
 	'vc_video-align-' . esc_attr( $align ),
-);
+];
 $css_class = implode( ' ', $el_classes );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $css_class, $this->getShortcode(), $atts );
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }
 $output = '
 	<div class="' . esc_attr( $css_class ) . '" ' . implode( ' ', $wrapper_attributes ) . '>
 		<div class="wpb_wrapper">
-			' . wpb_widget_title( array(
+			' . wpb_widget_title( [
 	'title' => $title,
 	'extraclass' => 'wpb_video_heading',
-) ) . '
+] ) . '
 			<div class="wpb_video_wrapper">' . $embed . '</div>
 		</div>
 	</div>

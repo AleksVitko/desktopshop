@@ -70,23 +70,23 @@ class vcImageFilter {
 	 * @return vcImageFilter
 	 */
 	public function sharpen() {
-		$gaussian = array(
-			array(
+		$gaussian = [
+			[
 				1.0,
 				1.0,
 				1.0,
-			),
-			array(
+			],
+			[
 				1.0,
 				- 7.0,
 				1.0,
-			),
-			array(
+			],
+			[
 				1.0,
 				1.0,
 				1.0,
-			),
-		);
+			],
+		];
 		imageconvolution( $this->image, $gaussian, 1, 4 );
 
 		return $this;
@@ -98,23 +98,23 @@ class vcImageFilter {
 	 * @return vcImageFilter
 	 */
 	public function emboss() {
-		$gaussian = array(
-			array(
+		$gaussian = [
+			[
 				- 2.0,
 				- 1.0,
 				0.0,
-			),
-			array(
+			],
+			[
 				- 1.0,
 				1.0,
 				1.0,
-			),
-			array(
+			],
+			[
 				0.0,
 				1.0,
 				2.0,
-			),
-		);
+			],
+		];
 
 		imageconvolution( $this->image, $gaussian, 1, 5 );
 
@@ -162,23 +162,23 @@ class vcImageFilter {
 	 * @return vcImageFilter
 	 */
 	public function fuzzy() {
-		$gaussian = array(
-			array(
+		$gaussian = [
+			[
 				1.0,
 				1.0,
 				1.0,
-			),
-			array(
+			],
+			[
 				1.0,
 				1.0,
 				1.0,
-			),
-			array(
+			],
+			[
 				1.0,
 				1.0,
 				1.0,
-			),
-		);
+			],
+		];
 
 		imageconvolution( $this->image, $gaussian, 9, 20 );
 

@@ -31,12 +31,13 @@ if ( ! function_exists( 'woodmart_elementor_blog_template' ) ) {
 			'parts_meta'              => true,
 			'parts_text'              => true,
 			'parts_btn'               => true,
+			'parts_published_date'    => true,
 
 			// Design.
 			'img_size'                => 'medium',
 			'blog_design'             => 'default',
 			'blog_carousel_design'    => 'masonry',
-			'blog_columns'            => [ 'size' => 3 ],
+			'blog_columns'            => array( 'size' => 3 ),
 			'blog_columns_tablet'     => array( 'size' => '' ),
 			'blog_columns_mobile'     => array( 'size' => '' ),
 			'blog_spacing'            => woodmart_get_opt( 'blog_spacing' ),
@@ -138,21 +139,19 @@ if ( ! function_exists( 'woodmart_elementor_blog_template' ) ) {
 		woodmart_set_loop_prop( 'blog_design', $settings['blog_design'] );
 		woodmart_set_loop_prop( 'img_size', $settings['img_size'] );
 		woodmart_set_loop_prop( 'blog_columns', $settings['blog_columns'] );
+		woodmart_set_loop_prop( 'blog_columns_tablet', ! empty( $settings['blog_columns_tablet']['size'] ) ? $settings['blog_columns_tablet']['size'] : 'auto' );
+		woodmart_set_loop_prop( 'blog_columns_mobile', ! empty( $settings['blog_columns_mobile']['size'] ) ? $settings['blog_columns_mobile']['size'] : 'auto' );
+
 		woodmart_set_loop_prop( 'woodmart_loop', 0 );
 		woodmart_set_loop_prop( 'parts_title', $settings['parts_title'] );
 		woodmart_set_loop_prop( 'parts_meta', $settings['parts_meta'] );
+		woodmart_set_loop_prop( 'parts_published_date', $settings['parts_published_date'] );
 		woodmart_set_loop_prop( 'parts_text', $settings['parts_text'] );
 		woodmart_set_loop_prop( 'parts_btn', $settings['parts_btn'] );
 		woodmart_set_loop_prop( 'parts_media', $settings['parts_media'] );
 
 		if ( ! empty( $settings['img_size_custom'] ) ) {
 			woodmart_set_loop_prop( 'img_size_custom', $settings['img_size_custom'] );
-		}
-		if ( isset( $settings['blog_columns_tablet']['size'] ) && $settings['blog_columns_tablet']['size'] ) {
-			woodmart_set_loop_prop( 'blog_columns_tablet', $settings['blog_columns_tablet']['size'] );
-		}
-		if ( isset( $settings['blog_columns_mobile']['size'] ) && $settings['blog_columns_mobile']['size'] ) {
-			woodmart_set_loop_prop( 'blog_columns_mobile', $settings['blog_columns_mobile']['size'] );
 		}
 
 		if ( 'carousel' === $settings['blog_design'] ) {

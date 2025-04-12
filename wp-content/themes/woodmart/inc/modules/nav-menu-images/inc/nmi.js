@@ -63,10 +63,9 @@ jQuery(document).ready(function($) {
 		var selectValue = $this.val();
 
 		if ( 'nmi-design' === $this.data('field') ) {
-			$this.parents('li.menu-item').removeClass('wd-design-default wd-design-full-width wd-design-full-height wd-design-sized wd-design-aside').addClass('wd-design-' + selectValue );
+			$this.parents('.nmi-item-custom-fields').removeClass('wd-design-default wd-design-full-width wd-design-full-height wd-design-sized wd-design-aside').addClass('wd-design-' + selectValue );
 		}
-
-	}).trigger('change');
+	})
 
 	// Menu block edit link
 	$('.nmi-block select').on('change', function() {

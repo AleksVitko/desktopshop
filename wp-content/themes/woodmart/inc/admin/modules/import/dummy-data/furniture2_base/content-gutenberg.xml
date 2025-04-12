@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-04 07:53" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:47" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,16 +29,13 @@
 	<title>Furniture 2 gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 04 Nov 2024 07:53:57 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:47:04 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[adad@adad.ad]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 			<wp:category>
 			<wp:term_id>1</wp:term_id>
 			<wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename>
@@ -252,22 +249,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>20</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[4mariani]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[4Mariani]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-20-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:122:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-4mariani.jpg";s:2:"id";s:3:"196";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>21</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[american-silver]]></wp:term_slug>
@@ -284,22 +265,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[color]]></wp:meta_key>
 			<wp:meta_value><![CDATA[rgb(205,206,208)]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>22</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[bitte]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Bitte]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-22-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:119:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-bitte.jpg";s:2:"id";s:3:"197";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -322,22 +287,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>24</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[lladro]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Lladro]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-24-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:120:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-lladro.jpg";s:2:"id";s:3:"204";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>25</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[dark-gray]]></wp:term_slug>
@@ -357,54 +306,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>26</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[minotti]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Minotti]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-26-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:121:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-minotti.jpg";s:2:"id";s:3:"205";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>27</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[elitis]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Elitis]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-27-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:120:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-elitis.jpg";s:2:"id";s:3:"198";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>28</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[enza-home]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Enza Home]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-28-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:123:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-enza-home.jpg";s:2:"id";s:3:"199";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>29</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[jet]]></wp:term_slug>
@@ -421,22 +322,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[color]]></wp:meta_key>
 			<wp:meta_value><![CDATA[rgb(54,54,54)]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>30</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[flos]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Flos]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-30-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:118:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-flos.jpg";s:2:"id";s:3:"200";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -497,22 +382,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>34</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[kettal]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Kettal]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-34-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:120:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-kettal.jpg";s:2:"id";s:3:"203";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>35</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_color]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[brown-sugar]]></wp:term_slug>
@@ -529,22 +398,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[color]]></wp:meta_key>
 			<wp:meta_value><![CDATA[rgb(178,104,80)]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>36</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[hay]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Hay]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-36-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-hay.jpg";s:2:"id";s:3:"202";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -688,22 +541,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[color]]></wp:meta_key>
 			<wp:meta_value><![CDATA[rgb(69,98,136)]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>42</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[gan]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Gan]]></wp:term_name>
-		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-42-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:117:"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-brand-gan.jpg";s:2:"id";s:3:"201";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -1019,6 +856,166 @@
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
+			<wp:term>
+			<wp:term_id>68</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[4mariani]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[4Mariani]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[196]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-68-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>69</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[bitte]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Bitte]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[197]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-69-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>70</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[elitis]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Elitis]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[198]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-70-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>71</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[enza-home]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Enza Home]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[199]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-71-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>72</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[flos]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Flos]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[200]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-72-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>73</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[gan]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Gan]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[201]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-73-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>74</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[hay]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Hay]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[202]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-74-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>75</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[kettal]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Kettal]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[203]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-75-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>76</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[lladro]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Lladro]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[204]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-76-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>77</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[minotti]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Minotti]]></wp:term_name>
+		<wp:term_description><![CDATA[[html_block id="187"]]]></wp:term_description>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[205]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-77-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
 			<wp:term><wp:term_id>44</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[currency-furniture-2]]></wp:term_slug><wp:term_name><![CDATA[Currency Furniture 2]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>45</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-navigation]]></wp:term_slug><wp:term_name><![CDATA[Main navigation]]></wp:term_name>
@@ -1028,13 +1025,13 @@
 	<wp:term><wp:term_id>47</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top-bar-menu-furniture-2]]></wp:term_slug><wp:term_name><![CDATA[Top bar menu Furniture 2]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[Palissade]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/palissade/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=111</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"eecd7743-5f50-43e3-908f-c37f3bd6d143","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-eecd7743" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -1060,8 +1057,8 @@
 															<wp:post_id>111</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:59:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:59:31]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:35]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:35]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[palissade]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1069,7 +1066,7 @@
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="green"><![CDATA[Green]]></category>
-		<category domain="pa_brand" nicename="kettal"><![CDATA[Kettal]]></category>
+		<category domain="product_brand" nicename="kettal"><![CDATA[Kettal]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
 											<wp:postmeta>
@@ -1086,7 +1083,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1157,7 +1154,7 @@
 					<title><![CDATA[Here comes autumn]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/here-comes-autumn/</link>
 					<pubDate>Tue, 16 Jul 2024 11:23:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=147</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"473454d8-244b-49be-b8bb-67216ca08ea3","markColorCode":"#000000"} -->
 <p id="wd-473454d8" class="wp-block-wd-paragraph">So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero’s&nbsp;De Finibus&nbsp;in order to provide placeholder text to mockup various fonts for a type specimen book. It’s difficult to find examples of&nbsp;lorem ipsum&nbsp;in use before Letraset made it popular as a dummy text in the 1960s, although&nbsp;<a href="#">McClintock says</a>&nbsp;he remembers coming across the&nbsp;lorem ipsum&nbsp;passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage, but the popularity of Cicero in the 15th century supports the theory that the filler text has been used for centuries.</p>
@@ -1231,7 +1228,7 @@
 					<title><![CDATA[Flowing serpentines]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/flowing-serpentines/</link>
 					<pubDate>Tue, 16 Jul 2024 11:23:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=149</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"8aee8f1c-be1f-4c4b-b933-0932f05c6c61"} -->
 <div id="wd-8aee8f1c" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"0a63e0fa-c6a0-47e0-9a3d-a6453dca08ee","adjacentCount":2,"blocksGap":20} -->
@@ -1351,7 +1348,7 @@
 					<title><![CDATA[The clean series]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/the-clean-series/</link>
 					<pubDate>Tue, 16 Jul 2024 11:23:26 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=151</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"485d911b-63cb-49bf-9ab6-86851953770c"} -->
 <p id="wd-485d911b" class="wp-block-wd-paragraph">So when is it okay to use lorem ipsum? First, lorem ipsum works well for staging. It’s like the props in a furniture store—filler text makes it look like someone is home. The same WordPress template might eventually be home to a fitness blog, a photography website, or the online journal of a cupcake fanatic. Lorem ipsum helps them imagine what the lived-in website might look like.</p>
@@ -1422,7 +1419,7 @@
 					<title><![CDATA[For clear thinking]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/for-clear-thinking/</link>
 					<pubDate>Tue, 16 Jul 2024 11:23:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=153</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"2ab10b39-9c6f-4fd1-939a-e43f6aabfe75"} -->
 <p id="wd-2ab10b39" class="wp-block-wd-paragraph">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it’s seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum.</p>
@@ -1554,7 +1551,7 @@
 					<title><![CDATA[Ethimo mountain style]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/ethimo-mountain-style/</link>
 					<pubDate>Tue, 16 Jul 2024 11:24:00 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=155</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"c32d5ae0-905f-491a-b731-f9cad4666603","markColorCode":"#000000"} -->
 <p id="wd-c32d5ae0" class="wp-block-wd-paragraph">So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scrambled part of Cicero’s&nbsp;De Finibus&nbsp;in order to provide placeholder text to mockup various fonts for a type specimen book. It’s difficult to find examples of&nbsp;lorem ipsum&nbsp;in use before Letraset made it popular as a dummy text in the 1960s, although&nbsp;<a href="#">McClintock says</a>&nbsp;he remembers coming across the&nbsp;lorem ipsum&nbsp;passage in a book of old metal type samples. So far he hasn’t relocated where he once saw the passage, but the popularity of Cicero in the 15th century supports the theory that the filler text has been used for centuries.</p>
@@ -1633,7 +1630,7 @@
 					<title><![CDATA[In the heart of Valencia]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/</link>
 					<pubDate>Tue, 16 Jul 2024 11:24:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=157</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"6819567b-441c-4d5a-b191-4e34059a0690"} -->
 <div id="wd-6819567b" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"67abfbae-ef50-4b21-b1bd-c366c04ab043","adjacentCount":2,"blocksGap":20} -->
@@ -1758,7 +1755,7 @@
 					<title><![CDATA[Gift cards]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/gift-cards/</link>
 					<pubDate>Tue, 16 Jul 2024 11:30:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=167</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"f1c67d87-0d6f-4d4d-a70b-d0730e4200c1","marginBottom":"80","marginBottomTablet":"60"} -->
 <div id="wd-f1c67d87" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"62d4516c-b1ba-4cba-81e5-015c2811810b","adjacentCount":2} -->
@@ -1899,7 +1896,7 @@
 					<title><![CDATA[About us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/about-us/</link>
 					<pubDate>Tue, 16 Jul 2024 11:30:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=169</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"9b442b37-709b-4043-915f-8bc5d1ff230b","marginBottom":"100","columnsGapMobile":10,"marginBottomTablet":"80","marginBottomMobile":"60"} -->
 <div id="wd-9b442b37" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"0e815848-9b8c-4628-b3ad-0a5108029eb2","adjacentCount":2,"colWidth":67,"justifyContent":"center","adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100,"flexOrderMobile":"2"} -->
@@ -2072,7 +2069,7 @@
 					<title><![CDATA[Blog]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/blog/</link>
 					<pubDate>Tue, 16 Jul 2024 11:30:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=171</guid>
 															<wp:post_id>171</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:30:55]]></wp:post_date>
@@ -2106,7 +2103,7 @@
 					<title><![CDATA[Contact us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/contact-us/</link>
 					<pubDate>Tue, 16 Jul 2024 11:31:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=173</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"1c9c0f54-707c-4148-a52f-e61ca843873e","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-1c9c0f54" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"ffa703a1-8590-4e38-80cb-bacfa96d0f0f","adjacentCount":4} -->
@@ -2261,7 +2258,7 @@
 					<title><![CDATA[Showrooms]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/showrooms/</link>
 					<pubDate>Tue, 16 Jul 2024 11:32:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=177</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"a4d03781-f21a-45cd-ac7b-8138f5ee1c9e","marginTop":"60","marginBottom":"40","marginTopTablet":"20","marginTopMobile":"0","marginBottomMobile":"30"} -->
 <div id="wd-a4d03781" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"026b0d96-b862-449c-911f-09b8a1c4d5f3","adjacentCount":2,"colWidth":67} -->
@@ -2458,7 +2455,7 @@
 					<title><![CDATA[Wishlist]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wishlist/</link>
 					<pubDate>Tue, 16 Jul 2024 11:32:54 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=179</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_wishlist]
@@ -2495,7 +2492,7 @@
 					<title><![CDATA[Compare]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/compare/</link>
 					<pubDate>Tue, 16 Jul 2024 11:33:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=182</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_compare]
@@ -2532,7 +2529,7 @@
 					<title><![CDATA[Promo popup Furniture2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?cms_block=promo-popup-furniture2</link>
 					<pubDate>Tue, 16 Jul 2024 11:39:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=cms_block&#038;p=185</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"1aa35b56-70df-4eee-a3fd-bf043592e3d2","image":{"id":212,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-11-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-11-opt.jpg","width":1200,"height":742},"displayWidth":""} -->
 <div id="wd-1aa35b56" class="wp-block-wd-image wd-block-image"><img class="wp-image-212" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-11-opt.jpg" /></div>
@@ -2567,7 +2564,7 @@
 					<title><![CDATA[Description brand]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?cms_block=description-brand</link>
 					<pubDate>Tue, 16 Jul 2024 11:39:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=cms_block&#038;p=187</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"88a1797a-87c0-432d-b78b-e24edaeeafd7"} -->
 <div id="wd-88a1797a" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"8a15de14-3214-439c-8336-cb4136b89df7","adjacentCount":2,"justifyContent":"center","adjacentCountTablet":1,"colWidthTablet":100} -->
@@ -2698,7 +2695,7 @@
 					<title><![CDATA[Footer Furniture 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?cms_block=footer-furniture-2</link>
 					<pubDate>Tue, 16 Jul 2024 11:39:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=cms_block&#038;p=189</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"b8cf3123-d6f6-4ee2-9a43-ed57a8c13d2f","direction":"row","justify":"space-between","align":"center","wrap":"wrap","paddingTop":"50","paddingBottom":"50"} -->
 <div id="wd-b8cf3123" class="wp-block-wd-container wd-dir-row wd-align-is-lg-center"><!-- wp:wd/image {"blockId":"58cdc6f6-084c-4a7c-8012-afa19d73d664","image":{"id":252,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-logo-white.svg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-logo-white.svg","width":261,"height":40},"displayWidth":"custom","customWidth":"260"} -->
@@ -2821,7 +2818,7 @@
 					<title><![CDATA[Contact form Furniture 2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=wpcf7_contact_form&#038;p=701</link>
 					<pubDate>Thu, 18 Jul 2024 11:42:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=wpcf7_contact_form&#038;p=701</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <p class="wd-col">[text* Name placeholder ="Name"]</p>
@@ -2831,7 +2828,7 @@
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [_site_admin_email]
 From: [your-name] [your-email]
 Subject: [your-subject]
@@ -2847,7 +2844,7 @@ Reply-To: [your-email]
 
 
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [your-email]
 Message Body:
 [your-message]
@@ -2883,8 +2880,8 @@ Please enter a telephone number.]]></content:encoded>
 															<wp:post_id>701</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 11:42:28]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-18 11:42:28]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-08-19 14:56:47]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-08-19 14:56:47]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-24 13:52:47]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-24 13:52:47]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-furniture-2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2902,7 +2899,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -2913,7 +2910,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -2933,14 +2930,14 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:2:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:31:"Invalid mailbox syntax is used.";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Newsletter form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/mc4wp-form/newsletter-form/</link>
 					<pubDate>Wed, 02 Oct 2024 09:36:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/mc4wp-form/newsletter-form/</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-gap: 10px">
 <div class="wd-col"><input type="email" name="EMAIL" placeholder="Your email address" required /></div>
@@ -3010,7 +3007,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Furniture size guidelines]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?woodmart_size_guide=furniture-size-guidelines</link>
 					<pubDate>Mon, 22 Jul 2024 08:36:23 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=woodmart_size_guide&#038;p=719</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"295e0e7b-4f68-4658-96c6-b75295d69c4f"} -->
 <div id="wd-295e0e7b" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"e5123408-1994-4014-95ae-2540f2148d1d","adjacentCount":2,"justifyContent":"center"} -->
@@ -3061,7 +3058,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Silhouette]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/silhouette/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=112</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"3b1cf798-a978-4b38-bf0e-3107ba932ced","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-3b1cf798" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3087,15 +3084,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>112</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:31:00]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:31:00]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:01]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[silhouette]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="lladro"><![CDATA[Lladro]]></category>
+												<category domain="product_brand" nicename="lladro"><![CDATA[Lladro]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
 		<category domain="pa_color" nicename="white"><![CDATA[White]]></category>
@@ -3113,7 +3110,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3184,7 +3181,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Mags]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/mags/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=113</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"74a83ba7-dc2c-49e9-9c4c-51868f7145e5","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-74a83ba7" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3210,8 +3207,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>113</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:56:30]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:56:30]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[mags]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3219,7 +3216,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="dark-gray"><![CDATA[Dark Gray]]></category>
-		<category domain="pa_brand" nicename="minotti"><![CDATA[Minotti]]></category>
+		<category domain="product_brand" nicename="minotti"><![CDATA[Minotti]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
 											<wp:postmeta>
@@ -3236,7 +3233,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3307,7 +3304,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Can]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/can/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=114</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"58e9edd0-4f4d-4ab3-9d3e-6e0de9d4a037","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-58e9edd0" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3333,15 +3330,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>114</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:56:26]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:56:26]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:27:54]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:27:54]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[can]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="pa_color" nicename="brown-sugar"><![CDATA[Brown Sugar]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
@@ -3359,7 +3356,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3430,7 +3427,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Navona]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/navona/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=115</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"eadbce4b-defd-4e51-8761-f5eef207ed48","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-eadbce4b" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3456,15 +3453,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>115</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:55:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:55:48]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[navona]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="elitis"><![CDATA[Elitis]]></category>
+												<category domain="product_brand" nicename="elitis"><![CDATA[Elitis]]></category>
 		<category domain="pa_color" nicename="queen-blue"><![CDATA[Queen Blue]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
@@ -3482,7 +3479,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3557,7 +3554,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Fellini]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/fellini/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=116</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"d76050cd-7c4c-4690-854a-2269cc329a69","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-d76050cd" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3583,8 +3580,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>116</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:55:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:55:34]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:39]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:39]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[fellini]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3592,7 +3589,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="dark-gray"><![CDATA[Dark Gray]]></category>
-		<category domain="pa_brand" nicename="flos"><![CDATA[Flos]]></category>
+		<category domain="product_brand" nicename="flos"><![CDATA[Flos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
 											<wp:postmeta>
@@ -3609,7 +3606,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3680,7 +3677,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Savile Row]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/savile-row/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=117</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"a4bdccd7-7d3d-4473-a75d-949de35444ac","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-a4bdccd7" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3706,15 +3703,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>117</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:55:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:55:24]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:11]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:11]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[savile-row]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="gan"><![CDATA[Gan]]></category>
+												<category domain="product_brand" nicename="gan"><![CDATA[Gan]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
 		<category domain="pa_color" nicename="white"><![CDATA[White]]></category>
@@ -3732,7 +3729,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3807,7 +3804,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Twible]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/twible/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=118</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"1c5ee063-e32f-4ddb-abe7-5cf1bbff7c3f","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-1c5ee063" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3833,15 +3830,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>118</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:51:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:51:34]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[twible]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="hay"><![CDATA[Hay]]></category>
+												<category domain="product_brand" nicename="hay"><![CDATA[Hay]]></category>
 		<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
@@ -3859,7 +3856,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3930,7 +3927,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Sendai]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/sendai/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=119</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"2b5bbd27-522e-4c4c-b95c-a6fd3fd0b689","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-2b5bbd27" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -3956,15 +3953,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>119</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:51:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:51:25]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:27:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:27:58]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sendai]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
 		<category domain="pa_color" nicename="marigold"><![CDATA[Marigold]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -3982,7 +3979,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4057,7 +4054,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Belt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/belt/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=120</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"705de4db-ebd1-46b9-ac40-b8d42069de62","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-705de4db" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -4083,8 +4080,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>120</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:56:42]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:56:42]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[belt]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4093,7 +4090,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="american-silver"><![CDATA[American Silver]]></category>
 		<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
-		<category domain="pa_brand" nicename="bitte"><![CDATA[Bitte]]></category>
+		<category domain="product_brand" nicename="bitte"><![CDATA[Bitte]]></category>
 		<category domain="pa_color" nicename="french-bistre"><![CDATA[French Bistre]]></category>
 		<category domain="pa_color" nicename="gray"><![CDATA[Gray]]></category>
 		<category domain="product_type" nicename="variable"><![CDATA[variable]]></category>
@@ -4111,7 +4108,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4178,7 +4175,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Belt - American Silver]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/belt/?attribute_pa_color=american-silver</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=121</guid>
 																<excerpt:encoded><![CDATA[Color: American Silver]]></excerpt:encoded>
 										<wp:post_id>121</wp:post_id>
@@ -4233,7 +4230,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Belt - French Bistre]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/belt/?attribute_pa_color=french-bistre</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=122</guid>
 																<excerpt:encoded><![CDATA[Color: French Bistre]]></excerpt:encoded>
 										<wp:post_id>122</wp:post_id>
@@ -4288,7 +4285,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Belt - Gray]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/belt/?attribute_pa_color=gray</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=123</guid>
 																<excerpt:encoded><![CDATA[Color: Gray]]></excerpt:encoded>
 										<wp:post_id>123</wp:post_id>
@@ -4343,7 +4340,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Daiki Studio]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/daiki-studio/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=124</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"e8497235-0efc-4d8d-bfcc-31889162b617","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-e8497235" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -4369,8 +4366,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>124</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:57:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:57:05]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:55]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[daiki-studio]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4378,7 +4375,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
-		<category domain="pa_brand" nicename="elitis"><![CDATA[Elitis]]></category>
+		<category domain="product_brand" nicename="elitis"><![CDATA[Elitis]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="pa_color" nicename="white"><![CDATA[White]]></category>
 											<wp:postmeta>
@@ -4395,7 +4392,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4466,7 +4463,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Albert]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/albert/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=125</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"06762579-210a-4cea-a723-bf6da738fc24","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-06762579" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -4492,8 +4489,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>125</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:57:32]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:57:32]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:43]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:43]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[albert]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4501,7 +4498,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
-		<category domain="pa_brand" nicename="flos"><![CDATA[Flos]]></category>
+		<category domain="product_brand" nicename="flos"><![CDATA[Flos]]></category>
 		<category domain="pa_color" nicename="french-bistre"><![CDATA[French Bistre]]></category>
 		<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
 		<category domain="product_type" nicename="variable"><![CDATA[variable]]></category>
@@ -4519,7 +4516,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4586,7 +4583,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Albert - Jet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/albert/?attribute_pa_color=jet</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=126</guid>
 																<excerpt:encoded><![CDATA[Color: Jet]]></excerpt:encoded>
 										<wp:post_id>126</wp:post_id>
@@ -4641,7 +4638,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Albert - French Bistre]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/albert/?attribute_pa_color=french-bistre</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=127</guid>
 																<excerpt:encoded><![CDATA[Color: French Bistre]]></excerpt:encoded>
 										<wp:post_id>127</wp:post_id>
@@ -4696,7 +4693,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Bluemine]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/bluemine/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=128</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"f7d97482-29b3-4cfc-ac04-c6d79bd8e9dd","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-f7d97482" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -4722,8 +4719,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>128</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:08:07]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:08:07]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:41]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:41]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[bluemine]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4732,7 +4729,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
 		<category domain="pa_color" nicename="dark-gray"><![CDATA[Dark Gray]]></category>
-		<category domain="pa_brand" nicename="kettal"><![CDATA[Kettal]]></category>
+		<category domain="product_brand" nicename="kettal"><![CDATA[Kettal]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -4748,7 +4745,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4819,7 +4816,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Mercury]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/mercury/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=129</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"50a699c6-fb0d-433b-84c5-b17516611576","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-50a699c6" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -4845,8 +4842,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>129</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:58:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:58:58]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:05]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:05]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[mercury]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4855,7 +4852,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="american-silver"><![CDATA[American Silver]]></category>
 		<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
-		<category domain="pa_brand" nicename="lladro"><![CDATA[Lladro]]></category>
+		<category domain="product_brand" nicename="lladro"><![CDATA[Lladro]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -4871,7 +4868,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4942,7 +4939,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Ca'foscari]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/cafoscari/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=130</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"96527873-b2e0-493a-82e1-c4efbe61c86e","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-96527873" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -4968,15 +4965,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>130</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:58:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:58:43]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:02]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:02]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[cafoscari]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
 		<category domain="pa_color" nicename="green"><![CDATA[Green]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -4994,7 +4991,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5065,7 +5062,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Elephant]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/elephant/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=131</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"f53d4c7f-be30-499f-9b6e-0cdebc3a4855","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-f53d4c7f" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5091,8 +5088,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>131</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:58:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:58:31]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:28]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:28]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[elephant]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5100,7 +5097,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
-		<category domain="pa_brand" nicename="bitte"><![CDATA[Bitte]]></category>
+		<category domain="product_brand" nicename="bitte"><![CDATA[Bitte]]></category>
 		<category domain="pa_color" nicename="marigold"><![CDATA[Marigold]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -5117,7 +5114,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5188,7 +5185,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Curve]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/curve/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=30</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"79f8f4c2-53a7-4796-a250-44e21b03c8ff","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-79f8f4c2" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" alt="" /></div>
@@ -5214,15 +5211,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>30</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 13:29:50]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 13:29:50]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[curve]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="pa_color" nicename="american-silver"><![CDATA[American Silver]]></category>
 		<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -5240,7 +5237,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5311,7 +5308,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Grace]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/grace/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=31</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"094c20e4-80f6-485d-ab01-4521fb28e380","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-094c20e4" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5337,15 +5334,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>31</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:02:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:02:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:36]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:36]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[grace]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="bitte"><![CDATA[Bitte]]></category>
+												<category domain="product_brand" nicename="bitte"><![CDATA[Bitte]]></category>
 		<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
 		<category domain="pa_color" nicename="gray"><![CDATA[Gray]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -5363,7 +5360,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5434,7 +5431,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Sophie]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/sophie/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=32</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"8ad95082-bd1e-42f6-97e5-1f5daba2bb9b","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-8ad95082" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5460,8 +5457,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>32</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:02:28]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:02:28]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sophie]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5470,7 +5467,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
 		<category domain="pa_color" nicename="dark-gray"><![CDATA[Dark Gray]]></category>
-		<category domain="pa_brand" nicename="lladro"><![CDATA[Lladro]]></category>
+		<category domain="product_brand" nicename="lladro"><![CDATA[Lladro]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -5486,7 +5483,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5557,7 +5554,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Ventura]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/ventura/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=33</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"8e06cf5b-802e-41cb-bd34-018eff2e46f4","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-8e06cf5b" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5583,8 +5580,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>33</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:02:18]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:02:18]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:35]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:35]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[ventura]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5593,7 +5590,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
 		<category domain="pa_color" nicename="dark-gray"><![CDATA[Dark Gray]]></category>
-		<category domain="pa_brand" nicename="minotti"><![CDATA[Minotti]]></category>
+		<category domain="product_brand" nicename="minotti"><![CDATA[Minotti]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -5609,7 +5606,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5680,7 +5677,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Avana]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/avana/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=34</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"24853bb6-4955-4e27-a725-23afdabe89f7","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-24853bb6" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5706,8 +5703,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>34</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:01:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:01:51]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:00]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:00]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[avana]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5715,7 +5712,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
-		<category domain="pa_brand" nicename="elitis"><![CDATA[Elitis]]></category>
+		<category domain="product_brand" nicename="elitis"><![CDATA[Elitis]]></category>
 		<category domain="pa_color" nicename="gray"><![CDATA[Gray]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -5732,7 +5729,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5807,7 +5804,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Frames Upholstered]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/frames-upholstered/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=35</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"22df677d-49ab-4826-b552-17ec46e3098c","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-22df677d" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5833,8 +5830,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>35</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:00:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:00:02]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:21]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:21]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[frames-upholstered]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5842,7 +5839,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
-		<category domain="pa_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
+		<category domain="product_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
 		<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -5859,7 +5856,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5930,7 +5927,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Result]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/result/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=36</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"5fff38bd-228b-4dda-89b8-2fd91d96ee99","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-5fff38bd" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -5956,8 +5953,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>36</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:01:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:01:34]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:56]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:56]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[result]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5966,7 +5963,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="bone"><![CDATA[Bone]]></category>
 		<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
-		<category domain="pa_brand" nicename="flos"><![CDATA[Flos]]></category>
+		<category domain="product_brand" nicename="flos"><![CDATA[Flos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -5982,7 +5979,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6057,7 +6054,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Soft Edge]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/soft-edge/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=37</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"7cbd0cbe-4a66-408f-a152-95403c25eb1e","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-7cbd0cbe" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -6083,15 +6080,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>37</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:01:23]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:01:23]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:11]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:11]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[soft-edge]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="pa_color" nicename="american-silver"><![CDATA[American Silver]]></category>
 		<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
 		<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
@@ -6111,7 +6108,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6178,7 +6175,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Soft Edge - Jet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/soft-edge/?attribute_pa_color=jet</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=38</guid>
 																<excerpt:encoded><![CDATA[Color: Jet]]></excerpt:encoded>
 										<wp:post_id>38</wp:post_id>
@@ -6233,7 +6230,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Soft Edge - American Silver]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/soft-edge/?attribute_pa_color=american-silver</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=39</guid>
 																<excerpt:encoded><![CDATA[Color: American Silver]]></excerpt:encoded>
 										<wp:post_id>39</wp:post_id>
@@ -6288,7 +6285,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Soft Edge - Venetian Red]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/soft-edge/?attribute_pa_color=venetian-red</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=40</guid>
 																<excerpt:encoded><![CDATA[Color: Venetian Red]]></excerpt:encoded>
 										<wp:post_id>40</wp:post_id>
@@ -6343,7 +6340,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[12 side]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/12-side/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=41</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"c14b236a-da3c-439c-b7a2-25579530e477","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-c14b236a" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" alt="" /></div>
@@ -6369,8 +6366,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>41</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 13:28:57]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 13:28:57]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:05]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:05]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[12-side]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6378,7 +6375,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
-		<category domain="pa_brand" nicename="elitis"><![CDATA[Elitis]]></category>
+		<category domain="product_brand" nicename="elitis"><![CDATA[Elitis]]></category>
 		<category domain="pa_color" nicename="green"><![CDATA[Green]]></category>
 		<category domain="product_visibility" nicename="outofstock"><![CDATA[outofstock]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -6396,7 +6393,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6475,7 +6472,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Revolt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/revolt/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=42</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"5e84ab97-0b74-408c-9dd4-d4dfbbff889d","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-5e84ab97" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -6501,8 +6498,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>42</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:07:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:07:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:25]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:25]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[revolt]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6511,7 +6508,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="bone"><![CDATA[Bone]]></category>
 		<category domain="product_cat" nicename="chairs"><![CDATA[Chairs]]></category>
-		<category domain="pa_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
+		<category domain="product_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -6527,7 +6524,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6598,7 +6595,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Trevi]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/trevi/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=43</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"270eb42b-02bf-40c2-a11b-bdd591006e88","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-270eb42b" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -6624,8 +6621,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>43</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:02:50]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:02:50]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[trevi]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6633,7 +6630,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
-		<category domain="pa_brand" nicename="kettal"><![CDATA[Kettal]]></category>
+		<category domain="product_brand" nicename="kettal"><![CDATA[Kettal]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -6650,7 +6647,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6721,7 +6718,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Henry]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/henry/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=44</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"eb33f152-10fd-49d4-932e-6dedfd615fb0","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-eb33f152" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -6747,8 +6744,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>44</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:03:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:03:08]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:11]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:11]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[henry]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -6756,7 +6753,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="brown-sugar"><![CDATA[Brown Sugar]]></category>
-		<category domain="pa_brand" nicename="lladro"><![CDATA[Lladro]]></category>
+		<category domain="product_brand" nicename="lladro"><![CDATA[Lladro]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -6773,7 +6770,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6844,7 +6841,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Guéridon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/gueridon/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=45</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"8510fc42-c25c-43a3-8446-340b46e07bb4","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-8510fc42" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" alt="" /></div>
@@ -6870,15 +6867,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>45</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 13:29:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 13:29:46]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:15]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:15]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[gueridon]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
@@ -6896,7 +6893,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -6971,7 +6968,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Julep]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/julep/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=132</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"40701b24-2f6b-4503-80ae-686327c13463","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-40701b24" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -6997,8 +6994,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>132</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:58:03]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:58:03]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:16]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:16]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[julep]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7006,7 +7003,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
-		<category domain="pa_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
+		<category domain="product_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
 		<category domain="pa_color" nicename="marigold"><![CDATA[Marigold]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -7023,7 +7020,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7094,7 +7091,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Lima]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/lima/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=133</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"8ad4eda6-5b10-4e95-8f9c-7414c7a8a3e5","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-8ad4eda6" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7120,8 +7117,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>133</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:53]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:53]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:57:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:57:51]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:47]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:47]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[lima]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7130,7 +7127,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="product_cat" nicename="armchairs"><![CDATA[Armchairs]]></category>
 		<category domain="pa_color" nicename="bone"><![CDATA[Bone]]></category>
-		<category domain="pa_brand" nicename="flos"><![CDATA[Flos]]></category>
+		<category domain="product_brand" nicename="flos"><![CDATA[Flos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -7146,7 +7143,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7217,7 +7214,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[e-Gift card]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/e-gift-card/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=134</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"79db2e65-2a4b-491a-a944-5524454d4955","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-79db2e65" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7334,7 +7331,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Gift card]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/gift-card/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=135</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"9a8e3ba8-6bee-4e80-b713-197d3eb65ee8","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-9a8e3ba8" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7451,7 +7448,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Shop]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/shop/</link>
 					<pubDate>Tue, 16 Jul 2024 11:15:46 +0000</pubDate>
-					<dc:creator><![CDATA[admin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/shop/</guid>
 															<wp:post_id>10</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:15:46]]></wp:post_date>
@@ -7469,7 +7466,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Eames Segmented]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/eames-segmented/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=46</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"2ef4bd48-f6b2-4533-8c76-5dc194a67d16","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-2ef4bd48" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7495,15 +7492,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>46</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:06:50]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:06:50]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:41]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:41]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[eames-segmented]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="bitte"><![CDATA[Bitte]]></category>
+												<category domain="product_brand" nicename="bitte"><![CDATA[Bitte]]></category>
 		<category domain="pa_color" nicename="brown-sugar"><![CDATA[Brown Sugar]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
@@ -7521,7 +7518,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7592,7 +7589,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Giro]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/giro/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=47</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"5a5b8ab9-05ae-4c92-b0d2-91c77dfe85dd","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-5a5b8ab9" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7618,8 +7615,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>47</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:06:14]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:06:14]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:01]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[giro]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7627,7 +7624,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="bone"><![CDATA[Bone]]></category>
-		<category domain="pa_brand" nicename="flos"><![CDATA[Flos]]></category>
+		<category domain="product_brand" nicename="flos"><![CDATA[Flos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -7644,7 +7641,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7715,7 +7712,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Mesh]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/mesh/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=48</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"c3be09a8-b4b8-425c-bbd6-5e0fcbf011b9","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-c3be09a8" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7741,8 +7738,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>48</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:05:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:05:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[mesh]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7750,7 +7747,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="brown-sugar"><![CDATA[Brown Sugar]]></category>
-		<category domain="pa_brand" nicename="hay"><![CDATA[Hay]]></category>
+		<category domain="product_brand" nicename="hay"><![CDATA[Hay]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -7767,7 +7764,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7838,7 +7835,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Giro LR]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/giro-lr/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=49</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"9226196c-eb14-4cca-bac6-c19b9619bf93","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-9226196c" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7864,8 +7861,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>49</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 11:59:39]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 11:59:39]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:30:46]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:30:46]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[giro-lr]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7873,7 +7870,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="brown-sugar"><![CDATA[Brown Sugar]]></category>
-		<category domain="pa_brand" nicename="kettal"><![CDATA[Kettal]]></category>
+		<category domain="product_brand" nicename="kettal"><![CDATA[Kettal]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -7890,7 +7887,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -7961,7 +7958,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Ringer]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/ringer/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=50</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"d6c0ef04-fc14-4fea-b23e-845e69deaa33","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-d6c0ef04" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -7987,8 +7984,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>50</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:04:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:04:52]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:15]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:15]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[ringer]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -7996,7 +7993,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="brown-sugar"><![CDATA[Brown Sugar]]></category>
-		<category domain="pa_brand" nicename="lladro"><![CDATA[Lladro]]></category>
+		<category domain="product_brand" nicename="lladro"><![CDATA[Lladro]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -8013,7 +8010,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8084,7 +8081,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Brypo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/brypo/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=51</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"918df32e-006d-4cc9-87ac-4429fc7f137b","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-918df32e" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" alt="" /></div>
@@ -8110,8 +8107,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>51</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-11-04 07:53:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-11-04 07:53:51]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:31:40]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:31:40]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[brypo]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -8119,7 +8116,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="bone"><![CDATA[Bone]]></category>
-		<category domain="pa_brand" nicename="minotti"><![CDATA[Minotti]]></category>
+		<category domain="product_brand" nicename="minotti"><![CDATA[Minotti]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
 											<wp:postmeta>
@@ -8136,7 +8133,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8211,7 +8208,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Aruda]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/aruda/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=52</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"03e953ec-eb4a-4dc2-ad67-8cfc3d2eeb28","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-03e953ec" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -8237,15 +8234,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>52</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:03:42]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:03:42]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:28:19]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:28:19]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[aruda]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
+												<category domain="product_brand" nicename="4mariani"><![CDATA[4Mariani]]></category>
 		<category domain="pa_color" nicename="french-bistre"><![CDATA[French Bistre]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="tables"><![CDATA[Tables]]></category>
@@ -8263,7 +8260,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8334,7 +8331,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Mariposa]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/mariposa/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=53</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"d14fc9b1-9b60-4137-aa1c-68810650017d","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-d14fc9b1" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -8360,15 +8357,15 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>53</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:03:27]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:03:27]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:30]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:30]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[mariposa]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
 					<wp:post_parent>0</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
-												<category domain="pa_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
+												<category domain="product_brand" nicename="enza-home"><![CDATA[Enza Home]]></category>
 		<category domain="pa_color" nicename="french-bistre"><![CDATA[French Bistre]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
@@ -8386,7 +8383,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8457,7 +8454,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Arbour]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/arbour/</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=54</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/image {"blockId":"6def9a73-d74e-408e-9913-79dc5bdf1917","image":{"id":775,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg","width":680,"height":280},"displayWidth":"full-width"} -->
 <div id="wd-6def9a73" class="wp-block-wd-image wd-block-image wd-custom-width"><img class="wp-image-775" src="http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg" /></div>
@@ -8483,8 +8480,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>54</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:40]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-16 11:17:40]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-19 12:00:10]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-19 12:00:10]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 12:29:52]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 12:29:52]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[arbour]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -8492,7 +8489,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[product]]></wp:post_type>
 												<category domain="pa_color" nicename="american-silver"><![CDATA[American Silver]]></category>
-		<category domain="pa_brand" nicename="flos"><![CDATA[Flos]]></category>
+		<category domain="product_brand" nicename="flos"><![CDATA[Flos]]></category>
 		<category domain="pa_color" nicename="gray"><![CDATA[Gray]]></category>
 		<category domain="pa_color" nicename="jet"><![CDATA[Jet]]></category>
 		<category domain="product_cat" nicename="sofas"><![CDATA[Sofas]]></category>
@@ -8513,7 +8510,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.1.2]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -8580,7 +8577,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Arbour - American Silver]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/arbour/?attribute_pa_color=american-silver</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=55</guid>
 																<excerpt:encoded><![CDATA[Color: American Silver]]></excerpt:encoded>
 										<wp:post_id>55</wp:post_id>
@@ -8635,7 +8632,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Arbour - Gray]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/arbour/?attribute_pa_color=gray</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=56</guid>
 																<excerpt:encoded><![CDATA[Color: Gray]]></excerpt:encoded>
 										<wp:post_id>56</wp:post_id>
@@ -8690,7 +8687,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Arbour - Venetian Red]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/arbour/?attribute_pa_color=venetian-red</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=57</guid>
 																<excerpt:encoded><![CDATA[Color: Venetian Red]]></excerpt:encoded>
 										<wp:post_id>57</wp:post_id>
@@ -8745,7 +8742,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Arbour - White]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/arbour/?attribute_pa_color=white</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=58</guid>
 																<excerpt:encoded><![CDATA[Color: White]]></excerpt:encoded>
 										<wp:post_id>58</wp:post_id>
@@ -8800,7 +8797,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Arbour - Jet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/product/arbour/?attribute_pa_color=jet</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?post_type=product&#038;p=59</guid>
 																<excerpt:encoded><![CDATA[Color: Jet]]></excerpt:encoded>
 										<wp:post_id>59</wp:post_id>
@@ -8855,7 +8852,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home Furniture2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/</link>
 					<pubDate>Tue, 16 Jul 2024 11:29:56 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?page_id=165</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"8d553aaa-0960-4fe8-bec4-9ae09514f430","effect":"parallax","arrowsTablet":false,"arrowsMobile":false,"arrowsStyle":"3","paginationStyle":"3","autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"600","marginTop":"-40","marginBottom":"100","heightTablet":"500","marginBottomTablet":"60"} -->
 <div id="wd-8d553aaa" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-parallax wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="parallax" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"c66b905b-21a7-446d-97fe-d5de8de8dab5","align":"center","effect":"parallax","bgImage":{"id":282,"url":"http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-slider-1-opt.jpg"},"bgColorCode":"#F3F3F3","paddingRight":"80","paddingLeft":"80","bgPositionTablet":"custom","bgPositionMobile":"custom","bgCustomPositionXTablet":"-120","bgCustomPositionXMobile":"-360","bgCustomPositionYTablet":"0","paddingRightTablet":"30","paddingLeftTablet":"30"} -->
@@ -9428,7 +9425,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[EUR]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/eur/</link>
 					<pubDate>Tue, 16 Jul 2024 13:18:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=213</guid>
 															<wp:post_id>213</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:20:18]]></wp:post_date>
@@ -9487,7 +9484,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Canada]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/canada/</link>
 					<pubDate>Tue, 16 Jul 2024 13:18:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=214</guid>
 															<wp:post_id>214</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:20:18]]></wp:post_date>
@@ -9550,7 +9547,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[USA]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/usa/</link>
 					<pubDate>Tue, 16 Jul 2024 13:18:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=215</guid>
 															<wp:post_id>215</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:20:18]]></wp:post_date>
@@ -9613,7 +9610,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Japan]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/japan/</link>
 					<pubDate>Tue, 16 Jul 2024 13:18:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=216</guid>
 															<wp:post_id>216</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:20:18]]></wp:post_date>
@@ -9676,7 +9673,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/191/</link>
 					<pubDate>Tue, 16 Jul 2024 11:45:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=191</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>191</wp:post_id>
@@ -9728,7 +9725,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/192/</link>
 					<pubDate>Tue, 16 Jul 2024 11:45:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=192</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>192</wp:post_id>
@@ -9780,7 +9777,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/193/</link>
 					<pubDate>Tue, 16 Jul 2024 11:45:28 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=193</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>193</wp:post_id>
@@ -9832,7 +9829,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Beds]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/beds/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=222</guid>
 															<wp:post_id>222</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:34:11]]></wp:post_date>
@@ -9887,7 +9884,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/223/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=223</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>223</wp:post_id>
@@ -9943,7 +9940,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/224/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=224</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>224</wp:post_id>
@@ -9999,7 +9996,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/225/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=225</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>225</wp:post_id>
@@ -10055,7 +10052,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/226/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:30 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=226</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>226</wp:post_id>
@@ -10111,7 +10108,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Storage]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/storage/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=227</guid>
 															<wp:post_id>227</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:34:11]]></wp:post_date>
@@ -10166,7 +10163,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Textiles]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/textiles/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=228</guid>
 															<wp:post_id>228</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:34:11]]></wp:post_date>
@@ -10221,7 +10218,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Lighting]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/lighting/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=229</guid>
 															<wp:post_id>229</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:34:11]]></wp:post_date>
@@ -10276,7 +10273,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Toys]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/toys/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=230</guid>
 															<wp:post_id>230</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:34:11]]></wp:post_date>
@@ -10331,7 +10328,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Decor]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/decor/</link>
 					<pubDate>Tue, 16 Jul 2024 13:23:31 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=231</guid>
 															<wp:post_id>231</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:34:11]]></wp:post_date>
@@ -10386,7 +10383,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/home/</link>
 					<pubDate>Tue, 16 Jul 2024 13:35:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=242</guid>
 															<wp:post_id>242</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 13:35:07]]></wp:post_date>
@@ -10437,7 +10434,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/243/</link>
 					<pubDate>Tue, 16 Jul 2024 13:35:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=243</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>243</wp:post_id>
@@ -10489,7 +10486,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/244/</link>
 					<pubDate>Tue, 16 Jul 2024 13:35:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=244</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>244</wp:post_id>
@@ -10541,7 +10538,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/245/</link>
 					<pubDate>Tue, 16 Jul 2024 13:35:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=245</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>245</wp:post_id>
@@ -10593,7 +10590,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/246/</link>
 					<pubDate>Tue, 16 Jul 2024 13:35:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=246</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>246</wp:post_id>
@@ -10645,7 +10642,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/247/</link>
 					<pubDate>Tue, 16 Jul 2024 13:35:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?p=247</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>247</wp:post_id>

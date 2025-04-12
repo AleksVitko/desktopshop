@@ -24,9 +24,9 @@ if ( ! function_exists( 'woodmart_woo_preview_update_order' ) ) {
 	 */
 	function woodmart_woo_preview_update_order( $additional_data, $index, $order_id, $current_email ) {
 		$emails_list = array(
-			'woodmart_wishlist_back_in_stock',
-			'woodmart_wishlist_on_sale_products',
-			'woodmart_promotional_email',
+			'XTS_Email_Wishlist_Back_In_Stock',
+			'XTS_Email_Wishlist_On_Sale_Products',
+			'XTS_Email_Wishlist_Promotional',
 		);
 
 		if ( in_array( $index, $emails_list, true ) ) {

@@ -15,7 +15,7 @@ define( 'WOODMART_FRAMEWORK', '/inc' );
 define( 'WOODMART_DUMMY', WOODMART_THEME_DIR . '/inc/dummy-content' );
 define( 'WOODMART_CLASSES', WOODMART_THEMEROOT . '/inc/classes' );
 define( 'WOODMART_CONFIGS', WOODMART_THEMEROOT . '/inc/configs' );
-define( 'WOODMART_HEADER_BUILDER', WOODMART_THEME_DIR . '/inc/header-builder' );
+define( 'WOODMART_HEADER_BUILDER', WOODMART_THEME_DIR . '/inc/modules/header-builder' );
 define( 'WOODMART_ASSETS', WOODMART_THEME_DIR . '/inc/admin/assets' );
 define( 'WOODMART_ASSETS_IMAGES', WOODMART_ASSETS . '/images' );
 define( 'WOODMART_API_URL', 'https://xtemos.com/wp-json/xts/v1/' );
@@ -24,7 +24,7 @@ define( 'WOODMART_PLUGINS_URL', WOODMART_DEMO_URL . 'plugins/' );
 define( 'WOODMART_DUMMY_URL', WOODMART_DEMO_URL . 'dummy-content-new/' );
 define( 'WOODMART_TOOLTIP_URL', WOODMART_DEMO_URL . 'theme-settings-tooltips/' );
 define( 'WOODMART_SLUG', 'woodmart' );
-define( 'WOODMART_CORE_VERSION', '1.1.0' );
+define( 'WOODMART_CORE_VERSION', '1.1.1' );
 define( 'WOODMART_WPB_CSS_VERSION', '1.0.2' );
 
 if ( ! function_exists( 'woodmart_load_classes' ) ) {

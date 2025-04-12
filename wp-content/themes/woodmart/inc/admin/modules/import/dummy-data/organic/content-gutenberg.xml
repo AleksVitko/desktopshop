@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:25" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:33" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,14 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:25:36 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:33:02 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[organic-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-page-title/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-page-title.jpg</guid>
 															<wp:post_id>23851</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:02]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[organic-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-1.jpg</guid>
 															<wp:post_id>23892</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:50]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[organic-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-2/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-2.jpg</guid>
 															<wp:post_id>23893</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:51]]></wp:post_date>
@@ -120,7 +120,7 @@
 					<title><![CDATA[organic-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-3/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-3.jpg</guid>
 															<wp:post_id>23894</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:51]]></wp:post_date>
@@ -143,7 +143,7 @@
 					<title><![CDATA[organic-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-4/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-4.jpg</guid>
 															<wp:post_id>23895</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:52]]></wp:post_date>
@@ -166,7 +166,7 @@
 					<title><![CDATA[organic-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-5/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-5.jpg</guid>
 															<wp:post_id>23896</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:52]]></wp:post_date>
@@ -189,7 +189,7 @@
 					<title><![CDATA[organic-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-6/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-6.jpg</guid>
 															<wp:post_id>23897</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:53]]></wp:post_date>
@@ -212,7 +212,7 @@
 					<title><![CDATA[organic-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-7/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-7.jpg</guid>
 															<wp:post_id>23898</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:53]]></wp:post_date>
@@ -235,7 +235,7 @@
 					<title><![CDATA[organic-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-8/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-8.jpg</guid>
 															<wp:post_id>23899</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:54]]></wp:post_date>
@@ -258,7 +258,7 @@
 					<title><![CDATA[organic-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-9/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-9.jpg</guid>
 															<wp:post_id>23900</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:55]]></wp:post_date>
@@ -281,7 +281,7 @@
 					<title><![CDATA[organic-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-10/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-10.jpg</guid>
 															<wp:post_id>23901</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:55]]></wp:post_date>
@@ -304,7 +304,7 @@
 					<title><![CDATA[organic-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-11/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-11.jpg</guid>
 															<wp:post_id>23902</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:56]]></wp:post_date>
@@ -327,7 +327,7 @@
 					<title><![CDATA[organic-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product-12/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product-12.jpg</guid>
 															<wp:post_id>23903</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:56]]></wp:post_date>
@@ -350,7 +350,7 @@
 					<title><![CDATA[organic-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-1.jpg</guid>
 															<wp:post_id>23904</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:08]]></wp:post_date>
@@ -373,7 +373,7 @@
 					<title><![CDATA[organic-blog-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-2/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-2.jpg</guid>
 															<wp:post_id>23905</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:08]]></wp:post_date>
@@ -396,7 +396,7 @@
 					<title><![CDATA[organic-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-3/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-3.jpg</guid>
 															<wp:post_id>23906</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:09]]></wp:post_date>
@@ -419,7 +419,7 @@
 					<title><![CDATA[organic-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-4/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-4.jpg</guid>
 															<wp:post_id>23907</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:09]]></wp:post_date>
@@ -442,7 +442,7 @@
 					<title><![CDATA[organic-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-5/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-5.jpg</guid>
 															<wp:post_id>23908</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:10]]></wp:post_date>
@@ -465,7 +465,7 @@
 					<title><![CDATA[organic-blog-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-6/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-6.jpg</guid>
 															<wp:post_id>23909</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:11]]></wp:post_date>
@@ -488,7 +488,7 @@
 					<title><![CDATA[organic-blog-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-7/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-7.jpg</guid>
 															<wp:post_id>23910</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:11]]></wp:post_date>
@@ -511,7 +511,7 @@
 					<title><![CDATA[Home Organic]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-organic/</link>
 					<pubDate>Thu, 04 Jul 2024 12:13:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=23845</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"46b26354-6952-4736-a2c2-e703e18116c7","effect":"fade","arrowsColorScheme":"light","pagination":false,"paginationTablet":false,"paginationMobile":false,"autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"700","marginBottom":"80","heightTablet":"650","heightMobile":"680","marginBottomMobile":"60"} -->
 <div id="wd-46b26354" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-fade wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="fade" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"ef320cf7-ca66-4531-a57d-508176b0b5e6","effect":"fade","colorScheme":"light","bgImage":{"id":23852,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-bg-1-opt.jpg"},"bgColorCode":"#97bc78"} -->
@@ -523,20 +523,20 @@
 <!-- /wp:wd/column -->
 
 <!-- wp:wd/column {"blockId":"32b0974c-db5d-455a-b941-eb01f3452cca","adjacentCount":2,"colWidth":50,"blocksGap":0,"alignItems":"flex-end","justifyContent":"center","paddingRight":"7","paddingUnits":"%","alignItemsMobile":"center","paddingRightMobile":"0","paddingUnitsMobile":"%"} -->
-<div id="wd-32b0974c" class="wp-block-wd-column wd-align-is-lg-flex-end wd-align-is-sm-center"><!-- wp:wd/title {"blockId":"5266eddc-f30a-47c4-b28c-6d74dda8e77b","textAlign":"end","content":"SOUR","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"150","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
-<h2 id="wd-5266eddc" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_150">SOUR</h2>
+<div id="wd-32b0974c" class="wp-block-wd-column wd-align-is-lg-flex-end wd-align-is-sm-center"><!-- wp:wd/title {"blockId":"5266eddc-f30a-47c4-b28c-6d74dda8e77b","content":"SOUR","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"150","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
+<h2 id="wd-5266eddc" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_150">SOUR</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"1fd520e3-6460-444c-8267-f60503bf521a","textAlign":"end","content":"GREEN APPLE","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"250","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
-<h2 id="wd-1fd520e3" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_250">GREEN APPLE</h2>
+<!-- wp:wd/title {"blockId":"1fd520e3-6460-444c-8267-f60503bf521a","content":"GREEN APPLE","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"250","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
+<h2 id="wd-1fd520e3" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_250">GREEN APPLE</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"61acc1e9-fc28-43f5-9152-be3869804a60","textAlign":"end","content":"ICE CREAM","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em","marginBottomMobile":"25"} -->
-<h2 id="wd-61acc1e9" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">ICE CREAM</h2>
+<!-- wp:wd/title {"blockId":"61acc1e9-fc28-43f5-9152-be3869804a60","content":"ICE CREAM","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em","marginBottomMobile":"25"} -->
+<h2 id="wd-61acc1e9" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">ICE CREAM</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"d674c3f0-c4b8-4b09-9549-4e1825ebe4d9","textAlign":"end","tpFontSize":"16","marginBottom":"25","animation":"slide-from-bottom","animationDelay":"450","animationDuration":"600","hideOnMobile":true,"textAlignMobile":"start"} -->
-<p id="wd-d674c3f0" class="wp-block-wd-paragraph wd-align wd-hide-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450">IT IS A LONG ESTABLISHED FACT THAT A READER WILL</p>
+<!-- wp:wd/paragraph {"blockId":"d674c3f0-c4b8-4b09-9549-4e1825ebe4d9","tpFontSize":"16","marginBottom":"25","animation":"slide-from-bottom","animationDelay":"450","animationDuration":"600","hideOnMobile":true} -->
+<p id="wd-d674c3f0" class="wp-block-wd-paragraph wd-hide-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450">IT IS A LONG ESTABLISHED FACT THAT A READER WILL</p>
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/container {"blockId":"d2d885c3-f534-4777-867a-b28048744372","direction":"row","animation":"slide-from-bottom","animationDelay":"550","animationDuration":"600","displayWidth":"fit-content","directionTablet":"row","directionMobile":"row"} -->
@@ -554,21 +554,21 @@
 
 <!-- wp:wd/slider-item {"blockId":"c9fa8077-877b-449e-b4e2-bf98af841402","effect":"fade","colorScheme":"light","bgImage":{"id":23854,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-bg-2-opt.jpg"},"bgColorCode":"#fcbc54"} -->
 <div id="wd-c9fa8077" class="wp-block-wd-slider-item wd-slide wd-carousel-item color-scheme-light"><div class="wd-slide-container"><!-- wp:wd/row {"blockId":"a6868906-9230-4d2d-ad54-2422dd886938","columnsGapMobile":0,"marginTopMobile":"40"} -->
-<div id="wd-a6868906" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"7014e6db-9324-4dc6-8f72-50653e3566c3","adjacentCount":2,"colWidth":50,"blocksGap":0,"justifyContent":"center","paddingLeft":"7","paddingUnits":"%","alignItemsMobile":"center","paddingLeftMobile":"0","flexOrderMobile":"2"} -->
-<div id="wd-7014e6db" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/title {"blockId":"fe2aac52-6c4a-487f-a8c9-f42c97e9f526","content":"JUICE","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"150","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
-<h2 id="wd-fe2aac52" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_150">JUICE</h2>
+<div id="wd-a6868906" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"7014e6db-9324-4dc6-8f72-50653e3566c3","adjacentCount":2,"colWidth":50,"blocksGap":0,"justifyContent":"center","paddingLeft":"7","paddingUnits":"%","textAlignMobile":"center","paddingLeftMobile":"0","flexOrderMobile":"2"} -->
+<div id="wd-7014e6db" class="wp-block-wd-column wd-align"><!-- wp:wd/title {"blockId":"fe2aac52-6c4a-487f-a8c9-f42c97e9f526","content":"JUICE","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"150","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
+<h2 id="wd-fe2aac52" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_150">JUICE</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"798a3197-d7e1-4354-8290-74ce9a52298f","content":"IS THE BEST","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"250","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
-<h2 id="wd-798a3197" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_250">IS THE BEST</h2>
+<!-- wp:wd/title {"blockId":"798a3197-d7e1-4354-8290-74ce9a52298f","content":"IS THE BEST","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"250","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
+<h2 id="wd-798a3197" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_250">IS THE BEST</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"59a31ec1-c3de-4191-b28b-9f52f135f833","content":"DRINK FOR YOU","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em","marginBottomMobile":"25"} -->
-<h2 id="wd-59a31ec1" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">DRINK FOR YOU</h2>
+<!-- wp:wd/title {"blockId":"59a31ec1-c3de-4191-b28b-9f52f135f833","content":"DRINK FOR YOU","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em","marginBottomMobile":"25"} -->
+<h2 id="wd-59a31ec1" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">DRINK FOR YOU</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"a0432102-7358-4022-93fb-df431bcda88b","tpFontSize":"16","marginBottom":"25","animation":"slide-from-bottom","animationDelay":"450","animationDuration":"600","hideOnMobile":true,"textAlignMobile":"start"} -->
-<p id="wd-a0432102" class="wp-block-wd-paragraph wd-align wd-hide-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450">IT IS A LONG ESTABLISHED FACT THAT A READER WILL</p>
+<!-- wp:wd/paragraph {"blockId":"a0432102-7358-4022-93fb-df431bcda88b","tpFontSize":"16","marginBottom":"25","animation":"slide-from-bottom","animationDelay":"450","animationDuration":"600","hideOnMobile":true} -->
+<p id="wd-a0432102" class="wp-block-wd-paragraph wd-hide-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450">IT IS A LONG ESTABLISHED FACT THAT A READER WILL</p>
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/container {"blockId":"bb14dc8b-750e-4ed7-8221-8e5cf29e7df4","direction":"row","animation":"slide-from-bottom","animationDelay":"550","animationDuration":"600","displayWidth":"fit-content","directionTablet":"row","directionMobile":"row"} -->
@@ -598,21 +598,21 @@
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column -->
 
-<!-- wp:wd/column {"blockId":"5bbe010e-563a-4658-a74b-9918864ec89a","adjacentCount":2,"colWidth":50,"blocksGap":0,"alignItems":"flex-end","justifyContent":"center","paddingRight":"7","paddingUnits":"%","alignItemsMobile":"center","paddingRightMobile":"0","paddingUnitsMobile":"%"} -->
-<div id="wd-5bbe010e" class="wp-block-wd-column wd-align-is-lg-flex-end wd-align-is-sm-center"><!-- wp:wd/title {"blockId":"fd839d4a-b649-484e-87e5-518d9b7a3dfc","textAlign":"end","content":"ORGANIC","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"150","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
-<h2 id="wd-fd839d4a" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_150">ORGANIC</h2>
+<!-- wp:wd/column {"blockId":"5bbe010e-563a-4658-a74b-9918864ec89a","adjacentCount":2,"colWidth":50,"blocksGap":0,"justifyContent":"center","textAlign":"end","paddingRight":"7","paddingUnits":"%","textAlignMobile":"center","paddingRightMobile":"0","paddingUnitsMobile":"%"} -->
+<div id="wd-5bbe010e" class="wp-block-wd-column wd-align"><!-- wp:wd/title {"blockId":"fd839d4a-b649-484e-87e5-518d9b7a3dfc","content":"ORGANIC","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"150","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
+<h2 id="wd-fd839d4a" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_150">ORGANIC</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"5b78d4e6-66ca-44ed-9447-8a728dbd55a1","textAlign":"end","content":"SUN DRIED","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"250","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
-<h2 id="wd-5b78d4e6" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_250">SUN DRIED</h2>
+<!-- wp:wd/title {"blockId":"5b78d4e6-66ca-44ed-9447-8a728dbd55a1","content":"SUN DRIED","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","animation":"slide-from-bottom","animationDelay":"250","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em"} -->
+<h2 id="wd-5b78d4e6" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_250">SUN DRIED</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"3e1a34dc-bc57-444e-95cd-c25cc9faaf8f","textAlign":"end","content":"EXOTIC FRUITS","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","animationDuration":"600","textAlignMobile":"center","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em","marginBottomMobile":"25"} -->
-<h2 id="wd-3e1a34dc" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">EXOTIC FRUITS</h2>
+<!-- wp:wd/title {"blockId":"3e1a34dc-bc57-444e-95cd-c25cc9faaf8f","content":"EXOTIC FRUITS","tpFontSize":"66","tpLineHeight":"1.3","tpFontVariant":"700","tpFontWeight":"700","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","animationDuration":"600","tpFontSizeTablet":"42","tpFontSizeMobile":"32","tpLineHeightUnits":"em","marginBottomMobile":"25"} -->
+<h2 id="wd-3e1a34dc" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">EXOTIC FRUITS</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"58578f30-3dbc-4da1-b321-7235fa58c2c4","textAlign":"end","tpFontSize":"16","marginBottom":"25","animation":"slide-from-bottom","animationDelay":"450","animationDuration":"600","hideOnMobile":true,"textAlignMobile":"start"} -->
-<p id="wd-58578f30" class="wp-block-wd-paragraph wd-align wd-hide-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450">IT IS A LONG ESTABLISHED FACT THAT A READER WILL</p>
+<!-- wp:wd/paragraph {"blockId":"58578f30-3dbc-4da1-b321-7235fa58c2c4","tpFontSize":"16","marginBottom":"25","animation":"slide-from-bottom","animationDelay":"450","animationDuration":"600","hideOnMobile":true} -->
+<p id="wd-58578f30" class="wp-block-wd-paragraph wd-hide-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450">IT IS A LONG ESTABLISHED FACT THAT A READER WILL</p>
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/container {"blockId":"67da45fe-f90b-4675-a786-29afd9981b18","direction":"row","animation":"slide-from-bottom","animationDelay":"550","animationDuration":"600","displayWidth":"fit-content","directionTablet":"row","directionMobile":"row"} -->
@@ -799,8 +799,8 @@
 <!-- wp:wd/container {"blockId":"2556e871-9b1d-4b47-bfcc-a308d523b76e"} -->
 <div id="wd-2556e871" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/products-tabs {"blockId":"720c1213-ad9f-4076-8ff3-faaed8e97d0c"} -->
 <div id="wd-720c1213" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-default wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"0b0fa567-51ba-4e48-9f58-343f24bf0aaa","hasTitle":false,"titleStyle":"underline","iconAlign":"top","alignment":"center"} -->
-<div id="wd-0b0fa567" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-top wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"25722aaf-3acb-48ab-a80b-87ecd848360a","title":"ICE CREAM","icon":{"id":23870,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg"},"layout":"carousel","items_per_page":"10","slides_per_view":"5","hide_pagination_control":true,"sync_parent_id":"wd_25722aaf","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
-<li id="wd-25722aaf" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;layout&quot;:&quot;carousel&quot;,&quot;items_per_page&quot;:&quot;10&quot;,&quot;slides_per_view&quot;:&quot;5&quot;,&quot;hide_pagination_control&quot;:&quot;yes&quot;,&quot;el_id&quot;:&quot;wd-25722aaf&quot;}"><a href="#" class="wd-nav-link"><div class="img-wrapper"><img src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg" class="wp-image-23870" /></div><span class="tab-label nav-link-text">ICE CREAM</span></a></li>
+<div id="wd-0b0fa567" class="wp-block-wd-products-tabs-header wd-tabs-header wd-align"><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-top wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"a1d51b94-92f3-472d-98c5-c940bc2e4ef2","title":"ICE CREAM","icon":{"id":23870,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg"},"layout":"carousel","items_per_page":"10","slides_per_view":"5","hide_pagination_control":true,"sync_parent_id":"wd_25722aaf","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
+<li id="wd-a1d51b94" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;layout&quot;:&quot;carousel&quot;,&quot;items_per_page&quot;:&quot;10&quot;,&quot;slides_per_view&quot;:&quot;5&quot;,&quot;hide_pagination_control&quot;:&quot;yes&quot;,&quot;el_id&quot;:&quot;wd-a1d51b94&quot;}"><a href="#" class="wd-nav-link"><div class="img-wrapper"><img src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg" class="wp-image-23870" /></div><span class="tab-label nav-link-text">ICE CREAM</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"91c6306f-907c-47d0-b4f6-6db912593213","title":"FRUIT TEA","icon":{"id":24106,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-fruit-tea-ico-1.svg"},"order":"DESC","layout":"carousel","items_per_page":"10","slides_per_view":"5","hide_pagination_control":true,"sync_parent_id":"wd_91c6306f","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} -->
@@ -820,7 +820,7 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"25722aaf-3acb-48ab-a80b-87ecd848360a","title":"ICE CREAM","icon":{"id":23870,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg"},"layout":"carousel","items_per_page":"10","slides_per_view":"5","hide_pagination_control":true,"sync_parent_id":"wd_25722aaf","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"e77ea3ad-b16a-4f2f-b103-d95f3f6e0189","title":"ICE CREAM","icon":{"id":23870,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg"},"layout":"carousel","items_per_page":"10","slides_per_view":"5","hide_pagination_control":true,"sync_parent_id":"wd_25722aaf","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /--></div>
 <!-- /wp:wd/products-tabs --></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/section -->
@@ -1305,8 +1305,8 @@
 															<wp:post_id>23845</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:13:10]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-07-04 12:13:10]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 14:58:15]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 14:58:15]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-21 14:29:53]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-21 14:29:53]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-organic]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1342,7 +1342,7 @@
 					<title><![CDATA[organic-slide-bg-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-slide-bg-1-opt/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-bg-1-opt.jpg</guid>
 															<wp:post_id>23852</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:22]]></wp:post_date>
@@ -1365,7 +1365,7 @@
 					<title><![CDATA[organic-slide-1-img-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-slide-1-img-opt/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-1-img-opt.png</guid>
 															<wp:post_id>23853</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:23]]></wp:post_date>
@@ -1388,7 +1388,7 @@
 					<title><![CDATA[organic-slide-bg-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-slide-bg-2-opt/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-bg-2-opt.jpg</guid>
 															<wp:post_id>23854</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:24]]></wp:post_date>
@@ -1411,7 +1411,7 @@
 					<title><![CDATA[organic-slide-2-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-slide-2-img/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-2-img.png</guid>
 															<wp:post_id>23855</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:24]]></wp:post_date>
@@ -1434,7 +1434,7 @@
 					<title><![CDATA[organic-slide-bg-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-slide-bg-3-opt/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-bg-3-opt.jpg</guid>
 															<wp:post_id>23856</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:25]]></wp:post_date>
@@ -1457,7 +1457,7 @@
 					<title><![CDATA[organic-slide-3-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-slide-3-img/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-slide-3-img.png</guid>
 															<wp:post_id>23857</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:25]]></wp:post_date>
@@ -1480,7 +1480,7 @@
 					<title><![CDATA[organic-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-banner-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-banner-1.jpg</guid>
 															<wp:post_id>23858</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:38]]></wp:post_date>
@@ -1503,7 +1503,7 @@
 					<title><![CDATA[organic-banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-banner-2/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-banner-2.jpg</guid>
 															<wp:post_id>23859</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:38]]></wp:post_date>
@@ -1526,7 +1526,7 @@
 					<title><![CDATA[organic-banner-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-banner-3/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-banner-3.jpg</guid>
 															<wp:post_id>23860</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:39]]></wp:post_date>
@@ -1549,7 +1549,7 @@
 					<title><![CDATA[organic-banner-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-banner-4/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-banner-4.jpg</guid>
 															<wp:post_id>23861</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:39]]></wp:post_date>
@@ -1572,7 +1572,7 @@
 					<title><![CDATA[organic-fruit-jam-ico]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-fruit-jam-ico/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-fruit-jam-ico.svg</guid>
 															<wp:post_id>23864</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:53]]></wp:post_date>
@@ -1595,7 +1595,7 @@
 					<title><![CDATA[organic-icecream-ico]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-icecream-ico/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-ico.svg</guid>
 															<wp:post_id>23870</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:56]]></wp:post_date>
@@ -1618,7 +1618,7 @@
 					<title><![CDATA[organic-svg-title-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-svg-title-img/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-svg-title-img.svg</guid>
 															<wp:post_id>23873</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:57]]></wp:post_date>
@@ -1641,7 +1641,7 @@
 					<title><![CDATA[organic-fullwidth-row-prod-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-fullwidth-row-prod-bg/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-fullwidth-row-prod-bg.jpg</guid>
 															<wp:post_id>23875</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:07]]></wp:post_date>
@@ -1664,7 +1664,7 @@
 					<title><![CDATA[organic-left-img-apricot]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-left-img-apricot/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-left-img-apricot.png</guid>
 															<wp:post_id>23877</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:08]]></wp:post_date>
@@ -1687,7 +1687,7 @@
 					<title><![CDATA[organic-blog-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-8/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-8.jpg</guid>
 															<wp:post_id>23911</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:12]]></wp:post_date>
@@ -1710,7 +1710,7 @@
 					<title><![CDATA[organic-blog-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-blog-9/</link>
 					<pubDate>Thu, 04 Jul 2024 12:18:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-blog-9.jpg</guid>
 															<wp:post_id>23912</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:18:12]]></wp:post_date>
@@ -1733,7 +1733,7 @@
 					<title><![CDATA[organic-fruit-tea-ico (1)]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-organic/organic-fruit-tea-ico-1/</link>
 					<pubDate>Thu, 04 Jul 2024 15:37:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-fruit-tea-ico-1.svg</guid>
 															<wp:post_id>24106</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 15:37:11]]></wp:post_date>
@@ -1756,7 +1756,7 @@
 					<title><![CDATA[organic-juice-ico]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-organic/organic-juice-ico-2/</link>
 					<pubDate>Thu, 04 Jul 2024 15:38:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-juice-ico-1.svg</guid>
 															<wp:post_id>24108</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 15:38:56]]></wp:post_date>
@@ -1779,7 +1779,7 @@
 					<title><![CDATA[wd-mobile-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-shoes/wd-mobile-light/</link>
 					<pubDate>Wed, 15 May 2024 10:01:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-mobile-light.svg</guid>
 															<wp:post_id>11506</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 10:01:32]]></wp:post_date>
@@ -1802,7 +1802,7 @@
 					<title><![CDATA[wd-paper-plane-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-shoes/wd-paper-plane-light/</link>
 					<pubDate>Wed, 15 May 2024 10:01:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-paper-plane-light.svg</guid>
 															<wp:post_id>11507</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 10:01:33]]></wp:post_date>
@@ -1825,7 +1825,7 @@
 					<title><![CDATA[wd-pointer-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-shoes/wd-pointer-light/</link>
 					<pubDate>Wed, 15 May 2024 10:01:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-pointer-light.svg</guid>
 															<wp:post_id>11508</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 10:01:34]]></wp:post_date>
@@ -1848,7 +1848,7 @@
 					<title><![CDATA[wood-testimon-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/wood-testimon-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:40:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wood-testimon-2.jpg</guid>
 															<wp:post_id>14031</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:40:04]]></wp:post_date>
@@ -1871,7 +1871,7 @@
 					<title><![CDATA[cars-testimon-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/cars-testimon-1/</link>
 					<pubDate>Mon, 10 Jun 2024 06:10:44 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/cars-testimon-1.jpg</guid>
 															<wp:post_id>14799</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 06:10:44]]></wp:post_date>
@@ -1894,7 +1894,7 @@
 					<title><![CDATA[cars-testimon-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/cars-testimon-3/</link>
 					<pubDate>Mon, 10 Jun 2024 06:10:44 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/cars-testimon-3.jpg</guid>
 															<wp:post_id>14800</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 06:10:44]]></wp:post_date>
@@ -1917,7 +1917,7 @@
 					<title><![CDATA[handmade-testimonials-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/handmade-testimonials-2/</link>
 					<pubDate>Mon, 17 Jun 2024 13:25:19 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-2.jpg</guid>
 															<wp:post_id>16661</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-17 13:25:19]]></wp:post_date>
@@ -1940,7 +1940,7 @@
 					<title><![CDATA[organic-Forma-1-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-forma-1-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-Forma-1-1.svg</guid>
 															<wp:post_id>23862</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:53]]></wp:post_date>
@@ -1963,7 +1963,7 @@
 					<title><![CDATA[organic-Forma-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-forma-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-Forma-1.svg</guid>
 															<wp:post_id>23863</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:53]]></wp:post_date>
@@ -1986,7 +1986,7 @@
 					<title><![CDATA[organic-hitwork-svg-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-hitwork-svg-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-hitwork-svg-1.svg</guid>
 															<wp:post_id>23866</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:54]]></wp:post_date>
@@ -2009,7 +2009,7 @@
 					<title><![CDATA[organic-hitwork-svg-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-hitwork-svg-2/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-hitwork-svg-2.svg</guid>
 															<wp:post_id>23867</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:55]]></wp:post_date>
@@ -2032,7 +2032,7 @@
 					<title><![CDATA[organic-hitwork-svg-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-hitwork-svg-3/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-hitwork-svg-3.svg</guid>
 															<wp:post_id>23868</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:55]]></wp:post_date>
@@ -2055,7 +2055,7 @@
 					<title><![CDATA[organic-hitwork-svg-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-hitwork-svg-4/</link>
 					<pubDate>Thu, 04 Jul 2024 12:16:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-hitwork-svg-4.svg</guid>
 															<wp:post_id>23869</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:16:55]]></wp:post_date>
@@ -2078,7 +2078,7 @@
 					<title><![CDATA[ogranic-1-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/ogranic-1-bg/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/ogranic-1-bg.png</guid>
 															<wp:post_id>23874</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:06]]></wp:post_date>
@@ -2101,7 +2101,7 @@
 					<title><![CDATA[organic-icecream-row-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-icecream-row-bg/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-icecream-row-bg.jpg</guid>
 															<wp:post_id>23876</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:07]]></wp:post_date>
@@ -2124,7 +2124,7 @@
 					<title><![CDATA[organic-product]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-product/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-product.png</guid>
 															<wp:post_id>23878</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:09]]></wp:post_date>
@@ -2147,7 +2147,7 @@
 					<title><![CDATA[organic-inst-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-1.jpg</guid>
 															<wp:post_id>23879</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:22]]></wp:post_date>
@@ -2170,7 +2170,7 @@
 					<title><![CDATA[organic-inst-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-2/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-2.jpg</guid>
 															<wp:post_id>23880</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:23]]></wp:post_date>
@@ -2193,7 +2193,7 @@
 					<title><![CDATA[organic-inst-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-3/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-3.jpg</guid>
 															<wp:post_id>23881</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:23]]></wp:post_date>
@@ -2216,7 +2216,7 @@
 					<title><![CDATA[organic-powder-ico]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-organic/organic-powder-ico-2/</link>
 					<pubDate>Thu, 04 Jul 2024 15:38:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-powder-ico-1.svg</guid>
 															<wp:post_id>24109</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 15:38:57]]></wp:post_date>
@@ -2239,7 +2239,7 @@
 					<title><![CDATA[organic-inst-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-4/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-4.jpg</guid>
 															<wp:post_id>23882</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:23]]></wp:post_date>
@@ -2262,7 +2262,7 @@
 					<title><![CDATA[organic-inst-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-5/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-5.jpg</guid>
 															<wp:post_id>23883</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:24]]></wp:post_date>
@@ -2285,7 +2285,7 @@
 					<title><![CDATA[organic-inst-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-6/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-6.jpg</guid>
 															<wp:post_id>23884</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:24]]></wp:post_date>
@@ -2308,7 +2308,7 @@
 					<title><![CDATA[organic-inst-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-7/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-7.jpg</guid>
 															<wp:post_id>23885</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:25]]></wp:post_date>
@@ -2331,7 +2331,7 @@
 					<title><![CDATA[organic-inst-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-8/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-8.jpg</guid>
 															<wp:post_id>23886</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:25]]></wp:post_date>
@@ -2354,7 +2354,7 @@
 					<title><![CDATA[organic-inst-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-inst-9/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-inst-9.jpg</guid>
 															<wp:post_id>23887</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:26]]></wp:post_date>
@@ -2377,7 +2377,7 @@
 					<title><![CDATA[organic-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-1/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-1.jpg</guid>
 															<wp:post_id>23888</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:33]]></wp:post_date>
@@ -2400,7 +2400,7 @@
 					<title><![CDATA[organic-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-2/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-2.jpg</guid>
 															<wp:post_id>23889</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:33]]></wp:post_date>
@@ -2423,7 +2423,7 @@
 					<title><![CDATA[organic-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-3/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-3.jpg</guid>
 															<wp:post_id>23890</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:33]]></wp:post_date>
@@ -2446,7 +2446,7 @@
 					<title><![CDATA[organic-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/organic-4/</link>
 					<pubDate>Thu, 04 Jul 2024 12:17:34 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/07/organic-4.jpg</guid>
 															<wp:post_id>23891</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-04 12:17:34]]></wp:post_date>

@@ -679,10 +679,10 @@ window.addEventListener('load',function() {
 					}
 				}
 
-				if ($this.parents('.tabs-layout-accordion')) {
+				if ($this.parents('.tabs-layout-accordion').length) {
 					setTimeout(function() {
 						if (woodmartThemeModule.$window.width() < 1024 && currentIndex > oldIndex) {
-							var $header = $('.sticky-header');
+							var $header = $('.whb-sticky-header');
 							var headerHeight = $header.length > 0 ? $header.outerHeight() : 0;
 							$('html, body').animate({
 								scrollTop: $this.offset().top - $this.outerHeight() - headerHeight - 50
@@ -1902,6 +1902,79 @@ window.addEventListener('load',function() {
 	woodmartThemeModule.sliderLazyLoad();
 });
 
+/* global woodmart_settings */
+(function($) {
+	woodmartThemeModule.$document.on('wdHeaderBuilderInited', function () {
+		woodmartThemeModule.stickyColumns();
+	});
+
+	$.each([
+		'frontend/element_ready/container',
+		'frontend/element_ready/wd_sticky_columns.default'
+	], function(index, value) {
+		woodmartThemeModule.wdElementorAddAction(value, function() {
+			woodmartThemeModule.stickyColumns();
+		});
+	});
+
+	woodmartThemeModule.stickyColumns = function() {
+		var $elements = $('.wd-sticky-columns[class*="wd-sticky-on-"]');
+
+		$elements.each(function() {
+			var $wrapper = $(this);
+			var $columnFirst = $wrapper.find('.wd-sticky-columns-inner > .wd-col:first-child > div');
+			var $columnSecond = $wrapper.find('.wd-sticky-columns-inner > .wd-col:last-child > div');
+			var classes = $wrapper.attr('class').split(' ');
+			var offset = 150;
+
+			for (var index = 0; index < classes.length; index++) {
+				if (classes[index].indexOf('wd_sticky_offset_') >= 0) {
+					var data = classes[index].split('_');
+					offset = parseInt(data[3]);
+				}
+			}
+
+			var diff = $columnFirst.outerHeight() - $columnSecond.outerHeight();
+
+			if (diff < -100) {
+				stickyInit($columnFirst, offset);
+			} else if (diff > 100) {
+				stickyInit($columnSecond, offset);
+			}
+
+			woodmartThemeModule.$window.on('resize', woodmartThemeModule.debounce(function() {
+				var diff = $columnFirst.outerHeight() - $columnSecond.outerHeight();
+
+				if (diff < -100) {
+					stickyInit($columnFirst, offset);
+				} else if (diff > 100) {
+					stickyInit($columnSecond, offset);
+				}
+			}, 300));
+		});
+
+		function stickyInit($column, offset) {
+			var windowWidth = woodmartThemeModule.$window.width();
+			var $wrapper = $column.closest('.wd-sticky-columns');
+
+			$column.trigger('sticky_kit:detach');
+			$column.siblings().trigger('sticky_kit:detach');
+
+			if ( ( ! $wrapper.hasClass('wd-sticky-on-lg') && windowWidth > 1024 ) || ( ! $wrapper.hasClass('wd-sticky-on-md-sm') && windowWidth <= 1024 && windowWidth > 768 ) || ( ! $wrapper.hasClass('wd-sticky-on-sm') && windowWidth <= 768 ) ) {
+				return;
+			}
+
+			$column.stick_in_parent({
+				offset_top: offset
+			});
+		}
+	};
+
+	$(document).ready(function() {
+		woodmartThemeModule.stickyColumns();
+	});
+})(jQuery);
+
 (function($) {
 	$.each([
 		'frontend/element_ready/wd_single_product_stock_status.default',
@@ -2335,34 +2408,6 @@ window.addEventListener('load',function() {
 	});
 })(jQuery);
 
-jQuery( window ).on('elementor/nested-element-type-loaded', async () => {
-	class NestedCarousel extends elementor.modules.elements.types.NestedElementBase {
-		getType() {
-			return 'wd_nested_carousel';
-		}
-	}
-
-	class Module {
-		constructor() {
-			elementor.elementsManager.registerElementType( new NestedCarousel() );
-		}
-	}
-
-	new Module();
-});
-
-jQuery( window ).on('elementor/frontend/init', function() {
-	if (!elementorFrontend.isEditMode()) {
-		return;
-	}
-
-	elementorFrontend.hooks.addAction('frontend/element_ready/container', function($wrapper) {
-		if ( $wrapper.parent().hasClass('wd-carousel-wrap') ) {
-			$wrapper.addClass('wd-carousel-item');
-		}
-	});
-});
-
 /* global woodmart_settings */
 (function($) {
 	woodmartThemeModule.ageVerify = function() {
@@ -2475,10 +2520,6 @@ jQuery( window ).on('elementor/frontend/init', function() {
 					'post_type': postType,
 				};
 
-				if ( isFullScreen2 ) {
-					$parentResult.removeClass('wd-no-results');
-				}
-
 				if ( ! $input.hasClass('wd-search-inited') ) {
 					$input.devbridgeAutocomplete({
 						serviceUrl      : url,
@@ -2491,6 +2532,10 @@ jQuery( window ).on('elementor/frontend/init', function() {
 							}
 						},
 						onHide          : function() {
+							if ( isFullScreen2 ) {
+								$parentResult.removeClass('wd-no-results');
+							}
+
 							$parentResult.removeClass('wd-opened');
 						},
 						onSearchStart   : function() {
@@ -2549,8 +2594,12 @@ jQuery( window ).on('elementor/frontend/init', function() {
 								returnValue = '<span class="no-found-msg">' + suggestion.value + '</span>';
 							}
 
-							if (isFullScreen2 && suggestion.no_results) {
-								$parentResult.addClass('wd-no-results');
+							if ( isFullScreen2 ) {
+								if (suggestion.no_results) {
+									$parentResult.addClass('wd-no-results');
+								} else {
+									$parentResult.removeClass('wd-no-results');
+								}
 							}
 
 							$parentResult.addClass('wd-opened');
@@ -2599,6 +2648,10 @@ jQuery( window ).on('elementor/frontend/init', function() {
 	};
 
 	$(document).ready(function() {
+		woodmartThemeModule.ajaxSearch();
+	});
+
+	window.addEventListener('wdUpdatedHeader',function() {
 		woodmartThemeModule.ajaxSearch();
 	});
 })(jQuery);
@@ -2677,7 +2730,7 @@ jQuery( window ).on('elementor/frontend/init', function() {
 	});
 
 	woodmartThemeModule.backHistory = function() {
-		$('.wd-back-btn > a').on('click', function(e) {
+		$('.wd-back-btn > a').off('click').on('click', function(e) {
 			e.preventDefault();
 
 			history.go(-1);
@@ -2723,12 +2776,22 @@ jQuery( window ).on('elementor/frontend/init', function() {
 
 	woodmartThemeModule.btnsToolTips = function() {
 		// Bootstrap tooltips
-		$(woodmart_settings.tooltip_top_selector).on('mouseenter touchstart', function() {
+		$(woodmart_settings.tooltip_top_selector).on('mouseenter', function() {
 			initTooltip($(this), 'top');
 		});
+		document.querySelectorAll(woodmart_settings.tooltip_top_selector).forEach(el => {
+			el.addEventListener('touchstart', function(event) {
+				initTooltip($(this), 'top');
+			}, { passive: true });
+		});
 
-		$(woodmart_settings.tooltip_left_selector).on('mouseenter touchstart', function() {
+		$(woodmart_settings.tooltip_left_selector).on('mouseenter', function() {
 			initTooltip($(this), woodmartThemeModule.$body.hasClass('rtl') ? 'right' : 'left');
+		});
+		document.querySelectorAll(woodmart_settings.tooltip_left_selector).forEach(el => {
+			el.addEventListener('touchstart', function(event) {
+				initTooltip($(this), woodmartThemeModule.$body.hasClass('rtl') ? 'right' : 'left');
+			}, { passive: true });
 		});
 
 		function initTooltip( $this, placement ) {
@@ -2782,7 +2845,7 @@ jQuery( window ).on('elementor/frontend/init', function() {
 			return;
 		}
 
-		$tooltip.tooltip('update').tooltip('show');
+		$tooltip.tooltip('show');
 	};
 
 	$(document).ready(function() {
@@ -2850,6 +2913,58 @@ jQuery( window ).on('elementor/frontend/init', function() {
 		gallery.init();
 	};
 })(jQuery);
+
+woodmartThemeModule.$document.on('wdShopPageInit', function () {
+	woodmartThemeModule.clearSearch();
+});
+
+jQuery.each([
+	'frontend/element_ready/wd_search.default'
+], function(index, value) {
+	woodmartThemeModule.wdElementorAddAction(value, function() {
+		woodmartThemeModule.clearSearch();
+	});
+});
+
+woodmartThemeModule.clearSearch = function() {
+	var buttons = document.querySelectorAll('form .wd-clear-search');
+
+	buttons.forEach(function(button) {
+		var form  = button.closest('form');
+		var input = form.querySelector('input');
+
+		if (input) {
+			toggleClearButton(input, button);
+
+			input.addEventListener('keyup', function() {
+				toggleClearButton(input, button);
+			});
+		}
+
+		button.addEventListener('click', function(e) {
+			e.preventDefault();
+
+			var input   = button.parentNode.querySelector('input');
+			input.value = '';
+
+			input.dispatchEvent(new Event('keyup'));
+			input.dispatchEvent(new Event('focus'));
+		});
+	});
+
+	function toggleClearButton(serachInput, clearButton) {
+		if (serachInput.value.length) {
+			clearButton.classList.remove('wd-hide');
+		} else {
+			clearButton.classList.add('wd-hide')
+			serachInput.classList.remove('wd-search-inited');
+		}
+	}
+}
+
+window.addEventListener('wdEventStarted', function() {
+	woodmartThemeModule.clearSearch();
+});
 
 /* global woodmart_settings */
 (function($) {
@@ -2997,8 +3112,13 @@ jQuery( window ).on('elementor/frontend/init', function() {
 	woodmartThemeModule.hiddenSidebar = function() {
 		var position = woodmartThemeModule.$body.hasClass('rtl') ? 'right' : 'left';
 		var $sidebarWrapper = $('.wd-content-layout');
+		var windowWidth = woodmartThemeModule.windowWidth;
 
-		if ($sidebarWrapper.hasClass('wd-sidebar-hidden-lg') && woodmartThemeModule.windowWidth > 1024 || $sidebarWrapper.hasClass('wd-sidebar-hidden-md-sm') && woodmartThemeModule.windowWidth <= 1024 && woodmartThemeModule.windowWidth > 768 || $sidebarWrapper.hasClass('wd-sidebar-hidden-sm') && woodmartThemeModule.windowWidth <= 768) {
+		if ('undefined' !== typeof elementor && elementor.hasOwnProperty('$preview') && elementor.$preview.width()) {
+			windowWidth = elementor.$preview.width();
+		}
+
+		if ($sidebarWrapper.hasClass('wd-sidebar-hidden-lg') && windowWidth > 1024 || $sidebarWrapper.hasClass('wd-sidebar-hidden-md-sm') && windowWidth <= 1024 && windowWidth > 768 || $sidebarWrapper.hasClass('wd-sidebar-hidden-sm') && windowWidth <= 768) {
 			$('.wd-sidebar').addClass('wd-side-hidden wd-' + position + ' wd-scroll');
 			$('.wd-sidebar .widget-area').addClass('wd-scroll-content');
 		}
@@ -3086,10 +3206,15 @@ jQuery( window ).on('elementor/frontend/init', function() {
 			return;
 		}
 
-		var pItem = document.querySelectorAll('[data-wood-src]'), pCount, timer;
+		var pItem = document.querySelectorAll('img[data-src], source[data-srcset]');
+		var bgItem = document.querySelectorAll('.wd-lazy-bg');
+		var pCount;
+		var bgCount;
+		var timer;
 
 		woodmartThemeModule.$document.on('wood-images-loaded added_to_cart updated_cart_totals updated_checkout wc_fragments_refreshed', function() {
-			pItem = document.querySelectorAll('[data-wood-src]');
+			pItem = document.querySelectorAll('img[data-src], source[data-srcset]');
+			bgItem = document.querySelectorAll('.wd-lazy-bg');
 
 			inView();
 		});
@@ -3105,6 +3230,10 @@ jQuery( window ).on('elementor/frontend/init', function() {
 
 		// WooCommerce tabs fix
 		$('.wc-tabs > li').on('click', function() {
+			woodmartThemeModule.$document.trigger('wood-images-loaded');
+		});
+
+		$('.wd-side-hidden').on('scroll', function () {
 			woodmartThemeModule.$document.trigger('wood-images-loaded');
 		});
 
@@ -3141,24 +3270,42 @@ jQuery( window ).on('elementor/frontend/init', function() {
 
 		// image in view?
 		function inView() {
-			if (pItem.length) {
+			if (pItem.length || bgItem.length) {
 				requestAnimationFrame(function() {
 					var offset = parseInt(woodmart_settings.lazy_loading_offset);
-					var wT = window.pageYOffset, wB = wT + window.innerHeight + offset, cRect, pT, pB, p = 0;
+					var wT = window.pageYOffset, wB = wT + window.innerHeight + offset, cRect, pT, pB, p = 0, b = 0;
 
-					while (p < pItem.length) {
-						cRect = pItem[p].getBoundingClientRect();
-						pT = wT + cRect.top;
-						pB = pT + cRect.height;
+					if (pItem.length) {
+						while (p < pItem.length) {
+							cRect = pItem[p].getBoundingClientRect();
+							pT = wT + cRect.top;
+							pB = pT + cRect.height;
 
-						if (wT < pB && wB > pT && !pItem[p].loaded) {
-							loadFullImage(pItem[p], p);
-						} else {
-							p++;
+							if (wT < pB && wB > pT && !pItem[p].loaded) {
+								loadFullImage(pItem[p], p);
+							} else {
+								p++;
+							}
 						}
+
+						pCount = pItem.length;
 					}
 
-					pCount = pItem.length;
+					if (bgItem.length) {
+						while (b < bgItem.length) {
+							cRect = bgItem[b].getBoundingClientRect();
+							pT = wT + cRect.top;
+							pB = pT + cRect.height;
+
+							if (wT < pB && wB > pT && bgItem[b].classList.contains('wd-lazy-bg')) {
+								bgItem[b].classList.remove('wd-lazy-bg');
+							} else {
+								b++;
+							}
+						}
+
+						bgCount = bgItem.length;
+					}
 				});
 			}
 		}
@@ -3169,15 +3316,18 @@ jQuery( window ).on('elementor/frontend/init', function() {
 
 			if (item.querySelector('img') !== null) {
 				item.querySelector('img').onload = addedImg;
-				item.querySelector('img').src = item.dataset.woodSrc;
-				item.querySelector('source').srcset = item.dataset.woodSrc;
+				item.querySelector('img').src = item.dataset.src;
+				item.querySelector('source').srcset = item.dataset.src;
 
 				if (typeof (item.dataset.srcset) != 'undefined') {
 					item.querySelector('img').srcset = item.dataset.srcset;
 				}
 			}
 
-			item.src = item.dataset.woodSrc;
+			if (typeof (item.dataset.src) != 'undefined') {
+				item.src = item.dataset.src;
+			}
+
 			if (typeof (item.dataset.srcset) != 'undefined') {
 				item.srcset = item.dataset.srcset;
 			}
@@ -3189,6 +3339,12 @@ jQuery( window ).on('elementor/frontend/init', function() {
 				requestAnimationFrame(function() {
 					if (item.classList.contains('wd-lazy-fade') || item.classList.contains('wd-lazy-blur')) {
 						item.classList.add('wd-loaded');
+					}
+
+					var picture = item.closest('picture')
+
+					if ( picture && (picture.classList.contains('wd-lazy-fade') || picture.classList.contains('wd-lazy-blur')) ) {
+						picture.classList.add('wd-loaded')
 					}
 
 					var $masonry = jQuery(item).parents('.grid-masonry, .wd-masonry');
@@ -3206,6 +3362,40 @@ jQuery( window ).on('elementor/frontend/init', function() {
 
 	$(document).ready(function() {
 		woodmartThemeModule.lazyLoading();
+	});
+})(jQuery);
+
+
+/* global woodmart_settings */
+(function($) {
+	woodmartThemeModule.fixMailchimpInPopup = function() {
+		$('.mc4wp-form').each(function(key, $form) {
+			$form = $( $form );
+			$response = $form.find('.mc4wp-response');
+			$popup = $form.parents('.wd-popup');
+
+			if ( $response.children().length > 0 && $popup.length > 0 ) {
+				$.magnificPopup.open({
+					items: {
+						src: $popup,
+					},
+					type: 'inline',
+					removalDelay: 600,
+					tClose: woodmart_settings.close,
+					tLoading: woodmart_settings.loading,
+					fixedContentPos: true,
+					callbacks: {
+						beforeOpen: function () {
+							this.wrap.addClass('wd-popup-slide-from-left');
+						}
+					}
+				});
+			}
+		});
+	};
+
+	$(document).ready(function() {
+		woodmartThemeModule.fixMailchimpInPopup();
 	});
 })(jQuery);
 
@@ -3229,7 +3419,7 @@ jQuery( window ).on('elementor/frontend/init', function() {
 			return;
 		}
 
-		var $container = $('.wd-masonry');
+		var $container = $('.wd-masonry:not(.wd-cats)');
 
 		$container.imagesLoaded(function() {
 			$container.isotope({
@@ -3468,19 +3658,16 @@ jQuery( window ).on('elementor/frontend/init', function() {
 	});
 })(jQuery);
 
-var observer = new MutationObserver(() => {
-	if ( window.innerWidth > document.getElementsByTagName( 'html' )[0].offsetWidth ) {
-		document.getElementsByTagName( 'html' )[0].className += ' wd-scrollbar';
-		observer.disconnect();
-	}
-});
+const htmlElement = document.getElementsByTagName('html')[0];
+const windowWidth = window.innerWidth;
 
-window.addEventListener('load',function() {
-	observer.disconnect();
-});
+if (windowWidth > 1024 && windowWidth > htmlElement.offsetWidth) {
+	const scrollbarWidth = window.innerWidth - htmlElement.offsetWidth;
+	const styleElement = document.createElement('style');
 
-observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true,  subtree: true});
-
+	styleElement.textContent = `:root {--wd-scroll-w: ${scrollbarWidth}px;}`;
+	document.head.appendChild(styleElement);
+}
 /* global woodmart_settings */
 (function($) {
 	woodmartThemeModule.scrollTop = function() {
@@ -3510,8 +3697,6 @@ observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true, 
 /* global woodmart_settings */
 (function($) {
 	woodmartThemeModule.searchFullScreen = function() {
-		var $searchWrapper = $('[class*=wd-search-full-screen]');
-
 		if ( 'yes' === woodmart_settings.ajax_fullscreen_content ) {
 			woodmartThemeModule.$body.on('mouseover click touchstart', '.wd-header-search.wd-display-full-screen > a, .wd-search-form.wd-display-full-screen-2', function() {
 				var $this = $(this);
@@ -3522,6 +3707,7 @@ observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true, 
 
 				$this.addClass('wd-inited');
 
+				var $searchWrapper = $('[class*=wd-search-full-screen]');
 				var $contentArea = $searchWrapper.find('.wd-search-area');
 
 				if ( ! $contentArea.length ) {
@@ -3600,6 +3786,8 @@ observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true, 
 		};
 
 		var closeWidget = function() {
+			var $searchWrapper = $('[class*=wd-search-full-screen]');
+
 			$('html').removeClass('wd-search-opened');
 			$searchWrapper.removeClass('wd-opened');
 			setTimeout( function () {
@@ -3670,6 +3858,34 @@ observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true, 
 		woodmartThemeModule.stickyColumn();
 	});
 
+	woodmartThemeModule.$window.on('elementor/frontend/init', function() {
+		if (!elementorFrontend.isEditMode()) {
+			return;
+		}
+
+		elementorFrontend.hooks.addAction('frontend/element_ready/container', function($wrapper) {
+			var cid = $wrapper.data('model-cid');
+
+			if (typeof elementorFrontend.config.elements.data[cid] !== 'undefined') {
+				if (elementorFrontend.config.elements.data[cid].attributes.container_sticky) {
+					$wrapper.addClass('wd-sticky-container-lg');
+				} else {
+					$wrapper.removeClass('wd-sticky-container-lg');
+				}
+				if (elementorFrontend.config.elements.data[cid].attributes.container_sticky_tablet) {
+					$wrapper.addClass('wd-sticky-container-md-sm');
+				} else {
+					$wrapper.removeClass('wd-sticky-container-md-sm');
+				}
+				if (elementorFrontend.config.elements.data[cid].attributes.container_sticky_mobile) {
+					$wrapper.addClass('wd-sticky-container-sm');
+				} else {
+					$wrapper.removeClass('wd-sticky-container-sm');
+				}
+			}
+		});
+	});
+
 	woodmartThemeModule.stickyColumn = function() {
 		$('.woodmart-sticky-column').each(function() {
 			var $column = $(this),
@@ -3702,7 +3918,7 @@ observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true, 
 				}
 			}
 
-			var $widgetWrap = $column.find('> .elementor-column-wrap > .elementor-widget-wrap');
+			var $widgetWrap = $column.find(' > .elementor-widget-wrap');
 
 			if ($widgetWrap.length <= 0) {
 				$widgetWrap = $column.find('> .elementor-widget-wrap');
@@ -3746,6 +3962,33 @@ observer.observe(document.getElementsByTagName( 'html' )[0], {childList : true, 
 				initSticky();
 			}, 300));
 		});
+
+		$('[class*="wd-sticky-container-"]').each(function() {
+			var $column = $(this);
+
+			function initSticky() {
+				var windowWidth = woodmartThemeModule.$window.width();
+
+				$column.trigger('sticky_kit:detach');
+
+				if ( ( ! $column.hasClass('wd-sticky-container-lg') && windowWidth > 1024 ) || ( ! $column.hasClass('wd-sticky-container-md-sm') && windowWidth <= 1024 && windowWidth > 768 ) || ( ! $column.hasClass('wd-sticky-container-sm') && windowWidth <= 768 ) ) {
+					return;
+				}
+
+				var carouselStyle = window.getComputedStyle($column[0]);
+				var offset = parseInt( carouselStyle.getPropertyValue('--wd-sticky-offset'), 10);
+
+				$column.stick_in_parent({
+					offset_top: offset
+				});
+			}
+
+			initSticky();
+
+			woodmartThemeModule.$window.on('resize', woodmartThemeModule.debounce(function() {
+				initSticky();
+			}, 300));
+		});
 	};
 
 	$(document).ready(function() {
@@ -3758,9 +4001,9 @@ woodmartThemeModule.wdElementorAddAction('frontend/element_ready/container', fun
 	woodmartThemeModule.stickyContainer();
 });
 
-let windowWidth = woodmartThemeModule.windowWidth;
-
 woodmartThemeModule.stickyContainer = function () {
+	let windowWidth = woodmartThemeModule.windowWidth;
+
 	function isRtl() {
 		return document.querySelector('html').hasAttributes('dir') && 'rtl' === document.querySelector('html').getAttribute('dir');
 	}
@@ -3968,13 +4211,13 @@ woodmartThemeModule.stickyContainer = function () {
 
 	wipeSticky();
 	makeSticky();
-}
 
-window.addEventListener('resize',function() {
-	if ( 'undefined' !== typeof elementor ) {
-		windowWidth = !isNaN(parseInt(elementor.$preview.css('--e-editor-preview-width'))) ? parseInt(elementor.$preview.css('--e-editor-preview-width')) : 1025;
-	}
-});
+	window.addEventListener('resize',function() {
+		if ( 'undefined' !== typeof elementor ) {
+			windowWidth = !isNaN(parseInt(elementor.$preview.css('--e-editor-preview-width'))) ? parseInt(elementor.$preview.css('--e-editor-preview-width')) : 1025;
+		}
+	});
+}
 
 window.addEventListener('load',function() {
 	woodmartThemeModule.stickyContainer();
@@ -3992,7 +4235,8 @@ window.addEventListener('load',function() {
 })(jQuery);
 
 woodmartThemeModule.$document.on('wdInstagramAjaxSuccess wdLoadDropdownsSuccess wdProductsTabsLoaded wdSearchFullScreenContentLoaded wdShopPageInit wdRecentlyViewedProductLoaded wdQuickViewOpen300', function() {
-	woodmartThemeModule.swiperInit();
+	woodmartThemeModule.carouselsInit();
+	woodmartThemeModule.sliderInit();
 });
 
 [
@@ -4012,23 +4256,31 @@ woodmartThemeModule.$document.on('wdInstagramAjaxSuccess wdLoadDropdownsSuccess 
 	'frontend/element_ready/wd_single_product_fbt_products.default'
 ].forEach( function (value) {
 	woodmartThemeModule.wdElementorAddAction(value, function() {
-		woodmartThemeModule.swiperInit();
+		woodmartThemeModule.carouselsInit();
 	});
 });
 
-woodmartThemeModule.swiperInit = function() {
+[
+	'frontend/element_ready/wd_slider.default',
+].forEach( function (value) {
+	woodmartThemeModule.wdElementorAddAction(value, function() {
+		woodmartThemeModule.sliderInit();
+	});
+});
+
+woodmartThemeModule.sliderInit = function() {
 	if ('undefined' === typeof wdSwiper) {
 		console.error('Swiper is not defined');
 
 		return;
 	}
 
-	document.querySelectorAll('.wd-carousel:not(.scroll-init)').forEach( function (carousel) {
-		carouselInit(carousel);
+	document.querySelectorAll('.wd-carousel-container.wd-slider > .wd-carousel-inner > .wd-carousel:not(.scroll-init)').forEach( function (carousel) {
+		woodmartThemeModule.swiperInit(carousel);
 	});
 
 	if ('undefined' !== typeof window.Waypoint) {
-		document.querySelectorAll('.wd-carousel.scroll-init').forEach( function (carousel) {
+		document.querySelectorAll('.wd-carousel-container.wd-slider > .wd-carousel-inner > .wd-carousel.scroll-init').forEach( function (carousel) {
 			new Waypoint({
 				element: carousel,
 				handler: function() {
@@ -4036,252 +4288,281 @@ woodmartThemeModule.swiperInit = function() {
 						this.destroy();
 					}
 
-					carouselInit(this.element);
+					woodmartThemeModule.swiperInit(this.element);
 				},
 				offset: '100%'
 			});
 		});
 	}
+};
 
-	function carouselInit(carousel, thumbs = false) {
-		if (carousel.closest('.woocommerce-product-gallery') && ! carousel.classList.contains('quick-view-gallery') || ( ! thumbs && 'undefined' !== typeof carousel.dataset.sync_child_id && document.querySelector('.wd-carousel[data-sync_parent_id=' + carousel.dataset.sync_child_id + ']') ) ) {
-			return;
-		}
+woodmartThemeModule.carouselsInit = function() {
+	if ('undefined' === typeof wdSwiper) {
+		console.error('Swiper is not defined');
 
-		var carouselWrapper = carousel.closest('.wd-carousel-container');
-		var carouselStyle = window.getComputedStyle(carousel);
+		return;
+	}
 
-		if (woodmartThemeModule.windowWidth <= 1024 && carouselWrapper.classList.contains('wd-carousel-dis-mb') || carousel.classList.contains('wd-initialized') ) {
-			return;
-		}
+	document.querySelectorAll('.wd-carousel-container:not(.wd-slider) > .wd-carousel-inner > .wd-carousel:not(.scroll-init)').forEach( function (carousel) {
+		woodmartThemeModule.swiperInit(carousel);
+	});
 
-		var mainSlidesPerView = carouselStyle.getPropertyValue('--wd-col');
-		var breakpointsSettings = woodmart_settings.carousel_breakpoints;
-		var breakpoints = {};
-		var carouselItemsLength = carousel.querySelectorAll('.wd-carousel-item').length;
-
-		Object.entries(breakpointsSettings).forEach(( [size, key] ) => {
-			var slidesPerView = carouselStyle.getPropertyValue('--wd-col-' + key );
-			var enableScrollPerGroup = 'undefined' !== typeof carousel.dataset.scroll_per_page && 'yes' === carousel.dataset.scroll_per_page;
-
-			if ( ! slidesPerView ) {
-				slidesPerView = mainSlidesPerView;
-			}
-
-			if ( slidesPerView ) {
-				breakpoints[ size ] = {
-					slidesPerView : slidesPerView ? slidesPerView : 1
-				};
-
-				if ( 'yes' === carousel.dataset.wrap && parseInt(slidesPerView, 10 ) * 2 > carouselItemsLength || 'yes' === carousel.dataset.center_mode) {
-					enableScrollPerGroup = false;
-				}
-
-				if ( enableScrollPerGroup && slidesPerView ) {
-					breakpoints[ size ]['slidesPerGroup'] = parseInt(slidesPerView);
-				}
-
-				// if ( 'yes' === carousel.dataset.wrap && 'yes' === carousel.dataset.center_mode ) {
-				// 	// breakpoints[ size ]['loopAdditionalSlides'] = parseInt(parseInt( slidesPerView, 10 ) / 2, 10 );
-				// 	breakpoints[ size ]['loopAdditionalSlides'] = 1;
-				// }
-			}
-		});
-
-		var config = {
-			slidesPerView         : mainSlidesPerView,
-			loop                  : 'yes' === carousel.dataset.wrap && ('yes' !== carousel.dataset.center_mode || parseInt( mainSlidesPerView, 10) + 1 < carouselItemsLength ),
-			loopAddBlankSlides    : false,
-			centeredSlides        : 'yes' === carousel.dataset.center_mode,
-			autoHeight            : 'yes' === carousel.dataset.autoheight,
-			grabCursor            : true,
-			a11y                  : {
-				enabled: false
-			},
-			breakpoints           : breakpoints,
-			watchSlidesProgress   : true,
-			slideClass            : 'wd-carousel-item',
-			slideActiveClass      : 'wd-active',
-			slideVisibleClass     : 'wd-slide-visible',
-			slideNextClass        : 'wd-slide-next',
-			slidePrevClass        : 'wd-slide-prev',
-			slideFullyVisibleClass: 'wd-full-visible',
-			slideBlankClass       : 'wd-slide-blank',
-			lazyPreloaderClass    : 'wd-lazy-preloader',
-			containerModifierClass: 'wd-',
-			wrapperClass          : 'wd-carousel-wrap',
-			simulateTouch         : ! carousel.closest('.block-editor-block-list__layout'),
-			on                    : {
-				init: function() {
-					setTimeout(function() {
-						woodmartThemeModule.$document.trigger('wdSwiperCarouselInited');
-					}, 100);
-				}
-			}
-		};
-
-		if ('undefined' !== typeof carousel.dataset.effect) {
-			var effect = carousel.dataset.effect;
-
-			if ('distortion' === effect) {
-				effect = 'fade';
-			}
-
-			config.effect = effect;
-
-			if ('parallax' === effect) {
-				config.parallax = {
-					enabled: true
-				};
-
-				carousel.querySelectorAll('.wd-slide-bg').forEach( function (slideBg) {
-					slideBg.setAttribute('data-swiper-parallax', '50%');
-				});
-			}
-		}
-
-		if ('undefined' !== typeof carousel.dataset.sliding_speed && carousel.dataset.sliding_speed) {
-			config.speed = carousel.dataset.sliding_speed;
-		}
-
-		var pagination = Array.prototype.filter.call(
-			carouselWrapper.children,
-			(element) => element.classList.contains('wd-nav-pagin-wrap'),
-		).shift();
-
-		if (pagination) {
-			config.pagination = {
-				el                     : pagination.querySelector('.wd-nav-pagin'),
-				dynamicBullets         : pagination.classList.contains('wd-dynamic'),
-				type                   : 'bullets',
-				clickable              : true,
-				bulletClass            : 'wd-nav-pagin-item',
-				bulletActiveClass      : 'wd-active',
-				modifierClass          : 'wd-type-',
-				lockClass              : 'wd-lock',
-				currentClass           : 'wd-current',
-				totalClass             : 'wd-total',
-				hiddenClass            : 'wd-hidden',
-				clickableClass         : 'wd-clickable',
-				horizontalClass        : 'wd-horizontal',
-				verticalClass          : 'wd-vertical',
-				paginationDisabledClass: 'wd-disabled',
-				renderBullet           : function(index, className) {
-					var innerContent = '';
-
-					if (pagination.classList.contains('wd-style-number-2')) {
-						innerContent = index + 1;
-
-						if ( 9 >= innerContent ) {
-							innerContent = '0' + innerContent;
-						}
+	if ('undefined' !== typeof window.Waypoint) {
+		document.querySelectorAll('.wd-carousel-container:not(.wd-slider) > .wd-carousel-inner > .wd-carousel.scroll-init').forEach( function (carousel) {
+			new Waypoint({
+				element: carousel,
+				handler: function() {
+					if (carousel.classList.contains('wd-initialized')) {
+						this.destroy();
 					}
 
-					return '<li class="' + className + '"><span>' + innerContent + '</span></li>';
-				}
-			};
-		}
-
-		var navigationWrapper = Array.prototype.filter.call(
-			carouselWrapper.querySelector('.wd-carousel-inner').children,
-			(element) => element.classList.contains('wd-nav-arrows'),
-		).shift();
-
-		if (navigationWrapper) {
-			config.navigation = {
-				nextEl       : navigationWrapper.querySelector('.wd-btn-arrow.wd-next'),
-				prevEl       : navigationWrapper.querySelector('.wd-btn-arrow.wd-prev'),
-				disabledClass: 'wd-disabled',
-				lockClass    : 'wd-lock',
-				hiddenClass  : 'wd-hide'
-			};
-		}
-
-		var scrollbar = Array.prototype.filter.call(
-			carouselWrapper.children,
-			(element) => element.classList.contains('wd-nav-scroll'),
-		).shift();
-
-		if (scrollbar) {
-			config.scrollbar = {
-				el                    : scrollbar,
-				lockClass             : 'wd-lock',
-				dragClass             : 'wd-nav-scroll-drag',
-				scrollbarDisabledClass: 'wd-disabled',
-				horizontalClass       : 'wd-horizontal',
-				verticalClass         : 'wd-vertical',
-				draggable             : true
-			};
-
-			config.on.scrollbarDragStart = function () {
-				scrollbar.classList.add('wd-grabbing');
-			};
-			config.on.scrollbarDragEnd = function () {
-				scrollbar.classList.remove('wd-grabbing');
-			};
-		}
-
-		if ('undefined' !== typeof carousel.dataset.autoplay && 'yes' === carousel.dataset.autoplay) {
-			config.autoplay = {
-				delay: carousel.dataset.speed ? carousel.dataset.speed : 5000,
-				pauseOnMouseEnter: true
-			};
-		}
-
-		if ('undefined' !== typeof carousel.dataset.sync_parent_id) {
-			var childCarousel = document.querySelector('.wd-carousel[data-sync_child_id=' + carousel.dataset.sync_parent_id + ']');
-
-			if ( childCarousel ) {
-				config.thumbs = {
-					swiper               : carouselInit(childCarousel, true),
-					slideThumbActiveClass: 'wd-thumb-active',
-					thumbsContainerClass : 'wd-thumbs'
-				};
-			}
-		}
-
-		carousel.querySelectorAll('link').forEach(function (link) {
-			var linkClone = link.cloneNode(false);
-
-			carouselWrapper.append(linkClone);
-
-			linkClone.addEventListener('load', function() {
-				setTimeout(function () {
-					link.remove();
-				}, 500);
-			}, false);
-		});
-
-		const swiper = new wdSwiper(carousel, config);
-
-		if (carouselWrapper && carouselWrapper.classList.contains('wd-slider')) {
-			swiper.on('realIndexChange', function (swiper) {
-				setTimeout(function () {
-					carousel.dispatchEvent(new CustomEvent('wdSlideChange', {
-						detail: {activeIndex: swiper.realIndex}
-					}));
-				},100);
-			});
-		}
-
-		window.addEventListener('popstate', function() {
-			document.querySelectorAll('.wd-carousel.wd-initialized').forEach( function (carousel) {
-				if ('undefined' === typeof carousel.swiper) {
-					carousel.classList.remove('wd-initialized');
-
-					carouselInit(carousel);
-				}
+					woodmartThemeModule.swiperInit(this.element);
+				},
+				offset: '100%'
 			});
 		});
-
-		return swiper;
 	}
 };
 
-window.addEventListener('load',function() {
-	woodmartThemeModule.swiperInit();
-});
+woodmartThemeModule.swiperInit = function(carousel, thumbs = false) {
+	if ('undefined' === typeof wdSwiper) {
+		console.error('Swiper is not defined');
 
+		return;
+	}
+
+	if (carousel.closest('.woocommerce-product-gallery') && ! carousel.classList.contains('quick-view-gallery') || ( ! thumbs && 'undefined' !== typeof carousel.dataset.sync_child_id && document.querySelector('.wd-carousel[data-sync_parent_id=' + carousel.dataset.sync_child_id + ']') ) ) {
+		return;
+	}
+
+	var carouselWrapper = carousel.closest('.wd-carousel-container');
+	var carouselStyle = window.getComputedStyle(carousel);
+
+	if (woodmartThemeModule.windowWidth <= 1024 && carouselWrapper.classList.contains('wd-carousel-dis-mb') || carousel.classList.contains('wd-initialized') ) {
+		return;
+	}
+
+	var mainSlidesPerView = carouselStyle.getPropertyValue('--wd-col');
+	var breakpointsSettings = woodmart_settings.carousel_breakpoints;
+	var breakpoints = {};
+	var carouselItemsLength = carousel.querySelectorAll('.wd-carousel-item').length;
+
+	Object.entries(breakpointsSettings).forEach(( [size, key] ) => {
+		var slidesPerView = carouselStyle.getPropertyValue('--wd-col-' + key );
+		var enableScrollPerGroup = 'undefined' !== typeof carousel.dataset.scroll_per_page && 'yes' === carousel.dataset.scroll_per_page;
+
+		if ( ! slidesPerView ) {
+			slidesPerView = mainSlidesPerView;
+		}
+
+		if ( slidesPerView ) {
+			breakpoints[ size ] = {
+				slidesPerView : slidesPerView ? slidesPerView : 1
+			};
+
+			if ( 'yes' === carousel.dataset.wrap && parseInt(slidesPerView, 10 ) * 2 > carouselItemsLength || 'yes' === carousel.dataset.center_mode) {
+				enableScrollPerGroup = false;
+			}
+
+			if ( enableScrollPerGroup && slidesPerView ) {
+				breakpoints[ size ]['slidesPerGroup'] = parseInt(slidesPerView);
+			}
+		}
+	});
+
+	var config = {
+		slidesPerView         : mainSlidesPerView,
+		loop                  : 'yes' === carousel.dataset.wrap && ('yes' !== carousel.dataset.center_mode || parseInt( mainSlidesPerView, 10) + 1 < carouselItemsLength ),
+		loopAddBlankSlides    : false,
+		centeredSlides        : 'yes' === carousel.dataset.center_mode,
+		autoHeight            : 'yes' === carousel.dataset.autoheight,
+		grabCursor            : true,
+		a11y                  : {
+			enabled: false
+		},
+		breakpoints           : breakpoints,
+		watchSlidesProgress   : true,
+		slideClass            : 'wd-carousel-item',
+		slideActiveClass      : 'wd-active',
+		slideVisibleClass     : 'wd-slide-visible',
+		slideNextClass        : 'wd-slide-next',
+		slidePrevClass        : 'wd-slide-prev',
+		slideFullyVisibleClass: 'wd-full-visible',
+		slideBlankClass       : 'wd-slide-blank',
+		lazyPreloaderClass    : 'wd-lazy-preloader',
+		containerModifierClass: 'wd-',
+		wrapperClass          : 'wd-carousel-wrap',
+		simulateTouch         : ! carousel.closest('.block-editor-block-list__layout'),
+		on                    : {
+			init: function() {
+				setTimeout(function() {
+					woodmartThemeModule.$document.trigger('wdSwiperCarouselInited');
+				}, 100);
+			}
+		}
+	};
+
+	if ('undefined' !== typeof carousel.dataset.effect) {
+		var effect = carousel.dataset.effect;
+
+		if ('distortion' === effect) {
+			effect = 'fade';
+		}
+
+		config.effect = effect;
+
+		if ('parallax' === effect) {
+			config.parallax = {
+				enabled: true
+			};
+
+			carousel.querySelectorAll('.wd-slide-bg').forEach( function (slideBg) {
+				slideBg.setAttribute('data-swiper-parallax', '50%');
+			});
+		}
+	}
+
+	if ('undefined' !== typeof carousel.dataset.sliding_speed && carousel.dataset.sliding_speed) {
+		config.speed = carousel.dataset.sliding_speed;
+	}
+
+	var pagination = Array.prototype.filter.call(
+		carouselWrapper.children,
+		(element) => element.classList.contains('wd-nav-pagin-wrap'),
+	).shift();
+
+	if (pagination) {
+		config.pagination = {
+			el                     : pagination.querySelector('.wd-nav-pagin'),
+			dynamicBullets         : pagination.classList.contains('wd-dynamic'),
+			type                   : 'bullets',
+			clickable              : true,
+			bulletClass            : 'wd-nav-pagin-item',
+			bulletActiveClass      : 'wd-active',
+			modifierClass          : 'wd-type-',
+			lockClass              : 'wd-lock',
+			currentClass           : 'wd-current',
+			totalClass             : 'wd-total',
+			hiddenClass            : 'wd-hidden',
+			clickableClass         : 'wd-clickable',
+			horizontalClass        : 'wd-horizontal',
+			verticalClass          : 'wd-vertical',
+			paginationDisabledClass: 'wd-disabled',
+			renderBullet           : function(index, className) {
+				var innerContent = '';
+
+				if (pagination.classList.contains('wd-style-number-2')) {
+					innerContent = index + 1;
+
+					if ( 9 >= innerContent ) {
+						innerContent = '0' + innerContent;
+					}
+				}
+
+				return '<li class="' + className + '"><span>' + innerContent + '</span></li>';
+			}
+		};
+	}
+
+	var navigationWrapper = Array.prototype.filter.call(
+		carouselWrapper.querySelector('.wd-carousel-inner').children,
+		(element) => element.classList.contains('wd-nav-arrows'),
+	).shift();
+
+	if (navigationWrapper) {
+		config.navigation = {
+			nextEl       : navigationWrapper.querySelector('.wd-btn-arrow.wd-next'),
+			prevEl       : navigationWrapper.querySelector('.wd-btn-arrow.wd-prev'),
+			disabledClass: 'wd-disabled',
+			lockClass    : 'wd-lock',
+			hiddenClass  : 'wd-hide'
+		};
+	}
+
+	var scrollbar = Array.prototype.filter.call(
+		carouselWrapper.children,
+		(element) => element.classList.contains('wd-nav-scroll'),
+	).shift();
+
+	if (scrollbar) {
+		config.scrollbar = {
+			el                    : scrollbar,
+			lockClass             : 'wd-lock',
+			dragClass             : 'wd-nav-scroll-drag',
+			scrollbarDisabledClass: 'wd-disabled',
+			horizontalClass       : 'wd-horizontal',
+			verticalClass         : 'wd-vertical',
+			draggable             : true
+		};
+
+		config.on.scrollbarDragStart = function () {
+			scrollbar.classList.add('wd-grabbing');
+		};
+		config.on.scrollbarDragEnd = function () {
+			scrollbar.classList.remove('wd-grabbing');
+		};
+	}
+
+	if ('undefined' !== typeof carousel.dataset.autoplay && 'yes' === carousel.dataset.autoplay) {
+		config.autoplay = {
+			delay: carousel.dataset.speed ? carousel.dataset.speed : 5000,
+			pauseOnMouseEnter: true
+		};
+	}
+
+	if ('undefined' !== typeof carousel.dataset.sync_parent_id) {
+		var childCarousel = document.querySelector('.wd-carousel[data-sync_child_id=' + carousel.dataset.sync_parent_id + ']');
+
+		if ( childCarousel ) {
+			config.thumbs = {
+				swiper               : woodmartThemeModule.swiperInit(childCarousel, true),
+				slideThumbActiveClass: 'wd-thumb-active',
+				thumbsContainerClass : 'wd-thumbs'
+			};
+		}
+	}
+
+	carousel.querySelectorAll('link').forEach(function (link) {
+		var linkClone = link.cloneNode(false);
+
+		carouselWrapper.append(linkClone);
+
+		linkClone.addEventListener('load', function() {
+			setTimeout(function () {
+				link.remove();
+			}, 500);
+		}, false);
+	});
+
+	const swiper = new wdSwiper(carousel, config);
+
+	if (carouselWrapper && carouselWrapper.classList.contains('wd-slider')) {
+		swiper.on('realIndexChange', function (swiper) {
+			setTimeout(function () {
+				carousel.dispatchEvent(new CustomEvent('wdSlideChange', {
+					detail: {activeIndex: swiper.realIndex}
+				}));
+			},100);
+		});
+	}
+
+	window.addEventListener('popstate', function() {
+		document.querySelectorAll('.wd-carousel.wd-initialized').forEach( function (carousel) {
+			if ('undefined' === typeof carousel.swiper) {
+				carousel.classList.remove('wd-initialized');
+
+				woodmartThemeModule.swiperInit(carousel);
+			}
+		});
+	});
+
+	return swiper;
+}
+
+window.addEventListener('load',function() {
+	woodmartThemeModule.sliderInit();
+	woodmartThemeModule.carouselsInit();
+});
 /* global woodmart_settings */
 (function($) {
 	woodmartThemeModule.$document.on('wdShopPageInit', function() {
@@ -4300,14 +4581,14 @@ window.addEventListener('load',function() {
 				$footer.addClass('wd-widget-collapse');
 			} else {
 				$footer.removeClass('wd-widget-collapse');
-				$footer.find('> *:not(.widget-title)').show();
+				$footer.find('> *:not(.widget-title, style)').show();
 			}
 		}
 
 		$('.wd-widget-collapse .widget-title').off('click').on('click', function() {
 			var $title = $(this);
 			var $widget = $title.parent();
-			var $content = $widget.find('> *:not(.widget-title)');
+			var $content = $widget.find('> *:not(.widget-title, style)');
 
 			if ($widget.hasClass('wd-opened')) {
 				$widget.removeClass('wd-opened');
@@ -4433,9 +4714,13 @@ window.addEventListener('load',function() {
 				data['wrapperClasses'] = 'whb-hide-on-scroll';
 			}
 
+			if ($('.whb-clone').length) {
+				$('.whb-clone').remove();
+			}
+
 			cloneHTML = woodmart_settings.whb_header_clone;
 
-			cloneHTML = cloneHTML.replace(/<%([^%>]+)?%>/g, function(replacement) {
+			cloneHTML = cloneHTML.replace(/<%([^%>]+)?%>|{{([^{}]+)}}/g, function(replacement) {
 				var selector = replacement.slice(2, -2);
 
 				return $header.find(selector).length
@@ -4453,6 +4738,8 @@ window.addEventListener('load',function() {
 			$header = $header.parent().find('.whb-clone');
 
 			$header.find('.whb-row').removeClass('whb-flex-equal-sides').addClass('whb-flex-flex-middle');
+
+			window.dispatchEvent(new CustomEvent('wdHeaderBuilderCloneCreated'));
 		}
 
 		$window.on('scroll', function() {
@@ -4533,8 +4820,10 @@ window.addEventListener('load',function() {
 		woodmartThemeModule.$document.trigger('wdHeaderBuilderInited');
 	};
 
-	window.addEventListener('wdEventStarted', function () {
-		woodmartThemeModule.headerBuilder();
+	['wdEventStarted', 'wdUpdatedHeader'].forEach((eventName) => {
+		window.addEventListener(eventName, function () {
+			woodmartThemeModule.headerBuilder();
+		});
 	});
 })(jQuery);
 
@@ -4898,6 +5187,10 @@ window.addEventListener('load',function() {
 	$(document).ready(function() {
 		woodmartThemeModule.fullScreenMenu();
 	});
+
+	window.addEventListener('wdUpdatedHeader', function () {
+		woodmartThemeModule.fullScreenMenu();
+	});
 })(jQuery);
 
 /* global woodmart_settings */
@@ -5163,6 +5456,15 @@ window.addEventListener('load',function() {
 			woodmartThemeModule.menuOffsets();
 		}, 100);
 	});
+
+	window.addEventListener('wdUpdatedHeader', function () {
+		$('.whb-header .wd-offsets-calculated').removeClass('wd-offsets-calculated');
+		$('.whb-header .menu-item.wd-opened, .whb-header .wd-dropdown.wd-opened').removeClass('wd-opened');
+		$('.whb-header .wd-dropdown-menu').attr('style', '');
+
+		woodmartThemeModule.menuDropdownAside();
+		woodmartThemeModule.menuOffsets();
+	});
 })(jQuery);
 
 /* global xts_settings */
@@ -5183,7 +5485,7 @@ window.addEventListener('load',function() {
 			var $this = $(this);
 			var $overlay = $('.wd-close-side');
 
-			if ($overlay.hasClass('wd-close-side-opened') || $('html').hasClass('platform-iOS')) {
+			if ($overlay.hasClass('wd-close-side-opened') || woodmartThemeModule.$window.width() < 768) {
 				return;
 			}
 
@@ -5231,8 +5533,10 @@ window.addEventListener('load',function() {
 		});
 	};
 
-	$(document).ready(function() {
-		woodmartThemeModule.menuOverlay();
+	['wdEventStarted', 'wdUpdatedHeader'].forEach((eventName) => {
+		window.addEventListener(eventName, function () {
+			woodmartThemeModule.menuOverlay();
+		});
 	});
 })(jQuery);
 /* global woodmart_settings */
@@ -5294,8 +5598,10 @@ window.addEventListener('load',function() {
 		}
 	};
 
-	$(document).ready(function() {
-		woodmartThemeModule.menuSetUp();
+	['wdEventStarted', 'wdUpdatedHeader'].forEach((eventName) => {
+		window.addEventListener(eventName, function () {
+			woodmartThemeModule.menuSetUp();
+		});
 	});
 })(jQuery);
 
@@ -5397,8 +5703,10 @@ window.addEventListener('load',function() {
 		}
 	};
 
-	$(document).ready(function() {
-		woodmartThemeModule.menuStickyOffsets();
+	window.addEventListener('wdEventStarted', function () {
+		setTimeout(function () {
+			woodmartThemeModule.menuStickyOffsets();
+		}, 100);
 	});
 })(jQuery);
 
@@ -5722,22 +6030,10 @@ woodmartThemeModule.mobileNavigation                 = function() {
 		woodmartThemeModule.mobileNavigationClickAction(mobileNav);
 	});
 
-	window.addEventListener('wdEventStarted', function () {
-		var openersMobileNav = document.querySelectorAll('.wd-header-mobile-nav > a');
+	var openersMobileNav = document.querySelectorAll('.wd-header-mobile-nav > a');
 
-		openersMobileNav.forEach(function(openMobileNav) {
-			openMobileNav.addEventListener('click', function(e) {
-				e.preventDefault();
-				var mobileNavContent = document.querySelector('.wd-side-hidden-nav');
-
-				if (mobileNavContent.classList.contains('wd-opened')) {
-					woodmartThemeModule.closeMobileNavigation();
-				} else {
-					openMobileNav.parentNode.classList.add('wd-opened');
-					woodmartThemeModule.openMobileNavigation(mobileNavContent);
-				}
-			});
-		});
+	openersMobileNav.forEach(function(openMobileNav) {
+		openMobileNav.addEventListener('click', openMobileNavEvent);
 	});
 
 	if (closeSide) {
@@ -5755,8 +6051,30 @@ woodmartThemeModule.mobileNavigation                 = function() {
 	woodmartThemeModule.mobileNavigationCloseSideWidgets(closeSideWidgets);
 }
 
+function openMobileNavEvent(e) {
+	e.preventDefault();
+	var mobileNavContent = document.querySelector('.wd-side-hidden-nav');
+
+	if (mobileNavContent.classList.contains('wd-opened')) {
+		woodmartThemeModule.closeMobileNavigation();
+	} else {
+		this.parentNode.classList.add('wd-opened');
+		woodmartThemeModule.openMobileNavigation(mobileNavContent);
+	}
+}
+
 window.addEventListener('load',function() {
 	woodmartThemeModule.mobileNavigation();
+});
+window.addEventListener('wdUpdatedHeader',function() {
+	woodmartThemeModule.mobileNavigation();
+});
+window.addEventListener('wdHeaderBuilderCloneCreated',function() {
+	var openCloneMobileNav = document.querySelector('.whb-clone .wd-header-mobile-nav > a');
+
+	if (openCloneMobileNav) {
+		openCloneMobileNav.addEventListener('click', openMobileNavEvent);
+	}
 });
 
 /* global woodmart_settings */
@@ -5905,8 +6223,6 @@ window.addEventListener('load',function() {
 				} else {
 					showList();
 				}
-
-				return false;
 			});
 
 			list.on('click', 'a', function(e) {
@@ -5968,6 +6284,11 @@ window.addEventListener('load',function() {
 	$(document).ready(function() {
 		woodmartThemeModule.simpleDropdown();
 	});
+
+	window.addEventListener('wdUpdatedHeader',function() {
+		woodmartThemeModule.simpleDropdown();
+	});
+
 })(jQuery);
 
 /* global woodmart_settings */
@@ -7140,6 +7461,101 @@ window.addEventListener('load',function() {
 });
 
 /* global woodmart_settings */
+woodmartThemeModule.abandonedCart = function() {
+	var init = function() {
+		recoverGuestCart();
+	}
+
+	var recoverGuestCart = function() {
+		var inp_email  = document.querySelector('#billing_email');
+
+		if ( ! inp_email ) {
+			return;
+		}
+
+		var privacyCkeckbox = document.querySelector('#wd-data-consent');
+
+		if (privacyCkeckbox) {
+			privacyCkeckbox.addEventListener('change', function (e) {
+				e.stopPropagation();
+
+				if (e.currentTarget.checked && inp_email.value.length && isValidEmail(inp_email.value)) {
+					var event = new Event('change');
+
+					inp_email.dispatchEvent(event);
+				}
+			});
+		}
+
+		inp_email.addEventListener('change', function (e) {
+			var target = e.target;
+			var email  = target.value;
+
+			if ( ! checkPrivacy() || ! isValidEmail(email)) {
+				return;
+			}
+		
+			var first_name = document.querySelector('#billing_first_name');
+			var last_name  = document.querySelector('#billing_last_name');
+			var phone      = document.querySelector('#billing_phone');
+		
+			jQuery.ajax({
+				url     : woodmart_settings.ajaxurl,
+				data    : {
+					action: 'woodmart_recover_guest_cart',
+					security: woodmart_settings.abandoned_cart_security,
+					email,
+					phone: phone ? phone.value : '',
+					first_name: first_name ? first_name.value : '',
+					last_name: last_name ? last_name.value : '',
+					currency: woodmart_settings.abandoned_cart_currency,
+					language: woodmart_settings.abandoned_cart_language,
+				},
+				method  : 'POST',
+				error   : function() {
+					console.log('Ajax error of capturing the abandoned basket of the guest');
+				},
+			});
+		});
+	};
+
+	var isValidEmail = function(email) {
+		const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		return emailPattern.test(email);
+	}
+
+	var checkPrivacy = function() {
+		if ( 'no' === woodmart_settings.abandoned_cart_needs_privacy ) {
+			return true;
+		}
+
+		var privacyInput = document.querySelector('#wd-data-consent');
+
+		return privacyInput && privacyInput.checked;
+	};
+
+	init();
+}
+
+woodmartThemeModule.showPrivecyCheckbox = function() {
+	var privacyWrapper    = document.querySelector('.wd-data-consent');
+	var billingEmailField = document.querySelector('#billing_email_field');
+
+	if ( 'no' === woodmart_settings.abandoned_cart_needs_privacy || ! privacyWrapper || ! billingEmailField) {
+		return;
+	}
+
+	billingEmailField.appendChild(privacyWrapper);
+	privacyWrapper.classList.remove('wd-hide');
+}
+
+woodmartThemeModule.showPrivecyCheckbox();
+
+window.addEventListener('load', function() {
+	woodmartThemeModule.abandonedCart();
+});
+
+/* global woodmart_settings */
 (function($) {
 	$.each([
 		'frontend/element_ready/wd_products.default',
@@ -7252,6 +7668,14 @@ window.addEventListener('load',function() {
 
 			if ($productWrapper.hasClass('product-type-external') || $productWrapper.hasClass('product-type-zakeke') || $productWrapper.hasClass('product-type-gift-card') || 'undefined' !== typeof e.originalEvent && $(e.originalEvent.submitter).hasClass('wd-buy-now-btn')) {
 				return;
+			}
+
+			if ($form.parents('.wd-sticky-btn-cart').length > 0) {
+				var $stickyBtnWrap = $form.parents('.wd-sticky-btn-cart');
+
+				if ($stickyBtnWrap.hasClass('wd-product-type-external')) {
+					return;
+				}
 			}
 
 			e.preventDefault();
@@ -7595,6 +8019,10 @@ window.addEventListener('load',function() {
 	};
 
 	$(document).ready(function() {
+		woodmartThemeModule.cartWidget();
+	});
+
+	window.addEventListener('wdUpdatedHeader',function() {
 		woodmartThemeModule.cartWidget();
 	});
 })(jQuery);
@@ -8238,62 +8666,72 @@ jQuery.each([
 	});
 });
 
-// Update gist table only if turned on layout builder.
-if (document.querySelector('.wd-content-layout').classList.contains('wd-builder-on')) {
-	jQuery( document.body ).on( 'wc_fragment_refresh updated_wc_div', function(e) {
-		var giftsWrapper = document.querySelector('.wd-fg');
+// Update gifts table only if turned on layout builder.
+function updateGiftsTable() {
+	var giftsWrapper = document.querySelector('.wd-fg');
 
-		if ( ! giftsWrapper ) {
-			return;
-		}
+	if ( ! giftsWrapper ) {
+		return;
+	}
 
-		var loaderOverlay = giftsWrapper.querySelector('.wd-loader-overlay');
+	var settings      = giftsWrapper.dataset.hasOwnProperty('settings') ? JSON.parse( giftsWrapper.dataset.settings ) : false;
+	var loaderOverlay = giftsWrapper.querySelector('.wd-loader-overlay');
 
-		if ( loaderOverlay ) {
-			loaderOverlay.classList.add('wd-loading');
-		}
-	
-		jQuery.ajax({
-			url     : woodmart_settings.ajaxurl,
-			data    : {
-				action: 'woodmart_update_gifts_table',
-			},
-			method  : 'POST',
-			success : function(response) {
-				if (!response) {
-					return;
-				}
+	if ( loaderOverlay ) {
+		loaderOverlay.classList.add('wd-loading');
+	}
 
-				if (giftsWrapper && response.hasOwnProperty('html')) {
-					let tempDiv       = document.createElement('div');
-					tempDiv.innerHTML = response.html;
-
-					childNodes = tempDiv.querySelector('.wd-fg').childNodes;
-
-					if (0 === childNodes.length) {
-						giftsWrapper.classList.add('wd-hide');
-					} else {
-						giftsWrapper.classList.remove('wd-hide');
-					}
-
-					giftsWrapper.replaceChildren(...childNodes);
-				}
-			},
-			error   : function() {
-				console.log('ajax update gifts table error');
-			},
-			complete: function() {
-				if ( loaderOverlay ) {
-					loaderOverlay.classList.remove('wd-loading');
-				}
+	jQuery.ajax({
+		url     : woodmart_settings.ajaxurl,
+		data    : {
+			action: 'woodmart_update_gifts_table',
+		},
+		method  : 'POST',
+		success : function(response) {
+			if (!response) {
+				return;
 			}
-		});
+
+			if (giftsWrapper && response.hasOwnProperty('html')) {
+				let tempDiv       = document.createElement('div');
+				tempDiv.innerHTML = response.html;
+
+				if ( settings && 'no' === settings.show_title) {
+					var titleNode = tempDiv.querySelector('.wd-el-title');
+
+					if (titleNode) {
+						titleNode.remove();
+					}
+				}
+
+				childNodes = tempDiv.childNodes;
+
+				if (0 === childNodes.length) {
+					giftsWrapper.classList.add('wd-hide');
+				} else {
+					giftsWrapper.classList.remove('wd-hide');
+				}
+
+				giftsWrapper.replaceChildren(...childNodes);
+			}
+		},
+		error   : function() {
+			console.log('ajax update gifts table error');
+		},
+		complete: function() {
+			if ( loaderOverlay ) {
+				loaderOverlay.classList.remove('wd-loading');
+			}
+		}
 	});
 }
 
+jQuery( document.body ).on( 'updated_cart_totals', updateGiftsTable);
+jQuery( document.body ).on( 'updated_checkout', updateGiftsTable);
+
 woodmartThemeModule.addGiftProduct = function() {
-	var isBuilder = document.querySelector('.wd-content-layout').classList.contains('wd-builder-on');
-	var listenerArea  = isBuilder ? document.querySelector('.site-content .woocommerce') : document.querySelector('.cart-content-wrapper');
+	var isCheckout   = !! document.querySelector('.woocommerce-checkout');
+	var listenerArea = document.querySelector('.site-content .woocommerce');
 
 	if ( ! listenerArea ) {
 		return;
@@ -8321,6 +8759,7 @@ woodmartThemeModule.addGiftProduct = function() {
 					action: 'woodmart_add_gift_product',
 					product_id: productId,
 					security: addGiftButton.dataset.security,
+					is_checkout: isCheckout ? '1' : '0',
 				},
 				method  : 'POST',
 				success : function(response) {
@@ -8328,7 +8767,9 @@ woodmartThemeModule.addGiftProduct = function() {
 						return;
 					}
 
-					jQuery(document.body).trigger( 'wc_update_cart' );
+					triggerEvent = isCheckout ? 'update_checkout' : 'wc_update_cart';
+
+					jQuery(document.body).trigger(triggerEvent);
 				},
 				error   : function() {
 					console.log('ajax adding gift to cart error');
@@ -8914,10 +9355,7 @@ window.addEventListener('load',function() {
 		var loginFormSide = $('.login-form-side');
 		var closeSide = $('.wd-close-side');
 
-
-		$('.login-side-opener')
-			.off('click')
-			.on('click', function(e) {
+		woodmartThemeModule.$document.on('click', '.login-side-opener', function(e) {
 				if (!loginFormSide.length) {
 					return
 				}
@@ -9884,7 +10322,7 @@ window.addEventListener('load',function() {
 })(jQuery);
 
 window.addEventListener('load',function() {
-	if ( document.querySelector('#www-widgetapi-script') && document.querySelector('.woocommerce-product-gallery .wd-carousel-item.wd-with-video') ) {
+	if ( (document.querySelector("script[src*='googletagmanager.com']") || document.querySelector('#www-widgetapi-script') ) && document.querySelector('.woocommerce-product-gallery .wd-carousel-item.wd-with-video') ) {
 		const tag = document.createElement( 'script' );
 		tag.src = '//www.youtube.com/iframe_api';
 
@@ -10832,41 +11270,7 @@ window.addEventListener('load',function() {
 		$('.wd-products-element').each(function() {
 			var $this = $(this),
 			    cache = [],
-			    inner = $this.find('.wd-products'),
-			    btnWrap = $this.find('.wd-ajax-arrows');
-
-			if ( btnWrap.hasClass('wd-pos-sep') ) {
-				var btnLeft = btnWrap.find('.wd-btn-arrow.wd-prev'),
-					scrollTop,
-					holderTop,
-					holderBottom,
-					holderHeight,
-					btnsHeight,
-					offset;
-
-				woodmartThemeModule.$window.on('scroll', function() {
-					buttonsPos();
-				});
-
-				setTimeout(function() {
-					buttonsPos();
-				}, 500);
-
-				function buttonsPos() {
-					offset = woodmartThemeModule.$window.height() / 2;
-					scrollTop = woodmartThemeModule.$window.scrollTop();
-					holderTop = $this.offset().top - offset;
-					btnsHeight = btnLeft.outerHeight();
-					holderHeight = $this.height() - btnsHeight;
-					holderBottom = holderTop + holderHeight;
-
-					if (scrollTop < holderTop || scrollTop > holderBottom) {
-						btnWrap.removeClass('wd-shown');
-					} else {
-						btnWrap.addClass('wd-shown');
-					}
-				}
-			}
+			    inner = $this.find('.wd-products');
 
 			if (!inner.hasClass('pagination-arrows')) {
 				return;
@@ -10877,9 +11281,9 @@ window.addEventListener('load',function() {
 				status: 'have-posts'
 			};
 
-			$this.find('.wd-ajax-arrows .wd-btn-arrow.wd-prev, .wd-ajax-arrows .wd-btn-arrow.wd-next').on('click', function(e) {
+			$this.find('.wd-ajax-arrows .wd-btn-arrow.wd-prev .wd-arrow-inner, .wd-ajax-arrows .wd-btn-arrow.wd-next .wd-arrow-inner').on('click', function(e) {
 				e.preventDefault();
-				var $this = $(this);
+				var $this = $(this).parent('.wd-btn-arrow');
 
 				if (process || $this.hasClass('wd-disabled')) {
 					return;
@@ -11388,8 +11792,8 @@ window.addEventListener('load',function() {
 			var $source           = $product.find('.product-image-link picture source');
 
 			var originalSrc       = $image.attr('src');
-			var originalSrcSet    = $image.attr('srcset');
-			var originalSizes     = $image.attr('sizes');
+			var originalSrcSet    = $image.attr('srcset') ? $image.attr('srcset') : null;
+			var originalSizes     = $image.attr('sizes') ? $image.attr('sizes') : null;
 			var originalBtnText   = $button.text();
 			var addToCartText     = woodmart_settings.add_to_cart_text;
 			var priceOriginalHtml = $price.html();
@@ -11985,6 +12389,7 @@ window.addEventListener('load',function() {
 
 	$.each([
 		'frontend/element_ready/wd_products.default',
+		'frontend/element_ready/wd_product_categories.default',
 		'frontend/element_ready/wd_products_tabs.default',
 		'frontend/element_ready/wd_products_brands.default'
 	], function(index, value) {
@@ -12122,7 +12527,7 @@ woodmartThemeModule.singleProductTabsDescHidden = function() {
 			removalDelay   : 600,
 			showCloseBtn   : false,
 			tLoading       : woodmart_settings.loading,
-			fixedContentPos: true,
+			fixedContentPos: false,
 			callbacks      : {
 				open: function() {
 					var mfpInstance     = this;
@@ -12266,11 +12671,18 @@ window.addEventListener('load',function() {
 
 		woodmartThemeModule.$window.on('scroll', stickyAddToCartToggle);
 
-		$('.wd-sticky-add-to-cart, .wd-sticky-btn .wd-buy-now-btn').on('click', function(e) {
+		$('.wd-sticky-add-to-cart, .wd-sticky-btn-cart > .wd-buy-now-btn').on('click', function(e) {
 			e.preventDefault();
 
+			var headerHeight = $('.whb-header .whb-row.whb-sticky-row').length > 0 ? $('.whb-header .whb-main-header').outerHeight() : 0;
+
+			var $stickyHeader = $('.whb-sticky-header');
+			var stickyHeaderHeight = $stickyHeader.length ? $stickyHeader.outerHeight() : headerHeight;
+
+			var scrollTo = $('.summary-inner .variations_form, .wd-single-add-cart .variations_form').offset().top - stickyHeaderHeight - woodmart_settings.sticky_add_to_cart_offset;
+
 			$('html, body').animate({
-				scrollTop: $('.elementor-widget-woocommerce-product-title,.summary-inner .product_title,.elementor-widget-wd_single_product_title, .wd-single-title').offset().top
+				scrollTop: scrollTo
 			}, 800);
 		});
 
@@ -12640,8 +13052,18 @@ window.addEventListener('load',function() {
 			}
 
 			$variation_form
-				.on('click touchstart', '.wd-swatches-single > .wd-swatch', function() {
+				.on('click touchstart keydown', '.wd-swatches-single > .wd-swatch', function(event) {
 					var $this = $(this);
+
+					if (event.type === 'keydown') {
+						if (event.key === 'Enter' || event.key === ' ') {
+							event.preventDefault();
+							$(this).trigger('click');
+						}
+
+						return;
+					}
+
 					var value = $this.data('value');
 					var id = $this.parent().data('id');
 					var title = $this.data('title');
@@ -14147,6 +14569,7 @@ window.addEventListener('load', function() {
 			$button.addClass('added');
 
 			woodmartThemeModule.$document.trigger('added_to_wishlist');
+			woodmartThemeModule.$document.trigger('wdUpdateTooltip', $button);
 		}
 	};
 
@@ -15297,6 +15720,7 @@ window.addEventListener('load', function() {
 			$button.addClass('added');
 
 			woodmartThemeModule.$document.trigger('added_to_compare');
+			woodmartThemeModule.$document.trigger('wdUpdateTooltip', $button);
 		}
 
 		function updateCountWidget(count) {

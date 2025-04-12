@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:37" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:33" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,14 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:37:22 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:33:45 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[electronics-2-newslatter-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-newslatter-bg/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-newslatter-bg.jpg</guid>
 															<wp:post_id>14523</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:57]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[electronics-2-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-popup/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:01 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-popup.jpg</guid>
 															<wp:post_id>14532</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:01]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[w-electronics-2-mail]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-electronics-2-mail/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/w-electronics-2-mail.svg</guid>
 															<wp:post_id>14539</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:05]]></wp:post_date>
@@ -120,7 +120,7 @@
 					<title><![CDATA[w-electronics-2-phone]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/w-electronics-2-phone/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/w-electronics-2-phone.svg</guid>
 															<wp:post_id>14540</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:05]]></wp:post_date>
@@ -143,7 +143,7 @@
 					<title><![CDATA[electronics-2-category-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-category-1/</link>
 					<pubDate>Fri, 07 Jun 2024 12:11:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-category-1.jpg</guid>
 															<wp:post_id>14607</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:11:32]]></wp:post_date>
@@ -166,7 +166,7 @@
 					<title><![CDATA[electronics-2-category-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-category-2/</link>
 					<pubDate>Fri, 07 Jun 2024 12:11:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-category-2.jpg</guid>
 															<wp:post_id>14608</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:11:32]]></wp:post_date>
@@ -189,7 +189,7 @@
 					<title><![CDATA[electronics-2-category-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-category-4/</link>
 					<pubDate>Fri, 07 Jun 2024 12:11:32 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-category-4.jpg</guid>
 															<wp:post_id>14609</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:11:32]]></wp:post_date>
@@ -212,7 +212,7 @@
 					<title><![CDATA[electronics-2-category-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-category-6/</link>
 					<pubDate>Fri, 07 Jun 2024 12:11:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-category-6.jpg</guid>
 															<wp:post_id>14610</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:11:33]]></wp:post_date>
@@ -235,7 +235,7 @@
 					<title><![CDATA[white-electronics-category-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-category-3/</link>
 					<pubDate>Fri, 07 Jun 2024 12:11:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-category-3.jpg</guid>
 															<wp:post_id>14611</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:11:33]]></wp:post_date>
@@ -258,7 +258,7 @@
 					<title><![CDATA[white-electronics-category-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-category-5/</link>
 					<pubDate>Fri, 07 Jun 2024 12:11:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-category-5.jpg</guid>
 															<wp:post_id>14612</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:11:34]]></wp:post_date>
@@ -281,7 +281,7 @@
 					<title><![CDATA[white-electronics-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-1/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-1.jpg</guid>
 															<wp:post_id>14613</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:05]]></wp:post_date>
@@ -304,7 +304,7 @@
 					<title><![CDATA[white-electronics-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-3/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-3.jpg</guid>
 															<wp:post_id>14614</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:06]]></wp:post_date>
@@ -327,7 +327,7 @@
 					<title><![CDATA[white-electronics-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-4/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-4.jpg</guid>
 															<wp:post_id>14615</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:06]]></wp:post_date>
@@ -350,7 +350,7 @@
 					<title><![CDATA[white-electronics-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-5/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-5.jpg</guid>
 															<wp:post_id>14616</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:07]]></wp:post_date>
@@ -373,7 +373,7 @@
 					<title><![CDATA[white-electronics-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-8/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-8.jpg</guid>
 															<wp:post_id>14617</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:08]]></wp:post_date>
@@ -396,7 +396,7 @@
 					<title><![CDATA[white-electronics-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-11/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-11.jpg</guid>
 															<wp:post_id>14618</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:08]]></wp:post_date>
@@ -419,7 +419,7 @@
 					<title><![CDATA[white-electronics-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-12/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-12.jpg</guid>
 															<wp:post_id>14619</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:09]]></wp:post_date>
@@ -442,7 +442,7 @@
 					<title><![CDATA[white-electronics-product-accessories-15]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-accessories-15/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-accessories-15.jpg</guid>
 															<wp:post_id>14620</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:09]]></wp:post_date>
@@ -465,7 +465,7 @@
 					<title><![CDATA[white-electronics-product-accessories-16]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-accessories-16/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-accessories-16.jpg</guid>
 															<wp:post_id>14621</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:10]]></wp:post_date>
@@ -488,7 +488,7 @@
 					<title><![CDATA[white-electronics-product-accessories-17]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-accessories-17/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-accessories-17.jpg</guid>
 															<wp:post_id>14622</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:10]]></wp:post_date>
@@ -511,21 +511,21 @@
 					<title><![CDATA[Home Electronics-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/</link>
 					<pubDate>Fri, 07 Jun 2024 09:19:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=14511</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"43a80584-e01c-4ef3-b899-85df0186ef13","effect":"distortion","paginationAlign":"center","paginationStyle":"3","autoplaySpeed":"25000","stretch":true,"height":"900","bgImage":{"id":"","url":""},"marginBottom":"10","heightTablet":"600","heightMobile":"710","marginBottomTablet":"10"} -->
 <div id="wd-43a80584" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-distortion wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="distortion" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"81022aad-43a7-4176-a536-2a2900d7255d","effect":"distortion","bgImage":{"id":14554,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-bg-1-opt.jpg"},"bgColorCode":"#f1eff2","paddingRightMobile":"15","paddingLeftMobile":"15"} -->
 <div id="wd-81022aad" class="wp-block-wd-slider-item wd-slide wd-carousel-item" data-image-url="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-bg-1-opt.jpg"><div class="wd-slide-container"><!-- wp:wd/row {"blockId":"f969f94e-7b78-4b57-b7c6-ce4a62ac963c","columnsGapMobile":40} -->
-<div id="wd-f969f94e" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"4cbcc453-3df9-4c7c-a3c0-dfeef13d0af1","adjacentCount":2,"blocksGap":10,"justifyContent":"center","adjacentCountTablet":2,"colWidthTablet":50,"paddingLeftTablet":"0"} -->
-<div id="wd-4cbcc453" class="wp-block-wd-column"><!-- wp:wd/title {"blockId":"c0800ba3-a6e0-4d51-8cf4-6b9cf2aecc72","content":"WIRELESS CHARGER ADAPTER","tpFontSize":"20","colorCode":"#888888","animation":"slide-from-bottom","animationDelay":"350","htmlTag":"p","textAlignMobile":"center","tpFontSizeMobile":"16","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
-<p id="wd-c0800ba3" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">WIRELESS CHARGER ADAPTER</p>
+<div id="wd-f969f94e" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"4cbcc453-3df9-4c7c-a3c0-dfeef13d0af1","adjacentCount":2,"blocksGap":10,"justifyContent":"center","adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100,"textAlignMobile":"center"} -->
+<div id="wd-4cbcc453" class="wp-block-wd-column wd-align"><!-- wp:wd/title {"blockId":"c0800ba3-a6e0-4d51-8cf4-6b9cf2aecc72","content":"WIRELESS CHARGER ADAPTER","tpFontSize":"20","colorCode":"#888888","animation":"slide-from-bottom","animationDelay":"350","htmlTag":"p","tpFontSizeMobile":"16","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
+<p id="wd-c0800ba3" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">WIRELESS CHARGER ADAPTER</p>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"13680533-1692-49db-a89f-fa27e817e4b5","content":"ELECTRIC SHAVER","tpFontSize":"80","tpLineHeight":"1.2","tpFontVariant":"800","tpFontWeight":"800","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","textAlignMobile":"center","tpFontSizeTablet":"56","tpFontSizeMobile":"32","tpLineHeightUnits":"em","alignSelfMobile":"center","customWidthMobile":"200"} -->
-<h2 id="wd-13680533" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350 wd-align-s-center-sm">ELECTRIC SHAVER</h2>
+<!-- wp:wd/title {"blockId":"13680533-1692-49db-a89f-fa27e817e4b5","content":"ELECTRIC SHAVER","tpFontSize":"80","tpLineHeight":"1.2","tpFontVariant":"800","tpFontWeight":"800","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","tpFontSizeTablet":"56","tpFontSizeMobile":"32","tpLineHeightUnits":"em","alignSelfMobile":"center","customWidthMobile":"200"} -->
+<h2 id="wd-13680533" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350 wd-align-s-center-sm">ELECTRIC SHAVER</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/container {"blockId":"0d46136e-d1ee-48fa-8a55-643a2f3ae8fb","direction":"row","animation":"slide-from-bottom","animationDelay":"450","displayWidth":"","directionTablet":"row","directionMobile":"row","justifyMobile":"center"} -->
+<!-- wp:wd/container {"blockId":"0d46136e-d1ee-48fa-8a55-643a2f3ae8fb","direction":"row","animation":"slide-from-bottom","animationDelay":"450","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
 <div id="wd-0d46136e" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-dir-row-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450"><!-- wp:wd/button {"blockId":"eb8ad3d2-e76b-4534-a3d4-a3789d205b9f","predefinedColor":"primary","size":"large","shape":"round","animationDelay":""} -->
 <a id="wd-eb8ad3d2" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-large btn-shape-round" href="#"><span>shop now</span></a>
 <!-- /wp:wd/button -->
@@ -536,26 +536,26 @@
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/column -->
 
-<!-- wp:wd/column {"blockId":"315897ca-c9b5-4fc8-8aae-182c0c9c62b8","adjacentCount":2,"marginBottom":"-100","adjacentCountTablet":2,"colWidthTablet":50,"alignItemsMobile":"center","marginBottomTablet":"-160"} -->
-<div id="wd-315897ca" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/image {"blockId":"1001a649-7847-403f-a558-38e47cd2421f","image":{"id":14534,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png","width":404,"height":712},"marginTop":"190","animation":"slide-from-right","animationDelay":"300","displayWidth":"custom","customWidth":"404","marginTopTablet":"0","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"320","customWidthMobile":"249"} -->
-<div id="wd-1001a649" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_300 wd-custom-width"><img class="wp-image-14534" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png" /></div>
+<!-- wp:wd/column {"blockId":"315897ca-c9b5-4fc8-8aae-182c0c9c62b8","adjacentCount":2,"marginBottom":"-100","adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100,"alignItemsMobile":"center","textAlignMobile":"center","marginBottomTablet":"-160"} -->
+<div id="wd-315897ca" class="wp-block-wd-column wd-align-is-sm-center wd-align"><!-- wp:wd/image {"blockId":"1001a649-7847-403f-a558-38e47cd2421f","image":{"id":14534,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png","width":404,"height":712},"marginTop":"190","animation":"slide-from-right","animationDelay":"300","displayWidth":"custom","customWidth":"404","marginTopTablet":"0","displayWidthTablet":"custom","displayWidthMobile":"custom","customWidthTablet":"320","customWidthMobile":"249"} -->
+<div id="wd-1001a649" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_300 wd-custom-width"><img class="wp-image-14534" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row --></div><div class="wd-slide-bg wd-fill"></div></div>
 <!-- /wp:wd/slider-item -->
 
 <!-- wp:wd/slider-item {"blockId":"ca14d1ba-08dc-4a37-af02-8c78e9b206f6","effect":"distortion","bgImage":{"id":14556,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-bg-new.jpg"},"bgColorCode":"#f1eff2","paddingRightMobile":"15","paddingLeftMobile":"15"} -->
-<div id="wd-ca14d1ba" class="wp-block-wd-slider-item wd-slide wd-carousel-item" data-image-url="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-bg-new.jpg"><div class="wd-slide-container"><!-- wp:wd/row {"blockId":"9fa03576-ac72-45c3-8f4a-466957fab2b3","marginTop":"100"} -->
-<div id="wd-9fa03576" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"62d24a95-3017-45c8-966b-f959f9a2e001","adjacentCount":2,"blocksGap":10,"justifyContent":"center","adjacentCountTablet":2,"colWidthTablet":50,"paddingLeftTablet":"0"} -->
-<div id="wd-62d24a95" class="wp-block-wd-column"><!-- wp:wd/title {"blockId":"f95f6820-f007-40a2-b6c2-40f40bd2bbdb","content":"YOUR PERSONAL ASSISTANT","tpFontSize":"20","colorCode":"#888888","animation":"slide-from-bottom","animationDelay":"350","htmlTag":"p","textAlignMobile":"center","tpFontSizeMobile":"16","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
-<p id="wd-f95f6820" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">YOUR PERSONAL ASSISTANT</p>
+<div id="wd-ca14d1ba" class="wp-block-wd-slider-item wd-slide wd-carousel-item" data-image-url="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-bg-new.jpg"><div class="wd-slide-container"><!-- wp:wd/row {"blockId":"9fa03576-ac72-45c3-8f4a-466957fab2b3"} -->
+<div id="wd-9fa03576" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"62d24a95-3017-45c8-966b-f959f9a2e001","adjacentCount":2,"blocksGap":10,"justifyContent":"center","adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100,"textAlignMobile":"center"} -->
+<div id="wd-62d24a95" class="wp-block-wd-column wd-align"><!-- wp:wd/title {"blockId":"f95f6820-f007-40a2-b6c2-40f40bd2bbdb","content":"YOUR PERSONAL ASSISTANT","tpFontSize":"20","colorCode":"#888888","animation":"slide-from-bottom","animationDelay":"350","htmlTag":"p","tpFontSizeMobile":"16","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
+<p id="wd-f95f6820" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">YOUR PERSONAL ASSISTANT</p>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"5bca26f5-bc12-4ff2-bd77-d1e49289c957","content":"GOOGLE HOME​","tpFontSize":"80","tpLineHeight":"1.2","tpFontVariant":"800","tpFontWeight":"800","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","displayWidth":"custom","customWidth":"375","textAlignMobile":"center","tpFontSizeTablet":"56","tpFontSizeMobile":"32","tpLineHeightUnits":"em","alignSelfMobile":"center","customWidthMobile":"200"} -->
-<h2 id="wd-5bca26f5" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350 wd-custom-width wd-align-s-center-sm">GOOGLE HOME​</h2>
+<!-- wp:wd/title {"blockId":"5bca26f5-bc12-4ff2-bd77-d1e49289c957","content":"GOOGLE HOME​","tpFontSize":"80","tpLineHeight":"1.2","tpFontVariant":"800","tpFontWeight":"800","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","displayWidth":"custom","customWidth":"375","tpFontSizeTablet":"56","tpFontSizeMobile":"32","tpLineHeightUnits":"em","alignSelfMobile":"center","customWidthMobile":"200"} -->
+<h2 id="wd-5bca26f5" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350 wd-custom-width wd-align-s-center-sm">GOOGLE HOME​</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/container {"blockId":"731658f5-3f58-4c31-813b-c51556de22bd","direction":"row","animation":"slide-from-bottom","animationDelay":"450","displayWidth":"","directionTablet":"row","directionMobile":"row","justifyMobile":"center"} -->
+<!-- wp:wd/container {"blockId":"731658f5-3f58-4c31-813b-c51556de22bd","direction":"row","animation":"slide-from-bottom","animationDelay":"450","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
 <div id="wd-731658f5" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-dir-row-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450"><!-- wp:wd/button {"blockId":"e3a82fac-1abe-4f62-a0dd-0335e443e4ec","predefinedColor":"primary","size":"large","shape":"round","bgColorCode":"#66a7f0","animationDelay":""} -->
 <a id="wd-e3a82fac" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-large btn-shape-round" href="#"><span>shop now</span></a>
 <!-- /wp:wd/button -->
@@ -566,9 +566,9 @@
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/column -->
 
-<!-- wp:wd/column {"blockId":"e24d6510-69df-43c5-8e43-933d94b0154e","adjacentCount":2,"adjacentCountTablet":2,"colWidthTablet":50,"alignItemsMobile":"center"} -->
+<!-- wp:wd/column {"blockId":"e24d6510-69df-43c5-8e43-933d94b0154e","adjacentCount":2,"marginTop":"100","adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100,"alignItemsMobile":"center","marginTopTablet":"0"} -->
 <div id="wd-e24d6510" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/image {"blockId":"8ca10ceb-06a0-4c19-ae9c-33227d314d5d","image":{"id":14557,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-img.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-img.png","width":612,"height":622},"animation":"slide-from-right","animationDelay":"300","displayWidth":"","customWidth":"404","displayWidthMobile":"custom","customWidthMobile":"320"} -->
-<div id="wd-8ca10ceb" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_300 wd-custom-width"><img class="wp-image-14557" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-img.png" /></div>
+<div id="wd-8ca10ceb" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_300 wd-custom-width"><img class="wp-image-14557" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-img.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row --></div><div class="wd-slide-bg wd-fill"></div></div>
@@ -576,16 +576,16 @@
 
 <!-- wp:wd/slider-item {"blockId":"28dcca3f-7a88-490a-a9c7-45431a60dc1d","effect":"distortion","bgImage":{"id":14558,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s3-bg-new.jpg"},"bgColorCode":"#f1eff2","paddingRightMobile":"15","paddingLeftMobile":"15"} -->
 <div id="wd-28dcca3f" class="wp-block-wd-slider-item wd-slide wd-carousel-item" data-image-url="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s3-bg-new.jpg"><div class="wd-slide-container"><!-- wp:wd/row {"blockId":"95380a9a-ebd9-4629-b5ae-5d7cecf4bb11"} -->
-<div id="wd-95380a9a" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"733f9e65-fd16-4023-8791-decb9170a906","adjacentCount":2,"blocksGap":10,"justifyContent":"center","adjacentCountTablet":2,"colWidthTablet":40,"paddingLeftTablet":"0"} -->
-<div id="wd-733f9e65" class="wp-block-wd-column"><!-- wp:wd/title {"blockId":"9dc05619-e7c5-47af-bd35-ac35ee62e2e2","content":"MINIMALISTIC PC-CASE","tpFontSize":"20","colorCode":"#888888","animation":"slide-from-bottom","animationDelay":"350","htmlTag":"p","textAlignMobile":"center","tpFontSizeTablet":"15","tpFontSizeMobile":"16","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
-<p id="wd-9dc05619" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">MINIMALISTIC PC-CASE</p>
+<div id="wd-95380a9a" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"733f9e65-fd16-4023-8791-decb9170a906","adjacentCount":2,"blocksGap":10,"justifyContent":"center","adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":40,"colWidthMobile":100,"textAlignMobile":"center"} -->
+<div id="wd-733f9e65" class="wp-block-wd-column wd-align"><!-- wp:wd/title {"blockId":"9dc05619-e7c5-47af-bd35-ac35ee62e2e2","content":"MINIMALISTIC PC-CASE","tpFontSize":"20","colorCode":"#888888","animation":"slide-from-bottom","animationDelay":"350","htmlTag":"p","tpFontSizeTablet":"15","tpFontSizeMobile":"16","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
+<p id="wd-9dc05619" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350">MINIMALISTIC PC-CASE</p>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"d0485c6c-7948-42c7-a317-f2f4dcae5925","content":"CRYORIC TAKU","tpFontSize":"80","tpLineHeight":"1.2","tpFontVariant":"800","tpFontWeight":"800","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","alignSelf":"center","textAlignMobile":"center","tpFontSizeTablet":"56","tpFontSizeMobile":"32","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
-<h2 id="wd-d0485c6c" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350 wd-align-s-center">CRYORIC TAKU</h2>
+<!-- wp:wd/title {"blockId":"d0485c6c-7948-42c7-a317-f2f4dcae5925","content":"CRYORIC TAKU","tpFontSize":"80","tpLineHeight":"1.2","tpFontVariant":"800","tpFontWeight":"800","marginBottom":"10","animation":"slide-from-bottom","animationDelay":"350","alignSelf":"center","tpFontSizeTablet":"56","tpFontSizeMobile":"32","tpLineHeightUnits":"em","customWidthMobile":"200"} -->
+<h2 id="wd-d0485c6c" class="wp-block-wd-title title wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_350 wd-align-s-center">CRYORIC TAKU</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/container {"blockId":"ec307e5b-dcf9-40d3-a030-0e38ffb6f439","direction":"row","animation":"slide-from-bottom","animationDelay":"450","displayWidth":"","directionTablet":"row","directionMobile":"row","justifyMobile":"center"} -->
+<!-- wp:wd/container {"blockId":"ec307e5b-dcf9-40d3-a030-0e38ffb6f439","direction":"row","animation":"slide-from-bottom","animationDelay":"450","displayWidth":"","directionTablet":"row","directionMobile":"row"} -->
 <div id="wd-ec307e5b" class="wp-block-wd-container wd-dir-row wd-dir-row-md wd-dir-row-sm wd-animation wd-transform wd-animation-slide-from-bottom wd_delay_450"><!-- wp:wd/button {"blockId":"b2bb0e36-3d2a-4cc7-8a39-0761b7c56c5f","predefinedColor":"primary","size":"large","shape":"round","bgColorCode":"#f7b345","animationDelay":""} -->
 <a id="wd-b2bb0e36" class="wp-block-wd-button btn btn-style-default btn-color-primary btn-size-large btn-shape-round" href="#"><span>shop now</span></a>
 <!-- /wp:wd/button -->
@@ -596,9 +596,9 @@
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/column -->
 
-<!-- wp:wd/column {"blockId":"385988c1-6e17-4bc9-80d6-0fd6df12a476","adjacentCount":2,"adjacentCountTablet":2,"colWidthTablet":60,"alignItemsMobile":"center"} -->
+<!-- wp:wd/column {"blockId":"385988c1-6e17-4bc9-80d6-0fd6df12a476","adjacentCount":2,"adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":60,"colWidthMobile":100,"alignItemsMobile":"center"} -->
 <div id="wd-385988c1" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/image {"blockId":"54b0c18a-b730-45b4-b2ce-f72ed2111fbe","image":{"id":14555,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-img.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-img.png","width":642,"height":561},"animation":"slide-from-right","animationDelay":"300","displayWidth":"","customWidth":"","displayWidthMobile":"custom","customWidthMobile":"320"} -->
-<div id="wd-54b0c18a" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_300 wd-custom-width"><img class="wp-image-14555" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-img.png" /></div>
+<div id="wd-54b0c18a" class="wp-block-wd-image wd-block-image wd-animation wd-transform wd-animation-slide-from-right wd_delay_300 wd-custom-width"><img class="wp-image-14555" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-img.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row --></div><div class="wd-slide-bg wd-fill"></div></div>
@@ -612,8 +612,8 @@
 <!-- wp:wd/row {"blockId":"20c1fc1e-7256-47d0-97d2-0f8eddfb05f9","columnsGap":30,"marginBottom":"80","displayWidth":"","customWidth":"","marginBottomTablet":"60"} -->
 <div id="wd-20c1fc1e" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"bbf48e41-f49d-4bb4-a2b6-2b451348e091","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50,"alignItemsMobile":"center"} -->
 <div id="wd-bbf48e41" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/infobox {"blockId":"92b644fc-f38c-4ef4-87f8-bd566b26b794","iconPositionHorizontal":"start","iconPositionVertical":"center","displayWidth":"custom","customWidth":"240","displayWidthTablet":"custom"} -->
-<div id="wd-92b644fc" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"8e95d091-ed12-493d-a4f5-ef7937435247","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002257\u0022 height=\u002248\u0022 viewBox=\u00220 0 57 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-free-shipping\u0022 class=\u0022cls-1\u0022 d=\u0022M216.063,1615.3V1614a3.582,3.582,0,0,0-3.563-3.6H200.625v-6a1.19,1.19,0,0,0-1.188-1.2h-3.562v-3.6a1.19,1.19,0,0,0-1.188-1.2H178.555l-2.028-2.05a1.176,1.176,0,0,0-1.679,0l-6.777,6.85h-1.884a1.189,1.189,0,0,0-1.187,1.2V1638a1.2,1.2,0,0,0,1.187,1.2h4.87a6.042,6.042,0,0,0,1.071,2.4H169.75a1.2,1.2,0,0,0,0,2.4h7.133a5.972,5.972,0,0,0,5.81-4.8h21.615a5.98,5.98,0,0,0,1.071,2.4H203a1.2,1.2,0,0,0,0,2.4h7.133a5.971,5.971,0,0,0,5.809-4.8h4.869A1.2,1.2,0,0,0,222,1638v-15.6A7.189,7.189,0,0,0,216.063,1615.3ZM193.5,1600.8v2.4H183.305l-2.375-2.4H193.5Zm-17.812-1.91,1.535,1.55a0.016,0.016,0,0,0,0,.01l2.722,2.75H171.43Zm1.187,42.71a3.6,3.6,0,1,1,3.562-3.6A3.589,3.589,0,0,1,176.875,1641.6Zm21.375-30V1632h-8.076a1.2,1.2,0,0,0,0,2.4h8.076v2.4H182.693a5.926,5.926,0,0,0-11.636,0h-3.682v-19.2h4.75a1.2,1.2,0,0,0,0-2.4h-4.75v-2.4h14.249a1.2,1.2,0,0,0,0-2.4H167.375v-4.8H198.25v6h0Zm6.058,25.2h-3.683v-2.4h4.754A5.98,5.98,0,0,0,204.308,1636.8Zm9.38,1.2a3.563,3.563,0,1,1-3.572-3.6h0.012a3.581,3.581,0,0,1,3.56,3.59V1638h0Zm5.937-1.2h-3.682a5.957,5.957,0,0,0-5.817-4.8h-9.5v-19.2H212.5a1.2,1.2,0,0,1,1.188,1.2v1.2h-8.313a1.2,1.2,0,0,0-1.187,1.2v10.8a1.2,1.2,0,0,0,1.187,1.2h14.25v8.4Zm-10.687-19.2v8.4h-2.375v-8.4h2.375Zm10.687,8.4h-8.312v-8.4h3.562a4.779,4.779,0,0,1,4.75,4.8v3.6h0Zm-34.1,8.4h0.742a1.2,1.2,0,0,0,0-2.4h-0.742A1.2,1.2,0,0,0,185.528,1634.4Zm0-21.6h0.742a1.2,1.2,0,0,0,0-2.4h-0.742A1.2,1.2,0,0,0,185.528,1612.8Z\u0022 transform=\u0022translate(-165 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16151,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-free-shipping.svg"},"width":"50","height":"50"} -->
-<div id="wd-8e95d091" class="wp-block-wd-icon"><img class="wp-image-16151" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-free-shipping.svg" /></div>
+<div id="wd-92b644fc" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"8e95d091-ed12-493d-a4f5-ef7937435247","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002257\u0022 height=\u002248\u0022 viewBox=\u00220 0 57 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-free-shipping\u0022 class=\u0022cls-1\u0022 d=\u0022M216.063,1615.3V1614a3.582,3.582,0,0,0-3.563-3.6H200.625v-6a1.19,1.19,0,0,0-1.188-1.2h-3.562v-3.6a1.19,1.19,0,0,0-1.188-1.2H178.555l-2.028-2.05a1.176,1.176,0,0,0-1.679,0l-6.777,6.85h-1.884a1.189,1.189,0,0,0-1.187,1.2V1638a1.2,1.2,0,0,0,1.187,1.2h4.87a6.042,6.042,0,0,0,1.071,2.4H169.75a1.2,1.2,0,0,0,0,2.4h7.133a5.972,5.972,0,0,0,5.81-4.8h21.615a5.98,5.98,0,0,0,1.071,2.4H203a1.2,1.2,0,0,0,0,2.4h7.133a5.971,5.971,0,0,0,5.809-4.8h4.869A1.2,1.2,0,0,0,222,1638v-15.6A7.189,7.189,0,0,0,216.063,1615.3ZM193.5,1600.8v2.4H183.305l-2.375-2.4H193.5Zm-17.812-1.91,1.535,1.55a0.016,0.016,0,0,0,0,.01l2.722,2.75H171.43Zm1.187,42.71a3.6,3.6,0,1,1,3.562-3.6A3.589,3.589,0,0,1,176.875,1641.6Zm21.375-30V1632h-8.076a1.2,1.2,0,0,0,0,2.4h8.076v2.4H182.693a5.926,5.926,0,0,0-11.636,0h-3.682v-19.2h4.75a1.2,1.2,0,0,0,0-2.4h-4.75v-2.4h14.249a1.2,1.2,0,0,0,0-2.4H167.375v-4.8H198.25v6h0Zm6.058,25.2h-3.683v-2.4h4.754A5.98,5.98,0,0,0,204.308,1636.8Zm9.38,1.2a3.563,3.563,0,1,1-3.572-3.6h0.012a3.581,3.581,0,0,1,3.56,3.59V1638h0Zm5.937-1.2h-3.682a5.957,5.957,0,0,0-5.817-4.8h-9.5v-19.2H212.5a1.2,1.2,0,0,1,1.188,1.2v1.2h-8.313a1.2,1.2,0,0,0-1.187,1.2v10.8a1.2,1.2,0,0,0,1.187,1.2h14.25v8.4Zm-10.687-19.2v8.4h-2.375v-8.4h2.375Zm10.687,8.4h-8.312v-8.4h3.562a4.779,4.779,0,0,1,4.75,4.8v3.6h0Zm-34.1,8.4h0.742a1.2,1.2,0,0,0,0-2.4h-0.742A1.2,1.2,0,0,0,185.528,1634.4Zm0-21.6h0.742a1.2,1.2,0,0,0,0-2.4h-0.742A1.2,1.2,0,0,0,185.528,1612.8Z\u0022 transform=\u0022translate(-165 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16151,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-free-shipping.svg"},"width":"50"} -->
+<div id="wd-8e95d091" class="wp-block-wd-icon"><img class="wp-image-16151" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-free-shipping.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"45e8354d-dcc4-4f74-9f43-6df737051c4c","metadata":{"name":"Infobox content"}} -->
@@ -630,8 +630,8 @@
 
 <!-- wp:wd/column {"blockId":"fd18aef4-5374-4b3e-9907-c9579cb1c3f9","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50,"alignItemsMobile":"center"} -->
 <div id="wd-fd18aef4" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/infobox {"blockId":"b48bb6ad-6262-4fb6-9190-80bab22a826c","iconPositionHorizontal":"start","iconPositionVertical":"center","displayWidth":"custom","customWidth":"240","displayWidthTablet":"custom"} -->
-<div id="wd-b48bb6ad" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"6498637f-f562-41bf-9cfe-eca713e5c2e8","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002248\u0022 height=\u002248\u0022 viewBox=\u00220 0 48 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-return\u0022 class=\u0022cls-1\u0022 d=\u0022M625,1600h-4v-1a3,3,0,0,0-6,0v1H597v-1a3,3,0,0,0-6,0v1h-4a5,5,0,0,0-5,5v38a1,1,0,0,0,1,1h46a1,1,0,0,0,1-1v-38A5,5,0,0,0,625,1600Zm-8-1a1,1,0,0,1,2,0v4a1,1,0,0,1-2,0v-4Zm-24,0a1,1,0,0,1,2,0v4a1,1,0,0,1-1,1h0a1,1,0,0,1-1-1v-4Zm35,43H584v-32h37.787a1,1,0,1,0,0-2H584v-3a3,3,0,0,1,3-3h4v1a3,3,0,0,0,6,0v-1h18v1a3,3,0,0,0,6,0v-1h4a3,3,0,0,1,3,3v37h0Zm-2.521-34h-0.6a1,1,0,0,0,0,2h0.6A1,1,0,1,0,625.479,1608ZM624,1613H588a1,1,0,0,0-1,1v18a1,1,0,0,0,1,1h5v4h-1.488a1,1,0,0,0,0,2H624a1,1,0,0,0,1-1v-24A1,1,0,0,0,624,1613Zm-17,2h4v4h-4v-4Zm0,12h4v4h-4v-4Zm-14,4h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm6,18h-4v-4h4v4h0Zm0-6h-4v-4h4v4h0Zm0-6h-4v-4h4v4h0Zm0-6h-4v-4h4v4h0Zm6,18h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm6,18h-4v-4h4v4Zm0-12h-4v-4h4v4Zm6,12h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm6,18h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm-34.583,18H588a1,1,0,0,0,0,2h0.417A1,1,0,0,0,588.417,1637Z\u0022 transform=\u0022translate(-582 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16152,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-return.svg"},"width":"50","height":"50"} -->
-<div id="wd-6498637f" class="wp-block-wd-icon"><img class="wp-image-16152" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-return.svg" /></div>
+<div id="wd-b48bb6ad" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"6498637f-f562-41bf-9cfe-eca713e5c2e8","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002248\u0022 height=\u002248\u0022 viewBox=\u00220 0 48 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-return\u0022 class=\u0022cls-1\u0022 d=\u0022M625,1600h-4v-1a3,3,0,0,0-6,0v1H597v-1a3,3,0,0,0-6,0v1h-4a5,5,0,0,0-5,5v38a1,1,0,0,0,1,1h46a1,1,0,0,0,1-1v-38A5,5,0,0,0,625,1600Zm-8-1a1,1,0,0,1,2,0v4a1,1,0,0,1-2,0v-4Zm-24,0a1,1,0,0,1,2,0v4a1,1,0,0,1-1,1h0a1,1,0,0,1-1-1v-4Zm35,43H584v-32h37.787a1,1,0,1,0,0-2H584v-3a3,3,0,0,1,3-3h4v1a3,3,0,0,0,6,0v-1h18v1a3,3,0,0,0,6,0v-1h4a3,3,0,0,1,3,3v37h0Zm-2.521-34h-0.6a1,1,0,0,0,0,2h0.6A1,1,0,1,0,625.479,1608ZM624,1613H588a1,1,0,0,0-1,1v18a1,1,0,0,0,1,1h5v4h-1.488a1,1,0,0,0,0,2H624a1,1,0,0,0,1-1v-24A1,1,0,0,0,624,1613Zm-17,2h4v4h-4v-4Zm0,12h4v4h-4v-4Zm-14,4h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm6,18h-4v-4h4v4h0Zm0-6h-4v-4h4v4h0Zm0-6h-4v-4h4v4h0Zm0-6h-4v-4h4v4h0Zm6,18h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm6,18h-4v-4h4v4Zm0-12h-4v-4h4v4Zm6,12h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm6,18h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm0-6h-4v-4h4v4Zm-34.583,18H588a1,1,0,0,0,0,2h0.417A1,1,0,0,0,588.417,1637Z\u0022 transform=\u0022translate(-582 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16152,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-return.svg"},"width":"50"} -->
+<div id="wd-6498637f" class="wp-block-wd-icon"><img class="wp-image-16152" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-return.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"6978212c-63f9-4363-a92e-e1d5495e7a7c","metadata":{"name":"Infobox content"}} -->
@@ -648,8 +648,8 @@
 
 <!-- wp:wd/column {"blockId":"ec26adbb-323e-45e4-b814-445ffdcd954a","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50,"alignItemsMobile":"center"} -->
 <div id="wd-ec26adbb" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/infobox {"blockId":"5f44b593-8a99-4fe0-a7cb-1006f8efe7fa","iconPositionHorizontal":"start","iconPositionVertical":"center","displayWidth":"custom","customWidth":"240","displayWidthTablet":"custom"} -->
-<div id="wd-5f44b593" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"67b26786-b3eb-48f2-900f-df0e9daa9ae0","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002240\u0022 height=\u002248\u0022 viewBox=\u00220 0 40 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-support\u0022 class=\u0022cls-1\u0022 d=\u0022M1026.26,1627.35v-0.01a15.782,15.782,0,0,0-3.77-2.74,13.579,13.579,0,0,0-17.74-20.47,14.012,14.012,0,0,0-2.27-4.57c-1.65-2.4-3.373-3.56-5.265-3.56-2.243,0-4.06,1.64-5.663,3.09-0.281.26-.547,0.5-0.805,0.72a5.674,5.674,0,0,0-1.711,3.99,22.153,22.153,0,0,0,2.123,9.88,50.261,50.261,0,0,0,8.1,12.65c8,9.44,16.565,13.67,21.5,13.67a5.177,5.177,0,0,0,3.39-1.03l0.01-.01c0.27-.23.57-0.47,0.87-0.73,1.82-1.49,3.89-3.18,3.98-5.66C1029.06,1630.87,1028.17,1629.16,1026.26,1627.35Zm-21.57-20.53a11.581,11.581,0,1,1,15.48,17.19,0.277,0.277,0,0,0-.09-0.01c-1.86,0-3.17,1.12-4.55,2.32,0,0.01,0,.01-0.01.01a0.6,0.6,0,0,0-.08.08c-0.16.13-.31,0.27-0.47,0.41a0.592,0.592,0,0,1-.42.14c-0.85,0-3.02-.89-8.11-6.83a40.98,40.98,0,0,1-4.51-6.16c-0.88-1.61-1.14-2.8-.7-3.2,0.13-.1.26-0.21,0.39-0.31C1002.94,1609.37,1004.2,1608.34,1004.69,1606.82Zm19.07,29.87c-0.32.26-.62,0.5-0.91,0.75a3.293,3.293,0,0,1-2.1.56c-4.33,0-12.42-4.06-19.97-12.97A48.282,48.282,0,0,1,993,1612.89a20.17,20.17,0,0,1-1.969-8.93,3.838,3.838,0,0,1,1.008-2.62l0.01-.01c0.278-.24.554-0.49,0.847-0.75,0.457-.42.935-0.85,1.425-1.24a32.58,32.58,0,0,1,2.286,2.83,0.994,0.994,0,0,0,1.4.23,0.993,0.993,0,0,0,.23-1.39,32.993,32.993,0,0,0-2.192-2.75,3.127,3.127,0,0,1,1.176-.26c1.168,0,2.385.91,3.615,2.7,1.64,2.37,2.29,4.11,2.01,5.31-0.25,1.06-1.24,1.88-2.49,2.9-0.13.11-.27,0.22-0.4,0.33l-0.019.02c-1.285,1.11-1.2,3.02.251,5.67a40.964,40.964,0,0,0,4.74,6.49c4.4,5.14,7.46,7.54,9.63,7.54a2.593,2.593,0,0,0,1.73-.63l0.03-.03c0.51,0.32,1.28.81,2.07,1.37,0.66,0.46,1.23.89,1.7,1.28a0.962,0.962,0,0,0,.64.24,1,1,0,0,0,.65-1.76c-0.51-.43-1.13-0.9-1.84-1.4-0.59-.41-1.16-0.78-1.63-1.09a3.657,3.657,0,0,1,2.18-.94c1.21,0,2.78.92,4.81,2.8,1.44,1.38,2.15,2.62,2.11,3.7C1026.94,1634.08,1025.32,1635.4,1023.76,1636.69Zm-23.841-30.61a0.974,0.974,0,0,0,.491-0.13,1,1,0,0,0,.38-1.36,8.6,8.6,0,0,0-.49-0.78,1,1,0,0,0-1.635,1.15,6.412,6.412,0,0,1,.382.61A1.012,1.012,0,0,0,999.919,1606.08Zm23.851,25.42a1,1,0,0,0-1.41-.02,1.017,1.017,0,0,0-.02,1.42c0.01,0,.12.12,0.55,0.6a1,1,0,1,0,1.49-1.33C1023.92,1631.65,1023.79,1631.52,1023.77,1631.5Zm-8.61-15.05h3.32v1.63a0.785,0.785,0,0,0,.9.57,0.773,0.773,0,0,0,.9-0.57v-1.63h0.65a0.8,0.8,0,0,0,.57-0.83,0.735,0.735,0,0,0-.57-0.85h-0.65v-1.45a0.745,0.745,0,0,0-.9-0.56,0.756,0.756,0,0,0-.9.56v1.45h-1.61l2.65-5.3a0.636,0.636,0,0,0,.07-0.24,0.922,0.922,0,0,0-.9-0.69,0.8,0.8,0,0,0-.76.47l-3.28,6.44a0.736,0.736,0,0,0-.09.36A0.589,0.589,0,0,0,1015.16,1616.45Zm-7.12,2.2h4.92a0.745,0.745,0,0,0,.57-0.81,0.707,0.707,0,0,0-.57-0.77h-3.84v-0.33c0-1.44,4.38-2.41,4.38-5.39a2.894,2.894,0,0,0-3.1-2.81,2.736,2.736,0,0,0-2.97,2.54,0.786,0.786,0,0,0,.82.97,0.817,0.817,0,0,0,.94-0.66,1.121,1.121,0,0,1,1.23-1.22,1.2,1.2,0,0,1,1.28,1.23c0,1.95-4.45,3.13-4.45,5.34v1.34A0.769,0.769,0,0,0,1008.04,1618.65ZM1019,1642H999a1,1,0,1,0,0,2h20A1,1,0,0,0,1019,1642Z\u0022 transform=\u0022translate(-989 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16153,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-support.svg"},"width":"50","height":"50"} -->
-<div id="wd-67b26786" class="wp-block-wd-icon"><img class="wp-image-16153" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-support.svg" /></div>
+<div id="wd-5f44b593" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"67b26786-b3eb-48f2-900f-df0e9daa9ae0","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002240\u0022 height=\u002248\u0022 viewBox=\u00220 0 40 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-support\u0022 class=\u0022cls-1\u0022 d=\u0022M1026.26,1627.35v-0.01a15.782,15.782,0,0,0-3.77-2.74,13.579,13.579,0,0,0-17.74-20.47,14.012,14.012,0,0,0-2.27-4.57c-1.65-2.4-3.373-3.56-5.265-3.56-2.243,0-4.06,1.64-5.663,3.09-0.281.26-.547,0.5-0.805,0.72a5.674,5.674,0,0,0-1.711,3.99,22.153,22.153,0,0,0,2.123,9.88,50.261,50.261,0,0,0,8.1,12.65c8,9.44,16.565,13.67,21.5,13.67a5.177,5.177,0,0,0,3.39-1.03l0.01-.01c0.27-.23.57-0.47,0.87-0.73,1.82-1.49,3.89-3.18,3.98-5.66C1029.06,1630.87,1028.17,1629.16,1026.26,1627.35Zm-21.57-20.53a11.581,11.581,0,1,1,15.48,17.19,0.277,0.277,0,0,0-.09-0.01c-1.86,0-3.17,1.12-4.55,2.32,0,0.01,0,.01-0.01.01a0.6,0.6,0,0,0-.08.08c-0.16.13-.31,0.27-0.47,0.41a0.592,0.592,0,0,1-.42.14c-0.85,0-3.02-.89-8.11-6.83a40.98,40.98,0,0,1-4.51-6.16c-0.88-1.61-1.14-2.8-.7-3.2,0.13-.1.26-0.21,0.39-0.31C1002.94,1609.37,1004.2,1608.34,1004.69,1606.82Zm19.07,29.87c-0.32.26-.62,0.5-0.91,0.75a3.293,3.293,0,0,1-2.1.56c-4.33,0-12.42-4.06-19.97-12.97A48.282,48.282,0,0,1,993,1612.89a20.17,20.17,0,0,1-1.969-8.93,3.838,3.838,0,0,1,1.008-2.62l0.01-.01c0.278-.24.554-0.49,0.847-0.75,0.457-.42.935-0.85,1.425-1.24a32.58,32.58,0,0,1,2.286,2.83,0.994,0.994,0,0,0,1.4.23,0.993,0.993,0,0,0,.23-1.39,32.993,32.993,0,0,0-2.192-2.75,3.127,3.127,0,0,1,1.176-.26c1.168,0,2.385.91,3.615,2.7,1.64,2.37,2.29,4.11,2.01,5.31-0.25,1.06-1.24,1.88-2.49,2.9-0.13.11-.27,0.22-0.4,0.33l-0.019.02c-1.285,1.11-1.2,3.02.251,5.67a40.964,40.964,0,0,0,4.74,6.49c4.4,5.14,7.46,7.54,9.63,7.54a2.593,2.593,0,0,0,1.73-.63l0.03-.03c0.51,0.32,1.28.81,2.07,1.37,0.66,0.46,1.23.89,1.7,1.28a0.962,0.962,0,0,0,.64.24,1,1,0,0,0,.65-1.76c-0.51-.43-1.13-0.9-1.84-1.4-0.59-.41-1.16-0.78-1.63-1.09a3.657,3.657,0,0,1,2.18-.94c1.21,0,2.78.92,4.81,2.8,1.44,1.38,2.15,2.62,2.11,3.7C1026.94,1634.08,1025.32,1635.4,1023.76,1636.69Zm-23.841-30.61a0.974,0.974,0,0,0,.491-0.13,1,1,0,0,0,.38-1.36,8.6,8.6,0,0,0-.49-0.78,1,1,0,0,0-1.635,1.15,6.412,6.412,0,0,1,.382.61A1.012,1.012,0,0,0,999.919,1606.08Zm23.851,25.42a1,1,0,0,0-1.41-.02,1.017,1.017,0,0,0-.02,1.42c0.01,0,.12.12,0.55,0.6a1,1,0,1,0,1.49-1.33C1023.92,1631.65,1023.79,1631.52,1023.77,1631.5Zm-8.61-15.05h3.32v1.63a0.785,0.785,0,0,0,.9.57,0.773,0.773,0,0,0,.9-0.57v-1.63h0.65a0.8,0.8,0,0,0,.57-0.83,0.735,0.735,0,0,0-.57-0.85h-0.65v-1.45a0.745,0.745,0,0,0-.9-0.56,0.756,0.756,0,0,0-.9.56v1.45h-1.61l2.65-5.3a0.636,0.636,0,0,0,.07-0.24,0.922,0.922,0,0,0-.9-0.69,0.8,0.8,0,0,0-.76.47l-3.28,6.44a0.736,0.736,0,0,0-.09.36A0.589,0.589,0,0,0,1015.16,1616.45Zm-7.12,2.2h4.92a0.745,0.745,0,0,0,.57-0.81,0.707,0.707,0,0,0-.57-0.77h-3.84v-0.33c0-1.44,4.38-2.41,4.38-5.39a2.894,2.894,0,0,0-3.1-2.81,2.736,2.736,0,0,0-2.97,2.54,0.786,0.786,0,0,0,.82.97,0.817,0.817,0,0,0,.94-0.66,1.121,1.121,0,0,1,1.23-1.22,1.2,1.2,0,0,1,1.28,1.23c0,1.95-4.45,3.13-4.45,5.34v1.34A0.769,0.769,0,0,0,1008.04,1618.65ZM1019,1642H999a1,1,0,1,0,0,2h20A1,1,0,0,0,1019,1642Z\u0022 transform=\u0022translate(-989 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16153,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-support.svg"},"width":"50"} -->
+<div id="wd-67b26786" class="wp-block-wd-icon"><img class="wp-image-16153" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-support.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"de8ff57e-5a21-4ba1-ac75-6dcc1ee40587","metadata":{"name":"Infobox content"}} -->
@@ -666,8 +666,8 @@
 
 <!-- wp:wd/column {"blockId":"a1638a25-862d-4944-a9c4-da431a3bcb4c","adjacentCount":4,"adjacentCountTablet":2,"colWidthTablet":50,"alignItemsMobile":"center"} -->
 <div id="wd-a1638a25" class="wp-block-wd-column wd-align-is-sm-center"><!-- wp:wd/infobox {"blockId":"3fa2831e-a7f7-4f9e-9a10-f35cbf7ba0dd","iconPositionHorizontal":"start","iconPositionVertical":"center","displayWidth":"custom","customWidth":"240","displayWidthTablet":"custom","displayWidthMobile":"custom"} -->
-<div id="wd-3fa2831e" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"9c8f542a-675f-444f-80b6-b5f8ebf65e18","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002248\u0022 height=\u002248\u0022 viewBox=\u00220 0 48 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-best\u0022 class=\u0022cls-1\u0022 d=\u0022M1436.17,1613.79a23.9,23.9,0,0,0-23.1-17.79,24.131,24.131,0,0,0-20.87,11.99,24.092,24.092,0,0,0,8.79,32.81,26.493,26.493,0,0,0,2.38,1.2h-0.38a1,1,0,1,0,0,2h20.02a1,1,0,1,0,0-2h-0.45A23.891,23.891,0,0,0,1436.17,1613.79Zm-4.11,17.22a21.982,21.982,0,1,1-8.05-30.08A22.1,22.1,0,0,1,1432.06,1631.01Zm-23.72,6.39a18.057,18.057,0,0,1-12.74-12.74,1,1,0,1,0-1.93.52,20.081,20.081,0,0,0,14.15,14.15,0.783,0.783,0,0,0,.26.04A1,1,0,0,0,1408.34,1637.4Zm9.84-36.73a1,1,0,1,0-.52,1.93,18.057,18.057,0,0,1,12.74,12.74,1,1,0,0,0,.96.74,0.783,0.783,0,0,0,.26-0.04,1,1,0,0,0,.71-1.22A20.064,20.064,0,0,0,1418.18,1600.67ZM1412.4,1638c-0.25-.01-0.5-0.02-0.75-0.04a1,1,0,0,0-.15,2c0.28,0.02.56,0.03,0.83,0.04h0.04a1,1,0,0,0,1-.96A1.006,1.006,0,0,0,1412.4,1638Zm1.2-36c0.25,0,.5.02,0.75,0.04h0.07a1,1,0,0,0,.08-2c-0.28-.02-0.56-0.04-0.83-0.04a1,1,0,0,0-1.04.96A1.012,1.012,0,0,0,1413.6,1602Zm9.52,12.32h-5.34c0.43-2.03.71-4.19-.45-5.78a5.15,5.15,0,0,0-3.92-1.87,1.21,1.21,0,0,0-.19-0.01,2.077,2.077,0,0,0-2.05,1.86c-0.34,3.6-1.31,5.62-2.31,6.52a1,1,0,0,0-.96-0.72h-6.36a1,1,0,0,0-1,1v13.01a1,1,0,0,0,1,1h6.36a1,1,0,0,0,.97-0.75,5,5,0,0,0,2.77.75h10.57a2.106,2.106,0,0,0,2.07-1.96l1.16-10.28a2.559,2.559,0,0,0-.57-2.04A2.246,2.246,0,0,0,1423.12,1614.32Zm-16.22,2.28v10.73h-4.36v-7.01h2.18a1,1,0,0,0,0-2h-2.18v-2h4.36v0.28Zm16.55,0.27-1.16,10.28a0.307,0.307,0,0,1-.07.18h-10.58a2.508,2.508,0,0,1-2.74-2.79v-7.19a5.174,5.174,0,0,0,2.21-1.87,14.267,14.267,0,0,0,2.05-6.77,0.077,0.077,0,0,1,.06-0.05,3.368,3.368,0,0,1,2.5,1.06c0.79,1.1.32,3.21-.09,5.07l-0.08.31a1.037,1.037,0,0,0,.2.85,1.022,1.022,0,0,0,.78.37h6.59a0.375,0.375,0,0,1,.26.06A0.738,0.738,0,0,1,1423.45,1616.87Z\u0022 transform=\u0022translate(-1389 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16150,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-best.svg"},"width":"50","height":"50"} -->
-<div id="wd-9c8f542a" class="wp-block-wd-icon"><img class="wp-image-16150" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-best.svg" /></div>
+<div id="wd-3fa2831e" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width"><!-- wp:wd/icon {"blockId":"9c8f542a-675f-444f-80b6-b5f8ebf65e18","svg":"\u003csvg class=\u0022wd-svg-icon\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 width=\u002248\u0022 height=\u002248\u0022 viewBox=\u00220 0 48 48\u0022\u003e\u003cdefs\u003e .cls-1 { fill: #43b02a; fill-rule: evenodd; } \u003c/defs\u003e\u003cpath id=\u0022white-electronics-best\u0022 class=\u0022cls-1\u0022 d=\u0022M1436.17,1613.79a23.9,23.9,0,0,0-23.1-17.79,24.131,24.131,0,0,0-20.87,11.99,24.092,24.092,0,0,0,8.79,32.81,26.493,26.493,0,0,0,2.38,1.2h-0.38a1,1,0,1,0,0,2h20.02a1,1,0,1,0,0-2h-0.45A23.891,23.891,0,0,0,1436.17,1613.79Zm-4.11,17.22a21.982,21.982,0,1,1-8.05-30.08A22.1,22.1,0,0,1,1432.06,1631.01Zm-23.72,6.39a18.057,18.057,0,0,1-12.74-12.74,1,1,0,1,0-1.93.52,20.081,20.081,0,0,0,14.15,14.15,0.783,0.783,0,0,0,.26.04A1,1,0,0,0,1408.34,1637.4Zm9.84-36.73a1,1,0,1,0-.52,1.93,18.057,18.057,0,0,1,12.74,12.74,1,1,0,0,0,.96.74,0.783,0.783,0,0,0,.26-0.04,1,1,0,0,0,.71-1.22A20.064,20.064,0,0,0,1418.18,1600.67ZM1412.4,1638c-0.25-.01-0.5-0.02-0.75-0.04a1,1,0,0,0-.15,2c0.28,0.02.56,0.03,0.83,0.04h0.04a1,1,0,0,0,1-.96A1.006,1.006,0,0,0,1412.4,1638Zm1.2-36c0.25,0,.5.02,0.75,0.04h0.07a1,1,0,0,0,.08-2c-0.28-.02-0.56-0.04-0.83-0.04a1,1,0,0,0-1.04.96A1.012,1.012,0,0,0,1413.6,1602Zm9.52,12.32h-5.34c0.43-2.03.71-4.19-.45-5.78a5.15,5.15,0,0,0-3.92-1.87,1.21,1.21,0,0,0-.19-0.01,2.077,2.077,0,0,0-2.05,1.86c-0.34,3.6-1.31,5.62-2.31,6.52a1,1,0,0,0-.96-0.72h-6.36a1,1,0,0,0-1,1v13.01a1,1,0,0,0,1,1h6.36a1,1,0,0,0,.97-0.75,5,5,0,0,0,2.77.75h10.57a2.106,2.106,0,0,0,2.07-1.96l1.16-10.28a2.559,2.559,0,0,0-.57-2.04A2.246,2.246,0,0,0,1423.12,1614.32Zm-16.22,2.28v10.73h-4.36v-7.01h2.18a1,1,0,0,0,0-2h-2.18v-2h4.36v0.28Zm16.55,0.27-1.16,10.28a0.307,0.307,0,0,1-.07.18h-10.58a2.508,2.508,0,0,1-2.74-2.79v-7.19a5.174,5.174,0,0,0,2.21-1.87,14.267,14.267,0,0,0,2.05-6.77,0.077,0.077,0,0,1,.06-0.05,3.368,3.368,0,0,1,2.5,1.06c0.79,1.1.32,3.21-.09,5.07l-0.08.31a1.037,1.037,0,0,0,.2.85,1.022,1.022,0,0,0,.78.37h6.59a0.375,0.375,0,0,1,.26.06A0.738,0.738,0,0,1,1423.45,1616.87Z\u0022 transform=\u0022translate(-1389 -1596)\u0022\u003e\u003c/path\u003e\u003c/svg\u003e","image":{"id":16150,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-best.svg"},"width":"50"} -->
+<div id="wd-9c8f542a" class="wp-block-wd-icon"><img class="wp-image-16150" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-best.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"3cf709be-0a72-41cf-acf8-e2834c7ffa6f","metadata":{"name":"Infobox content"}} -->
@@ -685,8 +685,8 @@
 
 <!-- wp:wd/products-tabs {"blockId":"ab20cf20-fccc-4ffa-8b67-b5e1bb4d4b63","design":"alt","marginBottom":"100","marginBottomTablet":"80","marginBottomMobile":"50"} -->
 <div id="wd-ab20cf20" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-alt wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"c36e9a0b-c673-4706-9b6b-2e3a16a87420","titleStyle":"underline","title":"OUR PRODUCTS","design":"alt","titleTpFontSizeTablet":"22"} -->
-<div id="wd-c36e9a0b" class="wp-block-wd-products-tabs-header wd-tabs-header"><div class="tabs-name title">OUR PRODUCTS</div><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"f728f747-c2ff-4a13-a867-4bd7abe4ebf4","title":"NEW","items_per_page":"8","pagination":"arrows","pagination_arrows_position":"","columnsTablet":4} -->
-<li id="wd-f728f747" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;8&quot;,&quot;columns_tablet&quot;:4,&quot;el_id&quot;:&quot;wd-f728f747&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">NEW</span></a></li>
+<div id="wd-c36e9a0b" class="wp-block-wd-products-tabs-header wd-tabs-header"><div class="tabs-name title">OUR PRODUCTS</div><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"bb316d3f-2011-4f1d-8787-f7054c517ee1","title":"NEW","items_per_page":"8","pagination":"arrows","pagination_arrows_position":"","columnsTablet":4} -->
+<li id="wd-bb316d3f" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;8&quot;,&quot;columns_tablet&quot;:4,&quot;el_id&quot;:&quot;wd-bb316d3f&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">NEW</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"0fddc83a-083a-4d4c-a74b-d83a37bb55dd","title":"FEATURES","order":"DESC","items_per_page":"8","pagination":"arrows","pagination_arrows_position":"","columnsTablet":4} -->
@@ -698,7 +698,7 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"8d667080-17a4-4122-b6dc-7e5122cf0dc5","title":"NEW","items_per_page":"8","pagination":"arrows","pagination_arrows_position":"","columnsTablet":4} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"bb316d3f-2011-4f1d-8787-f7054c517ee1","title":"NEW","items_per_page":"8","pagination":"arrows","pagination_arrows_position":"","columnsTablet":4} /--></div>
 <!-- /wp:wd/products-tabs -->
 
 <!-- wp:wd/row {"blockId":"fe450d06-74c1-4f20-a44a-780d05405b16","columnsGap":20} -->
@@ -809,8 +809,8 @@
 <!-- wp:wd/column {"blockId":"371fbe26-3bf1-4e9d-afdf-7dc9ba68843e","adjacentCount":2,"colWidth":59,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-371fbe26" class="wp-block-wd-column"><!-- wp:wd/products-tabs {"blockId":"5a91bce9-58fb-45b1-91e6-3344b12e36cd","design":"alt"} -->
 <div id="wd-5a91bce9" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-alt wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"40c76249-287a-4471-8a63-3609ef1dc09e","titleStyle":"underline","title":"SPECIAL OFFERS​","design":"alt","marginTop":"20","marginTopTablet":"0"} -->
-<div id="wd-40c76249" class="wp-block-wd-products-tabs-header wd-tabs-header"><div class="tabs-name title">SPECIAL OFFERS​</div><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"e55899b1-2886-43ae-a0b6-db9bd7916728","title":"NEW","columns":3,"items_per_page":"6","pagination":""} -->
-<li id="wd-e55899b1" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;items_per_page&quot;:&quot;6&quot;,&quot;columns&quot;:3,&quot;el_id&quot;:&quot;wd-e55899b1&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">NEW</span></a></li>
+<div id="wd-40c76249" class="wp-block-wd-products-tabs-header wd-tabs-header"><div class="tabs-name title">SPECIAL OFFERS​</div><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"f86bffd0-4ec7-43f3-bad3-9ef5b746931d","title":"NEW","columns":3,"items_per_page":"6","pagination":""} -->
+<li id="wd-f86bffd0" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;items_per_page&quot;:&quot;6&quot;,&quot;columns&quot;:3,&quot;el_id&quot;:&quot;wd-f86bffd0&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">NEW</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"fd4e466f-ab68-4929-a590-c6e654f375ad","title":"FEATURED","order":"DESC","columns":3,"items_per_page":"6","pagination":"","product_hover":"inherit"} -->
@@ -822,7 +822,7 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"d8a079a0-1a1f-4e66-a508-9065239c424f","title":"NEW","columns":3,"items_per_page":"6","pagination":""} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"f86bffd0-4ec7-43f3-bad3-9ef5b746931d","title":"NEW","columns":3,"items_per_page":"6","pagination":""} /--></div>
 <!-- /wp:wd/products-tabs --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
@@ -830,36 +830,36 @@
 <!-- wp:wd/section {"blockId":"38a5fd34-98f0-4e93-9520-ff54528decfd","blockGap":60,"bgColorCode":"#f8f8f8","paddingBottom":"80","marginBottom":"80","paddingBottomMobile":"60","marginBottomMobile":"60"} -->
 <div id="wd-38a5fd34" class="wp-block-wd-section"><!-- wp:wd/gallery {"blockId":"607f583d-664b-407d-9633-cab1e568a977","layout":"carousel","slidesPerView":"3","scrollPerPage":false,"wrap":true,"arrows":false,"arrowsMobile":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_607f583d","slidesPerViewMobile":"1"} -->
 <div id="wd-607f583d" class="wp-block-wd-gallery wd-carousel-container wd-caption-mask"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:3;--wd-col-md:3;--wd-col-sm:1;--wd-gap-lg:20px;--wd-gap-sm:10px" data-wrap="yes"><div class="wd-carousel-wrap"><!-- wp:wd/gallery-item {"blockId":"02bf1d6f-13e6-499e-809f-175670cc016e","image":{"id":14528,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-gallary-2.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-gallary-2.jpg","width":800,"height":450}} -->
-<div id="wd-02bf1d6f" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14528" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-gallary-2.jpg" /></div></div>
+<div id="wd-02bf1d6f" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14528" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-gallary-2.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"1d58f54a-40b2-4118-bd1e-0d4d59becb5d","image":{"id":14552,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-9.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-9.jpg","width":800,"height":450}} -->
-<div id="wd-1d58f54a" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14552" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-9.jpg" /></div></div>
+<div id="wd-1d58f54a" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14552" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-9.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"8905fca3-a9c7-4eb8-a9f3-85ffe5d72a0c","image":{"id":14548,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-5.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-5.jpg","width":800,"height":450}} -->
-<div id="wd-8905fca3" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14548" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-5.jpg" /></div></div>
+<div id="wd-8905fca3" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14548" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-5.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"66009862-914e-406c-90e7-7311f48304ab","image":{"id":14547,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-4.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-4.jpg","width":800,"height":450}} -->
-<div id="wd-66009862" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14547" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-4.jpg" /></div></div>
+<div id="wd-66009862" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14547" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-4.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"424fb171-ad71-4187-9592-f47ed3f7d5af","image":{"id":14550,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-7.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-7.jpg","width":800,"height":450}} -->
-<div id="wd-424fb171" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14550" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-7.jpg" /></div></div>
+<div id="wd-424fb171" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14550" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-7.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"b7131c2b-cf39-427e-b650-921b4135d5d9","image":{"id":14549,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-6.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-6.jpg","width":800,"height":450}} -->
-<div id="wd-b7131c2b" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14549" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-6.jpg" /></div></div>
+<div id="wd-b7131c2b" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14549" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-6.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item -->
 
 <!-- wp:wd/gallery-item {"blockId":"84894d67-78fb-4d92-9bd1-03505aeed31e","image":{"id":14551,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-8.jpg"},"layout":"carousel","imageData":{"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-8.jpg","width":800,"height":450}} -->
-<div id="wd-84894d67" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14551" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-8.jpg" /></div></div>
+<div id="wd-84894d67" class="wp-block-wd-gallery-item wd-carousel-item"><div class="wd-block-image"><img class="wp-image-14551" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-8.jpg" alt="" /></div></div>
 <!-- /wp:wd/gallery-item --></div></div><div class="wd-nav-arrows wd-hide-lg wd-hide-sm wd-pos-sep wd-hover-1 wd-icon-1"><div class="wd-btn-arrow wd-prev"><div class="wd-arrow-inner"></div></div><div class="wd-btn-arrow wd-next"><div class="wd-arrow-inner"></div></div></div></div><div class="wd-nav-pagin-wrap text-center wd-style-shape wd-hide-md-sm wd-hide-sm"><ul class="wd-nav-pagin"></ul></div></div>
 <!-- /wp:wd/gallery -->
 
 <!-- wp:wd/image {"blockId":"103560bc-b092-4a23-8ef2-1e978c19cd6c","image":{"id":14553,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-img.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-img.png","width":790,"height":469},"positionType":"relative","positionZIndex":"2","marginTop":"-340","marginBottom":"20","parallaxScroll":true,"parallaxScrollY":80,"parallaxSmoothness":50,"hideOnTablet":true,"hideOnMobile":true,"alignSelf":"center","marginBottomTablet":"60"} -->
-<div id="wd-103560bc" class="wp-block-wd-image wd-block-image wd-hide-md-sm wd-hide-sm wd-parallax-on-scroll wd_scroll_x_0 wd_scroll_y_80 wd_scroll_z_0 wd_scroll_smoothness_50 wd-align-s-center"><img class="wp-image-14553" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-img.png" /></div>
+<div id="wd-103560bc" class="wp-block-wd-image wd-block-image wd-hide-md-sm wd-hide-sm wd-parallax-on-scroll wd_scroll_x_0 wd_scroll_y_80 wd_scroll_z_0 wd_scroll_smoothness_50 wd-align-s-center"><img class="wp-image-14553" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-img.png" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/row {"blockId":"a41b1398-f281-4cf8-a5f0-5a42580ba8b1","columnsGapTablet":60} -->
@@ -872,7 +872,7 @@
 <div id="wd-20972aa2" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"d0342d05-4e0f-47ee-a730-30eeb5c3a988","adjacentCount":3} -->
 <div id="wd-d0342d05" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"b4563c04-1952-4f77-b8f9-b6505faa1f30","iconPositionHorizontal":"start","flexSize":"custom","flexGrow":"1","flexBasis":"30","displayWidth":"","customWidth":"","flexSizeMobile":"custom","flexBasisMobile":"100","flexBasisUnits":"%","flexBasisUnitsMobile":"%"} -->
 <div id="wd-b4563c04" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"69bf8b2a-1db1-49c8-adf9-9306efd34fdc","image":{"id":16156,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-display.svg"},"width":"50","height":"50"} -->
-<div id="wd-69bf8b2a" class="wp-block-wd-icon"><img class="wp-image-16156" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-display.svg" /></div>
+<div id="wd-69bf8b2a" class="wp-block-wd-icon"><img class="wp-image-16156" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-display.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"933eb264-6df5-4b83-bb4b-3f645e432a1b","displayWidth":"","customWidth":"","metadata":{"name":"Infobox content"}} -->
@@ -890,7 +890,7 @@
 <!-- wp:wd/column {"blockId":"a0293d12-8b6e-47ff-8914-7258424edcd1","adjacentCount":3} -->
 <div id="wd-a0293d12" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"aae42ef7-7793-4fc5-ad58-3027e804b343","iconPositionHorizontal":"start","flexSize":"custom","flexGrow":"1","flexShrink":"","flexBasis":"30","displayWidth":"","customWidth":"","flexSizeMobile":"custom","flexBasisMobile":"100","flexBasisUnits":"%","flexBasisUnitsMobile":"%"} -->
 <div id="wd-aae42ef7" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"0400251a-3dce-4ea8-91bd-bc93f76bbc5f","image":{"id":16155,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-cpu.svg"},"width":"50","height":"50"} -->
-<div id="wd-0400251a" class="wp-block-wd-icon"><img class="wp-image-16155" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-cpu.svg" /></div>
+<div id="wd-0400251a" class="wp-block-wd-icon"><img class="wp-image-16155" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-cpu.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"215493c8-3e5e-4a99-b2cb-b66b2a9c2c1a","displayWidth":"","customWidth":"","metadata":{"name":"Infobox content"}} -->
@@ -908,7 +908,7 @@
 <!-- wp:wd/column {"blockId":"4348376f-7641-4403-bd57-570988071ab9","adjacentCount":3} -->
 <div id="wd-4348376f" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"c3a30a4d-3cc3-44b1-bc23-a90722f59d0f","iconPositionHorizontal":"start","flexSize":"custom","flexGrow":"1","flexBasis":"30","flexSizeMobile":"custom","flexBasisMobile":"100","flexBasisUnits":"%","flexBasisUnitsMobile":"%"} -->
 <div id="wd-c3a30a4d" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"f8e2e05b-16c0-4c67-b916-bf8e07c9b7ec","image":{"id":16159,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-usb.svg"},"width":"50","height":"50"} -->
-<div id="wd-f8e2e05b" class="wp-block-wd-icon"><img class="wp-image-16159" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-usb.svg" /></div>
+<div id="wd-f8e2e05b" class="wp-block-wd-icon"><img class="wp-image-16159" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-usb.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"116a8725-d06f-43d9-8b19-3ac75d52cc79","displayWidth":"","customWidth":"","metadata":{"name":"Infobox content"}} -->
@@ -928,7 +928,7 @@
 <div id="wd-8b18cbcb" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"2627f921-49ce-49cf-8090-eefc692bcaef","adjacentCount":3} -->
 <div id="wd-2627f921" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"599f2cf9-7229-4543-a891-f021641a1a01","iconPositionHorizontal":"start","flexSize":"custom","flexGrow":"1","flexShrink":"","flexBasis":"30","displayWidth":"","customWidth":"","flexSizeMobile":"custom","flexBasisMobile":"100","flexBasisUnits":"%","flexBasisUnitsMobile":"%"} -->
 <div id="wd-599f2cf9" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"dea96fe4-5e8a-4881-b083-0bb2a4a3d0cd","image":{"id":16154,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-battery.svg"},"width":"50","height":"50"} -->
-<div id="wd-dea96fe4" class="wp-block-wd-icon"><img class="wp-image-16154" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-battery.svg" /></div>
+<div id="wd-dea96fe4" class="wp-block-wd-icon"><img class="wp-image-16154" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-battery.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"a4f90768-8f2e-4c9a-a352-a585de5aa5d5","displayWidth":"","customWidth":"","metadata":{"name":"Infobox content"}} -->
@@ -946,7 +946,7 @@
 <!-- wp:wd/column {"blockId":"2e9a263f-c20d-4f17-8b81-0bd5cd421499","adjacentCount":3} -->
 <div id="wd-2e9a263f" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"4789b7a5-2c6d-4de4-9a11-bf13892d334b","iconPositionHorizontal":"start","flexSize":"custom","flexGrow":"1","flexBasis":"30","displayWidth":"","customWidth":"","flexSizeMobile":"custom","flexBasisMobile":"100","flexBasisUnits":"%","flexBasisUnitsMobile":"%"} -->
 <div id="wd-4789b7a5" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"1032fdf5-c1d4-4275-8605-a269e3baecc8","image":{"id":16157,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-dock.svg"},"width":"50","height":"50"} -->
-<div id="wd-1032fdf5" class="wp-block-wd-icon"><img class="wp-image-16157" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-dock.svg" /></div>
+<div id="wd-1032fdf5" class="wp-block-wd-icon"><img class="wp-image-16157" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-dock.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"b9cc9839-7757-4361-850a-8365748db89c","displayWidth":"","customWidth":"","metadata":{"name":"Infobox content"}} -->
@@ -964,7 +964,7 @@
 <!-- wp:wd/column {"blockId":"93756101-36ac-4173-b1e4-fc9c5a839a43","adjacentCount":3} -->
 <div id="wd-93756101" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"b894a8c7-c1e0-4a94-ad13-0367786ea295","iconPositionHorizontal":"start","flexSize":"custom","flexGrow":"1","flexBasis":"30","displayWidth":"","customWidth":"","flexSizeMobile":"custom","flexBasisMobile":"100","flexBasisUnits":"%","flexBasisUnitsMobile":"%"} -->
 <div id="wd-b894a8c7" class="wp-block-wd-infobox wd-hover-parent wd-icon-start"><!-- wp:wd/icon {"blockId":"803d19f4-34da-4288-88e8-ff1a083583c5","image":{"id":16158,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-tv.svg"},"width":"50","height":"50"} -->
-<div id="wd-803d19f4" class="wp-block-wd-icon"><img class="wp-image-16158" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-tv.svg" /></div>
+<div id="wd-803d19f4" class="wp-block-wd-icon"><img class="wp-image-16158" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-tv.svg" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"9af842d1-e2de-456c-b46f-225b99c1b8a2","displayWidth":"","customWidth":"","metadata":{"name":"Infobox content"}} -->
@@ -984,7 +984,7 @@
 <!-- wp:wd/column {"blockId":"564afddd-b08c-4f2f-ae55-982b453503f8","adjacentCount":2,"colWidth":25,"borderType":"solid","borderColorCode":"#e5e5e5","borderWidth":"1","borderWidthLeft":"1","borderWidthLock":false,"adjacentCountTablet":1,"colWidthTablet":100,"borderWidthTablet":"0","borderWidthLeftTablet":"0"} -->
 <div id="wd-564afddd" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"dde97df2-402e-453e-8f13-ba11c9003cc4","gap":20,"align":"center"} -->
 <div id="wd-dde97df2" class="wp-block-wd-infobox wd-hover-parent wd-align wd-icon-top"><!-- wp:wd/icon {"blockId":"0a417a4b-8730-4ef3-9adc-630c9b09ed62","image":{"id":14529,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-logo.png"},"width":"205","height":"217"} -->
-<div id="wd-0a417a4b" class="wp-block-wd-icon"><img class="wp-image-14529" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-logo.png" /></div>
+<div id="wd-0a417a4b" class="wp-block-wd-icon"><img class="wp-image-14529" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-logo.png" alt="" /></div>
 <!-- /wp:wd/icon -->
 
 <!-- wp:wd/container {"blockId":"f5d5b79d-108a-4140-8b36-8a0cacd2ea35","colGap":"","rowGap":"20","directionTablet":"column","directionMobile":"column"} -->
@@ -1055,8 +1055,8 @@
 <!-- wp:wd/column {"blockId":"60641c61-ee67-4933-a70d-ec9bbf4790d5","adjacentCount":2,"colWidth":66.67,"adjacentCountTablet":1,"colWidthTablet":100} -->
 <div id="wd-60641c61" class="wp-block-wd-column"><!-- wp:wd/products-tabs {"blockId":"1cea5ad9-4977-413b-8f3a-971c3ff73840","design":"alt"} -->
 <div id="wd-1cea5ad9" class="wp-block-wd-products-tabs wd-tabs wd-products-tabs tabs-design-alt wd-hover-parent"><!-- wp:wd/products-tabs-header {"blockId":"7fb86cbe-7b30-4199-8e7c-cc730ce135d6","titleStyle":"underline","title":"ACCESSORIES​","design":"alt","customWidthTablet":"399"} -->
-<div id="wd-7fb86cbe" class="wp-block-wd-products-tabs-header wd-tabs-header"><div class="tabs-name title">ACCESSORIES​</div><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"bc4bd08e-25f7-49e6-9adc-62766d5897b3","title":"NEW","columns":3,"items_per_page":"6"} -->
-<li id="wd-bc4bd08e" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;items_per_page&quot;:&quot;6&quot;,&quot;columns&quot;:3,&quot;el_id&quot;:&quot;wd-bc4bd08e&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">NEW</span></a></li>
+<div id="wd-7fb86cbe" class="wp-block-wd-products-tabs-header wd-tabs-header"><div class="tabs-name title">ACCESSORIES​</div><div class="wd-nav-wrapper wd-nav-tabs-wrapper"><ul class="wd-nav wd-nav-tabs products-tabs-title wd-icon-pos-start wd-style-underline"><!-- wp:wd/products-tabs-tab {"blockId":"75e0ff5a-c5f3-472a-bdc3-60ea9623b6a3","title":"NEW","columns":3,"items_per_page":"6"} -->
+<li id="wd-75e0ff5a" class="wp-block-wd-products-tabs-tab" data-atts="{&quot;items_per_page&quot;:&quot;6&quot;,&quot;columns&quot;:3,&quot;el_id&quot;:&quot;wd-75e0ff5a&quot;}"><a href="#" class="wd-nav-link"><span class="tab-label nav-link-text">NEW</span></a></li>
 <!-- /wp:wd/products-tabs-tab -->
 
 <!-- wp:wd/products-tabs-tab {"blockId":"512b98ea-63f4-4193-8287-fd94b03918ee","title":"FEATURED","order":"DESC","columns":3,"items_per_page":"6"} -->
@@ -1068,7 +1068,7 @@
 <!-- /wp:wd/products-tabs-tab --></ul></div></div>
 <!-- /wp:wd/products-tabs-header -->
 
-<!-- wp:wd/products-tabs-products {"blockId":"11bfe84a-7b88-4907-bd5d-d2e1272efbe1","title":"NEW","columns":3,"items_per_page":"6"} /--></div>
+<!-- wp:wd/products-tabs-products {"blockId":"75e0ff5a-c5f3-472a-bdc3-60ea9623b6a3","title":"NEW","columns":3,"items_per_page":"6"} /--></div>
 <!-- /wp:wd/products-tabs --></div>
 <!-- /wp:wd/column --></div>
 <!-- /wp:wd/row -->
@@ -1123,29 +1123,29 @@
 
 <!-- wp:wd/section {"blockId":"d58f933c-d7cf-4cb3-ac61-d0bba43b3dd2","bgImage":{"id":14523,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-newslatter-bg.jpg"},"paddingTop":"80","paddingBottom":"80","marginBottom":"-40","paddingRightTablet":"0","paddingLeftTablet":"0"} -->
 <div id="wd-d58f933c" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"8183fff9-886d-47e5-8a25-53a359386412","columnsGap":0,"bgColorCode":"#ffffff","paddingTop":"60","paddingBottom":"60","columnsGapTablet":30} -->
-<div id="wd-8183fff9" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"31b530ba-f637-441a-9748-83367f2e4566","adjacentCount":2,"colWidth":50,"blocksGap":10,"justifyContent":"center","paddingRight":"15","paddingLeft":"15","borderType":"solid","borderColorCode":"#eaeaea","borderWidthRight":"1","borderWidthLock":false,"adjacentCountTablet":1,"colWidthTablet":100,"borderWidthTablet":"0","borderWidthRightTablet":"0"} -->
-<div id="wd-31b530ba" class="wp-block-wd-column"><!-- wp:wd/paragraph {"blockId":"f9fbaf1d-c1df-463f-97a8-b13e6d17f189","textAlign":"center","colorCode":"#a5a5a5"} -->
-<p id="wd-f9fbaf1d" class="wp-block-wd-paragraph wd-align">JOIN OUR NEWSLETTER NOW​</p>
+<div id="wd-8183fff9" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"31b530ba-f637-441a-9748-83367f2e4566","adjacentCount":2,"colWidth":50,"blocksGap":10,"justifyContent":"center","textAlign":"center","paddingRight":"15","paddingLeft":"15","borderType":"solid","borderColorCode":"#eaeaea","borderWidthRight":"1","borderWidthLock":false,"adjacentCountTablet":1,"colWidthTablet":100,"borderWidthTablet":"0","borderWidthRightTablet":"0"} -->
+<div id="wd-31b530ba" class="wp-block-wd-column wd-align"><!-- wp:wd/paragraph {"blockId":"f9fbaf1d-c1df-463f-97a8-b13e6d17f189","colorCode":"#a5a5a5"} -->
+<p id="wd-f9fbaf1d" class="wp-block-wd-paragraph">JOIN OUR NEWSLETTER NOW​</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"dd2bbca5-3724-481d-a283-ab28f5fd4787","textAlign":"center","content":"DO YOU LIKE THE THEME? SHARE WITH YOUR FRIENDS!","tpFontSize":"30","alignSelf":"center","displayWidth":"custom","customWidth":"460","tpFontSizeMobile":"22"} -->
-<h2 id="wd-dd2bbca5" class="wp-block-wd-title title wd-align wd-custom-width wd-align-s-center">DO YOU LIKE THE THEME? SHARE WITH YOUR FRIENDS!</h2>
+<!-- wp:wd/title {"blockId":"dd2bbca5-3724-481d-a283-ab28f5fd4787","content":"DO YOU LIKE THE THEME? SHARE WITH YOUR FRIENDS!","tpFontSize":"30","alignSelf":"center","displayWidth":"custom","customWidth":"460","tpFontSizeMobile":"22"} -->
+<h2 id="wd-dd2bbca5" class="wp-block-wd-title title wd-custom-width wd-align-s-center">DO YOU LIKE THE THEME? SHARE WITH YOUR FRIENDS!</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/mailchimp {"blockId":"3685117b-62df-4ce4-919e-3538b00d4f29","form_id":"74","formShape":"35","marginTop":"20","marginBottom":"20","alignSelf":"center","displayWidth":"custom","customWidth":"380"} /-->
+<!-- wp:wd/mailchimp {"blockId":"3685117b-62df-4ce4-919e-3538b00d4f29","form_id":"74","formShape":"35","marginTop":"20","marginBottom":"20","displayWidth":"custom","customWidth":"380"} /-->
 
-<!-- wp:wd/paragraph {"blockId":"dee996df-ea8f-481f-9d51-35603854556a","textAlign":"center"} -->
-<p id="wd-dee996df" class="wp-block-wd-paragraph wd-align">Will be used in accordance with our <a href="#"><strong>Privacy Policy</strong></a></p>
+<!-- wp:wd/paragraph {"blockId":"dee996df-ea8f-481f-9d51-35603854556a"} -->
+<p id="wd-dee996df" class="wp-block-wd-paragraph">Will be used in accordance with our <a href="#"><strong>Privacy Policy</strong></a></p>
 <!-- /wp:wd/paragraph --></div>
 <!-- /wp:wd/column -->
 
 <!-- wp:wd/column {"blockId":"5d53b2c7-f728-4b52-80d2-f16fa4a25980","adjacentCount":2,"colWidth":50,"justifyContent":"center","paddingRight":"30","paddingLeft":"30","borderWidthLock":false,"adjacentCountTablet":1,"colWidthTablet":100,"paddingRightTablet":"15","paddingLeftTablet":"15"} -->
-<div id="wd-5d53b2c7" class="wp-block-wd-column"><!-- wp:wd/carousel {"blockId":"1c73b633-5677-48a3-935c-f6eb5e5ce6d6","currentSlide":1,"slidesPerView":"1","paginationControl":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_1c73b633","displayWidth":"","customWidth":"","paddingRightTablet":"60","paddingRightMobile":"20","paddingLeftTablet":"60","paddingLeftMobile":"20"} -->
+<div id="wd-5d53b2c7" class="wp-block-wd-column"><!-- wp:wd/carousel {"blockId":"1c73b633-5677-48a3-935c-f6eb5e5ce6d6","slidesPerView":"1","paginationControl":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_1c73b633","displayWidth":"","customWidth":"","paddingRightTablet":"60","paddingRightMobile":"20","paddingLeftTablet":"60","paddingLeftMobile":"20"} -->
 <div id="wd-1c73b633" class="wp-block-wd-carousel wd-carousel-container"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1;--wd-gap-lg:20px;--wd-gap-sm:10px" data-scroll_per_page="yes"><div class="wd-carousel-wrap"><!-- wp:wd/carousel-item {"blockId":"3f2a58a0-ee88-475a-9549-02d256f67afc"} -->
 <div id="wd-3f2a58a0" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"7f91c221-6611-4724-ae00-83261630000c","design":"2","alignment":"center"} -->
 <div id="wd-7f91c221" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"fcd99ac7-523d-4a6e-bcfc-ce0c72651449","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-fcd99ac7" class="wp-block-wd-container wd-dir-col wd-testimonial-heading"><!-- wp:wd/image {"blockId":"9ee4feab-d934-419e-bd21-8f8ddeab78d0","image":{"id":14537,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-1.jpg"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-1.jpg","width":100,"height":100}} -->
-<div id="wd-9ee4feab" class="wp-block-wd-image wd-block-image"><img class="wp-image-14537" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-1.jpg" /></div>
+<div id="wd-9ee4feab" class="wp-block-wd-image wd-block-image"><img class="wp-image-14537" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-1.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/paragraph {"blockId":"4816ef18-25c5-4ca6-857c-1ca9fb846383"} -->
@@ -1163,7 +1163,7 @@
 <div id="wd-13a83cb7" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"0a3fc9fe-d19f-4e95-8742-851432358fd5","design":"2","alignment":"center"} -->
 <div id="wd-0a3fc9fe" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"9cb78b48-276d-4eeb-8e2f-2214f9930caf","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-9cb78b48" class="wp-block-wd-container wd-dir-col wd-testimonial-heading"><!-- wp:wd/image {"blockId":"c9f30fcb-aa9f-4a47-8531-3d05bd4b3d86","image":{"id":14538,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-2.jpg"}} -->
-<div id="wd-c9f30fcb" class="wp-block-wd-image wd-block-image"><img class="wp-image-14538" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-2.jpg" /></div>
+<div id="wd-c9f30fcb" class="wp-block-wd-image wd-block-image"><img class="wp-image-14538" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-2.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/paragraph {"blockId":"2c1670e4-e0ef-472d-ab0d-4d17dab32f16"} -->
@@ -1181,7 +1181,7 @@
 <div id="wd-a4491a26" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/testimonial {"blockId":"e0a6bfc8-a4c5-4177-9451-d5b8c11b4479","design":"2","alignment":"center"} -->
 <div id="wd-e0a6bfc8" class="wp-block-wd-testimonial wd-align wd-design-2"><!-- wp:wd/container {"blockId":"320705ee-39a0-4a20-8f48-bd27a1e2d9cd","extraClass":"wd-testimonial-heading"} -->
 <div id="wd-320705ee" class="wp-block-wd-container wd-dir-col wd-testimonial-heading"><!-- wp:wd/image {"blockId":"88aa1d42-89bc-48cd-985c-558c6be0a6cb","image":{"id":14536,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1.jpg"}} -->
-<div id="wd-88aa1d42" class="wp-block-wd-image wd-block-image"><img class="wp-image-14536" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1.jpg" /></div>
+<div id="wd-88aa1d42" class="wp-block-wd-image wd-block-image"><img class="wp-image-14536" src="http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1.jpg" alt="" /></div>
 <!-- /wp:wd/image -->
 
 <!-- wp:wd/paragraph {"blockId":"0fa1720f-e59e-4915-8935-fc87a38d1a4a"} -->
@@ -1201,8 +1201,8 @@
 															<wp:post_id>14511</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:19:06]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-06-07 09:19:06]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-23 11:23:32]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-23 11:23:32]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-20 14:37:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-20 14:37:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-electronics-2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1238,7 +1238,7 @@
 					<title><![CDATA[electronics-2-slidde-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-slidde-1/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:02 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-slidde-1.png</guid>
 															<wp:post_id>14534</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:02]]></wp:post_date>
@@ -1261,7 +1261,7 @@
 					<title><![CDATA[white-electronics-s1-bg-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-s1-bg-1-opt/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:13 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-bg-1-opt.jpg</guid>
 															<wp:post_id>14554</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:13]]></wp:post_date>
@@ -1284,7 +1284,7 @@
 					<title><![CDATA[white-electronics-s1-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-s1-img/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:14 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s1-img.png</guid>
 															<wp:post_id>14555</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:14]]></wp:post_date>
@@ -1307,7 +1307,7 @@
 					<title><![CDATA[white-electronics-s2-bg-new]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-s2-bg-new/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-bg-new.jpg</guid>
 															<wp:post_id>14556</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:15]]></wp:post_date>
@@ -1330,7 +1330,7 @@
 					<title><![CDATA[white-electronics-s2-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-s2-img/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s2-img.png</guid>
 															<wp:post_id>14557</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:16]]></wp:post_date>
@@ -1353,7 +1353,7 @@
 					<title><![CDATA[white-electronics-s3-bg-new]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-s3-bg-new/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-s3-bg-new.jpg</guid>
 															<wp:post_id>14558</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:16]]></wp:post_date>
@@ -1376,7 +1376,7 @@
 					<title><![CDATA[white-electronics-product-accessories-18]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-accessories-18/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-accessories-18.jpg</guid>
 															<wp:post_id>14623</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:11]]></wp:post_date>
@@ -1399,7 +1399,7 @@
 					<title><![CDATA[white-electronics-product-accessories-19]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-product-accessories-19/</link>
 					<pubDate>Fri, 07 Jun 2024 12:15:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-product-accessories-19.jpg</guid>
 															<wp:post_id>14624</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:15:11]]></wp:post_date>
@@ -1422,7 +1422,7 @@
 					<title><![CDATA[electronics-2-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-1/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-1.jpg</guid>
 															<wp:post_id>14625</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:39]]></wp:post_date>
@@ -1445,7 +1445,7 @@
 					<title><![CDATA[electronics-2-blog-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-2/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-2.jpg</guid>
 															<wp:post_id>14626</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:39]]></wp:post_date>
@@ -1468,7 +1468,7 @@
 					<title><![CDATA[electronics-2-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-3/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-3.jpg</guid>
 															<wp:post_id>14627</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:40]]></wp:post_date>
@@ -1491,7 +1491,7 @@
 					<title><![CDATA[electronics-2-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-4/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-4.jpg</guid>
 															<wp:post_id>14628</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:40]]></wp:post_date>
@@ -1514,7 +1514,7 @@
 					<title><![CDATA[electronics-2-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-5/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-5.jpg</guid>
 															<wp:post_id>14629</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:41]]></wp:post_date>
@@ -1537,7 +1537,7 @@
 					<title><![CDATA[electronics-2-blog-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-6/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-6.jpg</guid>
 															<wp:post_id>14630</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:42]]></wp:post_date>
@@ -1560,7 +1560,7 @@
 					<title><![CDATA[electronics-2-blog-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-7/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:42 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-7.jpg</guid>
 															<wp:post_id>14631</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:42]]></wp:post_date>
@@ -1583,7 +1583,7 @@
 					<title><![CDATA[electronics-2-blog-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-9/</link>
 					<pubDate>Fri, 07 Jun 2024 12:18:43 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-9.jpg</guid>
 															<wp:post_id>14632</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:18:43]]></wp:post_date>
@@ -1606,7 +1606,7 @@
 					<title><![CDATA[electronics-2-blog-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-blog-8/</link>
 					<pubDate>Fri, 07 Jun 2024 12:20:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-blog-8.jpg</guid>
 															<wp:post_id>14633</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 12:20:38]]></wp:post_date>
@@ -1629,7 +1629,7 @@
 					<title><![CDATA[electronics-2-free-shipping]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-free-shipping/</link>
 					<pubDate>Fri, 14 Jun 2024 11:10:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-free-shipping.svg</guid>
 															<wp:post_id>16151</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:10:37]]></wp:post_date>
@@ -1652,7 +1652,7 @@
 					<title><![CDATA[electronics-2-return]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-return/</link>
 					<pubDate>Fri, 14 Jun 2024 11:10:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-return.svg</guid>
 															<wp:post_id>16152</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:10:37]]></wp:post_date>
@@ -1675,7 +1675,7 @@
 					<title><![CDATA[electronics-2-banners-grid-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-banners-grid-1/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:54 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-banners-grid-1.jpg</guid>
 															<wp:post_id>14516</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:54]]></wp:post_date>
@@ -1698,7 +1698,7 @@
 					<title><![CDATA[electronics-2-banners-grid-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-banners-grid-3/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:54 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-banners-grid-3.jpg</guid>
 															<wp:post_id>14517</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:54]]></wp:post_date>
@@ -1721,7 +1721,7 @@
 					<title><![CDATA[electronics-2-banners-grid-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-banners-grid-4/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-banners-grid-4.jpg</guid>
 															<wp:post_id>14518</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:55]]></wp:post_date>
@@ -1744,7 +1744,7 @@
 					<title><![CDATA[electronics-2-banners-grid-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-banners-grid-5/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-banners-grid-5.jpg</guid>
 															<wp:post_id>14519</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:55]]></wp:post_date>
@@ -1767,7 +1767,7 @@
 					<title><![CDATA[electronics-2-banners-grid-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-banners-grid-6/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:56 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-banners-grid-6.jpg</guid>
 															<wp:post_id>14520</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:56]]></wp:post_date>
@@ -1790,7 +1790,7 @@
 					<title><![CDATA[electronics-2-ns-gallary-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-ns-gallary-2/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:59 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-gallary-2.jpg</guid>
 															<wp:post_id>14528</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:59]]></wp:post_date>
@@ -1813,7 +1813,7 @@
 					<title><![CDATA[white-electronics-baner-grid-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-baner-grid-2/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-baner-grid-2.jpg</guid>
 															<wp:post_id>14546</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:08]]></wp:post_date>
@@ -1836,7 +1836,7 @@
 					<title><![CDATA[white-electronics-ns-gallary-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-gallary-4/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-4.jpg</guid>
 															<wp:post_id>14547</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:08]]></wp:post_date>
@@ -1859,7 +1859,7 @@
 					<title><![CDATA[white-electronics-ns-gallary-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-gallary-5/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-5.jpg</guid>
 															<wp:post_id>14548</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:09]]></wp:post_date>
@@ -1882,7 +1882,7 @@
 					<title><![CDATA[white-electronics-ns-gallary-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-gallary-6/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-6.jpg</guid>
 															<wp:post_id>14549</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:10]]></wp:post_date>
@@ -1905,7 +1905,7 @@
 					<title><![CDATA[white-electronics-ns-gallary-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-gallary-7/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:10 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-7.jpg</guid>
 															<wp:post_id>14550</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:10]]></wp:post_date>
@@ -1928,7 +1928,7 @@
 					<title><![CDATA[white-electronics-ns-gallary-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-gallary-8/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:11 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-8.jpg</guid>
 															<wp:post_id>14551</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:11]]></wp:post_date>
@@ -1951,7 +1951,7 @@
 					<title><![CDATA[white-electronics-ns-gallary-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-gallary-9/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:12 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-gallary-9.jpg</guid>
 															<wp:post_id>14552</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:12]]></wp:post_date>
@@ -1974,7 +1974,7 @@
 					<title><![CDATA[white-electronics-ns-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-ns-img/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:12 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-ns-img.png</guid>
 															<wp:post_id>14553</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:12]]></wp:post_date>
@@ -1997,7 +1997,7 @@
 					<title><![CDATA[electronics-2-best]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-best/</link>
 					<pubDate>Fri, 14 Jun 2024 11:10:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-best.svg</guid>
 															<wp:post_id>16150</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:10:37]]></wp:post_date>
@@ -2020,7 +2020,7 @@
 					<title><![CDATA[electronics-2-support]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-support/</link>
 					<pubDate>Fri, 14 Jun 2024 11:10:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-support.svg</guid>
 															<wp:post_id>16153</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:10:37]]></wp:post_date>
@@ -2043,7 +2043,7 @@
 					<title><![CDATA[electronics-2-ns-battery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-ns-battery/</link>
 					<pubDate>Fri, 14 Jun 2024 11:14:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-battery.svg</guid>
 															<wp:post_id>16154</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:14:55]]></wp:post_date>
@@ -2066,7 +2066,7 @@
 					<title><![CDATA[electronics-2-ns-cpu]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-ns-cpu/</link>
 					<pubDate>Fri, 14 Jun 2024 11:14:55 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-cpu.svg</guid>
 															<wp:post_id>16155</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:14:55]]></wp:post_date>
@@ -2089,7 +2089,7 @@
 					<title><![CDATA[electronics-2-ns-display]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-ns-display/</link>
 					<pubDate>Fri, 14 Jun 2024 11:14:56 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-display.svg</guid>
 															<wp:post_id>16156</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:14:56]]></wp:post_date>
@@ -2112,7 +2112,7 @@
 					<title><![CDATA[electronics-2-ns-usb]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-ns-usb/</link>
 					<pubDate>Fri, 14 Jun 2024 11:14:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-usb.svg</guid>
 															<wp:post_id>16159</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:14:57]]></wp:post_date>
@@ -2135,7 +2135,7 @@
 					<title><![CDATA[Promo popup 6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=promo-popup-6</link>
 					<pubDate>Mon, 20 May 2024 11:24:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=11949</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"fe83f4b4-b31a-4abd-850b-ef9ce4b27013","rowGap":"0"} -->
 <div id="wd-fe83f4b4" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"a2dbf8c5-2d79-47f2-80e0-9130d562bccb","tpFontSize":"14","marginBottom":"10"} -->
@@ -2168,7 +2168,7 @@
 					<title><![CDATA[electronics-2-newslatter-bg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-newslatter-bg/</link>
 					<pubDate>Fri, 07 Jun 2024 09:27:57 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-newslatter-bg.jpg</guid>
 															<wp:post_id>14523</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:27:57]]></wp:post_date>
@@ -2191,7 +2191,7 @@
 					<title><![CDATA[electronics-2-ns-logo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/electronics-2-ns-logo/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:00 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-logo.png</guid>
 															<wp:post_id>14529</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:00]]></wp:post_date>
@@ -2214,7 +2214,7 @@
 					<title><![CDATA[handmade-testimonials-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/handmade-testimonials-1/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:03 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/handmade-testimonials-1.jpg</guid>
 															<wp:post_id>14536</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:03]]></wp:post_date>
@@ -2237,7 +2237,7 @@
 					<title><![CDATA[mobile-app-img-avatar-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/mobile-app-img-avatar-1/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-1.jpg</guid>
 															<wp:post_id>14537</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:04]]></wp:post_date>
@@ -2260,7 +2260,7 @@
 					<title><![CDATA[mobile-app-img-avatar-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/mobile-app-img-avatar-2/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:04 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/mobile-app-img-avatar-2.jpg</guid>
 															<wp:post_id>14538</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:04]]></wp:post_date>
@@ -2283,7 +2283,7 @@
 					<title><![CDATA[white-electronics-baner-accessories-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-baner-accessories-1/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:06 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-baner-accessories-1.jpg</guid>
 															<wp:post_id>14543</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:06]]></wp:post_date>
@@ -2306,7 +2306,7 @@
 					<title><![CDATA[white-electronics-baner-accessories-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-baner-accessories-2/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-baner-accessories-2.jpg</guid>
 															<wp:post_id>14544</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:07]]></wp:post_date>
@@ -2329,7 +2329,7 @@
 					<title><![CDATA[white-electronics-baner-accessories-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/white-electronics-baner-accessories-3/</link>
 					<pubDate>Fri, 07 Jun 2024 09:28:07 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/white-electronics-baner-accessories-3.jpg</guid>
 															<wp:post_id>14545</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-07 09:28:07]]></wp:post_date>
@@ -2352,7 +2352,7 @@
 					<title><![CDATA[electronics-2-ns-dock]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-ns-dock/</link>
 					<pubDate>Fri, 14 Jun 2024 11:14:56 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-dock.svg</guid>
 															<wp:post_id>16157</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:14:56]]></wp:post_date>
@@ -2375,7 +2375,7 @@
 					<title><![CDATA[electronics-2-ns-tv]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-electronics-2/electronics-2-ns-tv/</link>
 					<pubDate>Fri, 14 Jun 2024 11:14:56 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/electronics-2-ns-tv.svg</guid>
 															<wp:post_id>16158</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-14 11:14:56]]></wp:post_date>

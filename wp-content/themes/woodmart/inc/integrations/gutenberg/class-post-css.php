@@ -186,7 +186,12 @@ class Post_CSS extends Singleton {
 				continue;
 			}
 
-			$config    = Blocks::get_instance()->get_block_config( $block['blockName'] );
+			$config = Blocks::get_instance()->get_block_config( $block['blockName'] );
+
+			if ( ! $config ) {
+				continue;
+			}
+
 			$block_obj = new Block( $block['blockName'], $config, $block['attrs'] );
 
 			$block_css = $block_obj->generate_frontend_css();

@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-18 10:46" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 13:05" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>makup-gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 18 Nov 2024 10:46:27 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 13:05:56 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/makeup-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 			<wp:category>
 			<wp:term_id>1</wp:term_id>
 			<wp:category_nicename><![CDATA[hair]]></wp:category_nicename>
@@ -624,21 +623,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>43</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[mizon]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Mizon]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-43-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-3.svg";s:2:"id";s:3:"198";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>44</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_age]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[12]]></wp:term_slug>
@@ -672,21 +656,6 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>47</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[svr]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[SVR]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-47-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-5.svg";s:2:"id";s:3:"200";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
 			<wp:term_id>48</wp:term_id>
 			<wp:term_taxonomy><![CDATA[pa_age]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[30]]></wp:term_slug>
@@ -706,66 +675,6 @@
 		<wp:termmeta>
 			<wp:meta_key><![CDATA[xts-term-49-status]]></wp:meta_key>
 			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>50</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[uriage]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Uriage]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-50-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-7.svg";s:2:"id";s:3:"202";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>51</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[cerave]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Cerave]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-51-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-2.svg";s:2:"id";s:3:"197";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>52</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[tocobo]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Tocobo]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-52-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-6.svg";s:2:"id";s:3:"201";}]]></wp:meta_value>
-		</wp:termmeta>
-		</wp:term>
-			<wp:term>
-			<wp:term_id>53</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
-			<wp:term_slug><![CDATA[payot]]></wp:term_slug>
-			<wp:term_parent><![CDATA[]]></wp:term_parent>
-			<wp:term_name><![CDATA[Payot]]></wp:term_name>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-53-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
-		</wp:termmeta>
-		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-4.svg";s:2:"id";s:3:"199";}]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
@@ -826,18 +735,108 @@
 		</wp:termmeta>
 		</wp:term>
 			<wp:term>
-			<wp:term_id>57</wp:term_id>
-			<wp:term_taxonomy><![CDATA[pa_brand]]></wp:term_taxonomy>
+			<wp:term_id>69</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
 			<wp:term_slug><![CDATA[caudalie]]></wp:term_slug>
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 			<wp:term_name><![CDATA[Caudalie]]></wp:term_name>
 		<wp:termmeta>
-			<wp:meta_key><![CDATA[xts-term-57-status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[196]]></wp:meta_value>
 		</wp:termmeta>
 		<wp:termmeta>
-			<wp:meta_key><![CDATA[image]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:3:"url";s:100:"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-brnd-1.svg";s:2:"id";s:3:"196";}]]></wp:meta_value>
+			<wp:meta_key><![CDATA[xts-term-69-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>70</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[cerave]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Cerave]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[197]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-70-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>71</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[mizon]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Mizon]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[198]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-71-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>72</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[payot]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Payot]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[199]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-72-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>73</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[svr]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[SVR]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[200]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-73-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>74</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[tocobo]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Tocobo]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[201]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-74-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
+		</wp:termmeta>
+		</wp:term>
+			<wp:term>
+			<wp:term_id>75</wp:term_id>
+			<wp:term_taxonomy><![CDATA[product_brand]]></wp:term_taxonomy>
+			<wp:term_slug><![CDATA[uriage]]></wp:term_slug>
+			<wp:term_parent><![CDATA[]]></wp:term_parent>
+			<wp:term_name><![CDATA[Uriage]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[202]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key><![CDATA[xts-term-75-status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[invalid]]></wp:meta_value>
 		</wp:termmeta>
 		</wp:term>
 			<wp:term><wp:term_id>60</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[category-menu]]></wp:term_slug><wp:term_name><![CDATA[Category menu]]></wp:term_name>
@@ -853,13 +852,13 @@
 	<wp:term><wp:term_id>63</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top-bar-right-makeup]]></wp:term_slug><wp:term_name><![CDATA[Top bar right Makeup]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[Ink Airy Velvet]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/ink-airy-velvet/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=129</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -889,8 +888,8 @@
 															<wp:post_id>129</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:18]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:18]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:17]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:17]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[ink-airy-velvet]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -904,7 +903,7 @@
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="cleansers"><![CDATA[Cleansers]]></category>
 		<category domain="product_cat" nicename="lips"><![CDATA[Lips]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -920,7 +919,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -947,7 +946,7 @@
 					<title><![CDATA[Frizz Dismiss Shampoo]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/frizz-dismiss-shampoo/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=130</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -977,8 +976,8 @@
 															<wp:post_id>130</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:31]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:31]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:55]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[frizz-dismiss-shampoo]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -991,7 +990,7 @@
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="face"><![CDATA[Face]]></category>
-		<category domain="pa_brand" nicename="payot"><![CDATA[Payot]]></category>
+		<category domain="product_brand" nicename="payot"><![CDATA[Payot]]></category>
 		<category domain="product_cat" nicename="shampoos"><![CDATA[Shampoos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -1008,7 +1007,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1035,7 +1034,7 @@
 					<title><![CDATA[Dercos Mineral Soft Fortifying Shampoo 400ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/dercos-mineral-soft-fortifying-shampoo-400ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=131</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1065,8 +1064,8 @@
 															<wp:post_id>131</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:10]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:10]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:27]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:27]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[dercos-mineral-soft-fortifying-shampoo-400ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1078,7 +1077,7 @@
 		<category domain="pa_age" nicename="25"><![CDATA[25+]]></category>
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
-		<category domain="pa_brand" nicename="caudalie"><![CDATA[Caudalie]]></category>
+		<category domain="product_brand" nicename="caudalie"><![CDATA[Caudalie]]></category>
 		<category domain="product_cat" nicename="face"><![CDATA[Face]]></category>
 		<category domain="product_cat" nicename="shampoos"><![CDATA[Shampoos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -1096,7 +1095,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1123,7 +1122,7 @@
 					<title><![CDATA[Beauty Curly Locks Hair Mask 35ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/beauty-curly-locks-hair-mask-35ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=132</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1153,8 +1152,8 @@
 															<wp:post_id>132</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:59]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:59]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:47]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:47]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[beauty-curly-locks-hair-mask-35ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1169,7 +1168,7 @@
 		<category domain="product_cat" nicename="hair-masks"><![CDATA[Hair Masks]]></category>
 		<category domain="product_cat" nicename="lips"><![CDATA[Lips]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="tocobo"><![CDATA[Tocobo]]></category>
+		<category domain="product_brand" nicename="tocobo"><![CDATA[Tocobo]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[HR-42969]]></wp:meta_value>
@@ -1184,7 +1183,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1211,7 +1210,7 @@
 					<title><![CDATA[Keratin Repair Nourish &amp; Repair Conditioner 150ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/keratin-repair-nourish-repair-conditioner-150ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=133</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1241,8 +1240,8 @@
 															<wp:post_id>133</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:44]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:44]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:22]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:22]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[keratin-repair-nourish-repair-conditioner-150ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1256,7 +1255,7 @@
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="conditioners"><![CDATA[Conditioners]]></category>
 		<category domain="product_cat" nicename="eyes"><![CDATA[Eyes]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -1272,7 +1271,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1299,7 +1298,7 @@
 					<title><![CDATA[Coils &amp; Curls Co-Wash 100ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/coils-curls-co-wash-100ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=134</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1329,8 +1328,8 @@
 															<wp:post_id>134</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:04]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:04]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[coils-curls-co-wash-100ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1345,7 +1344,7 @@
 		<category domain="product_cat" nicename="conditioners"><![CDATA[Conditioners]]></category>
 		<category domain="product_cat" nicename="eyes"><![CDATA[Eyes]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="svr"><![CDATA[SVR]]></category>
+		<category domain="product_brand" nicename="svr"><![CDATA[SVR]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[HR-42982]]></wp:meta_value>
@@ -1360,7 +1359,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1387,7 +1386,7 @@
 					<title><![CDATA[Clay Hair Wax]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/clay-hair-wax/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=135</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1417,8 +1416,8 @@
 															<wp:post_id>135</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:58]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:58]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:45]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:45]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[clay-hair-wax]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1430,7 +1429,7 @@
 		<category domain="pa_age" nicename="25"><![CDATA[25+]]></category>
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
-		<category domain="pa_brand" nicename="cerave"><![CDATA[Cerave]]></category>
+		<category domain="product_brand" nicename="cerave"><![CDATA[Cerave]]></category>
 		<category domain="product_cat" nicename="face"><![CDATA[Face]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="styling"><![CDATA[Styling]]></category>
@@ -1448,7 +1447,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1475,7 +1474,7 @@
 					<title><![CDATA[Professional Semi Di Lino Scalp Relief Calming Tonic 125ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/professional-semi-di-lino-scalp-relief-calming-tonic-125ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=136</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1505,8 +1504,8 @@
 															<wp:post_id>136</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:25]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:25]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[professional-semi-di-lino-scalp-relief-calming-tonic-125ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1521,7 +1520,7 @@
 		<category domain="product_cat" nicename="lips"><![CDATA[Lips]]></category>
 		<category domain="product_cat" nicename="scalp-care"><![CDATA[Scalp Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[HR-42993]]></wp:meta_value>
@@ -1536,7 +1535,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1563,7 +1562,7 @@
 					<title><![CDATA[Exfoliate Pre-Shampoo Scalp Purifying Gel]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/exfoliate-pre-shampoo-scalp-purifying-gel/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=137</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1593,8 +1592,8 @@
 															<wp:post_id>137</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:52]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:19]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:19]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[exfoliate-pre-shampoo-scalp-purifying-gel]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1609,7 +1608,7 @@
 		<category domain="product_cat" nicename="eyes"><![CDATA[Eyes]]></category>
 		<category domain="product_cat" nicename="scalp-care"><![CDATA[Scalp Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[HR-42994]]></wp:meta_value>
@@ -1624,7 +1623,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1651,7 +1650,7 @@
 					<title><![CDATA[Sun Secure Blur Optical Mousse Cream SPF50+ 50ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/sun-secure-blur-optical-mousse-cream-spf50-50ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=138</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1681,8 +1680,8 @@
 															<wp:post_id>138</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:05]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:25]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:25]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sun-secure-blur-optical-mousse-cream-spf50-50ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1697,7 +1696,7 @@
 		<category domain="product_cat" nicename="body-lotions"><![CDATA[Body Lotions]]></category>
 		<category domain="product_cat" nicename="face-sunscreen"><![CDATA[Face Sunscreen]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="svr"><![CDATA[SVR]]></category>
+		<category domain="product_brand" nicename="svr"><![CDATA[SVR]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SN-33012]]></wp:meta_value>
@@ -1712,7 +1711,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1743,7 +1742,7 @@
 					<title><![CDATA[Photoderm Nude Touch Mineral SPF50+]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/photoderm-nude-touch-mineral-spf50/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=139</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1773,8 +1772,8 @@
 															<wp:post_id>139</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:17]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:17]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[photoderm-nude-touch-mineral-spf50]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1788,7 +1787,7 @@
 		<category domain="product_cat" nicename="body-washes"><![CDATA[Body Washes]]></category>
 		<category domain="product_cat" nicename="face-sunscreen"><![CDATA[Face Sunscreen]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SN-33014]]></wp:meta_value>
@@ -1803,7 +1802,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1830,7 +1829,7 @@
 					<title><![CDATA[Anthelios Hydrating Lotion Eco-Tube SPF50+ 250ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/anthelios-hydrating-lotion-eco-tube-spf50-250ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=140</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1860,8 +1859,8 @@
 															<wp:post_id>140</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:38]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:38]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:44:12]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:44:12]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:12]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:12]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[anthelios-hydrating-lotion-eco-tube-spf50-250ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1874,7 +1873,7 @@
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="body-sunscreen"><![CDATA[Body Sunscreen]]></category>
 		<category domain="product_cat" nicename="foot-care"><![CDATA[Foot Care]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -1890,7 +1889,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -1921,7 +1920,7 @@
 					<title><![CDATA[Watermelon Tanning Oil SPF15 100ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/watermelon-tanning-oil-spf15-100ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=141</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -1951,8 +1950,8 @@
 															<wp:post_id>141</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:39]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:39]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:37]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:37]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[watermelon-tanning-oil-spf15-100ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -1967,7 +1966,7 @@
 		<category domain="product_cat" nicename="body-sunscreen"><![CDATA[Body Sunscreen]]></category>
 		<category domain="product_cat" nicename="hand-care"><![CDATA[Hand Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SN-33023]]></wp:meta_value>
@@ -1982,7 +1981,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2009,7 +2008,7 @@
 					<title><![CDATA[Care Body &amp; Hair Oil Mist SPF30 150ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/care-body-hair-oil-mist-spf30-150ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=142</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2039,8 +2038,8 @@
 															<wp:post_id>142</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:39]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:39]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:24]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:16]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:16]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[care-body-hair-oil-mist-spf30-150ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2055,7 +2054,7 @@
 		<category domain="product_cat" nicename="hair-sunscreen"><![CDATA[Hair Sunscreen]]></category>
 		<category domain="product_cat" nicename="perfumes"><![CDATA[Perfumes]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="svr"><![CDATA[SVR]]></category>
+		<category domain="product_brand" nicename="svr"><![CDATA[SVR]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SN-33030]]></wp:meta_value>
@@ -2070,7 +2069,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2097,7 +2096,7 @@
 					<title><![CDATA[Protection Sun-Exposed Hair Oil With Tamanu &amp; Monoi 100ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/protection-sun-exposed-hair-oil-with-tamanu-monoi-100ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=143</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2127,8 +2126,8 @@
 															<wp:post_id>143</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:39]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:39]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:44]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:44]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:10]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:10]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[protection-sun-exposed-hair-oil-with-tamanu-monoi-100ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2142,7 +2141,7 @@
 		<category domain="product_cat" nicename="hair-sunscreen"><![CDATA[Hair Sunscreen]]></category>
 		<category domain="product_cat" nicename="scrubs"><![CDATA[Scrubs]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SN-33032]]></wp:meta_value>
@@ -2157,7 +2156,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2184,7 +2183,7 @@
 					<title><![CDATA[Sunissime The After Sun Sorbet 50ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/sunissime-the-after-sun-sorbet-50ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=144</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2214,8 +2213,8 @@
 															<wp:post_id>144</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:39]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:39]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:30]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:30]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:07]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[sunissime-the-after-sun-sorbet-50ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2228,7 +2227,7 @@
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="after-sun"><![CDATA[After Sun]]></category>
 		<category domain="product_cat" nicename="body-lotions"><![CDATA[Body Lotions]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -2244,7 +2243,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2271,7 +2270,7 @@
 					<title><![CDATA[After Sun Tan Intensifying Moisturizing Lotion]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/after-sun-tan-intensifying-moisturizing-lotion/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:39 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=145</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2301,8 +2300,8 @@
 															<wp:post_id>145</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:39]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:39]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:45:51]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:45:51]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[after-sun-tan-intensifying-moisturizing-lotion]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2317,7 +2316,7 @@
 		<category domain="product_cat" nicename="after-sun"><![CDATA[After Sun]]></category>
 		<category domain="product_visibility" nicename="featured"><![CDATA[featured]]></category>
 		<category domain="product_cat" nicename="hand-care"><![CDATA[Hand Care]]></category>
-		<category domain="pa_brand" nicename="payot"><![CDATA[Payot]]></category>
+		<category domain="product_brand" nicename="payot"><![CDATA[Payot]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -2333,7 +2332,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2364,7 +2363,7 @@
 					<title><![CDATA[Footer Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?cms_block=footer-makeup</link>
 					<pubDate>Mon, 28 Oct 2024 14:54:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=cms_block&#038;p=163</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/container {"blockId":"37aa9b05-3fcd-4147-9bfc-1fec902f4d14","paddingTop":"40"} -->
 <div id="wd-37aa9b05" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/row {"blockId":"5a275edf-3a3a-4643-a691-f43ac58aa4a8","columnsGap":0,"bgColorCode":"#000000","borderRadius":"10","borderRadiusTop":"10","borderRadiusRight":"10","borderRadiusBottom":"10","borderRadiusLeft":"10"} -->
@@ -2535,7 +2534,7 @@
 					<title><![CDATA[Application method]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?cms_block=application-method</link>
 					<pubDate>Mon, 28 Oct 2024 14:54:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=cms_block&#038;p=164</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"c6f8bc26-bb37-4c8d-8399-b0663345e714"} -->
 <p id="wd-c6f8bc26" class="wp-block-wd-paragraph">The power of makeup is undeniable; our favorite products help us create the beauty looks we love, enhance our favorite features, and encapsulate our individual definitions of beauty. The best makeup routines help the modern woman boost her confidence and face the world head on—no matter what the day has in store.</p>
@@ -2610,7 +2609,7 @@
 					<title><![CDATA[Newsletter form]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/mc4wp-form/newsletter-form/</link>
 					<pubDate>Mon, 28 Oct 2024 15:34:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/mc4wp-form/newsletter-form/</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-f-stretch" style="--wd-gap: 10px">
 <div class="wd-col"><input type="email" name="EMAIL" placeholder="Your email address" required /></div>
@@ -2672,7 +2671,7 @@
 					<title><![CDATA[Cleansing Foam Face &amp; Eyes 200ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/cleansing-foam-face-eyes-200ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=73</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2702,8 +2701,8 @@
 															<wp:post_id>73</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:43]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:43]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:29]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:29]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[cleansing-foam-face-eyes-200ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2719,7 +2718,7 @@
 		<category domain="product_visibility" nicename="featured"><![CDATA[featured]]></category>
 		<category domain="product_cat" nicename="hair-sunscreen"><![CDATA[Hair Sunscreen]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="svr"><![CDATA[SVR]]></category>
+		<category domain="product_brand" nicename="svr"><![CDATA[SVR]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SC-11206]]></wp:meta_value>
@@ -2734,7 +2733,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2761,7 +2760,7 @@
 					<title><![CDATA[Bariederm-CICA Daily Serum 30ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/bariederm-cica-daily-serum-30ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=74</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2791,8 +2790,8 @@
 															<wp:post_id>74</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:49]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:49]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:28]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:28]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[bariederm-cica-daily-serum-30ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2807,7 +2806,7 @@
 		<category domain="product_cat" nicename="after-sun"><![CDATA[After Sun]]></category>
 		<category domain="product_cat" nicename="serums"><![CDATA[Serums]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SC-11218]]></wp:meta_value>
@@ -2822,7 +2821,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2849,7 +2848,7 @@
 					<title><![CDATA[Royal Vita Propolis 33 Ampoule]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/royal-vita-propolis-33-ampoule/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=75</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2879,8 +2878,8 @@
 															<wp:post_id>75</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:56]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:56]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:49]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:49]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[royal-vita-propolis-33-ampoule]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2891,7 +2890,7 @@
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="body-sunscreen"><![CDATA[Body Sunscreen]]></category>
-		<category domain="pa_brand" nicename="cerave"><![CDATA[Cerave]]></category>
+		<category domain="product_brand" nicename="cerave"><![CDATA[Cerave]]></category>
 		<category domain="product_cat" nicename="serums"><![CDATA[Serums]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -2908,7 +2907,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -2939,7 +2938,7 @@
 					<title><![CDATA[Peptide4 Thousand Flower Mask 75ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/peptide4-thousand-flower-mask-75ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=76</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -2969,8 +2968,8 @@
 															<wp:post_id>76</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:02]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:02]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:26]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:26]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[peptide4-thousand-flower-mask-75ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -2983,7 +2982,7 @@
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="product_cat" nicename="creams"><![CDATA[Creams]]></category>
 		<category domain="product_cat" nicename="face-sunscreen"><![CDATA[Face Sunscreen]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -2999,7 +2998,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3026,7 +3025,7 @@
 					<title><![CDATA[Prebiotic Face Mask &amp; Scrub 100ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/prebiotic-face-mask-scrub-100ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=77</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3056,8 +3055,8 @@
 															<wp:post_id>77</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:09]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:09]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:54]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:54]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[prebiotic-face-mask-scrub-100ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3068,7 +3067,7 @@
 		<category domain="pa_age" nicename="25"><![CDATA[25+]]></category>
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
-		<category domain="pa_brand" nicename="cerave"><![CDATA[Cerave]]></category>
+		<category domain="product_brand" nicename="cerave"><![CDATA[Cerave]]></category>
 		<category domain="product_cat" nicename="creams"><![CDATA[Creams]]></category>
 		<category domain="product_cat" nicename="hair-sunscreen"><![CDATA[Hair Sunscreen]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -3086,7 +3085,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3113,7 +3112,7 @@
 					<title><![CDATA[Tensage Radiance Eye Contour 15ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/tensage-radiance-eye-contour-15ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=78</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3143,8 +3142,8 @@
 															<wp:post_id>78</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:15]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:15]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:34]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:34]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[tensage-radiance-eye-contour-15ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3158,7 +3157,7 @@
 		<category domain="product_cat" nicename="after-sun"><![CDATA[After Sun]]></category>
 		<category domain="product_cat" nicename="eye-care"><![CDATA[Eye Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="svr"><![CDATA[SVR]]></category>
+		<category domain="product_brand" nicename="svr"><![CDATA[SVR]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SC-11250]]></wp:meta_value>
@@ -3173,7 +3172,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3200,7 +3199,7 @@
 					<title><![CDATA[Peptides Spring Hydra-Gel Eye Patches]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/peptides-spring-hydra-gel-eye-patches/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=79</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3230,8 +3229,8 @@
 															<wp:post_id>79</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:22]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:22]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:32]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:32]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[peptides-spring-hydra-gel-eye-patches]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3245,7 +3244,7 @@
 		<category domain="product_cat" nicename="body-sunscreen"><![CDATA[Body Sunscreen]]></category>
 		<category domain="product_cat" nicename="eye-care"><![CDATA[Eye Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[SC-11256]]></wp:meta_value>
@@ -3260,7 +3259,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3287,7 +3286,7 @@
 					<title><![CDATA[Dermexa Emollient Cream 200ml + Emollient Body Wash 300ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/dermexa-emollient-cream-200ml-emollient-body-wash-300ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=80</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3317,8 +3316,8 @@
 															<wp:post_id>80</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:28]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:28]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:55]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:55]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[dermexa-emollient-cream-200ml-emollient-body-wash-300ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3334,7 +3333,7 @@
 		<category domain="product_visibility" nicename="featured"><![CDATA[featured]]></category>
 		<category domain="product_cat" nicename="scalp-care"><![CDATA[Scalp Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="tocobo"><![CDATA[Tocobo]]></category>
+		<category domain="product_brand" nicename="tocobo"><![CDATA[Tocobo]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[BY-34841]]></wp:meta_value>
@@ -3349,7 +3348,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3376,7 +3375,7 @@
 					<title><![CDATA[Body Energizing Talasso-Scrub 700g]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/body-energizing-talasso-scrub-700g/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=81</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3406,8 +3405,8 @@
 															<wp:post_id>81</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[body-energizing-talasso-scrub-700g]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3420,7 +3419,7 @@
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="conditioners"><![CDATA[Conditioners]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_cat" nicename="scrubs"><![CDATA[Scrubs]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -3437,7 +3436,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3464,7 +3463,7 @@
 					<title><![CDATA[Moisturizing Lotion Dry to Very Dry Skin]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/moisturizing-lotion-dry-to-very-dry-skin/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=82</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3494,8 +3493,8 @@
 															<wp:post_id>82</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:30]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:30]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:58]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[moisturizing-lotion-dry-to-very-dry-skin]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3508,7 +3507,7 @@
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="body-lotions"><![CDATA[Body Lotions]]></category>
-		<category domain="pa_brand" nicename="cerave"><![CDATA[Cerave]]></category>
+		<category domain="product_brand" nicename="cerave"><![CDATA[Cerave]]></category>
 		<category domain="product_cat" nicename="hair-masks"><![CDATA[Hair Masks]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
@@ -3525,7 +3524,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3552,7 +3551,7 @@
 					<title><![CDATA[Polo Blue Eau de Toilette]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/polo-blue-eau-de-toilette/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=83</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3582,8 +3581,8 @@
 															<wp:post_id>83</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:41:33]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:41:33]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:05]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:05]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[polo-blue-eau-de-toilette]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3595,7 +3594,7 @@
 		<category domain="pa_age" nicename="25"><![CDATA[25+]]></category>
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
-		<category domain="pa_brand" nicename="payot"><![CDATA[Payot]]></category>
+		<category domain="product_brand" nicename="payot"><![CDATA[Payot]]></category>
 		<category domain="product_cat" nicename="perfumes"><![CDATA[Perfumes]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 		<category domain="product_cat" nicename="styling"><![CDATA[Styling]]></category>
@@ -3613,7 +3612,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3640,7 +3639,7 @@
 					<title><![CDATA[Hugo Man Eau de Toilette]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/hugo-man-eau-de-toilette/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=84</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3670,8 +3669,8 @@
 															<wp:post_id>84</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:41:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:41:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:37]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:37]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[hugo-man-eau-de-toilette]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3686,7 +3685,7 @@
 		<category domain="product_cat" nicename="perfumes"><![CDATA[Perfumes]]></category>
 		<category domain="product_cat" nicename="shampoos"><![CDATA[Shampoos]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[BY-34867]]></wp:meta_value>
@@ -3701,7 +3700,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3728,7 +3727,7 @@
 					<title><![CDATA[Purifying Verbena Hydrating Aloe Vera Gel Hand Soap]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/purifying-verbena-hydrating-aloe-vera-gel-hand-soap/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=85</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3758,8 +3757,8 @@
 															<wp:post_id>85</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:41:48]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:41:48]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:41]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:41]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[purifying-verbena-hydrating-aloe-vera-gel-hand-soap]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3775,7 +3774,7 @@
 		<category domain="product_visibility" nicename="featured"><![CDATA[featured]]></category>
 		<category domain="product_cat" nicename="hand-care"><![CDATA[Hand Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[BY-34876]]></wp:meta_value>
@@ -3790,7 +3789,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3817,7 +3816,7 @@
 					<title><![CDATA[Infusion Vert Repairing Multi-Layer Hand Cream 75ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/infusion-vert-repairing-multi-layer-hand-cream-75ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=86</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3847,8 +3846,8 @@
 															<wp:post_id>86</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:41:54]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:41:54]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:36]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:36]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[infusion-vert-repairing-multi-layer-hand-cream-75ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3862,7 +3861,7 @@
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
 		<category domain="product_cat" nicename="hair-masks"><![CDATA[Hair Masks]]></category>
 		<category domain="product_cat" nicename="hand-care"><![CDATA[Hand Care]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -3878,7 +3877,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3905,7 +3904,7 @@
 					<title><![CDATA[Dry Foot Cream 100ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/dry-foot-cream-100ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=87</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -3935,8 +3934,8 @@
 															<wp:post_id>87</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:01]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:01]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:47]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:47]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[dry-foot-cream-100ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -3951,7 +3950,7 @@
 		<category domain="product_cat" nicename="foot-care"><![CDATA[Foot Care]]></category>
 		<category domain="product_cat" nicename="scalp-care"><![CDATA[Scalp Care]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[BY-34885]]></wp:meta_value>
@@ -3966,7 +3965,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -3997,7 +3996,7 @@
 					<title><![CDATA[Soft Touch Mousse Make-Up]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=88</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -4027,8 +4026,8 @@
 															<wp:post_id>88</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:08]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:08]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:53]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:53]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[soft-touch-mousse-make-up]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4045,7 +4044,7 @@
 		<category domain="pa_color" nicename="dust-storm"><![CDATA[Dust storm]]></category>
 		<category domain="product_cat" nicename="face"><![CDATA[Face]]></category>
 		<category domain="product_cat" nicename="serums"><![CDATA[Serums]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 		<category domain="product_type" nicename="variable"><![CDATA[variable]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -4061,7 +4060,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4073,24 +4072,73 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_attributes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:3:{s:8:"pa_brand";a:6:{s:4:"name";s:8:"pa_brand";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_color";a:6:{s:4:"name";s:8:"pa_color";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:0;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:6:"pa_age";a:6:{s:4:"name";s:6:"pa_age";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:3:{s:8:"pa_brand";a:6:{s:4:"name";s:8:"pa_brand";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_color";a:6:{s:4:"name";s:8:"pa_color";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:0;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}s:6:"pa_age";a:6:{s:4:"name";s:6:"pa_age";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_variation_gallery_data]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[6.42]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_sguide_select]]></wp:meta_key>
+							<wp:meta_value><![CDATA[none]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wd_gutenberg_product_mode]]></wp:meta_key>
+							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_fbt_bundles_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_wc_video_gallery]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:118;a:11:{s:10:"video_type";s:3:"mp4";s:15:"upload_video_id";s:0:"";s:16:"upload_video_url";s:0:"";s:11:"youtube_url";s:0:"";s:9:"vimeo_url";s:0:"";s:8:"autoplay";s:1:"0";s:10:"video_size";s:7:"contain";s:13:"video_control";s:5:"theme";s:16:"hide_gallery_img";s:1:"0";s:16:"hide_information";s:1:"0";s:12:"audio_status";s:6:"unmute";}}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_whb_header]]></wp:meta_key>
+							<wp:meta_value><![CDATA[none]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_single_product_style]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_thums_position]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_extra_position]]></wp:meta_key>
+							<wp:meta_value><![CDATA[after]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_custom_tab_content_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[text]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_custom_tab_content_type_2]]></wp:meta_key>
+							<wp:meta_value><![CDATA[text]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Soft Touch Mousse Make-Up]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/</link>
+					<title><![CDATA[Soft Touch Mousse Make-Up - Almond]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/?attribute_pa_color=almond</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=89</guid>
-															<wp:post_id>89</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Almond]]></excerpt:encoded>
+										<wp:post_id>89</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[soft-touch-mousse-make-up]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4129,12 +4177,16 @@
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[6.42]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[almond]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Pure Volume Mascara]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/pure-volume-mascara/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=99</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -4164,8 +4216,8 @@
 															<wp:post_id>99</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:28]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:28]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:40]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:40]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:01]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:01]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[pure-volume-mascara]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4177,7 +4229,7 @@
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="product_cat" nicename="eye-care"><![CDATA[Eye Care]]></category>
 		<category domain="product_cat" nicename="eyes"><![CDATA[Eyes]]></category>
-		<category domain="pa_brand" nicename="payot"><![CDATA[Payot]]></category>
+		<category domain="product_brand" nicename="payot"><![CDATA[Payot]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -4193,7 +4245,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4220,7 +4272,7 @@
 					<title><![CDATA[Lift Effect Lashes 741 x1 Pair]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/lift-effect-lashes-741-x1-pair/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=100</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -4250,8 +4302,8 @@
 															<wp:post_id>100</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:28]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:28]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:52]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:52]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:51]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:51]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[lift-effect-lashes-741-x1-pair]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4264,7 +4316,7 @@
 		<category domain="product_cat" nicename="eyes"><![CDATA[Eyes]]></category>
 		<category domain="product_cat" nicename="serums"><![CDATA[Serums]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="tocobo"><![CDATA[Tocobo]]></category>
+		<category domain="product_brand" nicename="tocobo"><![CDATA[Tocobo]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[MP-31980]]></wp:meta_value>
@@ -4279,7 +4331,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4306,7 +4358,7 @@
 					<title><![CDATA[Power Full 5 Lip Care]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/power-full-5-lip-care/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=101</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -4336,8 +4388,8 @@
 															<wp:post_id>101</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:28]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:28]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:46]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:46]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:31]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:31]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[power-full-5-lip-care]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4347,7 +4399,7 @@
 												<category domain="pa_age" nicename="18"><![CDATA[18+]]></category>
 		<category domain="pa_age" nicename="30"><![CDATA[30+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
-		<category domain="pa_brand" nicename="caudalie"><![CDATA[Caudalie]]></category>
+		<category domain="product_brand" nicename="caudalie"><![CDATA[Caudalie]]></category>
 		<category domain="product_cat" nicename="cleansers"><![CDATA[Cleansers]]></category>
 		<category domain="product_cat" nicename="lips"><![CDATA[Lips]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
@@ -4365,7 +4417,7 @@
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -4392,7 +4444,7 @@
 					<title><![CDATA[Contact form alternative]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=wpcf7_contact_form&#038;p=13</link>
 					<pubDate>Mon, 28 Oct 2024 14:48:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=wpcf7_contact_form&#038;p=13</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <div class="wd-grid-f-stretch">
@@ -4405,7 +4457,7 @@
 </div>
 1
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [_site_admin_email]
 From: [your-name] [your-email]
 Subject: [your-subject]
@@ -4419,9 +4471,9 @@ Reply-To: [your-email]
 
 
 
-
+1
 [_site_title] "[your-subject]"
-[_site_title] 
+[_site_title]
 [your-email]
 Message Body:
 [your-message]
@@ -4457,8 +4509,8 @@ Please enter a telephone number.]]></content:encoded>
 															<wp:post_id>13</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:48:45]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:48:45]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:34:47]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:34:47]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-01-24 12:02:14]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-01-24 12:02:14]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -4479,7 +4531,7 @@ Please enter a telephone number.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:191:"From: [your-name] [your-email]
 Subject: [your-subject]
 
 Message Body:
@@ -4490,7 +4542,7 @@ This is a notification that a contact form was submitted on your website ([_site
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:13:"[_site_title]";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
 -- 
@@ -4508,12 +4560,16 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_hash]]></wp:meta_key>
 							<wp:meta_value><![CDATA[10ed2774205d9ab24a865855938f49080a3da48a]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_config_validation]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:3:{s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:31:"Invalid mailbox syntax is used.";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:13:"mail_2.sender";a:1:{i:0;a:2:{s:4:"code";s:22:"invalid_mailbox_syntax";s:4:"args";a:3:{s:7:"message";s:31:"Invalid mailbox syntax is used.";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:16:"mail_2.recipient";a:1:{i:0;a:2:{s:4:"code";s:31:"unsafe_email_without_protection";s:4:"args";a:3:{s:7:"message";s:58:"Unsafe email config is used without sufficient protection.";s:6:"params";a:0:{}s:4:"link";s:77:"https://contactform7.com/configuration-errors/unsafe-email-without-protection";}}}}]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Home Makeup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/</link>
 					<pubDate>Mon, 28 Oct 2024 14:49:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?page_id=15</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"175ab336-d66f-4177-9373-d72657728f9d","marginBottom":"80","marginTopTablet":"-20","marginBottomTablet":"60","marginBottomMobile":"40"} -->
 <div id="wd-175ab336" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"e4b3f881-c527-44ce-85b1-5c11969fbffb","adjacentCount":2,"colWidth":25,"justifyContent":"center","hideOnTablet":true,"hideOnMobile":true,"adjacentCountTablet":1,"colWidthTablet":25} -->
@@ -4743,19 +4799,19 @@ This email is a receipt for your contact form submission on our website ([_site_
 
 <!-- wp:wd/carousel {"blockId":"e07c6cb5-e124-41b3-8e24-809f9bee7b4e","currentSlide":2,"paginationControl":false,"paginationControlTablet":false,"paginationControlMobile":false,"syncParentId":"wd_e07c6cb5"} -->
 <div id="wd-e07c6cb5" class="wp-block-wd-carousel wd-carousel-container"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" style="--wd-col-lg:3;--wd-col-md:3;--wd-col-sm:1;--wd-gap-lg:20px;--wd-gap-sm:10px" data-scroll_per_page="yes"><div class="wd-carousel-wrap"><!-- wp:wd/carousel-item {"blockId":"a9826e2d-55a0-4190-b801-557bf8b2dea9"} -->
-<div id="wd-a9826e2d" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/video {"blockId":"8ddf7447-47d4-42a5-8a02-5c33069afbe4","videoType":"external","videoHosted":{"id":733,"url":"https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoOverlayLightbox":true,"videoImageOverlay":{"id":297,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-1-opt.jpg"},"videoSize":"aspect_ratio","videoAspectRatio":"16/10","playBtnIconSize":"62"} -->
+<div id="wd-a9826e2d" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/video {"blockId":"8ddf7447-47d4-42a5-8a02-5c33069afbe4","videoType":"external","videoHosted":{"id":733,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoOverlayLightbox":true,"videoImageOverlay":{"id":297,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-1-opt.jpg"},"videoSize":"aspect_ratio","videoAspectRatio":"16/10","playBtnIconSize":"62"} -->
 <div id="wd-8ddf7447" class="wp-block-wd-video wd-el-video wd-action-overlay wd-video-external wd-lightbox wd-with-aspect-ratio"><div class="wd-el-video-overlay wd-fill"><img src="http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-1-opt.jpg" alt="" class="wp-image-297" /></div><div class="wd-el-video-control color-scheme-light wd-fill"><span class="wd-el-video-play-btn"></span></div><a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="wd-el-video-link wd-el-video-btn-overlay wd-fill wd-el-video-lightbox"></a></div>
 <!-- /wp:wd/video --></div>
 <!-- /wp:wd/carousel-item -->
 
 <!-- wp:wd/carousel-item {"blockId":"3c26cde3-9e83-4962-a62c-e018371e5d62"} -->
-<div id="wd-3c26cde3" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/video {"blockId":"5f2b4b19-5ab4-433d-9739-b1ee7489aaca","videoType":"external","videoHosted":{"id":733,"url":"https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoOverlayLightbox":true,"videoImageOverlay":{"id":298,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-2-opt.jpg"},"videoSize":"aspect_ratio","videoAspectRatio":"16/10","playBtnIconSize":"62"} -->
+<div id="wd-3c26cde3" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/video {"blockId":"5f2b4b19-5ab4-433d-9739-b1ee7489aaca","videoType":"external","videoHosted":{"id":733,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoOverlayLightbox":true,"videoImageOverlay":{"id":298,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-2-opt.jpg"},"videoSize":"aspect_ratio","videoAspectRatio":"16/10","playBtnIconSize":"62"} -->
 <div id="wd-5f2b4b19" class="wp-block-wd-video wd-el-video wd-action-overlay wd-video-external wd-lightbox wd-with-aspect-ratio"><div class="wd-el-video-overlay wd-fill"><img src="http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-2-opt.jpg" alt="" class="wp-image-298" /></div><div class="wd-el-video-control color-scheme-light wd-fill"><span class="wd-el-video-play-btn"></span></div><a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="wd-el-video-link wd-el-video-btn-overlay wd-fill wd-el-video-lightbox"></a></div>
 <!-- /wp:wd/video --></div>
 <!-- /wp:wd/carousel-item -->
 
 <!-- wp:wd/carousel-item {"blockId":"bdc94fdf-e58a-4a86-843c-2e7a728b3788"} -->
-<div id="wd-bdc94fdf" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/video {"blockId":"2e952b7b-11a0-4718-afa5-1fa03e9cf752","videoType":"external","videoHosted":{"id":733,"url":"https://woodmart.xtemos.com/makup/wp-content/uploads/sites/22/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoOverlayLightbox":true,"videoImageOverlay":{"id":300,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-3-opt.jpg"},"videoSize":"aspect_ratio","videoAspectRatio":"16/10","playBtnIconSize":"62"} -->
+<div id="wd-bdc94fdf" class="wp-block-wd-carousel-item wd-carousel-item"><!-- wp:wd/video {"blockId":"2e952b7b-11a0-4718-afa5-1fa03e9cf752","videoType":"external","videoHosted":{"id":733,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"overlay","videoOverlayLightbox":true,"videoImageOverlay":{"id":300,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-3-opt.jpg"},"videoSize":"aspect_ratio","videoAspectRatio":"16/10","playBtnIconSize":"62"} -->
 <div id="wd-2e952b7b" class="wp-block-wd-video wd-el-video wd-action-overlay wd-video-external wd-lightbox wd-with-aspect-ratio"><div class="wd-el-video-overlay wd-fill"><img src="http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/c2-vid-blg-3-opt.jpg" alt="" class="wp-image-300" /></div><div class="wd-el-video-control color-scheme-light wd-fill"><span class="wd-el-video-play-btn"></span></div><a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="wd-el-video-link wd-el-video-btn-overlay wd-fill wd-el-video-lightbox"></a></div>
 <!-- /wp:wd/video --></div>
 <!-- /wp:wd/carousel-item --></div></div><div class="wd-nav-arrows wd-pos-sep wd-hover-1 wd-icon-1"><div class="wd-btn-arrow wd-prev"><div class="wd-arrow-inner"></div></div><div class="wd-btn-arrow wd-next"><div class="wd-arrow-inner"></div></div></div></div></div>
@@ -4842,7 +4898,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Blog]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/blog/</link>
 					<pubDate>Mon, 28 Oct 2024 14:50:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?page_id=62</guid>
 															<wp:post_id>62</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:50:12]]></wp:post_date>
@@ -4876,7 +4932,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[About us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/about-us/</link>
 					<pubDate>Mon, 28 Oct 2024 14:50:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?page_id=64</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"e7de6d8e-7e21-41e6-ab59-56c5ffd1eda9","colorScheme":"light","bgColorCode":"#a1cfde","paddingTop":"60","paddingBottom":"60","marginTop":"-40","marginBottom":"40","paddingTopTablet":"40","paddingBottomTablet":"40"} -->
 <div id="wd-e7de6d8e" class="wp-block-wd-section color-scheme-light"><!-- wp:wd/container {"blockId":"e10fc5a7-31cf-45d7-a383-8f6a0d111c0d"} -->
@@ -4988,7 +5044,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 <h2 id="wd-ef0d8b21" class="wp-block-wd-title title">How We Start Our Business</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/video {"blockId":"4b6fc58f-2812-4d9d-b818-42d07e42127f","videoType":"external","videoHosted":{"id":733,"url":"https://woodmart.xtemos.com/cosmetics/wp-content/uploads/sites/22/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"play","playBtnIconSize":"78"} -->
+<!-- wp:wd/video {"blockId":"4b6fc58f-2812-4d9d-b818-42d07e42127f","videoType":"external","videoHosted":{"id":733,"url":"http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/2024/10/pexels-ron-lach-8143135-540p.mp4"},"externalUrl":"https://www.youtube.com/watch?v=LXb3EKWsInQ","videoActionButton":"play","playBtnIconSize":"78"} -->
 <div id="wd-4b6fc58f" class="wp-block-wd-video wd-el-video wd-action-play wd-video-external"><a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="wd-el-video-btn"><span class="wd-el-video-play-btn"></span></a></div>
 <!-- /wp:wd/video --></div>
 <!-- /wp:wd/column -->
@@ -5091,10 +5147,10 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Contact us]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/contact-us/</link>
 					<pubDate>Mon, 28 Oct 2024 14:50:40 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?page_id=66</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/open-street-map {"blockId":"94f33f3a-915f-4fe3-a212-13f148ca8fce","marginTop":"-20","marginBottom":"80","zoom":15,"height":"540","locations":[{"title":"","lat":"51.50735","lon":"-0.12776","description":"","showButton":false,"buttonText":"","buttonUrl":"","behavior":"popup","image":{"url":"","id":""},"imageSize":"full"}],"marginBottomTablet":"60","marginBottomMobile":"40","heightTablet":"420"} -->
-<div id="wd-94f33f3a" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-94f33f3a-915f-4fe3-a212-13f148ca8fce" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/themes/woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
+<div id="wd-94f33f3a" class="wp-block-wd-open-street-map wd-map-container wd-osm-map-container"><div id="wd-osm-map-94f33f3a-915f-4fe3-a212-13f148ca8fce" class="wd-osm-map-wrapper wd-map-wrapper" data-settings="{&quot;zoom&quot;:15,&quot;scrollWheelZoom&quot;:&quot;no&quot;,&quot;zoomControl&quot;:&quot;yes&quot;,&quot;dragging&quot;:&quot;yes&quot;,&quot;init_type&quot;:&quot;page_load&quot;,&quot;init_offset&quot;:100,&quot;geoapify_tile&quot;:&quot;osm-carto&quot;,&quot;center&quot;:&quot;51.50735000000001,-0.12776&quot;,&quot;markers&quot;:[{&quot;lat&quot;:&quot;51.50735&quot;,&quot;lng&quot;:&quot;-0.12776&quot;,&quot;marker&quot;:{&quot;image&quot;:&quot;https://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/themes/ woodmart/images/icons/marker-icon.png&quot;,&quot;image_size&quot;:[25,41],&quot;marker_behavior&quot;:&quot;popup&quot;,&quot;show_button&quot;:&quot;no&quot;}}]}"></div></div>
 <!-- /wp:wd/open-street-map -->
 
 <!-- wp:wd/row {"blockId":"88b2ed3a-8956-43bb-a209-fe97428e0981","columnsGap":20,"marginBottom":"20"} -->
@@ -5210,7 +5266,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Wishlist]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/wishlist/</link>
 					<pubDate>Mon, 28 Oct 2024 14:51:03 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?page_id=68</guid>
 											<content:encoded><![CDATA[<!-- wp:shortcode -->
 [woodmart_wishlist]
@@ -5243,7 +5299,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Dermato Clean Hyaluron Cleansing Gel 200ml]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/dermato-clean-hyaluron-cleansing-gel-200ml/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=72</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -5273,8 +5329,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>72</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:26]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:26]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:41:22]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:41:22]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:02:41]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:02:41]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[dermato-clean-hyaluron-cleansing-gel-200ml]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5286,7 +5342,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_age" nicename="25"><![CDATA[25+]]></category>
 		<category domain="product_cat" nicename="cleansers"><![CDATA[Cleansers]]></category>
 		<category domain="product_cat" nicename="face-sunscreen"><![CDATA[Face Sunscreen]]></category>
-		<category domain="pa_brand" nicename="mizon"><![CDATA[Mizon]]></category>
+		<category domain="product_brand" nicename="mizon"><![CDATA[Mizon]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -5302,7 +5358,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5330,16 +5386,17 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Soft Touch Mousse Make-Up]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/</link>
+					<title><![CDATA[Soft Touch Mousse Make-Up - Deer]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/?attribute_pa_color=deer</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=90</guid>
-															<wp:post_id>90</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Deer]]></excerpt:encoded>
+										<wp:post_id>90</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[soft-touch-mousse-make-up-2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5378,18 +5435,23 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[6.42]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[deer]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Soft Touch Mousse Make-Up]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/</link>
+					<title><![CDATA[Soft Touch Mousse Make-Up - Dust storm]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/soft-touch-mousse-make-up/?attribute_pa_color=dust-storm</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=91</guid>
-															<wp:post_id>91</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Dust storm]]></excerpt:encoded>
+										<wp:post_id>91</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:35]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:35]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:24]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:24]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[soft-touch-mousse-make-up-3]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5428,12 +5490,16 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[6.42]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[dust-storm]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Tinted Super Serum SPF30]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/tinted-super-serum-spf30/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=92</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -5463,8 +5529,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>92</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:17]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:17]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:01:35]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:01:35]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[tinted-super-serum-spf30]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5474,7 +5540,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 												<category domain="pa_age" nicename="12"><![CDATA[12+]]></category>
 		<category domain="pa_age" nicename="25"><![CDATA[25+]]></category>
 		<category domain="pa_age" nicename="40"><![CDATA[40+]]></category>
-		<category domain="pa_brand" nicename="caudalie"><![CDATA[Caudalie]]></category>
+		<category domain="product_brand" nicename="caudalie"><![CDATA[Caudalie]]></category>
 		<category domain="product_cat" nicename="creams"><![CDATA[Creams]]></category>
 		<category domain="pa_color" nicename="deer"><![CDATA[Deer]]></category>
 		<category domain="pa_color" nicename="dust-storm"><![CDATA[Dust storm]]></category>
@@ -5494,7 +5560,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5506,24 +5572,73 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_attributes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:3:{s:8:"pa_brand";a:6:{s:4:"name";s:8:"pa_brand";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_color";a:6:{s:4:"name";s:8:"pa_color";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:0;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:6:"pa_age";a:6:{s:4:"name";s:6:"pa_age";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:3:{s:8:"pa_brand";a:6:{s:4:"name";s:8:"pa_brand";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_color";a:6:{s:4:"name";s:8:"pa_color";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:0;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}s:6:"pa_age";a:6:{s:4:"name";s:6:"pa_age";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_variation_gallery_data]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[42.06]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_sguide_select]]></wp:meta_key>
+							<wp:meta_value><![CDATA[none]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wd_gutenberg_product_mode]]></wp:meta_key>
+							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_fbt_bundles_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_wc_video_gallery]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:121;a:11:{s:10:"video_type";s:3:"mp4";s:15:"upload_video_id";s:0:"";s:16:"upload_video_url";s:0:"";s:11:"youtube_url";s:0:"";s:9:"vimeo_url";s:0:"";s:8:"autoplay";s:1:"0";s:10:"video_size";s:7:"contain";s:13:"video_control";s:5:"theme";s:16:"hide_gallery_img";s:1:"0";s:16:"hide_information";s:1:"0";s:12:"audio_status";s:6:"unmute";}}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_whb_header]]></wp:meta_key>
+							<wp:meta_value><![CDATA[none]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_single_product_style]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_thums_position]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_extra_position]]></wp:meta_key>
+							<wp:meta_value><![CDATA[after]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_custom_tab_content_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[text]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_custom_tab_content_type_2]]></wp:meta_key>
+							<wp:meta_value><![CDATA[text]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Tinted Super Serum SPF30]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/tinted-super-serum-spf30/</link>
+					<title><![CDATA[Tinted Super Serum SPF30 - Deer]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/tinted-super-serum-spf30/?attribute_pa_color=deer</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=93</guid>
-															<wp:post_id>93</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Deer]]></excerpt:encoded>
+										<wp:post_id>93</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:40]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:40]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[tinted-super-serum-spf30]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5562,18 +5677,23 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[42.06]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[deer]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Tinted Super Serum SPF30]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/tinted-super-serum-spf30/</link>
+					<title><![CDATA[Tinted Super Serum SPF30 - Dust storm]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/tinted-super-serum-spf30/?attribute_pa_color=dust-storm</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=94</guid>
-															<wp:post_id>94</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Dust storm]]></excerpt:encoded>
+										<wp:post_id>94</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:40]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:40]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[tinted-super-serum-spf30-2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5612,12 +5732,16 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[42.06]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[dust-storm]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Coverstick]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/coverstick/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=95</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -5647,8 +5771,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>95</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:42:24]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:42:24]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:04:58]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:04:58]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[coverstick]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5664,7 +5788,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="pa_color" nicename="dust-storm"><![CDATA[Dust storm]]></category>
 		<category domain="product_cat" nicename="eye-care"><![CDATA[Eye Care]]></category>
 		<category domain="product_cat" nicename="face"><![CDATA[Face]]></category>
-		<category domain="pa_brand" nicename="uriage"><![CDATA[Uriage]]></category>
+		<category domain="product_brand" nicename="uriage"><![CDATA[Uriage]]></category>
 		<category domain="product_type" nicename="variable"><![CDATA[variable]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
@@ -5680,7 +5804,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5692,24 +5816,73 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_attributes]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:3:{s:8:"pa_brand";a:6:{s:4:"name";s:8:"pa_brand";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_color";a:6:{s:4:"name";s:8:"pa_color";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:0;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:6:"pa_age";a:6:{s:4:"name";s:6:"pa_age";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></wp:meta_value>
+							<wp:meta_value><![CDATA[a:3:{s:8:"pa_brand";a:6:{s:4:"name";s:8:"pa_brand";s:5:"value";s:0:"";s:8:"position";i:0;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}s:8:"pa_color";a:6:{s:4:"name";s:8:"pa_color";s:5:"value";s:0:"";s:8:"position";i:1;s:10:"is_visible";i:0;s:12:"is_variation";i:1;s:11:"is_taxonomy";i:1;}s:6:"pa_age";a:6:{s:4:"name";s:6:"pa_age";s:5:"value";s:0:"";s:8:"position";i:2;s:10:"is_visible";i:1;s:12:"is_variation";i:0;s:11:"is_taxonomy";i:1;}}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_variation_gallery_data]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:0:{}]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[26.53]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_sguide_select]]></wp:meta_key>
+							<wp:meta_value><![CDATA[none]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wd_gutenberg_product_mode]]></wp:meta_key>
+							<wp:meta_value><![CDATA[yes]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_fbt_bundles_id]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[woodmart_wc_video_gallery]]></wp:meta_key>
+							<wp:meta_value><![CDATA[a:1:{i:123;a:11:{s:10:"video_type";s:3:"mp4";s:15:"upload_video_id";s:0:"";s:16:"upload_video_url";s:0:"";s:11:"youtube_url";s:0:"";s:9:"vimeo_url";s:0:"";s:8:"autoplay";s:1:"0";s:10:"video_size";s:7:"contain";s:13:"video_control";s:5:"theme";s:16:"hide_gallery_img";s:1:"0";s:16:"hide_information";s:1:"0";s:12:"audio_status";s:6:"unmute";}}]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_whb_header]]></wp:meta_key>
+							<wp:meta_value><![CDATA[none]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_single_product_style]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_thums_position]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_extra_position]]></wp:meta_key>
+							<wp:meta_value><![CDATA[after]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_design]]></wp:meta_key>
+							<wp:meta_value><![CDATA[inherit]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_custom_tab_content_type]]></wp:meta_key>
+							<wp:meta_value><![CDATA[text]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_woodmart_product_custom_tab_content_type_2]]></wp:meta_key>
+							<wp:meta_value><![CDATA[text]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Coverstick]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/coverstick/</link>
+					<title><![CDATA[Coverstick - Deer]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/coverstick/?attribute_pa_color=deer</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=96</guid>
-															<wp:post_id>96</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Deer]]></excerpt:encoded>
+										<wp:post_id>96</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:53]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:53]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[coverstick]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5748,18 +5921,23 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[26.53]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[deer]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[Coverstick]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/coverstick/</link>
+					<title><![CDATA[Coverstick - Dust storm]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/coverstick/?attribute_pa_color=dust-storm</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=97</guid>
-															<wp:post_id>97</wp:post_id>
+																<excerpt:encoded><![CDATA[Color: Dust storm]]></excerpt:encoded>
+										<wp:post_id>97</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 14:53:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 14:53:36]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-12-02 12:52:53]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-12-02 12:52:53]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[coverstick-2]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5798,12 +5976,16 @@ This email is a receipt for your contact form submission on our website ([_site_
 							<wp:meta_key><![CDATA[_price]]></wp:meta_key>
 							<wp:meta_value><![CDATA[26.53]]></wp:meta_value>
 						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[attribute_pa_color]]></wp:meta_key>
+							<wp:meta_value><![CDATA[dust-storm]]></wp:meta_value>
+						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Luminous Eye Tint Liquid Shadow]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/product/luminous-eye-tint-liquid-shadow/</link>
 					<pubDate>Mon, 28 Oct 2024 14:53:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?post_type=product&#038;p=98</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"40241acc-ad09-432a-84f0-24c7cc529bfb"} -->
 <p id="wd-40241acc" class="wp-block-wd-paragraph">Evidently, these ingredients combine to make your summer experience unforgettable for the right reasons, preventing sunburn, dryness, photoaging as well as other unpleasant feelings. Likewise, dark spots are easier to avoid as this sunscreen reinforces broad-spectrum UVA/UVB protection. All in all, this is truly a must-have that innovates without relinquishing Mádara's values of transparency and sustainability. Once again, these core resources were consciously extracted from Nordic forests, having the planet's well-being in mind. Finally, this sunscreen offers a great example of how efficient solar protection can also be eco-friendly.</p>
@@ -5833,8 +6015,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 															<wp:post_id>98</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:53:27]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-10-28 14:53:27]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 15:43:34]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 15:43:34]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2025-02-04 13:03:38]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2025-02-04 13:03:38]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
 					<wp:post_name><![CDATA[luminous-eye-tint-liquid-shadow]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -5850,7 +6032,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<category domain="product_cat" nicename="eyes"><![CDATA[Eyes]]></category>
 		<category domain="product_visibility" nicename="featured"><![CDATA[featured]]></category>
 		<category domain="product_type" nicename="simple"><![CDATA[simple]]></category>
-		<category domain="pa_brand" nicename="svr"><![CDATA[SVR]]></category>
+		<category domain="product_brand" nicename="svr"><![CDATA[SVR]]></category>
 											<wp:postmeta>
 							<wp:meta_key><![CDATA[_sku]]></wp:meta_key>
 							<wp:meta_value><![CDATA[MP-31968]]></wp:meta_value>
@@ -5865,7 +6047,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_product_version]]></wp:meta_key>
-							<wp:meta_value><![CDATA[9.3.3]]></wp:meta_value>
+							<wp:meta_value><![CDATA[9.6.0]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
@@ -5892,7 +6074,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[A Journey Through the History and Trends of Cosmetic Products]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/09/10/a-journey-through-the-history-and-trends-of-cosmetic-products/</link>
 					<pubDate>Tue, 10 Sep 2024 15:21:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=222</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7f59212a-8ec9-4f6d-9fc3-f81524172325"} -->
 <p id="wd-7f59212a" class="wp-block-wd-paragraph">The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
@@ -6012,7 +6194,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Beauty Tips and Trends Unveiled]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/09/22/beauty-tips-and-trends-unveiled/</link>
 					<pubDate>Sun, 22 Sep 2024 15:22:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=225</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7f59212a-8ec9-4f6d-9fc3-f81524172325"} -->
 <p id="wd-7f59212a" class="wp-block-wd-paragraph">The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
@@ -6132,7 +6314,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Insider Secrets and Expert Advice]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/01/insider-secrets-and-expert-advice/</link>
 					<pubDate>Tue, 01 Oct 2024 15:22:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=228</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7f59212a-8ec9-4f6d-9fc3-f81524172325"} -->
 <p id="wd-7f59212a" class="wp-block-wd-paragraph">The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
@@ -6252,7 +6434,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Exploring the World of Cosmetics and Skincare]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/16/exploring-the-world-of-cosmetics-and-skincare/</link>
 					<pubDate>Wed, 16 Oct 2024 15:23:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=231</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7f59212a-8ec9-4f6d-9fc3-f81524172325"} -->
 <p id="wd-7f59212a" class="wp-block-wd-paragraph">The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
@@ -6372,7 +6554,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/165/</link>
 					<pubDate>Mon, 28 Oct 2024 14:54:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=165</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>165</wp:post_id>
@@ -6424,7 +6606,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/166/</link>
 					<pubDate>Mon, 28 Oct 2024 14:54:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=166</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>166</wp:post_id>
@@ -6476,7 +6658,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/167/</link>
 					<pubDate>Mon, 28 Oct 2024 14:54:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=167</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>167</wp:post_id>
@@ -6528,7 +6710,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/168/</link>
 					<pubDate>Mon, 28 Oct 2024 14:54:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=168</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>168</wp:post_id>
@@ -6580,7 +6762,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Home]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/home/</link>
 					<pubDate>Mon, 28 Oct 2024 14:55:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=169</guid>
 															<wp:post_id>169</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:55:26]]></wp:post_date>
@@ -6631,7 +6813,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/170/</link>
 					<pubDate>Mon, 28 Oct 2024 14:55:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=170</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>170</wp:post_id>
@@ -6683,7 +6865,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/171/</link>
 					<pubDate>Mon, 28 Oct 2024 14:55:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=171</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>171</wp:post_id>
@@ -6735,7 +6917,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/173/</link>
 					<pubDate>Mon, 28 Oct 2024 14:55:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=173</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>173</wp:post_id>
@@ -6787,7 +6969,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/174/</link>
 					<pubDate>Mon, 28 Oct 2024 14:56:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=174</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>174</wp:post_id>
@@ -6843,7 +7025,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/175/</link>
 					<pubDate>Mon, 28 Oct 2024 14:56:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=175</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>175</wp:post_id>
@@ -6899,7 +7081,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/176/</link>
 					<pubDate>Mon, 28 Oct 2024 14:56:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=176</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>176</wp:post_id>
@@ -6955,7 +7137,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/177/</link>
 					<pubDate>Mon, 28 Oct 2024 14:56:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=177</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>177</wp:post_id>
@@ -7011,7 +7193,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/178/</link>
 					<pubDate>Mon, 28 Oct 2024 14:56:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=178</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>178</wp:post_id>
@@ -7067,7 +7249,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/184/</link>
 					<pubDate>Mon, 28 Oct 2024 14:57:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=184</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>184</wp:post_id>
@@ -7119,7 +7301,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/185/</link>
 					<pubDate>Mon, 28 Oct 2024 14:57:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=185</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>185</wp:post_id>
@@ -7171,7 +7353,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/186/</link>
 					<pubDate>Mon, 28 Oct 2024 14:57:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=186</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>186</wp:post_id>
@@ -7223,7 +7405,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/187/</link>
 					<pubDate>Mon, 28 Oct 2024 14:57:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=187</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>187</wp:post_id>
@@ -7275,7 +7457,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/188/</link>
 					<pubDate>Mon, 28 Oct 2024 14:57:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=188</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>188</wp:post_id>
@@ -7327,7 +7509,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Exploring the Latest Innovations in Cosmetic Technology]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/08/02/exploring-the-latest-innovations-in-cosmetic-technology/</link>
 					<pubDate>Fri, 02 Aug 2024 15:20:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=216</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7f59212a-8ec9-4f6d-9fc3-f81524172325"} -->
 <p id="wd-7f59212a" class="wp-block-wd-paragraph">The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
@@ -7447,7 +7629,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Exploring the Ingredients Behind Your Favorite Cosmetics]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/08/29/exploring-the-ingredients-behind-your-favorite-cosmetics/</link>
 					<pubDate>Thu, 29 Aug 2024 15:21:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=219</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/paragraph {"blockId":"7f59212a-8ec9-4f6d-9fc3-f81524172325"} -->
 <p id="wd-7f59212a" class="wp-block-wd-paragraph">The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p>
@@ -7567,7 +7749,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/172/</link>
 					<pubDate>Mon, 28 Oct 2024 14:55:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=172</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>172</wp:post_id>
@@ -7619,7 +7801,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Referral program]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/referral-program/</link>
 					<pubDate>Mon, 28 Oct 2024 14:58:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=189</guid>
 															<wp:post_id>189</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:58:24]]></wp:post_date>
@@ -7674,7 +7856,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[Payment and delivery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/payment-and-delivery/</link>
 					<pubDate>Mon, 28 Oct 2024 14:58:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=190</guid>
 															<wp:post_id>190</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:58:24]]></wp:post_date>
@@ -7729,7 +7911,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/191/</link>
 					<pubDate>Mon, 28 Oct 2024 14:58:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=191</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>191</wp:post_id>
@@ -7781,7 +7963,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/192/</link>
 					<pubDate>Mon, 28 Oct 2024 14:58:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=192</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>192</wp:post_id>
@@ -7833,7 +8015,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 					<title><![CDATA[]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-gutenberg/2024/10/28/193/</link>
 					<pubDate>Mon, 28 Oct 2024 14:58:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/makeup-gutenberg/?p=193</guid>
 											<content:encoded><![CDATA[ ]]></content:encoded>
 															<wp:post_id>193</wp:post_id>

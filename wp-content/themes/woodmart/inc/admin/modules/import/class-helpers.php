@@ -108,16 +108,18 @@ class Helpers extends Singleton {
 			'http://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/',
 			'https://dummy.xtemos.com/woodmart2/makeup-gutenberg/wp-content/uploads/sites/40/',
 
+			'http://dummy.xtemos.com/woodmart2/marketplace2-elementor/wp-content/uploads/sites/42/',
+			'https://dummy.xtemos.com/woodmart2/marketplace2-elementor/wp-content/uploads/sites/42/',
+			'http://dummy.xtemos.com/woodmart2/marketplace2/wp-content/uploads/sites/41/',
+			'https://dummy.xtemos.com/woodmart2/marketplace2/wp-content/uploads/sites/41/',
+			'http://dummy.xtemos.com/woodmart2/marketplace2-gutenberg/wp-content/uploads/sites/43/',
+			'https://dummy.xtemos.com/woodmart2/marketplace2-gutenberg/wp-content/uploads/sites/43/',
+
 			'http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/',
 			'https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/',
 
 			'http://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/',
-			'https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/',
-
-			'http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/',
-			'https://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/',
-			'http://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/',
-			'https://dummy.xtemos.com/woodmart2/pottery/wp-content/uploads/sites/35/',
+			'https://dummy.xtemos.com/woodmart2/elementor/wp-content/uploads/sites/2/',	
 
 			'http://dummy.xtemos.com/woodmart2/wp-content/uploads/',
 			'https://dummy.xtemos.com/woodmart2/wp-content/uploads/',
@@ -206,6 +208,13 @@ class Helpers extends Singleton {
 			'https://dummy.xtemos.com/woodmart2/makeup/',
 			'http://dummy.xtemos.com/woodmart2/makeup-gutenberg/',
 			'https://dummy.xtemos.com/woodmart2/makeup-gutenberg/',
+
+			'http://dummy.xtemos.com/woodmart2/marketplace2-elementor/',
+			'https://dummy.xtemos.com/woodmart2/marketplace2-elementor/',
+			'http://dummy.xtemos.com/woodmart2/marketplace2/',
+			'https://dummy.xtemos.com/woodmart2/marketplace2/',
+			'http://dummy.xtemos.com/woodmart2/marketplace2-gutenberg/',
+			'https://dummy.xtemos.com/woodmart2/marketplace2-gutenberg/',
 
 			'https://dummy.xtemos.com/woodmart2/gutenberg/',
 			'http://dummy.xtemos.com/woodmart2/gutenberg/',
@@ -379,6 +388,6 @@ class Helpers extends Singleton {
 	 * @return array
 	 */
 	public function get_base_version() {
-		return array( 'base', 'megamarket_base', 'accessories_base', 'mega-electronics_base', 'furniture2_base', 'plants_base', 'kids_base', 'games_base-light', 'games_base-dark', 'organic-farm_base', 'pills_base', 'pottery_base', 'vegetables_base', 'makeup_base' );
+		return array( 'base', 'megamarket_base', 'accessories_base', 'mega-electronics_base', 'furniture2_base', 'plants_base', 'kids_base', 'games_base-light', 'games_base-dark', 'organic-farm_base', 'pills_base', 'pottery_base', 'vegetables_base', 'makeup_base', 'marketplace2_base' );
 	}
 }

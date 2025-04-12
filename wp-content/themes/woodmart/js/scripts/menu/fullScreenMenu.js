@@ -44,4 +44,8 @@
 	$(document).ready(function() {
 		woodmartThemeModule.fullScreenMenu();
 	});
+
+	window.addEventListener('wdUpdatedHeader', function () {
+		woodmartThemeModule.fullScreenMenu();
+	});
 })(jQuery);

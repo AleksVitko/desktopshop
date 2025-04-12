@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:39" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:42" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:39:16 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:42:10 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
@@ -52,7 +52,7 @@
 					<pubDate>Sun, 26 May 2024 08:02:20 +0000</pubDate>
 					<dc:creator><![CDATA[zakhar]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=13125</guid>
-											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"26b4e65b-846e-4d0c-a634-f4a0fc2db316","currentSlide":2,"effect":"parallax","arrowsMobile":false,"arrowsStyle":"3","arrowsColorScheme":"light","pagination":false,"paginationTablet":false,"paginationColorScheme":"light","autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"770","arrowsCustomSettings":true,"arrowsHoverStyle":"1","marginBottom":"5","heightMobile":"720"} -->
+											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"26b4e65b-846e-4d0c-a634-f4a0fc2db316","effect":"parallax","arrowsMobile":false,"arrowsStyle":"3","arrowsColorScheme":"light","pagination":false,"paginationTablet":false,"paginationColorScheme":"light","autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"770","arrowsCustomSettings":true,"arrowsHoverStyle":"1","marginBottom":"5","heightMobile":"720"} -->
 <div id="wd-26b4e65b" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-parallax wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="parallax" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"e1b99061-5c28-4d75-b8f1-6c4dcb45d3bd","effect":"parallax","colorScheme":"light","bgImage":{"id":13130,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/slider-colored-fashion-9.jpg"},"bgColorCode":"#00a352","blockGapMobile":10} -->
 <div id="wd-e1b99061" class="wp-block-wd-slider-item wd-slide wd-carousel-item color-scheme-light"><div class="wd-slide-container"><!-- wp:wd/title {"blockId":"f2ae673a-2de0-4018-bada-413928f50a33","textAlign":"center","content":"COLOR","tpFontSize":"180","tpLineHeight":"1","tpFontVariant":"700","tpFontWeight":"700","animation":"zoom-in","animationDelay":"350","tpFontSizeTablet":"140","tpFontSizeMobile":"90","tpLineHeightUnits":"em"} -->
 <h2 id="wd-f2ae673a" class="wp-block-wd-title title wd-align wd-animation wd-transform wd-animation-zoom-in wd_delay_350">COLOR</h2>
@@ -229,7 +229,7 @@
 <!-- /wp:wd/paragraph -->
 
 <!-- wp:wd/section {"blockId":"8ea6b0f5-0f2a-477c-900d-33755a42d921","paddingBottom":"80","marginBottom":"80","borderType":"solid","borderColorCode":"rgba(129,129,129,0.2)","borderWidthBottom":"1","borderWidthLock":false,"paddingRightTablet":"0","paddingBottomTablet":"60","paddingBottomMobile":"40","paddingLeftTablet":"0","marginBottomTablet":"60","marginBottomMobile":"40"} -->
-<div id="wd-8ea6b0f5" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"8937948b-a83b-4799-a79f-360619350b10","columnsGap":0,"columnsGapMobile":null} -->
+<div id="wd-8ea6b0f5" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"8937948b-a83b-4799-a79f-360619350b10","columnsGap":0} -->
 <div id="wd-8937948b" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"6ab9cf1b-a5b3-40f0-b8df-3ac58cce3694","adjacentCount":3,"paddingTop":"20","borderType":"solid","borderColorCode":"rgba(129,129,129,0.2)","borderWidthRight":"1","paddingTopMobile":"0","borderWidthRightMobile":"0"} -->
 <div id="wd-6ab9cf1b" class="wp-block-wd-column"><!-- wp:wd/infobox {"blockId":"04951862-8425-4159-8ab5-d8c8387b72f1","iconPositionHorizontal":"start","iconPositionVertical":"flex-start","borderWidthLock":false,"alignSelf":"center","displayWidth":"custom","customWidth":"324","paddingRightTablet":"15","paddingLeftTablet":"15","paddingUnitsMobile":"custom","borderWidthRightMobile":"0","borderWidthLockMobile":false} -->
 <div id="wd-04951862" class="wp-block-wd-infobox wd-hover-parent wd-icon-start wd-custom-width wd-align-s-center"><!-- wp:wd/icon {"blockId":"24e7cd5f-2673-4762-be95-e538ea86ac08","type":"text","tpFontSize":"74","colorVariable":"\u002d\u002dwd-primary-color","tpFontSizeTablet":"48"} -->
@@ -298,21 +298,21 @@
 <!-- /wp:wd/row --></div>
 <!-- /wp:wd/section -->
 
-<!-- wp:wd/container {"blockId":"42f71b1d-fc8e-47a4-a551-86174ca60028","colGap":"","rowGap":"10","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
-<div id="wd-42f71b1d" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"2b43b6e2-8904-4bd3-a2c0-7d3d68fb6438","textAlign":"center"} -->
-<p id="wd-2b43b6e2" class="wp-block-wd-paragraph wd-align">SEE OUR COLLECTION</p>
+<!-- wp:wd/container {"blockId":"42f71b1d-fc8e-47a4-a551-86174ca60028","textAlign":"center","colGap":"","rowGap":"10","marginBottom":"80","marginBottomTablet":"60","marginBottomMobile":"40"} -->
+<div id="wd-42f71b1d" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"2b43b6e2-8904-4bd3-a2c0-7d3d68fb6438"} -->
+<p id="wd-2b43b6e2" class="wp-block-wd-paragraph">SEE OUR COLLECTION</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"abd10cf4-12e2-4ab5-9467-7a19baecf77c","textAlign":"center","content":"WOODMART ON INSTAGRAM","tpFontSize":"36","tpFontSizeTablet":"24"} -->
-<h2 id="wd-abd10cf4" class="wp-block-wd-title title wd-align">WOODMART ON INSTAGRAM</h2>
+<!-- wp:wd/title {"blockId":"abd10cf4-12e2-4ab5-9467-7a19baecf77c","content":"WOODMART ON INSTAGRAM","tpFontSize":"36","tpFontSizeTablet":"24"} -->
+<h2 id="wd-abd10cf4" class="wp-block-wd-title title">WOODMART ON INSTAGRAM</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"39f1c36f-8868-4c6d-9d0f-980d164d4387","textAlign":"center","marginBottom":"10"} -->
-<p id="wd-39f1c36f" class="wp-block-wd-paragraph wd-align">Street art salvia irony wolf waistcoat actually lomo meh fap jean shorts.</p>
+<!-- wp:wd/paragraph {"blockId":"39f1c36f-8868-4c6d-9d0f-980d164d4387","marginBottom":"10"} -->
+<p id="wd-39f1c36f" class="wp-block-wd-paragraph">Street art salvia irony wolf waistcoat actually lomo meh fap jean shorts.</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/button {"blockId":"fae658cf-7754-4c0c-b34d-850f1c3e9abb","design":"link","alignSelf":"center"} -->
-<a id="wd-fae658cf" class="wp-block-wd-button btn btn-style-link btn-size-default wd-align-s-center" href="#"><span>Follow us on instagram</span></a>
+<!-- wp:wd/button {"blockId":"fae658cf-7754-4c0c-b34d-850f1c3e9abb","design":"link"} -->
+<a id="wd-fae658cf" class="wp-block-wd-button btn btn-style-link btn-size-default" href="#"><span>Follow us on instagram</span></a>
 <!-- /wp:wd/button --></div>
 <!-- /wp:wd/container -->
 
@@ -322,8 +322,8 @@
 															<wp:post_id>13125</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-26 08:02:20]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-05-26 08:02:20]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-09-18 11:18:22]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-09-18 11:18:22]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-21 12:52:20]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-21 12:52:20]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-fashion-color]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>

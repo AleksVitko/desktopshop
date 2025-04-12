@@ -86,13 +86,6 @@ $block_css->add_css_rules(
 );
 
 $block_css->merge_with(
-	wd_get_block_carousel_css(
-		$block_selector,
-		$attrs
-	)
-);
-
-$block_css->merge_with(
 	wd_get_block_advanced_css(
 		array(
 			'selector'       => $block_selector . '.wd-tabs-content-wrapper',

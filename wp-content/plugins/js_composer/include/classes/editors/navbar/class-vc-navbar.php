@@ -16,7 +16,7 @@ class Vc_Navbar {
 	 *
 	 * @var array
 	 */
-	protected $controls = array(
+	protected $controls = [
 		'add_element',
 		'templates',
 		'save_backend',
@@ -26,7 +26,7 @@ class Vc_Navbar {
 		'fullscreen',
 		'windowed',
 		'more',
-	);
+	];
 	/**
 	 * URL for the brand logo.
 	 *
@@ -68,14 +68,14 @@ class Vc_Navbar {
 	 * @return array - list of arrays witch contains key name and html output for button.
 	 */
 	public function getControls() {
-		$control_list = array();
+		$control_list = [];
 		foreach ( $this->getControlList() as $control ) {
 			$method = vc_camel_case( 'get_control_' . $control );
 			if ( method_exists( $this, $method ) ) {
-				$control_list[] = array(
+				$control_list[] = [
 					$control,
 					$this->$method(),
-				);
+				];
 			}
 		}
 
@@ -119,12 +119,12 @@ class Vc_Navbar {
 	 * Render template.
 	 */
 	public function render() {
-		vc_include_template( 'editors/navbar/navbar.tpl.php', array(
+		vc_include_template( 'editors/navbar/navbar.tpl.php', [
 			'css_class' => $this->css_class,
 			'controls' => $this->getControls(),
 			'nav_bar' => $this,
 			'post' => $this->post(),
-		) );
+		] );
 	}
 
 	/**
@@ -146,7 +146,9 @@ class Vc_Navbar {
 	 * @throws \Exception
 	 */
 	public function getControlCustomCss() {
-		if ( ! vc_user_access()->part( 'post_settings' )->can()->get() ) {
+		$has_tabs = ( vc_modules_manager()->is_module_on( [ 'vc-custom-js', 'vc-custom-css', 'vc-post-custom-layout' ] ) || vc_is_frontend_editor() );
+
+		if ( ! vc_user_access()->part( 'post_settings' )->can()->get() || ( ! $has_tabs ) ) {
 			return '';
 		}
 		return '<li class="vc_pull-right vc_hide-mobile vc_hide-desktop-more">

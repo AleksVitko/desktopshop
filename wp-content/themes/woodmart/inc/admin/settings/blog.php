@@ -676,6 +676,21 @@ Options::add_field(
 	)
 );
 
+Options::add_field(
+	array(
+		'id'          => 'parts_published_date',
+		'name'        => esc_html__( 'Published date', 'woodmart' ),
+		'hint'        => '<video data-src="' . WOODMART_TOOLTIP_URL . 'parts-published-date.mp4" autoplay loop muted></video>',
+		'description' => esc_html__( 'Display published date', 'woodmart' ),
+		'group'       => esc_html__( 'Elements', 'woodmart' ),
+		'type'        => 'switcher',
+		'section'     => 'blog_archive_section',
+		'default'     => '1',
+		'class'       => 'xts-col-6',
+		'priority'    => 200,
+	)
+);
+
 /**
  * Single post.
  */
@@ -777,5 +792,20 @@ Options::add_field(
 		'default'     => '1',
 		'class'       => 'xts-col-6',
 		'priority'    => 60,
+	)
+);
+
+Options::add_field(
+	array(
+		'id'          => 'blog_published_date',
+		'name'        => esc_html__( 'Published date', 'woodmart' ),
+		'hint'        => wp_kses( '<img data-src="' . WOODMART_TOOLTIP_URL . 'blog-published-date.jpg" alt="">', true ),
+		'description' => esc_html__( 'Display published date', 'woodmart' ),
+		'group'       => esc_html__( 'Elements', 'woodmart' ),
+		'type'        => 'switcher',
+		'section'     => 'blog_singe_post_section',
+		'default'     => '1',
+		'class'       => 'xts-col-6',
+		'priority'    => 70,
 	)
 );

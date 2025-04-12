@@ -78,4 +78,28 @@ class Header_Factory {
 
 		return $header;
 	}
+
+	/**
+	 * Create new draft header.
+	 *
+	 * @param integer $id Header ID.
+	 * @param string  $name Header name.
+	 * @param array   $structure Header structure.
+	 * @param array   $settings Header settings.
+	 * @return Header
+	 */
+	public function draft_header( $id, $name, $structure = false, $settings = false ) {
+		$header = new Header( $this->_elements, $id, true );
+
+		if ( $structure ) {
+			$header->set_structure( $structure );
+		}
+		if ( $settings ) {
+			$header->set_settings( $settings );
+		}
+
+		$header->set_name( $name );
+
+		return $header;
+	}
 }

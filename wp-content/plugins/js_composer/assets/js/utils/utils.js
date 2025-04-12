@@ -25,14 +25,23 @@
 			} catch ( err ) {
 				console.error( 'Unable to copy', err );
 			}
-			document.body.removeChild( textArea );
 		},
 		copyTextToClipboard: function ( text ) {
 			if ( !navigator.clipboard ) {
-				this.fallbackCopyTextToClipboard( text );
+				this.fallbackCopyTextToClipboard.call( this, text );
 				return;
 			}
 			navigator.clipboard.writeText( text );
+		},
+		slugify: function ( string ) {
+			string = string || '';
+			return string.toString().toLowerCase()
+				.replace( /[^a-z0-9\s-]/g, ' ' ) // Remove all non-alphanumeric characters except spaces and hyphens
+				.replace( /[\s_-]+/g, '-' ) // Replace spaces, underscores, and multiple hyphens with a single hyphen
+				.replace( /^-+|-+$/g, '' ); // Trim leading and trailing hyphens
+		},
+		stripHtmlTags: function ( string ) {
+			return string.replace( /(<([^>]+)>)/ig, '' );
 		}
 	};
 })( window );

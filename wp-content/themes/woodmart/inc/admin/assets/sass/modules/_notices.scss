@@ -257,27 +257,47 @@
 	// WHB NOTICES
 	// ------------------------------------------------------------------------------------------------
 
-	:is(
-	.whb-errors-area,
-	.whb-success-area) {
+	// :is(
+	// .whb-errors-area,
+	// .whb-success-area) {
+	// 	display: block;
+	// 	margin-bottom: 15px;
+
+	// 	&:empty {
+	// 		display: none;
+	// 	}
+	// }
+
+	.whb-messages-area {
 		display: block;
 		margin-bottom: 15px;
+		// width: 100%;
 
-		&:empty {
+		&:empty,
+		&:has(.whb-push-notification:empty) {
 			display: none;
 		}
 	}
 
 	.whb-push-notification {
 		@extend %notice;
+		@extend %success-notice;
 
-		.whb-success-area & {
-			@extend %success-notice;
-		}
+		// &:empty {
+		// 	display: none;
+		// }
 
-		.whb-errors-area & {
-			@extend %warning-notice;
-		}
+		// &.whb-push-enter-done {
+		// 	@extend %success-notice;
+		// }
+
+		// .whb-success-area & {
+		// 	@extend %success-notice;
+		// }
+
+		// .whb-errors-area & {
+		// 	@extend %warning-notice;
+		// }
 	}
 
 	// ------------------------------------------

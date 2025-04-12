@@ -6,7 +6,7 @@ if ( ! function_exists( 'wd_get_shop_archive_block_title_attrs' ) ) {
 	function wd_get_shop_archive_block_title_attrs() {
 		$attr = new Block_Attributes();
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		$attr->add_attr(
 			array(

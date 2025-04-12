@@ -13,18 +13,32 @@ if ( isset( $params['image']['url'] ) && $params['image']['url'] ) {
 $logo_url     = $protocol . str_replace( array( 'http://', 'https://' ), '', $logo_url );
 $width        = isset( $params['width'] ) ? (int) $params['width'] : 150;
 $sticky_width = isset( $params['sticky_width'] ) ? (int) $params['sticky_width'] : 150;
+$logo_attrs   = array(
+	'src'   => $logo_url,
+	'alt'   => get_bloginfo( 'name' ),
+	'style' => 'max-width: ' . esc_attr( $width ) . 'px;',
+);
 
-$logo = '<img src="' . $logo_url . '" alt="' . get_bloginfo( 'name' ) . '" style="max-width: ' . esc_attr( $width ) . 'px;" />';
+if ( $width_height_needed ) {
+	$logo_attrs['width']  = 370;
+	$logo_attrs['height'] = 50;
+}
+
+if ( ! woodmart_get_opt( 'disable_wordpress_lazy_loading' ) ) {
+	$logo_attrs['loading'] = 'lazy';
+}
+
+$logo = '<img ' . implode(' ', array_map( function( $key, $value ) {
+		return $key . '="' . esc_attr( $value ) . '"';
+}, array_keys( $logo_attrs ), $logo_attrs ) ) . ' />';
 
 if ( isset( $params['image']['id'] ) && $params['image']['id'] && $width_height_needed ) {
 	woodmart_lazy_loading_deinit( true );
 	$logo = wp_get_attachment_image( $params['image']['id'], 'full', false, array( 'style' => 'max-width:' . $width . 'px;' ) );
 	woodmart_lazy_loading_init();
-} elseif ( $width_height_needed ) {
-	$logo = '<img src="' . $logo_url . '" width="370" height="50" alt="' . get_bloginfo( 'name' ) . '" style="max-width: ' . esc_attr( $width ) . 'px;" />';
 }
 
-$logo_classes = '';
+$logo_classes = ' whb-' . $id;
 
 if ( $has_sticky_logo ) {
 	$logo_classes .= ' wd-switch-logo';
@@ -37,7 +51,7 @@ if ( $has_sticky_logo ) {
 	</a>
 	<?php if ( $has_sticky_logo ) : ?>
 		<?php
-			$logo_sticky_url = $protocol . str_replace( array( 'http://', 'https://' ), '', $params['sticky_image']['url'] );
+		$logo_sticky_url = $protocol . str_replace( array( 'http://', 'https://' ), '', $params['sticky_image']['url'] );
 
 		$logo_sticky = '<img src="' . $logo_sticky_url . '" alt="' . get_bloginfo( 'name' ) . '" style="max-width: ' . esc_attr( $sticky_width ) . 'px;" />';
 

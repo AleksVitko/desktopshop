@@ -41,14 +41,14 @@ class Vc_Grid_Element {
 	 *
 	 * @var array
 	 */
-	protected $attributes = array();
+	protected $attributes = [];
 
 	/**
 	 * Array of grid attributes.
 	 *
 	 * @var array
 	 */
-	protected $grid_atts = array();
+	protected $grid_atts = [];
 
 	/**
 	 * Indicates whether the grid element is the last in the row.
@@ -69,12 +69,12 @@ class Vc_Grid_Element {
 	 *
 	 * @var array
 	 */
-	protected $shortcodes = array(
+	protected $shortcodes = [
 		'vc_gitem_row',
 		'vc_gitem_col',
 		'vc_gitem_post_title',
 		'vc_gitem_icon',
-	);
+	];
 
 	/**
 	 * Gets the list of shortcodes associated with the grid element.
@@ -122,8 +122,8 @@ class Vc_Grid_Element {
 	 */
 	public function renderItem( WP_Post $post ) {
 		$attributes = $this->attributes();
-		$pattern = array();
-		$replacement = array();
+		$pattern = [];
+		$replacement = [];
 		foreach ( $attributes as $attr ) {
 			$pattern[] = '/\{\{' . preg_quote( $attr, '' ) . '\}\}/';
 			$replacement[] = $this->attribute( $attr, $post );
@@ -242,10 +242,10 @@ class Vc_Grid_Element {
 	 */
 	protected function setShortcodes() {
 		foreach ( $this->shortcodes as $tag ) {
-			add_shortcode( $tag, array(
+			add_shortcode( $tag, [
 				$this,
 				vc_camel_case( $tag . '_shortcode' ),
-			) );
+			] );
 		}
 	}
 
@@ -294,9 +294,9 @@ class Vc_Grid_Element {
 	 */
 	public function vcGitemColShortcode( $atts, $content = '' ) {
 		$width = '12';
-		$atts = shortcode_atts( array(
+		$atts = shortcode_atts( [
 			'width' => '12',
-		), $atts );
+		], $atts );
 		extract( $atts );
 
 		return '<div class="vc_col-sm-' . $width . ' vc_gitem-col">' . "\n" . do_shortcode( $content ) . "\n" . '</div>';
@@ -328,7 +328,7 @@ class Vc_Grid_Element {
 	 * @return string
 	 */
 	public function vcGitemPostTitleShortcode( $atts ) {
-		$atts = shortcode_atts( array(), $atts );
+		$atts = shortcode_atts( [], $atts );
 		extract( $atts );
 		$this->setAttribute( 'post_title' );
 

@@ -34,16 +34,16 @@ class Vc_Grid_Item_Preview {
 		require_once vc_path_dir( 'PARAMS_DIR', 'vc_grid_item/class-vc-grid-item.php' );
 		$grid_item = new Vc_Grid_Item();
 		$grid_item->setIsEnd( false );
-		$grid_item->setGridAttributes( array( 'element_width' => 4 ) );
+		$grid_item->setGridAttributes( [ 'element_width' => 4 ] );
 		$grid_item->setTemplate( $this->shortcodes_string, $this->post_id );
 		$this->enqueue();
-		vc_include_template( 'params/vc_grid_item/preview.tpl.php', array(
+		vc_include_template( 'params/vc_grid_item/preview.tpl.php', [
 			'preview' => $this,
 			'grid_item' => $grid_item,
 			'shortcodes_string' => $this->shortcodes_string,
 			'post' => $this->mockingPost(),
 			'default_width_value' => apply_filters( 'vc_grid_item_preview_render_default_width_value', 4 ),
-		) );
+		] );
 	}
 
 	/**
@@ -147,7 +147,7 @@ class Vc_Grid_Item_Preview {
 
 		VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_Vc_Basic_Grid' );
 
-		$grid = new WPBakeryShortCode_Vc_Basic_Grid( array( 'base' => 'vc_basic_grid' ) );
+		$grid = new WPBakeryShortCode_Vc_Basic_Grid( [ 'base' => 'vc_basic_grid' ] );
 		$grid->shortcodeScripts();
 		$grid->enqueueScripts();
 	}
@@ -163,10 +163,10 @@ class Vc_Grid_Item_Preview {
 		$post->post_title = esc_html__( 'Post title', 'js_composer' );
 		$post->post_content = esc_html__( 'The WordPress Excerpt is an optional summary or description of a post; in short, a post summary.', 'js_composer' );
 		$post->post_excerpt = esc_html__( 'The WordPress Excerpt is an optional summary or description of a post; in short, a post summary.', 'js_composer' );
-		add_filter( 'get_the_categories', array(
+		add_filter( 'get_the_categories', [
 			$this,
 			'getTheCategories',
-		), 10, 2 );
+		], 10, 2 );
 		$GLOBALS['post'] = $post;
 
 		return $post;
@@ -199,9 +199,9 @@ class Vc_Grid_Item_Preview {
 	 */
 	public function addPlaceholderImage( $img ) {
 		if ( null === $img || false === $img ) {
-			$img = array(
+			$img = [
 				'thumbnail' => '<img class="vc_img-placeholder vc_single_image-img" src="' . esc_url( vc_asset_url( 'vc/vc_gitem_image.png' ) ) . '" />',
-			);
+			];
 		}
 
 		return $img;

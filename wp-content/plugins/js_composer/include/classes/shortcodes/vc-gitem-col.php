@@ -43,20 +43,20 @@ class WPBakeryShortCode_Vc_Gitem_Col extends WPBakeryShortCode_Vc_Column {
 	 * @return string
 	 */
 	public function outputEditorControlAlign() {
-		$alignment = array(
-			array(
+		$alignment = [
+			[
 				'name' => 'left',
 				'label' => esc_html__( 'Left', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'name' => 'center',
 				'label' => esc_html__( 'Center', 'js_composer' ),
-			),
-			array(
+			],
+			[
 				'name' => 'right',
 				'label' => esc_html__( 'Right', 'js_composer' ),
-			),
-		);
+			],
+		];
 		$output = '<span class="vc_control vc_control-align"><span class="vc_control-wrap">';
 		foreach ( $alignment as $data ) {
 			$attr = esc_attr( $data['name'] );

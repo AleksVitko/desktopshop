@@ -139,9 +139,32 @@ if( ! function_exists( 'woodmart_get_social_shortcode_params' ) ) {
 			),
 			array(
 				'type'             => 'textfield',
+				'heading'          => esc_html__( 'Bluesky link', 'woodmart' ),
+				'param_name'       => 'bluesky_link',
+				'std'              => '',
+				'save_always'      => true,
+				'dependency'       => array(
+					'element' => 'social_links_source',
+					'value'   => 'custom',
+				),
+				'edit_field_class' => 'vc_col-sm-6 vc_column',
+			),
+			array(
+				'type'             => 'textfield',
 				'heading'          => esc_html__( 'Instagram link', 'woodmart' ),
 				'param_name'       => 'isntagram_link',
 				'std'              => '#',
+				'save_always'      => true,
+				'dependency'       => array(
+					'element' => 'social_links_source',
+					'value'   => 'custom',
+				),
+				'edit_field_class' => 'vc_col-sm-6 vc_column',
+			),
+			array(
+				'type'             => 'textfield',
+				'heading'          => esc_html__( 'Threads link', 'woodmart' ),
+				'param_name'       => 'threads_link',
 				'save_always'      => true,
 				'dependency'       => array(
 					'element' => 'social_links_source',

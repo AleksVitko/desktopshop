@@ -9,8 +9,8 @@ if ( ! function_exists( 'woodmart_get_vc_map_text_block' ) ) {
 		$secondary_font = woodmart_get_opt( 'secondary-font' );
 		$primary_font   = woodmart_get_opt( 'primary-font' );
 
-		$secondary_font_title = isset( $secondary_font[0] ) ? esc_html__( 'Secondary font', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Secondary font', 'woodmart' );
-		$primary_font_title   = isset( $primary_font[0] ) ? esc_html__( 'Title font', 'woodmart' ) . ' (' . $primary_font[0]['font-family'] . ')' : esc_html__( 'Title font', 'woodmart' );
+		$secondary_font_title = isset( $secondary_font[0]['font-family'] ) ? esc_html__( 'Secondary font', 'woodmart' ) . ' (' . $secondary_font[0]['font-family'] . ')' : esc_html__( 'Secondary font', 'woodmart' );
+		$primary_font_title   = isset( $primary_font[0]['font-family'] ) ? esc_html__( 'Title font', 'woodmart' ) . ' (' . $primary_font[0]['font-family'] . ')' : esc_html__( 'Title font', 'woodmart' );
 
 		return array(
 			'name'        => esc_html__( 'Text block', 'woodmart' ),

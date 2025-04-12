@@ -18,10 +18,12 @@
 			margin-bottom: 4px;
 		}
 
+		input[type="number"] {
+			text-align: start;
+		}
+
 		> .wd-widget-field {
 			margin-block: 8px;
-			// margin-top: 8px;
-			// margin-bottom: 8px;
 
 			.description {
 				padding: 2px 0 0 0 !important;
@@ -56,14 +58,13 @@
 
 		&.wd-type-checkbox {
 			display: flex;
+			flex-wrap: wrap;
 			align-items: center;
-			// margin-top: 12px;
-			// margin-bottom: 12px;
 			margin-block: 12px;
 
 			label {
+				flex-shrink: 0;
 				margin-bottom: 1px;
-
 				margin-inline-end: 9px;
 
 				&:after {
@@ -85,17 +86,21 @@
 			[value="woodmart-instagram"],
 			[value="woodmart-recent-posts"],
 			[value="woodmart-woocommerce-layered-nav"],
-			[value="woodmart-twitter"]) {
+			[value="woodmart-twitter"],
+			[value="woodmart-author-information"],
+			[value="woodmart-banner"],
+			[value="woocommerce_products"]) {
 
 				~ .widget-content {
+					--xts-input-height: 42px;
 					display: flex;
 					flex-wrap: wrap;
 					gap: 14px;
 		
-					> .wd-widget-field {
+					> .wd-widget-field,
+					> p {
 						flex: 1 1 calc(50% - 8px);
 						margin: 0;
-						// padding: 0; // NOTE RESET XTS GRID PADDING
 						min-width: 250px;
 		
 						input[type=number],
@@ -115,17 +120,47 @@
 							line-height: 1;
 							margin-bottom: 7px;
 						}
+
+						textarea {
+							border-width: 1px;
+							border-radius: 3px;
+						}
+					}
+
+					> p:has([type="checkbox"]) {
+						display: flex;
+						align-items: center;
+						flex-basis: 100%;
+
+						label {
+							margin-bottom: 0;
+						}
 					}
 		
 					> :is(
 					.wd-type-select2,
 					.wd-type-checkbox,
-					[class*="wd-type-attach_image"]) {
+					[class*="wd-type-attach_image"],
+					.wd-type-textarea) {
 						flex-basis: 100%;
+					}
+
+					.woodmart-image-src {
+						max-width: 50px;
+						margin-inline-end: 10px; // NOTE BANNER IMG
 					}
 	
 					.wd-type-attach_image {
-						margin-right: 5px;
+						margin-inline-end: 5px;
+					}
+
+					.select2-selection,
+					textarea {
+						border-color: #757575 !important;
+					}
+
+					.select2-selection__rendered {
+						padding: 3px 6px 6px 6px;
 					}
 		
 					> .wd-type-checkbox {

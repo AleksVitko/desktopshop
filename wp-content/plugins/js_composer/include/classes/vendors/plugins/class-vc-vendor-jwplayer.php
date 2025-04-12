@@ -26,24 +26,24 @@ class Vc_Vendor_Jwplayer {
 	 */
 	public function load() {
 
-		add_action( 'wp_enqueue_scripts', array(
+		add_action( 'wp_enqueue_scripts', [
 			$this,
 			'vc_load_iframe_jscss',
-		) );
-		add_filter( 'vc_front_render_shortcodes', array(
+		] );
+		add_filter( 'vc_front_render_shortcodes', [
 			$this,
 			'renderShortcodes',
-		) );
-		add_filter( 'vc_frontend_template_the_content', array(
+		] );
+		add_filter( 'vc_frontend_template_the_content', [
 			$this,
 			'wrapPlaceholder',
-		) );
+		] );
 
 		// fix for #1065.
-		add_filter( 'vc_shortcode_content_filter_after', array(
+		add_filter( 'vc_shortcode_content_filter_after', [
 			$this,
 			'renderShortcodesPreview',
-		) );
+		] );
 	}
 
 	/**
@@ -77,10 +77,10 @@ class Vc_Vendor_Jwplayer {
 	 * @return mixed
 	 */
 	public function wrapPlaceholder( $content ) {
-		add_shortcode( 'jwplayer', array(
+		add_shortcode( 'jwplayer', [
 			$this,
 			'renderPlaceholder',
-		) );
+		] );
 
 		return $content;
 	}
@@ -115,6 +115,6 @@ class Vc_Vendor_Jwplayer {
 	 * @todo check it for preview mode (check is it needed)
 	 */
 	public function vc_load_iframe_jscss() {
-		wp_enqueue_script( 'vc_vendor_jwplayer', vc_asset_url( 'js/frontend_editor/vendors/plugins/jwplayer.js' ), array( 'jquery-core' ), '1.0', true );
+		wp_enqueue_script( 'vc_vendor_jwplayer', vc_asset_url( 'js/frontend_editor/vendors/plugins/jwplayer.js' ), [ 'jquery-core' ], '1.0', true );
 	}
 }

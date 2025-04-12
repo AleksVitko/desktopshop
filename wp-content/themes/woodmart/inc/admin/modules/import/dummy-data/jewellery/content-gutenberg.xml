@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 08:42" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:34" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,13 +29,13 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 08:42:46 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:34:49 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[jewellery-page-title]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-page-title/</link>
 					<pubDate>Fri, 10 May 2024 13:55:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-page-title.jpg</guid>
 															<wp:post_id>10892</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-10 13:55:43]]></wp:post_date>
@@ -73,7 +73,7 @@
 					<title><![CDATA[vertical-line-bg-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/vertical-line-bg-2/</link>
 					<pubDate>Mon, 13 May 2024 13:31:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/vertical-line-bg-2.png</guid>
 															<wp:post_id>11131</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 13:31:59]]></wp:post_date>
@@ -96,7 +96,7 @@
 					<title><![CDATA[jewellery-product-11]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-11/</link>
 					<pubDate>Wed, 15 May 2024 11:32:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-11.jpg</guid>
 															<wp:post_id>11545</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:32:29]]></wp:post_date>
@@ -119,7 +119,7 @@
 					<title><![CDATA[jewellery-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-10/</link>
 					<pubDate>Wed, 15 May 2024 11:32:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-10.jpg</guid>
 															<wp:post_id>11546</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:32:36]]></wp:post_date>
@@ -142,7 +142,7 @@
 					<title><![CDATA[jewellery-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-9/</link>
 					<pubDate>Wed, 15 May 2024 11:32:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-9.jpg</guid>
 															<wp:post_id>11547</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:32:44]]></wp:post_date>
@@ -165,7 +165,7 @@
 					<title><![CDATA[jewellery-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-8/</link>
 					<pubDate>Wed, 15 May 2024 11:32:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-8.jpg</guid>
 															<wp:post_id>11548</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:32:52]]></wp:post_date>
@@ -188,7 +188,7 @@
 					<title><![CDATA[jewellery-product-12]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-12/</link>
 					<pubDate>Wed, 15 May 2024 11:33:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-12.jpg</guid>
 															<wp:post_id>11549</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:33:07]]></wp:post_date>
@@ -211,7 +211,7 @@
 					<title><![CDATA[jewellery-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-7/</link>
 					<pubDate>Wed, 15 May 2024 11:33:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-7.jpg</guid>
 															<wp:post_id>11550</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:33:13]]></wp:post_date>
@@ -234,7 +234,7 @@
 					<title><![CDATA[jewellery-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-1/</link>
 					<pubDate>Wed, 15 May 2024 11:33:30 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-1.jpg</guid>
 															<wp:post_id>11551</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:33:30]]></wp:post_date>
@@ -257,7 +257,7 @@
 					<title><![CDATA[jewellery-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-6/</link>
 					<pubDate>Wed, 15 May 2024 11:33:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-6.jpg</guid>
 															<wp:post_id>11552</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:33:38]]></wp:post_date>
@@ -280,7 +280,7 @@
 					<title><![CDATA[jewellery-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-5/</link>
 					<pubDate>Wed, 15 May 2024 11:33:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-5.jpg</guid>
 															<wp:post_id>11553</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:33:56]]></wp:post_date>
@@ -303,7 +303,7 @@
 					<title><![CDATA[jewellery-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-4/</link>
 					<pubDate>Wed, 15 May 2024 11:34:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-4.jpg</guid>
 															<wp:post_id>11554</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:34:02]]></wp:post_date>
@@ -326,7 +326,7 @@
 					<title><![CDATA[jewellery-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-3/</link>
 					<pubDate>Wed, 15 May 2024 11:34:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-3.jpg</guid>
 															<wp:post_id>11555</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:34:18]]></wp:post_date>
@@ -349,7 +349,7 @@
 					<title><![CDATA[jewellery-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-product-2/</link>
 					<pubDate>Wed, 15 May 2024 11:34:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-2.jpg</guid>
 															<wp:post_id>11556</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:34:25]]></wp:post_date>
@@ -372,7 +372,7 @@
 					<title><![CDATA[jewellery-blog-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-1/</link>
 					<pubDate>Wed, 15 May 2024 11:36:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-1.jpg</guid>
 															<wp:post_id>11557</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:08]]></wp:post_date>
@@ -395,7 +395,7 @@
 					<title><![CDATA[jewellery-blog-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-2/</link>
 					<pubDate>Wed, 15 May 2024 11:36:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-2.jpg</guid>
 															<wp:post_id>11558</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:15]]></wp:post_date>
@@ -418,7 +418,7 @@
 					<title><![CDATA[jewellery-blog-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-3/</link>
 					<pubDate>Wed, 15 May 2024 11:36:21 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-3.jpg</guid>
 															<wp:post_id>11559</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:21]]></wp:post_date>
@@ -441,7 +441,7 @@
 					<title><![CDATA[jewellery-blog-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-4/</link>
 					<pubDate>Wed, 15 May 2024 11:36:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-4.jpg</guid>
 															<wp:post_id>11560</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:28]]></wp:post_date>
@@ -464,7 +464,7 @@
 					<title><![CDATA[jewellery-blog-img-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-5/</link>
 					<pubDate>Wed, 15 May 2024 11:36:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-5.jpg</guid>
 															<wp:post_id>11561</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:37]]></wp:post_date>
@@ -487,7 +487,7 @@
 					<title><![CDATA[jewellery-blog-img-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-9/</link>
 					<pubDate>Wed, 15 May 2024 11:36:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-9.jpg</guid>
 															<wp:post_id>11562</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:45]]></wp:post_date>
@@ -510,7 +510,7 @@
 					<title><![CDATA[Home Jewellery]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/</link>
 					<pubDate>Fri, 10 May 2024 13:49:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=10889</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/slider {"blockId":"7f2046ff-a8a0-49cc-8e5b-8a7d63ae4e86","effect":"fade","arrowsMobile":false,"arrowsColorScheme":"light","pagination":false,"paginationTablet":false,"paginationMobile":false,"autoplay":true,"autoplaySpeed":"25000","stretch":true,"height":"650","marginBottom":"80","heightMobile":"550","marginBottomTablet":"60"} -->
 <div id="wd-7f2046ff" class="wp-block-wd-slider wd-slider wd-carousel-container wd-anim-fade wd-stretched"><div class="wd-carousel-inner"><div class="wd-carousel wd-grid" data-effect="fade" data-wrap="yes" data-autoheight="yes" data-sliding_speed="700" style="--wd-col-lg:1;--wd-col-md:1;--wd-col-sm:1" data-autoplay="yes" data-speed="25000"><div class="wd-carousel-wrap"><!-- wp:wd/slider-item {"blockId":"22190e05-ef48-4f2a-a5b7-6533e9a7ca89","justify":"center","align":"flex-end","effect":"fade","colorScheme":"light","bgImage":{"id":11121,"url":"http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewelry-slide-bg-2-1.jpg"},"bgColorCode":"#9e7072","overlayColorCode":"#000000","overlay":true,"overlayOpacity":0,"displayWidth":"","customWidth":"","bgPositionMobile":"center left","bgCustomPositionXMobile":"-700","bgCustomPositionYMobile":"0","paddingRightMobile":"15","paddingLeftMobile":"15","overlayOpacityMobile":0.15} -->
@@ -568,29 +568,29 @@
 
 <!-- wp:wd/row {"blockId":"e43f27e8-4de2-4ec7-9dcb-2b79e5bd9a2d","marginBottom":"80","columnsGapMobile":40,"marginBottomTablet":"60","marginBottomMobile":"50"} -->
 <div id="wd-e43f27e8" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"32bb8a52-082b-42aa-9f9a-5c79dc3b5f34","adjacentCount":2} -->
-<div id="wd-32bb8a52" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"d59ee360-dcea-4281-b847-1fc179fde29a","image":{"id":10912,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-girl-welcome-row-1.png"}} -->
+<div id="wd-32bb8a52" class="wp-block-wd-column"><!-- wp:wd/image {"blockId":"d59ee360-dcea-4281-b847-1fc179fde29a","image":{"id":10912,"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-girl-welcome-row-1.png"},"imageData":{"url":"https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-girl-welcome-row-1.png","width":624,"height":500}} -->
 <div id="wd-d59ee360" class="wp-block-wd-image wd-block-image"><img class="wp-image-10912" src="https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-girl-welcome-row-1.png" alt="" /></div>
 <!-- /wp:wd/image --></div>
 <!-- /wp:wd/column -->
 
-<!-- wp:wd/column {"blockId":"59f67c7a-74d9-4424-b223-b27a366bcc26","adjacentCount":2,"blocksGap":0,"justifyContent":"center"} -->
-<div id="wd-59f67c7a" class="wp-block-wd-column"><!-- wp:wd/paragraph {"blockId":"fd5b2df5-4a7b-4513-8840-dfd570b0cbd5","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontSize":"22","tpFontSizeTablet":"18"} -->
-<p id="wd-fd5b2df5" class="wp-block-wd-paragraph wd-align"><em>Donec sollicitudin</em></p>
+<!-- wp:wd/column {"blockId":"59f67c7a-74d9-4424-b223-b27a366bcc26","adjacentCount":2,"blocksGap":0,"justifyContent":"center","textAlign":"center"} -->
+<div id="wd-59f67c7a" class="wp-block-wd-column wd-align"><!-- wp:wd/paragraph {"blockId":"fd5b2df5-4a7b-4513-8840-dfd570b0cbd5","colorVariable":"\u002d\u002dwd-primary-color","tpFontSize":"22","tpFontSizeTablet":"18"} -->
+<p id="wd-fd5b2df5" class="wp-block-wd-paragraph"><em>Donec sollicitudin</em></p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"a9a2d930-13ef-4a8a-94d2-3245a6177083","textAlign":"center","content":"JEWELLERY","tpFontSize":"65","marginBottom":"5","tpFontSizeTablet":"42"} -->
-<h2 id="wd-a9a2d930" class="wp-block-wd-title title wd-align">JEWELLERY</h2>
+<!-- wp:wd/title {"blockId":"a9a2d930-13ef-4a8a-94d2-3245a6177083","content":"JEWELLERY","tpFontSize":"65","marginBottom":"5","tpFontSizeTablet":"42"} -->
+<h2 id="wd-a9a2d930" class="wp-block-wd-title title">JEWELLERY</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/title {"blockId":"587e0c1c-6613-4fbe-bd54-57bd0bc24daa","textAlign":"center","content":"STORE","tpFontSize":"40","marginBottom":"10","tpFontSizeTablet":"42"} -->
-<h2 id="wd-587e0c1c" class="wp-block-wd-title title wd-align">STORE</h2>
+<!-- wp:wd/title {"blockId":"587e0c1c-6613-4fbe-bd54-57bd0bc24daa","content":"STORE","tpFontSize":"40","marginBottom":"10","tpFontSizeTablet":"42"} -->
+<h2 id="wd-587e0c1c" class="wp-block-wd-title title">STORE</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"f1299883-bbb6-4150-954c-1d0e48d3ddc6","textAlign":"center","marginBottom":"25","alignSelf":"center","displayWidth":"custom","customWidth":"480"} -->
-<p id="wd-f1299883" class="wp-block-wd-paragraph wd-align wd-custom-width wd-align-s-center">An sincerity so extremity he additions. Her yet there truth merit. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly.​</p>
+<!-- wp:wd/paragraph {"blockId":"f1299883-bbb6-4150-954c-1d0e48d3ddc6","marginBottom":"25","alignSelf":"center","displayWidth":"custom","customWidth":"480"} -->
+<p id="wd-f1299883" class="wp-block-wd-paragraph wd-custom-width wd-align-s-center">An sincerity so extremity he additions. Her yet there truth merit. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly.​</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/container {"blockId":"7670c83e-0efb-4936-843c-f24a87c1fc44","direction":"row","justify":"center","displayWidth":""} -->
+<!-- wp:wd/container {"blockId":"7670c83e-0efb-4936-843c-f24a87c1fc44","direction":"row","displayWidth":""} -->
 <div id="wd-7670c83e" class="wp-block-wd-container wd-dir-row"><!-- wp:wd/button {"blockId":"abf28f7a-3318-4581-bd6c-ee68f07497e0","predefinedColor":"black"} -->
 <a id="wd-abf28f7a" class="wp-block-wd-button btn btn-style-default btn-color-black btn-size-default btn-shape-rectangle" href="#"><span>Shop now</span></a>
 <!-- /wp:wd/button -->
@@ -700,7 +700,7 @@
 <p id="wd-a857ad11" class="wp-block-wd-paragraph wd-align">There are many variations of passages of lorem ipsum available.</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/products {"blockId":"a1cb78db-463b-4ddd-ab61-cea85e7933fa","layout":"carousel","items_per_page":"5","marginBottom":"40","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_f4f7b2d6","slides_per_viewTablet":"4","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /-->
+<!-- wp:wd/products {"blockId":"a1cb78db-463b-4ddd-ab61-cea85e7933fa","layout":"carousel","items_per_page":"5","marginBottom":"40","slides_per_view":"4","hide_pagination_control":true,"sync_parent_id":"wd_39f52eb2","slides_per_viewTablet":"4","slides_per_viewMobile":"2","hide_pagination_controlTablet":true,"hide_pagination_controlMobile":true} /-->
 
 <!-- wp:wd/row {"blockId":"82be42fe-804c-40c9-b03e-6d5aeb894e10","columnsGap":50,"marginBottom":"0","columnsGapMobile":40} -->
 <div id="wd-82be42fe" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"a3821fe4-eeee-4ee0-9584-3cfb93445461","adjacentCount":2,"flexOrderMobile":"2"} -->
@@ -838,16 +838,16 @@
 <div id="wd-83f589b8" class="wp-block-wd-section"><!-- wp:wd/container {"blockId":"ec1bce8a-847c-47f7-9da5-a5c45d25662b","rowGap":"0"} -->
 <div id="wd-ec1bce8a" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/row {"blockId":"add05fd4-2a8c-4001-862c-8944a972d374","marginBottom":"60","columnsGapTablet":60,"columnsGapMobile":40} -->
 <div id="wd-add05fd4" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"f6d75f4e-e0ae-45dc-8f56-fe5e91b7598e","adjacentCount":2,"justifyContent":"center","adjacentCountTablet":1,"colWidthTablet":100} -->
-<div id="wd-f6d75f4e" class="wp-block-wd-column"><!-- wp:wd/container {"blockId":"57e7f369-4788-4ec9-b9ea-eed51b8f6741","rowGap":"0","bgColorCode":"#ffffff","paddingTop":"30","paddingRight":"30","paddingBottom":"35","paddingLeft":"30","paddingLockTablet":true} -->
-<div id="wd-57e7f369" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/title {"blockId":"c1ab2ccc-f6ea-4509-ae9a-29d25265b110","textAlign":"center","content":"Join us and get discounts every month up to 20%","tpFontSize":"30","marginBottom":"10","tpFontSizeTablet":"22"} -->
-<h2 id="wd-c1ab2ccc" class="wp-block-wd-title title wd-align">Join us and get discounts every month up to 20%</h2>
+<div id="wd-f6d75f4e" class="wp-block-wd-column"><!-- wp:wd/container {"blockId":"57e7f369-4788-4ec9-b9ea-eed51b8f6741","textAlign":"center","rowGap":"0","bgColorCode":"#ffffff","paddingTop":"30","paddingRight":"30","paddingBottom":"35","paddingLeft":"30","paddingLockTablet":true} -->
+<div id="wd-57e7f369" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/title {"blockId":"c1ab2ccc-f6ea-4509-ae9a-29d25265b110","content":"Join us and get discounts every month up to 20%","tpFontSize":"30","marginBottom":"10","tpFontSizeTablet":"22"} -->
+<h2 id="wd-c1ab2ccc" class="wp-block-wd-title title">Join us and get discounts every month up to 20%</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"ed90cef0-c98a-4df3-bf72-c0d8839876cf","textAlign":"center","marginBottom":"20"} -->
-<p id="wd-ed90cef0" class="wp-block-wd-paragraph wd-align">Friendship contrasted solicitude insipidity in introduced literature it.</p>
+<!-- wp:wd/paragraph {"blockId":"ed90cef0-c98a-4df3-bf72-c0d8839876cf","marginBottom":"20"} -->
+<p id="wd-ed90cef0" class="wp-block-wd-paragraph">Friendship contrasted solicitude insipidity in introduced literature it.</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/mailchimp {"blockId":"bce14db3-ef15-4aaf-9ce0-3b459c7db91a","form_id":"74","alignSelf":"center","displayWidth":"custom","customWidth":"420"} /--></div>
+<!-- wp:wd/mailchimp {"blockId":"bce14db3-ef15-4aaf-9ce0-3b459c7db91a","form_id":"74","displayWidth":"custom","customWidth":"420"} /--></div>
 <!-- /wp:wd/container --></div>
 <!-- /wp:wd/column -->
 
@@ -948,8 +948,8 @@
 															<wp:post_id>10889</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-10 13:49:05]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-05-10 13:49:05]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 14:53:10]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 14:53:10]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-21 14:27:39]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-21 14:27:39]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-jewellery]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -985,7 +985,7 @@
 					<title><![CDATA[jewellery-girl-welcome-row-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-girl-welcome-row-1/</link>
 					<pubDate>Fri, 10 May 2024 14:30:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-girl-welcome-row-1.png</guid>
 															<wp:post_id>10912</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-10 14:30:25]]></wp:post_date>
@@ -1008,7 +1008,7 @@
 					<title><![CDATA[jewellery-product-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-product-banner-1/</link>
 					<pubDate>Fri, 10 May 2024 14:58:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-banner-1.jpg</guid>
 															<wp:post_id>10939</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-10 14:58:44]]></wp:post_date>
@@ -1031,7 +1031,7 @@
 					<title><![CDATA[jewellery-product-banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-product-banner-2/</link>
 					<pubDate>Mon, 13 May 2024 09:36:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-product-banner-2.jpg</guid>
 															<wp:post_id>10944</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 09:36:11]]></wp:post_date>
@@ -1054,7 +1054,7 @@
 					<title><![CDATA[jewellery-girl-auth-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-girl-auth-img/</link>
 					<pubDate>Mon, 13 May 2024 09:42:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-girl-auth-img.jpg</guid>
 															<wp:post_id>10950</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 09:42:18]]></wp:post_date>
@@ -1077,7 +1077,7 @@
 					<title><![CDATA[jewellery-sign-min]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-sign-min/</link>
 					<pubDate>Mon, 13 May 2024 09:48:20 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-sign-min.png</guid>
 															<wp:post_id>10956</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 09:48:20]]></wp:post_date>
@@ -1100,7 +1100,7 @@
 					<title><![CDATA[jewellery-video-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-video-img/</link>
 					<pubDate>Mon, 13 May 2024 11:17:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-video-img.jpg</guid>
 															<wp:post_id>10982</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 11:17:08]]></wp:post_date>
@@ -1123,7 +1123,7 @@
 					<title><![CDATA[jewellery-collage-girl-img]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-collage-girl-img/</link>
 					<pubDate>Mon, 13 May 2024 11:23:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-collage-girl-img.png</guid>
 															<wp:post_id>10989</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 11:23:13]]></wp:post_date>
@@ -1146,7 +1146,7 @@
 					<title><![CDATA[diamond-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/diamond-1/</link>
 					<pubDate>Mon, 13 May 2024 11:28:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/diamond-1.svg</guid>
 															<wp:post_id>10992</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 11:28:42]]></wp:post_date>
@@ -1169,7 +1169,7 @@
 					<title><![CDATA[jewellery-banner-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-banner-img-1/</link>
 					<pubDate>Mon, 13 May 2024 11:44:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-banner-img-1.jpg</guid>
 															<wp:post_id>11014</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 11:44:57]]></wp:post_date>
@@ -1192,7 +1192,7 @@
 					<title><![CDATA[jewellery-inst-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-1/</link>
 					<pubDate>Mon, 13 May 2024 12:10:24 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-1.jpg</guid>
 															<wp:post_id>11037</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:24]]></wp:post_date>
@@ -1215,7 +1215,7 @@
 					<title><![CDATA[jewellery-inst-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-2/</link>
 					<pubDate>Mon, 13 May 2024 12:10:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-2.jpg</guid>
 															<wp:post_id>11038</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:25]]></wp:post_date>
@@ -1238,7 +1238,7 @@
 					<title><![CDATA[jewellery-inst-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-3/</link>
 					<pubDate>Mon, 13 May 2024 12:10:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-3.jpg</guid>
 															<wp:post_id>11039</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:25]]></wp:post_date>
@@ -1261,7 +1261,7 @@
 					<title><![CDATA[jewellery-inst-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-4/</link>
 					<pubDate>Mon, 13 May 2024 12:10:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-4.jpg</guid>
 															<wp:post_id>11040</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:26]]></wp:post_date>
@@ -1284,7 +1284,7 @@
 					<title><![CDATA[jewellery-inst-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-5/</link>
 					<pubDate>Mon, 13 May 2024 12:10:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-5.jpg</guid>
 															<wp:post_id>11041</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:26]]></wp:post_date>
@@ -1307,7 +1307,7 @@
 					<title><![CDATA[jewelry-slide-bg-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewelry-slide-bg-2-2/</link>
 					<pubDate>Mon, 13 May 2024 13:24:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewelry-slide-bg-2-1.jpg</guid>
 															<wp:post_id>11121</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 13:24:42]]></wp:post_date>
@@ -1330,7 +1330,7 @@
 					<title><![CDATA[jewelry-bg-slider-2 (2)]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewelry-bg-slider-2-2/</link>
 					<pubDate>Mon, 13 May 2024 13:26:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewelry-bg-slider-2-2.jpg</guid>
 															<wp:post_id>11126</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 13:26:51]]></wp:post_date>
@@ -1353,7 +1353,7 @@
 					<title><![CDATA[jewellery-blog-img-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-6/</link>
 					<pubDate>Wed, 15 May 2024 11:36:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-6.jpg</guid>
 															<wp:post_id>11563</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:36:56]]></wp:post_date>
@@ -1376,7 +1376,7 @@
 					<title><![CDATA[jewellery-blog-img-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-7/</link>
 					<pubDate>Wed, 15 May 2024 11:37:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-7.jpg</guid>
 															<wp:post_id>11564</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:37:09]]></wp:post_date>
@@ -1399,7 +1399,7 @@
 					<title><![CDATA[jewellery-blog-img-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/jewellery-blog-img-8/</link>
 					<pubDate>Wed, 15 May 2024 11:37:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-blog-img-8.jpg</guid>
 															<wp:post_id>11565</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-15 11:37:29]]></wp:post_date>
@@ -1422,7 +1422,7 @@
 					<title><![CDATA[Contact form alternative]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=wpcf7_contact_form&#038;p=1938</link>
 					<pubDate>Tue, 03 Aug 2021 08:46:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/?post_type=wpcf7_contact_form&#038;p=1938</guid>
 											<content:encoded><![CDATA[<div class="wd-grid-g">
 <div class="wd-grid-f-stretch">
@@ -1515,7 +1515,7 @@ The telephone number is invalid.]]></content:encoded>
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:19:"[_site_admin_email]";s:4:"body";s:149:"From: [your-name] 
 Subject: [your-subject]
 
 Message Body:
@@ -1526,7 +1526,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 						</wp:postmeta>
 												<wp:postmeta>
 							<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title] <wordpress@dummy.xtemos.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
+							<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:42:"[_site_title]  ";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:105:"Message Body:
 [your-message]
 
 -- 
@@ -1549,7 +1549,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-inst-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-6/</link>
 					<pubDate>Mon, 13 May 2024 12:10:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-6.jpg</guid>
 															<wp:post_id>11042</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:27]]></wp:post_date>
@@ -1572,7 +1572,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-inst-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-7/</link>
 					<pubDate>Mon, 13 May 2024 12:10:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-7.jpg</guid>
 															<wp:post_id>11043</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:27]]></wp:post_date>
@@ -1595,7 +1595,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-inst-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-8/</link>
 					<pubDate>Mon, 13 May 2024 12:10:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-8.jpg</guid>
 															<wp:post_id>11044</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:28]]></wp:post_date>
@@ -1618,7 +1618,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-inst-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-inst-9/</link>
 					<pubDate>Mon, 13 May 2024 12:10:28 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-inst-9.jpg</guid>
 															<wp:post_id>11045</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:10:28]]></wp:post_date>
@@ -1641,7 +1641,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-testimonial-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-1/</link>
 					<pubDate>Mon, 13 May 2024 12:29:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-1.jpg</guid>
 															<wp:post_id>11057</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:29:04]]></wp:post_date>
@@ -1664,7 +1664,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-testimonial-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-2/</link>
 					<pubDate>Mon, 13 May 2024 12:34:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-2.jpg</guid>
 															<wp:post_id>11065</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:34:32]]></wp:post_date>
@@ -1687,7 +1687,7 @@ This e-mail was sent from a contact form on [_site_title] ([_site_url])";s:18:"a
 					<title><![CDATA[jewellery-testimonial-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-3/</link>
 					<pubDate>Mon, 13 May 2024 12:35:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-3.jpg</guid>
 															<wp:post_id>11067</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:35:14]]></wp:post_date>

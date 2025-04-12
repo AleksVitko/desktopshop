@@ -356,13 +356,13 @@ class Account extends Element {
 					'extra_class' => 'xts-col-6',
 				),
 				'icon_type'           => array(
-					'id'          => 'icon_type',
-					'title'       => esc_html__( 'Icon type', 'woodmart' ),
-					'type'        => 'selector',
-					'tab'         => esc_html__( 'Style', 'woodmart' ),
-					'group'       => esc_html__( 'Icon', 'woodmart' ),
-					'value'       => 'default',
-					'options'     => array(
+					'id'       => 'icon_type',
+					'title'    => esc_html__( 'Icon type', 'woodmart' ),
+					'type'     => 'selector',
+					'tab'      => esc_html__( 'Style', 'woodmart' ),
+					'group'    => esc_html__( 'Icon', 'woodmart' ),
+					'value'    => 'default',
+					'options'  => array(
 						'default' => array(
 							'value' => 'default',
 							'label' => esc_html__( 'Default', 'woodmart' ),
@@ -374,13 +374,12 @@ class Account extends Element {
 							'image' => WOODMART_ASSETS_IMAGES . '/header-builder/upload.jpg',
 						),
 					),
-					'requires'    => array(
+					'requires' => array(
 						'display' => array(
 							'comparison' => 'equal',
 							'value'      => 'icon',
 						),
 					),
-					'extra_class' => 'xts-col-6',
 				),
 				'custom_icon'         => array(
 					'id'          => 'custom_icon',
@@ -390,6 +389,29 @@ class Account extends Element {
 					'group'       => esc_html__( 'Icon', 'woodmart' ),
 					'value'       => '',
 					'description' => '',
+					'requires'    => array(
+						'icon_type' => array(
+							'comparison' => 'equal',
+							'value'      => 'custom',
+						),
+					),
+					'extra_class' => 'xts-col-6',
+				),
+				'custom_icon_width'   => array(
+					'id'          => 'custom_icon_width',
+					'title'       => esc_html__( 'Icon width', 'woodmart' ),
+					'type'        => 'slider',
+					'tab'         => esc_html__( 'Style', 'woodmart' ),
+					'group'       => esc_html__( 'Icon', 'woodmart' ),
+					'from'        => 0,
+					'to'          => 60,
+					'value'       => 0,
+					'units'       => 'px',
+					'selectors'   => array(
+						'{{WRAPPER}}' => array(
+							'--wd-tools-icon-width: {{VALUE}}px;',
+						),
+					),
 					'requires'    => array(
 						'icon_type' => array(
 							'comparison' => 'equal',

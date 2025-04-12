@@ -30,15 +30,15 @@ class Vc_Vendor_NinjaForms {
 	 * @since 4.4
 	 */
 	public function load() {
-		vc_lean_map( 'ninja_form', array(
+		vc_lean_map( 'ninja_form', [
 			$this,
 			'addShortcodeSettings',
-		) );
+		] );
 
-		add_filter( 'vc_frontend_editor_load_shortcode_ajax_output', array(
+		add_filter( 'vc_frontend_editor_load_shortcode_ajax_output', [
 			$this,
 			'replaceIds',
-		) );
+		] );
 	}
 
 	/**
@@ -53,23 +53,23 @@ class Vc_Vendor_NinjaForms {
 
 		$ninja_forms = $this->get_forms();
 
-		return array(
+		return [
 			'base' => $tag,
 			'name' => esc_html__( 'Ninja Forms', 'js_composer' ),
 			'icon' => 'icon-wpb-ninjaforms',
 			'category' => esc_html__( 'Content', 'js_composer' ),
 			'description' => esc_html__( 'Place Ninja Form', 'js_composer' ),
-			'params' => array(
-				array(
+			'params' => [
+				[
 					'type' => 'dropdown',
 					'heading' => esc_html__( 'Select ninja form', 'js_composer' ),
 					'param_name' => 'id',
 					'value' => $ninja_forms,
 					'save_always' => true,
 					'description' => esc_html__( 'Choose previously created ninja form from the drop down list.', 'js_composer' ),
-				),
-			),
-		);
+				],
+			],
+		];
 	}
 
 	/**
@@ -78,7 +78,7 @@ class Vc_Vendor_NinjaForms {
 	 * @return array
 	 */
 	private function get_forms() {
-		$ninja_forms = array();
+		$ninja_forms = [];
 		if ( $this->is_ninja_forms_three() ) {
 
 			$ninja_forms_data = ninja_forms_get_all_forms();
@@ -128,12 +128,12 @@ class Vc_Vendor_NinjaForms {
 		} else {
 			self::$ninja_count++;
 		}
-		$patterns = array(
+		$patterns = [
 			'(nf-form-)(\d+)(-cont)',
 			'(nf-form-title-)(\d+)()',
 			'(nf-form-errors-)(\d+)()',
 			'(form.id\s*=\s*\')(\d+)(\')',
-		);
+		];
         // phpcs:ignore
 		$time = time() . self::$ninja_count . rand( 100, 999 );
 		foreach ( $patterns as $pattern ) {

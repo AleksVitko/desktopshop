@@ -8,7 +8,7 @@
 if( ! function_exists( 'woodmart_search_full_screen' ) ) {
 	function woodmart_search_full_screen() {
 
-		if ( is_admin() || defined( 'IFRAME_REQUEST' ) ) {
+		if ( ! woodmart_is_header_frontend_editor() && ( is_admin() || defined( 'IFRAME_REQUEST' ) ) ) {
 			return;
 		}
 
@@ -55,7 +55,7 @@ if( ! function_exists( 'woodmart_search_full_screen' ) ) {
 		}
 	}
 
-	add_action( 'wp_footer', 'woodmart_search_full_screen', 1 );
+	add_action( 'woodmart_before_wp_footer', 'woodmart_search_full_screen', 100 );
 }
 
 // **********************************************************************//
@@ -72,7 +72,7 @@ if( ! function_exists( 'woodmart_search_form' ) ) {
 			'price' => true,
 			'count' => 20,
 			'icon_type' => '',
-			'search_style' => '',
+			'search_style' => 'default',
 			'custom_icon' => '',
 			'el_classes' => '',
 			'wrapper_custom_classes' => '',
@@ -108,16 +108,16 @@ if( ! function_exists( 'woodmart_search_form' ) ) {
 			$btn_classes .= woodmart_get_old_classes( ' woodmart-searchform-custom-icon' );
 		}
 
+		if ( 'full-screen-2' === $type ) {
+			$search_style = 'with-bg';
+		}
+
 		if ( $search_style ) {
 			$class .= ' wd-style-' . $search_style;
 			$class .= woodmart_get_old_classes( ' search-style-' . $search_style );
 		}
 
-		if ( 'full-screen-2' === $type ) {
-			$class .= ' wd-style-with-bg';
-		}
-
-		if ( $cat_selector_style ) {
+		if ( $show_categories && $cat_selector_style ) {
 			$class .= ' wd-cat-style-' . $cat_selector_style;
 		}
 
@@ -229,6 +229,10 @@ if( ! function_exists( 'woodmart_search_form' ) ) {
 		}
 
 		woodmart_enqueue_inline_style( 'wd-search-form' );
+
+		if ( 'full-screen' !== $type ) {
+			woodmart_enqueue_js_script( 'clear-search' );
+		}
 		?>
 			<div class="wd-search-<?php echo esc_attr( $type ); ?><?php echo esc_html( $wrapper_classes ); ?>"<?php echo wp_kses( $wrapper_atts, true ); ?>>
 				<?php if ( 'full-screen' === $type || 'full-screen-2' === $type ) : ?>
@@ -242,6 +246,9 @@ if( ! function_exists( 'woodmart_search_form' ) ) {
 				<form role="search" method="get" class="searchform <?php echo esc_attr( $class ); ?>" action="<?php echo esc_url( home_url( '/' ) ); ?>" <?php echo ! empty( $data ) ? $data : ''; ?>>
 					<input type="text" class="s" placeholder="<?php echo esc_attr( $placeholder ); ?>" value="<?php echo get_search_query(); ?>" name="s" aria-label="<?php esc_attr_e( 'Search', 'woodmart' ); ?>" title="<?php echo esc_attr( $placeholder ); ?>"<?php echo esc_attr( apply_filters( 'woodmart_show_required_in_search_form', true ) ? ' required' : '' ); ?>/>
 					<input type="hidden" name="post_type" value="<?php echo esc_attr( $post_type ); ?>">
+					<?php if ( 'full-screen' !== $type ) : ?>
+						<span class="wd-clear-search<?php echo get_search_query() ? '' : ' wd-hide'; ?>"></span>
+					<?php endif; ?>
 					<?php if( $show_categories && $post_type == 'product' ) woodmart_show_categories_dropdown(); ?>
 					<button type="submit" class="searchsubmit<?php echo esc_attr( $btn_classes ); ?>">
 						<span>
@@ -421,32 +428,46 @@ if ( ! function_exists( 'woodmart_show_blog_results_on_search_page' ) ) {
 		}
 
 		$search_query = get_search_query();
-		$column = woodmart_get_opt( 'search_posts_results_column' );
+		$column       = woodmart_get_opt( 'search_posts_results_column' );
+		$blog_results = woodmart_shortcode_blog(
+			array(
+				'slides_per_view' => $column,
+				'blog_design'     => 'carousel',
+				'search'          => $search_query,
+				'items_per_page'  => 10,
+			)
+		);
+
+		if ( empty( $blog_results ) ) {
+			return;
+		}
+
+		$show_all_url = add_query_arg(
+			array(
+				's'         => esc_attr( $search_query ),
+				'post_type' => 'post',
+			),
+			home_url()
+		);
 
 		ob_start();
-
 		?>
 		<div class="wd-blog-search-results">
 			<h4 class="wd-el-title slider-title">
 				<span><?php esc_html_e( 'Results from blog', 'woodmart' ); ?></span>
 			</h4>
 
-		    <?php echo woodmart_shortcode_blog( array(
-                    'slides_per_view' => $column,
-                    'blog_design'     => 'carousel',
-                    'search'          => $search_query,
-                    'items_per_page'  => 10
-            ) ); ?>
+			<?php echo $blog_results; // phpcs:ignore. ?>
 
 			<div class="wd-search-show-all">
-				<a href="<?php echo esc_url( home_url() ) ?>?s=<?php echo esc_attr( $search_query ); ?>&post_type=post" class="button">
+				<a href="<?php echo esc_url( $show_all_url ); ?>" class="button">
 					<?php esc_html_e( 'Show all blog results', 'woodmart' ); ?>
 				</a>
 			</div>
 		</div>
 		<?php
 
-		echo ob_get_clean();
+		echo ob_get_clean(); // phpcs:ignore.
 	}
 
 	add_action( 'woocommerce_after_shop_loop', 'woodmart_show_blog_results_on_search_page', 100 );
@@ -500,6 +521,13 @@ if ( ! function_exists( 'woodmart_ajax_suggestions' ) ) {
 				'taxonomy' => 'product_visibility',
 				'field'    => 'term_taxonomy_id',
 				'terms'    => $product_visibility_term_ids['exclude-from-search'],
+				'operator' => 'NOT IN',
+			);
+
+			$query_args['tax_query'][] = array(
+				'taxonomy' => 'product_visibility',
+				'field'    => 'name',
+				'terms'    => array( 'exclude-from-search' ),
 				'operator' => 'NOT IN',
 			);
 
@@ -636,6 +664,46 @@ if ( ! function_exists( 'woodmart_get_post_suggestions' ) ) {
 			}
 
 			wp_reset_postdata();
+		}
+
+		return $suggestions;
+	}
+}
+
+if ( ! function_exists( 'woodmart_get_product_categories_suggestions' ) ) {
+	function woodmart_get_product_categories_suggestions() {
+		if ( empty( $_REQUEST['query'] ) ) {
+			return array();
+		}
+
+		$search     = sanitize_text_field( $_REQUEST['query'] );
+		$categories = get_categories(
+			array(
+				'taxonomy'   => 'product_cat',
+				'number'     => ! empty( $_REQUEST['number'] ) ? (int) $_REQUEST['number'] : 5,
+				'orderby'    => 'name',
+				'search'     => $search,
+				'hide_empty' => false,
+			)
+		);
+
+		if ( empty( $categories ) ) {
+			return array();
+		}
+
+		$suggestions[] = array(
+			'value'   => '',
+			'divider' => esc_html__( 'Product categories', 'woodmart' ),
+		);
+
+		foreach ( $categories as $category ) {
+			$thumbnail_id = get_woocommerce_term_meta( $category->term_id, 'thumbnail_id', true );
+
+			$suggestions[] = array(
+				'value'     => $category->name,
+				'permalink' => get_term_link( $category ),
+				'thumbnail' => wp_get_attachment_image( $thumbnail_id, 'medium' ),
+			);
 		}
 
 		return $suggestions;

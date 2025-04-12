@@ -31,12 +31,12 @@ class WPBakeryShortCode_Vc_Tabs extends WPBakeryShortCode {
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'edit',
 		'clone',
 		'copy',
 		'delete',
-	);
+	];
 
 	/**
 	 * WPBakeryShortCode_Vc_Tabs constructor.
@@ -46,10 +46,10 @@ class WPBakeryShortCode_Vc_Tabs extends WPBakeryShortCode {
 	public function __construct( $settings ) {
 		parent::__construct( $settings );
 		if ( ! self::$filter_added ) {
-			add_filter( 'vc_inline_template_content', array(
+			add_filter( 'vc_inline_template_content', [
 				$this,
 				'setCustomTabId',
-			) );
+			] );
 			self::$filter_added = true;
 		}
 	}
@@ -64,7 +64,7 @@ class WPBakeryShortCode_Vc_Tabs extends WPBakeryShortCode {
 	 */
 	public function contentAdmin( $atts, $content = null ) {
 		$width = $custom_markup = '';
-		$shortcode_attributes = array( 'width' => '1/1' );
+		$shortcode_attributes = [ 'width' => '1/1' ];
 		foreach ( $this->settings['params'] as $param ) {
 			if ( 'content' !== $param['param_name'] ) {
 				$shortcode_attributes[ $param['param_name'] ] = isset( $param['value'] ) ? $param['value'] : null;
@@ -77,7 +77,7 @@ class WPBakeryShortCode_Vc_Tabs extends WPBakeryShortCode {
 		// Extract tab titles.
 		preg_match_all( '/vc_tab title="([^\"]+)"(\stab_id\=\"([^\"]+)\"){0,1}/i', $content, $matches, PREG_OFFSET_CAPTURE );
 
-		$tab_titles = array();
+		$tab_titles = [];
 
 		if ( isset( $matches[0] ) ) {
 			$tab_titles = $matches[0];

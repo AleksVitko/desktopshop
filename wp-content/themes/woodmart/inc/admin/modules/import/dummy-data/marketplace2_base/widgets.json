@@ -1,0 +1,101 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 68
+            },
+            "recent-comments-2": {
+                "title": "",
+                "number": 5
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Brand",
+                "attribute": "product_brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "on",
+                "search_by_filters": "1"
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "off",
+                "search_by_filters": "1"
+            },
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Weight",
+                "attribute": "weight",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "on",
+                "search_by_filters": "1"
+            }
+        }
+    },
+    "sidebar-1203": {
+        "widgets": {
+            "woodmart-recent-posts-3": {
+                "title": "",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": false,
+                "thumb": true,
+                "thumb_height": 65,
+                "thumb_width": 75
+            }
+        }
+    }
+}

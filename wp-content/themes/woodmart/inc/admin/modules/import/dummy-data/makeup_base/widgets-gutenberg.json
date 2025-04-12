@@ -72,7 +72,7 @@
             },
             "woodmart-woocommerce-layered-nav-4": {
                 "title": "Brand",
-                "attribute": "brand",
+                "attribute": "product_brand",
                 "category": [
                     "all"
                 ],

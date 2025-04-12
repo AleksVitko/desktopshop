@@ -58,8 +58,8 @@ class Main extends Singleton {
 				'type'     => 'switcher',
 				'section'  => 'estimate_delivery_section',
 				'default'  => true,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
 				'priority' => 20,
 				'class'    => 'xts-col-6',
 			)
@@ -74,8 +74,8 @@ class Main extends Singleton {
 				'type'     => 'switcher',
 				'section'  => 'estimate_delivery_section',
 				'default'  => false,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
 				'priority' => 30,
 				'class'    => 'xts-col-6',
 			)
@@ -90,8 +90,8 @@ class Main extends Singleton {
 				'type'     => 'switcher',
 				'section'  => 'estimate_delivery_section',
 				'default'  => true,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
 				'priority' => 40,
 				'class'    => 'xts-col-6',
 			)
@@ -106,8 +106,8 @@ class Main extends Singleton {
 				'type'     => 'switcher',
 				'section'  => 'estimate_delivery_section',
 				'default'  => true,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
 				'priority' => 50,
 				'class'    => 'xts-col-6',
 			)
@@ -122,8 +122,8 @@ class Main extends Singleton {
 				'type'     => 'switcher',
 				'section'  => 'estimate_delivery_section',
 				'default'  => true,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
 				'priority' => 60,
 				'class'    => 'xts-col-6',
 			)
@@ -138,8 +138,8 @@ class Main extends Singleton {
 				'type'     => 'switcher',
 				'section'  => 'estimate_delivery_section',
 				'default'  => true,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
+				'on-text'  => esc_html__( 'On', 'woodmart' ),
+				'off-text' => esc_html__( 'Off', 'woodmart' ),
 				'priority' => 70,
 				'class'    => 'xts-col-6',
 			)
@@ -147,17 +147,18 @@ class Main extends Singleton {
 
 		Options::add_field(
 			array(
-				'id'       => 'estimate_delivery_show_overall',
-				'name'     => esc_html__( 'Overall', 'woodmart' ),
-				'hint'     => wp_kses( '<img data-src="' . WOODMART_TOOLTIP_URL . 'estimate-delivery-show-overall.jpg" alt="">', true ),
-				'group'    => esc_html__( 'Locations', 'woodmart' ),
-				'type'     => 'switcher',
-				'section'  => 'estimate_delivery_section',
-				'default'  => false,
-				'on-text'  => esc_html__( 'Yes', 'woodmart' ),
-				'off-text' => esc_html__( 'No', 'woodmart' ),
-				'priority' => 80,
-				'class'    => 'xts-col-6',
+				'id'          => 'estimate_delivery_show_overall',
+				'name'        => esc_html__( 'Overall delivery dates', 'woodmart' ),
+				'description' => esc_html__( 'Display delivery dates common to all products in the cart on the cart and checkout pages.', 'woodmart' ),
+				'hint'        => wp_kses( '<img data-src="' . WOODMART_TOOLTIP_URL . 'estimate-delivery-show-overall.jpg" alt="">', true ),
+				'group'       => esc_html__( 'Settings', 'woodmart' ),
+				'type'        => 'switcher',
+				'section'     => 'estimate_delivery_section',
+				'default'     => false,
+				'on-text'     => esc_html__( 'On', 'woodmart' ),
+				'off-text'    => esc_html__( 'Off', 'woodmart' ),
+				'priority'    => 80,
+				'class'       => 'xts-col-6',
 			)
 		);
 
@@ -187,7 +188,7 @@ class Main extends Singleton {
 				'on-text'     => esc_html__( 'Yes', 'woodmart' ),
 				'off-text'    => esc_html__( 'No', 'woodmart' ),
 				'priority'    => 100,
-				'class'    => 'xts-col-6',
+				'class'       => 'xts-col-6',
 			)
 		);
 	}

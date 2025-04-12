@@ -50,11 +50,11 @@ class Vc_Font_Container {
 	 * @return string
 	 */
 	public function render( $settings, $value ) {
-		$fields = array();
-		$values = array();
+		$fields = [];
+		$values = [];
 		extract( $this->_vc_font_container_parse_attributes( $settings['settings']['fields'], $value ) );
 
-		$data = array();
+		$data = [];
 		$output = '';
 		if ( ! empty( $fields ) ) {
 			if ( isset( $fields['tag'] ) ) {
@@ -205,7 +205,7 @@ class Vc_Font_Container {
 	 */
 	public function _vc_font_container_get_web_safe_fonts() { // phpcs:ignore:PSR2.Methods.MethodDeclaration.Underscore
 		// this is "Web Safe FONTS" from w3c: http://www.w3schools.com/cssref/css_websafe_fonts.asp.
-		$web_fonts = array(
+		$web_fonts = [
 			'Georgia' => 'Georgia, serif',
 			'Palatino Linotype' => '"Palatino Linotype", "Book Antiqua", Palatino, serif',
 			'Book Antiqua' => '"Book Antiqua", Palatino, serif',
@@ -226,7 +226,7 @@ class Vc_Font_Container {
 			'Courier New' => '"Courier New", Courier, monospace',
 			'Lucida Console' => '"Lucida Console", Monaco, monospace',
 			'Monaco' => 'Monaco, monospace',
-		);
+		];
 
 		return apply_filters( 'vc_font_container_get_fonts_filter', $web_fonts );
 	}
@@ -239,7 +239,7 @@ class Vc_Font_Container {
 	 * @return array list of allowed tags
 	 */
 	public function _vc_font_container_get_allowed_tags() { // phpcs:ignore:PSR2.Methods.MethodDeclaration.Underscore
-		$allowed_tags = array(
+		$allowed_tags = [
 			'h1',
 			'h2',
 			'h3',
@@ -248,7 +248,7 @@ class Vc_Font_Container {
 			'h6',
 			'p',
 			'div',
-		);
+		];
 
 		return apply_filters( 'vc_font_container_get_allowed_tags', $allowed_tags );
 	}
@@ -262,7 +262,7 @@ class Vc_Font_Container {
 	 * @return array
 	 */
 	public function _vc_font_container_parse_attributes( $attr, $value ) { // phpcs:ignore:PSR2.Methods.MethodDeclaration.Underscore
-		$fields = array();
+		$fields = [];
 		if ( isset( $attr ) ) {
 			foreach ( $attr as $key => $val ) {
 				if ( is_numeric( $key ) ) {
@@ -273,7 +273,7 @@ class Vc_Font_Container {
 			}
 		}
 
-		$values = vc_parse_multi_attribute( $value, array(
+		$values = vc_parse_multi_attribute( $value, [
 			'tag' => isset( $fields['tag'] ) ? $fields['tag'] : 'h2',
 			'font_size' => isset( $fields['font_size'] ) ? $fields['font_size'] : '',
 			'font_style_italic' => isset( $fields['font_style_italic'] ) ? $fields['font_style_italic'] : '',
@@ -289,12 +289,12 @@ class Vc_Font_Container {
 			'color_description' => isset( $fields['color_description'] ) ? $fields['color_description'] : 'left',
 			'line_height_description' => isset( $fields['line_height_description'] ) ? $fields['line_height_description'] : '',
 			'text_align_description' => isset( $fields['text_align_description'] ) ? $fields['text_align_description'] : '',
-		) );
+		] );
 
-		return array(
+		return [
 			'fields' => $fields,
 			'values' => $values,
-		);
+		];
 	}
 }
 

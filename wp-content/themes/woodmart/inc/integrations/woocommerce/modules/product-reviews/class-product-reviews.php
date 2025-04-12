@@ -372,6 +372,8 @@ class Product_Reviews extends Singleton {
 				'description' => esc_html__( 'If checked, the user will not be able to post a comment without attaching an image.', 'woodmart' ),
 				'group'       => esc_html__( 'Images', 'woodmart' ),
 				'default'     => '0',
+				'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+				'off-text'    => esc_html__( 'No', 'woodmart' ),
 				'priority'    => 150,
 			)
 		);
@@ -482,6 +484,8 @@ class Product_Reviews extends Singleton {
 				'section'     => 'single_product_comments_section',
 				'group'       => esc_html__( 'Criteria', 'woodmart' ),
 				'default'     => false,
+				'on-text'     => esc_html__( 'Yes', 'woodmart' ),
+				'off-text'    => esc_html__( 'No', 'woodmart' ),
 				'priority'    => 205,
 				'requires'    => array(
 					array(

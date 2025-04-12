@@ -97,14 +97,14 @@ class Vc_Settings {
 	 *
 	 * @var array
 	 */
-	protected $google_fonts_subsets_default = array( 'latin' );
+	protected $google_fonts_subsets_default = [ 'latin' ];
 
 	/**
 	 * Available Google Fonts subsets.
 	 *
 	 * @var array
 	 */
-	protected $google_fonts_subsets = array(
+	protected $google_fonts_subsets = [
 		'latin',
 		'vietnamese',
 		'cyrillic',
@@ -112,14 +112,14 @@ class Vc_Settings {
 		'greek',
 		'cyrillic-ext',
 		'greek-ext',
-	);
+	];
 
 	/**
 	 * Excluded Google Fonts subsets.
 	 *
 	 * @var array
 	 */
-	public $google_fonts_subsets_excluded = array();
+	public $google_fonts_subsets_excluded = [];
 
 	/**
 	 * Google Fonts subsets settings.
@@ -173,7 +173,7 @@ class Vc_Settings {
 	 * Set the tabs for the settings page.
 	 */
 	public function setTabs() {
-		$this->tabs = array();
+		$this->tabs = [];
 
 		if ( $this->showConfigurationTabs() ) {
 			$this->tabs['vc-general'] = esc_html__( 'General Settings', 'js_composer' );
@@ -229,11 +229,11 @@ class Vc_Settings {
         // phpcs:ignore:WordPress.NamingConventions.ValidHookName.UseUnderscores
 		do_action( 'vc-settings-render-tab-' . $tab, $page );
 
-		vc_include_template( 'pages/vc-settings/index.php', array(
+		vc_include_template( 'pages/vc-settings/index.php', [
 			'pages' => $tabs,
 			'active_page' => $page,
 			'vc_settings' => $this,
-		) );
+		] );
 	}
 
 	/**
@@ -243,15 +243,15 @@ class Vc_Settings {
 	public function initAdmin() {
 		$this->setTabs();
 
-		add_action( 'update_option_wpb_js_modules', array(
+		add_action( 'update_option_wpb_js_modules', [
 			$this,
 			'reset_modules_dependency',
-		), 10, 2 );
+		], 10, 2 );
 
-		add_action( 'add_option_wpb_js_modules', array(
+		add_action( 'add_option_wpb_js_modules', [
 			$this,
 			'reset_modules_dependency',
-		), 10, 2 );
+		], 10, 2 );
 
 		$this->set_sections();
 
@@ -296,33 +296,41 @@ class Vc_Settings {
 		$tab = 'general';
 		$this->addSection( $tab );
 
-		$this->addField( $tab, esc_html__( 'Disable responsive content elements', 'js_composer' ), 'not_responsive_css', array(
+		$this->addField( $tab, esc_html__( 'Disable responsive content elements', 'js_composer' ), 'not_responsive_css', [
 			$this,
 			'sanitize_not_responsive_css_callback',
-		), array(
+		], [
 			$this,
 			'not_responsive_css_field_callback',
-		), array(
+		], [
 			'info' => esc_html__( 'Disable content elements from "stacking" one on top other on small media screens (Example: mobile devices).', 'js_composer' ),
-		)    );
+		]    );
 
-		$this->addField( $tab, esc_html__( 'Google fonts subsets', 'js_composer' ), 'google_fonts_subsets', array(
+		$this->addField( $tab, esc_html__( 'Google fonts subsets', 'js_composer' ), 'google_fonts_subsets', [
 			$this,
 			'sanitize_google_fonts_subsets_callback',
-		), array(
+		], [
 			$this,
 			'google_fonts_subsets_callback',
-		), array(
+		], [
 			'info' => esc_html__( 'Select subsets for Google Fonts available to content elements.', 'js_composer' ),
-		)    );
+		]    );
 
-		$this->addField( $tab, esc_html__( 'Local Google Fonts', 'js_composer' ), 'local_google_fonts', array(
+		$this->addField( $tab, esc_html__( 'Local Google Fonts', 'js_composer' ), 'local_google_fonts', [
 			$this,
 			'sanitize_local_google_fonts_callback',
-		), array(
+		], [
 			$this,
 			'local_google_fonts_callback',
-		) );
+		] );
+
+		$this->addField( $tab, esc_html__( 'Beta Version', 'js_composer' ), 'beta_version', [
+			$this,
+			'sanitize_beta_version_callback',
+		], [
+			$this,
+			'beta_version_callback',
+		] );
 	}
 
 	/**
@@ -352,10 +360,10 @@ class Vc_Settings {
 	 * @param callable|null $callback - function to build section header.
 	 */
 	public function addSection( $tab, $title = null, $callback = null ) {
-		add_settings_section( $this->option_group . '_' . $tab, $title, ( null !== $callback ? $callback : array(
+		add_settings_section( $this->option_group . '_' . $tab, $title, ( null !== $callback ? $callback : [
 			$this,
 			'setting_section_callback_function',
-		) ), $this->page . '_' . $tab );
+		] ), $this->page . '_' . $tab );
 	}
 
 	/**
@@ -370,7 +378,7 @@ class Vc_Settings {
 	 *
 	 * @return $this
 	 */
-	public function addField( $tab, $title, $field_name, $sanitize_callback, $field_callback, $args = array() ) {
+	public function addField( $tab, $title, $field_name, $sanitize_callback, $field_callback, $args = [] ) {
 		register_setting( $this->option_group . '_' . $tab, self::$field_prefix . $field_name, $sanitize_callback );
 		add_settings_field( self::$field_prefix . $field_name, $title, $field_callback, $this->page . '_' . $tab, $this->option_group . '_' . $tab, $args );
 
@@ -406,8 +414,8 @@ class Vc_Settings {
 	 * Set up the enqueue for the CSS & JavaScript files.
 	 */
 	public function adminLoad() {
-		wp_register_script( 'wpb_js_composer_settings', vc_asset_url( 'js/dist/settings.min.js' ), array(), WPB_VC_VERSION, true );
-		wp_register_script( 'wpb-popper', vc_asset_url( 'lib/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js' ), array(), WPB_VC_VERSION, true );
+		wp_register_script( 'wpb_js_composer_settings', vc_asset_url( 'js/dist/settings.min.js' ), [], WPB_VC_VERSION, true );
+		wp_register_script( 'wpb-popper', vc_asset_url( 'lib/vendor/node_modules/@popperjs/core/dist/umd/popper.min.js' ), [], WPB_VC_VERSION, true );
 		wp_enqueue_style( 'js_composer_settings', vc_asset_url( 'css/js_composer_settings.min.css' ), false, WPB_VC_VERSION );
 		wp_enqueue_script( 'backbone' );
 		wp_enqueue_script( 'shortcode' );
@@ -417,7 +425,7 @@ class Vc_Settings {
 		wp_enqueue_script( 'wpb_js_composer_settings' );
 		wp_enqueue_script( 'wpb-popper' );
 
-		$this->locale = apply_filters( 'vc_get_settings_locale', array(
+		$this->locale = apply_filters( 'vc_get_settings_locale', [
 			'are_you_sure_reset_css_classes' => esc_html__( 'Are you sure you want to reset to defaults?', 'js_composer' ),
 			'are_you_sure_reset_color' => esc_html__( 'Are you sure you want to reset to defaults?', 'js_composer' ),
 			'saving' => esc_html__( 'Saving...', 'js_composer' ),
@@ -439,12 +447,12 @@ class Vc_Settings {
 			'error_enter_valid_shortcode' => esc_html__( 'Please enter valid shortcode to parse!', 'js_composer' ),
 			'copied' => esc_html__( 'Copied', 'js_composer' ),
 			'license_sync_failed' => esc_html__( 'Failed to sync license. Please try again later.', 'js_composer' ),
-		));
+		]);
 
-		wp_localize_script( 'wpb_js_composer_settings', 'vcData', apply_filters( 'vc_global_js_data', array(
+		wp_localize_script( 'wpb_js_composer_settings', 'vcData', apply_filters( 'vc_global_js_data', [
 			'version' => WPB_VC_VERSION,
 			'debug' => false,
-		) ) );
+		] ) );
 		wp_localize_script( 'wpb_js_composer_settings', 'i18nLocaleSettings', $this->locale );
 		$wpb_settings_data = apply_filters( 'vc_get_settings_wpb_data', [] );
 		wp_localize_script( 'wpb_js_composer_settings', 'wpbData', $wpb_settings_data );
@@ -526,6 +534,29 @@ class Vc_Settings {
 		}
 		?>
 		<?php
+	}
+
+	/**
+	 * Sanitizes the beta version option.
+	 *
+	 * @param mixed $rules The beta version rules.
+	 * @return bool Sanitized beta version status.
+	 * @since 8.1
+	 */
+	public function sanitize_beta_version_callback( $rules ) {
+		return (bool) $rules;
+	}
+
+	/**
+	 * Renders the beta version checkbox in the WordPress dashboard,
+	 * under WPBakery -> General Settings.
+	 *
+	 * @since 8.1
+	 */
+	public function beta_version_callback() {
+		vc_include_template( 'pages/vc-settings/beta-version.php', [
+			'checked' => get_option( 'wpb_js_beta_version', false ),
+		] );
 	}
 
 	/**
@@ -678,7 +709,7 @@ class Vc_Settings {
 	 * @return array
 	 */
 	public function sanitize_google_fonts_subsets_callback( $subsets ) {
-		$pt_array = array();
+		$pt_array = [];
 		if ( isset( $subsets ) && is_array( $subsets ) ) {
 			foreach ( $subsets as $pt ) {
 				if ( ! in_array( $pt, $this->getGoogleFontsSubsetsExcluded(), true ) && in_array( $pt, $this->getGoogleFontsSubsets(), true ) ) {

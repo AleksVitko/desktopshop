@@ -2,7 +2,7 @@
 /**
  * The template for displaying [vc_gitem_post_data] shortcode output.
  *
- * This template can be overridden by copying it to yourtheme/vc_templates/vc_btn.php.
+ * This template can be overridden by copying it to yourtheme/vc_templates/vc_gitem_post_data.php.
  *
  * @see https://kb.wpbakery.com/docs/developers-how-tos/change-shortcodes-html-output
  */
@@ -19,8 +19,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var WPBakeryShortCode_Vc_Gitem_Post_Data $this
  */
 $output = $text = $google_fonts = $font_container = $el_class = $css = $link_html = '';
-$font_container_data = array();
-$google_fonts_data = array();
+$font_container_data = [];
+$google_fonts_data = [];
 extract( $this->getAttributes( $atts ) );
 
 extract( $this->getStyles( $el_class, $css, $google_fonts_data, $font_container_data, $atts ) );

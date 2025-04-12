@@ -84,9 +84,11 @@ class Theme {
 			'modules/theme-settings-backup/class-main',
 			'modules/images/functions',
 			'modules/mega-menu-walker/class-mega-menu-walker',
+			'modules/header-builder/functions',
 			'modules/header-builder/class-header-builder',
 			'modules/twitter',
-			'modules/seo-scheme/class-faq-schema',
+			'modules/seo-scheme/class-faq',
+			'modules/seo-scheme/class-breadcrumbs',
 
 			// Woocommerce integration.
 			'integrations/woocommerce/functions',
@@ -131,6 +133,7 @@ class Theme {
 			'integrations/woocommerce/modules/out-of-stock-manager/class-main',
 			'integrations/woocommerce/modules/waitlist/class-main',
 			'integrations/woocommerce/modules/estimate-delivery/class-main',
+			'integrations/woocommerce/modules/abandoned-cart/class-main',
 
 			// Plugin integrations.
 			'integrations/wcmp',
@@ -151,11 +154,14 @@ class Theme {
 			'integrations/wcpay',
 			'integrations/curcy',
 			'integrations/rank-math',
+			'integrations/cartflows',
+			'integrations/mc4wp',
+			'integrations/vgse',
 		);
 
 		if ( did_action( 'elementor/loaded' ) ) {
 			$files[] = 'integrations/elementor/helpers';
-			$files[] = 'integrations/elementor/class-elementor';
+			$files[] = '/integrations/elementor/class-elementor';
 		}
 
 		$this->enqueue_files( $files );
@@ -272,6 +278,7 @@ class Theme {
 			'responsive-text-block',
 			'text-block',
 			'marquee',
+			'contact-form-7',
 			'image',
 			'mailchimp',
 			'title',
@@ -349,6 +356,7 @@ class Theme {
 			'responsive-text-block',
 			'text-block',
 			'marquee',
+			'contact-form-7',
 			'image',
 			'mailchimp',
 			'row-divider',

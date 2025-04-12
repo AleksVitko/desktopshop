@@ -20,7 +20,7 @@ class Vc_Navbar_Frontend extends Vc_Navbar {
 	 *
 	 * @var array
 	 */
-	protected $controls = array(
+	protected $controls = [
 		'add_element',
 		'templates',
 		'view_post',
@@ -28,7 +28,7 @@ class Vc_Navbar_Frontend extends Vc_Navbar {
 		'save_buttons',
 		'screen_size',
 		'custom_css',
-	);
+	];
 	/**
 	 * Filter name for the frontend controls.
 	 *
@@ -57,28 +57,28 @@ class Vc_Navbar_Frontend extends Vc_Navbar {
 		if ( '1' !== $disable_responsive ) {
             // phpcs:ignore
 			$screen_sizes = apply_filters( 'wpb_navbar_getControlScreenSize', array(
-				array(
+				[
 					'title' => esc_html__( 'Desktop', 'js_composer' ),
 					'size' => '100%',
 					'key' => 'default',
 					'active' => true,
-				),
-				array(
+				],
+				[
 					'title' => esc_html__( 'Tablet landscape mode', 'js_composer' ),
 					'size' => '1024px',
 					'key' => 'landscape-tablets',
-				),
-				array(
+				],
+				[
 					'title' => esc_html__( 'Tablet portrait mode', 'js_composer' ),
 					'size' => '768px',
 					'key' => 'portrait-tablets',
-				),
-				array(
+				],
+				[
 					'title' => esc_html__( 'Smartphone portrait mode', 'js_composer' ),
 					'size' => '480px',
 					'key' => 'portrait-smartphones',
 
-				),
+				],
 			) );
 			$output = '<li class="vc_pull-right vc_hide-mobile"><div class="vc_dropdown" id="vc_screen-size-control"><a href="#" class="vc_dropdown-toggle vc_icon-btn" title="' . esc_attr__( 'Responsive preview', 'js_composer' ) . '"><i class="vc-composer-icon vc_current-layout-icon vc-c-icon-layout_default" id="vc_screen-size-current"></i></a><ul class="vc_dropdown-list">';
 			$screen = current( $screen_sizes );

@@ -41,6 +41,7 @@
 				select,
 				textarea) {
 					@extend %input-style;
+					@extend %input-width-style;
 				}
 
 				textarea {

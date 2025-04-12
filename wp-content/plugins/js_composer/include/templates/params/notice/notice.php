@@ -3,12 +3,12 @@
  * Notice param template.
  *
  * @var array $notice
- * @var string $link
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
+$link = empty( $notice['link'] ) ? '' : $notice['link'];
 ?>
 <div id="wpb-notice-<?php esc_attr_e( $notice['id'] ); ?>" class="updated wpb-notice">
 	<?php if ( ! empty( $notice['image'] ) ) : ?>
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 		<?php endif; ?>
 		<?php if ( ! empty( $notice['button_text'] ) ) : ?>
-			<button type="button" class="button button-primary wpb-notice-button" data-notice-link="<?php empty( $notice['link'] ) ?: esc_attr_e( $notice['link'] ); ?>">
+			<button type="button" class="button button-primary wpb-notice-button" data-notice-link="<?php esc_attr_e( $link ); ?>">
 				<?php esc_html_e( $notice['button_text'] ); ?>
 			</button>
 		<?php endif; ?>

@@ -19,16 +19,16 @@ class Vc_Navbar_Undoredo {
 	 */
 	public function __construct() {
 		// Backend.
-		add_filter( 'vc_nav_controls', array(
+		add_filter( 'vc_nav_controls', [
 			$this,
 			'addControls',
-		) );
+		] );
 
 		// Frontend.
-		add_filter( 'vc_nav_front_controls', array(
+		add_filter( 'vc_nav_front_controls', [
 			$this,
 			'addControls',
-		) );
+		] );
 	}
 
 	/**
@@ -38,7 +38,7 @@ class Vc_Navbar_Undoredo {
 	 * @return array
 	 */
 	public function addControls( $controls ) {
-		$controls[] = array(
+		$controls[] = [
 			'undo',
 			'<li class="vc_hide-mobile vc_hide-desktop-more">
 				<a id="vc_navbar-undo" class="vc_icon-btn vc_undo-redo vc_undo-button vc_hide-mobile" disabled title="' . esc_attr__( 'Undo', 'js_composer' ) . '">
@@ -46,8 +46,8 @@ class Vc_Navbar_Undoredo {
 					<p class="vc_hide-desktop">' . __( 'Undo', 'js_composer' ) . '</p>
 				</a>
 			</li>',
-		);
-		$controls[] = array(
+		];
+		$controls[] = [
 			'redo',
 			'<li class="vc_hide-mobile vc_hide-desktop-more">
 				<a id="vc_navbar-redo" class="vc_icon-btn vc_undo-redo vc_redo-button vc_hide-mobile" disabled title="' . esc_attr__( 'Redo', 'js_composer' ) . '">
@@ -55,7 +55,7 @@ class Vc_Navbar_Undoredo {
 					<p class="vc_hide-desktop">' . __( 'Redo', 'js_composer' ) . '</p>
 				</a>
 			</li>',
-		);
+		];
 
 		return $controls;
 	}

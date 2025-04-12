@@ -8,6 +8,22 @@
 
 if ( ! function_exists( 'woodmart_get_vc_map_extra_menu' ) ) {
 	function woodmart_get_vc_map_extra_menu() {
+		$title_typography = woodmart_get_typography_map(
+			array(
+				'key'      => 'title_typography',
+				'group'    => esc_html__( 'Style', 'woodmart' ),
+				'selector' => '{{WRAPPER}}.wd-sub-accented > li > a',
+			)
+		);
+
+		$items_typography = woodmart_get_typography_map(
+			array(
+				'key'      => 'items_typography',
+				'group'    => esc_html__( 'Style', 'woodmart' ),
+				'selector' => '{{WRAPPER}} .sub-sub-menu > li > a',
+			)
+		);
+
 		return array(
 			'name'                    => esc_html__( 'Extra menu list', 'woodmart' ),
 			'base'                    => 'extra_menu',
@@ -123,6 +139,101 @@ if ( ! function_exists( 'woodmart_get_vc_map_extra_menu' ) ) {
 					'param_name' => 'extra_divider',
 				),
 				( function_exists( 'vc_map_add_css_animation' ) ) ? vc_map_add_css_animation( true ) : '',
+
+				array(
+					'type'       => 'woodmart_title_divider',
+					'holder'     => 'div',
+					'title'      => esc_html__( 'Title', 'woodmart' ),
+					'group'      => esc_html__( 'Style', 'woodmart' ),
+					'param_name' => 'title_style_divider',
+				),
+
+				$title_typography['font_family'],
+				$title_typography['font_size'],
+				$title_typography['font_weight'],
+				$title_typography['text_transform'],
+				$title_typography['font_style'],
+				$title_typography['line_height'],
+
+				array(
+					'type'       => 'woodmart_empty_space',
+					'param_name' => 'woodmart_empty_space',
+					'group'      => esc_html__( 'Style', 'woodmart' ),
+				),
+
+				array(
+					'heading'          => esc_html__( 'Color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'title_color',
+					'selectors'        => array(
+						'{{WRAPPER}}.wd-sub-accented > li > a' => array(
+							'color: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
+					'heading'          => esc_html__( 'Hover color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'title_hover_color',
+					'selectors'        => array(
+						'{{WRAPPER}}.wd-sub-accented > li > a:hover' => array(
+							'color: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
+					'type'       => 'woodmart_title_divider',
+					'holder'     => 'div',
+					'title'      => esc_html__( 'Items', 'woodmart' ),
+					'group'      => esc_html__( 'Style', 'woodmart' ),
+					'param_name' => 'items_style_divider',
+				),
+
+				$items_typography['font_family'],
+				$items_typography['font_size'],
+				$items_typography['font_weight'],
+				$items_typography['text_transform'],
+				$items_typography['font_style'],
+				$items_typography['line_height'],
+
+				array(
+					'type'       => 'woodmart_empty_space',
+					'param_name' => 'woodmart_empty_space',
+					'group'      => esc_html__( 'Style', 'woodmart' ),
+				),
+
+				array(
+					'heading'          => esc_html__( 'Color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'items_color',
+					'selectors'        => array(
+						'{{WRAPPER}} .sub-sub-menu > li > a' => array(
+							'color: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
+				array(
+					'heading'          => esc_html__( 'Hover color', 'woodmart' ),
+					'group'            => esc_html__( 'Style', 'woodmart' ),
+					'type'             => 'wd_colorpicker',
+					'param_name'       => 'items_hover_color',
+					'selectors'        => array(
+						'{{WRAPPER}} .sub-sub-menu > li:hover > a' => array(
+							'color: {{VALUE}};',
+						),
+					),
+					'edit_field_class' => 'vc_col-sm-6 vc_column',
+				),
+
 				array(
 					'type'       => 'textfield',
 					'heading'    => esc_html__( 'Extra class name', 'woodmart' ),

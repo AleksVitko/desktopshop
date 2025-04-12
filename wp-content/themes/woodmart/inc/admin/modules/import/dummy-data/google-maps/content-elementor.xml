@@ -35,7 +35,7 @@
 	<wp:base_site_url>http://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>http://dummy.xtemos.com/woodmart2/elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -50,7 +50,7 @@
 					<title><![CDATA[Google maps]]></title>
 					<link>http://dummy.xtemos.com/woodmart2/elementor/google-maps/</link>
 					<pubDate>Thu, 18 Nov 2021 13:14:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?page_id=11460</guid>
 											<content:encoded><![CDATA[XTEMOS ELEMENT				
 				<h4>GOOGLE MAPS</h4> 
@@ -182,7 +182,7 @@ STORE IN NEW YORK						</h4>
 					<title><![CDATA[Google maps content]]></title>
 					<link>http://dummy.xtemos.com/woodmart2/elementor/?cms_block=google-maps-content</link>
 					<pubDate>Thu, 18 Nov 2021 13:16:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/elementor/?post_type=cms_block&#038;p=11465</guid>
 											<content:encoded><![CDATA[OUR STORES						
 											<h4						class="info-box-title title box-title-style-default wd-fontsize-m" data-elementor-setting-key="title">

@@ -55,7 +55,7 @@ if ( ! function_exists( 'wd_get_single_product_block_add_to_cart_attrs' ) ) {
 		$attr->add_attr( wd_get_color_control_attrs( 'oldPriceTextColor' ) );
 		$attr->add_attr( wd_get_color_control_attrs( 'suffixTextColor' ) );
 
-		$attr->add_attr( wd_get_advanced_tab_attrs() );
+		wd_get_advanced_tab_attrs( $attr );
 
 		return $attr->get_attr();
 	}

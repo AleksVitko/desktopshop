@@ -61,31 +61,31 @@ class Vc_Custom_Css_Module {
 		add_action( 'vc_load_iframe_jscss', [ $this, 'enqueue_global_custom_css_to_page' ] );
 
 		add_action('vc_base_register_front_css', function () {
-			add_action( 'wp_enqueue_scripts', array(
+			add_action( 'wp_enqueue_scripts', [
 				$this,
 				'enqueue_global_custom_css_to_page',
-			) );
+			] );
 		});
 
-		add_action( 'update_option_wpb_js_custom_css', array(
+		add_action( 'update_option_wpb_js_custom_css', [
 			$this,
 			'build_custom_css',
-		) );
+		] );
 
-		add_action( 'add_option_wpb_js_custom_css', array(
+		add_action( 'add_option_wpb_js_custom_css', [
 			$this,
 			'build_custom_css',
-		) );
+		] );
 
-		add_filter( 'wpb_enqueue_backend_editor_js', array(
+		add_filter( 'wpb_enqueue_backend_editor_js', [
 			$this,
 			'enqueue_editor_js',
-		));
+		]);
 
-		add_filter( 'vc_enqueue_frontend_editor_js', array(
+		add_filter( 'vc_enqueue_frontend_editor_js', [
 			$this,
 			'enqueue_editor_js',
-		));
+		]);
 	}
 
 	/**
@@ -113,14 +113,9 @@ class Vc_Custom_Css_Module {
 			return;
 		}
 
-		if ( 'true' === vc_get_param( 'preview' ) && wp_revisions_enabled( get_post( $id ) ) ) {
-			$latest_revision = wp_get_post_revisions( $id );
-			if ( ! empty( $latest_revision ) ) {
-				$array_values = array_values( $latest_revision );
-				$id = $array_values[0]->ID;
-			}
-		}
-		$post_custom_css = get_metadata( 'post', $id, '_wpb_post_custom_css', true );
+		$id = wpb_update_id_with_preview_id( $id );
+
+		$post_custom_css = get_metadata( 'post', $id, self::CUSTOM_CSS_META_KEY, true );
 		$post_custom_css = apply_filters( 'vc_post_custom_css', $post_custom_css, $id );
 		if ( ! empty( $post_custom_css ) ) {
 			$post_custom_css = wp_strip_all_tags( $post_custom_css );
@@ -182,7 +177,7 @@ class Vc_Custom_Css_Module {
 		if ( is_file( $upload_dir['basedir'] . '/' . $vc_upload_dir . '/custom.css' ) && filesize( $custom_css_path ) > 0 ) {
 			$custom_css_url = $upload_dir['baseurl'] . '/' . $vc_upload_dir . '/custom.css';
 			$custom_css_url = vc_str_remove_protocol( $custom_css_url );
-			wp_register_style( 'js_composer_custom_css', $custom_css_url, array(), WPB_VC_VERSION );
+			wp_register_style( 'js_composer_custom_css', $custom_css_url, [], WPB_VC_VERSION );
 		}
 	}
 

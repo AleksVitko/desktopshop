@@ -31,6 +31,11 @@
                     }
                 ],
                 "params": {
+                    "row_columns": {
+                        "id": "row_columns",
+                        "value": "3",
+                        "type": "selector"
+                    },
                     "flex_layout": {
                         "id": "flex_layout",
                         "value": "flex-middle",
@@ -71,11 +76,6 @@
                         "value": "light",
                         "type": "selector"
                     },
-                    "shadow": {
-                        "id": "shadow",
-                        "value": false,
-                        "type": "switcher"
-                    },
                     "background": {
                         "id": "background",
                         "value": [],
@@ -85,6 +85,11 @@
                         "id": "border",
                         "value": "",
                         "type": "border"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
                     }
                 }
             },
@@ -146,16 +151,6 @@
                                         "id": "menu_id",
                                         "value": "",
                                         "type": "options"
-                                    },
-                                    "menu_style": {
-                                        "id": "menu_style",
-                                        "value": "underline",
-                                        "type": "selector"
-                                    },
-                                    "menu_align": {
-                                        "id": "menu_align",
-                                        "value": "center",
-                                        "type": "selector"
                                     },
                                     "full_screen": {
                                         "id": "full_screen",
@@ -227,18 +222,28 @@
                                         "value": "",
                                         "type": "image"
                                     },
+                                    "menu_style": {
+                                        "id": "menu_style",
+                                        "value": "underline",
+                                        "type": "selector"
+                                    },
+                                    "menu_align": {
+                                        "id": "menu_align",
+                                        "value": "center",
+                                        "type": "selector"
+                                    },
                                     "items_gap": {
                                         "id": "items_gap",
                                         "value": "s",
                                         "type": "selector"
                                     },
-                                    "inline": {
-                                        "id": "inline",
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
                                         "value": false,
                                         "type": "switcher"
                                     },
-                                    "bg_overlay": {
-                                        "id": "bg_overlay",
+                                    "inline": {
+                                        "id": "inline",
                                         "value": false,
                                         "type": "switcher"
                                     }
@@ -254,6 +259,21 @@
                                 "id": "vssfpylqqax9pvkfnxoz",
                                 "type": "account",
                                 "params": {
+                                    "with_username": {
+                                        "id": "with_username",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "login_dropdown": {
+                                        "id": "login_dropdown",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "form_display": {
+                                        "id": "form_display",
+                                        "value": "side",
+                                        "type": "selector"
+                                    },
                                     "display": {
                                         "id": "display",
                                         "value": "text",
@@ -319,21 +339,6 @@
                                         "value": "",
                                         "type": "image"
                                     },
-                                    "with_username": {
-                                        "id": "with_username",
-                                        "value": false,
-                                        "type": "switcher"
-                                    },
-                                    "login_dropdown": {
-                                        "id": "login_dropdown",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
-                                    "form_display": {
-                                        "id": "form_display",
-                                        "value": "side",
-                                        "type": "selector"
-                                    },
                                     "bg_overlay": {
                                         "id": "bg_overlay",
                                         "value": false,
@@ -350,6 +355,11 @@
                                         "value": "full-screen",
                                         "type": "selector"
                                     },
+                                    "popular_requests": {
+                                        "id": "popular_requests",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
                                     "categories_dropdown": {
                                         "id": "categories_dropdown",
                                         "value": true,
@@ -360,8 +370,8 @@
                                         "value": "bordered",
                                         "type": "selector"
                                     },
-                                    "popular_requests": {
-                                        "id": "popular_requests",
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
                                         "value": false,
                                         "type": "switcher"
                                     },
@@ -379,6 +389,46 @@
                                         "id": "post_type",
                                         "value": "product",
                                         "type": "selector"
+                                    },
+                                    "search_style": {
+                                        "id": "search_style",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "form_shape": {
+                                        "id": "form_shape",
+                                        "value": "",
+                                        "type": "options"
+                                    },
+                                    "form_height": {
+                                        "id": "form_height",
+                                        "value": 46,
+                                        "type": "slider"
+                                    },
+                                    "form_color": {
+                                        "id": "form_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_placeholder_color": {
+                                        "id": "form_placeholder_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_brd_color": {
+                                        "id": "form_brd_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_brd_color_focus": {
+                                        "id": "form_brd_color_focus",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_bg": {
+                                        "id": "form_bg",
+                                        "value": "",
+                                        "type": "color"
                                     },
                                     "style": {
                                         "id": "style",
@@ -449,41 +499,6 @@
                                             "height": 53
                                         },
                                         "type": "image"
-                                    },
-                                    "search_style": {
-                                        "id": "search_style",
-                                        "value": "default",
-                                        "type": "selector"
-                                    },
-                                    "form_color": {
-                                        "id": "form_color",
-                                        "value": "",
-                                        "type": "color"
-                                    },
-                                    "form_placeholder_color": {
-                                        "id": "form_placeholder_color",
-                                        "value": "",
-                                        "type": "color"
-                                    },
-                                    "form_brd_color": {
-                                        "id": "form_brd_color",
-                                        "value": "",
-                                        "type": "color"
-                                    },
-                                    "form_brd_color_focus": {
-                                        "id": "form_brd_color_focus",
-                                        "value": "",
-                                        "type": "color"
-                                    },
-                                    "form_bg": {
-                                        "id": "form_bg",
-                                        "value": "",
-                                        "type": "color"
-                                    },
-                                    "form_shape": {
-                                        "id": "form_shape",
-                                        "value": "",
-                                        "type": "options"
                                     }
                                 }
                             },
@@ -546,11 +561,6 @@
                                         "value": "",
                                         "type": "color"
                                     },
-                                    "hide_product_count": {
-                                        "id": "hide_product_count",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
                                     "icon_type": {
                                         "id": "icon_type",
                                         "value": "default",
@@ -565,6 +575,11 @@
                                             "height": 48
                                         },
                                         "type": "image"
+                                    },
+                                    "hide_product_count": {
+                                        "id": "hide_product_count",
+                                        "value": true,
+                                        "type": "switcher"
                                     }
                                 }
                             },
@@ -576,6 +591,11 @@
                                         "id": "position",
                                         "value": "side",
                                         "type": "selector"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": false,
+                                        "type": "switcher"
                                     },
                                     "design": {
                                         "id": "design",
@@ -659,6 +679,96 @@
                                 "id": "g1k0m1tib7raxrwkm1t3",
                                 "type": "burger",
                                 "params": {
+                                    "close_btn": {
+                                        "id": "close_btn",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "search_form": {
+                                        "id": "search_form",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "post_type": {
+                                        "id": "post_type",
+                                        "value": "product",
+                                        "type": "selector"
+                                    },
+                                    "show_wishlist": {
+                                        "id": "show_wishlist",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "show_compare": {
+                                        "id": "show_compare",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "show_account": {
+                                        "id": "show_account",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "show_html_block": {
+                                        "id": "show_html_block",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "languages": {
+                                        "id": "languages",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "show_language_flag": {
+                                        "id": "show_language_flag",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "categories_menu": {
+                                        "id": "categories_menu",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "primary_menu_title": {
+                                        "id": "primary_menu_title",
+                                        "value": "",
+                                        "type": "text"
+                                    },
+                                    "secondary_menu_title": {
+                                        "id": "secondary_menu_title",
+                                        "value": "",
+                                        "type": "text"
+                                    },
+                                    "menu_id": {
+                                        "id": "menu_id",
+                                        "value": "mobile-categories",
+                                        "type": "options"
+                                    },
+                                    "tabs_swap": {
+                                        "id": "tabs_swap",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "menu_layout": {
+                                        "id": "menu_layout",
+                                        "value": "dropdown",
+                                        "type": "selector"
+                                    },
+                                    "drilldown_animation": {
+                                        "id": "drilldown_animation",
+                                        "value": "slide",
+                                        "type": "selector"
+                                    },
+                                    "submenu_opening_action": {
+                                        "id": "submenu_opening_action",
+                                        "value": "only_arrow",
+                                        "type": "selector"
+                                    },
+                                    "position": {
+                                        "id": "position",
+                                        "value": "left",
+                                        "type": "selector"
+                                    },
                                     "style": {
                                         "id": "style",
                                         "value": "text",
@@ -716,7 +826,7 @@
                                     },
                                     "icon_type": {
                                         "id": "icon_type",
-                                        "value": "custom",
+                                        "value": "default",
                                         "type": "selector"
                                     },
                                     "custom_icon": {
@@ -728,66 +838,6 @@
                                             "height": 512
                                         },
                                         "type": "image"
-                                    },
-                                    "position": {
-                                        "id": "position",
-                                        "value": "left",
-                                        "type": "selector"
-                                    },
-                                    "search_form": {
-                                        "id": "search_form",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
-                                    "post_type": {
-                                        "id": "post_type",
-                                        "value": "product",
-                                        "type": "selector"
-                                    },
-                                    "categories_menu": {
-                                        "id": "categories_menu",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
-                                    "tabs_swap": {
-                                        "id": "tabs_swap",
-                                        "value": false,
-                                        "type": "switcher"
-                                    },
-                                    "primary_menu_title": {
-                                        "id": "primary_menu_title",
-                                        "value": "",
-                                        "type": "text"
-                                    },
-                                    "secondary_menu_title": {
-                                        "id": "secondary_menu_title",
-                                        "value": "",
-                                        "type": "text"
-                                    },
-                                    "menu_id": {
-                                        "id": "menu_id",
-                                        "value": "mobile-categories",
-                                        "type": "options"
-                                    },
-                                    "show_wishlist": {
-                                        "id": "show_wishlist",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
-                                    "show_compare": {
-                                        "id": "show_compare",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
-                                    "show_account": {
-                                        "id": "show_account",
-                                        "value": true,
-                                        "type": "switcher"
-                                    },
-                                    "close_btn": {
-                                        "id": "close_btn",
-                                        "value": false,
-                                        "type": "switcher"
                                     }
                                 }
                             }
@@ -847,6 +897,11 @@
                                         "id": "position",
                                         "value": "side",
                                         "type": "selector"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": false,
+                                        "type": "switcher"
                                     },
                                     "design": {
                                         "id": "design",
@@ -924,6 +979,11 @@
                     }
                 ],
                 "params": {
+                    "row_columns": {
+                        "id": "row_columns",
+                        "value": "3",
+                        "type": "selector"
+                    },
                     "flex_layout": {
                         "id": "flex_layout",
                         "value": "flex-middle",
@@ -964,11 +1024,6 @@
                         "value": "dark",
                         "type": "selector"
                     },
-                    "shadow": {
-                        "id": "shadow",
-                        "value": false,
-                        "type": "switcher"
-                    },
                     "background": {
                         "id": "background",
                         "value": "",
@@ -985,6 +1040,11 @@
                             ]
                         },
                         "type": "border"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
                     }
                 }
             },
@@ -1014,6 +1074,11 @@
                     }
                 ],
                 "params": {
+                    "row_columns": {
+                        "id": "row_columns",
+                        "value": "3",
+                        "type": "selector"
+                    },
                     "flex_layout": {
                         "id": "flex_layout",
                         "value": "flex-middle",
@@ -1054,11 +1119,6 @@
                         "value": "dark",
                         "type": "selector"
                     },
-                    "shadow": {
-                        "id": "shadow",
-                        "value": false,
-                        "type": "switcher"
-                    },
                     "background": {
                         "id": "background",
                         "value": "",
@@ -1075,6 +1135,11 @@
                             ]
                         },
                         "type": "border"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
                     }
                 }
             }

@@ -24,8 +24,8 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 	$vc_vendor_settings_presets = Vc_Settings_Preset::listDefaultVendorSettingsPresets();
 	$vc_all_presets = Vc_Settings_Preset::listAllPresets();
 } else {
-	$vc_vendor_settings_presets = array();
-	$vc_all_presets = array();
+	$vc_vendor_settings_presets = [];
+	$vc_all_presets = [];
 }
 $custom_tag = 'script';
 ?>

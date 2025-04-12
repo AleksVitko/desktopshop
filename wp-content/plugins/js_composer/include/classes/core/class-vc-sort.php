@@ -24,7 +24,7 @@ class Vc_Sort {
 	 * @since 4.4
 	 * @var array $data - sorting data
 	 */
-	protected $data = array();
+	protected $data = [];
 	/**
 	 * Key used for sorting.
 	 *
@@ -63,10 +63,10 @@ class Vc_Sort {
 	 */
 	public function sortByKey( $key = 'weight' ) {
 		$this->key = $key;
-		uasort( $this->data, array(
+		uasort( $this->data, [
 			$this,
 			'key',
-		) );
+		] );
 
 		return array_merge( $this->data ); // reset array keys to 0..N.
 	}

@@ -38,22 +38,22 @@ $atts = $this->convertAttributesToMessageBox2( $atts );
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 extract( $atts );
 
-$element_class_list = array(
+$element_class_list = [
 	'base' => apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, 'vc_message_box', $this->settings['base'], $atts ),
 	'style' => 'vc_message_box-' . $message_box_style,
 	'shape' => 'vc_message_box-' . $style,
 	'color' => ( ( strlen( $color ) > 0 && false === strpos( 'alert', $color ) ) ? ( 'vc_color-' . $color ) : ( 'vc_color-' . $message_box_color ) ),
 	'css_animation' => $this->getCSSAnimation( $css_animation ),
-);
+];
 
 $element_class = empty( $this->settings['element_default_class'] ) ? '' : $this->settings['element_default_class'];
-$class_to_filter = preg_replace( array(
+$class_to_filter = preg_replace( [
 	'/\s+/',
 	'/^\s|\s$/',
-), array(
+], [
 	' ',
 	'',
-), implode( ' ', $element_class_list ) );
+], implode( ' ', $element_class_list ) );
 $class_to_filter .= vc_shortcode_custom_css_class( $css, ' ' ) . ' ' . esc_attr( $element_class ) . $this->getExtraClass( $el_class );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $class_to_filter, $this->settings['base'], $atts );
 
@@ -101,7 +101,7 @@ switch ( $color ) {
 if ( 'pixelicons' !== $icon_type ) {
 	vc_icon_element_fonts_enqueue( $icon_type );
 }
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }

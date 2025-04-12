@@ -92,7 +92,9 @@ class Checkout_Order_Table extends Singleton {
 	 * @return bool
 	 */
 	public function is_enable_woodmart_product_table_template() {
-		return woodmart_get_opt( 'checkout_show_product_image' ) || woodmart_get_opt( 'checkout_product_quantity' ) || woodmart_get_opt( 'checkout_remove_button' ) || woodmart_get_opt( 'checkout_link_to_product' ) || woodmart_get_opt( 'show_sku_in_checkout_page' ) || woodmart_get_opt( 'estimate_delivery_show_on_checkout_page' );
+		$condition = woodmart_get_opt( 'checkout_show_product_image' ) || woodmart_get_opt( 'checkout_product_quantity' ) || woodmart_get_opt( 'checkout_remove_button' ) || woodmart_get_opt( 'checkout_link_to_product' ) || woodmart_get_opt( 'show_sku_in_checkout_page' ) || woodmart_get_opt( 'estimate_delivery_show_on_checkout_page' );
+
+		return apply_filters( 'woodmart_replace_checkout_template_condition', $condition );
 	}
 
 	/**

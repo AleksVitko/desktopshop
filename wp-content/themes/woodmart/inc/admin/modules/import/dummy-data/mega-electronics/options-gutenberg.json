@@ -390,7 +390,7 @@
     "show_sku_in_mini_cart": "1",
     "grid_swatches_attribute": "pa_color",
     "label_shape": "rounded-sm",
-    "brands_attribute": "pa_brand",
+    "brands_attribute": "",
     "compare": "1",
     "compare_page": "28",
     "fields_compare": [
@@ -473,5 +473,6 @@
         "idle": "rgb(28,97,231)",
         "hover": "rgb(28,97,231)"
     },
-    "blog_hide_sidebar_tablet": "1"
+    "blog_hide_sidebar_tablet": "1",
+    "blog_columns": "3"
 }

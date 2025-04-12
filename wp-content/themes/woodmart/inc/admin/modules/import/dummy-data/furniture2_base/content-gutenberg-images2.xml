@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-25 09:10" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:32" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,15 +29,13 @@
 	<title>Furniture 2 gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg</link>
 	<description></description>
-	<pubDate>Fri, 25 Oct 2024 09:10:08 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:32:59 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -45,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[wd-furniture-sofas-prod-4-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=105</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:51 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-4-2.jpg</guid>
 															<wp:post_id>105</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:51]]></wp:post_date>
@@ -78,7 +76,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-4-5.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=108</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-4-5.jpg</guid>
 															<wp:post_id>108</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:52]]></wp:post_date>
@@ -105,7 +103,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-4-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=109</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-4-3.jpg</guid>
 															<wp:post_id>109</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:52]]></wp:post_date>
@@ -132,7 +130,7 @@
 					<title><![CDATA[wd-furniture-blog-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-blog-1-opt/</link>
 					<pubDate>Tue, 16 Jul 2024 12:55:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-1-opt.jpg</guid>
 															<wp:post_id>206</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 12:55:16]]></wp:post_date>
@@ -155,7 +153,7 @@
 					<title><![CDATA[wd-furniture-blog-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-blog-2-opt/</link>
 					<pubDate>Tue, 16 Jul 2024 12:55:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-2-opt.jpg</guid>
 															<wp:post_id>207</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 12:55:17]]></wp:post_date>
@@ -178,7 +176,7 @@
 					<title><![CDATA[wd-furniture-blog-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-blog-3-opt/</link>
 					<pubDate>Tue, 16 Jul 2024 12:55:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-3-opt.jpg</guid>
 															<wp:post_id>208</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 12:55:17]]></wp:post_date>
@@ -201,7 +199,7 @@
 					<title><![CDATA[wd-furniture-blog-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-blog-4-opt/</link>
 					<pubDate>Tue, 16 Jul 2024 12:55:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-4-opt.jpg</guid>
 															<wp:post_id>209</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 12:55:18]]></wp:post_date>
@@ -224,7 +222,7 @@
 					<title><![CDATA[wd-furniture-blog-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-blog-5-opt/</link>
 					<pubDate>Tue, 16 Jul 2024 12:55:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-5-opt.jpg</guid>
 															<wp:post_id>210</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 12:55:19]]></wp:post_date>
@@ -247,7 +245,7 @@
 					<title><![CDATA[wd-furniture-blog-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-blog-6-opt/</link>
 					<pubDate>Tue, 16 Jul 2024 12:55:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-blog-6-opt.jpg</guid>
 															<wp:post_id>211</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 12:55:20]]></wp:post_date>
@@ -270,7 +268,7 @@
 					<title><![CDATA[wd-furniture-choosing-rules-video-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/home-furniture2/wd-furniture-choosing-rules-video-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 06:33:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-choosing-rules-video-opt.jpg</guid>
 															<wp:post_id>501</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 06:33:39]]></wp:post_date>
@@ -293,7 +291,7 @@
 					<title><![CDATA[wd-furniture-gift-card-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/gift-cards/wd-furniture-gift-card-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 08:18:49 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-gift-card-opt.jpg</guid>
 															<wp:post_id>557</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 08:18:49]]></wp:post_date>
@@ -316,7 +314,7 @@
 					<title><![CDATA[wd-furniture-e-gift-card-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/gift-cards/wd-furniture-e-gift-card-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 08:18:53 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-e-gift-card-opt.jpg</guid>
 															<wp:post_id>558</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 08:18:53]]></wp:post_date>
@@ -339,7 +337,7 @@
 					<title><![CDATA[wd-furniture-about-us-video-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/about-us/wd-furniture-about-us-video-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:00:08 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-about-us-video-opt.jpg</guid>
 															<wp:post_id>605</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:00:08]]></wp:post_date>
@@ -362,7 +360,7 @@
 					<title><![CDATA[wd-furniture-2-single-post-image-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-2-single-post-image-1-opt/</link>
 					<pubDate>Mon, 22 Jul 2024 08:54:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-2-single-post-image-1-opt.jpg</guid>
 															<wp:post_id>722</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 08:54:18]]></wp:post_date>
@@ -385,7 +383,7 @@
 					<title><![CDATA[wd-furniture-2-single-post-image-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-2-single-post-image-2-opt/</link>
 					<pubDate>Mon, 22 Jul 2024 08:54:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-2-single-post-image-2-opt.jpg</guid>
 															<wp:post_id>723</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 08:54:19]]></wp:post_date>
@@ -408,7 +406,7 @@
 					<title><![CDATA[wd-furniture-2-single-post-image-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-2-single-post-image-5-opt/</link>
 					<pubDate>Mon, 22 Jul 2024 08:54:20 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-2-single-post-image-5-opt.jpg</guid>
 															<wp:post_id>724</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 08:54:20]]></wp:post_date>
@@ -431,7 +429,7 @@
 					<title><![CDATA[wd-furniture-2-single-post-image-6-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/2024/07/16/in-the-heart-of-valencia/wd-furniture-2-single-post-image-6-opt/</link>
 					<pubDate>Mon, 22 Jul 2024 08:54:21 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-2-single-post-image-6-opt.jpg</guid>
 															<wp:post_id>725</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 08:54:21]]></wp:post_date>
@@ -454,7 +452,7 @@
 					<title><![CDATA[description-about-brand-3-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=775</link>
 					<pubDate>Mon, 22 Jul 2024 11:48:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/description-about-brand-3-opt.jpg</guid>
 															<wp:post_id>775</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-22 11:48:33]]></wp:post_date>
@@ -477,7 +475,7 @@
 					<title><![CDATA[wd-furniture-long-arrow-white]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/gift-cards/wd-furniture-long-arrow-white/</link>
 					<pubDate>Thu, 08 Aug 2024 11:29:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/08/wd-furniture-long-arrow-white.svg</guid>
 															<wp:post_id>865</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-08 11:29:48]]></wp:post_date>
@@ -500,7 +498,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-9-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=62</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-9-1.jpg</guid>
 															<wp:post_id>62</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:41]]></wp:post_date>
@@ -527,7 +525,7 @@
 					<title><![CDATA[wd-furniture-tables-prod-4-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=67</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-tables-prod-4-1.jpg</guid>
 															<wp:post_id>67</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:42]]></wp:post_date>
@@ -554,7 +552,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-15-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=71</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-15-1.jpg</guid>
 															<wp:post_id>71</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:43]]></wp:post_date>
@@ -581,7 +579,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-6-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=72</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-6-1.jpg</guid>
 															<wp:post_id>72</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:43]]></wp:post_date>
@@ -608,7 +606,7 @@
 					<title><![CDATA[wd-furniture-tables-prod-15-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=73</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-tables-prod-15-1.jpg</guid>
 															<wp:post_id>73</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:43]]></wp:post_date>
@@ -635,7 +633,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-14-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=74</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:43 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-14-1.jpg</guid>
 															<wp:post_id>74</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:43]]></wp:post_date>
@@ -662,7 +660,7 @@
 					<title><![CDATA[wd-furniture-armchairs-prod-15-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=75</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-armchairs-prod-15-1.jpg</guid>
 															<wp:post_id>75</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:44]]></wp:post_date>
@@ -689,7 +687,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-9-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=76</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-9-1.jpg</guid>
 															<wp:post_id>76</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:44]]></wp:post_date>
@@ -716,7 +714,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-14-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=77</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-14-1.jpg</guid>
 															<wp:post_id>77</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:44]]></wp:post_date>
@@ -743,7 +741,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-10-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=78</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-10-1.jpg</guid>
 															<wp:post_id>78</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:44]]></wp:post_date>
@@ -770,7 +768,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-8-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=79</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-8-1.jpg</guid>
 															<wp:post_id>79</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:45]]></wp:post_date>
@@ -797,7 +795,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-13-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=85</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-13-3.jpg</guid>
 															<wp:post_id>85</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:46]]></wp:post_date>
@@ -824,7 +822,7 @@
 					<title><![CDATA[wd-furniture-armchairs-prod-2-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=86</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-armchairs-prod-2-2.jpg</guid>
 															<wp:post_id>86</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:46]]></wp:post_date>
@@ -851,7 +849,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-7-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=87</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-7-1.jpg</guid>
 															<wp:post_id>87</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:46]]></wp:post_date>
@@ -878,7 +876,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-15-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=88</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-15-1.jpg</guid>
 															<wp:post_id>88</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:46]]></wp:post_date>
@@ -905,7 +903,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-12-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=95</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-12-1.jpg</guid>
 															<wp:post_id>95</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:48]]></wp:post_date>
@@ -932,7 +930,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-8-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=97</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-8-1.jpg</guid>
 															<wp:post_id>97</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:49]]></wp:post_date>
@@ -959,7 +957,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-10-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=100</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-10-1.jpg</guid>
 															<wp:post_id>100</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:49]]></wp:post_date>
@@ -986,7 +984,7 @@
 					<title><![CDATA[wd-furniture-tables-prod-13-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=102</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:50 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-tables-prod-13-1.jpg</guid>
 															<wp:post_id>102</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:50]]></wp:post_date>
@@ -1013,7 +1011,7 @@
 					<title><![CDATA[wd-furniture-armchairs-prod-12-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=136</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-armchairs-prod-12-1.jpg</guid>
 															<wp:post_id>136</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:54]]></wp:post_date>
@@ -1040,7 +1038,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-1-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=60</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:41 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-1-1.jpg</guid>
 															<wp:post_id>60</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:41]]></wp:post_date>
@@ -1067,7 +1065,7 @@
 					<title><![CDATA[wd-furniture-armchairs-prod-1-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=69</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:42 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-armchairs-prod-1-1.jpg</guid>
 															<wp:post_id>69</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:42]]></wp:post_date>
@@ -1094,7 +1092,7 @@
 					<title><![CDATA[wd-furniture-chair-prod-11-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=81</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:45 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-chair-prod-11-1.jpg</guid>
 															<wp:post_id>81</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:45]]></wp:post_date>
@@ -1121,7 +1119,7 @@
 					<title><![CDATA[wd-furniture-tables-prod-12-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=92</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-tables-prod-12-1.jpg</guid>
 															<wp:post_id>92</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:47]]></wp:post_date>
@@ -1148,7 +1146,7 @@
 					<title><![CDATA[wd-furniture-armchairs-prod-2-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=93</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-armchairs-prod-2-1.jpg</guid>
 															<wp:post_id>93</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:48]]></wp:post_date>
@@ -1175,7 +1173,7 @@
 					<title><![CDATA[wd-furniture-sofas-prod-16-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/furniture2-gutenberg/?attachment_id=99</link>
 					<pubDate>Tue, 16 Jul 2024 11:17:49 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/furniture2-gutenberg/wp-content/uploads/sites/28/2024/07/wd-furniture-sofas-prod-16-1.jpg</guid>
 															<wp:post_id>99</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-16 11:17:49]]></wp:post_date>

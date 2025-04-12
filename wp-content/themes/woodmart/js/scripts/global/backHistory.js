@@ -5,7 +5,7 @@
 	});
 
 	woodmartThemeModule.backHistory = function() {
-		$('.wd-back-btn > a').on('click', function(e) {
+		$('.wd-back-btn > a').off('click').on('click', function(e) {
 			e.preventDefault();
 
 			history.go(-1);

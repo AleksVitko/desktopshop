@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-28 15:02" -->
+	<!-- generator="WordPress/6.5.5" created="2024-12-08 08:38" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,14 @@
 	<title>Gutenberg base</title>
 	<link>https://dummy.xtemos.com/woodmart2/gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 28 Oct 2024 15:02:48 +0000</pubDate>
+	<pubDate>Sun, 08 Dec 2024 08:38:01 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[Mr. Mackay]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
+	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[Ethan Smith]]></wp:author_login><wp:author_email><![CDATA[ethan_smith@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
 
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
@@ -51,7 +51,7 @@
 					<title><![CDATA[promo-popup]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/promo-popup-2/</link>
 					<pubDate>Mon, 19 Jul 2021 11:35:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2021/07/promo-popup.jpg</guid>
 															<wp:post_id>936</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-19 11:35:48]]></wp:post_date>
@@ -74,7 +74,7 @@
 					<title><![CDATA[page-title-shop]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/page-title-shop/</link>
 					<pubDate>Fri, 23 Jul 2021 06:08:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2021/07/page-title-shop.jpg</guid>
 															<wp:post_id>1177</wp:post_id>
 					<wp:post_date><![CDATA[2021-07-23 06:08:22]]></wp:post_date>
@@ -97,7 +97,7 @@
 					<title><![CDATA[fashion-cat-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-cat-1/</link>
 					<pubDate>Mon, 10 Jun 2024 12:33:33 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-cat-1.jpg</guid>
 															<wp:post_id>15031</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:33:33]]></wp:post_date>
@@ -120,7 +120,7 @@
 					<title><![CDATA[fashion-cat-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-cat-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:33:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-cat-2.jpg</guid>
 															<wp:post_id>15032</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:33:34]]></wp:post_date>
@@ -143,7 +143,7 @@
 					<title><![CDATA[fashion-cat-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-cat-3/</link>
 					<pubDate>Mon, 10 Jun 2024 12:33:34 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-cat-3.jpg</guid>
 															<wp:post_id>15033</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:33:34]]></wp:post_date>
@@ -166,7 +166,7 @@
 					<title><![CDATA[fashion-cat-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-cat-4/</link>
 					<pubDate>Mon, 10 Jun 2024 12:33:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-cat-4.jpg</guid>
 															<wp:post_id>15034</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:33:35]]></wp:post_date>
@@ -189,7 +189,7 @@
 					<title><![CDATA[fashion-cat-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-cat-5/</link>
 					<pubDate>Mon, 10 Jun 2024 12:33:35 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-cat-5.jpg</guid>
 															<wp:post_id>15035</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:33:35]]></wp:post_date>
@@ -212,7 +212,7 @@
 					<title><![CDATA[fashion-cat-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-cat-6/</link>
 					<pubDate>Mon, 10 Jun 2024 12:33:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-cat-6.jpg</guid>
 															<wp:post_id>15036</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:33:36]]></wp:post_date>
@@ -235,7 +235,7 @@
 					<title><![CDATA[fashion-product-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-1/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-1.jpg</guid>
 															<wp:post_id>15037</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:36]]></wp:post_date>
@@ -258,7 +258,7 @@
 					<title><![CDATA[fashion-product-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:36 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-2.jpg</guid>
 															<wp:post_id>15038</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:36]]></wp:post_date>
@@ -281,7 +281,7 @@
 					<title><![CDATA[fashion-product-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-3/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-3.jpg</guid>
 															<wp:post_id>15039</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:37]]></wp:post_date>
@@ -304,7 +304,7 @@
 					<title><![CDATA[fashion-product-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-4/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:37 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-4.jpg</guid>
 															<wp:post_id>15040</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:37]]></wp:post_date>
@@ -327,7 +327,7 @@
 					<title><![CDATA[fashion-product-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-5/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-5.jpg</guid>
 															<wp:post_id>15041</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:38]]></wp:post_date>
@@ -350,7 +350,7 @@
 					<title><![CDATA[fashion-product-6-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-6-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:38 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-6-2.jpg</guid>
 															<wp:post_id>15042</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:38]]></wp:post_date>
@@ -373,7 +373,7 @@
 					<title><![CDATA[fashion-product-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-6/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-6.jpg</guid>
 															<wp:post_id>15043</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:39]]></wp:post_date>
@@ -396,7 +396,7 @@
 					<title><![CDATA[fashion-product-7-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-7-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-7-2.jpg</guid>
 															<wp:post_id>15044</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:39]]></wp:post_date>
@@ -419,7 +419,7 @@
 					<title><![CDATA[fashion-product-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-7/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-7.jpg</guid>
 															<wp:post_id>15045</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:40]]></wp:post_date>
@@ -442,7 +442,7 @@
 					<title><![CDATA[fashion-product-8]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-8/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:40 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-8.jpg</guid>
 															<wp:post_id>15046</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:40]]></wp:post_date>
@@ -465,7 +465,7 @@
 					<title><![CDATA[fashion-product-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-9/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-9.jpg</guid>
 															<wp:post_id>15047</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:41]]></wp:post_date>
@@ -488,7 +488,7 @@
 					<title><![CDATA[fashion-product-10]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-product-10/</link>
 					<pubDate>Mon, 10 Jun 2024 12:34:41 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-product-10.jpg</guid>
 															<wp:post_id>15048</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:34:41]]></wp:post_date>
@@ -511,7 +511,7 @@
 					<title><![CDATA[jewellery-testimonial-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-2/</link>
 					<pubDate>Mon, 13 May 2024 12:34:32 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-2.jpg</guid>
 															<wp:post_id>11065</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:34:32]]></wp:post_date>
@@ -534,7 +534,7 @@
 					<title><![CDATA[wood-testimon-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-lingerie/wood-testimon-2/</link>
 					<pubDate>Mon, 03 Jun 2024 12:40:04 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/wood-testimon-2.jpg</guid>
 															<wp:post_id>14031</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-03 12:40:04]]></wp:post_date>
@@ -557,7 +557,7 @@
 					<title><![CDATA[Home Fashion]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/</link>
 					<pubDate>Mon, 10 Jun 2024 12:08:39 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?page_id=15003</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"abb3a88c-3e03-4c5d-b526-c5c96172515a","marginTop":"-40","marginBottom":"30"} -->
 <div id="wd-abb3a88c" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"43fc8bdc-9ddb-416c-b564-bc6ae2eddd76","adjacentCount":2,"colWidth":25,"blocksGap":0,"hideOnTablet":true,"hideOnMobile":true,"adjacentCountTablet":1,"colWidthTablet":25} -->
@@ -701,17 +701,17 @@
 <!-- /wp:wd/carousel-item --></div></div><div class="wd-nav-arrows wd-pos-sep wd-hover-1 wd-icon-1"><div class="wd-btn-arrow wd-prev"><div class="wd-arrow-inner"></div></div><div class="wd-btn-arrow wd-next"><div class="wd-arrow-inner"></div></div></div></div></div>
 <!-- /wp:wd/carousel -->
 
-<!-- wp:wd/container {"blockId":"45176aa7-a69a-4509-8d0e-d85bf36f7532","rowGap":"10","marginBottom":"30"} -->
-<div id="wd-45176aa7" class="wp-block-wd-container wd-dir-col"><!-- wp:wd/paragraph {"blockId":"eeda7c27-20c7-46c9-aaa6-af2b51b853ed","textAlign":"center","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600"} -->
-<p id="wd-eeda7c27" class="wp-block-wd-paragraph wd-align">WELCOME TO WOODMART​</p>
+<!-- wp:wd/container {"blockId":"45176aa7-a69a-4509-8d0e-d85bf36f7532","textAlign":"center","rowGap":"10","marginBottom":"30"} -->
+<div id="wd-45176aa7" class="wp-block-wd-container wd-dir-col wd-align"><!-- wp:wd/paragraph {"blockId":"eeda7c27-20c7-46c9-aaa6-af2b51b853ed","colorVariable":"\u002d\u002dwd-primary-color","tpFontVariant":"600","tpFontWeight":"600"} -->
+<p id="wd-eeda7c27" class="wp-block-wd-paragraph">WELCOME TO WOODMART​</p>
 <!-- /wp:wd/paragraph -->
 
-<!-- wp:wd/title {"blockId":"b8c63c2a-3398-4097-8b90-43a07a0e6c60","textAlign":"center","content":"FEATURED PRODUCTS","tpFontSize":"36","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
-<h2 id="wd-b8c63c2a" class="wp-block-wd-title title wd-align">FEATURED PRODUCTS</h2>
+<!-- wp:wd/title {"blockId":"b8c63c2a-3398-4097-8b90-43a07a0e6c60","content":"FEATURED PRODUCTS","tpFontSize":"36","tpFontSizeTablet":"22","tpFontSizeMobile":"20"} -->
+<h2 id="wd-b8c63c2a" class="wp-block-wd-title title">FEATURED PRODUCTS</h2>
 <!-- /wp:wd/title -->
 
-<!-- wp:wd/paragraph {"blockId":"2d40e157-c2d5-437d-b568-5e24b9730adf","textAlign":"center","alignSelf":"center","displayWidth":"custom","customWidth":"497"} -->
-<p id="wd-2d40e157" class="wp-block-wd-paragraph wd-align wd-custom-width wd-align-s-center">Nec sem consequat mi gravida augue augue suspendisse condimentum condimentum vestibulum augue mi gravida ugue.​</p>
+<!-- wp:wd/paragraph {"blockId":"2d40e157-c2d5-437d-b568-5e24b9730adf","displayWidth":"custom","customWidth":"497"} -->
+<p id="wd-2d40e157" class="wp-block-wd-paragraph wd-custom-width">Nec sem consequat mi gravida augue augue suspendisse condimentum condimentum vestibulum augue mi gravida ugue.​</p>
 <!-- /wp:wd/paragraph --></div>
 <!-- /wp:wd/container -->
 
@@ -839,8 +839,8 @@
 															<wp:post_id>15003</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:08:39]]></wp:post_date>
 					<wp:post_date_gmt><![CDATA[2024-06-10 12:08:39]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 13:26:22]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 13:26:22]]></wp:post_modified_gmt>
+					<wp:post_modified><![CDATA[2024-11-20 15:36:44]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-11-20 15:36:44]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 					<wp:post_name><![CDATA[home-fashion]]></wp:post_name>
 					<wp:status><![CDATA[publish]]></wp:status>
@@ -872,7 +872,7 @@
 					<title><![CDATA[Prefooter Fashion]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=prefooter-fashion</link>
 					<pubDate>Mon, 10 Jun 2024 12:16:05 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=15005</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/section {"blockId":"82966c84-b3b5-4553-baa0-7a2bac10bfae","borderType":"solid","borderColorCode":"rgba(129,129,129,0.2)","borderWidthTop":"1","borderWidthLock":false} -->
 <div id="wd-82966c84" class="wp-block-wd-section"><!-- wp:wd/row {"blockId":"1848cb7b-45a9-4333-b9af-ba1202d32aac","paddingTop":"40","borderWidthLock":false,"paddingBottomTablet":"0"} -->
@@ -933,7 +933,7 @@
 					<title><![CDATA[fashion-banner-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-banner-1/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:15 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-banner-1.jpg</guid>
 															<wp:post_id>15006</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:15]]></wp:post_date>
@@ -956,7 +956,7 @@
 					<title><![CDATA[fashion-banner-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-banner-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-banner-2.jpg</guid>
 															<wp:post_id>15007</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:16]]></wp:post_date>
@@ -979,7 +979,7 @@
 					<title><![CDATA[fashion-banner-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-banner-3/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:16 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-banner-3.jpg</guid>
 															<wp:post_id>15008</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:16]]></wp:post_date>
@@ -1002,7 +1002,7 @@
 					<title><![CDATA[fashion-bg-testimon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-bg-testimon/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-bg-testimon.jpg</guid>
 															<wp:post_id>15009</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:17]]></wp:post_date>
@@ -1025,7 +1025,7 @@
 					<title><![CDATA[fashion-quote-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-quote-1/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:17 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-quote-1.svg</guid>
 															<wp:post_id>15010</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:17]]></wp:post_date>
@@ -1048,7 +1048,7 @@
 					<title><![CDATA[fashion-slide-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-slide-1/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-slide-1.jpg</guid>
 															<wp:post_id>15011</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:18]]></wp:post_date>
@@ -1071,7 +1071,7 @@
 					<title><![CDATA[fashion-slide-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-slide-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:18 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-slide-2.jpg</guid>
 															<wp:post_id>15012</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:18]]></wp:post_date>
@@ -1094,7 +1094,7 @@
 					<title><![CDATA[fashion-slide-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-fashion/fashion-slide-3/</link>
 					<pubDate>Mon, 10 Jun 2024 12:23:19 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-slide-3.jpg</guid>
 															<wp:post_id>15013</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:23:19]]></wp:post_date>
@@ -1117,7 +1117,7 @@
 					<title><![CDATA[fashion-blog-img-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-1/</link>
 					<pubDate>Mon, 10 Jun 2024 12:35:58 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-1.jpg</guid>
 															<wp:post_id>15049</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:35:58]]></wp:post_date>
@@ -1140,7 +1140,7 @@
 					<title><![CDATA[fashion-blog-img-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-2/</link>
 					<pubDate>Mon, 10 Jun 2024 12:35:59 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-2.jpg</guid>
 															<wp:post_id>15050</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:35:59]]></wp:post_date>
@@ -1163,7 +1163,7 @@
 					<title><![CDATA[fashion-blog-img-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-3/</link>
 					<pubDate>Mon, 10 Jun 2024 12:36:00 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-3.jpg</guid>
 															<wp:post_id>15051</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:36:00]]></wp:post_date>
@@ -1186,7 +1186,7 @@
 					<title><![CDATA[fashion-blog-img-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-4/</link>
 					<pubDate>Mon, 10 Jun 2024 12:36:00 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-4.jpg</guid>
 															<wp:post_id>15052</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:36:00]]></wp:post_date>
@@ -1209,7 +1209,7 @@
 					<title><![CDATA[fashion-blog-img-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-5/</link>
 					<pubDate>Mon, 10 Jun 2024 12:36:01 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-5.jpg</guid>
 															<wp:post_id>15053</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:36:01]]></wp:post_date>
@@ -1232,7 +1232,7 @@
 					<title><![CDATA[fashion-blog-img-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-6/</link>
 					<pubDate>Mon, 10 Jun 2024 12:36:02 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-6.jpg</guid>
 															<wp:post_id>15054</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:36:02]]></wp:post_date>
@@ -1255,7 +1255,7 @@
 					<title><![CDATA[fashion-blog-img-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-7/</link>
 					<pubDate>Mon, 10 Jun 2024 12:36:02 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-7.jpg</guid>
 															<wp:post_id>15055</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:36:02]]></wp:post_date>
@@ -1278,7 +1278,7 @@
 					<title><![CDATA[fashion-blog-img-9]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/fashion-blog-img-9/</link>
 					<pubDate>Mon, 10 Jun 2024 12:36:03 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/06/fashion-blog-img-9.jpg</guid>
 															<wp:post_id>15056</wp:post_id>
 					<wp:post_date><![CDATA[2024-06-10 12:36:03]]></wp:post_date>
@@ -1301,7 +1301,7 @@
 					<title><![CDATA[wood-logo-white-reserve]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/wood-logo-white-reserve/</link>
 					<pubDate>Wed, 21 Jun 2017 08:17:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2017/06/wood-logo-white-reserve.svg</guid>
 															<wp:post_id>302</wp:post_id>
 					<wp:post_date><![CDATA[2017-06-21 08:17:11]]></wp:post_date>
@@ -1324,7 +1324,7 @@
 					<title><![CDATA[jewellery-testimonial-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/home-jewellery/jewellery-testimonial-3/</link>
 					<pubDate>Mon, 13 May 2024 12:35:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/jewellery-testimonial-3.jpg</guid>
 															<wp:post_id>11067</wp:post_id>
 					<wp:post_date><![CDATA[2024-05-13 12:35:14]]></wp:post_date>
@@ -1347,7 +1347,7 @@
 					<title><![CDATA[Footer 1 column Light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?cms_block=footer-1-column-light</link>
 					<pubDate>Fri, 24 May 2024 13:40:27 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/?post_type=cms_block&#038;p=12962</guid>
 											<content:encoded><![CDATA[<!-- wp:wd/row {"blockId":"44ed7d08-e070-4837-b8c5-83401769c4d1","paddingTop":"40","paddingBottom":"40"} -->
 <div id="wd-44ed7d08" class="wp-block-wd-row"><!-- wp:wd/column {"blockId":"d5a06582-d2b6-4d73-83f9-ccc08f331d22","adjacentCount":5,"colWidth":25,"adjacentCountTablet":2,"adjacentCountMobile":1,"colWidthTablet":50,"colWidthMobile":100} -->
@@ -1534,7 +1534,7 @@
 					<title><![CDATA[wd-cursor-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34179</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-cursor-light.svg</guid>
 															<wp:post_id>34179</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:47]]></wp:post_date>
@@ -1557,7 +1557,7 @@
 					<title><![CDATA[wd-envelope-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34180</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:47 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-envelope-light.svg</guid>
 															<wp:post_id>34180</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:47]]></wp:post_date>
@@ -1580,7 +1580,7 @@
 					<title><![CDATA[wd-phone-light]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/gutenberg/?attachment_id=34181</link>
 					<pubDate>Mon, 28 Oct 2024 10:31:48 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Ethan Smith]]></dc:creator>
 					<guid isPermaLink="false">https://dummy.xtemos.com/woodmart2/gutenberg/wp-content/uploads/sites/24/2024/05/wd-phone-light.svg</guid>
 															<wp:post_id>34181</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 10:31:48]]></wp:post_date>

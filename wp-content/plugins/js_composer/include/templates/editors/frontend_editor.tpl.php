@@ -19,13 +19,13 @@ $post_title = trim( $post->post_title );
 $nonce_action = $nonce_action = 'update-post_' . $editor->post_id;
 $user_ID = isset( $editor->current_user ) && isset( $editor->current_user->ID ) ? (int) $editor->current_user->ID : 0;
 $form_action = 'editpost';
-$menu = array();
+$menu = [];
 $plugin_page = 'js_composer';
 $title = __( 'Frontend Editor', 'js_composer' );
 // we use it in case to repair editor if iframe url has redirect.
 $editor->setFrontendEditorTransient( $post_ID );
 add_thickbox();
-wp_enqueue_media( array( 'post' => $editor->post_id ) );
+wp_enqueue_media( [ 'post' => $editor->post_id ] );
 require_once $editor->adminFile( 'admin-header.php' );
 // @since 4.8 js logic for user role access manager.
 vc_include_template( 'editors/partials/access-manager-js.tpl.php' );
@@ -41,6 +41,7 @@ $modules = vc_modules_manager()->get_settings();
 		window.wpbGutenbergEditorUrl = '<?php echo esc_js( set_url_scheme( admin_url( 'post-new.php?post_type=wpb_gutenberg_param' ) ) ); ?>';
 		window.vc_modules = <?php echo wp_json_encode( $modules ); ?>;
 	</<?php echo esc_attr( $custom_tag ); ?>>
+	<?php // we use vc_title-saved value to check if we should open settings when clicking to h1 tag that has value saved by us. ?>
 	<input type="hidden" name="vc_post_title" id="vc_title-saved" value="<?php echo esc_attr( $post_title ); ?>"/>
 	<input type="hidden" name="vc_post_id" id="vc_post-id" value="<?php echo esc_attr( $editor->post_id ); ?>"/>
 <?php
@@ -98,8 +99,8 @@ if ( vc_user_access()->part( 'presets' )->can()->get() ) {
 	$vc_vendor_settings_presets = Vc_Settings_Preset::listDefaultVendorSettingsPresets();
 	$vc_all_presets = Vc_Settings_Preset::listAllPresets();
 } else {
-	$vc_vendor_settings_presets = array();
-	$vc_all_presets = array();
+	$vc_vendor_settings_presets = [];
+	$vc_all_presets = [];
 }
 // [/shortcodes presets data]
 
@@ -128,15 +129,15 @@ vc_include_template(
 		<?php
 		// Disable notice in edit-form-advanced.php.
 		$is_IE = false;
-		wp_editor( '', 'vc-hidden-editor', array(
+		wp_editor( '', 'vc-hidden-editor', [
 			'editor_height' => 300,
-			'tinymce' => array(
+			'tinymce' => [
 				'resize' => false,
 				'wp_autoresize_on' => false,
 				'add_unload_trigger' => false,
 				'wp_keep_scroll_position' => ! $is_IE,
-			),
-		) );
+			],
+		] );
 		// Fix: WP 4.0.
 		wp_dequeue_script( 'editor-expand' );
 		do_action( 'vc_frontend_editor_render_template' );

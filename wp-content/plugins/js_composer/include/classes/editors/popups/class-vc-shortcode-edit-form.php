@@ -35,29 +35,29 @@ class Vc_Shortcode_Edit_Form {
 		}
 		$this->initialized = true;
 
-		add_action( 'wp_ajax_vc_edit_form', array(
+		add_action( 'wp_ajax_vc_edit_form', [
 			$this,
 			'renderFields',
-		) );
+		] );
 
-		add_filter( 'vc_single_param_edit', array(
+		add_filter( 'vc_single_param_edit', [
 			$this,
 			'changeEditFormFieldParams',
-		) );
-		add_filter( 'vc_edit_form_class', array(
+		] );
+		add_filter( 'vc_edit_form_class', [
 			$this,
 			'changeEditFormParams',
-		) );
+		] );
 	}
 
 	/**
 	 * Render the edit form template.
 	 */
 	public function render() {
-		vc_include_template( 'editors/popups/vc_ui-panel-edit-element.tpl.php', array(
+		vc_include_template( 'editors/popups/vc_ui-panel-edit-element.tpl.php', [
 			'box' => $this,
 			'controls' => $this->getPopupControls(),
-		) );
+		] );
 	}
 
 	/**
@@ -91,10 +91,10 @@ class Vc_Shortcode_Edit_Form {
 	 */
 	public function renderFields() {
 		$tag = vc_post_param( 'tag' );
-		vc_user_access()->checkAdminNonce()->validateDie( esc_html__( 'Access denied', 'js_composer' ) )->wpAny( array(
+		vc_user_access()->checkAdminNonce()->validateDie( esc_html__( 'Access denied', 'js_composer' ) )->wpAny( [
 			'edit_post',
 			(int) vc_request_param( 'post_id' ),
-		) )->validateDie( esc_html__( 'Access denied', 'js_composer' ) )->check( 'vc_user_access_check_shortcode_edit', $tag )->validateDie( esc_html__( 'Access denied', 'js_composer' ) );
+		] )->validateDie( esc_html__( 'Access denied', 'js_composer' ) )->check( 'vc_user_access_check_shortcode_edit', $tag )->validateDie( esc_html__( 'Access denied', 'js_composer' ) );
 
 		$params = (array) stripslashes_deep( vc_post_param( 'params' ) );
 		$params = array_map( 'vc_htmlspecialchars_decode_deep', $params );
@@ -116,7 +116,7 @@ class Vc_Shortcode_Edit_Form {
 	public function updateElementUsageCount( $tag ) {
 		$is_usage_count = vc_post_param( 'usage_count' );
 		if ( $is_usage_count ) {
-			$usage_count = get_option( 'wpb_usage_count', array() );
+			$usage_count = get_option( 'wpb_usage_count', [] );
 			$usage_count[ $tag ] = isset( $usage_count[ $tag ] ) ? $usage_count[ $tag ] + 1 : 1;
 			update_option( 'wpb_usage_count', $usage_count );
 		}

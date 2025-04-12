@@ -27,7 +27,6 @@ if ( !window.vc ) {
 				'click [data-vc-ui-element="panel-tab-control"]': 'changeTab',
 				'click [data-vc-ui-element="button-save"]': 'save',
 				'click [data-vc-ui-element="button-minimize"]': 'toggleOpacity',
-				'click .vc_icon-remove': 'removeImage',
 				'change #vc_ui-seo-social .gallery_widget_attached_images_ids': 'updateImagePreview',
 				'input #social-title-x, #social-title-facebook': 'updateTitlePreview',
 				'input #social-description-x, #social-description-facebook': 'updateDescriptionPreview',
@@ -78,22 +77,6 @@ if ( !window.vc ) {
 				var activeIndex = $parent.data( 'tabIndex' );
 				this.$tabs.filter( '[data-tab-index="' + activeIndex + '"]' ).addClass( 'vc_active' );
 			},
-			removeImage: function ( e ) {
-				var $control = $( e.currentTarget );
-				var wrapper = $control.closest( '.edit_form_line' );
-				var socialNetSlug = wrapper.attr( 'data-social-net-preview-slug' );
-				var preview = $( '#' + socialNetSlug );
-				preview.find( '.wpb-social-placeholder-image' ).show();
-				var image = preview.find( 'img' );
-				image.attr( 'src', '' );
-				wrapper.find( '.gallery_widget_attached_images_ids' ).val( '' );
-
-				if ( e && e.preventDefault ) {
-					e.preventDefault();
-				}
-				$control.parent().remove();
-
-			},
 			updateImagePreview: function ( e ) {
 				var $control = $( e.currentTarget );
 				var wrapper = $control.closest( '.edit_form_line' );
@@ -133,26 +116,24 @@ if ( !window.vc ) {
 					pagePreview.addClass( 'desktop-view' );
 				}
 			},
-			createSlug: function ( inputString ) {
-				var slug = inputString.toLowerCase();
-				//	Remove spaces and replace with hyphens
-				slug = slug.replace( /\s+/g, '-' );
-				//	Remove special characters
-				slug = slug.replace( /[^a-zA-Z0-9\-]/g, '' );
-				//	Remove trailing and leading punctuation
-				slug = slug.replace( /^[.,!?()[]{}<>:;]+|[.,!?()[]{}<>:;]+$/g, '' );
-
-				return slug;
-			},
 			updateGeneralPreviewText: function ( e ) {
 				var value = $( e.currentTarget ).val();
 				if ( 'vc_seo-slug-field' === $( e.currentTarget ).attr( 'id' ) ) {
-					value = this.createSlug( value );
+					value = window.vc.utils.slugify( value );
+					this.updatePostSettingsSlug( value );
 				}
 				var previewElementId = $( e.currentTarget ).data( 'preview' );
 				var previewElement = this.$el.find( '#' + previewElementId );
 				if ( previewElement ) {
 					previewElement.text( value );
+				}
+			},
+			updatePostSettingsSlug: function ( slug ) {
+				$( '#vc_post_name' ).val( slug );
+				var $slugLink = $( '.wpb-post-url--slug' );
+
+				if ( $slugLink ) {
+					$slugLink.text( slug );
 				}
 			},
 			handleInputChange: function ( e ) {

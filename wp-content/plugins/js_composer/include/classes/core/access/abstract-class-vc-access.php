@@ -60,13 +60,13 @@ abstract class Vc_Access {
 			$access = ! $valid;
 			foreach ( $argsList as $args ) {
 				if ( ! is_array( $args ) ) {
-					$args = array( $args );
+					$args = [ $args ];
 				}
 				$this->setValidAccess( true );
-				call_user_func_array( array(
+				call_user_func_array( [
 					$this,
 					$method,
-				), $args );
+				], $args );
 				if ( $valid === $this->getValidAccess() ) {
 					$access = $valid;
 					break;

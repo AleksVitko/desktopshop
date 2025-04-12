@@ -31,10 +31,10 @@ class WPBakeryShortCode_Vc_Tta_Toggle_Section extends WPBakeryShortCode_Vc_Tta_S
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'add',
 		'edit',
-	);
+	];
 
 	/**
 	 * Get template shortcode file name.

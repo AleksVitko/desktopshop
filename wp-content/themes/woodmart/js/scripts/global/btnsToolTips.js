@@ -23,12 +23,22 @@
 
 	woodmartThemeModule.btnsToolTips = function() {
 		// Bootstrap tooltips
-		$(woodmart_settings.tooltip_top_selector).on('mouseenter touchstart', function() {
+		$(woodmart_settings.tooltip_top_selector).on('mouseenter', function() {
 			initTooltip($(this), 'top');
 		});
+		document.querySelectorAll(woodmart_settings.tooltip_top_selector).forEach(el => {
+			el.addEventListener('touchstart', function(event) {
+				initTooltip($(this), 'top');
+			}, { passive: true });
+		});
 
-		$(woodmart_settings.tooltip_left_selector).on('mouseenter touchstart', function() {
+		$(woodmart_settings.tooltip_left_selector).on('mouseenter', function() {
 			initTooltip($(this), woodmartThemeModule.$body.hasClass('rtl') ? 'right' : 'left');
+		});
+		document.querySelectorAll(woodmart_settings.tooltip_left_selector).forEach(el => {
+			el.addEventListener('touchstart', function(event) {
+				initTooltip($(this), woodmartThemeModule.$body.hasClass('rtl') ? 'right' : 'left');
+			}, { passive: true });
 		});
 
 		function initTooltip( $this, placement ) {
@@ -82,7 +92,7 @@
 			return;
 		}
 
-		$tooltip.tooltip('update').tooltip('show');
+		$tooltip.tooltip('show');
 	};
 
 	$(document).ready(function() {

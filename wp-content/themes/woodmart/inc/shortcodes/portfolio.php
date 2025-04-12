@@ -114,17 +114,12 @@ if ( ! function_exists( 'woodmart_shortcode_portfolio' ) ) {
 
 		woodmart_set_loop_prop( 'portfolio_style', $style );
 		woodmart_set_loop_prop( 'portfolio_column', $columns );
+		woodmart_set_loop_prop( 'portfolio_columns_tablet', $columns_tablet );
+		woodmart_set_loop_prop( 'portfolio_columns_mobile', $columns_mobile );
 		woodmart_set_loop_prop( 'portfolio_image_size', $image_size );
 
 		if ( 'custom' === $image_size && ! empty( $image_size_custom ) ) {
 			woodmart_set_loop_prop( 'portfolio_image_size_custom', $image_size_custom );
-		}
-
-		if ( 'auto' !== $columns_tablet ) {
-			woodmart_set_loop_prop( 'portfolio_columns_tablet', $columns_tablet );
-		}
-		if ( 'auto' !== $columns_mobile ) {
-			woodmart_set_loop_prop( 'portfolio_columns_mobile', $columns_mobile );
 		}
 
 		if ( $style == 'parallax' ) {

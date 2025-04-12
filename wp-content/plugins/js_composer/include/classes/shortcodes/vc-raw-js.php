@@ -33,11 +33,11 @@ class WPBakeryShortCode_Vc_Raw_Js extends WPBakeryShortCode_Vc_Raw_html {
 	 */
 	protected function contentInline( $atts, $content = null ) {
 		$el_class = $width = $el_position = '';
-		extract( shortcode_atts( array(
+		extract( shortcode_atts( [
 			'el_class' => '',
 			'el_position' => '',
 			'width' => '1/2',
-		), $atts ) );
+		], $atts ) );
 
 		$el_class = $this->getExtraClass( $el_class );
 		$el_class .= ' wpb_raw_js';

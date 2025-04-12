@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-10-29 12:08" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-03 15:27" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>makup-elementor</title>
 	<link>https://dummy.xtemos.com/woodmart2/makeup-elementor</link>
 	<description></description>
-	<pubDate>Tue, 29 Oct 2024 12:08:46 +0000</pubDate>
+	<pubDate>Mon, 03 Feb 2025 15:27:52 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/makeup-elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[c2-brnd-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-1/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:07 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-1.svg</guid>
 															<wp:post_id>63</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:07]]></wp:post_date>
@@ -77,7 +76,7 @@
 					<title><![CDATA[c2-brnd-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-2/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-2.svg</guid>
 															<wp:post_id>64</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:08]]></wp:post_date>
@@ -104,7 +103,7 @@
 					<title><![CDATA[c2-brnd-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-3/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:08 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-3.svg</guid>
 															<wp:post_id>65</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:08]]></wp:post_date>
@@ -131,7 +130,7 @@
 					<title><![CDATA[c2-brnd-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-4/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-4.svg</guid>
 															<wp:post_id>66</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:09]]></wp:post_date>
@@ -158,7 +157,7 @@
 					<title><![CDATA[c2-brnd-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-5/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:10 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-5.svg</guid>
 															<wp:post_id>67</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:10]]></wp:post_date>
@@ -185,7 +184,7 @@
 					<title><![CDATA[c2-brnd-6]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-6/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-6.svg</guid>
 															<wp:post_id>68</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:11]]></wp:post_date>
@@ -212,7 +211,7 @@
 					<title><![CDATA[c2-brnd-7]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-brnd-7/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:11 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-brnd-7.svg</guid>
 															<wp:post_id>69</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:11]]></wp:post_date>
@@ -239,7 +238,7 @@
 					<title><![CDATA[c2-logo-blk]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-logo-blk/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-logo-blk.svg</guid>
 															<wp:post_id>70</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:12]]></wp:post_date>
@@ -257,16 +256,12 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024/10/c2-logo-blk.svg]]></wp:meta_value>
 						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="230" height="26" viewBox="0 0 230 26" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M50.5881 26C48.6943 26 46.9647 25.673 45.3991 25.0189C43.8589 24.3396 42.5206 23.4088 41.3843 22.2264C40.248 21.044 39.3643 19.6604 38.733 18.0755C38.127 16.4906 37.824 14.7925 37.824 12.9811C37.824 11.1698 38.127 9.48428 38.733 7.92453C39.3643 6.33962 40.248 4.95597 41.3843 3.77358C42.5206 2.59119 43.8589 1.67295 45.3991 1.01887C46.9647 0.339622 48.6943 0 50.5881 0C52.4819 0 54.2116 0.339622 55.7771 1.01887C57.3426 1.67295 58.6809 2.59119 59.7919 3.77358C60.9282 4.95597 61.7993 6.33962 62.4054 7.92453C63.0366 9.48428 63.3522 11.1698 63.3522 12.9811C63.3522 14.7925 63.0366 16.4906 62.4054 18.0755C61.7993 19.6604 60.9282 21.044 59.7919 22.2264C58.6809 23.4088 57.3426 24.3396 55.7771 25.0189C54.2116 25.673 52.4819 26 50.5881 26ZM50.5881 20.7547C52.1536 20.7547 53.4541 20.4277 54.4893 19.7736C55.5498 19.0943 56.3326 18.1635 56.8376 16.9811C57.3679 15.7987 57.633 14.4654 57.633 12.9811C57.633 11.4717 57.3679 10.1384 56.8376 8.98113C56.3326 7.79874 55.5498 6.8805 54.4893 6.22641C53.4541 5.54717 52.1536 5.20754 50.5881 5.20754C49.0478 5.20754 47.7474 5.54717 46.6869 6.22641C45.6516 6.8805 44.8689 7.79874 44.3386 8.98113C43.8084 10.1384 43.5432 11.4717 43.5432 12.9811C43.5432 14.4654 43.8084 15.7987 44.3386 16.9811C44.8689 18.1635 45.6516 19.0943 46.6869 19.7736C47.7474 20.4277 49.0478 20.7547 50.5881 20.7547Z" fill="#333333"></path><path d="M16.7032 12.4151L13.408 25.6604H6.098L0 0.377358H6.2495L8.93868 14.1887L9.88558 21.8491L11.2112 14.7925L14.5064 0.377358H21.6649L24.9223 14.7925L26.21 21.8491L27.1948 14.1887L29.9219 0.377358H36.1335L29.9976 25.6604H22.6876L19.4303 12.4151L18.0667 4.22641L16.7032 12.4151Z" fill="#333333"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M73.584 25.0189C75.1496 25.673 76.8792 26 78.773 26C80.6668 26 82.3965 25.673 83.962 25.0189C85.5275 24.3396 86.8658 23.4088 87.9768 22.2264C89.1131 21.044 89.9842 19.6604 90.5903 18.0755C91.2215 16.4906 91.5371 14.7925 91.5371 12.9811C91.5371 11.1698 91.2215 9.48428 90.5903 7.92453C89.9842 6.33962 89.1131 4.95597 87.9768 3.77358C86.8658 2.59119 85.5275 1.67295 83.962 1.01887C82.3965 0.339622 80.6668 0 78.773 0C76.8792 0 75.1496 0.339622 73.584 1.01887C72.0438 1.67295 70.7055 2.59119 69.5692 3.77358C68.4329 4.95597 67.5492 6.33962 66.9179 7.92453C66.3119 9.48428 66.0089 11.1698 66.0089 12.9811C66.0089 14.7925 66.3119 16.4906 66.9179 18.0755C67.5492 19.6604 68.4329 21.044 69.5692 22.2264C70.7055 23.4088 72.0438 24.3396 73.584 25.0189ZM82.6742 19.7736C81.6389 20.4277 80.3385 20.7547 78.773 20.7547C77.2327 20.7547 75.9323 20.4277 74.8718 19.7736C73.8365 19.0943 73.0538 18.1635 72.5235 16.9811C71.9933 15.7987 71.7281 14.4654 71.7281 12.9811C71.7281 11.4717 71.9933 10.1384 72.5235 8.98113C73.0538 7.79874 73.8365 6.8805 74.8718 6.22641C75.9323 5.54717 77.2327 5.20754 78.773 5.20754C80.3385 5.20754 81.6389 5.54717 82.6742 6.22641C83.7347 6.8805 84.5175 7.79874 85.0225 8.98113C85.5528 10.1384 85.8179 11.4717 85.8179 12.9811C85.8179 14.4654 85.5528 15.7987 85.0225 16.9811C84.5175 18.1635 83.7347 19.0943 82.6742 19.7736Z" fill="#333333"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M111.73 24.0755C109.937 25.1321 107.753 25.6604 105.178 25.6604H94.9134V0.377358H105.102C107.678 0.377358 109.874 0.90566 111.692 1.96226C113.536 3.01887 114.937 4.49057 115.897 6.37736C116.856 8.26415 117.336 10.478 117.336 13.0189C117.336 15.5346 116.856 17.7484 115.897 19.6604C114.937 21.5472 113.548 23.0189 111.73 24.0755ZM108.587 20C107.577 20.5786 106.289 20.8679 104.723 20.8679H100.33V5.16981H104.647C106.213 5.16981 107.513 5.4717 108.549 6.07547C109.584 6.65409 110.354 7.52201 110.859 8.67924C111.389 9.83648 111.655 11.283 111.655 13.0189C111.655 14.7296 111.402 16.1761 110.897 17.3585C110.392 18.5157 109.622 19.3962 108.587 20Z" fill="#333333"></path><path d="M132.018 9.77358L127.89 0.377358H120.731V25.6604H126.147V16.1887L125.352 6L128.42 14.4151L131.564 21.283H137.245L140.389 14.4151L143.419 6L142.661 16.1887V25.6604H148.077V0.377358H140.919L136.79 9.77358L134.404 17.283L132.018 9.77358Z" fill="#333333"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M158.103 20.0377L156.072 25.6604H150.315L159.822 0.377358H166.791L176.298 25.6604H170.351L168.334 20.0377H158.103ZM164.746 10.0377L166.695 15.4717H159.753L161.716 10.0377L163.231 4.67924L164.746 10.0377Z" fill="#333333"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M188.543 16.717C187.911 16.3648 187.04 16.1887 185.929 16.1887H183.96V25.6604H178.543V0.377358H190.323C192.141 0.377358 193.769 0.666666 195.209 1.24528C196.648 1.79874 197.772 2.66667 198.58 3.84906C199.413 5.00629 199.83 6.47799 199.83 8.26415C199.83 10 199.413 11.4214 198.58 12.5283C197.772 13.6101 196.673 14.4025 195.284 14.9057C194.466 15.2077 193.583 15.4146 192.637 15.5263C193.014 15.6297 193.354 15.7625 193.656 15.9245C194.338 16.2516 194.918 16.6792 195.398 17.2075C195.878 17.7358 196.345 18.3648 196.8 19.0943L200.814 25.6604H194.565L190.285 18.4906C189.78 17.6604 189.199 17.0692 188.543 16.717ZM192.217 11.5094C191.611 11.7358 190.916 11.8491 190.133 11.8491H183.96V5.16981H190.133C190.916 5.16981 191.611 5.28302 192.217 5.50943C192.823 5.71069 193.29 6.06289 193.618 6.56604C193.971 7.06918 194.148 7.72327 194.148 8.5283C194.148 9.33333 193.971 9.97484 193.618 10.4528C193.29 10.9308 192.823 11.283 192.217 11.5094Z" fill="#333333"></path><path d="M214.839 25.6604H209.423V5.16981H201.847V0.377358H222.414V5.16981H214.839V25.6604Z" fill="#333333"></path><path d="M224.243 25.6604H230V19.8113H224.243V25.6604Z" fill="#333333"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c2-logo-wht]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-logo-wht/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-logo-wht.svg</guid>
 															<wp:post_id>71</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:13]]></wp:post_date>
@@ -284,16 +279,12 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024/10/c2-logo-wht.svg]]></wp:meta_value>
 						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="230" height="26" viewBox="0 0 230 26" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M50.5881 26C48.6943 26 46.9647 25.673 45.3991 25.0189C43.8589 24.3396 42.5206 23.4088 41.3843 22.2264C40.248 21.044 39.3643 19.6604 38.733 18.0755C38.127 16.4906 37.824 14.7925 37.824 12.9811C37.824 11.1698 38.127 9.48428 38.733 7.92453C39.3643 6.33962 40.248 4.95597 41.3843 3.77358C42.5206 2.59119 43.8589 1.67295 45.3991 1.01887C46.9647 0.339622 48.6943 0 50.5881 0C52.4819 0 54.2116 0.339622 55.7771 1.01887C57.3426 1.67295 58.6809 2.59119 59.7919 3.77358C60.9282 4.95597 61.7993 6.33962 62.4054 7.92453C63.0366 9.48428 63.3522 11.1698 63.3522 12.9811C63.3522 14.7925 63.0366 16.4906 62.4054 18.0755C61.7993 19.6604 60.9282 21.044 59.7919 22.2264C58.6809 23.4088 57.3426 24.3396 55.7771 25.0189C54.2116 25.673 52.4819 26 50.5881 26ZM50.5881 20.7547C52.1536 20.7547 53.4541 20.4277 54.4893 19.7736C55.5498 19.0943 56.3326 18.1635 56.8376 16.9811C57.3679 15.7987 57.633 14.4654 57.633 12.9811C57.633 11.4717 57.3679 10.1384 56.8376 8.98113C56.3326 7.79874 55.5498 6.8805 54.4893 6.22641C53.4541 5.54717 52.1536 5.20754 50.5881 5.20754C49.0478 5.20754 47.7474 5.54717 46.6869 6.22641C45.6516 6.8805 44.8689 7.79874 44.3386 8.98113C43.8084 10.1384 43.5432 11.4717 43.5432 12.9811C43.5432 14.4654 43.8084 15.7987 44.3386 16.9811C44.8689 18.1635 45.6516 19.0943 46.6869 19.7736C47.7474 20.4277 49.0478 20.7547 50.5881 20.7547Z" fill="white"></path><path d="M16.7032 12.4151L13.408 25.6604H6.098L0 0.377358H6.2495L8.93868 14.1887L9.88558 21.8491L11.2112 14.7925L14.5064 0.377358H21.6649L24.9223 14.7925L26.21 21.8491L27.1948 14.1887L29.9219 0.377358H36.1335L29.9976 25.6604H22.6876L19.4303 12.4151L18.0667 4.22641L16.7032 12.4151Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M73.584 25.0189C75.1496 25.673 76.8792 26 78.773 26C80.6668 26 82.3965 25.673 83.962 25.0189C85.5275 24.3396 86.8658 23.4088 87.9768 22.2264C89.1131 21.044 89.9842 19.6604 90.5903 18.0755C91.2215 16.4906 91.5371 14.7925 91.5371 12.9811C91.5371 11.1698 91.2215 9.48428 90.5903 7.92453C89.9842 6.33962 89.1131 4.95597 87.9768 3.77358C86.8658 2.59119 85.5275 1.67295 83.962 1.01887C82.3965 0.339622 80.6668 0 78.773 0C76.8792 0 75.1496 0.339622 73.584 1.01887C72.0438 1.67295 70.7055 2.59119 69.5692 3.77358C68.4329 4.95597 67.5492 6.33962 66.9179 7.92453C66.3119 9.48428 66.0089 11.1698 66.0089 12.9811C66.0089 14.7925 66.3119 16.4906 66.9179 18.0755C67.5492 19.6604 68.4329 21.044 69.5692 22.2264C70.7055 23.4088 72.0438 24.3396 73.584 25.0189ZM82.6742 19.7736C81.6389 20.4277 80.3385 20.7547 78.773 20.7547C77.2327 20.7547 75.9323 20.4277 74.8718 19.7736C73.8365 19.0943 73.0538 18.1635 72.5235 16.9811C71.9933 15.7987 71.7281 14.4654 71.7281 12.9811C71.7281 11.4717 71.9933 10.1384 72.5235 8.98113C73.0538 7.79874 73.8365 6.8805 74.8718 6.22641C75.9323 5.54717 77.2327 5.20754 78.773 5.20754C80.3385 5.20754 81.6389 5.54717 82.6742 6.22641C83.7347 6.8805 84.5175 7.79874 85.0225 8.98113C85.5528 10.1384 85.8179 11.4717 85.8179 12.9811C85.8179 14.4654 85.5528 15.7987 85.0225 16.9811C84.5175 18.1635 83.7347 19.0943 82.6742 19.7736Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M111.73 24.0755C109.937 25.1321 107.753 25.6604 105.178 25.6604H94.9134V0.377358H105.102C107.678 0.377358 109.874 0.90566 111.692 1.96226C113.536 3.01887 114.937 4.49057 115.897 6.37736C116.856 8.26415 117.336 10.478 117.336 13.0189C117.336 15.5346 116.856 17.7484 115.897 19.6604C114.937 21.5472 113.548 23.0189 111.73 24.0755ZM108.587 20C107.577 20.5786 106.289 20.8679 104.723 20.8679H100.33V5.16981H104.647C106.213 5.16981 107.513 5.4717 108.549 6.07547C109.584 6.65409 110.354 7.52201 110.859 8.67924C111.389 9.83648 111.655 11.283 111.655 13.0189C111.655 14.7296 111.402 16.1761 110.897 17.3585C110.392 18.5157 109.622 19.3962 108.587 20Z" fill="white"></path><path d="M132.018 9.77358L127.89 0.377358H120.731V25.6604H126.147V16.1887L125.352 6L128.42 14.4151L131.564 21.283H137.245L140.389 14.4151L143.419 6L142.661 16.1887V25.6604H148.077V0.377358H140.919L136.79 9.77358L134.404 17.283L132.018 9.77358Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M158.103 20.0377L156.072 25.6604H150.315L159.822 0.377358H166.791L176.298 25.6604H170.351L168.334 20.0377H158.103ZM164.746 10.0377L166.695 15.4717H159.753L161.716 10.0377L163.231 4.67924L164.746 10.0377Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M188.543 16.717C187.911 16.3648 187.04 16.1887 185.929 16.1887H183.96V25.6604H178.543V0.377358H190.323C192.141 0.377358 193.769 0.666666 195.209 1.24528C196.648 1.79874 197.772 2.66667 198.58 3.84906C199.413 5.00629 199.83 6.47799 199.83 8.26415C199.83 10 199.413 11.4214 198.58 12.5283C197.772 13.6101 196.673 14.4025 195.284 14.9057C194.466 15.2077 193.583 15.4146 192.637 15.5263C193.014 15.6297 193.354 15.7625 193.656 15.9245C194.338 16.2516 194.918 16.6792 195.398 17.2075C195.878 17.7358 196.345 18.3648 196.8 19.0943L200.814 25.6604H194.565L190.285 18.4906C189.78 17.6604 189.199 17.0692 188.543 16.717ZM192.217 11.5094C191.611 11.7358 190.916 11.8491 190.133 11.8491H183.96V5.16981H190.133C190.916 5.16981 191.611 5.28302 192.217 5.50943C192.823 5.71069 193.29 6.06289 193.618 6.56604C193.971 7.06918 194.148 7.72327 194.148 8.5283C194.148 9.33333 193.971 9.97484 193.618 10.4528C193.29 10.9308 192.823 11.283 192.217 11.5094Z" fill="white"></path><path d="M214.839 25.6604H209.423V5.16981H201.847V0.377358H222.414V5.16981H214.839V25.6604Z" fill="white"></path><path d="M224.243 25.6604H230V19.8113H224.243V25.6604Z" fill="white"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[chevron-down-black]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/chevron-down-black/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:13 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/chevron-down-black.svg</guid>
 															<wp:post_id>72</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:13]]></wp:post_date>
@@ -311,16 +302,12 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024/10/chevron-down-black.svg]]></wp:meta_value>
 						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M23.0054 7.92187C23.2241 7.70312 23.3335 7.4375 23.3335 7.125C23.3335 6.8125 23.2241 6.54687 23.0054 6.32812C22.7866 6.10937 22.521 6 22.2085 6C21.896 6 21.6304 6.10937 21.4116 6.32812L12.4585 15.2812L3.50537 6.32812C3.28662 6.10937 3.021 6 2.7085 6C2.396 6 2.13037 6.10937 1.91162 6.32812C1.69287 6.54687 1.5835 6.8125 1.5835 7.125C1.5835 7.4375 1.69287 7.70312 1.91162 7.92187L11.6616 17.6719C11.8804 17.8906 12.146 18 12.4585 18C12.771 18 13.0366 17.8906 13.2554 17.6719L23.0054 7.92187Z" fill="#101010" fill-opacity="0.8"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[Icon]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/icon/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/Icon.svg</guid>
 															<wp:post_id>73</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:14]]></wp:post_date>
@@ -338,16 +325,12 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024/10/Icon.svg]]></wp:meta_value>
 						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6.41016 0.857422L11.4414 5.56055C11.487 5.59701 11.5189 5.64258 11.5371 5.69727C11.5645 5.75195 11.5781 5.8112 11.5781 5.875C11.5781 5.9388 11.5645 5.99805 11.5371 6.05273C11.5189 6.10742 11.487 6.15299 11.4414 6.18945L6.41016 10.8926C6.36458 10.9382 6.31445 10.9701 6.25977 10.9883C6.21419 11.0065 6.16406 11.0156 6.10938 11.0156C6.04557 11.0156 5.98633 11.0065 5.93164 10.9883C5.87695 10.9609 5.83138 10.9245 5.79492 10.8789C5.74935 10.8333 5.71745 10.7878 5.69922 10.7422C5.68099 10.6875 5.67188 10.6328 5.67188 10.5781C5.67188 10.5234 5.68099 10.4688 5.69922 10.4141C5.72656 10.3503 5.76302 10.3001 5.80859 10.2637L10.0332 6.3125H0.859375C0.804688 6.3125 0.75 6.30339 0.695312 6.28516C0.64974 6.26693 0.608724 6.23958 0.572266 6.20312C0.526693 6.16667 0.490234 6.12109 0.462891 6.06641C0.435547 6.0026 0.421875 5.9388 0.421875 5.875C0.421875 5.8112 0.435547 5.75195 0.462891 5.69727C0.490234 5.63346 0.526693 5.58333 0.572266 5.54688C0.608724 5.51042 0.64974 5.48307 0.695312 5.46484C0.75 5.44661 0.804688 5.4375 0.859375 5.4375H10.0332L5.80859 1.48633C5.76302 1.44987 5.72656 1.4043 5.69922 1.34961C5.68099 1.28581 5.67188 1.22656 5.67188 1.17188C5.67188 1.11719 5.68099 1.06706 5.69922 1.02148C5.71745 0.966797 5.74935 0.916667 5.79492 0.871094C5.83138 0.825521 5.87695 0.79362 5.93164 0.775391C5.99544 0.748047 6.05469 0.734375 6.10938 0.734375C6.16406 0.734375 6.21419 0.74349 6.25977 0.761719C6.31445 0.779948 6.36458 0.811849 6.41016 0.857422Z" fill="white"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[yt-sbs]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/yt-sbs/</link>
 					<pubDate>Fri, 25 Oct 2024 11:06:15 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/yt-sbs.svg</guid>
 															<wp:post_id>74</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:06:15]]></wp:post_date>
@@ -365,16 +348,12 @@
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 							<wp:meta_value><![CDATA[2024/10/yt-sbs.svg]]></wp:meta_value>
 						</wp:postmeta>
-												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none"><path d="M15.1504 1.76562C15.2324 2.05729 15.2962 2.41276 15.3418 2.83203C15.3783 3.24219 15.4056 3.63867 15.4238 4.02148C15.4421 4.39518 15.4557 4.71419 15.4648 4.97852C15.4648 5.25195 15.4648 5.38867 15.4648 5.38867C15.4648 5.38867 15.4648 5.52083 15.4648 5.78516C15.4557 6.04948 15.4421 6.37305 15.4238 6.75586C15.4056 7.13867 15.3783 7.53516 15.3418 7.94531C15.2962 8.35547 15.2324 8.70638 15.1504 8.99805C15.0684 9.32617 14.9089 9.60872 14.6719 9.8457C14.4349 10.0736 14.1569 10.2285 13.8379 10.3105C13.5462 10.3926 13.0768 10.4518 12.4297 10.4883C11.7826 10.5339 11.1309 10.5658 10.4746 10.584C9.81836 10.6022 9.24414 10.6159 8.75195 10.625C8.25065 10.625 8 10.625 8 10.625C8 10.625 7.74935 10.625 7.24805 10.625C6.75586 10.6159 6.18164 10.6022 5.52539 10.584C4.86914 10.5658 4.21745 10.5339 3.57031 10.4883C2.92318 10.4518 2.45378 10.3926 2.16211 10.3105C1.8431 10.2285 1.5651 10.0736 1.32812 9.8457C1.09115 9.60872 0.931641 9.32617 0.849609 8.99805C0.767578 8.70638 0.703776 8.35547 0.658203 7.94531C0.621745 7.53516 0.594401 7.13867 0.576172 6.75586C0.557943 6.37305 0.544271 6.04948 0.535156 5.78516C0.535156 5.52083 0.535156 5.38867 0.535156 5.38867C0.535156 5.38867 0.535156 5.25195 0.535156 4.97852C0.544271 4.71419 0.557943 4.39518 0.576172 4.02148C0.594401 3.63867 0.621745 3.24219 0.658203 2.83203C0.703776 2.41276 0.767578 2.05729 0.849609 1.76562C0.931641 1.44661 1.09115 1.16862 1.32812 0.931641C1.5651 0.685547 1.8431 0.521484 2.16211 0.439453C2.45378 0.357422 2.92318 0.298177 3.57031 0.261719C4.21745 0.216146 4.86914 0.184245 5.52539 0.166016C6.18164 0.147786 6.75586 0.134115 7.24805 0.125C7.74935 0.125 8 0.125 8 0.125C8 0.125 8.25065 0.125 8.75195 0.125C9.24414 0.134115 9.81836 0.147786 10.4746 0.166016C11.1309 0.184245 11.7826 0.216146 12.4297 0.261719C13.0768 0.298177 13.5462 0.357422 13.8379 0.439453C14.1569 0.521484 14.4349 0.685547 14.6719 0.931641C14.9089 1.16862 15.0684 1.44661 15.1504 1.76562ZM6.46875 7.60352L10.3789 5.38867L6.46875 3.16016V7.60352Z" fill="#333333"></path></svg>]]></wp:meta_value>
-						</wp:postmeta>
 										</item>
 								<item>
 					<title><![CDATA[c2-category-s-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=185</link>
 					<pubDate>Fri, 25 Oct 2024 11:19:18 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-category-s-1.png</guid>
 															<wp:post_id>185</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:19:18]]></wp:post_date>
@@ -397,7 +376,7 @@
 					<title><![CDATA[c2-category-s-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=186</link>
 					<pubDate>Fri, 25 Oct 2024 11:19:29 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-category-s-2.png</guid>
 															<wp:post_id>186</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:19:29]]></wp:post_date>
@@ -420,7 +399,7 @@
 					<title><![CDATA[c2-category-s-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=187</link>
 					<pubDate>Fri, 25 Oct 2024 11:19:38 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-category-s-3.png</guid>
 															<wp:post_id>187</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:19:38]]></wp:post_date>
@@ -443,7 +422,7 @@
 					<title><![CDATA[c2-category-s-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=188</link>
 					<pubDate>Fri, 25 Oct 2024 11:19:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-category-s-4.png</guid>
 															<wp:post_id>188</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:19:47]]></wp:post_date>
@@ -466,7 +445,7 @@
 					<title><![CDATA[c2-category-s-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=189</link>
 					<pubDate>Fri, 25 Oct 2024 11:19:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-category-s-5.png</guid>
 															<wp:post_id>189</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:19:55]]></wp:post_date>
@@ -489,7 +468,7 @@
 					<title><![CDATA[Satoshi-Bold]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/satoshi-bold/</link>
 					<pubDate>Fri, 25 Oct 2024 11:23:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/Satoshi-Bold.woff</guid>
 															<wp:post_id>205</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:23:53]]></wp:post_date>
@@ -512,7 +491,7 @@
 					<title><![CDATA[Satoshi-Medium]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/satoshi-medium/</link>
 					<pubDate>Fri, 25 Oct 2024 11:23:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/Satoshi-Medium.woff</guid>
 															<wp:post_id>207</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-25 11:23:55]]></wp:post_date>
@@ -535,7 +514,7 @@
 					<title><![CDATA[pm-mtds]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=701</link>
 					<pubDate>Mon, 28 Oct 2024 14:31:25 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/pm-mtds-1.png</guid>
 															<wp:post_id>701</wp:post_id>
 					<wp:post_date><![CDATA[2024-10-28 14:31:25]]></wp:post_date>
@@ -555,172 +534,192 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[pm-mtds]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/pm-mtds/</link>
-					<pubDate>Thu, 24 Oct 2024 16:12:33 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makup-elementor/wp-content/uploads/sites/39/2024/10/pm-mtds.png</guid>
-															<wp:post_id>5</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-24 16:12:33]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-24 16:12:33]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-24 16:12:33]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-24 16:12:33]]></wp:post_modified_gmt>
+					<title><![CDATA[c-mkp-fc-product-1-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=122</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:05 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-1-1.jpg</guid>
+															<wp:post_id>122</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:05]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:05]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:05]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:05]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[pm-mtds]]></wp:post_name>
+					<wp:post_name><![CDATA[c-mkp-fc-product-1-1-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
+					<wp:post_parent>92</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/pm-mtds.png]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-1-1.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/pm-mtds.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[woocommerce-placeholder]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/woocommerce-placeholder/</link>
-					<pubDate>Fri, 25 Oct 2024 09:54:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/woocommerce-placeholder.png</guid>
-															<wp:post_id>8</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-25 09:54:22]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-25 09:54:22]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 09:54:22]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 09:54:22]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[woocommerce-placeholder]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/woocommerce-placeholder.png]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[woocommerce-placeholder.png]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
-					<title><![CDATA[c2-blg-irritation]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-blg-irritation/</link>
-					<pubDate>Fri, 25 Oct 2024 11:06:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-blg-irritation.svg</guid>
-															<wp:post_id>61</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-25 11:06:06]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-25 11:06:06]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 11:06:06]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 11:06:06]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c2-blg-irritation]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-blg-irritation.svg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c2-blg-irritation.svg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-1-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.4285 21.75C31.8217 21.7441 31.2234 21.6065 30.675 21.3465C30.544 21.2791 30.4355 21.1748 30.363 21.0465L29.25 19.05L28.137 21.045C28.0645 21.1733 27.9561 21.2776 27.825 21.345C27.2642 21.6275 26.6399 21.7602 26.0127 21.7303C25.3854 21.7003 24.7766 21.5087 24.2453 21.174C23.7589 20.7796 23.385 20.264 23.1612 19.6792C22.9374 19.0943 22.8715 18.4609 22.9703 17.8425C22.9951 17.6958 23.063 17.5598 23.1653 17.4517L24.7253 15.8018L22.4753 15.375C22.3304 15.3475 22.1968 15.2778 22.0913 15.1747C21.6474 14.7347 21.3268 14.1859 21.1616 13.583C20.9964 12.9802 20.9924 12.3446 21.15 11.7397C21.3837 11.1578 21.7648 10.6466 22.2558 10.2565C22.7468 9.86634 23.3308 9.61064 23.9505 9.5145C24.0955 9.49368 24.2434 9.51503 24.3765 9.576L26.5358 10.575L26.256 8.34C26.2382 8.19298 26.2643 8.04396 26.331 7.91175C26.6094 7.36685 27.0251 6.90395 27.537 6.5687C28.0488 6.23345 28.6393 6.03744 29.25 6C29.8621 6.03671 30.454 6.2327 30.9671 6.56855C31.4801 6.9044 31.8965 7.36845 32.175 7.91475C32.2418 8.04696 32.2679 8.19598 32.25 8.343L31.9703 10.578L34.125 9.576C34.2583 9.51556 34.4061 9.49423 34.551 9.5145C35.1704 9.61074 35.7541 9.86641 36.2449 10.2564C36.7356 10.6464 37.1164 11.1573 37.35 11.739C37.5077 12.3448 37.5032 12.9815 37.3371 13.5851C37.171 14.1886 36.849 14.7379 36.4035 15.1777C36.298 15.2808 36.1644 15.3505 36.0195 15.378L33.7695 15.8048L35.3295 17.4548C35.4319 17.5628 35.4997 17.6988 35.5245 17.8455C35.6233 18.464 35.5575 19.0976 35.3337 19.6825C35.1099 20.2675 34.736 20.7832 34.2495 21.1777C33.7188 21.5571 33.0809 21.7576 32.4285 21.75ZM31.5473 20.088C31.8412 20.2122 32.1603 20.2652 32.4786 20.2426C32.7969 20.2201 33.1053 20.1226 33.3788 19.9583C33.6184 19.7566 33.8059 19.5003 33.9255 19.2108C34.0451 18.9214 34.0932 18.6074 34.0658 18.2955L31.7408 15.8407C31.6482 15.743 31.5837 15.6221 31.5539 15.4907C31.5242 15.3594 31.5304 15.2225 31.5718 15.0944C31.6132 14.9663 31.6884 14.8517 31.7894 14.7626C31.8904 14.6735 32.0135 14.6133 32.1458 14.5883L35.4878 13.953C35.6956 13.7187 35.8439 13.4377 35.9201 13.1339C35.9964 12.8301 35.9983 12.5124 35.9258 12.2078C35.8014 11.9164 35.6094 11.6589 35.3656 11.4566C35.1218 11.2543 34.8333 11.113 34.524 11.0445L31.3673 12.5085C31.2458 12.5649 31.1114 12.5877 30.9781 12.5745C30.8448 12.5614 30.7175 12.5128 30.6093 12.4338C30.5012 12.3548 30.4161 12.2483 30.3631 12.1253C30.31 12.0023 30.2908 11.8674 30.3075 11.7345L30.723 8.415C30.5677 8.15653 30.3532 7.93874 30.097 7.77963C29.8409 7.62052 29.5506 7.52467 29.25 7.5C28.9494 7.52468 28.659 7.62052 28.4027 7.77963C28.1465 7.93873 27.9317 8.15652 27.7763 8.415L28.1918 11.7345C28.2085 11.8674 28.1893 12.0023 28.1363 12.1253C28.0832 12.2483 27.9982 12.3548 27.89 12.4338C27.7818 12.5128 27.6545 12.5614 27.5212 12.5745C27.3879 12.5877 27.2535 12.5649 27.132 12.5085L23.9753 11.0445C23.6662 11.1131 23.378 11.2544 23.1345 11.4567C22.8909 11.6591 22.6992 11.9165 22.575 12.2078C22.5025 12.5124 22.5045 12.8301 22.5807 13.1339C22.6569 13.4377 22.8052 13.7187 23.013 13.953L26.355 14.5883C26.4873 14.6133 26.6104 14.6735 26.7114 14.7626C26.8124 14.8517 26.8876 14.9663 26.929 15.0944C26.9704 15.2225 26.9766 15.3594 26.9469 15.4907C26.9171 15.6221 26.8526 15.743 26.76 15.8407L24.435 18.297C24.4063 18.6088 24.4539 18.9229 24.5737 19.2122C24.6935 19.5015 24.882 19.7573 25.1228 19.9575C25.3964 20.1223 25.7051 20.22 26.0236 20.2426C26.3422 20.2653 26.6616 20.2123 26.9558 20.088L28.5975 17.142C28.6684 17.0329 28.7654 16.9432 28.8798 16.8811C28.9941 16.8191 29.1222 16.7865 29.2523 16.7865C29.3824 16.7865 29.5104 16.8191 29.6248 16.8811C29.7391 16.9432 29.8362 17.0329 29.907 17.142L31.5473 20.088ZM29.25 15C29.6642 15 30 14.6642 30 14.25C30 13.8358 29.6642 13.5 29.25 13.5C28.8358 13.5 28.5 13.8358 28.5 14.25C28.5 14.6642 28.8358 15 29.25 15ZM6.21967 17.7803C6.36032 17.921 6.55109 18 6.75 18C6.94891 18 7.13968 17.921 7.28033 17.7803C7.42098 17.6397 7.5 17.4489 7.5 17.25V16.5C7.5 16.3011 7.42098 16.1103 7.28033 15.9697C7.13968 15.829 6.94891 15.75 6.75 15.75C6.55109 15.75 6.36032 15.829 6.21967 15.9697C6.07902 16.1103 6 16.3011 6 16.5V17.25C6 17.4489 6.07902 17.6397 6.21967 17.7803ZM4.5 19.5H5.25C5.44891 19.5 5.63968 19.421 5.78033 19.2803C5.92098 19.1397 6 18.9489 6 18.75C6 18.5511 5.92098 18.3603 5.78033 18.2197C5.63968 18.079 5.44891 18 5.25 18H4.5C4.30109 18 4.11032 18.079 3.96967 18.2197C3.82902 18.3603 3.75 18.5511 3.75 18.75C3.75 18.9489 3.82902 19.1397 3.96967 19.2803C4.11032 19.421 4.30109 19.5 4.5 19.5ZM6.21967 21.5303C6.36032 21.671 6.55109 21.75 6.75 21.75C6.94891 21.75 7.13968 21.671 7.28033 21.5303C7.42098 21.3897 7.5 21.1989 7.5 21V20.25C7.5 20.0511 7.42098 19.8603 7.28033 19.7197C7.13968 19.579 6.94891 19.5 6.75 19.5C6.55109 19.5 6.36032 19.579 6.21967 19.7197C6.07902 19.8603 6 20.0511 6 20.25V21C6 21.1989 6.07902 21.3897 6.21967 21.5303ZM8.25 19.5H9C9.19891 19.5 9.38968 19.421 9.53033 19.2803C9.67098 19.1397 9.75 18.9489 9.75 18.75C9.75 18.5511 9.67098 18.3603 9.53033 18.2197C9.38968 18.079 9.19891 18 9 18H8.25C8.05109 18 7.86032 18.079 7.71967 18.2197C7.57902 18.3603 7.5 18.5511 7.5 18.75C7.5 18.9489 7.57902 19.1397 7.71967 19.2803C7.86032 19.421 8.05109 19.5 8.25 19.5ZM39.9697 16.2803C40.1103 16.421 40.3011 16.5 40.5 16.5C40.6989 16.5 40.8897 16.421 41.0303 16.2803C41.171 16.1397 41.25 15.9489 41.25 15.75V15C41.25 14.8011 41.171 14.6103 41.0303 14.4697C40.8897 14.329 40.6989 14.25 40.5 14.25C40.3011 14.25 40.1103 14.329 39.9697 14.4697C39.829 14.6103 39.75 14.8011 39.75 15V15.75C39.75 15.9489 39.829 16.1397 39.9697 16.2803ZM38.25 18H39C39.1989 18 39.3897 17.921 39.5303 17.7803C39.671 17.6397 39.75 17.4489 39.75 17.25C39.75 17.0511 39.671 16.8603 39.5303 16.7197C39.3897 16.579 39.1989 16.5 39 16.5H38.25C38.0511 16.5 37.8603 16.579 37.7197 16.7197C37.579 16.8603 37.5 17.0511 37.5 17.25C37.5 17.4489 37.579 17.6397 37.7197 17.7803C37.8603 17.921 38.0511 18 38.25 18ZM39.9697 20.0303C40.1103 20.171 40.3011 20.25 40.5 20.25C40.6989 20.25 40.8897 20.171 41.0303 20.0303C41.171 19.8897 41.25 19.6989 41.25 19.5V18.75C41.25 18.5511 41.171 18.3603 41.0303 18.2197C40.8897 18.079 40.6989 18 40.5 18C40.3011 18 40.1103 18.079 39.9697 18.2197C39.829 18.3603 39.75 18.5511 39.75 18.75V19.5C39.75 19.6989 39.829 19.8897 39.9697 20.0303ZM42 18H42.75C42.9489 18 43.1397 17.921 43.2803 17.7803C43.421 17.6397 43.5 17.4489 43.5 17.25C43.5 17.0511 43.421 16.8603 43.2803 16.7197C43.1397 16.579 42.9489 16.5 42.75 16.5H42C41.8011 16.5 41.6103 16.579 41.4697 16.7197C41.329 16.8603 41.25 17.0511 41.25 17.25C41.25 17.4489 41.329 17.6397 41.4697 17.7803C41.6103 17.921 41.8011 18 42 18ZM13.7197 13.2803C13.8603 13.421 14.0511 13.5 14.25 13.5C14.4489 13.5 14.6397 13.421 14.7803 13.2803C14.921 13.1397 15 12.9489 15 12.75V12C15 11.8011 14.921 11.6103 14.7803 11.4697C14.6397 11.329 14.4489 11.25 14.25 11.25C14.0511 11.25 13.8603 11.329 13.7197 11.4697C13.579 11.6103 13.5 11.8011 13.5 12V12.75C13.5 12.9489 13.579 13.1397 13.7197 13.2803ZM12 15H12.75C12.9489 15 13.1397 14.921 13.2803 14.7803C13.421 14.6397 13.5 14.4489 13.5 14.25C13.5 14.0511 13.421 13.8603 13.2803 13.7197C13.1397 13.579 12.9489 13.5 12.75 13.5H12C11.8011 13.5 11.6103 13.579 11.4697 13.7197C11.329 13.8603 11.25 14.0511 11.25 14.25C11.25 14.4489 11.329 14.6397 11.4697 14.7803C11.6103 14.921 11.8011 15 12 15ZM13.7197 17.0303C13.8603 17.171 14.0511 17.25 14.25 17.25C14.4489 17.25 14.6397 17.171 14.7803 17.0303C14.921 16.8897 15 16.6989 15 16.5V15.75C15 15.5511 14.921 15.3603 14.7803 15.2197C14.6397 15.079 14.4489 15 14.25 15C14.0511 15 13.8603 15.079 13.7197 15.2197C13.579 15.3603 13.5 15.5511 13.5 15.75V16.5C13.5 16.6989 13.579 16.8897 13.7197 17.0303ZM15.75 15H16.5C16.6989 15 16.8897 14.921 17.0303 14.7803C17.171 14.6397 17.25 14.4489 17.25 14.25C17.25 14.0511 17.171 13.8603 17.0303 13.7197C16.8897 13.579 16.6989 13.5 16.5 13.5H15.75C15.5511 13.5 15.3603 13.579 15.2197 13.7197C15.079 13.8603 15 14.0511 15 14.25C15 14.4489 15.079 14.6397 15.2197 14.7803C15.3603 14.921 15.5511 15 15.75 15ZM14.8736 35.6667C14.956 35.5433 15 35.3983 15 35.25C15 35.0511 14.921 34.8603 14.7803 34.7197C14.6397 34.579 14.4489 34.5 14.25 34.5C14.1017 34.5 13.9567 34.544 13.8333 34.6264C13.71 34.7088 13.6139 34.8259 13.5571 34.963C13.5003 35.1 13.4855 35.2508 13.5144 35.3963C13.5434 35.5418 13.6148 35.6754 13.7197 35.7803C13.8246 35.8852 13.9582 35.9566 14.1037 35.9856C14.2492 36.0145 14.4 35.9997 14.537 35.9429C14.6741 35.8861 14.7912 35.79 14.8736 35.6667ZM28.0833 37.6264C28.2067 37.544 28.3517 37.5 28.5 37.5C28.6989 37.5 28.8897 37.579 29.0303 37.7197C29.171 37.8603 29.25 38.0511 29.25 38.25C29.25 38.3983 29.206 38.5433 29.1236 38.6667C29.0412 38.79 28.9241 38.8861 28.787 38.9429C28.65 38.9997 28.4992 39.0145 28.3537 38.9856C28.2082 38.9566 28.0746 38.8852 27.9697 38.7803C27.8648 38.6754 27.7934 38.5418 27.7644 38.3963C27.7355 38.2508 27.7503 38.1 27.8071 37.963C27.8639 37.8259 27.96 37.7088 28.0833 37.6264ZM19.0833 37.6264C19.2067 37.544 19.3517 37.5 19.5 37.5C19.6989 37.5 19.8897 37.579 20.0303 37.7197C20.171 37.8603 20.25 38.0511 20.25 38.25C20.25 38.3983 20.206 38.5433 20.1236 38.6667C20.0412 38.79 19.9241 38.8861 19.787 38.9429C19.65 38.9997 19.4992 39.0145 19.3537 38.9856C19.2082 38.9566 19.0746 38.8852 18.9697 38.7803C18.8648 38.6754 18.7934 38.5418 18.7644 38.3963C18.7355 38.2508 18.7503 38.1 18.8071 37.963C18.8639 37.8259 18.96 37.7088 19.0833 37.6264ZM3.33332 34.6264C3.45666 34.544 3.60166 34.5 3.75 34.5C3.94891 34.5 4.13968 34.579 4.28033 34.7197C4.42098 34.8603 4.5 35.0511 4.5 35.25C4.5 35.3983 4.45601 35.5433 4.3736 35.6667C4.29119 35.79 4.17406 35.8861 4.03701 35.9429C3.89997 35.9997 3.74917 36.0145 3.60368 35.9856C3.4582 35.9566 3.32456 35.8852 3.21967 35.7803C3.11478 35.6754 3.04335 35.5418 3.01441 35.3963C2.98547 35.2508 3.00032 35.1 3.05709 34.963C3.11386 34.8259 3.20999 34.7088 3.33332 34.6264ZM8.58332 37.6264C8.70666 37.544 8.85166 37.5 9 37.5C9.19891 37.5 9.38968 37.579 9.53033 37.7197C9.67098 37.8603 9.75 38.0511 9.75 38.25C9.75 38.3983 9.70601 38.5433 9.6236 38.6667C9.54119 38.79 9.42406 38.8861 9.28701 38.9429C9.14997 38.9997 8.99917 39.0145 8.85368 38.9856C8.7082 38.9566 8.57456 38.8852 8.46967 38.7803C8.36478 38.6754 8.29335 38.5418 8.26441 38.3963C8.23547 38.2508 8.25033 38.1 8.30709 37.963C8.36386 37.8259 8.45999 37.7088 8.58332 37.6264ZM33.3333 34.6264C33.4567 34.544 33.6017 34.5 33.75 34.5C33.9489 34.5 34.1397 34.579 34.2803 34.7197C34.421 34.8603 34.5 35.0511 34.5 35.25C34.5 35.3983 34.456 35.5433 34.3736 35.6667C34.2912 35.79 34.1741 35.8861 34.037 35.9429C33.9 35.9997 33.7492 36.0145 33.6037 35.9856C33.4582 35.9566 33.3246 35.8852 33.2197 35.7803C33.1148 35.6754 33.0434 35.5418 33.0144 35.3963C32.9855 35.2508 33.0003 35.1 33.0571 34.963C33.1139 34.8259 33.21 34.7088 33.3333 34.6264ZM23.5833 34.6264C23.7067 34.544 23.8517 34.5 24 34.5C24.1989 34.5 24.3897 34.579 24.5303 34.7197C24.671 34.8603 24.75 35.0511 24.75 35.25C24.75 35.3983 24.706 35.5433 24.6236 35.6667C24.5412 35.79 24.4241 35.8861 24.287 35.9429C24.15 35.9997 23.9992 36.0145 23.8537 35.9856C23.7082 35.9566 23.5746 35.8852 23.4697 35.7803C23.3648 35.6754 23.2934 35.5418 23.2644 35.3963C23.2355 35.2508 23.2503 35.1 23.3071 34.963C23.3639 34.8259 23.46 34.7088 23.5833 34.6264ZM43.8333 34.6264C43.9567 34.544 44.1017 34.5 44.25 34.5C44.4489 34.5 44.6397 34.579 44.7803 34.7197C44.921 34.8603 45 35.0511 45 35.25C45 35.3983 44.956 35.5433 44.8736 35.6667C44.7912 35.79 44.6741 35.8861 44.537 35.9429C44.4 35.9997 44.2492 36.0145 44.1037 35.9856C43.9582 35.9566 43.8246 35.8852 43.7197 35.7803C43.6148 35.6754 43.5434 35.5418 43.5144 35.3963C43.4855 35.2508 43.5003 35.1 43.5571 34.963C43.6139 34.8259 43.71 34.7088 43.8333 34.6264ZM38.5833 37.6264C38.7067 37.544 38.8517 37.5 39 37.5C39.1989 37.5 39.3897 37.579 39.5303 37.7197C39.671 37.8603 39.75 38.0511 39.75 38.25C39.75 38.3983 39.706 38.5433 39.6236 38.6667C39.5412 38.79 39.4241 38.8861 39.287 38.9429C39.15 38.9997 38.9992 39.0145 38.8537 38.9856C38.7082 38.9566 38.5746 38.8852 38.4697 38.7803C38.3648 38.6754 38.2934 38.5418 38.2644 38.3963C38.2355 38.2508 38.2503 38.1 38.3071 37.963C38.3639 37.8259 38.46 37.7088 38.5833 37.6264ZM45.75 42H2.25C1.65326 42 1.08097 41.7629 0.65901 41.341C0.237053 40.919 0 40.3467 0 39.75V30V27.75C0 27.1533 0.237053 26.581 0.65901 26.159C1.08097 25.7371 1.65326 25.5 2.25 25.5H45.75C46.3467 25.5 46.919 25.7371 47.341 26.159C47.7629 26.581 48 27.1533 48 27.75V30V39.75C48 40.3467 47.7629 40.919 47.341 41.341C46.919 41.7629 46.3467 42 45.75 42ZM46.5 30.7643V39.75C46.5 39.9489 46.421 40.1397 46.2803 40.2803C46.1397 40.421 45.9489 40.5 45.75 40.5H2.25C2.05109 40.5 1.86032 40.421 1.71967 40.2803C1.57902 40.1397 1.5 39.9489 1.5 39.75V30.7645C2.48054 30.8267 3.44493 31.0579 4.35 31.4497C5.6587 32.0105 7.07263 32.2834 8.496 32.25C9.91988 32.2836 11.3343 32.0107 12.6435 31.4497C13.7786 30.9585 15.007 30.7197 16.2435 30.75C17.4818 30.7191 18.712 30.9579 19.8488 31.4497C21.1575 32.0102 22.5714 32.2831 23.9948 32.25C25.4189 32.2835 26.8336 32.0106 28.143 31.4497C29.2781 30.9583 30.5065 30.7196 31.743 30.75C32.9815 30.7192 34.2119 30.958 35.349 31.4497C36.6583 32.0102 38.0727 32.2831 39.4965 32.25C40.9203 32.2832 42.3347 32.0103 43.644 31.4497C44.5511 31.0575 45.5175 30.8262 46.5 30.7643ZM46.5 29.2608C45.3318 29.3218 44.1815 29.5883 43.1025 30.0502C41.9654 30.542 40.735 30.7808 39.4965 30.75C38.258 30.7808 37.0276 30.542 35.8905 30.0502C34.5812 29.4897 33.1668 29.2168 31.743 29.25C30.3189 29.2165 28.9042 29.4894 27.5947 30.0502C26.4597 30.5417 25.2313 30.7804 23.9948 30.75C22.757 30.7809 21.5273 30.5421 20.391 30.0502C19.0817 29.4898 17.6673 29.2169 16.2435 29.25C14.8189 29.2161 13.4036 29.489 12.0938 30.0502C10.9587 30.5417 9.73028 30.7804 8.49375 30.75C7.25722 30.7804 6.02886 30.5416 4.89375 30.0502C3.81605 29.5884 2.66696 29.3219 1.5 29.2608V27.75C1.5 27.5511 1.57902 27.3603 1.71967 27.2197C1.86032 27.079 2.05109 27 2.25 27H45.75C45.9489 27 46.1397 27.079 46.2803 27.2197C46.421 27.3603 46.5 27.5511 46.5 27.75V29.2608Z" fill="#333333"></path></svg>]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[c2-blg-moisturizes]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-blg-moisturizes/</link>
-					<pubDate>Fri, 25 Oct 2024 11:06:06 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-blg-moisturizes.svg</guid>
-															<wp:post_id>62</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-25 11:06:06]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-25 11:06:06]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 11:06:06]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 11:06:06]]></wp:post_modified_gmt>
+					<title><![CDATA[c-mkp-fc-product-1-2.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=123</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:06 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-1-2.jpg</guid>
+															<wp:post_id>123</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:06]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c2-blg-moisturizes]]></wp:post_name>
+					<wp:post_name><![CDATA[c-mkp-fc-product-1-2-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
+					<wp:post_parent>94</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-blg-moisturizes.svg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-1-2.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c2-blg-moisturizes.svg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-1-2.jpg]]></wp:meta_value>
 						</wp:postmeta>
 												<wp:postmeta>
-							<wp:meta_key><![CDATA[_elementor_inline_svg]]></wp:meta_key>
-							<wp:meta_value><![CDATA[<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.5303 37.2803L26.7803 35.0303C26.9169 34.8888 26.9925 34.6994 26.9908 34.5027C26.989 34.3061 26.9102 34.118 26.7711 33.9789C26.6321 33.8399 26.4439 33.761 26.2473 33.7593C26.0507 33.7576 25.8612 33.8332 25.7197 33.9698L24.75 34.9396V32.9892C25.9167 32.928 27.0655 32.6615 28.143 32.1998C29.2782 31.7086 30.5065 31.4698 31.743 31.5001C32.419 31.4833 33.0927 31.5468 33.75 31.6879V34.9396L32.7803 33.9698C32.6388 33.8332 32.4493 33.7576 32.2527 33.7593C32.056 33.761 31.8679 33.8399 31.7289 33.9789C31.5898 34.118 31.511 34.3061 31.5092 34.5027C31.5075 34.6994 31.5831 34.8888 31.7197 35.0303L33.9697 37.2803C34.0394 37.3501 34.1222 37.4056 34.2133 37.4434C34.3044 37.4812 34.4021 37.5006 34.5007 37.5006C34.5994 37.5006 34.6971 37.4812 34.7882 37.4434C34.8793 37.4056 34.9621 37.3501 35.0317 37.2803L37.2817 35.0303C37.4222 34.8895 37.5009 34.6986 37.5006 34.4997C37.5003 34.3009 37.4211 34.1102 37.2803 33.9698C37.1396 33.8292 36.9489 33.7502 36.75 33.7502C36.5511 33.7502 36.3604 33.8292 36.2197 33.9698L35.25 34.9396V32.1577C35.2831 32.1715 35.3161 32.1856 35.349 32.1998C36.6583 32.7603 38.0727 33.0332 39.4965 33.0001C40.9203 33.0331 42.3347 32.7602 43.644 32.1998C44.5511 31.8075 45.5175 31.5763 46.5 31.5143V40.5001C46.5 40.699 46.421 40.8897 46.2803 41.0304C46.1397 41.171 45.9489 41.2501 45.75 41.2501H2.25C2.05109 41.2501 1.86032 41.171 1.71967 41.0304C1.57902 40.8897 1.5 40.699 1.5 40.5001V31.5146C2.48053 31.5768 3.44491 31.808 4.35 32.1998C5.65868 32.7606 7.07262 33.0335 8.496 33.0001C9.92013 33.0338 11.3349 32.7609 12.6442 32.1998C12.6794 32.1846 12.7147 32.1696 12.75 32.1549V34.9396L11.7802 33.9698C11.6388 33.8332 11.4493 33.7576 11.2527 33.7593C11.0561 33.761 10.8679 33.8399 10.7289 33.9789C10.5898 34.118 10.511 34.3061 10.5092 34.5027C10.5075 34.6994 10.5831 34.8888 10.7198 35.0303L12.9697 37.2803C13.0394 37.3501 13.1222 37.4056 13.2133 37.4434C13.3044 37.4812 13.4021 37.5006 13.5007 37.5006C13.5994 37.5006 13.6971 37.4812 13.7882 37.4434C13.8793 37.4056 13.9621 37.3501 14.0317 37.2803L16.2817 35.0303C16.4222 34.8895 16.5009 34.6986 16.5006 34.4997C16.5003 34.3009 16.4211 34.1102 16.2803 33.9698C16.1396 33.8292 15.9489 33.7502 15.75 33.7502C15.5511 33.7502 15.3604 33.8292 15.2197 33.9698L14.25 34.9396V31.6863C14.9033 31.5466 15.5725 31.4836 16.2443 31.5001C17.4823 31.4693 18.7122 31.7081 19.8488 32.1998C20.9288 32.6625 22.0805 32.9292 23.25 32.9895V34.9396L22.2787 33.9698C22.1373 33.8332 21.9478 33.7576 21.7512 33.7593C21.5546 33.761 21.3664 33.8399 21.2274 33.9789C21.0883 34.118 21.0095 34.3061 21.0077 34.5027C21.006 34.6994 21.0816 34.8888 21.2183 35.0303L23.4683 37.2803C23.5379 37.3501 23.6207 37.4056 23.7118 37.4434C23.8029 37.4812 23.9006 37.5006 23.9993 37.5006C24.0979 37.5006 24.1956 37.4812 24.2867 37.4434C24.3778 37.4056 24.4606 37.3501 24.5303 37.2803ZM24.75 31.4852V29.2501C24.75 29.0511 24.671 28.8604 24.5303 28.7197C24.3897 28.5791 24.1989 28.5001 24 28.5001C23.8011 28.5001 23.6103 28.5791 23.4697 28.7197C23.329 28.8604 23.25 29.0511 23.25 29.2501V31.4861C22.2661 31.4247 21.2984 31.1933 20.3903 30.8003C19.0815 30.2399 17.6676 29.967 16.2443 30.0001C15.5741 29.9841 14.906 30.036 14.25 30.1539V29.2501C14.25 29.0511 14.171 28.8604 14.0303 28.7197C13.8897 28.5791 13.6989 28.5001 13.5 28.5001C13.3011 28.5001 13.1103 28.5791 12.9697 28.7197C12.829 28.8604 12.75 29.0511 12.75 29.2501V30.5463C12.5287 30.623 12.3098 30.7078 12.0938 30.8003C10.9587 31.2917 9.73028 31.5305 8.49375 31.5001C7.25722 31.5304 6.02886 31.2917 4.89375 30.8003C3.81605 30.3385 2.66696 30.0719 1.5 30.0109V28.5001C1.5 28.3011 1.57902 28.1104 1.71967 27.9697C1.86032 27.8291 2.05109 27.7501 2.25 27.7501H45.75C45.9489 27.7501 46.1397 27.8291 46.2803 27.9697C46.421 28.1104 46.5 28.3011 46.5 28.5001V30.0109C45.3318 30.0719 44.1815 30.3385 43.1025 30.8003C41.9654 31.2921 40.735 31.5308 39.4965 31.5001C38.258 31.5308 37.0276 31.2921 35.8905 30.8003C35.6796 30.71 35.466 30.6272 35.25 30.552V29.2501C35.25 29.0511 35.171 28.8604 35.0303 28.7197C34.8897 28.5791 34.6989 28.5001 34.5 28.5001C34.3011 28.5001 34.1103 28.5791 33.9697 28.7197C33.829 28.8604 33.75 29.0511 33.75 29.2501V30.1571C33.0899 30.0374 32.4175 29.9844 31.743 30.0001C30.3189 29.9664 28.9042 30.2393 27.5947 30.8003C26.6913 31.1915 25.7287 31.4225 24.75 31.4852ZM18.6991 22.5509C20.1052 23.957 22.0115 24.7479 24 24.7501C25.9885 24.7479 27.8948 23.957 29.3009 22.5509C30.7069 21.1449 31.4978 19.2385 31.5 17.2501C31.5 13.3501 25.2682 6.29105 24.558 5.49905C24.4858 5.42383 24.3992 5.36397 24.3033 5.32308C24.2074 5.28219 24.1042 5.26111 24 5.26111C23.8958 5.26111 23.7926 5.28219 23.6967 5.32308C23.6008 5.36397 23.5142 5.42383 23.442 5.49905C22.7318 6.29105 16.5 13.3501 16.5 17.2501C16.5022 19.2385 17.2931 21.1449 18.6991 22.5509ZM18 17.2501C18 14.6836 21.9195 9.57155 24 7.1393C26.0805 9.57155 30 14.6836 30 17.2501C30 18.8414 29.3679 20.3675 28.2426 21.4927C27.1174 22.6179 25.5913 23.2501 24 23.2501C22.4087 23.2501 20.8826 22.6179 19.7574 21.4927C18.6321 20.3675 18 18.8414 18 17.2501ZM28.2803 16.7197C28.421 16.8604 28.5 17.0511 28.5 17.2501C28.4988 18.4432 28.0243 19.5871 27.1807 20.4307C26.337 21.2744 25.1931 21.7489 24 21.7501C23.8011 21.7501 23.6103 21.671 23.4697 21.5304C23.329 21.3897 23.25 21.199 23.25 21.0001C23.25 20.8011 23.329 20.6104 23.4697 20.4697C23.6103 20.3291 23.8011 20.2501 24 20.2501C24.7956 20.2501 25.5587 19.934 26.1213 19.3714C26.6839 18.8088 27 18.0457 27 17.2501C27 17.0511 27.079 16.8604 27.2197 16.7197C27.3603 16.5791 27.5511 16.5001 27.75 16.5001C27.9489 16.5001 28.1397 16.5791 28.2803 16.7197ZM4.53944 23.2106C5.52367 24.1948 6.8581 24.7485 8.25 24.7501C9.6419 24.7485 10.9763 24.1948 11.9606 23.2106C12.9448 22.2264 13.4984 20.892 13.5 19.5001C13.5 16.8053 9.28875 12.0346 8.808 11.4991C8.73583 11.4238 8.6492 11.364 8.55331 11.3231C8.45742 11.2822 8.35425 11.2611 8.25 11.2611C8.14575 11.2611 8.04258 11.2822 7.94669 11.3231C7.8508 11.364 7.76417 11.4238 7.692 11.4991C7.21125 12.0346 3 16.8053 3 19.5001C3.00159 20.892 3.55522 22.2264 4.53944 23.2106ZM4.5 19.5001C4.5 18.0706 6.612 15.0871 8.25 13.1438C9.888 15.0863 12 18.0683 12 19.5001C12 20.4946 11.6049 21.4484 10.9017 22.1517C10.1984 22.855 9.24456 23.2501 8.25 23.2501C7.25544 23.2501 6.30161 22.855 5.59835 22.1517C4.89509 21.4484 4.5 20.4946 4.5 19.5001ZM10.2803 18.9697C10.421 19.1104 10.5 19.3011 10.5 19.5001C10.5 20.0968 10.2629 20.6691 9.84099 21.091C9.41903 21.513 8.84674 21.7501 8.25 21.7501C8.05109 21.7501 7.86032 21.671 7.71967 21.5304C7.57902 21.3897 7.5 21.199 7.5 21.0001C7.5 20.8011 7.57902 20.6104 7.71967 20.4697C7.86032 20.3291 8.05109 20.2501 8.25 20.2501C8.44891 20.2501 8.63968 20.171 8.78033 20.0304C8.92098 19.8897 9 19.699 9 19.5001C9 19.3011 9.07902 19.1104 9.21967 18.9697C9.36032 18.8291 9.55109 18.7501 9.75 18.7501C9.94891 18.7501 10.1397 18.8291 10.2803 18.9697ZM36.0394 23.2106C37.0237 24.1948 38.3581 24.7485 39.75 24.7501C41.1419 24.7485 42.4763 24.1948 43.4606 23.2106C44.4448 22.2264 44.9984 20.892 45 19.5001C45 16.8053 40.7887 12.0346 40.308 11.4991C40.2358 11.4238 40.1492 11.364 40.0533 11.3231C39.9574 11.2822 39.8542 11.2611 39.75 11.2611C39.6458 11.2611 39.5426 11.2822 39.4467 11.3231C39.3508 11.364 39.2642 11.4238 39.192 11.4991C38.7113 12.0346 34.5 16.8053 34.5 19.5001C34.5016 20.892 35.0552 22.2264 36.0394 23.2106ZM36 19.5001C36 18.0706 38.112 15.0871 39.75 13.1438C41.388 15.0863 43.5 18.0683 43.5 19.5001C43.5 20.4946 43.1049 21.4484 42.4016 22.1517C41.6984 22.855 40.7446 23.2501 39.75 23.2501C38.7554 23.2501 37.8016 22.855 37.0984 22.1517C36.3951 21.4484 36 20.4946 36 19.5001ZM41.7803 18.9697C41.921 19.1104 42 19.3011 42 19.5001C42 20.0968 41.7629 20.6691 41.341 21.091C40.919 21.513 40.3467 21.7501 39.75 21.7501C39.5511 21.7501 39.3603 21.671 39.2197 21.5304C39.079 21.3897 39 21.199 39 21.0001C39 20.8011 39.079 20.6104 39.2197 20.4697C39.3603 20.3291 39.5511 20.2501 39.75 20.2501C39.9489 20.2501 40.1397 20.171 40.2803 20.0304C40.421 19.8897 40.5 19.699 40.5 19.5001C40.5 19.3011 40.579 19.1104 40.7197 18.9697C40.8603 18.8291 41.0511 18.7501 41.25 18.7501C41.4489 18.7501 41.6397 18.8291 41.7803 18.9697ZM2.25 42.7501H45.75C46.3467 42.7501 46.919 42.513 47.341 42.091C47.7629 41.6691 48 41.0968 48 40.5001V30.7501V28.5001C48 27.9033 47.7629 27.331 47.341 26.9091C46.919 26.4871 46.3467 26.2501 45.75 26.2501H2.25C1.65326 26.2501 1.08097 26.4871 0.65901 26.9091C0.237053 27.331 0 27.9033 0 28.5001V30.7501V40.5001C0 41.0968 0.237053 41.6691 0.65901 42.091C1.08097 42.513 1.65326 42.7501 2.25 42.7501ZM29.1236 39.4167C29.206 39.2934 29.25 39.1484 29.25 39.0001C29.25 38.8011 29.171 38.6104 29.0303 38.4697C28.8897 38.3291 28.6989 38.2501 28.5 38.2501C28.3517 38.2501 28.2067 38.294 28.0833 38.3764C27.96 38.4589 27.8639 38.576 27.8071 38.713C27.7503 38.8501 27.7355 39.0009 27.7644 39.1464C27.7934 39.2919 27.8648 39.4255 27.9697 39.5304C28.0746 39.6353 28.2082 39.7067 28.3537 39.7356C28.4992 39.7646 28.65 39.7497 28.787 39.693C28.9241 39.6362 29.0412 39.5401 29.1236 39.4167ZM19.0833 38.3764C19.2067 38.294 19.3517 38.2501 19.5 38.2501C19.6989 38.2501 19.8897 38.3291 20.0303 38.4697C20.171 38.6104 20.25 38.8011 20.25 39.0001C20.25 39.1484 20.206 39.2934 20.1236 39.4167C20.0412 39.5401 19.9241 39.6362 19.787 39.693C19.65 39.7497 19.4992 39.7646 19.3537 39.7356C19.2082 39.7067 19.0746 39.6353 18.9697 39.5304C18.8648 39.4255 18.7934 39.2919 18.7644 39.1464C18.7355 39.0009 18.7503 38.8501 18.8071 38.713C18.8639 38.576 18.96 38.4589 19.0833 38.3764ZM3.33332 35.3764C3.45666 35.294 3.60166 35.2501 3.75 35.2501C3.94891 35.2501 4.13968 35.3291 4.28033 35.4697C4.42098 35.6104 4.5 35.8011 4.5 36.0001C4.5 36.1484 4.45601 36.2934 4.3736 36.4167C4.29119 36.5401 4.17406 36.6362 4.03701 36.693C3.89997 36.7497 3.74917 36.7646 3.60368 36.7356C3.4582 36.7067 3.32456 36.6353 3.21967 36.5304C3.11478 36.4255 3.04335 36.2919 3.01441 36.1464C2.98547 36.0009 3.00032 35.8501 3.05709 35.713C3.11386 35.576 3.20999 35.4589 3.33332 35.3764ZM8.58332 38.3764C8.70666 38.294 8.85166 38.2501 9 38.2501C9.19891 38.2501 9.38968 38.3291 9.53033 38.4697C9.67098 38.6104 9.75 38.8011 9.75 39.0001C9.75 39.1484 9.70601 39.2934 9.6236 39.4167C9.54119 39.5401 9.42406 39.6362 9.28701 39.693C9.14997 39.7497 8.99917 39.7646 8.85368 39.7356C8.7082 39.7067 8.57456 39.6353 8.46967 39.5304C8.36478 39.4255 8.29335 39.2919 8.26441 39.1464C8.23547 39.0009 8.25033 38.8501 8.30709 38.713C8.36386 38.576 8.45999 38.4589 8.58332 38.3764ZM43.8333 35.3764C43.9567 35.294 44.1017 35.2501 44.25 35.2501C44.4489 35.2501 44.6397 35.3291 44.7803 35.4697C44.921 35.6104 45 35.8011 45 36.0001C45 36.1484 44.956 36.2934 44.8736 36.4167C44.7912 36.5401 44.6741 36.6362 44.537 36.693C44.4 36.7497 44.2492 36.7646 44.1037 36.7356C43.9582 36.7067 43.8246 36.6353 43.7197 36.5304C43.6148 36.4255 43.5434 36.2919 43.5144 36.1464C43.4855 36.0009 43.5003 35.8501 43.5571 35.713C43.6139 35.576 43.71 35.4589 43.8333 35.3764ZM38.5833 38.3764C38.7067 38.294 38.8517 38.2501 39 38.2501C39.1989 38.2501 39.3897 38.3291 39.5303 38.4697C39.671 38.6104 39.75 38.8011 39.75 39.0001C39.75 39.1484 39.706 39.2934 39.6236 39.4167C39.5412 39.5401 39.4241 39.6362 39.287 39.693C39.15 39.7497 38.9992 39.7646 38.8537 39.7356C38.7082 39.7067 38.5746 39.6353 38.4697 39.5304C38.3648 39.4255 38.2934 39.2919 38.2644 39.1464C38.2355 39.0009 38.2503 38.8501 38.3071 38.713C38.3639 38.576 38.46 38.4589 38.5833 38.3764Z" fill="#333333"></path></svg>]]></wp:meta_value>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1-2.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[c2-ftr-rating-stars]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=379</link>
-					<pubDate>Fri, 25 Oct 2024 14:08:09 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-ftr-rating-stars.png</guid>
-															<wp:post_id>379</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-25 14:08:09]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-25 14:08:09]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 14:08:09]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 14:08:09]]></wp:post_modified_gmt>
+					<title><![CDATA[c-mkp-fc-product-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=124</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:06 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-1.jpg</guid>
+															<wp:post_id>124</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:06]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c2-ftr-rating-stars]]></wp:post_name>
+					<wp:post_name><![CDATA[c-mkp-fc-product-1-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>209</wp:post_parent>
+					<wp:post_parent>95</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-ftr-rating-stars.png]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-1.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c2-ftr-rating-stars.png]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[c2-glry-3-opt]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/c2-glry-3-opt/</link>
-					<pubDate>Fri, 25 Oct 2024 14:53:05 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-3-opt.jpg</guid>
-															<wp:post_id>400</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-25 14:53:05]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-25 14:53:05]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-25 14:53:05]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-25 14:53:05]]></wp:post_modified_gmt>
+					<title><![CDATA[c-mkp-fc-product-3-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=125</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:06 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-3-1.jpg</guid>
+															<wp:post_id>125</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:06]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c2-glry-3-opt]]></wp:post_name>
+					<wp:post_name><![CDATA[c-mkp-fc-product-3-1-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>0</wp:post_parent>
+					<wp:post_parent>96</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-glry-3-opt.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-3-1.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c2-glry-3-opt.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-3-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-3-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[c2-blg-img-5-opt]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=622</link>
-					<pubDate>Mon, 28 Oct 2024 13:13:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-blg-img-5-opt.jpg</guid>
-															<wp:post_id>622</wp:post_id>
-					<wp:post_date><![CDATA[2024-10-28 13:13:23]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-10-28 13:13:23]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-10-28 13:13:23]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-10-28 13:13:23]]></wp:post_modified_gmt>
+					<title><![CDATA[c-mkp-fc-product-3.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=126</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:06 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-3.jpg</guid>
+															<wp:post_id>126</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:06]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:06]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:06]]></wp:post_modified_gmt>
 					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[c2-blg-img-5-opt]]></wp:post_name>
+					<wp:post_name><![CDATA[c-mkp-fc-product-3-jpg]]></wp:post_name>
 					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>210</wp:post_parent>
+					<wp:post_parent>98</wp:post_parent>
 					<wp:menu_order>0</wp:menu_order>
 					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c2-blg-img-5-opt.jpg]]></wp:attachment_url>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-3.jpg]]></wp:attachment_url>
 																					<wp:postmeta>
 							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/10/c2-blg-img-5-opt.jpg]]></wp:meta_value>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-3.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-3.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-mkp-fc-product-11.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=127</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:07 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-11.jpg</guid>
+															<wp:post_id>127</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:07]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:07]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:07]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-mkp-fc-product-11-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>99</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-11.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-11.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-11.jpg]]></wp:meta_value>
+						</wp:postmeta>
+										</item>
+								<item>
+					<title><![CDATA[c-mkp-fc-product-11-1.jpg]]></title>
+					<link>https://dummy.xtemos.com/woodmart2/makeup-elementor/?attachment_id=128</link>
+					<pubDate>Fri, 25 Oct 2024 11:07:07 +0000</pubDate>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
+					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-11-1.jpg</guid>
+															<wp:post_id>128</wp:post_id>
+					<wp:post_date><![CDATA[2024-10-25 11:07:07]]></wp:post_date>
+					<wp:post_date_gmt><![CDATA[2024-10-25 11:07:07]]></wp:post_date_gmt>
+					<wp:post_modified><![CDATA[2024-10-25 11:07:07]]></wp:post_modified>
+					<wp:post_modified_gmt><![CDATA[2024-10-25 11:07:07]]></wp:post_modified_gmt>
+					<wp:comment_status><![CDATA[open]]></wp:comment_status>
+					<wp:post_name><![CDATA[c-mkp-fc-product-11-1-jpg]]></wp:post_name>
+					<wp:status><![CDATA[inherit]]></wp:status>
+					<wp:post_parent>100</wp:post_parent>
+					<wp:menu_order>0</wp:menu_order>
+					<wp:post_type><![CDATA[attachment]]></wp:post_type>
+											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/makeup-elementor/wp-content/uploads/sites/39/2024/10/c-mkp-fc-product-11-1.jpg]]></wp:attachment_url>
+																					<wp:postmeta>
+							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+							<wp:meta_value><![CDATA[2024/10/c-mkp-fc-product-11-1.jpg]]></wp:meta_value>
+						</wp:postmeta>
+												<wp:postmeta>
+							<wp:meta_key><![CDATA[_wc_attachment_source]]></wp:meta_key>
+							<wp:meta_value><![CDATA[http://dummy.xtemos.com/woodmart2/makeup/wp-content/uploads/sites/38/2024/10/c-mkp-fc-product-11-1.jpg]]></wp:meta_value>
 						</wp:postmeta>
 										</item>
 				</channel>

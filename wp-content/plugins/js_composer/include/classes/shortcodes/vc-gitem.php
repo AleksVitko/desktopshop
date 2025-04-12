@@ -102,7 +102,7 @@ class WPBakeryShortCode_Vc_Gitem extends WPBakeryShortCodesContainer {
 			return '';
 		}
 
-		$buttons = array();
+		$buttons = [];
 		$edit_access = vc_user_access_check_shortcode_edit( $this->shortcode );
 		$all_access = vc_user_access_check_shortcode_all( $this->shortcode );
 		foreach ( $controls as $control ) {

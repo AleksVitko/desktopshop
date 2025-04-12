@@ -31,7 +31,6 @@ class Main extends Singleton {
 		}
 
 		add_action( 'init', array( $this, 'add_options' ) );
-
 		add_filter( 'woocommerce_settings_pages', array( $this, 'add_endpoint_option' ) );
 		add_filter( 'woocommerce_get_query_vars', array( $this, 'add_endpoint' ) );
 
@@ -63,7 +62,7 @@ class Main extends Singleton {
 			array(
 				'id'          => 'waitlist_enabled',
 				'name'        => esc_html__( 'Enable "Waitlist"', 'woodmart' ),
-				'hint' => '<video data-src="' . WOODMART_TOOLTIP_URL . 'waitlist_enabled.mp4" autoplay loop muted></video>',
+				'hint'        => '<video data-src="' . WOODMART_TOOLTIP_URL . 'waitlist_enabled.mp4" autoplay loop muted></video>',
 				'description' => esc_html__( 'Activate this option to allow customers to join a waitlist for out-of-stock products, ensuring they are notified when the items become available again.', 'woodmart' ),
 				'type'        => 'switcher',
 				'section'     => 'waitlist_section',
@@ -109,6 +108,7 @@ class Main extends Singleton {
 				),
 				'default'     => 'current_state',
 				'priority'    => 30,
+				'class'       => 'xts-preset-field-disabled',
 			)
 		);
 
@@ -169,6 +169,7 @@ class Main extends Singleton {
 				),
 				'default'     => strval( HOUR_IN_SECONDS ),
 				'priority'    => 45,
+				'class'       => 'xts-preset-field-disabled',
 			)
 		);
 
@@ -176,7 +177,7 @@ class Main extends Singleton {
 			array(
 				'id'          => 'waitlist_enable_privacy_checkbox',
 				'name'        => esc_html__( 'Enable privacy policy checkbox', 'woodmart' ),
-				'hint' => '<video data-src="' . WOODMART_TOOLTIP_URL . 'waitlist_enable_privacy_checkbox.mp4" autoplay loop muted></video>',
+				'hint'        => '<video data-src="' . WOODMART_TOOLTIP_URL . 'waitlist_enable_privacy_checkbox.mp4" autoplay loop muted></video>',
 				'description' => esc_html__( 'Activate this setting to require customers to agree to your privacy policy with a checkbox before they can join the waitlist for out-of-stock products.', 'woodmart' ),
 				'type'        => 'switcher',
 				'section'     => 'waitlist_section',
@@ -197,7 +198,7 @@ class Main extends Singleton {
 				'wysiwyg'      => false,
 				'section'      => 'waitlist_section',
 				'empty_option' => true,
-				'default'      => wp_kses( __('I have read and accept the <strong>[privacy_policy]</strong>', 'woodmart'), array( 'strong' => array() ) ),
+				'default'      => wp_kses( __( 'I have read and accept the <strong>[privacy_policy]</strong>', 'woodmart' ), array( 'strong' => array() ) ),
 				'priority'     => 60,
 				'requires'     => array(
 					array(

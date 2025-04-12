@@ -43,7 +43,7 @@ class Group extends Field {
 		);
 
 		foreach ( $inner_fields as $field_args ) {
-			if ( ! isset( $this->options[ $field_args['id'] ] ) ) {
+			if ( ! isset( $this->options[ $field_args['id'] ] ) || ( empty( $this->options[ $field_args['id'] ] ) && '0' !== $this->options[ $field_args['id'] ] ) ) {
 				$this->options[ $field_args['id'] ] = Options::get_default( $field_args );
 			}
 

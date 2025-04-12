@@ -58,8 +58,8 @@ class Main extends Singleton {
 				'type'        => 'switcher',
 				'section'     => 'sold_counter',
 				'default'     => false,
-				'on-text'     => esc_html__( 'Yes', 'woodmart' ),
-				'off-text'    => esc_html__( 'No', 'woodmart' ),
+				'on-text'     => esc_html__( 'On', 'woodmart' ),
+				'off-text'    => esc_html__( 'Off', 'woodmart' ),
 				'priority'    => 10,
 			)
 		);
@@ -169,52 +169,53 @@ class Main extends Singleton {
 
 		Options::add_field(
 			array(
-				'id'          => 'sold_counter_timeframe_period',
-				'name'        => esc_html__( 'Time period', 'woodmart' ),
-				'description' => esc_html__( 'Select custom time period', 'woodmart' ),
-				'type'        => 'select',
-				'section'     => 'sold_counter',
-				'options'     => array(
-					'minutes' => array(
-						'name'  => esc_html__( 'Minutes', 'woodmart' ),
-						'value' => 'minutes',
+				'id'           => 'sold_counter_time',
+				'name'         => esc_html__( 'Time period', 'woodmart' ),
+				'description'  => esc_html__( 'Displays sales count for a product over a specified time frame, e.g., "3 minutes".', 'woodmart' ),
+				'type'         => 'group',
+				'section'      => 'sold_counter',
+				'inner_fields' => array(
+					array(
+						'id'         => 'sold_counter_timeframe',
+						'type'       => 'text_input',
+						'attributes' => array(
+							'type' => 'number',
+							'min'  => 1,
+							'max'  => 59,
+						),
+						'priority'   => 10,
+						'default'    => 3,
 					),
-					'hours'   => array(
-						'name'  => esc_html__( 'Hours', 'woodmart' ),
-						'value' => 'hours',
-					),
-					'days'    => array(
-						'name'  => esc_html__( 'Days', 'woodmart' ),
-						'value' => 'days',
-					),
-					'weeks'   => array(
-						'name'  => esc_html__( 'Weeks', 'woodmart' ),
-						'value' => 'weeks',
-					),
-					'months'  => array(
-						'name'  => esc_html__( 'Months', 'woodmart' ),
-						'value' => 'months',
+					array(
+						'id'       => 'sold_counter_timeframe_period',
+						'type'     => 'select',
+						'options'  => array(
+							'minutes' => array(
+								'name'  => esc_html__( 'Minutes', 'woodmart' ),
+								'value' => 'minutes',
+							),
+							'hours'   => array(
+								'name'  => esc_html__( 'Hours', 'woodmart' ),
+								'value' => 'hours',
+							),
+							'days'    => array(
+								'name'  => esc_html__( 'Days', 'woodmart' ),
+								'value' => 'days',
+							),
+							'weeks'   => array(
+								'name'  => esc_html__( 'Weeks', 'woodmart' ),
+								'value' => 'weeks',
+							),
+							'months'  => array(
+								'name'  => esc_html__( 'Months', 'woodmart' ),
+								'value' => 'months',
+							),
+						),
+						'default'  => 'minutes',
+						'priority' => 20,
 					),
 				),
-				'default'     => 'minutes',
-				'priority'    => 70,
-				'class'       => 'xts-col-6',
-			)
-		);
-
-		Options::add_field(
-			array(
-				'id'          => 'sold_counter_timeframe',
-				'name'        => esc_html__( 'Time frame', 'woodmart' ),
-				'description' => esc_html__( 'Specify custom timeframe value.', 'woodmart' ),
-				'type'        => 'range',
-				'section'     => 'sold_counter',
-				'default'     => 3,
-				'min'         => 1,
-				'max'         => 59,
-				'step'        => 1,
-				'priority'    => 80,
-				'class'       => 'xts-col-6',
+				'priority'     => 70,
 			)
 		);
 
@@ -229,7 +230,7 @@ class Main extends Singleton {
 				'min'         => 1,
 				'max'         => 72,
 				'step'        => 1,
-				'priority'    => 90,
+				'priority'    => 80,
 			)
 		);
 	}

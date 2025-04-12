@@ -68,4 +68,8 @@
 	$(document).ready(function() {
 		woodmartThemeModule.cartWidget();
 	});
+
+	window.addEventListener('wdUpdatedHeader',function() {
+		woodmartThemeModule.cartWidget();
+	});
 })(jQuery);

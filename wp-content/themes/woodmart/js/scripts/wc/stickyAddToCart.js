@@ -39,11 +39,18 @@
 
 		woodmartThemeModule.$window.on('scroll', stickyAddToCartToggle);
 
-		$('.wd-sticky-add-to-cart, .wd-sticky-btn .wd-buy-now-btn').on('click', function(e) {
+		$('.wd-sticky-add-to-cart, .wd-sticky-btn-cart > .wd-buy-now-btn').on('click', function(e) {
 			e.preventDefault();
 
+			var headerHeight = $('.whb-header .whb-row.whb-sticky-row').length > 0 ? $('.whb-header .whb-main-header').outerHeight() : 0;
+
+			var $stickyHeader = $('.whb-sticky-header');
+			var stickyHeaderHeight = $stickyHeader.length ? $stickyHeader.outerHeight() : headerHeight;
+
+			var scrollTo = $('.summary-inner .variations_form, .wd-single-add-cart .variations_form').offset().top - stickyHeaderHeight - woodmart_settings.sticky_add_to_cart_offset;
+
 			$('html, body').animate({
-				scrollTop: $('.elementor-widget-woocommerce-product-title,.summary-inner .product_title,.elementor-widget-wd_single_product_title, .wd-single-title').offset().top
+				scrollTop: scrollTo
 			}, 800);
 		});
 

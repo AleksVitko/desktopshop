@@ -25,7 +25,7 @@ class WPBakeryShortCode_Vc_Raw_Html extends WPBakeryShortCode {
 		$output = '';
 		// Compatibility fixes
 		// TODO: check $old_names & &new_names. Leftover from copypasting?
-		$old_names = array(
+		$old_names = [
 			'yellow_message',
 			'blue_message',
 			'green_message',
@@ -35,8 +35,8 @@ class WPBakeryShortCode_Vc_Raw_Html extends WPBakeryShortCode {
 			'button_blue',
 			'button_red',
 			'button_orange',
-		);
-		$new_names = array(
+		];
+		$new_names = [
 			'alert-block',
 			'alert-info',
 			'alert-success',
@@ -46,7 +46,7 @@ class WPBakeryShortCode_Vc_Raw_Html extends WPBakeryShortCode {
 			'btn-primary',
 			'btn-danger',
 			'btn-warning',
-		);
+		];
 		$value = str_ireplace( $old_names, $new_names, $value );
 
 		$param_name = isset( $param['param_name'] ) ? $param['param_name'] : '';

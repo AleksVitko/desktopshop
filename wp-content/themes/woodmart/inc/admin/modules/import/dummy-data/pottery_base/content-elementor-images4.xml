@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-07-30 08:49" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-07 13:46" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,14 +29,13 @@
 	<title>Pottery Elementor</title>
 	<link>https://dummy.xtemos.com/woodmart2/pottery-elementor</link>
 	<description></description>
-	<pubDate>Tue, 30 Jul 2024 08:49:51 +0000</pubDate>
+	<pubDate>Fri, 07 Feb 2025 13:46:16 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/pottery-elementor</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -44,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[logo-white]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/logo-white/</link>
 					<pubDate>Thu, 18 Jul 2024 07:47:26 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/logo-white.svg</guid>
 															<wp:post_id>349</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 07:47:26]]></wp:post_date>
@@ -77,7 +76,7 @@
 					<title><![CDATA[w-hmp-map-point]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/w-hmp-map-point/</link>
 					<pubDate>Thu, 18 Jul 2024 07:47:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-map-point.svg</guid>
 															<wp:post_id>351</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 07:47:27]]></wp:post_date>
@@ -104,7 +103,7 @@
 					<title><![CDATA[w-hmp-blog-5]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/02/12/5-reasons-youll-love-handmade-mugs/w-hmp-blog-5/</link>
 					<pubDate>Thu, 18 Jul 2024 07:58:22 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-blog-5.jpg</guid>
 															<wp:post_id>363</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 07:58:22]]></wp:post_date>
@@ -127,7 +126,7 @@
 					<title><![CDATA[w-hmp-blog-4]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/03/23/keeeps-pottery-classes-wheel-throwing-courses/w-hmp-blog-4/</link>
 					<pubDate>Thu, 18 Jul 2024 07:58:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-blog-4.jpg</guid>
 															<wp:post_id>366</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 07:58:55]]></wp:post_date>
@@ -150,7 +149,7 @@
 					<title><![CDATA[w-hmp-blog-3]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/04/01/the-inspiration-behind-the-dust-to-dust-necklace/w-hmp-blog-3/</link>
 					<pubDate>Thu, 18 Jul 2024 07:59:23 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-blog-3.jpg</guid>
 															<wp:post_id>369</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 07:59:23]]></wp:post_date>
@@ -173,7 +172,7 @@
 					<title><![CDATA[w-hmp-blog-2]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/05/24/our-top-5-pottery-gift-ideas/w-hmp-blog-2/</link>
 					<pubDate>Thu, 18 Jul 2024 08:00:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-blog-2.jpg</guid>
 															<wp:post_id>372</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 08:00:00]]></wp:post_date>
@@ -196,7 +195,7 @@
 					<title><![CDATA[w-hmp-blog-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-blog-1/</link>
 					<pubDate>Thu, 18 Jul 2024 08:00:27 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-blog-1.jpg</guid>
 															<wp:post_id>375</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 08:00:27]]></wp:post_date>
@@ -219,7 +218,7 @@
 					<title><![CDATA[w-hmp-potteries-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/home-pottery/w-hmp-potteries-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:06:44 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-potteries-opt.jpg</guid>
 															<wp:post_id>472</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:06:44]]></wp:post_date>
@@ -242,7 +241,7 @@
 					<title><![CDATA[w-hmp-img-1-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/home-pottery/w-hmp-img-1-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:11:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-img-1-opt.jpg</guid>
 															<wp:post_id>485</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:11:54]]></wp:post_date>
@@ -265,7 +264,7 @@
 					<title><![CDATA[w-hmp-img-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/home-pottery/w-hmp-img-2-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:21:14 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-img-2-opt.jpg</guid>
 															<wp:post_id>498</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:21:14]]></wp:post_date>
@@ -288,7 +287,7 @@
 					<title><![CDATA[w-hmp-single-post-image-9-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-single-post-image-9-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:45:46 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/06/w-hmp-single-post-image-9-opt.jpg</guid>
 															<wp:post_id>527</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:45:46]]></wp:post_date>
@@ -311,7 +310,7 @@
 					<title><![CDATA[w-hmp-blog-4-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-blog-4-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:46:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/06/w-hmp-blog-4-opt.jpg</guid>
 															<wp:post_id>528</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:46:02]]></wp:post_date>
@@ -334,7 +333,7 @@
 					<title><![CDATA[w-hmp-single-post-image-2-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-single-post-image-2-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:50:35 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/06/w-hmp-single-post-image-2-opt.jpg</guid>
 															<wp:post_id>535</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:50:35]]></wp:post_date>
@@ -354,33 +353,10 @@
 						</wp:postmeta>
 										</item>
 								<item>
-					<title><![CDATA[w-hmp-single-post-image-4-opt]]></title>
-					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-single-post-image-4-opt/</link>
-					<pubDate>Thu, 18 Jul 2024 09:50:36 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
-					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/06/w-hmp-single-post-image-4-opt.jpg</guid>
-															<wp:post_id>536</wp:post_id>
-					<wp:post_date><![CDATA[2024-07-18 09:50:36]]></wp:post_date>
-					<wp:post_date_gmt><![CDATA[2024-07-18 09:50:36]]></wp:post_date_gmt>
-					<wp:post_modified><![CDATA[2024-07-18 09:50:36]]></wp:post_modified>
-					<wp:post_modified_gmt><![CDATA[2024-07-18 09:50:36]]></wp:post_modified_gmt>
-					<wp:comment_status><![CDATA[open]]></wp:comment_status>
-					<wp:post_name><![CDATA[w-hmp-single-post-image-4-opt]]></wp:post_name>
-					<wp:status><![CDATA[inherit]]></wp:status>
-					<wp:post_parent>374</wp:post_parent>
-					<wp:menu_order>0</wp:menu_order>
-					<wp:post_type><![CDATA[attachment]]></wp:post_type>
-											<wp:attachment_url><![CDATA[http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/06/w-hmp-single-post-image-4-opt.jpg]]></wp:attachment_url>
-																					<wp:postmeta>
-							<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-							<wp:meta_value><![CDATA[2024/06/w-hmp-single-post-image-4-opt.jpg]]></wp:meta_value>
-						</wp:postmeta>
-										</item>
-								<item>
 					<title><![CDATA[w-hmp-single-post-image-5-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/2024/06/13/our-most-frequently-asked-questions-explained/w-hmp-single-post-image-5-opt/</link>
 					<pubDate>Thu, 18 Jul 2024 09:50:37 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/06/w-hmp-single-post-image-5-opt.jpg</guid>
 															<wp:post_id>538</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-18 09:50:37]]></wp:post_date>
@@ -403,7 +379,7 @@
 					<title><![CDATA[w-hmp-abot-me-red-clay-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/about-me/w-hmp-abot-me-red-clay-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 07:24:47 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-abot-me-red-clay-opt.jpg</guid>
 															<wp:post_id>642</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 07:24:47]]></wp:post_date>
@@ -426,7 +402,7 @@
 					<title><![CDATA[w-hmp-abot-me-blue-clay-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/about-me/w-hmp-abot-me-blue-clay-opt/</link>
 					<pubDate>Fri, 19 Jul 2024 07:24:48 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-abot-me-blue-clay-opt.jpg</guid>
 															<wp:post_id>643</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-19 07:24:48]]></wp:post_date>
@@ -449,7 +425,7 @@
 					<title><![CDATA[w-hmp-single-post-image-opt]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/pottery-elementor/w-hmp-single-post-image-opt/</link>
 					<pubDate>Thu, 25 Jul 2024 15:47:12 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/pottery-elementor/wp-content/uploads/sites/34/2024/07/w-hmp-single-post-image-opt.jpg</guid>
 															<wp:post_id>881</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-25 15:47:12]]></wp:post_date>

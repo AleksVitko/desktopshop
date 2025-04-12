@@ -99,8 +99,8 @@ return apply_filters(
 		),
 		'page_title'                         => array(
 			'title'    => 'Page title',
-			'selector' => 'html .page-title > .container > .title, html .page-title > .container > .wd-title-wrapp > .title',
-			'selector-hover' => 'html .page-title > .container > .title:hover, html .page-title > .container > .wd-title-wrapp > .title:hover',
+			'selector' => 'html .page-title > .container > .title, html .page-title .wd-title-wrapp > .title',
+			'selector-hover' => 'html .page-title > .container > .title:hover, html .page-title .wd-title-wrapp > .title:hover',
 		),
 		'page_title_bredcrumps'              => array(
 			'title'          => 'Breadcrumbs links',
@@ -142,13 +142,13 @@ return apply_filters(
 		),
 		'product_category_title'             => array(
 			'title'    => 'Category title',
-			'selector' => 'html .product.category-grid-item .wd-entities-title, html .product.category-grid-item.cat-design-replace-title .wd-entities-title, html .wd-masonry-first .category-grid-item:first-child .wd-entities-title, html .product.wd-cat .wd-entities-title',
-			'selector-hover' => 'html .product.category-grid-item .wd-entities-title:hover, html .product.category-grid-item.cat-design-replace-title .wd-entities-title:hover, html .wd-masonry-first .category-grid-item:first-child .wd-entities-title:hover, html .product.wd-cat .wd-entities-title a:hover',
+			'selector' => 'html .product.wd-cat .wd-entities-title, html .product.wd-cat.cat-design-replace-title .wd-entities-title, html .wd-masonry-first .wd-cat:first-child .wd-entities-title',
+			'selector-hover' => 'html .product.wd-cat:hover .wd-entities-title, html .product.wd-cat:hover .wd-entities-title a, .cat-design-side .wd-cat-inner > a:hover ~ .wd-cat-content .wd-entities-title a, html .wd-masonry-first .wd-cat:first-child:hover .wd-entities-title a',
 		),
 		'product_category_count'             => array(
 			'title'          => 'Category products count',
-			'selector'       => 'html .product.category-grid-item .more-products, html .product.category-grid-item.cat-design-replace-title .more-products, html .product.wd-cat .wd-cat-count',
-			'selector-hover' => 'html .product.category-grid-item .more-products a:hover',
+			'selector'       => 'html .product.wd-cat .wd-cat-count, html .product.wd-cat.cat-design-replace-title .wd-cat-count',
+			'selector-hover' => 'html .product.wd-cat:hover .wd-cat-count',
 		),
 		'single_product'                     => array(
 			'title' => 'Single product',
@@ -226,28 +226,28 @@ return apply_filters(
 		),
 		'blog_title'                         => array(
 			'title'          => 'Blog post title',
-			'selector'       => 'html .post.wd-post .post-title',
-			'selector-hover' => 'html .post.wd-post .post-title a:hover',
+			'selector'       => 'html .post.wd-post .wd-entities-title',
+			'selector-hover' => 'html .post.wd-post .wd-entities-title a:hover',
 		),
 		'blog_meta'                         => array(
 			'title'          => 'Blog post meta',
-			'selector'       => 'html .entry-meta-list li, html .hovered-social-icons:after',
-			'selector-hover' => 'html .entry-meta-list li a:hover, html .hovered-social-icons:hover:after',
+			'selector'       => 'html .wd-post .entry-meta-list li, html .hovered-social-icons:after, html .wd-post-meta > div, html .wd-post-meta > div > a, html .wd-post-entry-meta :is(.wd-meta-date,.wd-post-cat,.wd-post-cat a), html .blog-design-list :is(.wd-meta-author,.wd-post-share,.wd-meta-reply a), html .wd-meta-reply-text',
+			'selector-hover' => 'html .wd-post .entry-meta-list li a:hover, html .hovered-social-icons:hover:after, html .wd-post-meta > div > a:hover, html .wd-post-entry-meta .wd-post-cat a:hover, html .blog-design-list :is(.wd-meta-author a,.wd-post-share,.wd-meta-reply a):hover',
 		),
 		'blog_title_shortcode'               => array(
 			'title'          => 'Blog title on WPBakery element',
-			'selector'       => 'html .wd-blog-holder .post.wd-post .post-title',
-			'selector-hover' => 'html .wd-blog-holder .post.wd-post .post-title a:hover',
+			'selector'       => 'html .wd-blog-holder .post.wd-post .wd-entities-title',
+			'selector-hover' => 'html .wd-blog-holder .post.wd-post .wd-entities-title a:hover',
 		),
 		'blog_title_carousel'                => array(
 			'title'          => 'Blog title on carousel',
-			'selector'       => 'html .wd-carousel-item .post.wd-post .post-title',
-			'selector-hover' => 'html .wd-carousel-item .post.wd-post .post-title a:hover',
+			'selector'       => 'html .wd-carousel-item .post.wd-post .wd-entities-title',
+			'selector-hover' => 'html .wd-carousel-item .post.wd-post .wd-entities-title a:hover',
 		),
 		'blog_title_sinle_post'              => array(
 			'title'    => 'Blog title on single post',
-			'selector' => 'html .post-single-page .post-title',
-			'selector-hover' => 'html .post-single-page .post-title:hover',
+			'selector' => 'html .wd-single-post-header .title',
+			'selector-hover' => 'html .wd-single-post-header .title:hover',
 		),
 		'widgets'                               => array(
 			'title' => 'Widgets',

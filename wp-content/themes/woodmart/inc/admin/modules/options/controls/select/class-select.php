@@ -67,6 +67,19 @@ class Select extends Field {
 	}
 
 	/**
+	 * Get default option label.
+	 *
+	 * @return mixed|string
+	 */
+	private function get_default_label() {
+		if ( isset( $this->args['default_label'] ) ) {
+			return $this->args['default_label'];
+		}
+
+		return esc_html__( 'Select', 'woodmart' );
+	}
+
+	/**
 	 * Displays the field control HTML.
 	 *
 	 * @since 1.0.0
@@ -137,22 +150,24 @@ class Select extends Field {
 		?>
 		<select class="xts-select<?php echo esc_attr( $classes ); ?>" name="<?php echo esc_attr( $name ); ?>" <?php echo $attributes; // phpcs:ignore ?> aria-label="<?php echo esc_attr( $name ); ?>">
 			<?php if ( $this->has_empty_option() || ( $this->has_empty_option() && $this->is_multiple() && ! $this->is_autocomplete() && empty( $this->args['buttons'] ) ) ) : ?>
-				<option value=""><?php esc_html_e( 'Select', 'woodmart' ); ?></option>
+				<option value=""><?php echo esc_html( $this->get_default_label() ); ?></option>
 			<?php endif; ?>
 
-			<?php foreach ( $options as $option ) : ?>
-				<?php
-				$selected = false;
+			<?php if ( $options ) : ?>
+				<?php foreach ( $options as $option ) : ?>
+					<?php
+					$selected = false;
 
-				if ( is_array( $value ) && in_array( $option['value'], $value, false ) ) { // phpcs:ignore
-					$selected = true;
-				} elseif ( ! is_array( $value ) && strval( $value ) === strval( $option['value'] ) ) {
-					$selected = true;
-				}
+					if ( is_array( $value ) && in_array( $option['value'], $value, false ) ) { // phpcs:ignore
+						$selected = true;
+					} elseif ( ! is_array( $value ) && strval( $value ) === strval( $option['value'] ) ) {
+						$selected = true;
+					}
 
-				?>
-				<option value="<?php echo esc_attr( $option['value'] ); ?>" <?php selected( true, $selected ); ?>><?php echo esc_html( $option['name'] ); ?></option>
-			<?php endforeach ?>
+					?>
+					<option value="<?php echo esc_attr( $option['value'] ); ?>" <?php selected( true, $selected ); ?>><?php echo esc_html( $option['name'] ); ?></option>
+				<?php endforeach ?>
+			<?php endif; ?>
 		</select>
 
 		<?php if ( function_exists( 'woodmart_get_html_block_links' ) && ( ( isset( $this->args['callback'] ) && 'woodmart_get_theme_settings_html_blocks_array' === $this->args['callback'] ) || isset( $this->args['autocomplete']['value'] ) && 'cms_block' === $this->args['autocomplete']['value'] ) ) : ?>
@@ -190,12 +205,14 @@ class Select extends Field {
 		?>
 		<select class="xts-select<?php echo esc_attr( $classes ); ?>" name="<?php echo esc_attr( $this->get_input_name() ); ?>" aria-label="<?php echo esc_attr( $this->get_input_name() ); ?>">
 			<?php if ( isset( $this->args['empty_option'] ) && $this->args['empty_option'] ) : ?>
-				<option value=""><?php esc_html_e( 'Select', 'woodmart' ); ?></option>
+				<option value=""><?php echo esc_html( $this->get_default_label() ); ?></option>
 			<?php endif; ?>
 
-			<?php foreach ( $options as $key => $option ) : ?>
-				<option value="<?php echo esc_attr( $key ); ?>" <?php selected( $this->get_field_value(), $key ); ?>><?php echo esc_html( $option['name'] ); ?></option>
-			<?php endforeach ?>
+			<?php if ( $options ) : ?>
+				<?php foreach ( $options as $key => $option ) : ?>
+					<option value="<?php echo esc_attr( $key ); ?>" <?php selected( $this->get_field_value(), $key ); ?>><?php echo esc_html( $option['name'] ); ?></option>
+				<?php endforeach ?>
+			<?php endif; ?>
 		</select>
 		<?php
 	}

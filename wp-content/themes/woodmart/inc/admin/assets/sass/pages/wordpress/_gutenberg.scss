@@ -93,6 +93,18 @@
 		}
 	}
 
+	:where(.editor-styles-wrapper) {
+
+		:where(div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, cite, code, img, strong, ol, ul, li,
+		fieldset, form, table, caption, tbody, tfoot,
+		thead, tr, th, td, article, aside, canvas, details, embed,
+		figure, figcaption, footer, header, nav, section,
+		time, mark, audio, video) {
+			border: 0;
+		}
+	}
+
 	.editor-styles-wrapper {
 		color: var(--wd-text-color);
 		font-weight: var(--wd-text-font-weight);
@@ -526,24 +538,27 @@
 	// HIDE FRONTEND CONTENT PLACEHOLDER
 	// ------------------------------------------
 
-	.woocommerce-Tabs-panel[id="tab-description"],
-	.wd-sizeguide-content {
+	.editor-styles-wrapper {
 
-		&:before {
-			// content: attr(data-accordion-index);
-			content: "Description";
-			display: block;
-			padding: 10px;
-			height: 45px;
-			width: 100%;
-			background-color: #F3F3F3;
-			text-align: center;
-			text-transform: capitalize;
-			color: #878787;
-		}
-
-		> * {
-			display: none;
+		.woocommerce-Tabs-panel[id="tab-description"],
+		.wd-sizeguide-content {
+	
+			&:before {
+				// content: attr(data-accordion-index);
+				content: "Description";
+				display: block;
+				padding: 10px;
+				height: 45px;
+				width: 100%;
+				background-color: #F3F3F3;
+				text-align: center;
+				text-transform: capitalize;
+				color: #878787;
+			}
+	
+			> * {
+				display: none;
+			}
 		}
 	}
 
@@ -635,21 +650,21 @@
 	// SCROLL
 	// ------------------------------------------
 
-	html {
-		--wd-scroll-w: .001px;
+	// html {
+	// 	--wd-scroll-w: .001px;
 
-		&.wd-scrollbar {
+	// 	&.wd-scrollbar {
 
-			&.platform-Windows {
-				--wd-scroll-w: 17px;
-			}
+	// 		&.platform-Windows {
+	// 			--wd-scroll-w: 17px;
+	// 		}
 		
-			&.platform-Windows.browser-Opera,
-			&.platform-Mac {
-				--wd-scroll-w: 15px;
-			}
-		}
-	}
+	// 		&.platform-Windows.browser-Opera,
+	// 		&.platform-Mac {
+	// 			--wd-scroll-w: 15px;
+	// 		}
+	// 	}
+	// }
 
 	// @media (min-width: 1024px) {
 
@@ -701,12 +716,31 @@
 
 	body .wp-block-widget-area {
 
+		.block-editor-block-list__layout {
+			
+			> *:not(:first-child) {
+				margin-top: 16px;
+			}
+		}
+
 		.wp-block-widget-area__panel-body-content {
 
 			div.editor-styles-wrapper {
 				background-color: transparent !important;
 			}
 		}
+	}
+
+	.edit-widgets-main-block-list {
+
+		> * {
+			margin-block: 20px;
+		}
+	}
+
+	.wp-block-legacy-widget {
+		--btn-height: 30px;
+		--btn-padding: 0px 10px;
 	}
 
 	//**** BLOCK EDITOR TOPBAR ****//
@@ -890,6 +924,10 @@
 					}
 				}
 			}
+
+			.wd-checkout-login .woocommerce-form-login.hidden-form {
+				display: block !important;
+			}
 		}
 	}
 
@@ -941,6 +979,13 @@
 	// ------------------------------------------
 	// BLOCK RESPONSIVE VISIBILITY
 	// ------------------------------------------
+
+	[class*="wp-block-wd-"] {
+
+		&.wd-block-hide {
+			@include hidden-wd-block;
+		}
+	}
 
 	@media (min-width: 1025px) {
 

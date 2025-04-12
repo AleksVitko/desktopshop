@@ -9,12 +9,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'Promotional_Email' ) ) :
+if ( ! class_exists( 'XTS_Email_Wishlist_Promotional' ) ) :
 
 	/**
 	 * Send promotional.
 	 */
-	class Promotional_Email extends WC_Email {
+	class XTS_Email_Wishlist_Promotional extends WC_Email {
 
 		/**
 		 * Receiver user
@@ -70,7 +70,7 @@ if ( ! class_exists( 'Promotional_Email' ) ) :
 		 */
 		public function __construct() {
 			$this->id          = 'woodmart_promotional_email';
-			$this->title       = esc_html__( 'Wishlist "Promotional" email', 'woodmart' );
+			$this->title       = esc_html__( 'Wishlist: promotional', 'woodmart' );
 			$this->description = esc_html__( 'This email is sent to the customer that has a product on his wishlist. You can send these emails via Dashboard -> Products -> Wishlists -> Popular products -> Create promotion.', 'woodmart' );
 
 			$this->heading = esc_html__( 'There is a deal for you!', 'woodmart' );
@@ -586,4 +586,4 @@ if ( ! class_exists( 'Promotional_Email' ) ) :
 
 endif;
 
-return new Promotional_Email();
+return new XTS_Email_Wishlist_Promotional();

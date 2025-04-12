@@ -44,13 +44,13 @@ if ( in_array( 'rating', $options, true ) ) {
 }
 
 $el_class = $this->getExtraClass( $el_class );
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }
 $output = '<div ' . implode( ' ', $wrapper_attributes ) . ' class="vc_wp_links wpb_content_element' . esc_attr( $el_class ) . '">';
 $type = 'WP_Widget_Links';
-$args = array();
+$args = [];
 global $wp_widget_factory;
 // to avoid unwanted warnings let's check before using widget.
 if ( is_object( $wp_widget_factory ) && isset( $wp_widget_factory->widgets, $wp_widget_factory->widgets[ $type ] ) ) {

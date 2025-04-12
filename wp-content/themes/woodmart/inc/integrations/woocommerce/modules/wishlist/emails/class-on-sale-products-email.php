@@ -9,12 +9,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'On_Sale_Products_Email' ) ) :
+if ( ! class_exists( 'XTS_Email_Wishlist_On_Sale_Products' ) ) :
 
 	/**
 	 * Send back in stock status product.
 	 */
-	class On_Sale_Products_Email extends WC_Email {
+	class XTS_Email_Wishlist_On_Sale_Products extends WC_Email {
 
 		/**
 		 * Receiver user
@@ -42,7 +42,7 @@ if ( ! class_exists( 'On_Sale_Products_Email' ) ) :
 		 */
 		public function __construct() {
 			$this->id          = 'woodmart_on_sale_products_email';
-			$this->title       = esc_html__( 'Wishlist "On sale item" email', 'woodmart' );
+			$this->title       = esc_html__( 'Wishlist: on sale item', 'woodmart' );
 			$this->description = esc_html__( 'This email is sent to customers when an item of their wishlist is on sale', 'woodmart' );
 
 			$this->heading = esc_html__( 'An item of your wishlist is on sale!', 'woodmart' );
@@ -279,4 +279,4 @@ if ( ! class_exists( 'On_Sale_Products_Email' ) ) :
 
 endif;
 
-return new On_Sale_Products_Email();
+return new XTS_Email_Wishlist_On_Sale_Products();

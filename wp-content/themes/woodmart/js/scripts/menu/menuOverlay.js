@@ -16,7 +16,7 @@
 			var $this = $(this);
 			var $overlay = $('.wd-close-side');
 
-			if ($overlay.hasClass('wd-close-side-opened') || $('html').hasClass('platform-iOS')) {
+			if ($overlay.hasClass('wd-close-side-opened') || woodmartThemeModule.$window.width() < 768) {
 				return;
 			}
 
@@ -64,7 +64,9 @@
 		});
 	};
 
-	$(document).ready(function() {
-		woodmartThemeModule.menuOverlay();
+	['wdEventStarted', 'wdUpdatedHeader'].forEach((eventName) => {
+		window.addEventListener(eventName, function () {
+			woodmartThemeModule.menuOverlay();
+		});
 	});
 })(jQuery);

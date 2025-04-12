@@ -10,7 +10,7 @@ global $product; ?>
 	<div class="product-pseudo-wrap"></div>
 	<div class="product-small-inner">
 		<a href="<?php echo esc_url( get_permalink( $product->get_id() ) ); ?>" title="<?php echo esc_attr( $product->get_title() ); ?>">
-			<?php echo wp_kses( $product->get_image(), array( 'img' => array( 'class' => true, 'width' => true, 'height' => true, 'src' => true,'alt' => true, 'data-wood-src' => true, 'data-srcset' => true, 'srcset' => true ) ) ); ?>
+			<?php echo wp_kses( $product->get_image(), array( 'img' => array( 'class' => true, 'width' => true, 'height' => true, 'src' => true,'alt' => true, 'data-src' => true, 'data-srcset' => true, 'srcset' => true ) ) ); ?>
 		</a>
 		<div class="small-product-info">
 			<span class="wd-entities-title"><?php echo esc_html( $product->get_title() ); ?></span>

@@ -21,7 +21,7 @@ Options::add_field(
 	array(
 		'id'       => 'footer_content_type',
 		'name'     => esc_html__( 'Footer content', 'woodmart' ),
-		'group'       => esc_html__( 'Content', 'woodmart' ),
+		'group'    => esc_html__( 'Content', 'woodmart' ),
 		'type'     => 'buttons',
 		'section'  => 'footer_section',
 		'options'  => array(

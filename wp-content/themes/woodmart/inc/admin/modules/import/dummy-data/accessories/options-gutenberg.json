@@ -166,7 +166,6 @@
         }
     },
     "single_product_thumbnails_gallery_width": "eyJkZXZpY2VzIjp7ImRlc2t0b3AiOnsidW5pdCI6InB4IiwidmFsdWUiOiIxNDgifSwidGFibGV0Ijp7InVuaXQiOiJweCIsInZhbHVlIjoiIn0sIm1vYmlsZSI6eyJ1bml0IjoicHgiLCJ2YWx1ZSI6IiJ9fX0=",
-    "variation_gallery_storage_method": "new",
     "variation_gallery": "1",
     "ajax_variation_threshold": "30",
     "products_hover": "quick",
@@ -180,7 +179,7 @@
     "grid_swatches_attribute": "pa_color",
     "swatches_use_variation_images": "1",
     "quick_shop_variable": "1",
-    "brands_attribute": "pa_brand",
+    "brands_attribute": "",
     "shop_view": "grid",
     "products_columns": "3",
     "products_spacing": "20",

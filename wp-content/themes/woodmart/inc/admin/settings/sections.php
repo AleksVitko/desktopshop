@@ -523,6 +523,17 @@ Options::add_section(
 	)
 );
 
+Options::add_section(
+	array(
+		'id'       => 'abandoned_cart_section',
+		'parent'   => 'general_shop_section',
+		'name'     => esc_html__( 'Abandoned cart', 'woodmart' ),
+		'priority' => 160,
+		'icon'     => 'xts-i-cart',
+		'class'    => 'xts-preset-section-disabled',
+	)
+);
+
 /**
  * Product archive.
  */

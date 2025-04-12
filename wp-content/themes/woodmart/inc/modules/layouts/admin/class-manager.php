@@ -223,6 +223,7 @@ class Manager extends Singleton {
 			case 'product_tag':
 			case 'product_term':
 			case 'product_attr_term':
+			case 'product_brand':
 			case 'filtered_product_by_term':
 				$taxonomy = array();
 
@@ -231,6 +232,9 @@ class Manager extends Singleton {
 				}
 				if ( 'product_tag' === $query_type || 'product_term' === $query_type ) {
 					$taxonomy[] = 'product_tag';
+				}
+				if ( ( 'product_brand' === $query_type || 'product_term' === $query_type ) && taxonomy_exists( 'product_brand' ) ) {
+					$taxonomy[] = 'product_brand';
 				}
 				if ( 'product_attr_term' === $query_type || 'product_term' === $query_type || 'filtered_product_by_term' === $query_type ) {
 					$attribute_taxonomies = wc_get_attribute_taxonomies();

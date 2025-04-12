@@ -137,6 +137,14 @@ class Frontend extends Singleton {
 			$id = $custom;
 		}
 
+		if ( current_user_can( 'administrator' ) && woodmart_is_header_frontend_editor() ) {
+			if ( isset( $_GET['whb-header-frontend'] ) ) {
+				$id = esc_attr( $_GET['whb-header-frontend'] );
+			} elseif ( isset( $_POST['id'] ) ) {
+				$id = esc_attr( $_POST['id'] );
+			}
+		}
+
 		return apply_filters( 'woodmart_get_current_header_id', $id );
 	}
 
@@ -158,7 +166,7 @@ class Frontend extends Singleton {
 	 *
 	 * @return void
 	 */
-	private function render_element( $el ) {
+	public function render_element( $el ) {
 		$children = '';
 		$type     = ucfirst( $el['type'] );
 
@@ -171,23 +179,44 @@ class Frontend extends Singleton {
 				return;
 			}
 
-			if ( 'Row' === $type && ! empty( $el['params']['row_columns'] ) && '1' === $el['params']['row_columns']['value'] ) {
-				$desktop_col = 1;
-				$mobile_col  = 1;
+			if ( 'Row' === $type ) {
+				if ( ! empty( $el['params']['row_columns'] ) && '1' === $el['params']['row_columns']['value'] ) {
+					$desktop_col = 1;
+					$mobile_col  = 1;
 
-				foreach ( $el['content'] as $key => $column ) {
-					if ( ! empty( $column['desktop_only'] ) ) {
-						if ( $desktop_col > 1 ) {
-							unset( $el['content'][ $key ] );
+					foreach ( $el['content'] as $key => $column ) {
+						if ( ! empty( $column['desktop_only'] ) ) {
+							if ( $desktop_col > 1 ) {
+								unset( $el['content'][ $key ] );
+							}
+
+							$desktop_col++;
+						} elseif ( ! empty( $column['mobile_only'] ) ) {
+							if ( $mobile_col > 1 ) {
+								unset( $el['content'][ $key ] );
+							}
+
+							$mobile_col++;
 						}
+					}
+				}
 
-						$desktop_col++;
-					} elseif ( ! empty( $column['mobile_only'] ) ) {
-						if ( $mobile_col > 1 ) {
-							unset( $el['content'][ $key ] );
+				if ( woodmart_is_header_frontend_editor() ) {
+					$empty_row = true;
+
+					$el['params']['extra_classes'] = array(
+						'id'    => 'extra_classes',
+						'value' => '',
+					);
+
+					foreach ( $el['content'] as $column ) {
+						if ( ! $this->is_empty_column( $column ) ) {
+							$empty_row = false;
 						}
+					}
 
-						$mobile_col++;
+					if ( $empty_row ) {
+						$el['params']['extra_classes']['value'] = ' whb-hidden-editor';
 					}
 				}
 			}
@@ -201,7 +230,7 @@ class Frontend extends Singleton {
 			$children = ob_get_clean();
 		}
 
-		if ( $type == 'Row' && $this->is_empty_row( $el ) || $type == 'Column' && $this->is_empty_column( $el ) ) {
+		if ( ! woodmart_is_header_frontend_editor() && ( $type == 'Row' && $this->is_empty_row( $el ) || $type == 'Column' && $this->is_empty_column( $el ) ) ) {
 			$children = false;
 		}
 

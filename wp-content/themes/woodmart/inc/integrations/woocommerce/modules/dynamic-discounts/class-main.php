@@ -102,7 +102,7 @@ class Main extends Singleton {
 	public function calculate_discounts( $cart ) {
 		// @codeCoverageIgnoreStart
 		// Woocommerce wpml compatibility. Make sure that the discount is calculated only once.
-		if ( class_exists( 'woocommerce_wpml' ) && doing_action( 'woocommerce_cart_loaded_from_session' ) ) {
+		if ( class_exists( 'woocommerce_wpml' ) && ! defined( 'PAYPAL_API_URL' ) && doing_action( 'woocommerce_cart_loaded_from_session' ) ) {
 			return;
 		}
 		// @codeCoverageIgnoreEnd

@@ -83,11 +83,11 @@ switch ( $source ) {
 			$img_size = 'medium';
 		}
 
-		$img = wpb_getImageBySize( array(
+		$img = wpb_getImageBySize( [
 			'attach_id' => $img_id,
 			'thumb_size' => strtolower( $img_size ),
 			'class' => 'vc_single_image-img',
-		) );
+		] );
 
 		// don't show placeholder in public version if post doesn't have featured image.
 		if ( 'featured_image' === $source ) {
@@ -104,9 +104,9 @@ switch ( $source ) {
 
 		$custom_src = $custom_src ? $custom_src : $default_src;
 
-		$img = array(
+		$img = [
 			'thumbnail' => '<img class="vc_single_image-img" ' . $hwstring . ' src="' . esc_url( $custom_src ) . '" />',
-		);
+		];
 		break;
 
 	default:
@@ -135,14 +135,14 @@ if ( ! empty( $atts['img_link'] ) ) {
 }
 
 // backward compatibility.
-if ( in_array( $link, array(
+if ( in_array( $link, [
 	'none',
 	'link_no',
-), true ) ) {
+], true ) ) {
 	$link = '';
 }
 
-$a_attrs = array();
+$a_attrs = [];
 
 switch ( $onclick ) {
 	case 'img_link_large':
@@ -217,10 +217,9 @@ $class_to_filter = 'wpb_single_image wpb_content_element vc_align_' . $alignment
 $class_to_filter .= vc_shortcode_custom_css_class( $css, ' ' ) . $this->getExtraClass( $el_class );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $class_to_filter, $this->settings['base'], $atts );
 
-if ( in_array( $source, array( 'media_library', 'featured_image' ), true ) && 'yes' === $add_caption ) {
+if ( in_array( $source, [ 'media_library', 'featured_image' ], true ) && 'yes' === $add_caption ) {
 	$img_id = apply_filters( 'wpml_object_id', $img_id, 'attachment', true );
-	$post = get_post( $img_id );
-	$caption = $post->post_excerpt;
+	$caption = wp_get_attachment_caption( $img_id );
 } else {
 	if ( 'external_link' === $source ) {
 		$add_caption = 'yes';
@@ -230,16 +229,16 @@ if ( in_array( $source, array( 'media_library', 'featured_image' ), true ) && 'y
 if ( 'yes' === $add_caption && '' !== $caption ) {
 	$html .= '<figcaption class="vc_figure-caption">' . $caption . '</figcaption>';
 }
-$wrapper_attributes = array();
+$wrapper_attributes = [];
 if ( ! empty( $el_id ) ) {
 	$wrapper_attributes[] = 'id="' . esc_attr( $el_id ) . '"';
 }
 $output = '
 	<div ' . implode( ' ', $wrapper_attributes ) . ' class="' . esc_attr( trim( $css_class ) ) . '">
-		' . wpb_widget_title( array(
+		' . wpb_widget_title( [
 	'title' => $title,
 	'extraclass' => 'wpb_singleimage_heading',
-) ) . '
+] ) . '
 		<figure class="wpb_wrapper vc_figure">
 			' . $html . '
 		</figure>

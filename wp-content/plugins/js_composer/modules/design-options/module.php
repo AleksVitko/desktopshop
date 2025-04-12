@@ -61,7 +61,7 @@ class Vc_Design_Options_Module {
 			$front_css_file = $upload_dir['baseurl'] . '/' . $vc_upload_dir . '/js_composer_front_custom.css';
 			$front_css_file = vc_str_remove_protocol( $front_css_file );
 			wp_deregister_style( 'js_composer_front' );
-			wp_register_style( 'js_composer_front', $front_css_file, array(), WPB_VC_VERSION );
+			wp_register_style( 'js_composer_front', $front_css_file, [], WPB_VC_VERSION );
 		}
 	}
 }

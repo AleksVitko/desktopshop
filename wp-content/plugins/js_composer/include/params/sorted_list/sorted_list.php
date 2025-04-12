@@ -50,16 +50,16 @@ function vc_sorted_list_parts_list( $init_list ) {
  * @since 4.2
  */
 function vc_sorted_list_parse_value( $value ) {
-	$data = array();
+	$data = [];
 	$split = preg_split( '/\,/', $value );
 	foreach ( $split as $v ) {
 		$v_split = array_map( 'rawurldecode', preg_split( '/\|/', $v ) );
 		$count = count( $v_split );
 		if ( $count > 0 ) {
-			$data[] = array(
+			$data[] = [
 				$v_split[0],
-				$count > 1 ? array_slice( $v_split, 1 ) : array(),
-			);
+				$count > 1 ? array_slice( $v_split, 1 ) : [],
+			];
 		}
 	}
 

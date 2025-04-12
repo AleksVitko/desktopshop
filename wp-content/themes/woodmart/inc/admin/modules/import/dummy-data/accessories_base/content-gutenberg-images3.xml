@@ -16,7 +16,7 @@
 	<!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 	<!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-11-18 13:35" -->
+	<!-- generator="WordPress/6.7.1" created="2025-02-04 12:15" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,15 +29,13 @@
 	<title>Accessories gutenberg</title>
 	<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg</link>
 	<description></description>
-	<pubDate>Mon, 18 Nov 2024 13:35:27 +0000</pubDate>
+	<pubDate>Tue, 04 Feb 2025 12:15:30 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://dummy.xtemos.com/woodmart2/</wp:base_site_url>
 	<wp:base_blog_url>https://dummy.xtemos.com/woodmart2/accessories-gutenberg</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[zakhar]]></wp:author_login><wp:author_email><![CDATA[zak@asda.as]]></wp:author_email><wp:author_display_name><![CDATA[Mr. Mackay]]></wp:author_display_name><wp:author_first_name><![CDATA[sds]]></wp:author_first_name><wp:author_last_name><![CDATA[scssc]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>491</wp:author_id><wp:author_login><![CDATA[maksimkliakhin]]></wp:author_login><wp:author_email><![CDATA[m.kliakhin@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[Ethan Smith]]></wp:author_display_name><wp:author_first_name><![CDATA[Ethan]]></wp:author_first_name><wp:author_last_name><![CDATA[Smith]]></wp:author_last_name></wp:author>
-
+	
 					<wp:term>
 			<wp:term_id>0</wp:term_id>
 			<wp:term_taxonomy><![CDATA[]]></wp:term_taxonomy>
@@ -45,13 +43,13 @@
 			<wp:term_parent><![CDATA[]]></wp:term_parent>
 					</wp:term>
 		
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 					<item>
 					<title><![CDATA[w-accessories-product-iphone-xr-10-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=111</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-xr-10-1.jpg</guid>
 															<wp:post_id>111</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:52]]></wp:post_date>
@@ -78,7 +76,7 @@
 					<title><![CDATA[w-accessories-product-iphone-xr-10-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=113</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-xr-10-3.jpg</guid>
 															<wp:post_id>113</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:52]]></wp:post_date>
@@ -105,7 +103,7 @@
 					<title><![CDATA[blue-case-back.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=114</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/blue-case-back.jpg</guid>
 															<wp:post_id>114</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:52]]></wp:post_date>
@@ -132,7 +130,7 @@
 					<title><![CDATA[blue-case-side.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=115</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:52 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/blue-case-side.jpg</guid>
 															<wp:post_id>115</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:52]]></wp:post_date>
@@ -159,7 +157,7 @@
 					<title><![CDATA[blue-case-front.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=116</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/blue-case-front.jpg</guid>
 															<wp:post_id>116</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -186,7 +184,7 @@
 					<title><![CDATA[dark-case-back.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=117</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/dark-case-back.jpg</guid>
 															<wp:post_id>117</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -213,7 +211,7 @@
 					<title><![CDATA[dark-case-side.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=118</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/dark-case-side.jpg</guid>
 															<wp:post_id>118</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -240,7 +238,7 @@
 					<title><![CDATA[dark-case-front.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=119</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/dark-case-front.jpg</guid>
 															<wp:post_id>119</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -267,7 +265,7 @@
 					<title><![CDATA[green-case-back.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=120</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/green-case-back.jpg</guid>
 															<wp:post_id>120</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -294,7 +292,7 @@
 					<title><![CDATA[green-case-side.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=121</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/green-case-side.jpg</guid>
 															<wp:post_id>121</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -321,7 +319,7 @@
 					<title><![CDATA[green-case-front.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=122</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:53 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/green-case-front.jpg</guid>
 															<wp:post_id>122</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:53]]></wp:post_date>
@@ -348,7 +346,7 @@
 					<title><![CDATA[yellow-case-back.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=123</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/yellow-case-back.jpg</guid>
 															<wp:post_id>123</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:54]]></wp:post_date>
@@ -375,7 +373,7 @@
 					<title><![CDATA[yellow-case-side.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=124</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/yellow-case-side.jpg</guid>
 															<wp:post_id>124</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:54]]></wp:post_date>
@@ -402,7 +400,7 @@
 					<title><![CDATA[yellow-case-front.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=125</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/yellow-case-front.jpg</guid>
 															<wp:post_id>125</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:54]]></wp:post_date>
@@ -429,7 +427,7 @@
 					<title><![CDATA[w-accessories-product-iphone-12-violet-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=126</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-12-violet-1.jpg</guid>
 															<wp:post_id>126</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:54]]></wp:post_date>
@@ -456,7 +454,7 @@
 					<title><![CDATA[w-accessories-product-iphone-12-violet-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=127</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:54 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-12-violet-3.jpg</guid>
 															<wp:post_id>127</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:54]]></wp:post_date>
@@ -483,7 +481,7 @@
 					<title><![CDATA[w-accessories-product-iphone-12-violet-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=128</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-12-violet-2.jpg</guid>
 															<wp:post_id>128</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:55]]></wp:post_date>
@@ -510,7 +508,7 @@
 					<title><![CDATA[w-accessories-product-iphone-11-pro-7.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=129</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-11-pro-7.jpg</guid>
 															<wp:post_id>129</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:55]]></wp:post_date>
@@ -537,7 +535,7 @@
 					<title><![CDATA[w-accessories-product-iphone-11-pro-7-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=130</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-11-pro-7-1.jpg</guid>
 															<wp:post_id>130</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:55]]></wp:post_date>
@@ -564,7 +562,7 @@
 					<title><![CDATA[w-accessories-product-iphone-11-pro-7-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=131</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-iphone-11-pro-7-2.jpg</guid>
 															<wp:post_id>131</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:55]]></wp:post_date>
@@ -591,7 +589,7 @@
 					<title><![CDATA[w-accessories-product-12-pro-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=132</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:55 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-12-pro-4.jpg</guid>
 															<wp:post_id>132</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:55]]></wp:post_date>
@@ -618,7 +616,7 @@
 					<title><![CDATA[w-accessories-product-12-pro-4-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=133</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-12-pro-4-2.jpg</guid>
 															<wp:post_id>133</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:56]]></wp:post_date>
@@ -645,7 +643,7 @@
 					<title><![CDATA[w-accessories-product-12-pro-4-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=134</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-12-pro-4-1.jpg</guid>
 															<wp:post_id>134</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:56]]></wp:post_date>
@@ -672,7 +670,7 @@
 					<title><![CDATA[w-accessories-product-14-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=135</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-14-2.jpg</guid>
 															<wp:post_id>135</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:56]]></wp:post_date>
@@ -699,7 +697,7 @@
 					<title><![CDATA[w-accessories-product-14-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=136</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-14-3.jpg</guid>
 															<wp:post_id>136</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:56]]></wp:post_date>
@@ -726,7 +724,7 @@
 					<title><![CDATA[w-accessories-product-14-4-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=137</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-14-4-1.jpg</guid>
 															<wp:post_id>137</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:56]]></wp:post_date>
@@ -753,7 +751,7 @@
 					<title><![CDATA[accessories-product-olive-strap-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=138</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:56 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-product-olive-strap-1.jpg</guid>
 															<wp:post_id>138</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:56]]></wp:post_date>
@@ -780,7 +778,7 @@
 					<title><![CDATA[accessories-product-olive-strap-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=139</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-product-olive-strap-3.jpg</guid>
 															<wp:post_id>139</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:57]]></wp:post_date>
@@ -807,7 +805,7 @@
 					<title><![CDATA[accessories-product-olive-strap-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=140</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-product-olive-strap-2.jpg</guid>
 															<wp:post_id>140</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:57]]></wp:post_date>
@@ -834,7 +832,7 @@
 					<title><![CDATA[accessories-product-blue-airpods-1-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=141</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-product-blue-airpods-1-1.jpg</guid>
 															<wp:post_id>141</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:57]]></wp:post_date>
@@ -861,7 +859,7 @@
 					<title><![CDATA[accessories-product-blue-airpods-2-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=142</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-product-blue-airpods-2-1.jpg</guid>
 															<wp:post_id>142</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:57]]></wp:post_date>
@@ -888,7 +886,7 @@
 					<title><![CDATA[accessories-product-blue-airpods-3-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=143</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/accessories-product-blue-airpods-3-1.jpg</guid>
 															<wp:post_id>143</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:57]]></wp:post_date>
@@ -915,7 +913,7 @@
 					<title><![CDATA[cables-lightning-12.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=144</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:57 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/cables-lightning-12.jpg</guid>
 															<wp:post_id>144</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:57]]></wp:post_date>
@@ -942,7 +940,7 @@
 					<title><![CDATA[cables-lightning-12-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=145</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/cables-lightning-12-1.jpg</guid>
 															<wp:post_id>145</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:58]]></wp:post_date>
@@ -969,7 +967,7 @@
 					<title><![CDATA[cables-lightning-12-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=146</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/cables-lightning-12-2.jpg</guid>
 															<wp:post_id>146</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:58]]></wp:post_date>
@@ -996,7 +994,7 @@
 					<title><![CDATA[charge-station-wireless-charge-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=147</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/charge-station-wireless-charge-3.jpg</guid>
 															<wp:post_id>147</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:58]]></wp:post_date>
@@ -1023,7 +1021,7 @@
 					<title><![CDATA[charge-station-wireless-charge-3-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=148</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/charge-station-wireless-charge-3-1.jpg</guid>
 															<wp:post_id>148</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:58]]></wp:post_date>
@@ -1050,7 +1048,7 @@
 					<title><![CDATA[charge-station-wireless-charge-3-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=149</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:58 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/charge-station-wireless-charge-3-2.jpg</guid>
 															<wp:post_id>149</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:58]]></wp:post_date>
@@ -1077,7 +1075,7 @@
 					<title><![CDATA[straps-leather-3.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=150</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-leather-3.jpg</guid>
 															<wp:post_id>150</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:59]]></wp:post_date>
@@ -1104,7 +1102,7 @@
 					<title><![CDATA[straps-metal-12.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=151</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-metal-12.jpg</guid>
 															<wp:post_id>151</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:59]]></wp:post_date>
@@ -1131,7 +1129,7 @@
 					<title><![CDATA[straps-metal-13.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=152</link>
 					<pubDate>Fri, 12 Jul 2024 11:15:59 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-metal-13.jpg</guid>
 															<wp:post_id>152</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:15:59]]></wp:post_date>
@@ -1158,7 +1156,7 @@
 					<title><![CDATA[straps-silicone-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=153</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-silicone-4.jpg</guid>
 															<wp:post_id>153</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:00]]></wp:post_date>
@@ -1185,7 +1183,7 @@
 					<title><![CDATA[w-accessories-product-17.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=154</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-17.jpg</guid>
 															<wp:post_id>154</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:00]]></wp:post_date>
@@ -1212,7 +1210,7 @@
 					<title><![CDATA[w-accessories-product-15.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=155</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:00 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/w-accessories-product-15.jpg</guid>
 															<wp:post_id>155</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:00]]></wp:post_date>
@@ -1239,7 +1237,7 @@
 					<title><![CDATA[straps-canvas-6.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=156</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-canvas-6.jpg</guid>
 															<wp:post_id>156</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:01]]></wp:post_date>
@@ -1266,7 +1264,7 @@
 					<title><![CDATA[straps-canvas-1.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=157</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-canvas-1.jpg</guid>
 															<wp:post_id>157</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:01]]></wp:post_date>
@@ -1293,7 +1291,7 @@
 					<title><![CDATA[straps-canvas-2.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=158</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:01 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-canvas-2.jpg</guid>
 															<wp:post_id>158</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:01]]></wp:post_date>
@@ -1320,7 +1318,7 @@
 					<title><![CDATA[straps-canvas-4.jpg]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/?attachment_id=159</link>
 					<pubDate>Fri, 12 Jul 2024 11:16:02 +0000</pubDate>
-					<dc:creator><![CDATA[zakhar]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/07/straps-canvas-4.jpg</guid>
 															<wp:post_id>159</wp:post_id>
 					<wp:post_date><![CDATA[2024-07-12 11:16:02]]></wp:post_date>
@@ -1347,7 +1345,7 @@
 					<title><![CDATA[protective-cases-category-1]]></title>
 					<link>https://dummy.xtemos.com/woodmart2/accessories-gutenberg/protective-cases-category-1-2/</link>
 					<pubDate>Wed, 07 Aug 2024 09:47:09 +0000</pubDate>
-					<dc:creator><![CDATA[maksimkliakhin]]></dc:creator>
+					<dc:creator><![CDATA[Mr. Mackay]]></dc:creator>
 					<guid isPermaLink="false">http://dummy.xtemos.com/woodmart2/accessories-gutenberg/wp-content/uploads/sites/26/2024/08/protective-cases-category-1.jpg</guid>
 															<wp:post_id>930</wp:post_id>
 					<wp:post_date><![CDATA[2024-08-07 09:47:09]]></wp:post_date>

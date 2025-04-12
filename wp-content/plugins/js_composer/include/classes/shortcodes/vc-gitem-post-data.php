@@ -45,7 +45,7 @@ class WPBakeryShortCode_Vc_Gitem_Post_Data extends WPBakeryShortCode_Vc_Custom_h
 		}
 		$atts = parent::getAttributes( $atts );
 		if ( ! isset( $this->atts['use_custom_fonts'] ) || 'yes' !== $this->atts['use_custom_fonts'] ) {
-			$atts['google_fonts_data'] = array();
+			$atts['google_fonts_data'] = [];
 		}
 
 		return $atts;

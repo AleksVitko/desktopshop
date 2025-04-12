@@ -1,0 +1,54 @@
+// ------------------------------------------------------------------------------------------------
+// ABANDONED CART
+// ------------------------------------------------------------------------------------------------
+
+@if $page-abandoned-cart {
+
+	.post-type-wd_abandoned_cart {
+
+		#poststuff {
+
+			h2 {
+				padding: 8px 20px;
+			}
+		}
+
+		#slugdiv {
+			
+			.inside {
+				padding: 12px 20px;
+				margin: 0;
+			}
+		}
+
+		:is(
+		.xts-info-cart,
+		.xts-cart-total) {
+
+			:is(th,td) {
+				text-align: start;
+			}
+		}
+
+		#woodmart-cart {
+
+			.inside {
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+		.wp-list-table {
+			border-width: 0 0 1px 0;
+		}
+
+		.tablenav {
+			display: none;
+		}
+
+		.xts-cart-total {
+			padding: 10px;
+		}
+	}
+
+} // END IF

@@ -28,13 +28,13 @@ class WPBakeryShortCode_Vc_Tab extends WPBakeryShortCode_Vc_Column {
 	 *
 	 * @var array
 	 */
-	protected $controls_list = array(
+	protected $controls_list = [
 		'add',
 		'edit',
 		'clone',
 		'copy',
 		'delete',
-	);
+	];
 
 	/**
 	 * Controls template file.
